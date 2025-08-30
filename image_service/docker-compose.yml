@@ -1,0 +1,45 @@
+# مسیر: image_service/docker-compose.yml
+version: '3.8'
+
+services:
+  # --- نام این سرویس "image_db" است ---
+  image_db:
+    image: postgres:13
+    container_name: image_db_container # نام کانتینر می‌تواند متفاوت باشد
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    volumes:
+      - image_postgres_data:/var/lib/postgresql/data
+    networks:
+      - shotdeck_platform_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER} -d ${DB_NAME}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  image_service:
+    build: .
+    container_name: image_service
+    env_file:
+      - .env
+    volumes:
+      - .:/service
+    ports:
+      - "8501:8000"
+    depends_on:
+      image_db: # <-- وابستگی به نام سرویس صحیح است
+        condition: service_healthy
+    networks:
+      - shotdeck_platform_network
+
+volumes:
+  image_postgres_data:
+
+networks:
+  shotdeck_platform_network:
+    external: true

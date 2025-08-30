@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.18
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - ingest.geoip.downloader.enabled=false
+    ports:
+      - "9201:9200"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    networks:
+      - shotdeck_platform_network
+    # --- اصلاح کلیدی اینجاست ---
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s http://localhost:9200/_cat/health | grep -q 'green\\|yellow'"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  search_service:
+    build: .
+    container_name: search_service
+    env_file:
+      - .env
+    volumes:
+      - .:/service
+    ports:
+      - "8503:8000"
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    networks:
+      - shotdeck_platform_network
+
+volumes:
+  es_data:
+
+networks:
+  shotdeck_platform_network:
+    external: true

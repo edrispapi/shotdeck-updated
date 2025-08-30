@@ -1,0 +1,24 @@
+/*
+ * این فایل برای اضافه کردن استایل‌های سفارشی به پنل ادمین جنگو استفاده می‌شود.
+ */
+
+/* تغییر رنگ هدر اصلی پنل ادمین */
+#header {
+    background: #283747; /* یک رنگ آبی تیره و حرفه‌ای */
+    color: #f0f0f0;
+}
+
+/* تغییر رنگ لینک‌های داخل هدر */
+#header a:link, #header a:visited {
+    color: #f0f0f0;
+}
+
+/* تغییر رنگ دکمه‌ها */
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: #5499C7;
+    color: #fff;
+}
+
+.button:hover, input[type=submit]:hover, input[type=button]:hover, .submit-row input:hover, a.button:hover {
+    background: #2E86C1;
+}
