@@ -3,4 +3,7 @@ djangorestframework
 psycopg2-binary
 python-decouple
 drf-spectacular
-kafka-python 
+drf-spectacular-sidecar
+kafka-python
+requests>=2.25.0
+whitenoise>=6.0.0 

@@ -1,23 +1,17 @@
-# مسیر: image_service/docker-compose.yml
-version: '3.8'
-
 services:
-  # --- نام این سرویس "image_db" است ---
   image_db:
     image: postgres:13
-    container_name: image_db_container # نام کانتینر می‌تواند متفاوت باشد
-    env_file:
-      - .env
+    container_name: image_db
     environment:
-      - POSTGRES_DB=${DB_NAME}
-      - POSTGRES_USER=${DB_USER}
-      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=image_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=image_password
     volumes:
       - image_postgres_data:/var/lib/postgresql/data
     networks:
       - shotdeck_platform_network
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${DB_USER} -d ${DB_NAME}"]
+      test: ["CMD-SHELL", "pg_isready -U postgres -d image_db"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -25,17 +19,48 @@ services:
   image_service:
     build: .
     container_name: image_service
-    env_file:
-      - .env
+    environment:
+      - DATABASE_URL=postgresql://postgres:image_password@image_db:5432/image_db
+      - DB_NAME=image_db
+      - DB_USER=postgres
+      - DB_PASSWORD=image_password
+      - DB_HOST=image_db
+      - DB_PORT=5432
+      - SECRET_KEY=django-insecure-dev-key-change-in-production
+      - DEBUG=True
+      - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0
+      # S3 Configuration
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID:-}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY:-}
+      - AWS_STORAGE_BUCKET_NAME=shotdeck-image-service
+      - AWS_S3_REGION_NAME=us-east-1
+      # Service-specific S3 buckets
+      - IMAGE_SERVICE_BUCKET=shotdeck-image-service
+      - SEARCH_SERVICE_BUCKET=shotdeck-search-service
+      - DECK_SERVICE_BUCKET=shotdeck-deck-service
     volumes:
       - .:/service
+      - /home/a/Desktop/shotdeck/shot_json_data:/host_data:ro
+      - /home/a/Desktop/shotdeck/shot_images:/service/media/images:ro
+      - ./sample_data.json:/service/sample_data.json:ro # اضافه: mount فایل JSON برای import (اگر فایل وجود داره)
     ports:
-      - "8501:8000"
+      - "12001:8000"
     depends_on:
-      image_db: # <-- وابستگی به نام سرویس صحیح است
+      image_db:
         condition: service_healthy
     networks:
       - shotdeck_platform_network
+    # command: python manage.py runserver 0.0.0.0:8000  # کامنت: ENTRYPOINT در Dockerfile مدیریت می‌کنه
+    healthcheck: # اضافه: برای چک سلامت service (اختیاری)
+      test:
+        [
+          "CMD-SHELL",
+          "curl -f http://localhost:8000/api/schema/swagger-ui/ || exit 1",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
 
 volumes:
   image_postgres_data:

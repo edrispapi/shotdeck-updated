@@ -1,36 +1,99 @@
-version: '3.8'
-
 services:
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.17.18
-    container_name: elasticsearch
+    container_name: elastic_search_deck
     environment:
       - discovery.type=single-node
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
       - ingest.geoip.downloader.enabled=false
     ports:
-      - "9201:9200"
+      - "12000:9200"
     volumes:
       - es_data:/usr/share/elasticsearch/data
     networks:
       - shotdeck_platform_network
-    # --- اصلاح کلیدی اینجاست ---
     healthcheck:
-      test: ["CMD-SHELL", "curl -s http://localhost:9200/_cat/health | grep -q 'green\\|yellow'"]
+      test:
+        [
+          "CMD-SHELL",
+          "curl -s http://localhost:9200/_cat/health | grep -q 'green\\|yellow'",
+        ]
       interval: 10s
       timeout: 5s
       retries: 10
 
+  search_db:
+    image: postgres:13
+    container_name: search_db
+    environment:
+      - POSTGRES_DB=search_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=search_password
+    volumes:
+      - search_postgres_data:/var/lib/postgresql/data
+    networks:
+      - shotdeck_platform_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d search_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
   search_service:
     build: .
     container_name: search_service
-    env_file:
-      - .env
+    environment:
+      - DATABASE_URL=postgresql://postgres:search_password@search_db:5432/search_db
+      - SECRET_KEY=django-insecure-dev-key-change-in-production
+      - DEBUG=True
+      - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0
+      - ELASTICSEARCH_HOST=elasticsearch
+      - ELASTICSEARCH_PORT=9200
+      - ELASTICSEARCH_ENABLED=True  # تغییر: True برای فعال کردن indexing (از False به True)
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - KAFKA_TOPIC_IMAGES=images
+      - KAFKA_GROUP_ID=search_service_group
+      - USER_MANAGEMENT_API_URL=http://127.0.0.1:12700/api/v1
+      - USER_API_TIMEOUT=10
     volumes:
       - .:/service
     ports:
-      - "8503:8000"
+      - "12003:8000"
     depends_on:
+      search_db:
+        condition: service_healthy  # تغییر: healthy به جای started (بهتر)
+      elasticsearch:
+        condition: service_healthy  # تغییر: healthy به جای started
+    networks:
+      - shotdeck_platform_network
+    # command: python manage.py runserver 0.0.0.0:8000  # کامنت: ENTRYPOINT مدیریت می‌کنه
+    healthcheck:  # اضافه: برای چک سلامت
+      test: ["CMD-SHELL", "curl -f http://localhost:8000/api/schema/swagger-ui/ || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  search_service_consumer:
+    build: .
+    container_name: search_service_consumer
+    environment:
+      - DATABASE_URL=postgresql://postgres:search_password@search_db:5432/search_db
+      - SECRET_KEY=django-insecure-dev-key-change-in-production
+      - DEBUG=True
+      - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0
+      - ELASTICSEARCH_HOST=elasticsearch
+      - ELASTICSEARCH_PORT=9200
+      - ELASTICSEARCH_ENABLED=True  # تغییر: True
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - KAFKA_TOPIC_IMAGES=images
+      - KAFKA_GROUP_ID=search_service_group
+      - USER_MANAGEMENT_API_URL=http://127.0.0.1:12700/api/v1
+      - USER_API_TIMEOUT=10
+    command: python manage.py run_kafka_consumer
+    depends_on:
+      search_db:
+        condition: service_healthy
       elasticsearch:
         condition: service_healthy
     networks:
@@ -38,6 +101,7 @@ services:
 
 volumes:
   es_data:
+  search_postgres_data:
 
 networks:
   shotdeck_platform_network:

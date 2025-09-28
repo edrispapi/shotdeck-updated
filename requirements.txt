@@ -1,0 +1,39 @@
+# Core Django
+django>=4.2.0
+djangorestframework>=3.14.0
+python-decouple>=3.8
+
+# API Documentation
+drf-spectacular>=0.26.0
+drf-spectacular-sidecar>=2023.7.0
+
+# Database
+psycopg2-binary>=2.9.0
+
+# Search & Indexing
+elasticsearch>=7.17.0,<8.0.0
+elasticsearch-dsl>=7.4.0,<8.0.0
+django-elasticsearch-dsl>=7.3.0,<8.0.0
+
+# Caching
+redis>=4.0.0
+django-redis>=5.3.0
+
+# Message Queue
+kafka-python>=2.0.0
+
+# Image Processing
+Pillow>=9.0.0
+
+# HTTP Requests
+requests>=2.25.0
+
+# Static Files
+whitenoise>=6.0.0
+
+# Development & Testing
+django-filter>=23.0
+faker>=18.11.2
+
+# Utilities
+colorama>=0.4.6

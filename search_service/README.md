@@ -39,8 +39,8 @@
     **توجه:** پس از این مرحله، هر تصویر جدیدی که در `image_service` ایجاد شود، به طور خودکار توسط Kafka Consumer در اینجا ایندکس خواهد شد.  
 
 ### دسترسی‌ها
-- **API Swagger UI:** `http://localhost:8503/api/schema/swagger-ui/`
-- **Elasticsearch API:** `http://localhost:9201/`
+- **API Swagger UI:** `http://localhost:12703/api/schema/swagger-ui/`
+- **Elasticsearch API:** `http://localhost:12200/`
 
 ### تست API
 1.  به Swagger UI در آدرس `http://localhost:8503` بروید.

@@ -1,8 +1,6 @@
 version: '3.8'
 
 services:
-  # --- زیرساخت Kafka و Zookeeper ---
-  # این سرویس‌ها توسط اولین docker-compose.yml که اجرا می‌شود، راه‌اندازی می‌شوند.
   zookeeper:
     image: confluentinc/cp-zookeeper:7.0.1
     container_name: zookeeper
@@ -18,25 +16,30 @@ services:
     depends_on:
       - zookeeper
     ports:
-      - "9092:9092"
+      - "12002:9092"
     networks:
       - shotdeck_platform_network
     environment:
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: 'zookeeper:2181'
-      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092,PLAINTEXT_HOST://0.0.0.0:29092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:12092
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      KAFKA_CONFLUENT_SUPPORT_METRICS_ENABLE: 'false'
+    healthcheck:
+      test: ["CMD-SHELL", "kafka-topics --bootstrap-server localhost:9092 --list"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
 
-  # --- دیتابیس اختصاصی برای Deck Service ---
   deck_db:
     image: postgres:13
     container_name: deck_db
-    # متغیرهای محیطی از فایل .env در همین پوشه خوانده می‌شوند.
     env_file:
       - .env
     environment:
-      # مقادیر زیر از فایل .env خوانده و به کانتینر postgres تزریق می‌شوند.
       - POSTGRES_DB=${DB_NAME}
       - POSTGRES_USER=${DB_USER}
       - POSTGRES_PASSWORD=${DB_PASSWORD}
@@ -50,36 +53,25 @@ services:
       timeout: 5s
       retries: 5
 
-  # --- سرویس اصلی Deck Service ---
   deck_service:
-    # ایمیج را از Dockerfile موجود در همین پوشه (context: .) می‌سازد.
     build: .
     container_name: deck_service
-    # متغیرهای محیطی از فایل .env خوانده می‌شوند.
     env_file:
       - .env
     volumes:
-      # کد منبع را به داخل کانتینر mount می‌کند تا تغییرات به صورت زنده اعمال شوند.
       - .:/service
     ports:
-      # پورت داخلی 8000 کانتینر را به پورت 8500 سیستم میزبان متصل می‌کند.
-      - "8500:8000"
+      - "12700:8000"
     depends_on:
       deck_db:
         condition: service_healthy
-      kafka:
-        condition: service_started
     networks:
       - shotdeck_platform_network
-    # خط entrypoint حذف شده است تا از ENTRYPOINT داخل Dockerfile استفاده شود.
+    command: python manage.py runserver 0.0.0.0:8000
 
-# --- تعریف ولوم‌ها و شبکه‌ها ---
 volumes:
-  # ولوم برای نگهداری دائمی داده‌های دیتابیس deck_db
   deck_postgres_data:
 
 networks:
-  # این سرویس‌ها به یک شبکه خارجی از پیش تعریف شده متصل می‌شوند.
   shotdeck_platform_network:
     external: true
-    name: shotdeck_platform_network

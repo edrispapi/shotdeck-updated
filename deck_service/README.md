@@ -42,8 +42,8 @@
     ```  
 
 ### دسترسی‌ها
-- **API Swagger UI:** `http://localhost:8500/api/schema/swagger-ui/`
-- **پنل ادمین:** `http://localhost:8500/admin/`
+- **API Swagger UI:** `http://localhost:12700/api/schema/swagger-ui/`
+- **پنل ادمین:** `http://localhost:12700/admin/`
 
 ### تست API
 1.  با `POST /api/v1/api-token-auth/` یک توکن دریافت کنید.

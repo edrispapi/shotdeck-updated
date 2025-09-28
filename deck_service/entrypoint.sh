@@ -1,8 +1,8 @@
 #!/bin/sh
-# مسیر: deck_service/entrypoint.sh
+# Path: deck_service/entrypoint.sh
 set -e
 
-# انتظار برای آماده شدن دیتابیس اختصاصی این سرویس
+# Wait for this service's dedicated database to be ready
 echo "Waiting for deck_db to be ready..."
 while ! nc -z deck_db 5432; do
   sleep 1

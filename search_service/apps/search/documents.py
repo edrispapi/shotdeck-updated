@@ -1,75 +1,131 @@
-from django_elasticsearch_dsl import Document, fields
-
-# از آنجایی که سیگنال‌های خودکار و ثبت داکیومنت‌ها را در settings.py غیرفعال کردیم،
-# دیگر نیازی به ایمپورت registry و استفاده از دکوراتور @registry.register_document نیست.
+from elasticsearch_dsl import Document, Date, Keyword, Text, Integer, Boolean, Object, Nested
 
 class ImageDocument(Document):
-    """
-    داکیومنت Elasticsearch برای مدل Image.
-    این ساختار، نحوه ذخیره و ایندکس شدن داده‌های هر تصویر را در Elasticsearch مشخص می‌کند.
-    """
-    # فیلدهای اصلی
-    id = fields.IntegerField(attr='id')
-    title = fields.TextField(
-        fields={'raw': fields.KeywordField()} # .raw برای مرتب‌سازی و aggregation دقیق
-    )
-    description = fields.TextField()
-    image_url = fields.KeywordField()
-    release_year = fields.IntegerField()
+    id = Integer()
+    slug = Keyword()
+    title = Text(fields={'raw': Keyword()})
+    description = Text()
+    image_url = Keyword()
+    release_year = Integer()
 
-    # فیلدهای مرتبط به صورت آبجکت‌های تو در تو
-    movie = fields.ObjectField(properties={
-        'title': fields.TextField(fields={'raw': fields.KeywordField()}),
-        'year': fields.IntegerField(),
-    })
-    
-    tags = fields.NestedField(properties={
-        'name': fields.KeywordField(),
+    movie = Object(properties={
+        'slug': Keyword(),
+        'title': Text(fields={'raw': Keyword()}),
+        'year': Integer(),
     })
 
-    # --- تمام فیلدهای فیلترینگ ---
-    # از KeywordField برای فیلدهایی که نیاز به تطابق دقیق دارند استفاده می‌کنیم.
-    media_type = fields.KeywordField()
-    genre = fields.KeywordField()
-    color = fields.KeywordField()
-    aspect_ratio = fields.KeywordField()
-    optical_format = fields.KeywordField()
-    format = fields.KeywordField()
-    interior_exterior = fields.KeywordField()
-    time_of_day = fields.KeywordField()
-    number_of_people = fields.KeywordField()
-    gender = fields.KeywordField()
-    age = fields.KeywordField()
-    ethnicity = fields.KeywordField()
-    frame_size = fields.KeywordField()
-    shot_type = fields.KeywordField()
-    composition = fields.KeywordField()
-    lens_size = fields.KeywordField()
-    lens_type = fields.KeywordField()
-    lighting = fields.KeywordField()
-    lighting_type = fields.KeywordField()
-    camera_type = fields.KeywordField()
-    resolution = fields.KeywordField()
-    frame_rate = fields.KeywordField()
-    
-    # فیلدهای بولی
-    exclude_nudity = fields.BooleanField()
-    exclude_violence = fields.BooleanField()
-    
-    # فیلدهای تاریخ
-    created_at = fields.DateField()
-    updated_at = fields.DateField()
+    tags = Nested(properties={
+        'slug': Keyword(),
+        'name': Keyword(),
+    })
+
+    media_type = Keyword()
+    genre = Keyword()
+    color = Keyword()
+    aspect_ratio = Keyword()
+    optical_format = Keyword()
+    format = Keyword()
+    interior_exterior = Keyword()
+    time_of_day = Keyword()
+    number_of_people = Keyword()
+    gender = Keyword()
+    age = Keyword()
+    ethnicity = Keyword()
+    frame_size = Keyword()
+    shot_type = Keyword()
+    composition = Keyword()
+    lens_size = Keyword()
+    lens_type = Keyword()
+    lighting = Keyword()
+    lighting_type = Keyword()
+    camera_type = Keyword()
+    resolution = Keyword()
+    frame_rate = Keyword()
+    exclude_nudity = Boolean()
+    exclude_violence = Boolean()
+
+    # Color analysis fields
+    dominant_colors = Nested(properties={
+        'rgb': Keyword(),
+        'hex': Keyword(),
+        'percentage': Integer(),
+        'hsl': Object(properties={
+            'hue': Integer(),
+            'saturation': Integer(),
+            'lightness': Integer()
+        }),
+        'color_name': Keyword()
+    })
+    primary_color_hex = Keyword()
+    secondary_color_hex = Keyword()
+    color_palette = Object(properties={
+        'dominant': Nested(),
+        'brightness': Object(properties={
+            'average': Integer(),
+            'category': Keyword()
+        }),
+        'saturation': Object(properties={
+            'average': Integer(),
+            'category': Keyword()
+        }),
+        'color_temperature': Keyword()
+    })
+
+    # Additional color analysis fields
+    color_samples = Nested(properties={
+        'position': Integer(),
+        'coordinates': Object(properties={
+            'x': Integer(),
+            'y': Integer()
+        }),
+        'rgb': Keyword(),
+        'hex': Keyword(),
+        'hsl': Object(properties={
+            'hue': Integer(),
+            'saturation': Integer(),
+            'lightness': Integer()
+        }),
+        'color_name': Keyword()
+    })
+
+    color_histogram = Object(properties={
+        'red': Keyword(),  # Array of integers
+        'green': Keyword(),  # Array of integers
+        'blue': Keyword(),  # Array of integers
+        'bins': Keyword(),  # Array of integers
+        'total_pixels': Integer()
+    })
+
+    # Enhanced primary colors with similar colors
+    primary_colors = Nested(properties={
+        'rank': Integer(),
+        'hex': Keyword(),
+        'percentage': Integer(),
+        'rgb': Keyword(),
+        'hsl': Object(properties={
+            'hue': Integer(),
+            'saturation': Integer(),
+            'lightness': Integer()
+        }),
+        'color_name': Keyword(),
+        'is_main': Boolean(),
+        'search_boost': Integer(),
+        'similar_hexes': Keyword(multi=True),  # Array of similar hex codes
+        'similar_colors': Nested(properties={
+            'hex': Keyword(),
+            'rgb': Keyword(),
+            'distance': Integer()
+        })
+    })
+
+    color_search_terms = Keyword(multi=True)  # Array of search terms
+
+    created_at = Date()
+    updated_at = Date()
 
     class Index:
-        # نام ایندکس در Elasticsearch
         name = 'images'
-        # تنظیمات ایندکس: 1 shard و بدون replica (برای محیط توسعه مناسب است)
         settings = {
             'number_of_shards': 1,
             'number_of_replicas': 0
         }
-
-    class Django:
-        # این سرویس مدلی در دیتابیس خود ندارد و داده‌ها را از Kafka دریافت می‌کند،
-        # بنابراین این بخش خالی است.
-        model = None
