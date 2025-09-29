@@ -53,7 +53,7 @@ DATABASES = {
         'NAME': config('DB_NAME', default='shotdeck_db'),
         'USER': config('DB_USER', default='shotdeck_user'),
         'PASSWORD': config('DB_PASSWORD', default='shotdeck_password'),
-        'HOST': config('DB_HOST', default='postgres'),
+        'HOST': config('DB_HOST', default='image_db'),
         'PORT': config('DB_PORT', default='5432'),
     }
 }
@@ -111,9 +111,9 @@ SPECTACULAR_SETTINGS = {
     ],
 }
 
-# Kafka configuration - disabled for development
-KAFKA_BOOTSTRAP_SERVERS = config('KAFKA_BOOTSTRAP_SERVERS', default='localhost:9092')
-KAFKA_ENABLED = config('KAFKA_ENABLED', default=False, cast=bool)
+# Kafka configuration for integration with deck_search
+KAFKA_BOOTSTRAP_SERVERS = config('KAFKA_BOOTSTRAP_SERVERS', default='kafka-1:29092,kafka-2:29092,kafka-3:29092')
+KAFKA_ENABLED = config('KAFKA_ENABLED', default=True, cast=bool)
 
 
 LANGUAGE_CODE = 'en-us'
@@ -150,7 +150,7 @@ AWS_S3_OBJECT_PARAMETERS = {
 # Service-specific S3 buckets
 S3_BUCKETS = {
     'image_service': config('IMAGE_SERVICE_BUCKET', default='shotdeck-image-service'),
-    'search_service': config('SEARCH_SERVICE_BUCKET', default='shotdeck-search-service'),
+    'deck_search': config('DECK_SEARCH_BUCKET', default='shotdeck-deck-search'),
     'deck_service': config('DECK_SERVICE_BUCKET', default='shotdeck-deck-service'),
 }
 

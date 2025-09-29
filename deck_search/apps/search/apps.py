@@ -1,4 +1,4 @@
-# مسیر: /home/mdk/Documents/shotdeck-main/search_service/apps/search/apps.py
+# مسیر: /home/a/shotdeck-main/deck_search/apps/search/apps.py
 from django.apps import AppConfig
 
 class SearchConfig(AppConfig):

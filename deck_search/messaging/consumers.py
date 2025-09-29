@@ -12,15 +12,20 @@ django.setup()
 logger = logging.getLogger(__name__)
 
 def run_kafka_consumer():
-    logger.info("Starting Kafka consumer for search_service...")
+    logger.info("Starting Kafka consumer for deck_search...")
+
+    # Get topic names from environment variables with fallbacks
+    image_created_topic = getattr(settings, 'KAFKA_IMAGE_CREATED_TOPIC', 'image_created')
+    image_updated_topic = getattr(settings, 'KAFKA_IMAGE_UPDATED_TOPIC', 'image_updated')
+    image_deleted_topic = getattr(settings, 'KAFKA_IMAGE_DELETED_TOPIC', 'image_deleted')
 
     try:
         consumer = KafkaConsumer(
-            'image_created',
-            'image_updated',
-            'image_deleted',
+            image_created_topic,
+            image_updated_topic,
+            image_deleted_topic,
             bootstrap_servers=settings.KAFKA_BOOTSTRAP_SERVERS,
-            group_id=getattr(settings, 'KAFKA_CONSUMER_GROUP', 'search_service_group'),
+            group_id=getattr(settings, 'KAFKA_CONSUMER_GROUP', 'deck_search_consumer_group'),
             auto_offset_reset='earliest',
             value_deserializer=lambda m: json.loads(m.decode('utf-8'))
         )
@@ -40,7 +45,7 @@ def run_kafka_consumer():
         data = message.value
 
         try:
-            if message.topic in ['image_created', 'image_updated']:
+            if message.topic in [image_created_topic, image_updated_topic]:
                 image_id = data.get('id')
                 if not image_id:
                     logger.warning("Received message without an ID. Skipping.")
@@ -95,7 +100,7 @@ def run_kafka_consumer():
                 doc.save(index='images')
                 logger.info(f"Document {image_id} indexed successfully.")
 
-            elif message.topic == 'image_deleted':
+            elif message.topic == image_deleted_topic:
                 image_id = data.get('id')
                 if image_id:
                     try:

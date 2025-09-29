@@ -1311,9 +1311,9 @@ class FiltersView(APIView):
                         # Handle slug fields separately
                         entity_slugs[filter_name] = options_list
                     else:
-                        # Extract values from option objects
+                        # Extract values from option objects, preserving the order from cache
                         values = [opt.get('value', str(opt)) for opt in options_list if opt]
-                        filter_options[filter_name] = [{"value": v, "label": v} for v in sorted(values)[:50]]  # Limit to 50 options
+                        filter_options[filter_name] = [{"value": v, "label": v} for v in values]  # No limit on options
 
             # Single-select dropdown filters with pre-existing options (no checkboxes, no typing)
             shotdeck_filters = [
@@ -1336,14 +1336,14 @@ class FiltersView(APIView):
                         "name": "Genre",
                     "type": "dropdown",
                     "multiple": False,
-                    "options": [{"value": opt["value"], "label": opt["value"]} for opt in filter_options.get('genres', [])]
+                    "options": [{"value": opt["value"], "label": opt["value"]} for opt in filter_options.get('genre', [])]
                 },
                 {
                     "id": "color",
                     "name": "Color",
                     "type": "dropdown",
                     "multiple": False,
-                    "options": [{"value": opt["value"], "label": opt["value"]} for opt in filter_options.get('colors', [])]
+                    "options": [{"value": opt["value"], "label": opt["value"]} for opt in filter_options.get('color', [])]
                 },
                 {
                     "id": "aspect_ratio",
@@ -1399,7 +1399,7 @@ class FiltersView(APIView):
                     "name": "Shot Type",
                     "type": "dropdown",
                     "multiple": False,
-                    "options": [{"value": opt["value"], "label": opt["value"]} for opt in filter_options.get('shot_types', [])]
+                    "options": [{"value": opt["value"], "label": opt["value"]} for opt in filter_options.get('shot_type', [])]
                 },
                 {
                     "id": "composition",
@@ -1462,14 +1462,14 @@ class FiltersView(APIView):
                     "name": "Actor",
                     "type": "dropdown",
                     "multiple": False,
-                    "options": [{"value": opt["value"], "label": opt["value"]} for opt in filter_options.get('actors', [])]
+                    "options": [{"value": opt["value"], "label": opt["value"]} for opt in filter_options.get('actor', [])]
                 },
                 {
                     "id": "camera",
                     "name": "Camera",
                     "type": "dropdown",
                     "multiple": False,
-                    "options": [{"value": opt["value"], "label": opt["value"]} for opt in filter_options.get('cameras', [])]
+                    "options": [{"value": opt["value"], "label": opt["value"]} for opt in filter_options.get('camera', [])]
                 },
                 {
                     "id": "lens",
@@ -1483,7 +1483,7 @@ class FiltersView(APIView):
                     "name": "Location",
                     "type": "dropdown",
                     "multiple": False,
-                    "options": [{"value": opt["value"], "label": opt["value"]} for opt in filter_options.get('locations', [])]
+                    "options": [{"value": opt["value"], "label": opt["value"]} for opt in filter_options.get('location', [])]
                 },
                 {
                     "id": "setting",

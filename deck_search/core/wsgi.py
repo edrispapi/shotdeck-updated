@@ -1,4 +1,4 @@
-# مسیر: /home/mdk/Documents/shotdeck-main/search_service/core/wsgi.py
+# مسیر: /home/a/shotdeck-main/deck_search/core/wsgi.py
 import os
 from django.core.wsgi import get_wsgi_application
 

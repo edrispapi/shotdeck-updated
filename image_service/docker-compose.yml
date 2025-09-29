@@ -29,6 +29,9 @@ services:
       - SECRET_KEY=django-insecure-dev-key-change-in-production
       - DEBUG=True
       - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0
+      # Kafka Configuration for deck_search integration
+      - KAFKA_ENABLED=True
+      - KAFKA_BOOTSTRAP_SERVERS=kafka-1:29092,kafka-2:29092,kafka-3:29092
       # S3 Configuration
       - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID:-}
       - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY:-}

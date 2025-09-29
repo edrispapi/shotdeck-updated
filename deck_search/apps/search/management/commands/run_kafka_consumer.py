@@ -1,4 +1,4 @@
-# مسیر: /home/mdk/Documents/shotdeck-main/search_service/apps/search/management/commands/run_kafka_consumer.py
+# مسیر: /home/a/shotdeck-main/deck_search/apps/search/management/commands/run_kafka_consumer.py
 from django.core.management.base import BaseCommand
 from messaging.consumers import run_kafka_consumer
 import logging

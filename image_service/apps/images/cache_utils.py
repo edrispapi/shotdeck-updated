@@ -109,8 +109,23 @@ def get_filter_options_from_db(filter_type):
     if not model_class:
         return None
 
-    # Get all options, not just those with display_order
-    options = model_class.objects.all().order_by('value')[:100]  # Limit to 100 options
+    # Prioritize standardized options (with display_order > 0) over database-populated options
+    standardized_options = model_class.objects.filter(display_order__gt=0).order_by('display_order')
+    standardized_count = standardized_options.count()
+
+    if standardized_count > 0:
+        # Return standardized options first, then fill with database options if needed
+        remaining_slots = 100 - standardized_count
+        if remaining_slots > 0:
+            # Get database options that have display_order=0 or null (avoiding duplicates)
+            db_options = model_class.objects.filter(display_order__in=[0, None]).order_by('value')
+            all_options = list(standardized_options) + list(db_options)
+        else:
+            all_options = list(standardized_options)
+    else:
+        # Fallback to old behavior if no standardized options exist
+        all_options = model_class.objects.all().order_by('value')
+
     return [
         {
             'id': option.id,
@@ -118,7 +133,7 @@ def get_filter_options_from_db(filter_type):
             'display_order': getattr(option, 'display_order', None),
             'metadata': getattr(option, 'metadata', None)
         }
-        for option in options
+        for option in all_options
     ]
 
 

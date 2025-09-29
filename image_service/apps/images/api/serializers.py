@@ -37,6 +37,30 @@ class MovieSerializer(serializers.ModelSerializer):
         ]
         read_only_fields = ['id', 'slug', 'image_count']
 
+    def to_representation(self, instance):
+        representation = super().to_representation(instance)
+
+        # Handle null values for nested fields - convert null to empty strings
+        nested_value_fields = [
+            'director_value', 'director_slug', 'cinematographer_value', 'cinematographer_slug',
+            'editor_value', 'editor_slug'
+        ]
+
+        for field in nested_value_fields:
+            if representation.get(field) is None:
+                representation[field] = ""
+
+        # Handle other potentially null fields
+        text_fields = ['description', 'genre', 'cast', 'colorist', 'production_designer', 'costume_designer', 'country', 'language']
+        for field in text_fields:
+            if representation.get(field) is None:
+                representation[field] = ""
+
+        # Keep numeric fields as null if they're None (year, duration, image_count)
+        # They should remain null rather than empty strings for proper API semantics
+
+        return representation
+
 class GenreOptionSerializer(serializers.ModelSerializer):
     class Meta:
         model = GenreOption
@@ -118,6 +142,7 @@ class ImageSerializer(serializers.ModelSerializer):
             # Enhanced color analysis fields
             'dominant_colors', 'primary_color_hex', 'primary_colors', 'secondary_color_hex',
             'color_palette', 'color_samples', 'color_histogram', 'color_search_terms',
+            'color_temperature', 'hue_range',
             'created_at', 'updated_at'
         ]
         read_only_fields = ['id', 'slug', 'created_at', 'updated_at']
@@ -161,6 +186,53 @@ class ImageSerializer(serializers.ModelSerializer):
                         representation['image_url'] = f"http://localhost:{port}/media/{path_part}"
                     except:
                         pass
+
+        # Handle null/empty values for filter fields - provide meaningful defaults or remove empty fields
+        filter_value_fields = [
+            'media_type_value', 'genre_value', 'color_value', 'aspect_ratio_value',
+            'optical_format_value', 'format_value', 'interior_exterior_value', 'time_of_day_value',
+            'number_of_people_value', 'gender_value', 'age_value', 'ethnicity_value',
+            'frame_size_value', 'shot_type_value', 'composition_value', 'lens_size_value',
+            'lens_type_value', 'lighting_value', 'lighting_type_value', 'camera_type_value',
+            'resolution_value', 'frame_rate_value', 'time_period_value', 'lab_process_value',
+            'movie_value', 'actor_value', 'camera_value', 'lens_value', 'location_value',
+            'setting_value', 'film_stock_value', 'shot_time_value', 'description_filter_value',
+            'vfx_backing_value'
+        ]
+
+        # Set empty strings for null _value fields instead of null
+        for field in filter_value_fields:
+            if representation.get(field) is None:
+                representation[field] = ""
+
+        # Handle empty collections
+        if not representation.get('tags'):
+            representation['tags'] = []
+
+        # Handle empty genre (ManyToManyField)
+        if not representation.get('genre'):
+            representation['genre'] = []
+
+        # Handle color analysis fields that might be null
+        color_analysis_fields = [
+            'dominant_colors', 'primary_color_hex', 'primary_colors', 'secondary_color_hex',
+            'color_palette', 'color_samples', 'color_histogram', 'color_search_terms',
+            'color_temperature', 'hue_range'
+        ]
+
+        for field in color_analysis_fields:
+            if representation.get(field) is None:
+                if field in ['dominant_colors', 'primary_colors', 'color_palette', 'color_samples', 'color_histogram', 'color_search_terms']:
+                    representation[field] = []
+                else:
+                    representation[field] = ""
+
+        # Handle other potentially null fields
+        if representation.get('description') is None:
+            representation['description'] = ""
+
+        if representation.get('release_year') is None:
+            representation['release_year'] = None  # Keep as null for year fields
 
         return representation
 

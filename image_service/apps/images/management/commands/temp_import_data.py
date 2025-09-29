@@ -10,7 +10,7 @@ from apps.images.models import (
     EthnicityOption, FrameSizeOption, ShotTypeOption, CompositionOption,
     LensSizeOption, LensTypeOption, LightingOption, LightingTypeOption,
     TimePeriodOption, LabProcessOption, MediaTypeOption, LensOption,
-    FilmStockOption, ShotTimeOption, VfxBackingOption
+    FilmStockOption, ShotTimeOption, VfxBackingOption, LocationOption, SettingOption
 )
 
 
@@ -128,6 +128,11 @@ class Command(BaseCommand):
                         shot_info.get('shot_time', {}).get('values', [{}])[0].get('display_value')),
                     'vfx_backing': self.get_or_create_option(VfxBackingOption,
                         shot_info.get('vfx_backing', {}).get('values', [{}])[0].get('display_value')),
+                    # Additional location and setting fields (taking first value if multiple exist)
+                    'location': self.get_or_create_option(LocationOption,
+                        shot_info.get('location', {}).get('values', [{}])[0].get('display_value')),
+                    'setting': self.get_or_create_option(SettingOption,
+                        shot_info.get('setting', {}).get('values', [{}])[0].get('display_value')),
                 }
             )
 

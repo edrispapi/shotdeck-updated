@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# مسیر: /home/mdk/Documents/shotdeck-main/search_service/manage.py
+# مسیر: /home/a/shotdeck-main/deck_search/manage.py
 import os
 import sys
 

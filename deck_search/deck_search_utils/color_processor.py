@@ -32,7 +32,7 @@ class UltimateColorProcessor:
     Advanced color analyzer for generating high-diversity palettes from local images.
     """
 
-    def __init__(self, images_folder: str = "C:/shotdeck-main/search_service/images", max_colors: int = 15):
+    def __init__(self, images_folder: str = "/home/a/shotdeck-main/deck_search/images", max_colors: int = 15):
         self.images_folder = Path(images_folder)
         self.max_colors = max_colors
         self.image_extensions = ['*.jpg', '*.jpeg', '*.png', '*.gif', '*.bmp']
@@ -513,7 +513,7 @@ class UltimateColorProcessor:
 
 def main():
     """Main function for command line usage."""
-    images_folder = sys.argv[1] if len(sys.argv) > 1 else "C:/shotdeck-main/search_service/images"
+    images_folder = sys.argv[1] if len(sys.argv) > 1 else "/home/a/shotdeck-main/deck_search/images"
     if not Path(images_folder).exists():
         print(f"❌ Images folder not found: {images_folder}")
         return

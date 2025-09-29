@@ -1,7 +1,6 @@
 from pathlib import Path
 import os
 from decouple import config
-import dj_database_url
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -17,7 +16,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions', 'django.contrib.messages', 'django.contrib.staticfiles',
     'whitenoise.runserver_nostatic',  # WhiteNoise for static files
     'corsheaders',  # CORS headers
-    'rest_framework', 'drf_spectacular', 'drf_spectacular_sidecar', 'django_elasticsearch_dsl', 'apps.common'
+    'rest_framework', 'drf_spectacular', 'drf_spectacular_sidecar', 'django_elasticsearch_dsl',
+    'apps.common', 'apps.search'
 
 ]
 
@@ -48,9 +48,12 @@ TEMPLATES = [
     },
 ]
 
-# SQLite configuration (temporary fix for PostgreSQL issues)
+# No database needed - deck_search is a search service using Elasticsearch only
 DATABASES = {
-    'default': dj_database_url.config(default=config('DATABASE_URL'))
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': ':memory:',
+    }
 }
 
 ELASTICSEARCH_DSL = {
@@ -84,7 +87,7 @@ SPECTACULAR_SETTINGS = {
     },
     'SERVE_PUBLIC': True,
     'SERVE_PERMISSIONS': ['rest_framework.permissions.AllowAny'],
-    'POSTPROCESSING_HOOKS': ['search_service.utils.postprocess_schema'],
+    'POSTPROCESSING_HOOKS': ['deck_search_utils.utils.postprocess_schema'],
     'SORT_OPERATIONS': False,
 }
 
@@ -103,8 +106,14 @@ SPECTACULAR_SETTINGS = {
 USER_MANAGEMENT_API_URL = 'http://127.0.0.1:12700/api/v1'
 USER_API_TIMEOUT = 10
 
+# Kafka configuration
 KAFKA_BOOTSTRAP_SERVERS = os.environ.get('KAFKA_BOOTSTRAP_SERVERS', 'kafka:9092')
-KAFKA_CONSUMER_GROUP = 'search_service_group'
+KAFKA_CONSUMER_GROUP = os.environ.get('KAFKA_CONSUMER_GROUP', 'deck_search_consumer_group')
+
+# Configurable Kafka topic names
+KAFKA_IMAGE_CREATED_TOPIC = os.environ.get('KAFKA_IMAGE_CREATED_TOPIC', 'image_created')
+KAFKA_IMAGE_UPDATED_TOPIC = os.environ.get('KAFKA_IMAGE_UPDATED_TOPIC', 'image_updated')
+KAFKA_IMAGE_DELETED_TOPIC = os.environ.get('KAFKA_IMAGE_DELETED_TOPIC', 'image_deleted')
 
 # Elasticsearch configuration - disabled for development
 ELASTICSEARCH_ENABLED = config('ELASTICSEARCH_ENABLED', default=False, cast=bool)
