@@ -2,7 +2,7 @@ from django.urls import path, include
 from django.http import JsonResponse
 from rest_framework.routers import DefaultRouter
 from .views import (
-    ImageViewSet, MovieViewSet, TagViewSet, FiltersView,
+    ImageViewSet, MovieViewSet, TagViewSet, FiltersView, HealthCheckView,
     # Option ViewSets
     GenreOptionViewSet, ColorOptionViewSet, MediaTypeOptionViewSet,
     AspectRatioOptionViewSet, OpticalFormatOptionViewSet, FormatOptionViewSet,
@@ -57,6 +57,9 @@ def tags_not_allowed(request):
     return JsonResponse({"error": "Tags list endpoint is not available"}, status=404)
 
 urlpatterns = [
+    # Health check endpoint
+    path('health/', HealthCheckView.as_view(), name='health-check'),
+
     # Include router URLs for options
     path('', include(router.urls)),
 

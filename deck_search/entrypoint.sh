@@ -1,6 +1,9 @@
 #!/bin/sh
 set -e
 
+# Change to the mounted volume directory to use live code
+cd /app
+
 echo "Applying database migrations for deck_search..."
 python manage.py migrate --noinput
 

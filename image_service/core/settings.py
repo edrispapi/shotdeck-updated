@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = config('SECRET_KEY', default='django-insecure-a_very_secret_key_for_the_image_service_default')
 DEBUG = config('DEBUG', default=True, cast=bool)
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', 'localhost', '127.0.0.1', '0.0.0.0', 'image_service', 'image_service:8000']
 
 INSTALLED_APPS = [
     'django.contrib.admin', 'django.contrib.auth', 'django.contrib.contenttypes',
@@ -114,6 +114,9 @@ SPECTACULAR_SETTINGS = {
 # Kafka configuration for integration with deck_search
 KAFKA_BOOTSTRAP_SERVERS = config('KAFKA_BOOTSTRAP_SERVERS', default='kafka-1:29092,kafka-2:29092,kafka-3:29092')
 KAFKA_ENABLED = config('KAFKA_ENABLED', default=True, cast=bool)
+KAFKA_IMAGE_CREATED_TOPIC = config('KAFKA_IMAGE_CREATED_TOPIC', default='image_created')
+KAFKA_IMAGE_UPDATED_TOPIC = config('KAFKA_IMAGE_UPDATED_TOPIC', default='image_updated')
+KAFKA_IMAGE_DELETED_TOPIC = config('KAFKA_IMAGE_DELETED_TOPIC', default='image_deleted')
 
 
 LANGUAGE_CODE = 'en-us'

@@ -2,9 +2,8 @@ import time
 import json
 import threading
 import concurrent.futures
-from queue import Queue
+from queue import Queue, Empty
 from collections import defaultdict
-import ctypes
 from django.core.management.base import BaseCommand
 from django.db import connection
 from messaging.producers import get_kafka_producer
@@ -16,20 +15,20 @@ class Command(BaseCommand):
         parser.add_argument(
             '--workers',
             type=int,
-            default=16,
-            help='Number of parallel Kafka producer workers (default: 16)'
+            default=10,
+            help='Number of parallel Kafka producer workers (default: 10)'
         )
         parser.add_argument(
             '--batch-size',
             type=int,
-            default=200000,
-            help='Number of images per database batch (default: 200000)'
+            default=25000,
+            help='Number of images per database batch (default: 25000)'
         )
         parser.add_argument(
             '--queue-size',
             type=int,
-            default=100000,
-            help='Message queue buffer size (default: 100000)'
+            default=500000,
+            help='Message queue buffer size (default: 500000)'
         )
         parser.add_argument(
             '--start-from',
@@ -46,11 +45,11 @@ class Command(BaseCommand):
         parser.add_argument(
             '--log-interval',
             type=float,
-            default=2.0,
-            help='Progress logging interval in seconds (default: 2.0)'
+            default=1.0,
+            help='Progress logging interval in seconds (default: 1.0)'
         )
 
-    def create_kafka_worker(self, worker_id, message_queue, stats, worker_stats, total_sent):
+    def create_kafka_worker(self, worker_id, message_queue, stats, worker_stats, total_sent_lock, total_sent_count):
         """Worker function to send messages to Kafka"""
         producer = get_kafka_producer()
         if not producer:
@@ -69,12 +68,14 @@ class Command(BaseCommand):
 
                 topic, data = message
                 try:
-                    producer.send(topic, value=data)
+                    future = producer.send(topic, value=data)
+                    # Ensure the send completes successfully
+                    future.get(timeout=10)
                     sent_count += 1
 
                     # Atomically increment total sent counter
-                    with total_sent.get_lock():
-                        total_sent.value += 1
+                    with total_sent_lock:
+                        total_sent_count[0] += 1
                 except Exception as send_error:
                     # Re-raise to be caught by outer exception handler
                     raise send_error
@@ -86,6 +87,9 @@ class Command(BaseCommand):
                     'rate': sent_count / (time.time() - start_time) if time.time() > start_time else 0
                 }
 
+            except Empty:
+                # This is expected when queue is empty, just continue
+                continue
             except Exception as e:
                 error_count += 1
                 worker_stats[worker_id] = {
@@ -93,8 +97,11 @@ class Command(BaseCommand):
                     'errors': error_count,
                     'rate': sent_count / (time.time() - start_time) if time.time() > start_time else 0
                 }
-                if error_count % 10 == 0:  # Log errors every 10 for better debugging
-                    self.stdout.write(self.style.ERROR(f"Worker {worker_id}: {error_count} errors, last error: {str(e)[:200]}..."))
+                if error_count % 5 == 0:  # Log errors every 5 for better debugging
+                    error_msg = f"{type(e).__name__}: {repr(e)}"
+                    if len(error_msg) > 500:
+                        error_msg = error_msg[:500] + "..."
+                    self.stdout.write(self.style.ERROR(f"Worker {worker_id}: {error_count} errors, last error: {error_msg}"))
                 continue
 
         # Final flush
@@ -117,7 +124,7 @@ class Command(BaseCommand):
             )
         )
 
-    def progress_monitor(self, stats, worker_stats, total_images, start_time, log_interval, stop_event, total_sent, processed_count):
+    def progress_monitor(self, stats, worker_stats, total_images, start_time, log_interval, stop_event, total_sent_lock, total_sent_count, processed_lock, processed_count, print_lock):
         """Real-time progress monitoring thread"""
         last_sent = 0
         last_time = start_time
@@ -128,8 +135,10 @@ class Command(BaseCommand):
             elapsed = current_time - start_time
 
             # Get thread-safe values
-            current_sent = total_sent.value
-            current_processed = processed_count.value
+            with total_sent_lock:
+                current_sent = total_sent_count[0]
+            with processed_lock:
+                current_processed = processed_count[0]
 
             # Calculate rates
             period_elapsed = current_time - last_time
@@ -149,8 +158,8 @@ class Command(BaseCommand):
             progress_percent = min(100, (current_sent / total_images) * 100) if total_images > 0 else 0
             progress_bar = "=" * int(progress_percent / 2) + ">" + " " * (50 - int(progress_percent / 2))
 
-            self.stdout.write(
-                self.style.SUCCESS(
+            with print_lock:
+                output = (
                     f"[{progress_bar}] {progress_percent:.1f}% | "
                     f"Sent: {current_sent:,}/{total_images:,} | "
                     f"Rate: {current_rate:.0f} current, {overall_rate:.0f} avg msg/sec | "
@@ -158,11 +167,12 @@ class Command(BaseCommand):
                     f"Elapsed: {elapsed:.1f}s | "
                     f"ETA: {(total_images - current_sent) / overall_rate:.0f}s" if overall_rate > 0 else "ETA: ∞"
                 )
-            )
 
-            # Show worker details every 10 intervals
-            if int(elapsed / log_interval) % 10 == 0 and worker_info:
-                self.stdout.write(f"  Worker details: {' | '.join(worker_info[:8])}")
+                # Show worker details every 10 intervals
+                if int(elapsed / log_interval) % 10 == 0 and worker_info:
+                    output += f"\n  Worker details: {' | '.join(worker_info[:8])}"
+
+                self.stdout.write(self.style.SUCCESS(output))
 
             last_sent = current_sent
             last_time = current_time
@@ -177,7 +187,13 @@ class Command(BaseCommand):
 
         start_time = time.time()
 
+        # Create print lock for synchronized output
+        print_lock = threading.Lock()
+
         # Get total count (respect max_images limit)
+        with print_lock:
+            self.stdout.write("Counting total images in database...")
+
         with connection.cursor() as cursor:
             if max_images:
                 cursor.execute("SELECT COUNT(*) FROM images_image WHERE id >= %s", [start_from])
@@ -187,21 +203,26 @@ class Command(BaseCommand):
                 cursor.execute("SELECT COUNT(*) FROM images_image WHERE id >= %s", [start_from])
                 total_images = cursor.fetchone()[0]
 
-        self.stdout.write(
-            self.style.SUCCESS(
-                f"🚀🚀🚀 HYPER-FAST BULK SEND STARTING 🚀🚀🚀"
+        with print_lock:
+            self.stdout.write(f"Found {total_images:,} images to process")
+
+        with print_lock:
+            self.stdout.write(
+                self.style.SUCCESS(
+                    f"🚀🚀🚀 HYPER-FAST BULK SEND STARTING 🚀🚀🚀\n"
+                    f"📊 Target: {total_images:,} images | Workers: {workers} | "
+                    f"Batch: {batch_size:,} | Queue: {queue_size:,} | Optimized for high throughput 🚀"
+                )
             )
-        )
-        self.stdout.write(
-            self.style.SUCCESS(
-                f"📊 Target: {total_images:,} images | Workers: {workers} | "
-                f"Batch: {batch_size:,} | Queue: {queue_size:,}"
-            )
-        )
+
+        # Add a small delay to allow progress monitor to start
+        time.sleep(0.1)
 
         # Create thread-safe shared variables
-        total_sent = ctypes.c_longlong(0)
-        processed_count = ctypes.c_longlong(0)
+        total_sent_lock = threading.Lock()
+        total_sent_count = [0]  # Use list to make it mutable in nested scopes
+        processed_lock = threading.Lock()
+        processed_count = [0]
 
         # Create message queue and worker threads
         message_queue = Queue(maxsize=queue_size)
@@ -215,24 +236,25 @@ class Command(BaseCommand):
         # Start progress monitor thread
         monitor_thread = threading.Thread(
             target=self.progress_monitor,
-            args=(stats, worker_stats, total_images, start_time, log_interval, stop_event, total_sent, processed_count)
+            args=(stats, worker_stats, total_images, start_time, log_interval, stop_event, total_sent_lock, total_sent_count, processed_lock, processed_count, print_lock)
         )
         monitor_thread.daemon = True
         monitor_thread.start()
 
         # Start worker threads
-        with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
-            worker_futures = []
-            for i in range(workers):
-                stats[i] = 0
-                future = executor.submit(self.create_kafka_worker, i, message_queue, stats, worker_stats, total_sent)
-                worker_futures.append(future)
+        worker_threads = []
+        for i in range(workers):
+            stats[i] = 0
+            thread = threading.Thread(target=self.create_kafka_worker, args=(i, message_queue, stats, worker_stats, total_sent_lock, total_sent_count))
+            thread.daemon = True
+            thread.start()
+            worker_threads.append(thread)
 
-            # Stream data from database
-            processed = 0
-            batch_num = 1
+        # Stream data from database
+        processed = 0
+        batch_num = 1
 
-            while processed < total_images:
+        while processed < total_images:
                 remaining = total_images - processed
                 current_batch_size = min(batch_size, remaining)
 
@@ -265,27 +287,27 @@ class Command(BaseCommand):
                     fr.value as frame_rate
                 FROM images_image i
                 LEFT JOIN images_movie m ON i.movie_id = m.id
-                LEFT JOIN images_mediatype mt ON i.media_type_id = mt.id
-                LEFT JOIN images_color c ON i.color_id = c.id
-                LEFT JOIN images_aspectratio ar ON i.aspect_ratio_id = ar.id
-                LEFT JOIN images_opticalformat oformat ON i.optical_format_id = oformat.id
-                LEFT JOIN images_format format ON i.format_id = format.id
-                LEFT JOIN images_interiorexterior ie ON i.interior_exterior_id = ie.id
-                LEFT JOIN images_timeofday tod ON i.time_of_day_id = tod.id
-                LEFT JOIN images_numberofpeople nop ON i.number_of_people_id = nop.id
-                LEFT JOIN images_gender g ON i.gender_id = g.id
-                LEFT JOIN images_age age ON i.age_id = age.id
-                LEFT JOIN images_ethnicity eth ON i.ethnicity_id = eth.id
-                LEFT JOIN images_framesize fs ON i.frame_size_id = fs.id
-                LEFT JOIN images_shottype st ON i.shot_type_id = st.id
-                LEFT JOIN images_composition comp ON i.composition_id = comp.id
-                LEFT JOIN images_lenssize ls ON i.lens_size_id = ls.id
-                LEFT JOIN images_lenstype lt ON i.lens_type_id = lt.id
-                LEFT JOIN images_lighting l ON i.lighting_id = l.id
-                LEFT JOIN images_lightingtype lt2 ON i.lighting_type_id = lt2.id
-                LEFT JOIN images_cameratype ct ON i.camera_type_id = ct.id
-                LEFT JOIN images_resolution res ON i.resolution_id = res.id
-                LEFT JOIN images_framerate fr ON i.frame_rate_id = fr.id
+                LEFT JOIN media_type_options mt ON i.media_type_id = mt.id
+                LEFT JOIN color_options c ON i.color_id = c.id
+                LEFT JOIN aspect_ratio_options ar ON i.aspect_ratio_id = ar.id
+                LEFT JOIN optical_format_options oformat ON i.optical_format_id = oformat.id
+                LEFT JOIN format_options format ON i.format_id = format.id
+                LEFT JOIN interior_exterior_options ie ON i.interior_exterior_id = ie.id
+                LEFT JOIN time_of_day_options tod ON i.time_of_day_id = tod.id
+                LEFT JOIN number_of_people_options nop ON i.number_of_people_id = nop.id
+                LEFT JOIN gender_options g ON i.gender_id = g.id
+                LEFT JOIN age_options age ON i.age_id = age.id
+                LEFT JOIN ethnicity_options eth ON i.ethnicity_id = eth.id
+                LEFT JOIN frame_size_options fs ON i.frame_size_id = fs.id
+                LEFT JOIN shot_type_options st ON i.shot_type_id = st.id
+                LEFT JOIN composition_options comp ON i.composition_id = comp.id
+                LEFT JOIN lens_size_options ls ON i.lens_size_id = ls.id
+                LEFT JOIN lens_type_options lt ON i.lens_type_id = lt.id
+                LEFT JOIN lighting_options l ON i.lighting_id = l.id
+                LEFT JOIN lighting_type_options lt2 ON i.lighting_type_id = lt2.id
+                LEFT JOIN camera_type_options ct ON i.camera_type_id = ct.id
+                LEFT JOIN resolution_options res ON i.resolution_id = res.id
+                LEFT JOIN frame_rate_options fr ON i.frame_rate_id = fr.id
                 WHERE i.id >= %s
                 ORDER BY i.id
                 LIMIT %s
@@ -321,21 +343,21 @@ class Command(BaseCommand):
                         # Get genres
                         cursor.execute("""
                             SELECT g.value
-                            FROM images_genre g
-                            INNER JOIN images_image_genre ig ON g.id = ig.genre_id
+                            FROM genre_options g
+                            INNER JOIN images_image_genre ig ON g.id = ig.genreoption_id
                             WHERE ig.image_id = %s
                         """, [image_id])
                         genres = [row[0] for row in cursor.fetchall()]
 
                         # Build message
-            data = {
+                        data = {
                             "id": row_dict['id'],
                             "slug": row_dict['slug'],
                             "title": row_dict['title'],
                             "description": row_dict['description'],
                             "image_url": row_dict['image_url'],
                             "release_year": row_dict['release_year'],
-                "movie": {
+                            "movie": {
                                 "slug": row_dict['movie_slug'],
                                 "title": row_dict['movie_title'],
                                 "year": row_dict['movie_year']
@@ -368,8 +390,7 @@ class Command(BaseCommand):
                             "created_at": row_dict['created_at'].isoformat() if row_dict['created_at'] else None,
                             "updated_at": row_dict['updated_at'].isoformat() if row_dict['updated_at'] else None
                         }
-
-                    batch_messages.append(('image_created', data))
+                        batch_messages.append(('image_created', data))
 
                     # Send batch to queue
                     for message in batch_messages:
@@ -377,29 +398,32 @@ class Command(BaseCommand):
 
                     # Update processed count atomically
                     processed += len(rows)
-                    with processed_count.get_lock():
-                        processed_count.value = processed
+                    with processed_lock:
+                        processed_count[0] += len(rows)
                     elapsed = time.time() - start_time
                     rate = processed / elapsed if elapsed > 0 else 0
 
-                    # Calculate total messages sent by workers
-                    total_sent = sum(stats.values())
+                    # Get total messages sent by workers
+                    with total_sent_lock:
+                        total_sent_count_local = total_sent_count[0]
 
-                    self.stdout.write(
-                        self.style.SUCCESS(
-                            f"Batch {batch_num}: Processed {len(rows)} images "
-                            f"(Total: {processed}/{total_images}, Queue: {message_queue.qsize()}, "
-                            f"Workers sent: {total_sent}, Rate: {rate:.1f} img/sec)"
+                    with print_lock:
+                        self.stdout.write(
+                            self.style.SUCCESS(
+                                f"Batch {batch_num}: Processed {len(rows)} images "
+                                f"(Total: {processed}/{total_images}, Queue: {message_queue.qsize()}, "
+                                f"Workers sent: {total_sent_count_local}, Rate: {rate:.1f} img/sec)"
+                            )
                         )
-                    )
                     batch_num += 1
 
-            # Send poison pills to stop workers
-            for _ in range(workers):
-                message_queue.put(None)
+        # Send poison pills to stop workers
+        for _ in range(workers):
+            message_queue.put(None)
 
-            # Wait for workers to finish
-            concurrent.futures.wait(worker_futures)
+        # Wait for workers to finish
+        for thread in worker_threads:
+            thread.join(timeout=10)
 
         # Stop progress monitoring
         stop_event.set()
@@ -407,51 +431,24 @@ class Command(BaseCommand):
 
         total_elapsed = time.time() - start_time
         final_rate = processed / total_elapsed if total_elapsed > 0 else 0
-        total_sent = sum(stats.values())
+        with total_sent_lock:
+            total_sent_count = total_sent_count[0]
 
         # Final statistics
         total_errors = sum(ws.get('errors', 0) for ws in worker_stats.values())
         avg_worker_rate = sum(ws.get('rate', 0) for ws in worker_stats.values()) / max(workers, 1)
 
-        self.stdout.write("\n" + "="*80)
-        self.stdout.write(
-            self.style.SUCCESS(
-                f"🎉🎉🎉 HYPER-FAST BULK SEND COMPLETED! 🎉🎉🎉"
+        with print_lock:
+            output = (
+                f"\n{'='*80}\n"
+                f"🎉🎉🎉 HYPER-FAST BULK SEND COMPLETED! 🎉🎉🎉\n"
+                f"📈 Final Stats:\n"
+                f"   • Processed: {processed:,} images\n"
+                f"   • Sent: {total_sent_count:,} Kafka messages\n"
+                f"   • Errors: {total_errors:,}\n"
+                f"   • Time: {total_elapsed:.1f} seconds\n"
+                f"   • Rate: {final_rate:.1f} img/sec ({final_rate * 3600:.0f} img/hour)\n"
+                f"   • Workers: {workers} (avg {avg_worker_rate:.1f} msg/sec each)\n"
+                f"{'='*80}"
             )
-        )
-        self.stdout.write(
-            self.style.SUCCESS(
-                f"📈 Final Stats:"
-            )
-        )
-        self.stdout.write(
-            self.style.SUCCESS(
-                f"   • Processed: {processed:,} images"
-            )
-        )
-        self.stdout.write(
-            self.style.SUCCESS(
-                f"   • Sent: {total_sent:,} Kafka messages"
-            )
-        )
-        self.stdout.write(
-            self.style.SUCCESS(
-                f"   • Errors: {total_errors:,}"
-            )
-        )
-        self.stdout.write(
-            self.style.SUCCESS(
-                f"   • Time: {total_elapsed:.1f} seconds"
-            )
-        )
-        self.stdout.write(
-            self.style.SUCCESS(
-                f"   • Rate: {final_rate:.1f} img/sec ({final_rate * 3600:.0f} img/hour)"
-            )
-        )
-        self.stdout.write(
-            self.style.SUCCESS(
-                f"   • Workers: {workers} (avg {avg_worker_rate:.1f} msg/sec each)"
-            )
-        )
-        self.stdout.write("="*80)
+            self.stdout.write(self.style.SUCCESS(output))

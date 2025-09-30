@@ -44,6 +44,37 @@ from apps.images.cache_utils import get_cached_filter_options, get_all_cached_fi
 
 logger = logging.getLogger(__name__)
 
+
+class HealthCheckView(APIView):
+    """Health check endpoint for the image service"""
+
+    def get(self, request):
+        """Return service health status"""
+        try:
+            # Check database connectivity
+            from django.db import connection
+            cursor = connection.cursor()
+            cursor.execute("SELECT 1")
+            cursor.fetchone()
+
+            # Check if we can access models
+            image_count = Image.objects.count()
+
+            return Response({
+                "status": "healthy",
+                "database": "connected",
+                "image_count": image_count,
+                "timestamp": serializers.DateTimeField().to_representation(serializers.DateTimeField().get_default())
+            })
+
+        except Exception as e:
+            logger.error(f"Health check failed: {e}")
+            return Response(
+                {"status": "unhealthy", "error": str(e)},
+                status=status.HTTP_503_SERVICE_UNAVAILABLE
+            )
+
+
 # Helper function to create selectable options
 def create_options_list(option_strings):
     """Convert list of strings to list of selectable option objects"""

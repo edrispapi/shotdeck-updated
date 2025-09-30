@@ -17,7 +17,7 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',  # WhiteNoise for static files
     'corsheaders',  # CORS headers
     'rest_framework', 'drf_spectacular', 'drf_spectacular_sidecar', 'django_elasticsearch_dsl',
-    'apps.common', 'apps.search'
+    'apps.common', 'apps.search', 'apps.indexer'
 
 ]
 
@@ -62,6 +62,9 @@ ELASTICSEARCH_DSL = {
     },
     'signals': { 'auto_discover': False },
 }
+
+# Image Service Configuration
+IMAGE_SERVICE_URL = config('IMAGE_SERVICE_URL', default='http://image_service:8000')
 
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',

@@ -34,6 +34,7 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: deck_search_web
+    working_dir: /app
     environment:
       - DATABASE_URL=sqlite:///tmp/deck_search.db
       - SECRET_KEY=deck-search-secure-key-2024-prod-ready
@@ -42,11 +43,7 @@ services:
       - ELASTICSEARCH_HOST=deck_elasticsearch
       - ELASTICSEARCH_PORT=9200
       - ELASTICSEARCH_ENABLED=True
-      - KAFKA_BOOTSTRAP_SERVERS=kafka-1:29092,kafka-2:29092,kafka-3:29092
-      - KAFKA_IMAGE_CREATED_TOPIC=image_created
-      - KAFKA_IMAGE_UPDATED_TOPIC=image_updated
-      - KAFKA_IMAGE_DELETED_TOPIC=image_deleted
-      - KAFKA_CONSUMER_GROUP=deck_search_consumer_group
+      - IMAGE_SERVICE_URL=http://172.50.0.5:8000
       - DJANGO_SETTINGS_MODULE=core.settings
     volumes:
       - .:/app
@@ -66,51 +63,10 @@ services:
       start_period: 30s
     restart: unless-stopped
 
-  deck_search_consumer:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: deck_search_consumer
-    environment:
-      - SECRET_KEY=deck-search-secure-key-2024-prod-ready
-      - DEBUG=False
-      - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0
-      - ELASTICSEARCH_HOST=deck_elasticsearch
-      - ELASTICSEARCH_PORT=9200
-      - ELASTICSEARCH_ENABLED=True
-      - KAFKA_BOOTSTRAP_SERVERS=kafka-1:29092,kafka-2:29092,kafka-3:29092
-      - KAFKA_IMAGE_CREATED_TOPIC=image_created
-      - KAFKA_IMAGE_UPDATED_TOPIC=image_updated
-      - KAFKA_IMAGE_DELETED_TOPIC=image_deleted
-      - KAFKA_CONSUMER_GROUP=deck_search_consumer_group
-      - DJANGO_SETTINGS_MODULE=core.settings
-    volumes:
-      - .:/app
-    command: ["python", "manage.py", "run_kafka_consumer"]
-    depends_on:
-      deck_elasticsearch:
-        condition: service_healthy
-    networks:
-      - shotdeck_platform_network
-      - kafka_kafka-net
-    restart: unless-stopped
-    healthcheck:
-      test:
-        [
-          "CMD-SHELL",
-          "ps aux | grep run_kafka_consumer | grep -v grep || exit 1",
-        ]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 60s
-
 volumes:
   deck_es_data:
   deck_search_static:
 
 networks:
   shotdeck_platform_network:
-    external: true
-  kafka_kafka-net:
     external: true

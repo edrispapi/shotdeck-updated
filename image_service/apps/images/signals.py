@@ -16,10 +16,10 @@ def get_elasticsearch_client():
         logger.error(f"Failed to connect to Elasticsearch: {e}")
         return None
 
-def index_image(es_client, image):
-    """Index a single image in Elasticsearch"""
+def prepare_image_data(image):
+    """Prepare image data for indexing"""
     try:
-        # Convert image to dictionary
+        # Convert image to dictionary with all fields
         image_data = {
             'id': image.id,
             'slug': image.slug,
@@ -27,33 +27,34 @@ def index_image(es_client, image):
             'description': image.description,
             'image_url': image.image_url,
             'release_year': image.release_year,
-            'media_type': image.media_type,
-            'genre': image.genre,
-            'color': image.color,
-            'aspect_ratio': image.aspect_ratio,
-            'optical_format': image.optical_format,
-            'format': image.format,
-            'interior_exterior': image.interior_exterior,
-            'time_of_day': image.time_of_day,
-            'number_of_people': image.number_of_people,
-            'gender': image.gender,
-            'age': image.age,
-            'ethnicity': image.ethnicity,
-            'frame_size': image.frame_size,
-            'shot_type': image.shot_type,
-            'composition': image.composition,
-            'lens_size': image.lens_size,
-            'lens_type': image.lens_type,
-            'lighting': image.lighting,
-            'lighting_type': image.lighting_type,
-            'camera_type': image.camera_type,
-            'resolution': image.resolution,
-            'frame_rate': image.frame_rate,
             'exclude_nudity': image.exclude_nudity,
             'exclude_violence': image.exclude_violence,
-            'created_at': image.created_at.isoformat(),
-            'updated_at': image.updated_at.isoformat(),
+            'created_at': image.created_at.isoformat() if image.created_at else None,
+            'updated_at': image.updated_at.isoformat() if image.updated_at else None,
         }
+
+        # Handle option fields (ForeignKey to option models)
+        option_fields = [
+            'media_type', 'color', 'aspect_ratio', 'optical_format', 'format',
+            'interior_exterior', 'time_of_day', 'number_of_people', 'gender',
+            'age', 'ethnicity', 'frame_size', 'shot_type', 'composition',
+            'lens_size', 'lens_type', 'lighting', 'lighting_type', 'camera_type',
+            'resolution', 'frame_rate', 'actor', 'camera', 'lens', 'location',
+            'setting', 'film_stock', 'shot_time', 'description_filter', 'vfx_backing'
+        ]
+
+        for field_name in option_fields:
+            field_value = getattr(image, field_name, None)
+            if field_value:
+                image_data[field_name] = field_value.value if hasattr(field_value, 'value') else str(field_value)
+            else:
+                image_data[field_name] = None
+
+        # Handle genre (ManyToManyField)
+        if hasattr(image, 'genre') and image.genre.exists():
+            image_data['genre'] = [genre.value for genre in image.genre.all()]
+        else:
+            image_data['genre'] = []
 
         # Add movie data if exists
         if image.movie:
@@ -63,12 +64,41 @@ def index_image(es_client, image):
                 'title': image.movie.title,
                 'year': image.movie.year,
             }
+        else:
+            image_data['movie'] = {}
 
         # Add tags data
         image_data['tags'] = [
             {'id': tag.id, 'slug': tag.slug, 'name': tag.name}
             for tag in image.tags.all()
         ]
+
+        # Add color analysis fields
+        image_data.update({
+            'dominant_colors': image.dominant_colors or [],
+            'primary_color_hex': image.primary_color_hex,
+            'secondary_color_hex': image.secondary_color_hex,
+            'color_palette': image.color_palette or {},
+            'color_samples': image.color_samples or [],
+            'color_histogram': image.color_histogram or {},
+            'primary_colors': image.primary_colors or [],
+            'color_search_terms': image.color_search_terms or [],
+            'color_temperature': getattr(image, 'color_temperature', None),
+            'hue_range': getattr(image, 'hue_range', None),
+        })
+
+        return image_data
+
+    except Exception as e:
+        logger.error(f"Failed to prepare image data for {image.slug}: {e}")
+        return None
+
+def index_image(es_client, image):
+    """Index a single image in Elasticsearch"""
+    try:
+        image_data = prepare_image_data(image)
+        if not image_data:
+            return False
 
         # Index the document
         es_client.index(
@@ -79,9 +109,11 @@ def index_image(es_client, image):
         )
 
         logger.info(f"Successfully indexed image: {image.slug}")
+        return True
 
     except Exception as e:
         logger.error(f"Failed to index image {image.slug}: {e}")
+        return False
 
 def delete_image_from_index(es_client, image_id):
     """Delete an image from Elasticsearch index"""

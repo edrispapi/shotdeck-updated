@@ -28,7 +28,7 @@ services:
       - DB_PORT=5432
       - SECRET_KEY=django-insecure-dev-key-change-in-production
       - DEBUG=True
-      - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0
+      - ALLOWED_HOSTS=*
       # Kafka Configuration for deck_search integration
       - KAFKA_ENABLED=True
       - KAFKA_BOOTSTRAP_SERVERS=kafka-1:29092,kafka-2:29092,kafka-3:29092

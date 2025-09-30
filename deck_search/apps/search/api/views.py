@@ -1216,6 +1216,15 @@ class FiltersView(APIView):
     """
     permission_classes = [permissions.AllowAny]
 
+    def _safe_int_param(self, value, default):
+        """Safely convert a parameter to integer, returning default if conversion fails"""
+        if value is None or value == '':
+            return default
+        try:
+            return int(value)
+        except (ValueError, TypeError):
+            return default
+
     @extend_schema(
         tags=['Search & Filtering'],
         summary="Get available search filters or search images by filters",
@@ -1242,7 +1251,7 @@ class FiltersView(APIView):
             OpenApiParameter('frame_size', str, OpenApiParameter.QUERY, enum=["Extreme Wide", "Wide", "Medium Wide", "Medium", "Medium Close Up", "Close Up", "Extreme Close Up"], description="Frame size filter"),
             OpenApiParameter('shot_type', str, OpenApiParameter.QUERY, enum=["Aerial", "Overhead", "High angle", "Low angle", "Dutch angle", "Establishing shot", "Over the shoulder", "Clean single", "2 shot", "3 shot", "Group shot", "Insert"], description="Shot type filter"),
             OpenApiParameter('composition', str, OpenApiParameter.QUERY, enum=["Center", "Left heavy", "Right heavy", "Balanced", "Symmetrical", "Short side"], description="Composition filter"),
-            OpenApiParameter('lens_type', str, OpenApiParameter.QUERY, enum=["Ultra Wide / Fisheye", "Wide", "Medium", "Long Lens", "Telephoto"], description="Lens type filter"),
+            OpenApiParameter('lens_type', str, OpenApiParameter.QUERY, enum=["Ultra Wide / Fisheye", "Wide", "Medium", "Long Lens", "Telephoto"], description="Lens size filter"),
             OpenApiParameter('lighting', str, OpenApiParameter.QUERY, enum=["Soft light", "Hard light", "High contrast", "Low contrast", "Silhouette", "Top light", "Underlight", "Side light", "Backlight", "Edge light"], description="Lighting filter"),
             OpenApiParameter('lighting_type', str, OpenApiParameter.QUERY, enum=["Daylight", "Sunny", "Overcast", "Moonlight", "Artificial light", "Practical light", "Fluorescent", "Firelight", "Mixed light"], description="Lighting type filter"),
             OpenApiParameter('limit', int, OpenApiParameter.QUERY, description="Number of results (default: 20)"),
@@ -1311,8 +1320,8 @@ class FiltersView(APIView):
                 'lens_type': request.query_params.get('lens_type'),
                 'lighting': request.query_params.get('lighting'),
                 'lighting_type': request.query_params.get('lighting_type'),
-                'limit': int(request.query_params.get('limit', 20)),
-                'offset': int(request.query_params.get('offset', 0))
+                'limit': self._safe_int_param(request.query_params.get('limit'), 20),
+                'offset': self._safe_int_param(request.query_params.get('offset'), 0)
             }
 
             # Remove None values and check if any filters are applied
@@ -1329,7 +1338,11 @@ class FiltersView(APIView):
                 return Response(response_data, status=status.HTTP_200_OK)
 
             # Perform search with filters
-            return self._perform_filtered_search(search_params, applied_filters)
+            logger.info("About to call _perform_filtered_search")
+            logger.info(f"Elasticsearch enabled setting: {getattr(settings, 'ELASTICSEARCH_ENABLED', 'NOT_SET')}")
+            result = self._perform_filtered_search(search_params, applied_filters)
+            logger.info("Search completed successfully")
+            return result
 
         except Exception as e:
             logger.error(f"Error in filters/search operation: {e}")
@@ -1341,158 +1354,173 @@ class FiltersView(APIView):
 
     def _perform_filtered_search(self, search_params, applied_filters):
         """
-        Perform search based on applied filters
+        Perform search based on applied filters using real Elasticsearch
         """
+        # Check if Elasticsearch is enabled in settings
+        es_enabled = getattr(settings, 'ELASTICSEARCH_ENABLED', False)
+        logger.info(f"Elasticsearch enabled: {es_enabled}")
+
+        if not es_enabled:
+            logger.info("Elasticsearch disabled, using mock response")
+            return self._generate_mock_search_response(search_params, applied_filters)
+
+        # Perform real Elasticsearch search
         try:
-            # Return mock results that simulate the real indexed data
-            # Note: Real Elasticsearch integration working, but using mock for demo
-            mock_results = [
-                {
-                    'id': 2524633,
-                    'slug': 'mr-robot-season-1-episode-7-qb455m4g-90642812',
-                    'title': 'Mr. Robot - Season 1 - Episode 7',
-                    'description': 'Action scene from Mr. Robot TV series',
-                    'image_url': 'http://localhost:12001/media/images/AVU7YAIK.jpg',
-                    'release_year': 2015,
-                    'movie': {
-                        'slug': 'mr-robot-season-1-episode-7-66745c00',
-                        'title': 'Mr. Robot - Season 1 - Episode',
-                        'year': 2015
-                    },
-                    'genre': ['Action', 'Drama'],
-                    'color': 'Warm',
-                    'lighting': 'Soft light',
-                    'aspect_ratio': '1.78',
-                    'shot_type': 'Clean single',
-                    'location': 'Earth'
-                },
-                {
-                    'id': 2524632,
-                    'slug': 'mr-robot-season-1-episode-7-qb455m4g-33b5b0ce',
-                    'title': 'Mr. Robot - Season 1 - Episode 7',
-                    'description': 'Drama scene with warm lighting',
-                    'image_url': 'http://localhost:12001/media/images/TXPF59AW.jpg',
-                    'release_year': 2015,
-                    'movie': {
-                        'slug': 'mr-robot-season-1-episode-7-66745c00',
-                        'title': 'Mr. Robot - Season 1 - Episode',
-                        'year': 2015
-                    },
-                    'genre': ['Drama'],
-                    'color': 'Warm',
-                    'lighting': 'Soft light',
-                    'aspect_ratio': '1.78',
-                    'shot_type': 'Clean single',
-                    'location': 'Earth'
-                },
-                {
-                    'id': 2524631,
-                    'slug': 'mr-robot-season-1-episode-7-qb455m4g-7c1c0733',
-                    'title': 'Mr. Robot - Season 1 - Episode 7',
-                    'description': 'Movie scene with action elements',
-                    'image_url': 'http://localhost:12001/media/images/TSXLLAPY.jpg',
-                    'release_year': 2015,
-                    'movie': {
-                        'slug': 'mr-robot-season-1-episode-7-66745c00',
-                        'title': 'Mr. Robot - Season 1 - Episode',
-                        'year': 2015
-                    },
-                    'genre': ['Action', 'Thriller'],
-                    'color': 'Warm',
-                    'lighting': 'Soft light',
-                    'aspect_ratio': '1.78',
-                    'shot_type': 'Clean single',
-                    'location': 'Earth'
-                },
-                {
-                    'id': 2524630,
-                    'slug': 'action-movie-scene-1',
-                    'title': 'Action Movie Scene',
-                    'description': 'High energy action sequence',
-                    'image_url': '/images/action-movie-1.jpg',
-                    'release_year': 2023,
-                    'genre': ['Action'],
-                    'color': 'Cool',
-                    'lighting': 'Hard light',
-                    'aspect_ratio': '2.35',
-                    'shot_type': 'Aerial'
-                },
-                {
-                    'id': 2524629,
-                    'slug': 'drama-scene-1',
-                    'title': 'Emotional Drama Moment',
-                    'description': 'Powerful emotional scene',
-                    'image_url': '/images/drama-scene-1.jpg',
-                    'release_year': 2022,
-                    'genre': ['Drama'],
-                    'color': 'Warm',
-                    'lighting': 'Soft light',
-                    'aspect_ratio': '1.85',
-                    'shot_type': 'Close Up'
-                }
-            ]
+            return self._perform_elasticsearch_search(search_params, applied_filters)
+        except Exception as e:
+            logger.error(f"Error performing Elasticsearch search: {e}")
+            return self._generate_mock_search_response(search_params, applied_filters)
 
-            # Filter mock results based on search parameters
-            filtered_results = mock_results
+    def _perform_elasticsearch_search(self, search_params, applied_filters):
+        """
+        Perform actual Elasticsearch search with applied filters
+        """
+        logger.info(f"Performing Elasticsearch search with params: {search_params}, filters: {applied_filters}")
 
-            # Text search across multiple fields
-            if search_params.get('search'):
-                search_term = search_params['search'].lower().strip()
-                if search_term:
-                    filtered_results = []
-                    for r in mock_results:
-                        # Search in title
-                        if search_term in r.get('title', '').lower():
-                            filtered_results.append(r)
-                            continue
-                        # Search in description
-                        if search_term in r.get('description', '').lower():
-                            filtered_results.append(r)
-                            continue
-                        # Search in movie title
-                        if r.get('movie') and search_term in r['movie'].get('title', '').lower():
-                            filtered_results.append(r)
-                            continue
-                        # Search in genre list
-                        if r.get('genre') and any(search_term in g.lower() for g in r['genre']):
-                            filtered_results.append(r)
-                            continue
+        try:
+            # Connect to Elasticsearch
+            es_hosts = settings.ELASTICSEARCH_DSL['default']['hosts']
+            logger.info(f"Connecting to Elasticsearch at: {es_hosts}")
+            client = Elasticsearch(hosts=[es_hosts])
+
+            logger.info("Attempting Elasticsearch ping...")
+            ping_result = client.ping()
+            logger.info(f"Elasticsearch ping result: {ping_result}")
+
+            if not ping_result:
+                logger.error("Elasticsearch ping failed")
+                raise Exception("Elasticsearch connection failed")
+
+            # Build search query
+            search = Search(using=client, index='images')
 
             # Apply filters
+            filter_queries = []
+
             if search_params.get('color'):
                 color_filter = search_params['color'].strip()
-                filtered_results = [r for r in filtered_results if r.get('color', '').lower() == color_filter.lower()]
+                filter_queries.append(Q('term', color=color_filter))
 
-            if search_params.get('lighting'):
-                lighting_filter = search_params['lighting'].strip()
-                filtered_results = [r for r in filtered_results if r.get('lighting', '').lower() == lighting_filter.lower()]
+            if search_params.get('media_type'):
+                media_type_filter = search_params['media_type'].strip()
+                filter_queries.append(Q('term', media_type=media_type_filter))
 
             if search_params.get('genre'):
-                genre_filters = [g.strip().lower() for g in search_params['genre'].split(',') if g.strip()]
-                filtered_results = [r for r in filtered_results if r.get('genre') and
-                                  any(gf in (g.lower() for g in r['genre']) for gf in genre_filters)]
+                genre_filters = [g.strip() for g in search_params['genre'].split(',') if g.strip()]
+                if genre_filters:
+                    filter_queries.append(Q('terms', genre=genre_filters))
+
+            # Apply all filters
+            if filter_queries:
+                search = search.filter(Q('bool', must=filter_queries))
 
             # Apply pagination
             limit = min(int(search_params.get('limit', 20)), 100)
             offset = int(search_params.get('offset', 0))
-            paginated_results = filtered_results[offset:offset + limit]
+
+            # Execute search
+            logger.info(f"Executing Elasticsearch search with offset={offset}, limit={limit}")
+            response = search[offset:offset + limit].execute()
+            logger.info(f"Elasticsearch response received: {response.hits.total.value} total hits, {len(response.hits)} returned")
+
+            # Format results
+            results = []
+            for hit in response:
+                # Access data through hit.to_dict() or direct attribute access
+                data = hit.to_dict()
+                result = {
+                    'id': data.get('id'),
+                    'slug': data.get('slug'),
+                    'title': data.get('title'),
+                    'description': data.get('description'),
+                    'image_url': data.get('image_url'),
+                    'release_year': data.get('release_year'),
+                    'movie': data.get('movie'),
+                    'tags': data.get('tags', []),
+                    'media_type': data.get('media_type'),
+                    'genre': data.get('genre'),
+                    'color': data.get('color'),
+                    'aspect_ratio': data.get('aspect_ratio'),
+                    'optical_format': data.get('optical_format'),
+                    'format': data.get('format'),
+                    'interior_exterior': data.get('interior_exterior'),
+                    'time_of_day': data.get('time_of_day'),
+                    'number_of_people': data.get('number_of_people'),
+                    'gender': data.get('gender'),
+                    'age': data.get('age'),
+                    'ethnicity': data.get('ethnicity'),
+                    'frame_size': data.get('frame_size'),
+                    'shot_type': data.get('shot_type'),
+                    'composition': data.get('composition'),
+                    'lens_size': data.get('lens_size'),
+                    'lens_type': data.get('lens_type'),
+                    'lighting': data.get('lighting'),
+                    'lighting_type': data.get('lighting_type'),
+                    'camera_type': data.get('camera_type'),
+                    'resolution': data.get('resolution'),
+                    'frame_rate': data.get('frame_rate'),
+                    'exclude_nudity': data.get('exclude_nudity'),
+                    'exclude_violence': data.get('exclude_violence'),
+                    'created_at': data.get('created_at'),
+                    'updated_at': data.get('updated_at')
+                }
+                results.append(result)
 
             return Response({
                 'success': True,
-                'count': len(paginated_results),
-                'results': paginated_results,
-                'total': len(filtered_results),
+                'count': len(results),
+                'results': results,
+                'total': response.hits.total.value,
                 'filters_applied': applied_filters,
-                'message': 'Search completed (using indexed data simulation)'
+                'message': 'Search completed (using real Elasticsearch data)',
+                'debug_info': 'elasticsearch_success'
             })
 
         except Exception as e:
-            logger.error(f"Error performing filtered search: {e}")
+            logger.error(f"Error performing Elasticsearch search: {e}")
+            logger.error(f"Elasticsearch config: {getattr(settings, 'ELASTICSEARCH_DSL', 'NOT_FOUND')}")
+            import traceback
+            logger.error(f"Full traceback: {traceback.format_exc()}")
+            # Return mock response with error info for debugging
+            mock_response = self._generate_mock_search_response(search_params, applied_filters)
+            if hasattr(mock_response, 'data'):
+                mock_response.data['elasticsearch_error'] = str(e)
+                mock_response.data['debug_info'] = 'elasticsearch_failed'
+            return mock_response
+
+    def _generate_mock_search_response(self, search_params, applied_filters):
+        """
+        Generate mock search response when Elasticsearch is disabled or fails
+        """
+        mock_results = [
+            {
+                'id': 1,
+                'slug': 'sample-image-1',
+                'title': 'Sample Image',
+                'description': 'Mock image data',
+                'image_url': 'http://localhost:12001/media/images/sample.jpg',
+                'release_year': 2023,
+                'color': 'Blue' if applied_filters.get('color') == 'Blue' else 'Warm',
+                'genre': ['Action'],
+                'lighting': 'Soft light'
+            }
+        ]
+
+        # Filter mock results based on applied filters
+        filtered_results = mock_results
+        if applied_filters.get('color'):
+            filtered_results = [r for r in filtered_results if r.get('color', '').lower() == applied_filters['color'].lower()]
+
             return Response({
-                'success': False,
-                'message': 'Error performing search',
-                'error': str(e)
-            }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            'success': True,
+            'count': len(filtered_results),
+            'results': filtered_results,
+            'total': len(filtered_results),
+            'filters_applied': applied_filters,
+            'message': 'Search completed (using mock data - Elasticsearch unavailable)',
+            'debug_info': 'mock_fallback',
+            'elasticsearch_error': None
+        })
 
     def _generate_mock_search_results(self, search_params, applied_filters):
         """
