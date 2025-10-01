@@ -73,15 +73,111 @@ class TagSerializer(serializers.ModelSerializer):
         fields = ['id', 'slug', 'name']
         read_only_fields = ['slug']
 
+class ImageListSerializer(serializers.ModelSerializer):
+    """
+    Lightweight serializer for list views - optimized for performance
+    """
+    tags = TagSerializer(many=True, read_only=True)
+
+    # Only include the most essential value fields
+    media_type_value = serializers.SerializerMethodField()
+    color_value = serializers.SerializerMethodField()
+    movie_value = serializers.CharField(source='movie.title', read_only=True)
+    movie_slug = serializers.CharField(source='movie.slug', read_only=True)
+
+    class Meta:
+        model = Image
+        fields = [
+            'id', 'slug', 'title', 'description', 'image_url',
+            'tags', 'release_year', 'media_type', 'media_type_value',
+            'color', 'color_value', 'movie', 'movie_value', 'movie_slug',
+            'created_at', 'updated_at'
+        ]
+
+    def get_media_type_value(self, obj):
+        return obj.media_type.value if obj.media_type else None
+
+    def get_color_value(self, obj):
+        return obj.color.value if obj.color else None
+
+
+class MovieImageSerializer(serializers.ModelSerializer):
+    """Memory-optimized serializer for movie images - minimal fields, lazy loading"""
+
+    # Only essential fields to reduce memory usage
+    movie_title = serializers.CharField(source='movie.title', read_only=True)
+    movie_slug = serializers.CharField(source='movie.slug', read_only=True)
+    color_value = serializers.CharField(source='color.value', read_only=True)
+    media_type_value = serializers.CharField(source='media_type.value', read_only=True)
+
+    # Lazy tag and genre counts instead of full objects
+    tags_count = serializers.SerializerMethodField()
+    genre_count = serializers.SerializerMethodField()
+
+    class Meta:
+        model = Image
+        fields = [
+            'id', 'slug', 'title', 'description', 'image_url',
+            'movie_title', 'movie_slug', 'color_value', 'media_type_value',
+            'tags_count', 'genre_count', 'release_year',
+            'dominant_colors', 'primary_color_hex', 'created_at'
+        ]
+
+    def get_tags_count(self, obj):
+        """Lazy load tag count instead of full objects"""
+        return obj.tags.count()
+
+    def get_genre_count(self, obj):
+        """Lazy load genre count instead of full objects"""
+        return obj.genre.count()
+
+    def to_representation(self, instance):
+        """Memory-efficient representation with simple URL handling"""
+        representation = {
+            'id': instance.id,
+            'slug': instance.slug,
+            'title': instance.title,
+            'description': instance.description,
+            'movie_title': instance.movie.title if instance.movie else None,
+            'movie_slug': instance.movie.slug if instance.movie else None,
+            'color_value': instance.color.value if instance.color else None,
+            'media_type_value': instance.media_type.value if instance.media_type else None,
+            'tags_count': instance.tags.count(),
+            'genre_count': instance.genre.count(),
+            'release_year': instance.release_year,
+            'dominant_colors': instance.dominant_colors,
+            'primary_color_hex': instance.primary_color_hex,
+            'created_at': instance.created_at
+        }
+
+        # Simple URL handling
+        if instance.image_url:
+            if instance.image_url.startswith('/media/'):
+                request = self.context.get('request')
+                if request:
+                    representation['image_url'] = f"{request.scheme}://{request.get_host()}{instance.image_url}"
+                else:
+                    representation['image_url'] = f"http://localhost:9000{instance.image_url}"
+            else:
+                representation['image_url'] = instance.image_url
+
+        return representation
+
+
 class ImageSerializer(serializers.ModelSerializer):
     tags = TagSerializer(many=True, read_only=True)
     tag_ids = serializers.PrimaryKeyRelatedField(queryset=Tag.objects.all(), source='tags', many=True, write_only=True, required=False)
     genre = GenreOptionSerializer(many=True, read_only=True)
 
-    # Nested serializers for option fields
-    media_type_value = serializers.CharField(source='media_type.value', read_only=True)
+    # Optimized nested serializers for option fields (using select_related)
+    media_type_value = serializers.SerializerMethodField()
+    color_value = serializers.SerializerMethodField()
+    frame_size_value = serializers.SerializerMethodField()
+    shot_type_value = serializers.SerializerMethodField()
+    lighting_value = serializers.SerializerMethodField()
+
+    # Keep other fields as-is for now (will be lazy-loaded)
     genre_value = serializers.CharField(source='movie.genre', read_only=True)
-    color_value = serializers.CharField(source='color.value', read_only=True)
     aspect_ratio_value = serializers.CharField(source='aspect_ratio.value', read_only=True)
     optical_format_value = serializers.CharField(source='optical_format.value', read_only=True)
     format_value = serializers.CharField(source='format.value', read_only=True)
@@ -91,12 +187,9 @@ class ImageSerializer(serializers.ModelSerializer):
     gender_value = serializers.CharField(source='gender.value', read_only=True)
     age_value = serializers.CharField(source='age.value', read_only=True)
     ethnicity_value = serializers.CharField(source='ethnicity.value', read_only=True)
-    frame_size_value = serializers.CharField(source='frame_size.value', read_only=True)
-    shot_type_value = serializers.CharField(source='shot_type.value', read_only=True)
     composition_value = serializers.CharField(source='composition.value', read_only=True)
     lens_size_value = serializers.CharField(source='lens_size.value', read_only=True)
     lens_type_value = serializers.CharField(source='lens_type.value', read_only=True)
-    lighting_value = serializers.CharField(source='lighting.value', read_only=True)
     lighting_type_value = serializers.CharField(source='lighting_type.value', read_only=True)
     camera_type_value = serializers.CharField(source='camera_type.value', read_only=True)
     resolution_value = serializers.CharField(source='resolution.value', read_only=True)
@@ -106,6 +199,7 @@ class ImageSerializer(serializers.ModelSerializer):
 
     # New filter value fields
     movie_value = serializers.CharField(source='movie.title', read_only=True)
+    movie_slug = serializers.CharField(source='movie.slug', read_only=True)
     actor_value = serializers.CharField(source='actor.value', read_only=True)
     camera_value = serializers.CharField(source='camera.value', read_only=True)
     lens_value = serializers.CharField(source='lens.value', read_only=True)
@@ -134,7 +228,7 @@ class ImageSerializer(serializers.ModelSerializer):
             'frame_rate', 'frame_rate_value', 'time_period', 'time_period_value',
             'lab_process', 'lab_process_value',
             # New filter fields
-            'movie', 'movie_value', 'actor', 'actor_value', 'camera', 'camera_value', 'lens', 'lens_value',
+            'movie', 'movie_value', 'movie_slug', 'actor', 'actor_value', 'camera', 'camera_value', 'lens', 'lens_value',
             'location', 'location_value', 'setting', 'setting_value',
             'film_stock', 'film_stock_value', 'shot_time', 'shot_time_value',
             'description_filter', 'description_filter_value', 'vfx_backing', 'vfx_backing_value',
@@ -146,6 +240,21 @@ class ImageSerializer(serializers.ModelSerializer):
             'created_at', 'updated_at'
         ]
         read_only_fields = ['id', 'slug', 'created_at', 'updated_at']
+
+    def get_media_type_value(self, obj):
+        return obj.media_type.value if obj.media_type else None
+
+    def get_color_value(self, obj):
+        return obj.color.value if obj.color else None
+
+    def get_frame_size_value(self, obj):
+        return obj.frame_size.value if obj.frame_size else None
+
+    def get_shot_type_value(self, obj):
+        return obj.shot_type.value if obj.shot_type else None
+
+    def get_lighting_value(self, obj):
+        return obj.lighting.value if obj.lighting else None
 
     def to_representation(self, instance):
         representation = super().to_representation(instance)

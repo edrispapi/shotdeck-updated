@@ -43,7 +43,7 @@ services:
       - DECK_SERVICE_BUCKET=shotdeck-deck-service
     volumes:
       - .:/service
-      - /home/a/Desktop/shotdeck/shot_json_data:/host_data:ro
+      - /home/a/Desktop/shotdeck:/host_data:ro
       - /home/a/Desktop/shotdeck/shot_images:/service/media/images:ro
       - ./sample_data.json:/service/sample_data.json:ro # اضافه: mount فایل JSON برای import (اگر فایل وجود داره)
     ports:

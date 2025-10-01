@@ -647,6 +647,57 @@ class Image(models.Model):
         ordering = ['-created_at']
         verbose_name = "Image"
         verbose_name_plural = "Images"
+        indexes = [
+            # Performance indexes for API queries
+            models.Index(fields=['created_at'], name='image_created_at_idx'),
+            models.Index(fields=['movie'], name='image_movie_idx'),
+            models.Index(fields=['release_year'], name='image_release_year_idx'),
+            models.Index(fields=['media_type'], name='image_media_type_idx'),
+            models.Index(fields=['color'], name='image_color_idx'),
+            models.Index(fields=['shot_type'], name='image_shot_type_idx'),
+            models.Index(fields=['lighting'], name='image_lighting_idx'),
+            models.Index(fields=['camera_type'], name='image_camera_type_idx'),
+            models.Index(fields=['time_of_day'], name='image_time_of_day_idx'),
+            models.Index(fields=['interior_exterior'], name='image_interior_exterior_idx'),
+            models.Index(fields=['gender'], name='image_gender_idx'),
+            models.Index(fields=['age'], name='image_age_idx'),
+            models.Index(fields=['ethnicity'], name='image_ethnicity_idx'),
+            models.Index(fields=['frame_size'], name='image_frame_size_idx'),
+            models.Index(fields=['aspect_ratio'], name='image_aspect_ratio_idx'),
+            models.Index(fields=['optical_format'], name='image_optical_format_idx'),
+            models.Index(fields=['format'], name='image_format_idx'),
+            models.Index(fields=['lab_process'], name='image_lab_process_idx'),
+            models.Index(fields=['time_period'], name='image_time_period_idx'),
+            models.Index(fields=['number_of_people'], name='image_number_of_people_idx'),
+            models.Index(fields=['composition'], name='image_composition_idx'),
+            models.Index(fields=['lens_size'], name='image_lens_size_idx'),
+            models.Index(fields=['lens_type'], name='image_lens_type_idx'),
+            models.Index(fields=['lighting_type'], name='image_lighting_type_idx'),
+            models.Index(fields=['resolution'], name='image_resolution_idx'),
+            models.Index(fields=['frame_rate'], name='image_frame_rate_idx'),
+            models.Index(fields=['actor'], name='image_actor_idx'),
+            models.Index(fields=['camera'], name='image_camera_idx'),
+            models.Index(fields=['lens'], name='image_lens_idx'),
+            models.Index(fields=['location'], name='image_location_idx'),
+            models.Index(fields=['setting'], name='image_setting_idx'),
+            models.Index(fields=['film_stock'], name='image_film_stock_idx'),
+            models.Index(fields=['shot_time'], name='image_shot_time_idx'),
+            models.Index(fields=['description_filter'], name='image_description_filter_idx'),
+            models.Index(fields=['vfx_backing'], name='image_vfx_backing_idx'),
+            # Composite indexes for common queries
+            models.Index(fields=['movie', 'created_at'], name='image_movie_created_idx'),
+            models.Index(fields=['release_year', 'created_at'], name='image_year_created_idx'),
+            models.Index(fields=['shot_type', 'lighting'], name='image_shot_lighting_idx'),
+            models.Index(fields=['color', 'lighting'], name='image_color_lighting_idx'),
+            models.Index(fields=['camera_type', 'lens_type'], name='image_camera_lens_idx'),
+            # Advanced filter combinations
+            models.Index(fields=['shot_type', 'time_of_day'], name='image_shot_time_of_day_idx'),
+            models.Index(fields=['lighting', 'interior_exterior'], name='image_lighting_location_idx'),
+            models.Index(fields=['camera_type', 'film_stock'], name='image_camera_film_idx'),
+            models.Index(fields=['genre', 'release_year'], name='image_genre_year_idx'),
+            models.Index(fields=['actor', 'movie'], name='image_actor_movie_idx'),
+            models.Index(fields=['location', 'setting'], name='image_location_setting_idx'),
+        ]
 
     def __str__(self):
         return self.title

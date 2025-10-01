@@ -88,6 +88,10 @@ urlpatterns = [
     path('movie/<slug:slug>/images/', MovieViewSet.as_view({
         'get': 'get_movie_images'
     }), name='movie-images'),
+    # Test endpoint
+    path('test-movie-images/<slug:slug>/', MovieViewSet.as_view({
+        'get': 'get_movie_images'
+    }), name='test-movie-images'),
 
     # Tags - Only detail endpoint (list completely removed)
     path('tags/<slug:slug>/', TagViewSet.as_view({

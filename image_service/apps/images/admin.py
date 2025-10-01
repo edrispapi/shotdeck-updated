@@ -133,9 +133,9 @@ class ImageAdmin(ModelAdmin):
 
     def get_queryset(self, request):
         return super().get_queryset(request).select_related(
-            'movie', 'media_type', 'color', 'genre', 'aspect_ratio',
+            'movie', 'media_type', 'color', 'aspect_ratio',
             'actor', 'camera', 'lens', 'location'
-        )
+        ).prefetch_related('genre')
 
 
 # Tag admin

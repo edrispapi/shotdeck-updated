@@ -1,6 +1,7 @@
 # Path: /image_service/apps/images/api/views.py
 from apps.images.filters import ImageFilter
 import logging
+import time
 from rest_framework import viewsets, permissions, serializers, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -24,7 +25,7 @@ from apps.images.models import (
     FilmStockOption, ShotTimeOption, DescriptionOption, VfxBackingOption
 )
 from .serializers import (
-    ImageSerializer, MovieSerializer, TagSerializer,
+    ImageSerializer, MovieImageSerializer, ImageListSerializer, MovieSerializer, TagSerializer,
     # Option serializers
     GenreOptionSerializer, ColorOptionSerializer, MediaTypeOptionSerializer,
     AspectRatioOptionSerializer, OpticalFormatOptionSerializer, FormatOptionSerializer,
@@ -97,12 +98,73 @@ TIME_PERIOD_RANGES = {
 class ImageViewSet(viewsets.ModelViewSet):
     """
     API endpoint for viewing images using database queries with filtering.
+    Optimized for fast API responses with comprehensive indexing and query optimization.
     """
-    queryset = Image.objects.all().order_by('-created_at')
-    serializer_class = ImageSerializer
+    queryset = Image.objects.select_related(
+        'movie', 'media_type', 'color', 'frame_size', 'shot_type', 'lighting',
+        'aspect_ratio', 'optical_format', 'format', 'interior_exterior', 'time_of_day',
+        'number_of_people', 'gender', 'age', 'ethnicity', 'composition',
+        'lens_size', 'lens_type', 'lighting_type', 'camera_type', 'resolution',
+        'frame_rate', 'time_period', 'lab_process', 'actor', 'camera', 'lens',
+        'location', 'setting', 'film_stock', 'shot_time', 'description_filter',
+        'vfx_backing'
+    ).prefetch_related(
+        'tags', 'genre'
+    ).order_by('-created_at')
+
+    def get_queryset(self):
+        """Optimized queryset with dynamic field selection for better performance"""
+        queryset = super().get_queryset()
+
+        # For list views, defer heavy fields that aren't needed in listings
+        if self.action == 'list':
+            queryset = queryset.defer(
+                'dominant_colors', 'color_palette', 'color_histogram',
+                'color_samples', 'color_temperature', 'hue_range'
+            )
+
+        # Optimize ordering based on common query patterns
+        ordering = self.request.query_params.get('ordering', '-created_at')
+        if ordering in ['-created_at', '-updated_at', 'created_at', 'title']:
+            queryset = queryset.order_by(ordering)
+
+        return queryset
+
+    def filter_queryset(self, queryset):
+        """Optimized filtering with performance monitoring"""
+        start_time = time.time()
+
+        # Apply standard filtering
+        filtered_queryset = super().filter_queryset(queryset)
+
+        # Apply additional optimizations based on applied filters
+        applied_filters = {}
+        if hasattr(self.request, 'query_params'):
+            applied_filters = dict(self.request.query_params.lists())
+
+        # Apply filter-specific optimizations
+        filter_instance = self.filterset_class(data=self.request.query_params, queryset=filtered_queryset)
+        if hasattr(filter_instance, 'optimize_filter_query'):
+            filtered_queryset = filter_instance.optimize_filter_query(filtered_queryset, applied_filters)
+
+        # Log performance for slow queries
+        duration = time.time() - start_time
+        if duration > 0.1:  # Log queries taking > 100ms
+            logger.info(
+                f'Slow filter query: {dict(self.request.query_params)} '
+                f'took {duration:.3f}s, returned {filtered_queryset.count()} results'
+            )
+
+        return filtered_queryset
+
     filter_backends = [DjangoFilterBackend]
     filterset_class = ImageFilter
     lookup_field = 'slug'
+
+    def get_serializer_class(self):
+        if self.action == 'list':
+            return ImageListSerializer  # Lighter serializer for list views
+        return ImageSerializer  # Full serializer for detail views
 
     def get_permissions(self):
         """
@@ -376,7 +438,11 @@ class MovieViewSet(viewsets.ModelViewSet):
     """
     API endpoint for viewing and managing movies.
     """
-    queryset = Movie.objects.all().order_by('-year')
+    queryset = Movie.objects.select_related(
+        'director', 'cinematographer', 'editor', 'colorist'
+    ).prefetch_related(
+        'images'
+    ).all().order_by('-year')
     serializer_class = MovieSerializer
     lookup_field = 'slug'
 
@@ -393,12 +459,53 @@ class MovieViewSet(viewsets.ModelViewSet):
     @action(detail=True, methods=['get'])
     def get_movie_images(self, request, slug=None):
         """
-        Get all images associated with a specific movie.
+        Get all images associated with a specific movie. Memory-optimized with pagination.
         """
-        movie = self.get_object()
-        images = movie.images.all()
-        serializer = ImageSerializer(images, many=True, context={'request': request})
-        return Response(serializer.data)
+        try:
+            # Get movie directly by slug to avoid get_object() issues
+            movie = Movie.objects.select_related('director').get(slug=slug)
+
+            # Use optimized queryset with select_related for foreign keys
+            images = movie.images.select_related(
+                'movie', 'color', 'media_type'
+            ).prefetch_related('tags', 'genre').order_by('created_at')
+
+            # Check for pagination parameters
+            page = request.query_params.get('page', 1)
+            limit = request.query_params.get('limit', 50)  # Default 50 images per page
+
+            try:
+                page = int(page)
+                limit = min(int(limit), 200)  # Max 200 images per page
+            except (ValueError, TypeError):
+                page = 1
+                limit = 50
+
+            # Calculate offset and get paginated results
+            offset = (page - 1) * limit
+            paginated_images = images[offset:offset + limit]
+            total_images = images.count()
+
+            # Use simplified serializer for better reliability
+            serializer = MovieImageSerializer(paginated_images, many=True, context={'request': request})
+
+            response_data = {
+                'count': len(serializer.data),
+                'total_count': total_images,
+                'page': page,
+                'limit': limit,
+                'total_pages': (total_images + limit - 1) // limit,
+                'results': serializer.data
+            }
+
+            return Response(response_data)
+
+        except Movie.DoesNotExist:
+            return Response({"error": "Movie not found"}, status=404)
+        except Exception as e:
+            # Log the error and return a helpful message
+            logger.error(f"Error in get_movie_images for slug {slug}: {str(e)}")
+            return Response({"error": f"Failed to retrieve images: {str(e)}"}, status=500)
 
 
 @extend_schema(tags=['Tag Operations'])
@@ -1267,7 +1374,7 @@ class FiltersView(APIView):
                 'search': request.query_params.get('search'),
                 'tags': request.query_params.get('tags'),
                 'movie': request.query_params.get('movie'),
-                'actors': request.query_params.get('actors'),
+                'actor': request.query_params.get('actor'),  # Changed from 'actors'
                 'camera': request.query_params.get('camera'),
                 'lens': request.query_params.get('lens'),
                 'location': request.query_params.get('location'),
@@ -1284,13 +1391,13 @@ class FiltersView(APIView):
                 'aspect_ratio': request.query_params.get('aspect_ratio'),
                 'optical_format': request.query_params.get('optical_format'),
                 'lab_process': request.query_params.get('lab_process'),
-                'film_format': request.query_params.get('film_format'),
-                'int_ext': request.query_params.get('int_ext'),
+                'format': request.query_params.get('format'),  # Changed from 'film_format'
+                'interior_exterior': request.query_params.get('interior_exterior'),  # Changed from 'int_ext'
                 'time_of_day': request.query_params.get('time_of_day'),
-                'numpeople': request.query_params.get('numpeople'),
+                'number_of_people': request.query_params.get('number_of_people'),  # Changed from 'numpeople'
                 'gender': request.query_params.get('gender'),
-                'subject_age': request.query_params.get('subject_age'),
-                'subject_ethnicity': request.query_params.get('subject_ethnicity'),
+                'age': request.query_params.get('age'),  # Changed from 'subject_age'
+                'ethnicity': request.query_params.get('ethnicity'),  # Changed from 'subject_ethnicity'
                 'frame_size': request.query_params.get('frame_size'),
                 'shot_type': request.query_params.get('shot_type'),
                 'composition': request.query_params.get('composition'),
@@ -1308,10 +1415,34 @@ class FiltersView(APIView):
             if not has_filters:
                 # Return the filter configuration (no search parameters provided)
                 filters_data = self._get_filter_configuration()
+
+                # Add smart filtering information
+                smart_filtering_info = {
+                    "smart_filtering_enabled": True,
+                    "description": "This system allows users to select 'every option' including empty categories, and still get results from working filters.",
+                    "behavior": "If a selected filter has no matching images in the database, it is automatically skipped instead of returning zero results. This ensures users always get relevant search results.",
+                    "working_categories": [
+                        "media_type", "color", "frame_size", "shot_type", "lighting",
+                        "aspect_ratio", "optical_format", "format", "time_period",
+                        "interior_exterior", "time_of_day", "composition", "lens_size", "lens_type"
+                    ],
+                    "categories_with_limited_data": [
+                        "genre (ManyToMany relationship)"
+                    ],
+                    "categories_currently_empty": [
+                        "actor", "age", "gender", "ethnicity", "number_of_people",
+                        "camera_type", "resolution", "frame_rate", "camera", "lens",
+                        "location", "setting", "film_stock", "shot_time",
+                        "description_filter", "vfx_backing", "lab_process"
+                    ],
+                    "usage_tip": "You can select options from ALL categories - the system will intelligently use whatever filters have matching data."
+                }
+
                 response_data = {
                     "success": True,
-                    "message": "Filters",
-                    "data": filters_data
+                    "message": "Filters with Smart Filtering",
+                    "data": filters_data,
+                    "smart_filtering": smart_filtering_info
                 }
                 return Response(response_data, status=status.HTTP_200_OK)
 
@@ -1598,7 +1729,12 @@ class FiltersView(APIView):
                 'results': serializer.data,
                 'total': total_count,
                 'filters_applied': applied_filters,
-                'message': 'Image search completed from database',
+                'smart_filtering': {
+                    'enabled': True,
+                    'description': 'This search used smart filtering - filters with no matching data were automatically skipped to ensure you get results',
+                    'note': 'You can select options from ALL categories including empty ones, and the system will intelligently use whatever filters have matching data'
+                },
+                'message': 'Image search completed from database with smart filtering',
                 'source': 'database'
             })
 

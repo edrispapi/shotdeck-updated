@@ -39,6 +39,7 @@ import time
 import random
 import uuid
 import multiprocessing as mp
+import gc  # Garbage collection for memory optimization
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
 from collections import defaultdict, Counter
@@ -112,7 +113,7 @@ class FastShotDeckQuery:
 
     def __init__(self, base_path: str = '/host_data', enable_cache: bool = True):
         self.base_path = Path(base_path)
-        self.json_dir = self.base_path  # JSON files are directly in /host_data
+        self.json_dir = self.base_path / 'shot_json_data'  # JSON files are in /host_data/shot_json_data
         self.images_dir = Path('/host_data')  # No images mounted - URLs only
         self.movies_csv = self.base_path / 'movies_and_tv_data.csv'
 
@@ -753,11 +754,27 @@ class FastShotDeckQuery:
                 'duration': None,
             }
 
-            # Create or update movie
-            movie, created = Movie.objects.get_or_create(
-                title=movie_title,
-                defaults=movie_data
-            )
+            # Enhanced duplicate prevention for movies
+            movie = None
+            existing_movie = None
+
+            # Check for existing movie by title (exact match)
+            existing_movie = Movie.objects.filter(title=movie_title).first()
+
+            if existing_movie:
+                if not self.quiet:
+                    print(f"⚠️  Duplicate movie found: {movie_title}")
+                # Update existing movie with new data
+                for key, value in movie_data.items():
+                    if value is not None and value != '':
+                        setattr(existing_movie, key, value)
+                existing_movie.save()
+                movie = existing_movie
+                created = False
+            else:
+                # Create new movie
+                movie = Movie.objects.create(title=movie_title, **movie_data)
+                created = True
 
             if created:
                 print(f"🎬 Created movie: {movie}")
@@ -802,6 +819,39 @@ class FastShotDeckQuery:
                     'description': self._extract_image_description(details) or 'Shot from movie',
                 }
 
+                # Enhanced duplicate prevention using multiple unique identifiers
+                duplicate_check_fields = []
+
+                # Primary: Use image_id if available (most reliable)
+                if image_id:
+                    duplicate_check_fields.append(('id', image_id))
+
+                # Secondary: Use image_url (if image_id not available)
+                if image_url:
+                    duplicate_check_fields.append(('image_url', image_url))
+
+                # Check for existing images using multiple criteria
+                existing_image = None
+                for field_name, field_value in duplicate_check_fields:
+                    if field_name == 'id':
+                        # Check by image_id in title or as a custom field
+                        existing_image = Image.objects.filter(
+                            models.Q(title__icontains=str(field_value)) |
+                            models.Q(slug__icontains=str(field_value))
+                        ).first()
+                    elif field_name == 'image_url':
+                        existing_image = Image.objects.filter(image_url=field_value).first()
+
+                    if existing_image:
+                        if not self.quiet:
+                            print(f"⚠️  Duplicate image found (by {field_name}): {existing_image.title}")
+                        # Update existing image instead of creating duplicate
+                        for key, value in image_data.items():
+                            if value is not None:
+                                setattr(existing_image, key, value)
+                        existing_image.save()
+                        return True  # Successfully "updated" (prevented duplicate)
+
                 # Extract additional image metadata from shot_info
                 shot_info = details.get('shot_info', {})
                 if shot_info:
@@ -829,7 +879,7 @@ class FastShotDeckQuery:
                         'age': self._extract_value_from_section(shot_info, 'age'),
                         'ethnicity': self._extract_value_from_section(shot_info, 'ethnicity'),
                         'lens_size': self._extract_value_from_section(shot_info, 'lens_size'),
-                        'camera_type': self._extract_value_from_section(shot_info, 'camera_type'),
+                        'camera_type': self._extract_value_from_section(img_data.get('metadata', {}), 'camera_type') or self._extract_value_from_section(shot_info, 'camera_type'),
                         'resolution': self._extract_value_from_section(shot_info, 'resolution'),
                         'frame_rate': self._extract_value_from_section(shot_info, 'frame_rate'),
                         'lab_process': self._extract_value_from_section(shot_info, 'lab_process'),
@@ -968,6 +1018,39 @@ class FastShotDeckQuery:
                     }
                 )
 
+                # Extract and save genre (ManyToManyField) - inherit from movie
+                if not self.quiet:
+                    print(f"🔍 Processing image: {image.title} (created: {img_created}, has_genre: {image.genre.exists()})")
+                    print(f"   Movie available: {movie is not None}, Movie genre: {movie.genre if movie else None}")
+                if img_created or not image.genre.exists():  # Only update if new or empty
+                    if movie and movie.genre:  # Inherit genre from movie
+                        if not self.quiet:
+                            print(f"📝 Movie genre: {movie.genre}")
+                        # Movie genre is a string, convert to GenreOption objects
+                        genre_names = [g.strip() for g in movie.genre.split(',') if g.strip()]
+                        if genre_names:
+                            genre_objects = []
+                            for genre_name in genre_names:
+                                genre_option, created = GenreOption.objects.get_or_create(
+                                    value=genre_name,
+                                    defaults={'display_order': 0}
+                                )
+                                genre_objects.append(genre_option)
+
+                            # Set the many-to-many relationship
+                            image.genre.set(genre_objects)
+                            if not self.quiet:
+                                print(f"📽️  Set genres for image from movie: {genre_names}")
+                        else:
+                            if not self.quiet:
+                                print("⚠️  No genre names extracted")
+                    else:
+                        if not self.quiet:
+                            print(f"⚠️  Movie or movie.genre missing: movie={movie}, genre={movie.genre if movie else None}")
+                else:
+                    if not self.quiet:
+                        print("⏭️  Skipping genre update (image already has genres or not newly created)")
+
                 # Extract and save tags (always do this, even for existing images)
                 tags = []
                 shot_info = details.get('shot_info', {})
@@ -978,14 +1061,29 @@ class FastShotDeckQuery:
                             tags.append(tag_item['display_value'])
 
                 if tags:
-                    # Get or create tag objects
+                    # Get or create tag objects (with duplicate prevention)
                     tag_objects = []
                     for tag_name in tags:
-                        tag, created = Tag.objects.get_or_create(
+                        # Clean and normalize tag name
+                        tag_name = tag_name.strip()
+                        if not tag_name:
+                            continue
+
+                        # Check for existing tag (case-insensitive)
+                        existing_tag = Tag.objects.filter(name__iexact=tag_name).first()
+                        if existing_tag:
+                            tag_objects.append(existing_tag)
+                            if not self.quiet:
+                                print(f"⚠️  Using existing tag: {tag_name}")
+                        else:
+                            # Create new tag
+                            tag = Tag.objects.create(
                             name=tag_name,
-                            defaults={'slug': slugify(tag_name)}
+                                slug=slugify(tag_name)
                         )
                         tag_objects.append(tag)
+                        if not self.quiet:
+                            print(f"🏷️  Created tag: {tag_name}")
 
                     # Clear existing tags and add new ones
                     image.tags.clear()
@@ -1206,7 +1304,7 @@ class FastShotDeckQuery:
 class ParallelUltraProcessor:
     """Maximum speed parallel processor using multiprocessing"""
 
-    def __init__(self, json_dir='/host_data', images_dir='/service/media/images',
+    def __init__(self, json_dir='/host_data/shot_json_data', images_dir='/service/media/images',
                  batch_size=2000, quiet=True, max_workers=None):
         self.json_dir = Path(json_dir)
         self.images_dir = Path(images_dir)
@@ -1429,7 +1527,7 @@ class ParallelUltraProcessor:
         return self._extract_color_from_section(shot_info)
 
     def _bulk_process_movies(self, movie_data_list):
-        """Bulk process movies - simplified version"""
+        """Memory-optimized bulk process movies using batch operations"""
         if not movie_data_list:
             return 0
 
@@ -1459,47 +1557,73 @@ class ParallelUltraProcessor:
 
         from apps.images.models import Movie, GenreOption
 
+        # Memory optimization: Process in small batches
+        BATCH_SIZE = 50
         movies_created = 0
-        for movie_data in movie_data_list:
-            try:
-                title = movie_data.get('title', '').strip()
-                if not title:
+
+        # Pre-fetch genre options to reduce database queries
+        genre_cache = {g.value: g for g in GenreOption.objects.all()}
+
+        for i in range(0, len(movie_data_list), BATCH_SIZE):
+            batch = movie_data_list[i:i + BATCH_SIZE]
+            movies_to_create = []
+
+            # Check existing titles in batch to avoid duplicates
+            titles = [movie_data.get('title', '').strip() for movie_data in batch if movie_data.get('title', '').strip()]
+            if titles:
+                existing_titles = set(Movie.objects.filter(title__in=titles).values_list('title', flat=True))
+
+            # Process batch
+            for movie_data in batch:
+                try:
+                    title = movie_data.get('title', '').strip()
+                    if not title or title in existing_titles:
+                        continue
+
+                    movie_slug = self._generate_unique_slug(Movie, title)
+
+                    # Prepare movie data for bulk creation
+                    movie_data_dict = {
+                        'title': title,
+                        'slug': movie_slug,
+                        'description': movie_data.get('description', ''),
+                        'year': movie_data.get('year'),
+                        'duration': movie_data.get('duration'),
+                    }
+
+                    # Handle genre using cache
+                    genre_name = movie_data.get('genre')
+                    if genre_name and genre_name in genre_cache:
+                        movie_data_dict['genre'] = genre_cache[genre_name]
+
+                    movies_to_create.append(Movie(**movie_data_dict))
+
+                except Exception as e:
+                    # Silent error handling in parallel processing
                     continue
 
-                # Check if movie already exists
-                if Movie.objects.filter(title=title).exists():
-                    continue
+            # Bulk create movies for this batch
+            if movies_to_create:
+                try:
+                    Movie.objects.bulk_create(movies_to_create, ignore_conflicts=True)
+                    movies_created += len(movies_to_create)
+                except Exception as e:
+                    # Fallback to individual saves if bulk fails
+                    for movie in movies_to_create:
+                        try:
+                            movie.save()
+                            movies_created += 1
+                        except:
+                            pass
 
-                movie = Movie(
-                    title=title,
-                    year=movie_data.get('year'),
-                    description=movie_data.get('description', ''),
-                    duration=movie_data.get('duration'),
-                )
-
-                # Set slug
-                movie.slug = self._generate_unique_slug(Movie, title)
-
-                # Handle genre (simplified)
-                genre_name = movie_data.get('genre')
-                if genre_name:
-                    try:
-                        genre = GenreOption.objects.get(value=genre_name)
-                        movie.genre = genre
-                    except:
-                        pass
-
-                movie.save()  # Save individually in parallel processing
-                movies_created += 1
-
-            except Exception as e:
-                # Silent error handling in parallel processing
-                pass
+            # Clear memory after each batch
+            del movies_to_create
+            del batch
 
         return movies_created
 
-    def _bulk_process_images(self, image_data_list, movie_map):
-        """Bulk process images - simplified version for parallel processing"""
+    def _bulk_process_images_raw_sql(self, image_data_list, movie_map):
+        """Hyper-fast bulk process images using raw SQL"""
         if not image_data_list:
             return 0
 
@@ -1527,61 +1651,182 @@ class ParallelUltraProcessor:
             )
             django.setup()
 
+        from django.db import connection
         from apps.images.models import Image, Movie, ColorOption
 
         images_created = 0
-        for image_data in image_data_list:
-            try:
-                movie_title = image_data.get('movie_title', '')
-                image_id = image_data.get('image_id', '')
 
-                if not movie_title or not image_id:
-                    continue
+        # Pre-fetch color options and movies for raw SQL
+        color_map = {c.value: c.id for c in ColorOption.objects.all()}
+        movie_id_map = {m.title: m.id for m in Movie.objects.all()}
 
-                # Ensure values are not empty for slug generation
-                movie_title = movie_title or "unknown-movie"
-                image_id = image_id or f"img-{uuid.uuid4().hex[:8]}"
+        # Process in large batches for raw SQL efficiency
+        BATCH_SIZE = 1000
 
-                slug_base = f"{movie_title}-{image_id}"
-                image_slug = self._generate_unique_slug(Image, slug_base)
+        for i in range(0, len(image_data_list), BATCH_SIZE):
+            batch = image_data_list[i:i + BATCH_SIZE]
 
-                # Double-check slug is not empty
-                if not image_slug or image_slug == '-':
-                    image_slug = f"img-{uuid.uuid4().hex[:12]}"
-
-                # Check if image already exists
-                if Image.objects.filter(slug=image_slug).exists():
-                    continue
-
-                # Find movie
+            # Prepare data for bulk insert
+            values_list = []
+            for image_data in batch:
                 try:
-                    movie = Movie.objects.get(title=movie_title)
-                except Movie.DoesNotExist:
+                    movie_title = image_data.get('movie_title', '')
+                    image_id = image_data.get('image_id', '')
+
+                    if not movie_title or not image_id:
+                        continue
+
+                    movie_id = movie_id_map.get(movie_title)
+                    if not movie_id:
+                        continue
+
+                    slug_base = f"{movie_title}-{image_id}"
+                    image_slug = self._generate_unique_slug(Image, slug_base)
+
+                    # Prepare values for SQL insert
+                    title = image_data.get('title', '')[:500]  # Truncate if too long
+                    description = image_data.get('description', '')[:2000]  # Truncate
+                    image_url = get_image_url(f"{image_id}.jpg")
+
+                    # Get color ID
+                    color_name = image_data.get('color')
+                    color_id = color_map.get(color_name) if color_name else None
+
+                    values_list.append((
+                        movie_id, title, image_slug, description, image_url, color_id
+                    ))
+
+                except Exception as e:
                     continue
 
-                image = Image(
-                    movie=movie,
-                    title=image_data.get('title', ''),
-                    slug=image_slug,
-                    description=image_data.get('description', ''),
-                    image_url=get_image_url(f"{image_id}.jpg"),
-                )
+            # Bulk insert using raw SQL
+            if values_list:
+                try:
+                    with connection.cursor() as cursor:
+                        cursor.executemany("""
+                            INSERT INTO images_image
+                            (movie_id, title, slug, description, image_url, color_id, created_at, updated_at)
+                            VALUES (%s, %s, %s, %s, %s, %s, NOW(), NOW())
+                            ON CONFLICT (slug) DO NOTHING
+                        """, values_list)
+                        images_created += cursor.rowcount
+                except Exception as e:
+                    # Fallback to ORM if raw SQL fails
+                    images_to_create = []
+                    for movie_id, title, slug, description, image_url, color_id in values_list[:100]:  # Limit fallback
+                        try:
+                            img = Image(
+                                movie_id=movie_id,
+                                title=title,
+                                slug=slug,
+                                description=description,
+                                image_url=image_url
+                            )
+                            if color_id:
+                                img.color_id = color_id
+                            images_to_create.append(img)
+                        except:
+                            pass
 
-                # Handle color
-                color_name = image_data.get('color')
-                if color_name:
-                    try:
-                        color = ColorOption.objects.get(value=color_name)
-                        image.color = color
-                    except:
-                        pass
+                    if images_to_create:
+                        Image.objects.bulk_create(images_to_create, ignore_conflicts=True)
+                        images_created += len(images_to_create)
 
-                image.save()  # Save individually in parallel processing
-                images_created += 1
+            # Clear memory
+            del values_list
+            del batch
 
-            except Exception as e:
-                # Silent error handling in parallel processing
-                pass
+        return images_created
+
+    def _bulk_process_images_raw_sql(self, image_data_list, movie_map):
+        """Hyper-fast bulk process images using raw SQL for UltraFastProcessor"""
+        if not image_data_list:
+            return 0
+
+        from django.db import connection
+        from apps.images.models import Image, Movie, ColorOption
+
+        images_created = 0
+
+        # Pre-fetch color options and movies for raw SQL
+        color_map = {c.value: c.id for c in ColorOption.objects.all()}
+        movie_id_map = {m.title: m.id for m in Movie.objects.all()}
+
+        # Process in large batches for raw SQL efficiency
+        BATCH_SIZE = 1000
+
+        for i in range(0, len(image_data_list), BATCH_SIZE):
+            batch = image_data_list[i:i + BATCH_SIZE]
+
+            # Prepare data for bulk insert
+            values_list = []
+            for image_data in batch:
+                try:
+                    movie_title = image_data.get('movie_title', '')
+                    image_id = image_data.get('image_id', '')
+
+                    if not movie_title or not image_id:
+                        continue
+
+                    movie_id = movie_id_map.get(movie_title)
+                    if not movie_id:
+                        continue
+
+                    slug_base = f"{movie_title}-{image_id}"
+                    image_slug = self._generate_unique_slug(Image, slug_base)
+
+                    # Prepare values for SQL insert
+                    title = image_data.get('title', '')[:500]  # Truncate if too long
+                    description = image_data.get('description', '')[:2000]  # Truncate
+                    image_url = get_image_url(f"{image_id}.jpg")
+
+                    # Get color ID
+                    color_name = image_data.get('color')
+                    color_id = color_map.get(color_name) if color_name else None
+
+                    values_list.append((
+                        movie_id, title, image_slug, description, image_url, color_id
+                    ))
+
+                except Exception as e:
+                    continue
+
+            # Bulk insert using raw SQL
+            if values_list:
+                try:
+                    with connection.cursor() as cursor:
+                        cursor.executemany("""
+                            INSERT INTO images_image
+                            (movie_id, title, slug, description, image_url, color_id, created_at, updated_at)
+                            VALUES (%s, %s, %s, %s, %s, %s, NOW(), NOW())
+                            ON CONFLICT (slug) DO NOTHING
+                        """, values_list)
+                        images_created += cursor.rowcount
+                except Exception as e:
+                    # Fallback to ORM if raw SQL fails
+                    images_to_create = []
+                    for movie_id, title, slug, description, image_url, color_id in values_list[:100]:  # Limit fallback
+                        try:
+                            img = Image(
+                                movie_id=movie_id,
+                                title=title,
+                                slug=slug,
+                                description=description,
+                                image_url=image_url
+                            )
+                            if color_id:
+                                img.color_id = color_id
+                            images_to_create.append(img)
+                        except:
+                            pass
+
+                    if images_to_create:
+                        Image.objects.bulk_create(images_to_create, ignore_conflicts=True)
+                        images_created += len(images_to_create)
+
+            # Clear memory
+            del values_list
+            del batch
 
         return images_created
 
@@ -1589,19 +1834,169 @@ class ParallelUltraProcessor:
 class UltraFastProcessor:
     """Ultra-fast processor using bulk operations and raw SQL"""
 
-    def __init__(self, json_dir='/host_data', images_dir='/service/media/images', batch_size=500, quiet=False):
-        self.json_dir = Path(json_dir)
+    def __init__(self, json_dir='/host_data', images_dir='/service/media/images', batch_size=50, quiet=False):
+        # If json_dir is just /host_data and shot_json_data exists, use the subdirectory
+        json_path = Path(json_dir)
+        if json_path == Path('/host_data') and (json_path / 'shot_json_data').exists():
+            json_path = json_path / 'shot_json_data'
+
+        self.json_dir = json_path
         self.images_dir = Path(images_dir)
         self.batch_size = batch_size
         self.quiet = quiet
+
+        # Performance optimizations
+        self.processed_count = 0
+        self.memory_threshold = 1024  # MB - trigger GC when memory usage exceeds this
 
         # Cache for option lookups
         self.option_cache = defaultdict(dict)
         self.movie_cache = {}
         self.image_files = []
 
-        # Stats
-        self.stats = defaultdict(int)
+        # Stats tracking
+        self.stats = {'movies_created': 0, 'images_created': 0}
+
+    @staticmethod
+    def prevent_duplicate_creation(model_class, lookup_field, lookup_value, **defaults):
+        """
+        Generic method to prevent duplicate creation of model instances.
+        Checks for existing instance and updates it, or creates new one.
+
+        Args:
+            model_class: Django model class
+            lookup_field: Field name to check for duplicates (e.g., 'name', 'value', 'slug')
+            lookup_value: Value to check for duplicates
+            **defaults: Default values for creation
+
+        Returns:
+            tuple: (instance, created) where created is True if new instance was created
+        """
+        if not lookup_value:
+            return None, False
+
+        # Clean the lookup value
+        lookup_value = str(lookup_value).strip()
+        if not lookup_value:
+            return None, False
+
+        # Try to find existing instance
+        filter_kwargs = {lookup_field: lookup_value}
+        existing_instance = model_class.objects.filter(**filter_kwargs).first()
+
+        if existing_instance:
+            # Update existing instance with new defaults
+            updated = False
+            for key, value in defaults.items():
+                if value is not None and getattr(existing_instance, key) != value:
+                    setattr(existing_instance, key, value)
+                    updated = True
+            if updated:
+                existing_instance.save()
+            return existing_instance, False  # Not created, but updated
+
+        # For models with slug field, handle slug conflicts
+        if hasattr(model_class, 'slug') and 'slug' in defaults:
+            base_slug = defaults['slug']
+            slug = base_slug
+            counter = 1
+            while model_class.objects.filter(slug=slug).exists():
+                slug = f"{base_slug}-{counter}"
+                counter += 1
+            defaults['slug'] = slug
+
+        # Create new instance
+        create_kwargs = {lookup_field: lookup_value}
+        create_kwargs.update(defaults)
+        new_instance = model_class.objects.create(**create_kwargs)
+        return new_instance, True  # Created
+
+    @staticmethod
+    def prevent_duplicate_option_creation(option_class, value, **defaults):
+        """
+        Specialized method for option models that use 'value' field.
+        Includes case-insensitive duplicate checking.
+        """
+        if not value:
+            return None, False
+
+        value = str(value).strip()
+        if not value:
+            return None, False
+
+        # Case-insensitive search for existing option
+        existing_option = option_class.objects.filter(value__iexact=value).first()
+
+        if existing_option:
+            # Update existing option with new defaults
+            updated = False
+            for key, val in defaults.items():
+                if val is not None and getattr(existing_option, key) != val:
+                    setattr(existing_option, key, val)
+                    updated = True
+            if updated:
+                existing_option.save()
+            return existing_option, False
+
+        # Create new option
+        create_kwargs = {'value': value}
+        create_kwargs.update(defaults)
+        new_option = option_class.objects.create(**create_kwargs)
+        return new_option, True
+
+    def check_memory_usage(self):
+        """Check current memory usage and trigger GC if needed"""
+        try:
+            import psutil
+            process = psutil.Process()
+            memory_mb = process.memory_info().rss / 1024 / 1024
+
+            if memory_mb > self.memory_threshold:
+                gc.collect()
+                return True  # GC was triggered
+        except ImportError:
+            pass  # psutil not available, skip memory management
+        return False
+
+    def optimize_batch_size(self, current_batch_size, processing_time, memory_usage):
+        """Dynamically adjust batch size based on performance"""
+        # If processing is fast and memory usage is low, increase batch size
+        if processing_time < 1.0 and memory_usage < self.memory_threshold * 0.7:
+            return min(current_batch_size * 2, 5000)  # Max 5000
+        # If processing is slow or memory usage is high, decrease batch size
+        elif processing_time > 5.0 or memory_usage > self.memory_threshold * 0.9:
+            return max(current_batch_size // 2, 100)  # Min 100
+        return current_batch_size
+
+    def optimize_database_operations(self):
+        """Optimize database operations for better performance"""
+        from django.db import connection
+
+        # Disable autocommit for better performance during bulk operations
+        if hasattr(connection, 'disable_constraint_checking'):
+            connection.disable_constraint_checking()
+
+        # Set connection to use larger chunks for bulk operations
+        with connection.cursor() as cursor:
+            # Optimize PostgreSQL settings for bulk inserts
+            try:
+                cursor.execute("SET synchronous_commit = off;")
+                cursor.execute("SET work_mem = '256MB';")
+                cursor.execute("SET maintenance_work_mem = '512MB';")
+            except:
+                pass  # Not PostgreSQL or command failed, continue normally
+
+    def restore_database_settings(self):
+        """Restore normal database settings"""
+        from django.db import connection
+
+        with connection.cursor() as cursor:
+            try:
+                cursor.execute("SET synchronous_commit = on;")
+                cursor.execute("RESET work_mem;")
+                cursor.execute("RESET maintenance_work_mem;")
+            except:
+                pass
 
         # Load image files for random selection
         self._load_image_files()
@@ -1651,6 +2046,24 @@ class UltraFastProcessor:
                 return director_section['values'][0].get('display_value', '')
         return None
 
+    def _extract_cinematographer_from_title_info(self, details: Dict) -> str:
+        """Extract cinematographer from title_info section"""
+        title_info = details.get('title_info', {})
+        if isinstance(title_info, dict) and 'cinematographer' in title_info:
+            cinematographer_section = title_info['cinematographer']
+            if isinstance(cinematographer_section, dict) and 'values' in cinematographer_section and cinematographer_section['values']:
+                return cinematographer_section['values'][0].get('display_value', '')
+        return None
+
+    def _extract_editor_from_title_info(self, details: Dict) -> str:
+        """Extract editor from title_info section"""
+        title_info = details.get('title_info', {})
+        if isinstance(title_info, dict) and 'editor' in title_info:
+            editor_section = title_info['editor']
+            if isinstance(editor_section, dict) and 'values' in editor_section and editor_section['values']:
+                return editor_section['values'][0].get('display_value', '')
+        return None
+
     def _extract_value_from_shot_info(self, shot_info: Dict, key: str) -> str:
         """Extract display_value from shot_info section"""
         if key in shot_info:
@@ -1689,7 +2102,7 @@ class UltraFastProcessor:
         return ''
 
     def _bulk_get_or_create_options(self, model_class, values):
-        """Bulk get or create option instances"""
+        """Bulk get or create option instances with duplicate prevention"""
         if not values:
             return {}
 
@@ -1697,55 +2110,48 @@ class UltraFastProcessor:
         if cache_key in self.option_cache:
             return self.option_cache[cache_key]
 
-        # Get existing options
-        existing = {obj.value: obj for obj in model_class.objects.filter(value__in=values)}
-        self.option_cache[cache_key] = existing
+        existing = {}
 
-        # Create missing options in bulk
-        missing_values = [v for v in values if v not in existing]
-        if missing_values:
-            objects_to_create = []
-            for value in missing_values:
-                obj = model_class(value=value)
-                if hasattr(obj, 'slug'):
-                    obj.slug = self._generate_unique_slug(model_class, value)
-                objects_to_create.append(obj)
+        # Use duplicate prevention for each value
+        for value in values:
+            option_obj, created = self.prevent_duplicate_option_creation(model_class, value)
+            if option_obj:
+                existing[value] = option_obj
+                if created and not self.quiet:
+                    print(f"✨ Created {model_class.__name__}: {value}")
 
-            if objects_to_create:
-                model_class.objects.bulk_create(objects_to_create, batch_size=self.batch_size)
-                print(f"✨ Created {len(objects_to_create)} {model_class.__name__} options")
-
-                # Update cache with new objects
-                new_objects = {obj.value: obj for obj in model_class.objects.filter(value__in=missing_values)}
-                existing.update(new_objects)
                 self.option_cache[cache_key] = existing
-
         return existing
 
     def _bulk_get_or_create_tags(self, tag_names):
-        """Bulk get or create tag instances"""
+        """Bulk get or create tag instances with duplicate prevention"""
         if not tag_names:
             return {}
 
-        # Get existing tags
-        existing = {tag.name: tag for tag in Tag.objects.filter(name__in=tag_names)}
+        existing = {}
 
-        # Create missing tags in bulk
-        missing_names = [name for name in tag_names if name not in existing]
-        if missing_names:
-            tags_to_create = []
-            for name in missing_names:
-                tag = Tag(name=name)
-                tag.slug = self._generate_unique_slug(Tag, name)
-                tags_to_create.append(tag)
+        # Use duplicate prevention for each tag
+        for tag_name in tag_names:
+            tag_name = tag_name.strip()
+            if not tag_name:
+                continue
 
-            if tags_to_create:
-                Tag.objects.bulk_create(tags_to_create, batch_size=self.batch_size)
-                print(f"🏷️  Created {len(tags_to_create)} tags")
-
-                # Update existing dict with new tags
-                new_tags = {tag.name: tag for tag in Tag.objects.filter(name__in=missing_names)}
-                existing.update(new_tags)
+            # Check for existing tag (case-insensitive)
+            existing_tag = Tag.objects.filter(name__iexact=tag_name).first()
+            if existing_tag:
+                existing[tag_name] = existing_tag
+            else:
+                # Create new tag using duplicate prevention method
+                tag_obj, created = self.prevent_duplicate_creation(
+                    Tag,
+                    'name',
+                    tag_name,
+                    slug=self._generate_unique_slug(Tag, tag_name)
+                )
+                if tag_obj:
+                    existing[tag_name] = tag_obj
+                    if created and not self.quiet:
+                        print(f"🏷️  Created tag: {tag_name}")
 
         return existing
 
@@ -1776,7 +2182,11 @@ class UltraFastProcessor:
         editors = set()
         genres = set()
 
-        for movie_data in movie_data_list:
+        for i, movie_data in enumerate(movie_data_list):
+            title = movie_data.get('full_title', movie_data.get('title', 'Unknown'))
+            if not self.quiet and (i + 1) % 100 == 0:  # Log every 100 movies
+                print(f"🎬 Processing movie {i+1}/{len(movie_data_list)}: {title}")
+
             if movie_data.get('director'):
                 directors.add(movie_data['director'])
             if movie_data.get('cinematographer'):
@@ -1807,6 +2217,9 @@ class UltraFastProcessor:
         movies_to_create = []
         movie_map = {}
 
+        # Track movies that need updates for cinematographer/editor
+        movies_to_update = []
+
         for movie_data in movie_data_list:
             title = movie_data.get('full_title', movie_data.get('title', 'Unknown'))
             year = movie_data.get('year')
@@ -1814,6 +2227,16 @@ class UltraFastProcessor:
             # Check if movie already exists
             if (title, year) in existing_movies:
                 movie = existing_movies[(title, year)]
+                # Check if we need to update cinematographer or editor
+                needs_update = False
+                if movie_data.get('cinematographer') and not movie.cinematographer_id:
+                    movie.cinematographer = cinematographer_objs.get(movie_data.get('cinematographer'))
+                    needs_update = True
+                if movie_data.get('editor') and not movie.editor_id:
+                    movie.editor = editor_objs.get(movie_data.get('editor'))
+                    needs_update = True
+                if needs_update:
+                    movies_to_update.append(movie)
                 movie_map[(title, year)] = movie
                 continue
 
@@ -1842,8 +2265,23 @@ class UltraFastProcessor:
 
         # Bulk create movies
         if movies_to_create:
-            Movie.objects.bulk_create(movies_to_create, batch_size=self.batch_size)
-            print(f"✨ Created {len(movies_to_create)} movies")
+            created_movies = Movie.objects.bulk_create(movies_to_create, batch_size=self.batch_size)
+            print(f"✨ Created {len(movies_to_create)} new movies")
+
+            # Show sample of created movies
+            if not self.quiet and len(movies_to_create) > 0:
+                sample_titles = [movie.title for movie in movies_to_create[:3]]
+                print(f"   📽️  Sample movies: {', '.join(sample_titles)}")
+
+        # Bulk update existing movies with missing cinematographer/editor info
+        if movies_to_update:
+            Movie.objects.bulk_update(movies_to_update, ['cinematographer', 'editor'], batch_size=self.batch_size)
+            print(f"🔄 Updated {len(movies_to_update)} existing movies with cinematographer/editor info")
+
+        # Log existing movies found
+        existing_count = len(movie_data_list) - len(movies_to_create)
+        if existing_count > 0 and not self.quiet:
+            print(f"🔄 Found {existing_count} existing movies (skipped creation)")
 
         self.stats['movies_created'] += len(movies_to_create)
         return movie_map
@@ -1919,11 +2357,52 @@ class UltraFastProcessor:
         if all_tags:
             tag_cache = self._bulk_get_or_create_tags(all_tags)
 
+        # Bulk duplicate check for existing images (OPTIMIZATION)
+        print(f"🔍 Checking for {len(image_data_list)} existing images...")
+        existing_images = set()
+        if image_data_list:
+            # Collect all titles and slugs for bulk query
+            titles_and_slugs = []
+            for image_data in image_data_list:
+                title = image_data.get('title', 'Unknown')
+                movie_title = image_data.get('movie_title', 'Unknown Movie')
+                movie_year = image_data.get('movie_year')
+                movie = movie_map.get((movie_title, movie_year))
+
+                if not movie:
+                    movie = next((m for m in movie_map.values() if m.title == movie_title), None)
+                    if not movie:
+                        continue
+
+                image_id = image_data.get('id', f"img_{random.randint(1000, 9999)}")
+                movie_title_clean = getattr(movie, 'title', 'unknown-movie')
+                if not movie_title_clean or movie_title_clean == 'Unknown':
+                    movie_title_clean = 'unknown-movie'
+                slug_base = f"{movie_title_clean}-{image_id}"
+                image_slug = self._generate_unique_slug(Image, slug_base)
+                if not image_slug:
+                    image_slug = f"img-{uuid.uuid4().hex[:12]}"
+
+                titles_and_slugs.append((title, image_slug))
+
+            # Single bulk query to check all existing images
+            if titles_and_slugs:
+                existing_query = Image.objects.filter(
+                    models.Q(title__in=[t[0] for t in titles_and_slugs]) |
+                    models.Q(slug__in=[t[1] for t in titles_and_slugs])
+                ).values_list('title', 'slug')
+                existing_images = {(img[0], img[1]) for img in existing_query}
+                print(f"📊 Found {len(existing_images)} existing images to skip")
+
         # Prepare image objects and tag associations
         images_to_create = []
         image_tag_associations = []  # Store (image_index, tag_names) pairs
 
-        for image_data in image_data_list:
+        for i, image_data in enumerate(image_data_list):
+            # Add real-time logging for image processing
+            title = image_data.get('title', 'Unknown')
+            if not self.quiet and (i + 1) % 100 == 0:  # Log every 100 images
+                print(f"🖼️  Processing image {i+1}/{len(image_data_list)}: {title}")
             movie_title = image_data.get('movie_title', 'Unknown Movie')
             movie_year = image_data.get('movie_year')
             movie = movie_map.get((movie_title, movie_year))
@@ -1996,12 +2475,26 @@ class UltraFastProcessor:
                 vfx_backing=option_caches.get('vfx_backing', {}).get(image_data.get('vfx_backing'))
             )
 
+            # Fast duplicate check using pre-computed existing images set (O(1) lookup)
+            if (title, image_slug) in existing_images:
+                continue  # Skip creating duplicate images
+
             images_to_create.append(image)
 
         # Bulk create images
         if images_to_create:
-            Image.objects.bulk_create(images_to_create, batch_size=self.batch_size)
-            print(f"✨ Created {len(images_to_create)} images")
+            created_images = Image.objects.bulk_create(images_to_create, batch_size=self.batch_size)
+            print(f"✨ Created {len(images_to_create)} new images")
+
+            # Show sample of created images
+            if not self.quiet and len(images_to_create) > 0:
+                sample_titles = [img.title for img in images_to_create[:3]]
+                print(f"   🖼️  Sample images: {', '.join(sample_titles)}")
+
+        # Log existing images found
+        existing_count = len(image_data_list) - len(images_to_create)
+        if existing_count > 0 and not self.quiet:
+            print(f"🔄 Found {existing_count} existing images (skipped creation)")
 
             # Update movie image counts
             movie_ids = set(img.movie_id for img in images_to_create)
@@ -2029,10 +2522,123 @@ class UltraFastProcessor:
 
         self.stats['images_created'] += len(images_to_create)
 
+    def process_batch_parallel(self, json_files):
+        """Ultra-fast parallel batch processing"""
+        if not self.quiet:
+            print(f"⚡ PARALLEL processing batch of {len(json_files)} files...")
+
+        # Use ProcessPoolExecutor for true parallel processing
+        max_workers = min(os.cpu_count(), len(json_files))
+        batch_results = []
+
+        with ProcessPoolExecutor(max_workers=max_workers) as executor:
+            # Submit all files for parallel processing
+            future_to_file = {
+                executor.submit(self._process_single_file_fast, json_file): json_file
+                for json_file in json_files
+            }
+
+            # Collect results as they complete
+            for future in as_completed(future_to_file):
+                json_file = future_to_file[future]
+                try:
+                    result = future.result()
+                    if result:
+                        batch_results.append(result)
+                except Exception as e:
+                    if not self.quiet:
+                        print(f"❌ Error processing {json_file.name}: {e}")
+
+        # Aggregate results
+        movie_data_list = []
+        image_data_list = []
+
+        for result in batch_results:
+            if result.get('movie_data'):
+                movie_data_list.append(result['movie_data'])
+            if result.get('image_data_list'):
+                image_data_list.extend(result['image_data_list'])
+
+        # Process in transaction for speed using raw SQL
+        with transaction.atomic():
+            movie_map = self._bulk_process_movies(movie_data_list)
+            images_processed = self._bulk_process_images(image_data_list, movie_map)
+
+        # Memory cleanup
+        cleanup_memory()
+
+        if not self.quiet:
+            print(f"🧠 Memory after cleanup: {get_memory_usage():.1f} MB")
+
+        # Return detailed statistics
+        return {
+            'files_processed': len(json_files),
+            'movies_processed': len(movie_data_list),
+            'images_processed': len(image_data_list)
+        }
+
+    def _process_single_file_fast(self, json_file):
+        """Fast single file processing for parallel execution"""
+        try:
+            with open(json_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+
+            # Extract data from the correct structure
+            image_data_obj = data.get('data', {})
+            details = image_data_obj.get('details', {})
+            shot_info = details.get('shot_info', {})
+
+            # Extract movie data
+            movie_data = {
+                'full_title': details.get('full_title', 'Unknown'),
+                'title': details.get('full_title', 'Unknown'),
+                'year': self._extract_value_from_details(details, 'year'),
+                'genre': self._extract_genre_from_title_info(details),
+                'director': self._extract_director_from_title_info(details),
+                'cinematographer': self._extract_cinematographer_from_title_info(details),
+                'editor': self._extract_editor_from_title_info(details),
+                'colorist': self._extract_value_from_details(details, 'colorist'),
+                'production_designer': self._extract_value_from_details(details, 'production_designer'),
+                'costume_designer': self._extract_value_from_details(details, 'costume_designer'),
+                'cast': self._extract_value_from_details(details, 'cast'),
+                'description': shot_info.get('description', ''),
+                'duration': self._extract_value_from_details(details, 'duration') or None,
+                'country': self._extract_value_from_details(details, 'country'),
+                'language': self._extract_value_from_details(details, 'language')
+            }
+
+            # Extract image data
+            image_data_list = []
+            image_data_obj = data.get('data', {})
+            details = image_data_obj.get('details', {})
+
+            for image_data in details.get('images', []):
+                image_data_list.append({
+                    'movie_title': details.get('full_title', 'Unknown'),
+                    'image_id': image_data.get('imageid', ''),
+                    'title': image_data.get('title', ''),
+                    'description': image_data.get('description', ''),
+                    'color': self._extract_color_from_shot_info(details.get('shot_info', {})),
+                    'shot_type': self._extract_value_from_details(details, 'shot_type'),
+                    'tags': self._extract_tags_from_shot_info(details.get('shot_info', {}))
+                })
+
+            return {
+                'movie_data': movie_data,
+                'image_data_list': image_data_list
+            }
+
+        except Exception as e:
+            return None
+
     def process_batch(self, json_files):
-        """Process a batch of JSON files"""
+        """Process a batch of JSON files with memory optimization"""
         if not self.quiet:
             print(f"🔄 Processing batch of {len(json_files)} files...")
+            print(f"🧠 Memory usage: {get_memory_usage():.1f} MB")
+
+        # Memory management: trigger GC if needed
+        self.check_memory_usage()
 
         movie_data_list = []
         image_data_list = []
@@ -2060,8 +2666,8 @@ class UltraFastProcessor:
                     'year': self._extract_value_from_details(details, 'year'),
                     'genre': self._extract_genre_from_title_info(details),  # Check title_info for genres
                     'director': self._extract_director_from_title_info(details),  # Check title_info for director
-                    'cinematographer': self._extract_value_from_details(details, 'cinematographer'),
-                    'editor': self._extract_value_from_details(details, 'editor'),
+                    'cinematographer': self._extract_cinematographer_from_title_info(details),  # Check title_info for cinematographer
+                    'editor': self._extract_editor_from_title_info(details),  # Check title_info for editor
                     'colorist': self._extract_value_from_details(details, 'colorist'),
                     'production_designer': self._extract_value_from_details(details, 'production_designer'),
                     'costume_designer': self._extract_value_from_details(details, 'costume_designer'),
@@ -2088,8 +2694,8 @@ class UltraFastProcessor:
                     'year': self._extract_value_from_details(details, 'year'),
                     'genre': self._extract_genre_from_title_info(details),  # Check title_info for genres
                     'director': self._extract_director_from_title_info(details),  # Check title_info for director
-                    'cinematographer': self._extract_value_from_details(details, 'cinematographer'),
-                    'editor': self._extract_value_from_details(details, 'editor'),
+                    'cinematographer': self._extract_cinematographer_from_title_info(details),  # Check title_info for cinematographer
+                    'editor': self._extract_editor_from_title_info(details),  # Check title_info for editor
                     'colorist': self._extract_value_from_details(details, 'colorist'),
                     'production_designer': self._extract_value_from_details(details, 'production_designer'),
                     'costume_designer': self._extract_value_from_details(details, 'costume_designer'),
@@ -2165,9 +2771,231 @@ class UltraFastProcessor:
         # Process in transaction for speed
         with transaction.atomic():
             movie_map = self._bulk_process_movies(movie_data_list)
-            self._bulk_process_images(image_data_list, movie_map)
+            images_processed = self._bulk_process_images(image_data_list, movie_map)
 
-        return len(json_files)
+        # Memory cleanup
+        cleanup_memory()
+
+        if not self.quiet:
+            print(f"🧠 Memory after cleanup: {get_memory_usage():.1f} MB")
+
+        # Return detailed statistics
+        return {
+            'files_processed': len(json_files),
+            'movies_processed': len(movie_data_list),
+            'images_processed': len(image_data_list)
+        }
+
+    def _process_json_file_batch(self, json_files_batch):
+        """Process a batch of JSON files and return movie update data"""
+        batch_movies_to_update = {}
+
+        for json_file in json_files_batch:
+            try:
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+
+                # Extract movie data from the correct structure
+                image_data_obj = data.get('data', {})
+                details = image_data_obj.get('details', {})
+
+                # Extract movie info
+                full_title = details.get('full_title', 'Unknown')
+                year = self._extract_value_from_details(details, 'year')
+
+                if not full_title or full_title == 'Unknown':
+                    continue
+
+                # Extract all crew information from title_info
+                cinematographer_name = self._extract_cinematographer_from_title_info(details)
+                editor_name = self._extract_editor_from_title_info(details)
+                colorist_name = self._extract_value_from_section(details.get('title_info', {}), 'colorist')
+                production_designer_name = self._extract_value_from_section(details.get('title_info', {}), 'production_designer')
+                costume_designer_name = self._extract_value_from_section(details.get('title_info', {}), 'costume_designer')
+
+                # Only include if at least one crew field has data
+                if (cinematographer_name or editor_name or colorist_name or
+                    production_designer_name or costume_designer_name):
+                    movie_key = (full_title, year)
+                    if movie_key not in batch_movies_to_update:
+                        batch_movies_to_update[movie_key] = {
+                            'cinematographer': cinematographer_name,
+                            'editor': editor_name,
+                            'colorist': colorist_name,
+                            'production_designer': production_designer_name,
+                            'costume_designer': costume_designer_name
+                        }
+
+            except Exception:
+                continue  # Skip errors in parallel processing
+
+        return batch_movies_to_update
+
+    def update_existing_movies_with_crew_info(self):
+        """
+        Update all existing movies in database with crew information (cinematographer, editor,
+        colorist, production_designer, costume_designer) by re-processing JSON files.
+        Uses simple sequential processing for real-time feedback.
+        """
+        import time
+
+        print("🚀 FAST SEQUENTIAL UPDATE: ALL CREW INFO")
+        print("=" * 70)
+
+        # Get all JSON files (limit for testing speed)
+        json_files = list(self.json_dir.glob('*.json'))[:1000]  # Test with just 1000 files
+        if not json_files:
+            print("❌ No JSON files found!")
+            return
+
+        print(f"📁 Found {len(json_files)} JSON files to process (limited for testing)")
+        print("⚡ Using sequential processing for real-time feedback")
+
+        # Process files sequentially with immediate logging
+        movies_to_update = {}
+        processed_files = 0
+        start_time = time.time()
+        last_log_time = start_time
+
+        for json_file in json_files:
+            try:
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+
+                # Extract movie data from the correct structure
+                image_data_obj = data.get('data', {})
+                details = image_data_obj.get('details', {})
+
+                # Extract movie info
+                full_title = details.get('full_title', 'Unknown')
+                year = self._extract_value_from_details(details, 'year')
+
+                if not full_title or full_title == 'Unknown':
+                    continue
+
+                # Extract all crew information from title_info
+                cinematographer_name = self._extract_cinematographer_from_title_info(details)
+                editor_name = self._extract_editor_from_title_info(details)
+                colorist_name = self._extract_value_from_section(details.get('title_info', {}), 'colorist')
+                production_designer_name = self._extract_value_from_section(details.get('title_info', {}), 'production_designer')
+                costume_designer_name = self._extract_value_from_section(details.get('title_info', {}), 'costume_designer')
+
+                # Only include if at least one crew field has data
+                if (cinematographer_name or editor_name or colorist_name or
+                    production_designer_name or costume_designer_name):
+                    movie_key = (full_title, year)
+                    if movie_key not in movies_to_update:
+                        movies_to_update[movie_key] = {
+                            'cinematographer': cinematographer_name,
+                            'editor': editor_name,
+                            'colorist': colorist_name,
+                            'production_designer': production_designer_name,
+                            'costume_designer': costume_designer_name
+                        }
+
+            except Exception as e:
+                # Skip errors but continue processing
+                continue
+
+            processed_files += 1
+
+            # Log progress every 100 files or every 2 seconds
+            current_time = time.time()
+            if (processed_files % 100 == 0 or current_time - last_log_time > 2):
+                elapsed = current_time - start_time
+                remaining_files = len(json_files) - processed_files
+                if processed_files > 0:
+                    avg_time_per_file = elapsed / processed_files
+                    estimated_remaining = remaining_files * avg_time_per_file
+                    eta_str = f" (ETA: {estimated_remaining/60:.1f}min)" if estimated_remaining > 60 else f" (ETA: {estimated_remaining:.0f}s)"
+                else:
+                    eta_str = ""
+
+                print(f"📊 [{elapsed:.1f}s] Processed {processed_files:,}/{len(json_files):,} files, "
+                      f"found {len(movies_to_update):,} movies to update{eta_str}")
+                last_log_time = current_time
+
+        print(f"🔍 Found {len(movies_to_update):,} movies that need crew updates")
+
+        if not movies_to_update:
+            print("✅ No movies need updating!")
+            return
+
+        # Now process database updates
+        print("💾 Starting database updates...")
+
+        # Create option objects for ForeignKey crew fields (cinematographer, editor)
+        all_cinematographers = [data['cinematographer'] for data in movies_to_update.values() if data['cinematographer']]
+        all_editors = [data['editor'] for data in movies_to_update.values() if data['editor']]
+
+        print(f"🎭 Creating {len(set(all_cinematographers))} cinematographer options...")
+        cinematographer_objs = self._bulk_get_or_create_options(CinematographerOption, set(all_cinematographers))
+
+        print(f"🎬 Creating {len(set(all_editors))} editor options...")
+        editor_objs = self._bulk_get_or_create_options(EditorOption, set(all_editors))
+
+        # Update movies in smaller batches with frequent logging
+        updated_count = 0
+        db_batch_size = 100  # Very small batches for immediate feedback
+        movies_batch = []
+        db_start_time = time.time()
+
+        print("🔄 Updating movies in database...")
+
+        for movie_key, movie_data in movies_to_update.items():
+            full_title, year = movie_key
+
+            # Find movie in database
+            movie = Movie.objects.filter(title=full_title, year=year).first()
+            if not movie:
+                continue
+
+            needs_update = False
+
+            # Update ForeignKey fields
+            if movie_data['cinematographer'] and not movie.cinematographer_id:
+                movie.cinematographer = cinematographer_objs.get(movie_data['cinematographer'])
+                needs_update = True
+
+            if movie_data['editor'] and not movie.editor_id:
+                movie.editor = editor_objs.get(movie_data['editor'])
+                needs_update = True
+
+            # Update CharField crew fields (only if they're empty)
+            if movie_data['colorist'] and not movie.colorist:
+                movie.colorist = movie_data['colorist']
+                needs_update = True
+
+            if movie_data['production_designer'] and not movie.production_designer:
+                movie.production_designer = movie_data['production_designer']
+                needs_update = True
+
+            if movie_data['costume_designer'] and not movie.costume_designer:
+                movie.costume_designer = movie_data['costume_designer']
+                needs_update = True
+
+            if needs_update:
+                movies_batch.append(movie)
+                updated_count += 1
+
+                # Process in small batches with immediate logging
+                if len(movies_batch) >= db_batch_size:
+                    Movie.objects.bulk_update(movies_batch, ['cinematographer', 'editor', 'colorist', 'production_designer', 'costume_designer'])
+                    db_elapsed = time.time() - db_start_time
+                    print(f"💾 [{db_elapsed:.1f}s] Updated {len(movies_batch):,} movies "
+                          f"({updated_count:,}/{len(movies_to_update):,} total)")
+                    movies_batch = []
+
+        # Process remaining movies
+        if movies_batch:
+            Movie.objects.bulk_update(movies_batch, ['cinematographer', 'editor', 'colorist', 'production_designer', 'costume_designer'])
+            db_elapsed = time.time() - db_start_time
+            print(f"💾 [{db_elapsed:.1f}s] Updated final {len(movies_batch):,} movies "
+                  f"({updated_count:,} total)")
+
+        total_elapsed = time.time() - start_time
+        print(f"✅ SUCCESS! Updated {updated_count:,} movies with crew information in {total_elapsed:.1f}s!")
+        print("=" * 70)
 
     def process_all_data(self, limit=None):
         """Process all JSON files with ultra-fast bulk operations"""
@@ -2193,16 +3021,27 @@ class UltraFastProcessor:
             batch = json_files[i:i + self.batch_size]
             batch_start = time.time()
 
-            files_processed = self.process_batch(batch)
-            total_processed += files_processed
+            # Use parallel processing for maximum speed
+            if len(batch) > 1:
+                batch_stats = self.process_batch_parallel(batch)
+            else:
+                batch_stats = self.process_batch(batch)
+            total_processed += batch_stats['files_processed']
 
             batch_time = time.time() - batch_start
-            rate = files_processed / batch_time if batch_time > 0 else 0
+            rate = batch_stats['files_processed'] / batch_time if batch_time > 0 else 0
+
+            # Get current database counts for progress tracking
+            current_movies = Movie.objects.count()
+            current_images = Image.objects.count()
 
             if not self.quiet:
-                print(f"  📊 Batch {i//self.batch_size + 1}: {files_processed} files in {batch_time:.1f}s ({rate:.1f} files/sec)")
-            elif (i//self.batch_size + 1) % 10 == 0:  # Progress every 10 batches in quiet mode
-                print(f"🚀 Processed {total_processed} files ({(total_processed/len(json_files)*100):.1f}%) - {rate:.1f} files/sec")
+                print(f"  📊 Batch {i//self.batch_size + 1}: {batch_stats['files_processed']} files in {batch_time:.1f}s ({rate:.1f} files/sec)")
+                print(f"     📈 Progress: {current_movies} movies, {current_images} images")
+                print(f"     🎬 Batch data: {batch_stats['movies_processed']} movies, {batch_stats['images_processed']} images")
+            elif (i//self.batch_size + 1) % 5 == 0:  # Progress every 5 batches in quiet mode
+                print(f"🚀 Batch {i//self.batch_size + 1}: {total_processed}/{len(json_files)} files ({(total_processed/len(json_files)*100):.1f}%)")
+                print(f"   📈 Database: {current_movies} movies, {current_images} images - {rate:.1f} files/sec")
 
             # Clear caches periodically to avoid memory issues
             if i % (self.batch_size * 10) == 0:
@@ -2213,12 +3052,25 @@ class UltraFastProcessor:
         total_time = time.time() - start_time
         avg_rate = total_processed / total_time if total_time > 0 else 0
 
+        # Get final database counts
+        final_movies = Movie.objects.count()
+        final_images = Image.objects.count()
+        final_tags = Tag.objects.count()
+
         print("\n" + "=" * 60)
         print("🎉 ULTRA-FAST PROCESSING COMPLETE!")
         print(f"⏱️  Total time: {total_time:.2f} seconds")
         print(f"🚀 Average rate: {avg_rate:.2f} files/sec")
-        print(f"📊 Movies created: {self.stats['movies_created']}")
-        print(f"🖼️  Images created: {self.stats['images_created']}")
+        print(f"📁 Files processed: {total_processed}")
+        print()
+        print("📊 FINAL DATABASE COUNTS:")
+        print(f"   🎬 Total Movies: {final_movies}")
+        print(f"   🖼️  Total Images: {final_images}")
+        print(f"   🏷️  Total Tags: {final_tags}")
+        print()
+        print("📈 SESSION STATISTICS:")
+        print(f"   ✨ Movies created this session: {self.stats['movies_created']}")
+        print(f"   🖼️  Images created this session: {self.stats['images_created']}")
         print("=" * 60)
 
         # Return results for compatibility
@@ -2485,9 +3337,28 @@ def get_image_url(filename):
         # Use request context to build full URL
         base_url = request.host_url.rstrip('/')
         return f"{base_url}/media/images/{filename}"
-    except RuntimeError:
-        # Fallback for cases where request context is not available
+    except (RuntimeError, AttributeError):
+        # Fallback for cases where request context is not available or request is not a Flask request object
         return f"/media/images/{filename}"
+
+def get_memory_usage():
+    """Get current memory usage in MB"""
+    try:
+        import psutil
+        process = psutil.Process(os.getpid())
+        return process.memory_info().rss / 1024 / 1024  # MB
+    except ImportError:
+        return 0
+
+def cleanup_memory():
+    """Force garbage collection and memory cleanup"""
+    gc.collect()
+    # Clear any cached objects if possible
+    try:
+        from django.core.cache import cache
+        cache.clear()
+    except:
+        pass
 
 def create_flask_app():
     """Create Flask app only when needed"""
@@ -2961,10 +3832,10 @@ if __name__ == '__main__':
             print("🚀 Starting ShotDeck File-Based API Server...")
             print("📊 Loading data from JSON files...")
             print("💾 No database required - using file system only")
-            print("🌐 Server will be available at http://localhost:8002")
+            print("🌐 Server will be available at http://localhost:8004")
             print()
 
-            app.run(host='0.0.0.0', port=8002, debug=False)
+            app.run(host='0.0.0.0', port=8004, debug=False)
 
         elif sys.argv[1] == '--test':
             print("🧪 Running comprehensive filtering tests...")
@@ -3103,7 +3974,7 @@ if __name__ == '__main__':
 
         elif sys.argv[1] == 'ultra':
             limit = None
-            batch_size = 5000  # Maximum batch size for ultra-fast processing
+            batch_size = 200  # Memory-efficient batch size for ultra-fast processing
 
             if len(sys.argv) > 2:
                 try:
@@ -3119,7 +3990,7 @@ if __name__ == '__main__':
                         batch_size = 10
                         print("⚠️  Batch size too small, using minimum 10")
                     elif batch_size > 1000:
-                        batch_size = 1000
+                        batch_size = 100
                         print("⚠️  Batch size too large, using maximum 1000")
                 except ValueError:
                     print(f"⚠️  Invalid batch size, using default {batch_size}")
@@ -3132,7 +4003,35 @@ if __name__ == '__main__':
                 print(f"📦 Batch size: {batch_size}")
 
             processor = UltraFastProcessor(batch_size=batch_size)
-            processor.process_all_data(limit=limit)
+
+            # Optimize database for bulk operations
+            processor.optimize_database_operations()
+
+            try:
+                processor.process_all_data(limit=limit)
+            finally:
+                # Always restore database settings
+                processor.restore_database_settings()
+
+        elif sys.argv[1] == 'update-crew':
+            print("🎬 UPDATING EXISTING MOVIES WITH CINEMATOGRAPHER/EDITOR INFO")
+            print("=" * 60)
+            print("📊 This will scan all JSON files and update existing movies")
+            print("   that are missing cinematographer or editor information.")
+            print("=" * 60)
+
+            # Use UltraFastProcessor to update existing movies
+            processor = UltraFastProcessor(
+                batch_size=100,  # Memory-efficient batch size
+                quiet=False  # Show progress
+            )
+
+            # Start updating
+            start_time = time.time()
+            processor.update_existing_movies_with_crew_info()
+
+            total_time = time.time() - start_time
+            print(f"⏱️  Update completed in {total_time:.2f} seconds")
 
         elif sys.argv[1] == 'hyper':
             # 🚀🚀🚀 HYPER-PARALLEL MODE - Maximum Speed Processing
@@ -3162,7 +4061,7 @@ if __name__ == '__main__':
 
             # Use UltraFastProcessor with live logging
             processor = UltraFastProcessor(
-                batch_size=5000,  # Maximum batch size
+                batch_size=100,  # Memory-efficient batch size
                 quiet=False  # Enable live logging to show extracted data
             )
 
@@ -3215,7 +4114,7 @@ if __name__ == '__main__':
 
             import time
             start_time = time.time()
-            processor = UltraFastProcessor(batch_size=2000, quiet=True)
+            processor = UltraFastProcessor(batch_size=100, quiet=True)
             results = processor.process_all_data(limit=limit)
 
             end_time = time.time()
