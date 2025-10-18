@@ -68,10 +68,20 @@ def extract_filter_value(data, filter_key):
     # Check if it's the nested structure with details
     if 'details' in data and isinstance(data['details'], dict):
         details = data['details']
+        
+        # First check direct access in details
         if filter_key in details and isinstance(details[filter_key], dict):
             filter_data = details[filter_key]
             if 'values' in filter_data and isinstance(filter_data['values'], list) and len(filter_data['values']) > 0:
                 return filter_data['values'][0].get('display_value')
+        
+        # Then check shot_info nested structure
+        if 'shot_info' in details and isinstance(details['shot_info'], dict):
+            shot_info = details['shot_info']
+            if filter_key in shot_info and isinstance(shot_info[filter_key], dict):
+                filter_data = shot_info[filter_key]
+                if 'values' in filter_data and isinstance(filter_data['values'], list) and len(filter_data['values']) > 0:
+                    return filter_data['values'][0].get('display_value')
     
     # Check direct key access
     if filter_key in data:
@@ -82,6 +92,40 @@ def extract_filter_value(data, filter_key):
             return value
     
     return None
+
+
+def extract_filter_values(data, filter_key):
+    """Extract all values from nested JSON filter structure (for multi-value fields)"""
+    if not isinstance(data, dict):
+        return []
+    
+    # Check if it's the nested structure with details
+    if 'details' in data and isinstance(data['details'], dict):
+        details = data['details']
+        
+        # First check direct access in details
+        if filter_key in details and isinstance(details[filter_key], dict):
+            filter_data = details[filter_key]
+            if 'values' in filter_data and isinstance(filter_data['values'], list):
+                return [v.get('display_value') for v in filter_data['values'] if v.get('display_value')]
+        
+        # Then check shot_info nested structure
+        if 'shot_info' in details and isinstance(details['shot_info'], dict):
+            shot_info = details['shot_info']
+            if filter_key in shot_info and isinstance(shot_info[filter_key], dict):
+                filter_data = shot_info[filter_key]
+                if 'values' in filter_data and isinstance(filter_data['values'], list):
+                    return [v.get('display_value') for v in filter_data['values'] if v.get('display_value')]
+    
+    # Check direct key access
+    if filter_key in data:
+        value = data[filter_key]
+        if isinstance(value, dict) and 'values' in value and isinstance(value['values'], list):
+            return [v.get('display_value') for v in value['values'] if v.get('display_value')]
+        elif isinstance(value, str):
+            return [value]
+    
+    return []
 
 
 class Command(BaseCommand):
@@ -227,7 +271,7 @@ class Command(BaseCommand):
             img.format = get_or_none(FormatOption, extract_filter_value(rec, 'format'))
             img.lab_process = get_or_none(LabProcessOption, extract_filter_value(rec, 'lab_process'))
             img.time_period = get_or_none(TimePeriodOption, extract_filter_value(rec, 'time_period'))
-            img.interior_exterior = get_or_none(InteriorExteriorOption, extract_filter_value(rec, 'interior_exterior'))
+            img.interior_exterior = get_or_none(InteriorExteriorOption, extract_filter_value(rec, 'int_ext') or extract_filter_value(rec, 'interior_exterior'))
             img.time_of_day = get_or_none(TimeOfDayOption, extract_filter_value(rec, 'time_of_day'))
             img.number_of_people = get_or_none(NumberOfPeopleOption, extract_filter_value(rec, 'number_of_people'))
             img.gender = get_or_none(GenderOption, extract_filter_value(rec, 'gender'))
@@ -263,8 +307,9 @@ class Command(BaseCommand):
             img.costume_designer = get_or_none(CostumeDesignerOption, extract_filter_value(rec, 'costume_designer'))
             img.production_designer = get_or_none(ProductionDesignerOption, extract_filter_value(rec, 'production_designer'))
 
-            # Additional options
-            img.shade = get_or_none(ShadeOption, extract_filter_value(rec, 'shade'))
+            # Additional options - shade has multiple values, take the first one
+            shade_values = extract_filter_values(rec, 'shade')
+            img.shade = get_or_none(ShadeOption, shade_values[0] if shade_values else None)
             img.artist = get_or_none(ArtistOption, extract_filter_value(rec, 'artist'))
             img.filming_location = get_or_none(FilmingLocationOption, extract_filter_value(rec, 'filming_location'))
             img.location_type = get_or_none(LocationTypeOption, extract_filter_value(rec, 'location_type'))
@@ -280,17 +325,10 @@ class Command(BaseCommand):
             img.save()
 
             # ManyToMany: genre and tags
-            genre_val = extract_filter_value(rec, 'genre')
-            if genre_val:
-                # Normalize to list
-                if isinstance(genre_val, str):
-                    genres = [genre_val]
-                elif isinstance(genre_val, list):
-                    genres = genre_val
-                else:
-                    genres = []
+            genre_values = extract_filter_values(rec, 'genre')
+            if genre_values:
                 img.genre.clear()
-                for g in genres:
+                for g in genre_values:
                     g_obj, _ = GenreOption.objects.get_or_create(value=str(g))
                     img.genre.add(g_obj)
 

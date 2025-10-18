@@ -15,7 +15,10 @@ urlpatterns = [
     # Health check endpoint
     path('health/', HealthCheckView.as_view(), name='health-check'),
 
-    # Individual image endpoints (must come before list endpoint)
+    # Filters endpoints (must come before generic image slug pattern)
+    path('images/filters/', FiltersView.as_view(), name='image-filters'),
+
+    # Individual image endpoints (must come after specific patterns)
     # Use re_path to allow special characters in slugs (parentheses, quotes, etc.)
     re_path(r'^images/(?P<slug>[^/]+)/$', ImageViewSet.as_view({
         'get': 'retrieve'
@@ -41,8 +44,5 @@ urlpatterns = [
     path('tags/<slug:slug>/', TagViewSet.as_view({
         'get': 'retrieve'
     }), name='tag-detail'),
-
-    # Filters endpoints
-    path('images/filters/', FiltersView.as_view(), name='image-filters'),
 
 ]

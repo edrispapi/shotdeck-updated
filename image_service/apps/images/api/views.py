@@ -1550,62 +1550,65 @@ class FiltersView(APIView):
         Return filter configuration with options, or search images by filters if parameters provided
         """
         try:
+            # Get query parameters safely
+            query_params = getattr(request, 'query_params', request.GET)
+            
             # Debug logging
             import logging
             logger = logging.getLogger(__name__)
-            logger.info(f"FiltersView GET request with query_params: {dict(request.query_params)}")
-
+            logger.info(f"FiltersView GET request with query_params: {dict(query_params)}")
+            
             # Check if any search/filter parameters are provided
             search_params = {
-                'search': request.query_params.get('search'),
-                'tags': request.query_params.get('tags'),
-                'movie': request.query_params.get('movie'),
-                'actor': request.query_params.get('actor'),
-                'camera': request.query_params.get('camera'),
-                'lens': request.query_params.get('lens'),
-                'location': request.query_params.get('location'),
-                'setting': request.query_params.get('setting'),
-                'film_stock': request.query_params.get('film_stock'),
-                'shot_time': request.query_params.get('shot_time'),
-                'description': request.query_params.get('description'),
-                'vfx_backing': request.query_params.get('vfx_backing'),
-                'media_type': request.query_params.get('media_type'),
-                'genre': request.query_params.get('genre'),
-                'time_period': request.query_params.get('time_period'),
-                'color': request.query_params.get('color'),
-                'shade': request.query_params.get('shade'),
-                'aspect_ratio': request.query_params.get('aspect_ratio'),
-                'optical_format': request.query_params.get('optical_format'),
-                'lab_process': request.query_params.get('lab_process'),
-                'format': request.query_params.get('format'),
-                'interior_exterior': request.query_params.get('interior_exterior'),
-                'time_of_day': request.query_params.get('time_of_day'),
-                'number_of_people': request.query_params.get('number_of_people'),
-                'gender': request.query_params.get('gender'),
-                'age': request.query_params.get('age'),
-                'ethnicity': request.query_params.get('ethnicity'),
-                'frame_size': request.query_params.get('frame_size'),
-                'shot_type': request.query_params.get('shot_type'),
-                'composition': request.query_params.get('composition'),
-                'lens_type': request.query_params.get('lens_type'),
-                'lighting': request.query_params.get('lighting'),
-                'lighting_type': request.query_params.get('lighting_type'),
-                'director': request.query_params.get('director'),
-                'cinematographer': request.query_params.get('cinematographer'),
-                'editor': request.query_params.get('editor'),
-                'costume_designer': request.query_params.get('costume_designer'),
-                'production_designer': request.query_params.get('production_designer'),
-                'colorist': request.query_params.get('colorist'),
-                'artist': request.query_params.get('artist'),
-                'filming_location': request.query_params.get('filming_location'),
-                'location_type': request.query_params.get('location_type'),
-                'year': request.query_params.get('year'),
-                'frame_rate': request.query_params.get('frame_rate'),
-                'lens_size': request.query_params.get('lens_size'),
-                'resolution': request.query_params.get('resolution'),
-                'description_filter': request.query_params.get('description_filter'),
-                'limit': int(request.query_params.get('limit', 20)),
-                'offset': int(request.query_params.get('offset', 0))
+                'search': query_params.get('search'),
+                'tags': query_params.get('tags'),
+                'movie': query_params.get('movie'),
+                'actor': query_params.get('actor'),
+                'camera': query_params.get('camera'),
+                'lens': query_params.get('lens'),
+                'location': query_params.get('location'),
+                'setting': query_params.get('setting'),
+                'film_stock': query_params.get('film_stock'),
+                'shot_time': query_params.get('shot_time'),
+                'description': query_params.get('description'),
+                'vfx_backing': query_params.get('vfx_backing'),
+                'media_type': query_params.get('media_type'),
+                'genre': query_params.get('genre'),
+                'time_period': query_params.get('time_period'),
+                'color': query_params.get('color'),
+                'shade': query_params.get('shade'),
+                'aspect_ratio': query_params.get('aspect_ratio'),
+                'optical_format': query_params.get('optical_format'),
+                'lab_process': query_params.get('lab_process'),
+                'format': query_params.get('format'),
+                'interior_exterior': query_params.get('interior_exterior'),
+                'time_of_day': query_params.get('time_of_day'),
+                'number_of_people': query_params.get('number_of_people'),
+                'gender': query_params.get('gender'),
+                'age': query_params.get('age'),
+                'ethnicity': query_params.get('ethnicity'),
+                'frame_size': query_params.get('frame_size'),
+                'shot_type': query_params.get('shot_type'),
+                'composition': query_params.get('composition'),
+                'lens_type': query_params.get('lens_type'),
+                'lighting': query_params.get('lighting'),
+                'lighting_type': query_params.get('lighting_type'),
+                'director': query_params.get('director'),
+                'cinematographer': query_params.get('cinematographer'),
+                'editor': query_params.get('editor'),
+                'costume_designer': query_params.get('costume_designer'),
+                'production_designer': query_params.get('production_designer'),
+                'colorist': query_params.get('colorist'),
+                'artist': query_params.get('artist'),
+                'filming_location': query_params.get('filming_location'),
+                'location_type': query_params.get('location_type'),
+                'year': query_params.get('year'),
+                'frame_rate': query_params.get('frame_rate'),
+                'lens_size': query_params.get('lens_size'),
+                'resolution': query_params.get('resolution'),
+                'description_filter': query_params.get('description_filter'),
+                'limit': int(query_params.get('limit', 20)),
+                'offset': int(query_params.get('offset', 0))
             }
 
             # Remove None values and check if any filters are applied
@@ -1623,7 +1626,7 @@ class FiltersView(APIView):
                                'production_designer', 'artist', 'filming_location', 'location_type', 'year',
                                'frame_rate', 'lens_size', 'resolution', 'description_filter']
 
-            has_filter_params = any(request.query_params.get(key) for key in filter_param_keys)
+            has_filter_params = any(query_params.get(key) for key in filter_param_keys)
             if not has_filter_params:
                 return self._get_filter_configuration_with_options()
 
