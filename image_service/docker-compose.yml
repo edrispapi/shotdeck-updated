@@ -26,6 +26,7 @@ services:
       - DB_PASSWORD=image_password
       - DB_HOST=image_db
       - DB_PORT=5432
+      - USE_POSTGRESQL=1
       - SECRET_KEY=django-insecure-dev-key-change-in-production
       - DEBUG=True
       - ALLOWED_HOSTS=*
@@ -44,10 +45,9 @@ services:
     volumes:
       - .:/service
       - /home/a/Desktop/shotdeck:/host_data:ro
-      - /home/a/Desktop/shotdeck/shot_images:/service/media/images:ro
-      - ./sample_data.json:/service/sample_data.json:ro # اضافه: mount فایل JSON برای import (اگر فایل وجود داره)
+      - /home/a/shotdeck-main/image_service/media:/service/media:rw
     ports:
-      - "12001:8000"
+      - "51009:8000"
     depends_on:
       image_db:
         condition: service_healthy

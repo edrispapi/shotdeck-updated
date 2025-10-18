@@ -11,7 +11,10 @@ from apps.images.models import (
     ResolutionOption, FrameRateOption, MovieOption, ActorOption, CameraOption,
     LensOption, LocationOption, SettingOption,
     FilmStockOption, ShotTimeOption, DescriptionOption, VfxBackingOption,
-    DirectorOption, CinematographerOption, EditorOption
+    DirectorOption, CinematographerOption, EditorOption,
+    ColoristOption, CostumeDesignerOption, ProductionDesignerOption,
+    # New models
+    ShadeOption, ArtistOption, FilmingLocationOption, LocationTypeOption, YearOption
 )
 from messaging.producers import send_event
 
@@ -24,6 +27,9 @@ class MovieSerializer(serializers.ModelSerializer):
     cinematographer_slug = serializers.CharField(source='cinematographer.slug', read_only=True)
     editor_value = serializers.CharField(source='editor.value', read_only=True)
     editor_slug = serializers.CharField(source='editor.slug', read_only=True)
+    colorist_value = serializers.CharField(source='colorist', read_only=True)
+    costume_designer_value = serializers.CharField(source='costume_designer', read_only=True)
+    production_designer_value = serializers.CharField(source='production_designer', read_only=True)
 
     class Meta:
         model = Movie
@@ -32,8 +38,10 @@ class MovieSerializer(serializers.ModelSerializer):
             'director', 'director_value', 'director_slug',
             'cinematographer', 'cinematographer_value', 'cinematographer_slug',
             'editor', 'editor_value', 'editor_slug',
-            'cast', 'colorist', 'production_designer', 'costume_designer',
-            'duration', 'country', 'language', 'image_count'
+            'colorist', 'colorist_value',
+            'costume_designer', 'costume_designer_value',
+            'production_designer', 'production_designer_value',
+            'cast', 'duration', 'country', 'language', 'image_count'
         ]
         read_only_fields = ['id', 'slug', 'image_count']
 
@@ -43,7 +51,8 @@ class MovieSerializer(serializers.ModelSerializer):
         # Handle null values for nested fields - convert null to empty strings
         nested_value_fields = [
             'director_value', 'director_slug', 'cinematographer_value', 'cinematographer_slug',
-            'editor_value', 'editor_slug'
+            'editor_value', 'editor_slug', 'colorist_value',
+            'costume_designer_value', 'production_designer_value'
         ]
 
         for field in nested_value_fields:
@@ -51,7 +60,7 @@ class MovieSerializer(serializers.ModelSerializer):
                 representation[field] = ""
 
         # Handle other potentially null fields
-        text_fields = ['description', 'genre', 'cast', 'colorist', 'production_designer', 'costume_designer', 'country', 'language']
+        text_fields = ['description', 'genre', 'cast', 'country', 'language']
         for field in text_fields:
             if representation.get(field) is None:
                 representation[field] = ""
@@ -99,6 +108,43 @@ class ImageListSerializer(serializers.ModelSerializer):
 
     def get_color_value(self, obj):
         return obj.color.value if obj.color else None
+
+    def to_representation(self, instance):
+        """Convert relative image URLs to full URLs for clickable links"""
+        representation = super().to_representation(instance)
+
+        # Handle image URL conversion
+        if instance.image_url and instance.image_url.startswith('/media/'):
+            request = self.context.get('request')
+            if request:
+                try:
+                    full_url = request.build_absolute_uri(instance.image_url)
+                except Exception:
+                    full_url = f"{request.scheme}://{request.get_host()}{instance.image_url}"
+            else:
+                # Fallbacks when request is unavailable
+                public_base = getattr(settings, 'PUBLIC_BASE_URL', None)
+                if public_base:
+                    full_url = f"{public_base.rstrip('/')}{instance.image_url}"
+                else:
+                    # Final fallback to localhost with image_service port
+                    full_url = f"http://localhost:51009{instance.image_url}"
+
+            # Check if the image file actually exists
+            import os
+            from django.conf import settings
+            media_root = getattr(settings, 'MEDIA_ROOT', '/app/media')
+            relative_path = instance.image_url.replace('/media/', '')
+            file_path = os.path.join(media_root, relative_path)
+
+            if os.path.exists(file_path):
+                representation['image_url'] = full_url
+                representation['image_available'] = True
+            else:
+                representation['image_url'] = full_url
+                representation['image_available'] = False
+
+        return representation
 
 
 class MovieImageSerializer(serializers.ModelSerializer):
@@ -155,9 +201,18 @@ class MovieImageSerializer(serializers.ModelSerializer):
             if instance.image_url.startswith('/media/'):
                 request = self.context.get('request')
                 if request:
-                    representation['image_url'] = f"{request.scheme}://{request.get_host()}{instance.image_url}"
+                    try:
+                        full_url = request.build_absolute_uri(instance.image_url)
+                    except Exception:
+                        full_url = f"{request.scheme}://{request.get_host()}{instance.image_url}"
+                    representation['image_url'] = full_url
                 else:
-                    representation['image_url'] = f"http://localhost:9000{instance.image_url}"
+                    public_base = getattr(settings, 'PUBLIC_BASE_URL', None)
+                    if public_base:
+                        representation['image_url'] = f"{public_base.rstrip('/')}{instance.image_url}"
+                    else:
+                        # Use the correct port for the image service (51009)
+                        representation['image_url'] = f"http://localhost:51009{instance.image_url}"
             else:
                 representation['image_url'] = instance.image_url
 
@@ -177,7 +232,7 @@ class ImageSerializer(serializers.ModelSerializer):
     lighting_value = serializers.SerializerMethodField()
 
     # Keep other fields as-is for now (will be lazy-loaded)
-    genre_value = serializers.CharField(source='movie.genre', read_only=True)
+    # genre_value removed - Image model has ManyToMany genre field, not on movie
     aspect_ratio_value = serializers.CharField(source='aspect_ratio.value', read_only=True)
     optical_format_value = serializers.CharField(source='optical_format.value', read_only=True)
     format_value = serializers.CharField(source='format.value', read_only=True)
@@ -210,12 +265,24 @@ class ImageSerializer(serializers.ModelSerializer):
     description_filter_value = serializers.CharField(source='description_filter.value', read_only=True)
     vfx_backing_value = serializers.CharField(source='vfx_backing.value', read_only=True)
 
+    # Additional filter value fields for complete dataset
+    director_value = serializers.CharField(source='director.value', read_only=True)
+    cinematographer_value = serializers.CharField(source='cinematographer.value', read_only=True)
+    editor_value = serializers.CharField(source='editor.value', read_only=True)
+    colorist_value = serializers.CharField(source='colorist.value', read_only=True)
+    costume_designer_value = serializers.CharField(source='costume_designer.value', read_only=True)
+    production_designer_value = serializers.CharField(source='production_designer.value', read_only=True)
+    shade_value = serializers.CharField(source='shade.value', read_only=True)
+    artist_value = serializers.CharField(source='artist.value', read_only=True)
+    filming_location_value = serializers.CharField(source='filming_location.value', read_only=True)
+    location_type_value = serializers.CharField(source='location_type.value', read_only=True)
+
     class Meta:
         model = Image
         fields = [
             'id', 'slug', 'title', 'description', 'image_url',
             'tags', 'tag_ids',
-            'release_year', 'media_type', 'media_type_value', 'genre', 'genre_value',
+            'release_year', 'media_type', 'media_type_value', 'genre',
             'color', 'color_value', 'aspect_ratio', 'aspect_ratio_value',
             'optical_format', 'optical_format_value', 'format', 'format_value',
             'interior_exterior', 'interior_exterior_value', 'time_of_day', 'time_of_day_value',
@@ -227,11 +294,20 @@ class ImageSerializer(serializers.ModelSerializer):
             'camera_type', 'camera_type_value', 'resolution', 'resolution_value',
             'frame_rate', 'frame_rate_value', 'time_period', 'time_period_value',
             'lab_process', 'lab_process_value',
-            # New filter fields
-            'movie', 'movie_value', 'movie_slug', 'actor', 'actor_value', 'camera', 'camera_value', 'lens', 'lens_value',
+            # Movie and crew fields
+            'movie', 'movie_value', 'movie_slug',
+            'director', 'director_value', 'cinematographer', 'cinematographer_value',
+            'editor', 'editor_value', 'colorist', 'colorist_value',
+            'costume_designer', 'costume_designer_value', 'production_designer', 'production_designer_value',
+            # Actor and technical fields
+            'actor', 'actor_value', 'camera', 'camera_value', 'lens', 'lens_value',
             'location', 'location_value', 'setting', 'setting_value',
             'film_stock', 'film_stock_value', 'shot_time', 'shot_time_value',
             'description_filter', 'description_filter_value', 'vfx_backing', 'vfx_backing_value',
+            # New filter fields
+            'shade', 'shade_value', 'artist', 'artist_value',
+            'filming_location', 'filming_location_value', 'location_type', 'location_type_value',
+            # Additional flags
             'exclude_nudity', 'exclude_violence',
             # Enhanced color analysis fields
             'dominant_colors', 'primary_color_hex', 'primary_colors', 'secondary_color_hex',
@@ -258,7 +334,8 @@ class ImageSerializer(serializers.ModelSerializer):
 
     def to_representation(self, instance):
         representation = super().to_representation(instance)
-        representation['tags'] = TagSerializer(instance.tags.all(), many=True).data
+        # Temporarily disable tag serialization for debugging
+        # representation['tags'] = TagSerializer(instance.tags.all(), many=True).data
 
         # Fix image URL to use proper host and port
         if instance.image_url:
@@ -266,35 +343,53 @@ class ImageSerializer(serializers.ModelSerializer):
             if instance.image_url.startswith('/media/'):
                 request = self.context.get('request')
                 if request:
-                    base_url = f"{request.scheme}://{request.get_host()}"
-                    representation['image_url'] = f"{base_url}{instance.image_url}"
-                else:
-                    # Fallback - try to construct URL with localhost and correct port
-                    import os
                     try:
-                        # Try to get port from environment or use 54634 as default for API server
-                        port = os.environ.get('PORT', '54634')
-                        representation['image_url'] = f"http://localhost:{port}{instance.image_url}"
-                    except:
-                        # Last fallback - keep original URL
-                        pass
+                        full_url = request.build_absolute_uri(instance.image_url)
+                    except Exception:
+                        base_url = f"{request.scheme}://{request.get_host()}"
+                        full_url = f"{base_url}{instance.image_url}"
+                else:
+                    public_base = getattr(settings, 'PUBLIC_BASE_URL', None)
+                    if public_base:
+                        full_url = f"{public_base.rstrip('/')}{instance.image_url}"
+                    else:
+                        # Last fallback - use localhost and correct port
+                        full_url = f"http://localhost:51009{instance.image_url}"
+
+                # Check if the image file actually exists
+                import os
+                from django.conf import settings
+                media_root = getattr(settings, 'MEDIA_ROOT', '/app/media')
+                relative_path = instance.image_url.replace('/media/', '')
+                file_path = os.path.join(media_root, relative_path)
+
+                if os.path.exists(file_path):
+                    representation['image_url'] = full_url
+                    representation['image_available'] = True
+                else:
+                    representation['image_url'] = full_url
+                    representation['image_available'] = False
             # If it's already an absolute URL but with wrong host/port, try to fix it
-            elif 'localhost:12001' in instance.image_url or 'localhost:' in instance.image_url:
+            elif 'localhost:' in instance.image_url:
                 request = self.context.get('request')
-                if request:
-                    # Replace the hardcoded host/port with current request's host/port
-                    base_url = f"{request.scheme}://{request.get_host()}"
-                    path_part = instance.image_url.split('/media/')[1] if '/media/' in instance.image_url else instance.image_url.split('/')[-1]
-                    representation['image_url'] = f"{base_url}/media/{path_part}"
-                else:
-                    # Fallback - replace with correct port
-                    import os
+                path_part = None
+                if '/media/' in instance.image_url:
                     try:
-                        port = os.environ.get('PORT', '54634')
-                        path_part = instance.image_url.split('/media/')[1] if '/media/' in instance.image_url else instance.image_url.split('/')[-1]
-                        representation['image_url'] = f"http://localhost:{port}/media/{path_part}"
-                    except:
-                        pass
+                        path_part = instance.image_url.split('/media/', 1)[1]
+                    except Exception:
+                        path_part = None
+                if request and path_part:
+                    try:
+                        representation['image_url'] = request.build_absolute_uri(f"/media/{path_part}")
+                    except Exception:
+                        base_url = f"{request.scheme}://{request.get_host()}"
+                        representation['image_url'] = f"{base_url}/media/{path_part}"
+                elif path_part:
+                    public_base = getattr(settings, 'PUBLIC_BASE_URL', None)
+                    if public_base:
+                        representation['image_url'] = f"{public_base.rstrip('/')}/media/{path_part}"
+                    else:
+                        representation['image_url'] = f"http://localhost:51009/media/{path_part}"
 
         # Handle null/empty values for filter fields - provide meaningful defaults or remove empty fields
         filter_value_fields = [
@@ -306,12 +401,16 @@ class ImageSerializer(serializers.ModelSerializer):
             'resolution_value', 'frame_rate_value', 'time_period_value', 'lab_process_value',
             'movie_value', 'actor_value', 'camera_value', 'lens_value', 'location_value',
             'setting_value', 'film_stock_value', 'shot_time_value', 'description_filter_value',
-            'vfx_backing_value'
+            'vfx_backing_value', 'director_value', 'cinematographer_value', 'editor_value',
+            'colorist_value', 'costume_designer_value', 'production_designer_value',
+            'shade_value', 'artist_value', 'filming_location_value', 'location_type_value'
         ]
 
-        # Set empty strings for null _value fields instead of null
+        # Keep null values as null instead of converting to empty strings
+        # Only convert specific fields that should have defaults
+        nullable_fields = ['movie_value', 'director_value', 'cinematographer_value', 'editor_value']
         for field in filter_value_fields:
-            if representation.get(field) is None:
+            if field not in nullable_fields and representation.get(field) is None:
                 representation[field] = ""
 
         # Handle empty collections
@@ -545,4 +644,60 @@ class EditorOptionSerializer(BaseOptionSerializer):
     class Meta(BaseOptionSerializer.Meta):
         model = EditorOption
         fields = ['id', 'value', 'slug', 'display_order', 'metadata', 'created_at', 'updated_at']
+        read_only_fields = ['id', 'created_at', 'updated_at']
+
+
+class ColoristOptionSerializer(BaseOptionSerializer):
+    class Meta(BaseOptionSerializer.Meta):
+        model = ColoristOption
+        fields = ['id', 'value', 'display_order', 'metadata', 'created_at', 'updated_at']
+        read_only_fields = ['id', 'created_at', 'updated_at']
+
+
+class CostumeDesignerOptionSerializer(BaseOptionSerializer):
+    class Meta(BaseOptionSerializer.Meta):
+        model = CostumeDesignerOption
+        fields = ['id', 'value', 'display_order', 'metadata', 'created_at', 'updated_at']
+        read_only_fields = ['id', 'created_at', 'updated_at']
+
+
+class ProductionDesignerOptionSerializer(BaseOptionSerializer):
+    class Meta(BaseOptionSerializer.Meta):
+        model = ProductionDesignerOption
+        fields = ['id', 'value', 'display_order', 'metadata', 'created_at', 'updated_at']
+        read_only_fields = ['id', 'created_at', 'updated_at']
+
+
+class ShadeOptionSerializer(BaseOptionSerializer):
+    class Meta(BaseOptionSerializer.Meta):
+        model = ShadeOption
+        fields = ['id', 'value', 'display_order', 'metadata', 'created_at', 'updated_at']
+        read_only_fields = ['id', 'created_at', 'updated_at']
+
+
+class ArtistOptionSerializer(BaseOptionSerializer):
+    class Meta(BaseOptionSerializer.Meta):
+        model = ArtistOption
+        fields = ['id', 'value', 'slug', 'display_order', 'metadata', 'created_at', 'updated_at']
+        read_only_fields = ['id', 'created_at', 'updated_at']
+
+
+class FilmingLocationOptionSerializer(BaseOptionSerializer):
+    class Meta(BaseOptionSerializer.Meta):
+        model = FilmingLocationOption
+        fields = ['id', 'value', 'display_order', 'metadata', 'created_at', 'updated_at']
+        read_only_fields = ['id', 'created_at', 'updated_at']
+
+
+class LocationTypeOptionSerializer(BaseOptionSerializer):
+    class Meta(BaseOptionSerializer.Meta):
+        model = LocationTypeOption
+        fields = ['id', 'value', 'display_order', 'metadata', 'created_at', 'updated_at']
+        read_only_fields = ['id', 'created_at', 'updated_at']
+
+
+class YearOptionSerializer(BaseOptionSerializer):
+    class Meta(BaseOptionSerializer.Meta):
+        model = YearOption
+        fields = ['id', 'value', 'display_order', 'metadata', 'created_at', 'updated_at']
         read_only_fields = ['id', 'created_at', 'updated_at']

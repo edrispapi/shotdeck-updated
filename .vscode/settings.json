@@ -23,9 +23,7 @@
   "python.linting.mypyEnabled": false,
   "basedpyright.analysis.typeCheckingMode": "basic",
   "basedpyright.analysis.diagnosticMode": "openFilesOnly",
-  "basedpyright.analysis.includeFileSpecs": [
-    "**/*.py"
-  ],
+  "basedpyright.analysis.includeFileSpecs": ["**/*.py"],
   "basedpyright.analysis.exclude": [
     "**/node_modules/**",
     "**/__pycache__/**",
@@ -39,5 +37,22 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit"
-  }
+  },
+  "cursorpyright.analysis.exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/migrations",
+    "**/staticfiles",
+    "**/.git"
+  ],
+  "cursorpyright.analysis.extraPaths": [
+    "./search_service",
+    "./image_service",
+    "./deck_service"
+  ],
+  "cursorpyright.analysis.include": [
+    "./search_service/**/*.py",
+    "./image_service/**/*.py",
+    "./deck_service/**/*.py"
+  ]
 }
