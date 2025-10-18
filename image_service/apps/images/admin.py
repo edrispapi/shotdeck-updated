@@ -66,7 +66,7 @@ class MovieAdmin(ModelAdmin):
             'fields': ('director', 'cinematographer', 'editor', 'colorist', 'production_designer', 'costume_designer', 'cast')
         }),
         ('Metadata', {
-            'fields': ('image_count', 'created_at', 'updated_at'),
+            'fields': ('image_count',),
             'classes': ('collapse',)
         }),
     )
@@ -82,8 +82,7 @@ class MovieAdmin(ModelAdmin):
 class ImageAdmin(ModelAdmin):
     list_display = ('title', 'movie', 'media_type', 'color', 'created_at')
     list_filter = (
-        'media_type', 'color', 'genre', 'aspect_ratio', 'time_period',
-        'interior_exterior', 'time_of_day', 'created_at'
+        'media_type', 'color', 'time_period', 'interior_exterior', 'created_at'
     )
     search_fields = ('title', 'description', 'movie__title')
     ordering = ('-created_at',)
@@ -97,32 +96,15 @@ class ImageAdmin(ModelAdmin):
         }),
         ('Technical Details', {
             'fields': (
-                'media_type', 'aspect_ratio', 'optical_format', 'format',
-                'lab_process', 'time_period', 'interior_exterior', 'time_of_day',
-                'number_of_people', 'gender', 'age', 'ethnicity', 'frame_size',
-                'shot_type', 'composition', 'lens_size', 'lens_type', 'lighting',
-                'lighting_type', 'camera_type', 'resolution', 'frame_rate'
+                'media_type', 'aspect_ratio', 'time_period', 'interior_exterior',
+                'shot_type', 'lighting', 'color'
             ),
             'classes': ('collapse',)
         }),
         ('People & Objects', {
             'fields': (
-                'actor', 'camera', 'lens', 'location', 'setting', 'film_stock',
-                'shot_time', 'description_filter', 'vfx_backing'
+                'actor', 'director', 'cinematographer', 'location'
             ),
-            'classes': ('collapse',)
-        }),
-        ('Color Analysis', {
-            'fields': (
-                'color', 'primary_color_hex', 'secondary_color_hex',
-                'color_temperature', 'hue_range', 'dominant_colors',
-                'primary_colors', 'color_palette', 'color_samples',
-                'color_histogram', 'color_search_terms'
-            ),
-            'classes': ('collapse',)
-        }),
-        ('Content Flags', {
-            'fields': ('exclude_nudity', 'exclude_violence'),
             'classes': ('collapse',)
         }),
         ('Metadata', {
@@ -133,9 +115,9 @@ class ImageAdmin(ModelAdmin):
 
     def get_queryset(self, request):
         return super().get_queryset(request).select_related(
-            'movie', 'media_type', 'color', 'genre', 'aspect_ratio',
+            'movie', 'media_type', 'color', 'aspect_ratio',
             'actor', 'camera', 'lens', 'location'
-        )
+        ).prefetch_related('genre')
 
 
 # Tag admin

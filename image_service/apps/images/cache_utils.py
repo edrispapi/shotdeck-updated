@@ -5,15 +5,19 @@ from django.core.cache import cache
 from django.conf import settings
 import json
 from .models import (
+    # Original models
     Movie, Tag, ActorOption, CameraOption, LensOption, LocationOption, SettingOption,
     FilmStockOption, ShotTimeOption, DescriptionOption, VfxBackingOption,
     DirectorOption, CinematographerOption, EditorOption,
     GenreOption, ColorOption, MediaTypeOption, AspectRatioOption,
     OpticalFormatOption, FormatOption, InteriorExteriorOption, TimeOfDayOption,
-    NumberOfPeopleOption, GenderOption, AgeOption, EthnicityOption,
+    TimePeriodOption, NumberOfPeopleOption, GenderOption, AgeOption, EthnicityOption,
     FrameSizeOption, ShotTypeOption, CompositionOption, LensSizeOption,
     LensTypeOption, LightingOption, LightingTypeOption, CameraTypeOption,
-    ResolutionOption, FrameRateOption
+    ResolutionOption, FrameRateOption,
+    # New models added for comprehensive filter support
+    CostumeDesignerOption, ProductionDesignerOption, ColoristOption,
+    YearOption, ShadeOption, FilmingLocationOption, LocationTypeOption
 )
 
 # Cache keys
@@ -72,6 +76,7 @@ def get_cached_filter_options(filter_type):
 def get_filter_options_from_db(filter_type):
     """Get filter options from database"""
     model_mapping = {
+        # Original models
         'genre': GenreOption,
         'color': ColorOption,
         'media_type': MediaTypeOption,
@@ -80,6 +85,7 @@ def get_filter_options_from_db(filter_type):
         'format': FormatOption,
         'interior_exterior': InteriorExteriorOption,
         'time_of_day': TimeOfDayOption,
+        'time_period': TimePeriodOption,
         'number_of_people': NumberOfPeopleOption,
         'gender': GenderOption,
         'age': AgeOption,
@@ -103,13 +109,53 @@ def get_filter_options_from_db(filter_type):
         'shot_time': ShotTimeOption,
         'description_filter': DescriptionOption,
         'vfx_backing': VfxBackingOption,
+        # New models added for comprehensive filter support
+        'director': DirectorOption,
+        'cinematographer': CinematographerOption,
+        'editor': EditorOption,
+        'costume_designer': CostumeDesignerOption,
+        'production_designer': ProductionDesignerOption,
+        'colorist': ColoristOption,
+        'movie': Movie,
+        'year': YearOption,
+        'shade': ShadeOption,
+        'filming_location': FilmingLocationOption,
+        'location_type': LocationTypeOption,
+        'music video': MediaTypeOption,  # Reuse MediaTypeOption
+        'artist': ActorOption,  # Reuse ActorOption
+        'tv': MediaTypeOption,  # Reuse MediaTypeOption
     }
 
     model_class = model_mapping.get(filter_type)
     if not model_class:
         return None
 
-    # Prioritize standardized options (with display_order > 0) over database-populated options
+    # Handle Movie model differently since it doesn't have display_order
+    if model_class == Movie:
+        # Get unique movies by title, preferring ones with higher image counts
+        from django.db.models import Max
+        unique_movies = (model_class.objects
+                        .values('title', 'year')
+                        .annotate(
+                            movie_id=Max('id'),
+                            image_count=Max('image_count'),
+                            slug=Max('slug')
+                        )
+                        .order_by('-image_count', 'title')[:100])  # Prioritize movies with more images
+
+        return [
+            {
+                'id': movie['movie_id'],
+                'value': movie['title'],
+                'label': f"{movie['title']} ({movie['year']})" if movie['year'] else movie['title'],
+                'slug': movie['slug'],
+                'display_order': None,
+                'metadata': {'year': movie['year'], 'image_count': movie['image_count']}
+            }
+            for movie in unique_movies
+        ]
+
+    # For Option models, prioritize standardized options (with display_order > 0) over database-populated options
     standardized_options = model_class.objects.filter(display_order__gt=0).order_by('display_order')
     standardized_count = standardized_options.count()
 
@@ -203,13 +249,18 @@ def get_entity_slugs_from_db(entity_type):
 def get_all_cached_filters():
     """Get all filter options from cache"""
     filter_types = [
+        # Original filters
         'genre', 'color', 'media_type', 'aspect_ratio', 'optical_format',
-        'format', 'interior_exterior', 'time_of_day', 'number_of_people',
+        'format', 'interior_exterior', 'time_of_day', 'time_period', 'number_of_people',
         'gender', 'age', 'ethnicity', 'frame_size', 'shot_type',
         'composition', 'lens_size', 'lens_type', 'lighting',
         'lighting_type', 'camera_type', 'resolution', 'frame_rate',
         'actor', 'camera', 'lens', 'location', 'setting',
-        'film_stock', 'shot_time', 'description_filter', 'vfx_backing'
+        'film_stock', 'shot_time', 'description_filter', 'vfx_backing',
+        # New filters added for comprehensive 37 filter support
+        'director', 'cinematographer', 'editor', 'costume_designer',
+        'production_designer', 'colorist', 'movie', 'year', 'shade',
+        'filming_location', 'location_type', 'music video', 'artist', 'tv'
     ]
 
     all_filters = {}

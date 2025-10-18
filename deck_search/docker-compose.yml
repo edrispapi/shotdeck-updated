@@ -43,7 +43,7 @@ services:
       - ELASTICSEARCH_HOST=deck_elasticsearch
       - ELASTICSEARCH_PORT=9200
       - ELASTICSEARCH_ENABLED=True
-      - IMAGE_SERVICE_URL=http://172.50.0.5:8000
+      - IMAGE_SERVICE_URL=http://172.50.0.6:8000
       - DJANGO_SETTINGS_MODULE=core.settings
     volumes:
       - .:/app

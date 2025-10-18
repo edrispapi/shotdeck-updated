@@ -26,6 +26,7 @@ class BaseOption(models.Model):
         return self.value
 
 
+# Crew options with slugs
 class DirectorOption(BaseOption):
     slug = models.SlugField(max_length=255, unique=True, blank=True, help_text="URL-friendly slug for the director")
 
@@ -84,87 +85,6 @@ class EditorOption(BaseOption):
             if EditorOption.objects.filter(slug=self.slug).exclude(pk=self.pk).exists():
                 self.slug = f"{self.slug}-{uuid.uuid4().hex[:4]}"
         super().save(*args, **kwargs)
-
-
-class Movie(models.Model):
-    title = models.CharField(max_length=255)
-    year = models.IntegerField(null=True, blank=True)
-    slug = models.SlugField(max_length=255, unique=True, blank=True)
-
-    # Enhanced movie details for Shot Deck style movie pages
-    genre = models.CharField(max_length=500, blank=True, null=True, help_text="Movie genre (e.g., Drama, Action, Comedy)")
-    director = models.ForeignKey(DirectorOption, on_delete=models.SET_NULL, related_name='movies_as_director', null=True, blank=True, help_text="Movie director")
-    cinematographer = models.ForeignKey(CinematographerOption, on_delete=models.SET_NULL, related_name='movies_as_cinematographer', null=True, blank=True, help_text="Director of Photography")
-    editor = models.ForeignKey(EditorOption, on_delete=models.SET_NULL, related_name='movies_as_editor', null=True, blank=True, help_text="Film editor")
-    colorist = models.CharField(max_length=500, blank=True, null=True, help_text="Color grading artist")
-    production_designer = models.CharField(max_length=500, blank=True, null=True, help_text="Production designer")
-    costume_designer = models.CharField(max_length=500, blank=True, null=True, help_text="Costume designer")
-    cast = models.TextField(blank=True, null=True, help_text="Cast members (comma-separated)")
-
-    # Additional metadata
-    description = models.TextField(blank=True, null=True, help_text="Movie description/synopsis")
-    duration = models.IntegerField(null=True, blank=True, help_text="Movie duration in minutes")
-    country = models.CharField(max_length=200, blank=True, null=True, help_text="Country of production")
-    language = models.CharField(max_length=200, blank=True, null=True, help_text="Original language")
-
-    # Image count (computed field)
-    image_count = models.IntegerField(default=0, editable=False)
-
-    class Meta:
-        ordering = ['-year', 'title']
-        verbose_name = "Movie"
-        verbose_name_plural = "Movies"
-
-    def __str__(self):
-        if self.year:
-            return f"{self.title} ({self.year})"
-        return self.title
-
-    def save(self, *args, **kwargs):
-        if not self.slug:
-            self.slug = slugify(self.title)
-            if Movie.objects.filter(slug=self.slug).exists():
-                self.slug = f"{self.slug}-{uuid.uuid4().hex[:4]}"
-        super().save(*args, **kwargs)
-
-    def update_image_count(self):
-        """Update the image count for this movie"""
-        self.image_count = self.image_set.count()
-        self.save(update_fields=['image_count'])
-
-    def get_cast_list(self):
-        """Return cast as a list"""
-        if not self.cast:
-            return []
-        return [actor.strip() for actor in self.cast.split(',') if actor.strip()]
-
-    def get_main_crew(self):
-        """Return main crew information as a dictionary"""
-        return {
-            'director': self.director,
-            'cinematographer': self.cinematographer,
-            'editor': self.editor,
-            'colorist': self.colorist,
-            'production_designer': self.production_designer,
-            'costume_designer': self.costume_designer,
-        }
-
-
-class BaseOption(models.Model):
-    """
-    مدل پایه برای همه گزینه‌های فیلتر
-    """
-    value = models.TextField(help_text="مقدار گزینه")
-    display_order = models.IntegerField(blank=True, null=True, help_text="ترتیب نمایش")
-    metadata = models.JSONField(blank=True, null=True, help_text="متادیتای اضافی")
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    class Meta:
-        abstract = True
-
-    def __str__(self):
-        return self.value
 
 
 # مدل‌های جداگانه برای هر فیلتر
@@ -562,6 +482,176 @@ class VfxBackingOption(BaseOption):
         verbose_name_plural = "VFX Backing Options"
 
 
+class ColoristOption(BaseOption):
+    class Meta:
+        db_table = 'colorist_options'
+        constraints = [
+            models.UniqueConstraint(fields=['value'], name='uq_colorist_value')
+        ]
+        ordering = ['display_order', 'value']
+        verbose_name = "Colorist Option"
+        verbose_name_plural = "Colorist Options"
+
+
+class CostumeDesignerOption(BaseOption):
+    class Meta:
+        db_table = 'costume_designer_options'
+        constraints = [
+            models.UniqueConstraint(fields=['value'], name='uq_costume_designer_value')
+        ]
+        ordering = ['display_order', 'value']
+        verbose_name = "Costume Designer Option"
+        verbose_name_plural = "Costume Designer Options"
+
+
+class ShadeOption(BaseOption):
+    class Meta:
+        db_table = 'shade_options'
+        constraints = [
+            models.UniqueConstraint(fields=['value'], name='uq_shade_value')
+        ]
+        ordering = ['display_order', 'value']
+        verbose_name = "Shade Option"
+        verbose_name_plural = "Shade Options"
+
+
+class ArtistOption(BaseOption):
+    slug = models.SlugField(max_length=255, unique=True, blank=True, help_text="URL-friendly slug for the artist")
+
+    class Meta:
+        db_table = 'artist_options'
+        constraints = [
+            models.UniqueConstraint(fields=['value'], name='uq_artist_value')
+        ]
+        ordering = ['display_order', 'value']
+        verbose_name = "Artist Option"
+        verbose_name_plural = "Artist Options"
+
+    def save(self, *args, **kwargs):
+        if not self.slug and self.value:
+            self.slug = slugify(self.value)
+            if ArtistOption.objects.filter(slug=self.slug).exclude(pk=self.pk).exists():
+                self.slug = f"{self.slug}-{uuid.uuid4().hex[:4]}"
+        super().save(*args, **kwargs)
+
+
+class FilmingLocationOption(BaseOption):
+    class Meta:
+        db_table = 'filming_location_options'
+        constraints = [
+            models.UniqueConstraint(fields=['value'], name='uq_filming_location_value')
+        ]
+        ordering = ['display_order', 'value']
+        verbose_name = "Filming Location Option"
+        verbose_name_plural = "Filming Location Options"
+
+
+class LocationTypeOption(BaseOption):
+    class Meta:
+        db_table = 'location_type_options'
+        constraints = [
+            models.UniqueConstraint(fields=['value'], name='uq_location_type_value')
+        ]
+        ordering = ['display_order', 'value']
+        verbose_name = "Location Type Option"
+        verbose_name_plural = "Location Type Options"
+
+
+class YearOption(BaseOption):
+    class Meta:
+        db_table = 'year_options'
+        constraints = [
+            models.UniqueConstraint(fields=['value'], name='uq_year_value')
+        ]
+        ordering = ['display_order', 'value']
+        verbose_name = "Year Option"
+        verbose_name_plural = "Year Options"
+
+
+class ProductionDesignerOption(BaseOption):
+    class Meta:
+        db_table = 'production_designer_options'
+        constraints = [
+            models.UniqueConstraint(fields=['value'], name='uq_production_designer_value')
+        ]
+        ordering = ['display_order', 'value']
+        verbose_name = "Production Designer Option"
+        verbose_name_plural = "Production Designer Options"
+
+
+class Movie(models.Model):
+    title = models.CharField(max_length=255)
+    year = models.IntegerField(null=True, blank=True)
+    slug = models.SlugField(max_length=255, unique=True, blank=True)
+
+    # Enhanced movie details for Shot Deck style movie pages
+    genre = models.CharField(max_length=500, blank=True, null=True, help_text="Movie genre (e.g., Drama, Action, Comedy)")
+    director = models.ForeignKey(DirectorOption, on_delete=models.SET_NULL, related_name='movies_as_director', null=True, blank=True, help_text="Movie director")
+    cinematographer = models.ForeignKey(CinematographerOption, on_delete=models.SET_NULL, related_name='movies_as_cinematographer', null=True, blank=True, help_text="Director of Photography")
+    editor = models.ForeignKey(EditorOption, on_delete=models.SET_NULL, related_name='movies_as_editor', null=True, blank=True, help_text="Film editor")
+    colorist = models.CharField(max_length=500, blank=True, null=True, help_text="Color grading artist")
+    production_designer = models.CharField(max_length=500, blank=True, null=True, help_text="Production designer")
+    costume_designer = models.CharField(max_length=500, blank=True, null=True, help_text="Costume designer")
+    cast = models.TextField(blank=True, null=True, help_text="Cast members (comma-separated)")
+
+    # Additional metadata
+    description = models.TextField(blank=True, null=True, help_text="Movie description/synopsis")
+    duration = models.IntegerField(null=True, blank=True, help_text="Movie duration in minutes")
+    country = models.CharField(max_length=200, blank=True, null=True, help_text="Country of production")
+    language = models.CharField(max_length=200, blank=True, null=True, help_text="Original language")
+
+    # Image count (computed field)
+    image_count = models.IntegerField(default=0, editable=False)
+
+    class Meta:
+        ordering = ['-year', 'title']
+        verbose_name = "Movie"
+        verbose_name_plural = "Movies"
+
+    def __str__(self):
+        if self.year:
+            return f"{self.title} ({self.year})"
+        return self.title
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            base_slug = slugify(self.title)
+            if self.year:
+                self.slug = f"{base_slug}-{self.year}"
+            else:
+                self.slug = base_slug
+
+            # Check for uniqueness
+            original_slug = self.slug
+            counter = 1
+            while Movie.objects.filter(slug=self.slug).exists():
+                self.slug = f"{original_slug}-{counter}"
+                counter += 1
+        super().save(*args, **kwargs)
+
+    def update_image_count(self):
+        """Update the image count for this movie"""
+        self.image_count = self.image_set.count()
+        self.save(update_fields=['image_count'])
+
+    def get_cast_list(self):
+        """Return cast as a list"""
+        if not self.cast:
+            return []
+        return [actor.strip() for actor in self.cast.split(',') if actor.strip()]
+
+    def get_main_crew(self):
+        """Return main crew information as a dictionary"""
+        return {
+            'director': self.director,
+            'cinematographer': self.cinematographer,
+            'editor': self.editor,
+            'colorist': self.colorist,
+            'production_designer': self.production_designer,
+            'costume_designer': self.costume_designer,
+        }
+
+
 class Tag(models.Model):
     name = models.CharField(max_length=200, unique=True)
     slug = models.SlugField(max_length=200, unique=True, blank=True)
@@ -638,6 +728,22 @@ class Image(models.Model):
     shot_time = models.ForeignKey(ShotTimeOption, on_delete=models.SET_NULL, related_name='images', null=True, blank=True)
     description_filter = models.ForeignKey(DescriptionOption, on_delete=models.SET_NULL, related_name='images', null=True, blank=True)
     vfx_backing = models.ForeignKey(VfxBackingOption, on_delete=models.SET_NULL, related_name='images', null=True, blank=True)
+
+    # Crew filters - reference through movie or direct fields
+    director = models.ForeignKey(DirectorOption, on_delete=models.SET_NULL, related_name='images', null=True, blank=True)
+    cinematographer = models.ForeignKey(CinematographerOption, on_delete=models.SET_NULL, related_name='images', null=True, blank=True)
+    editor = models.ForeignKey(EditorOption, on_delete=models.SET_NULL, related_name='images', null=True, blank=True)
+    colorist = models.ForeignKey(ColoristOption, on_delete=models.SET_NULL, related_name='images', null=True, blank=True)
+    costume_designer = models.ForeignKey(CostumeDesignerOption, on_delete=models.SET_NULL, related_name='images', null=True, blank=True)
+    production_designer = models.ForeignKey(ProductionDesignerOption, on_delete=models.SET_NULL, related_name='images', null=True, blank=True)
+
+    # Additional filter fields for new requirements
+    shade = models.ForeignKey(ShadeOption, on_delete=models.SET_NULL, related_name='images', null=True, blank=True)
+    artist = models.ForeignKey(ArtistOption, on_delete=models.SET_NULL, related_name='images', null=True, blank=True)
+    filming_location = models.ForeignKey(FilmingLocationOption, on_delete=models.SET_NULL, related_name='images', null=True, blank=True)
+    location_type = models.ForeignKey(LocationTypeOption, on_delete=models.SET_NULL, related_name='images', null=True, blank=True)
+    year = models.ForeignKey(YearOption, on_delete=models.SET_NULL, related_name='images', null=True, blank=True)
+
     exclude_nudity = models.BooleanField(default=False)
     exclude_violence = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
@@ -647,16 +753,89 @@ class Image(models.Model):
         ordering = ['-created_at']
         verbose_name = "Image"
         verbose_name_plural = "Images"
+        indexes = [
+            # Performance indexes for API queries
+            models.Index(fields=['created_at'], name='image_created_at_idx'),
+            models.Index(fields=['movie'], name='image_movie_idx'),
+            models.Index(fields=['release_year'], name='image_release_year_idx'),
+            models.Index(fields=['media_type'], name='image_media_type_idx'),
+            models.Index(fields=['color'], name='image_color_idx'),
+            models.Index(fields=['shot_type'], name='image_shot_type_idx'),
+            models.Index(fields=['lighting'], name='image_lighting_idx'),
+            models.Index(fields=['camera_type'], name='image_camera_type_idx'),
+            models.Index(fields=['time_of_day'], name='image_time_of_day_idx'),
+            models.Index(fields=['interior_exterior'], name='image_interior_exterior_idx'),
+            models.Index(fields=['gender'], name='image_gender_idx'),
+            models.Index(fields=['age'], name='image_age_idx'),
+            models.Index(fields=['ethnicity'], name='image_ethnicity_idx'),
+            models.Index(fields=['frame_size'], name='image_frame_size_idx'),
+            models.Index(fields=['aspect_ratio'], name='image_aspect_ratio_idx'),
+            models.Index(fields=['optical_format'], name='image_optical_format_idx'),
+            models.Index(fields=['format'], name='image_format_idx'),
+            models.Index(fields=['lab_process'], name='image_lab_process_idx'),
+            models.Index(fields=['time_period'], name='image_time_period_idx'),
+            models.Index(fields=['number_of_people'], name='image_number_of_people_idx'),
+            models.Index(fields=['composition'], name='image_composition_idx'),
+            models.Index(fields=['lens_size'], name='image_lens_size_idx'),
+            models.Index(fields=['lens_type'], name='image_lens_type_idx'),
+            models.Index(fields=['lighting_type'], name='image_lighting_type_idx'),
+            models.Index(fields=['resolution'], name='image_resolution_idx'),
+            models.Index(fields=['frame_rate'], name='image_frame_rate_idx'),
+            models.Index(fields=['actor'], name='image_actor_idx'),
+            models.Index(fields=['camera'], name='image_camera_idx'),
+            models.Index(fields=['lens'], name='image_lens_idx'),
+            models.Index(fields=['location'], name='image_location_idx'),
+            models.Index(fields=['setting'], name='image_setting_idx'),
+            models.Index(fields=['film_stock'], name='image_film_stock_idx'),
+            models.Index(fields=['shot_time'], name='image_shot_time_idx'),
+            models.Index(fields=['description_filter'], name='image_description_filter_idx'),
+            models.Index(fields=['vfx_backing'], name='image_vfx_backing_idx'),
+            # Crew filter indexes
+            models.Index(fields=['director'], name='image_director_idx'),
+            models.Index(fields=['cinematographer'], name='image_cinematographer_idx'),
+            models.Index(fields=['editor'], name='image_editor_idx'),
+            models.Index(fields=['colorist'], name='image_colorist_idx'),
+            models.Index(fields=['costume_designer'], name='image_costume_designer_idx'),
+            models.Index(fields=['production_designer'], name='image_production_designer_idx'),
+            # New filter indexes
+            models.Index(fields=['shade'], name='image_shade_idx'),
+            models.Index(fields=['artist'], name='image_artist_idx'),
+            models.Index(fields=['filming_location'], name='image_filming_location_idx'),
+            models.Index(fields=['location_type'], name='image_location_type_idx'),
+            models.Index(fields=['year'], name='image_year_filter_idx'),
+            # Composite indexes for common queries
+            models.Index(fields=['movie', 'created_at'], name='image_movie_created_idx'),
+            models.Index(fields=['release_year', 'created_at'], name='image_year_created_idx'),
+            models.Index(fields=['shot_type', 'lighting'], name='image_shot_lighting_idx'),
+            models.Index(fields=['color', 'lighting'], name='image_color_lighting_idx'),
+            models.Index(fields=['camera_type', 'lens_type'], name='image_camera_lens_idx'),
+            # Advanced filter combinations
+            models.Index(fields=['shot_type', 'time_of_day'], name='image_shot_time_of_day_idx'),
+            models.Index(fields=['lighting', 'interior_exterior'], name='image_lighting_location_idx'),
+            models.Index(fields=['camera_type', 'film_stock'], name='image_camera_film_idx'),
+            models.Index(fields=['actor', 'movie'], name='image_actor_movie_idx'),
+            models.Index(fields=['location', 'setting'], name='image_location_setting_idx'),
+        ]
 
     def __str__(self):
         return self.title
 
     def save(self, *args, **kwargs):
         if not self.slug:
-            # Create ultra-unique slug for maximum performance
-            base_slug = slugify(self.title)
-            unique_part = uuid.uuid4().hex[:12]  # Longer unique part
-            self.slug = f"{base_slug}-{unique_part}"
+            # Create slug based on movie and shot ID for consistency
+            if self.movie and self.image_url:
+                # Extract shot ID from image URL (format: .../YI8XF7OD.jpg)
+                import os
+                filename = os.path.basename(self.image_url)
+                shot_id = os.path.splitext(filename)[0]  # Remove .jpg extension
+
+                movie_slug = self.movie.slug
+                self.slug = f"{movie_slug}-{shot_id.lower()}"
+            else:
+                # Fallback to old method if movie or URL not available
+                base_slug = slugify(self.title)
+                unique_part = uuid.uuid4().hex[:12]
+                self.slug = f"{base_slug}-{unique_part}"
         super().save(*args, **kwargs)
 
     def analyze_colors(self):
