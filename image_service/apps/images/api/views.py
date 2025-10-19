@@ -190,12 +190,11 @@ class ImageViewSet(ReadOnlyModelViewSet):
 
     def retrieve(self, request, *args, **kwargs):
         """
-        Get detailed image information.
+        Get detailed image information with complete metadata.
         """
         image = self.get_object()
-        # Use ImageListSerializer instead of full ImageSerializer to avoid issues
-        from apps.images.api.serializers import ImageListSerializer
-        serializer = ImageListSerializer(image, context={'request': request})
+        # Use full ImageSerializer to get all metadata fields
+        serializer = self.get_serializer(image)
         return Response({
             'success': True,
             'data': serializer.data
