@@ -282,10 +282,22 @@ class Command(BaseCommand):
                     description_parts.append(f"Actors: {', '.join(actor_values)}")
             
             description = " | ".join(description_parts)
+
+            # Release year (as plain integer for Image.release_year)
+            release_year = None
+            try:
+                year_data = details.get('year', {}).get('values', [])
+                if year_data:
+                    year_str = year_data[0].get('display_value', '')
+                    if year_str.isdigit():
+                        release_year = int(year_str)
+            except Exception:
+                release_year = None
             
             return {
                 'title': title,
-                'description': description
+                'description': description,
+                'release_year': release_year
             }
         except Exception as e:
             self.logger.error(f"Error extracting image data: {e}")
@@ -373,7 +385,7 @@ class Command(BaseCommand):
                 ('media_type', MediaTypeOption, details.get('media_type', {})),
                 ('genre', GenreOption, title_info.get('genre', {})),
                 ('time_period', TimePeriodOption, shot_info.get('time_period', {})),
-                ('color', ColorOption, details.get('color', {})),
+                ('color', ColorOption, shot_info.get('color', {})),
                 ('shade', ShadeOption, details.get('shade', {})),
                 ('aspect_ratio', AspectRatioOption, shot_info.get('aspect_ratio', {})),
                 ('optical_format', OpticalFormatOption, shot_info.get('optical_format', {})),
@@ -477,6 +489,7 @@ class Command(BaseCommand):
                 description=image_data['description'],
                 image_url=image_url,
                 movie=movie,
+                release_year=image_data.get('release_year'),
             )
             
             # Set ALL single-value foreign keys

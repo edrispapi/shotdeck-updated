@@ -114,8 +114,16 @@ class ImageViewSet(ReadOnlyModelViewSet):
     lookup_field = 'slug'
 
     def get_queryset(self):
-        """Basic queryset - simplified for debugging"""
-        return Image.objects.all()
+        """Optimized queryset with select_related for all foreign key fields"""
+        return Image.objects.select_related(
+            'movie', 'actor', 'camera', 'cinematographer', 'director', 'lens', 'film_stock',
+            'setting', 'location', 'filming_location', 'aspect_ratio', 'time_period',
+            'time_of_day', 'interior_exterior', 'number_of_people', 'gender', 'age',
+            'ethnicity', 'frame_size', 'shot_type', 'composition', 'lens_type',
+            'lighting', 'lighting_type', 'camera_type', 'resolution', 'frame_rate',
+            'vfx_backing', 'shade', 'artist', 'location_type', 'media_type', 'color',
+            'optical_format', 'format', 'lab_process'
+        ).prefetch_related('tags', 'genre')
 
     def filter_queryset(self, queryset):
         """Optimized filtering with performance monitoring"""
