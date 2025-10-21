@@ -84,22 +84,55 @@ class TagSerializer(serializers.ModelSerializer):
 
 class ImageListSerializer(serializers.ModelSerializer):
     """
-    Lightweight serializer for list views - optimized for performance
+    Comprehensive serializer for list views - includes all filter fields
     """
     tags = TagSerializer(many=True, read_only=True)
 
-    # Only include the most essential value fields
+    # All filter value fields
     media_type_value = serializers.SerializerMethodField()
     color_value = serializers.SerializerMethodField()
     movie_value = serializers.CharField(source='movie.title', read_only=True)
     movie_slug = serializers.CharField(source='movie.slug', read_only=True)
+    
+    # All the missing fields
+    actor_value = serializers.CharField(source='actor.value', read_only=True)
+    camera_value = serializers.CharField(source='camera.value', read_only=True)
+    cinematographer_value = serializers.CharField(source='cinematographer.value', read_only=True)
+    director_value = serializers.CharField(source='director.value', read_only=True)
+    lens_value = serializers.CharField(source='lens.value', read_only=True)
+    film_stock_value = serializers.CharField(source='film_stock.value', read_only=True)
+    setting_value = serializers.CharField(source='setting.value', read_only=True)
+    location_value = serializers.CharField(source='location.value', read_only=True)
+    filming_location_value = serializers.CharField(source='filming_location.value', read_only=True)
+    aspect_ratio_value = serializers.CharField(source='aspect_ratio.value', read_only=True)
+    time_period_value = serializers.CharField(source='time_period.value', read_only=True)
+    time_of_day_value = serializers.CharField(source='time_of_day.value', read_only=True)
+    interior_exterior_value = serializers.CharField(source='interior_exterior.value', read_only=True)
+    frame_size_value = serializers.CharField(source='frame_size.value', read_only=True)
+    shot_type_value = serializers.CharField(source='shot_type.value', read_only=True)
+    composition_value = serializers.CharField(source='composition.value', read_only=True)
+    lens_type_value = serializers.CharField(source='lens_type.value', read_only=True)
+    lighting_value = serializers.CharField(source='lighting.value', read_only=True)
+    lighting_type_value = serializers.CharField(source='lighting_type.value', read_only=True)
+    shade_value = serializers.CharField(source='shade.value', read_only=True)
+    artist_value = serializers.CharField(source='artist.value', read_only=True)
+    location_type_value = serializers.CharField(source='location_type.value', read_only=True)
 
     class Meta:
         model = Image
         fields = [
-            'id', 'slug', 'title', 'description', 'image_url',
+            'id', 'slug', 'title', 'image_url',
             'tags', 'release_year', 'media_type', 'media_type_value',
             'color', 'color_value', 'movie', 'movie_value', 'movie_slug',
+            # All the missing fields
+            'actor', 'actor_value', 'camera', 'camera_value', 'cinematographer', 'cinematographer_value',
+            'director', 'director_value', 'lens', 'lens_value', 'film_stock', 'film_stock_value',
+            'setting', 'setting_value', 'location', 'location_value', 'filming_location', 'filming_location_value',
+            'aspect_ratio', 'aspect_ratio_value', 'time_period', 'time_period_value',
+            'time_of_day', 'time_of_day_value', 'interior_exterior', 'interior_exterior_value',
+            'frame_size', 'frame_size_value', 'shot_type', 'shot_type_value', 'composition', 'composition_value',
+            'lens_type', 'lens_type_value', 'lighting', 'lighting_value', 'lighting_type', 'lighting_type_value',
+            'shade', 'shade_value', 'artist', 'artist_value', 'location_type', 'location_type_value',
             'created_at', 'updated_at'
         ]
 
@@ -238,19 +271,10 @@ class ImageSerializer(serializers.ModelSerializer):
     format_value = serializers.CharField(source='format.value', read_only=True)
     interior_exterior_value = serializers.CharField(source='interior_exterior.value', read_only=True)
     time_of_day_value = serializers.CharField(source='time_of_day.value', read_only=True)
-    number_of_people_value = serializers.CharField(source='number_of_people.value', read_only=True)
-    gender_value = serializers.CharField(source='gender.value', read_only=True)
-    age_value = serializers.CharField(source='age.value', read_only=True)
-    ethnicity_value = serializers.CharField(source='ethnicity.value', read_only=True)
     composition_value = serializers.CharField(source='composition.value', read_only=True)
-    lens_size_value = serializers.CharField(source='lens_size.value', read_only=True)
     lens_type_value = serializers.CharField(source='lens_type.value', read_only=True)
     lighting_type_value = serializers.CharField(source='lighting_type.value', read_only=True)
-    camera_type_value = serializers.CharField(source='camera_type.value', read_only=True)
-    resolution_value = serializers.CharField(source='resolution.value', read_only=True)
-    frame_rate_value = serializers.CharField(source='frame_rate.value', read_only=True)
     time_period_value = serializers.CharField(source='time_period.value', read_only=True)
-    lab_process_value = serializers.CharField(source='lab_process.value', read_only=True)
 
     # New filter value fields
     movie_value = serializers.CharField(source='movie.title', read_only=True)
@@ -261,8 +285,6 @@ class ImageSerializer(serializers.ModelSerializer):
     location_value = serializers.CharField(source='location.value', read_only=True)
     setting_value = serializers.CharField(source='setting.value', read_only=True)
     film_stock_value = serializers.CharField(source='film_stock.value', read_only=True)
-    shot_time_value = serializers.CharField(source='shot_time.value', read_only=True)
-    description_filter_value = serializers.CharField(source='description_filter.value', read_only=True)
     vfx_backing_value = serializers.CharField(source='vfx_backing.value', read_only=True)
 
     # Additional filter value fields for complete dataset
@@ -280,20 +302,15 @@ class ImageSerializer(serializers.ModelSerializer):
     class Meta:
         model = Image
         fields = [
-            'id', 'slug', 'title', 'description', 'image_url',
+            'id', 'slug', 'title', 'image_url',
             'tags', 'tag_ids',
             'release_year', 'media_type', 'media_type_value', 'genre',
             'color', 'color_value', 'aspect_ratio', 'aspect_ratio_value',
             'optical_format', 'optical_format_value', 'format', 'format_value',
             'interior_exterior', 'interior_exterior_value', 'time_of_day', 'time_of_day_value',
-            'number_of_people', 'number_of_people_value', 'gender', 'gender_value',
-            'age', 'age_value', 'ethnicity', 'ethnicity_value', 'frame_size', 'frame_size_value',
-            'shot_type', 'shot_type_value', 'composition', 'composition_value',
-            'lens_size', 'lens_size_value', 'lens_type', 'lens_type_value',
-            'lighting', 'lighting_value', 'lighting_type', 'lighting_type_value',
-            'camera_type', 'camera_type_value', 'resolution', 'resolution_value',
-            'frame_rate', 'frame_rate_value', 'time_period', 'time_period_value',
-            'lab_process', 'lab_process_value',
+            'frame_size', 'frame_size_value', 'shot_type', 'shot_type_value', 'composition', 'composition_value',
+            'lens_type', 'lens_type_value', 'lighting', 'lighting_value', 'lighting_type', 'lighting_type_value',
+            'time_period', 'time_period_value',
             # Movie and crew fields
             'movie', 'movie_value', 'movie_slug',
             'director', 'director_value', 'cinematographer', 'cinematographer_value',
@@ -302,8 +319,7 @@ class ImageSerializer(serializers.ModelSerializer):
             # Actor and technical fields
             'actor', 'actor_value', 'camera', 'camera_value', 'lens', 'lens_value',
             'location', 'location_value', 'setting', 'setting_value',
-            'film_stock', 'film_stock_value', 'shot_time', 'shot_time_value',
-            'description_filter', 'description_filter_value', 'vfx_backing', 'vfx_backing_value',
+            'film_stock', 'film_stock_value', 'vfx_backing', 'vfx_backing_value',
             # New filter fields
             'shade', 'shade_value', 'artist', 'artist_value',
             'filming_location', 'filming_location_value', 'location_type', 'location_type_value',
@@ -392,16 +408,15 @@ class ImageSerializer(serializers.ModelSerializer):
                         representation['image_url'] = f"http://localhost:51009/media/{path_part}"
 
         # Handle null/empty values for filter fields - provide meaningful defaults or remove empty fields
+        # Only process fields that are actually in the response and have meaningful data
         filter_value_fields = [
-            'media_type_value', 'genre_value', 'color_value', 'aspect_ratio_value',
+            'media_type_value', 'color_value', 'aspect_ratio_value',
             'optical_format_value', 'format_value', 'interior_exterior_value', 'time_of_day_value',
-            'number_of_people_value', 'gender_value', 'age_value', 'ethnicity_value',
-            'frame_size_value', 'shot_type_value', 'composition_value', 'lens_size_value',
-            'lens_type_value', 'lighting_value', 'lighting_type_value', 'camera_type_value',
-            'resolution_value', 'frame_rate_value', 'time_period_value', 'lab_process_value',
+            'frame_size_value', 'shot_type_value', 'composition_value',
+            'lens_type_value', 'lighting_value', 'lighting_type_value',
+            'time_period_value',
             'movie_value', 'actor_value', 'camera_value', 'lens_value', 'location_value',
-            'setting_value', 'film_stock_value', 'shot_time_value', 'description_filter_value',
-            'vfx_backing_value', 'director_value', 'cinematographer_value', 'editor_value',
+            'setting_value', 'film_stock_value', 'vfx_backing_value', 'director_value', 'cinematographer_value', 'editor_value',
             'colorist_value', 'costume_designer_value', 'production_designer_value',
             'shade_value', 'artist_value', 'filming_location_value', 'location_type_value'
         ]
