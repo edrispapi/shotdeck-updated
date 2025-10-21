@@ -93,6 +93,7 @@ class ImageListSerializer(serializers.ModelSerializer):
     color_value = serializers.SerializerMethodField()
     movie_value = serializers.CharField(source='movie.title', read_only=True)
     movie_slug = serializers.CharField(source='movie.slug', read_only=True)
+    image_available = serializers.SerializerMethodField()
     
     # All the missing fields
     actor_value = serializers.CharField(source='actor.value', read_only=True)
@@ -148,6 +149,17 @@ class ImageListSerializer(serializers.ModelSerializer):
     def get_color_value(self, obj):
         return obj.color.value if obj.color else None
 
+    def get_image_available(self, obj):
+        """Check if the image file actually exists"""
+        if obj.image_url and obj.image_url.startswith('/media/'):
+            import os
+            from django.conf import settings
+            media_root = getattr(settings, 'MEDIA_ROOT', '/app/media')
+            relative_path = obj.image_url.replace('/media/', '')
+            file_path = os.path.join(media_root, relative_path)
+            return os.path.exists(file_path)
+        return True  # Assume available if not a local media file
+
     def to_representation(self, instance):
         """Convert relative image URLs to full URLs for clickable links and drop empty keys"""
         representation = super().to_representation(instance)
@@ -169,19 +181,7 @@ class ImageListSerializer(serializers.ModelSerializer):
                     # Final fallback to localhost with image_service port
                     full_url = f"http://localhost:51009{instance.image_url}"
 
-            # Check if the image file actually exists
-            import os
-            from django.conf import settings
-            media_root = getattr(settings, 'MEDIA_ROOT', '/app/media')
-            relative_path = instance.image_url.replace('/media/', '')
-            file_path = os.path.join(media_root, relative_path)
-
-            if os.path.exists(file_path):
-                representation['image_url'] = full_url
-                representation['image_available'] = True
-            else:
-                representation['image_url'] = full_url
-                representation['image_available'] = False
+            representation['image_url'] = full_url
 
         # Drop empty keys like camera_value, lens_value, etc.
         empty_value_fields = [
@@ -196,9 +196,6 @@ class ImageListSerializer(serializers.ModelSerializer):
         # Handle empty collections - remove empty tags instead of setting to empty array
         if not representation.get('tags') or len(representation.get('tags', [])) == 0:
             representation.pop('tags', None)
-
-        # Add image_available field
-        representation['image_available'] = True
 
         return representation
 
@@ -322,6 +319,7 @@ class ImageSerializer(serializers.ModelSerializer):
     filming_location_value = serializers.CharField(source='filming_location.value', read_only=True)
     location_type_value = serializers.CharField(source='location_type.value', read_only=True)
     gender_value = serializers.CharField(source='gender.value', read_only=True)
+    image_available = serializers.SerializerMethodField()
 
     class Meta:
         model = Image
@@ -353,7 +351,7 @@ class ImageSerializer(serializers.ModelSerializer):
             # Enhanced color analysis fields
             'dominant_colors', 'primary_color_hex', 'primary_colors', 'secondary_color_hex',
             'color_palette', 'color_samples', 'color_histogram', 'color_search_terms',
-            'color_temperature', 'hue_range',
+            'color_temperature', 'hue_range', 'image_available',
             'created_at', 'updated_at'
         ]
         read_only_fields = ['id', 'slug', 'created_at', 'updated_at']
@@ -372,6 +370,17 @@ class ImageSerializer(serializers.ModelSerializer):
 
     def get_lighting_value(self, obj):
         return obj.lighting.value if obj.lighting else None
+
+    def get_image_available(self, obj):
+        """Check if the image file actually exists"""
+        if obj.image_url and obj.image_url.startswith('/media/'):
+            import os
+            from django.conf import settings
+            media_root = getattr(settings, 'MEDIA_ROOT', '/app/media')
+            relative_path = obj.image_url.replace('/media/', '')
+            file_path = os.path.join(media_root, relative_path)
+            return os.path.exists(file_path)
+        return True  # Assume available if not a local media file
 
     def to_representation(self, instance):
         representation = super().to_representation(instance)
@@ -397,19 +406,7 @@ class ImageSerializer(serializers.ModelSerializer):
                         # Last fallback - use localhost and correct port
                         full_url = f"http://localhost:51009{instance.image_url}"
 
-                # Check if the image file actually exists
-                import os
-                from django.conf import settings
-                media_root = getattr(settings, 'MEDIA_ROOT', '/app/media')
-                relative_path = instance.image_url.replace('/media/', '')
-                file_path = os.path.join(media_root, relative_path)
-
-                if os.path.exists(file_path):
-                    representation['image_url'] = full_url
-                    representation['image_available'] = True
-                else:
-                    representation['image_url'] = full_url
-                    representation['image_available'] = False
+                representation['image_url'] = full_url
             # If it's already an absolute URL but with wrong host/port, try to fix it
             elif 'localhost:' in instance.image_url:
                 request = self.context.get('request')
@@ -491,9 +488,6 @@ class ImageSerializer(serializers.ModelSerializer):
 
         if representation.get('release_year') is None:
             representation['release_year'] = None  # Keep as null for year fields
-
-        # Add image_available field
-        representation['image_available'] = True
 
         return representation
 
