@@ -138,7 +138,7 @@ class ImageListSerializer(serializers.ModelSerializer):
             # Additional fields from original response
             'exclude_nudity', 'exclude_violence', 'dominant_colors', 'primary_color_hex', 'primary_colors',
             'secondary_color_hex', 'color_palette', 'color_samples', 'color_histogram', 'color_search_terms',
-            'color_temperature', 'hue_range', 'image_available',
+            'color_temperature', 'hue_range',
             'created_at', 'updated_at'
         ]
 
