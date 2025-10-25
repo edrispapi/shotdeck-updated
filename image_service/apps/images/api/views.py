@@ -279,7 +279,16 @@ class ImageViewSet(ReadOnlyModelViewSet):
                 paginated_response = self.get_paginated_response(serializer.data)
                 data = paginated_response.data
             else:
-                serializer = self.get_serializer(queryset, many=True, context={'request': request})
+                # If pagination didn't return a page (should be rare since default
+                # pagination is enabled), enforce a maximum page size here so the
+                # response always returns at most the default page size (20).
+                try:
+                    page_size = settings.REST_FRAMEWORK.get('PAGE_SIZE', 20)
+                except Exception:
+                    page_size = 20
+
+                limited_qs = queryset[:page_size]
+                serializer = self.get_serializer(limited_qs, many=True, context={'request': request})
                 data = {
                     'results': serializer.data,
                     'count': queryset.count(),
@@ -1510,6 +1519,68 @@ class TagViewSet(ReadOnlyModelViewSet):
         """Disable list endpoint - return 404"""
         from rest_framework.response import Response
         return Response({"error": "Tags list endpoint is not available"}, status=404)
+
+    def retrieve(self, request, *args, **kwargs):
+        """
+        Get detailed tag information including usage statistics.
+        Returns tag data, a small sample of images using the tag, and statistics:
+          - total_images: total number of images with this tag
+          - movies_count: distinct movies represented in those images
+          - top_cooccurring_tags: other tags that co-occur with this tag (id, slug, name, count)
+          - top_colors: distribution of colors for images with this tag (color id, value, count)
+        """
+        tag = self.get_object()
+
+        # Sample images for this tag (limit for performance)
+        images_qs = tag.images.select_related('movie', 'color', 'media_type').prefetch_related('tags')[:20]
+        images_serializer = MovieImageSerializer(images_qs, many=True, context={'request': request})
+
+        # Basic counts
+        total_images = tag.images.count()
+        movies_count = tag.images.filter(movie__isnull=False).values('movie').distinct().count()
+
+        # Top co-occurring tags (other tags that appear on images that have this tag)
+        co_tags_qs = (
+            Tag.objects
+            .filter(images__in=tag.images.all())
+            .exclude(id=tag.id)
+            .annotate(count=Count('images'))
+            .order_by('-count')[:10]
+        )
+        top_cooccurring_tags = [
+            {'id': t.id, 'slug': t.slug, 'name': t.name, 'count': t.count}
+            for t in co_tags_qs
+        ]
+
+        # Top colors for images with this tag
+        top_colors_qs = (
+            tag.images
+            .filter(color__isnull=False)
+            .values('color__id', 'color__value')
+            .annotate(count=Count('id'))
+            .order_by('-count')[:10]
+        )
+        top_colors = [
+            {'id': c['color__id'], 'value': c['color__value'], 'count': c['count']}
+            for c in top_colors_qs
+        ]
+
+        tag_serializer = TagSerializer(tag)
+
+        response_data = {
+            'success': True,
+            'tag': tag_serializer.data,
+            'images': images_serializer.data,
+            'statistics': {
+                'total_images': total_images,
+                'images_shown': len(images_serializer.data),
+                'movies_count': movies_count,
+                'top_cooccurring_tags': top_cooccurring_tags,
+                'top_colors': top_colors,
+            }
+        }
+
+        return Response(response_data)
 
     def get_permissions(self):
         """
