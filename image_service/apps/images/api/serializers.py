@@ -48,25 +48,48 @@ class MovieSerializer(serializers.ModelSerializer):
     def to_representation(self, instance):
         representation = super().to_representation(instance)
 
-        # Handle null values for nested fields - convert null to empty strings
+        # Remove empty/null fields to clean up the response
+        fields_to_remove = []
+        
+        # Check for empty string fields
+        empty_string_fields = [
+            'description', 'genre', 'country', 'language',
+            'colorist', 'costume_designer', 'production_designer'
+        ]
+        
+        for field in empty_string_fields:
+            if representation.get(field) == "" or representation.get(field) is None:
+                fields_to_remove.append(field)
+        
+        # Check for empty nested value fields
         nested_value_fields = [
             'director_value', 'director_slug', 'cinematographer_value', 'cinematographer_slug',
             'editor_value', 'editor_slug', 'colorist_value',
             'costume_designer_value', 'production_designer_value'
         ]
-
+        
         for field in nested_value_fields:
-            if representation.get(field) is None:
-                representation[field] = ""
-
-        # Handle other potentially null fields
-        text_fields = ['description', 'genre', 'cast', 'country', 'language']
-        for field in text_fields:
-            if representation.get(field) is None:
-                representation[field] = ""
-
-        # Keep numeric fields as null if they're None (year, duration, image_count)
-        # They should remain null rather than empty strings for proper API semantics
+            if representation.get(field) == "" or representation.get(field) is None:
+                fields_to_remove.append(field)
+        
+        # Remove null duration field
+        if representation.get('duration') is None:
+            fields_to_remove.append('duration')
+        
+        # Handle cast field - convert to list if it's a string
+        if representation.get('cast'):
+            if isinstance(representation['cast'], str):
+                # Convert comma-separated string to list
+                cast_list = [actor.strip() for actor in representation['cast'].split(',') if actor.strip()]
+                representation['cast'] = cast_list
+            elif not representation['cast']:  # Empty string or None
+                fields_to_remove.append('cast')
+        else:
+            fields_to_remove.append('cast')
+        
+        # Remove the empty fields
+        for field in fields_to_remove:
+            representation.pop(field, None)
 
         return representation
 
@@ -138,7 +161,7 @@ class ImageListSerializer(serializers.ModelSerializer):
             # Additional fields from original response
             'exclude_nudity', 'exclude_violence', 'dominant_colors', 'primary_color_hex', 'primary_colors',
             'secondary_color_hex', 'color_palette', 'color_samples', 'color_histogram', 'color_search_terms',
-            'color_temperature', 'hue_range', 'image_available',
+            'color_temperature', 'hue_range',
             'created_at', 'updated_at'
         ]
 
@@ -186,16 +209,17 @@ class ImageListSerializer(serializers.ModelSerializer):
         # Drop empty keys like camera_value, lens_value, etc.
         empty_value_fields = [
             'camera_value', 'lens_value', 'film_stock_value', 'vfx_backing_value',
-            'colorist_value', 'costume_designer_value', 'artist_value'
+            'colorist_value', 'costume_designer_value', 'artist_value', 'gender_value'
         ]
         
         for field in empty_value_fields:
             if representation.get(field) == "" or representation.get(field) is None:
                 representation.pop(field, None)
 
-        # Handle empty collections - remove empty tags instead of setting to empty array
+        # Keep tags field even if empty - users expect to see tags field
+        # Ensure tags are properly serialized
         if not representation.get('tags') or len(representation.get('tags', [])) == 0:
-            representation.pop('tags', None)
+            representation['tags'] = []
 
         # Add image_available field
         representation['image_available'] = True
@@ -375,8 +399,9 @@ class ImageSerializer(serializers.ModelSerializer):
 
     def to_representation(self, instance):
         representation = super().to_representation(instance)
-        # Temporarily disable tag serialization for debugging
-        # representation['tags'] = TagSerializer(instance.tags.all(), many=True).data
+        
+        # Fix tags field - ensure tags are properly serialized
+        representation['tags'] = TagSerializer(instance.tags.all(), many=True).data
 
         # Fix image URL to use proper host and port
         if instance.image_url:
@@ -462,6 +487,11 @@ class ImageSerializer(serializers.ModelSerializer):
         for field in empty_value_fields:
             if representation.get(field) == "" or representation.get(field) is None:
                 representation.pop(field, None)
+        
+        # Keep gender_value field even if empty - it's important for filtering
+        # Only remove it if it's truly null/empty
+        if representation.get('gender_value') == "" or representation.get('gender_value') is None:
+            representation.pop('gender_value', None)
 
         # Handle empty collections - remove empty tags instead of setting to empty array
         if not representation.get('tags') or len(representation.get('tags', [])) == 0:

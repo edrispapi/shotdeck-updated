@@ -8,7 +8,7 @@ import sys
 import django
 
 # Add the Django project to the Python path
-sys.path.append('/workspace/image_service')
+sys.path.append('/home/a/shotdeck-main/image_service')
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
 django.setup()
 

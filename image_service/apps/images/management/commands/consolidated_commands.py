@@ -49,7 +49,6 @@ class Command(BaseCommand):
             level=logging.INFO,
             format='%(asctime)s - %(levelname)s - %(message)s',
             handlers=[
-                logging.FileHandler('/service/consolidated_commands.log'),
                 logging.StreamHandler()
             ]
         )
@@ -516,13 +515,63 @@ class Command(BaseCommand):
 
     def _normalize_image_tags(self, image):
         """Normalize tags for an image"""
-        # Implementation for tag normalization
-        pass
+        if not image.description or 'Tags:' not in image.description:
+            return
+            
+        # Extract tags from description using improved regex
+        import re
+        tag_match = re.search(r'Tags:\s*(.+?)(?:\s*\||$)', image.description)
+        if tag_match:
+            tags_text = tag_match.group(1).strip()
+            # Split by comma and clean up
+            tag_names = [tag.strip() for tag in tags_text.split(',') if tag.strip()]
+            
+            # Clear existing tags first
+            image.tags.clear()
+            
+            # Create or get tags
+            for tag_name in tag_names:
+                tag, created = Tag.objects.get_or_create(
+                    name=tag_name,
+                    defaults={'slug': slugify(tag_name)}
+                )
+                image.tags.add(tag)
+            
+            # Remove tags from description
+            new_description = re.sub(r'Tags:\s*[^|]+\|\s*', '', image.description).strip()
+            if new_description != image.description:
+                image.description = new_description
+                image.save(update_fields=['description'])
+                
+            self.stdout.write(f"Extracted {len(tag_names)} tags for image {image.slug}")
 
     def _populate_image_movie_fields(self, image):
         """Populate movie fields for an image"""
-        # Implementation for movie field population
-        pass
+        if not image.movie:
+            return
+            
+        # Extract cast from actors in description
+        if image.description and 'Actors:' in image.description:
+            import re
+            actor_match = re.search(r'Actors:\s*(.+?)(?:\s*\||$)', image.description)
+            if actor_match:
+                actors_text = actor_match.group(1).strip()
+                # Update movie cast field
+                if not image.movie.cast:
+                    image.movie.cast = actors_text
+                    image.movie.save(update_fields=['cast'])
+                elif actors_text not in image.movie.cast:
+                    # Append new actors if not already present
+                    current_cast = image.movie.cast.split(',')
+                    new_actors = [actor.strip() for actor in actors_text.split(',') if actor.strip()]
+                    for actor in new_actors:
+                        if actor not in current_cast:
+                            current_cast.append(actor)
+                    image.movie.cast = ', '.join(current_cast)
+                    image.movie.save(update_fields=['cast'])
+        
+        # Update movie image count
+        image.movie.update_image_count()
 
     def _derive_colors_from_shades(self, image):
         """Derive colors from shades for an image"""
@@ -530,9 +579,65 @@ class Command(BaseCommand):
         pass
 
     def _process_complete_dataset(self, data, image_dir):
-        """Process complete dataset"""
-        # Implementation for complete dataset processing
-        pass
+        """Process complete dataset with full metadata extraction"""
+        try:
+            # Extract basic image info
+            image_id = data.get('id', '')
+            title = data.get('title', '')
+            description = data.get('description', '')
+            
+            # Create image URL
+            # Always set the media URL even if the physical file is missing.
+            # The file may be synced later; do not skip creating the DB record.
+            image_filename = f"{image_id}.jpg"
+            image_url = f"/media/images/{image_filename}"
+            
+            # Create or get image
+            image, created = Image.objects.get_or_create(
+                slug=image_id.lower(),
+                defaults={
+                    'title': title,
+                    'description': description,
+                    'image_url': image_url,
+                    'release_year': data.get('year'),
+                }
+            )
+            
+            if not created:
+                # Update existing image
+                image.title = title
+                image.description = description
+                image.image_url = image_url
+                if data.get('year'):
+                    image.release_year = data.get('year')
+                image.save()
+            
+            # Process movie data
+            movie_data = data.get('movie', {})
+            if movie_data:
+                movie_title = movie_data.get('title', '')
+                movie_year = movie_data.get('year')
+                
+                if movie_title:
+                    movie, movie_created = Movie.objects.get_or_create(
+                        title=movie_title,
+                        defaults={'year': movie_year}
+                    )
+                    image.movie = movie
+                    image.save(update_fields=['movie'])
+            
+            # Process tags from description
+            if description and 'Tags:' in description:
+                self._normalize_image_tags(image)
+            
+            # Process all metadata fields
+            self._process_image_metadata(image, data)
+            
+            return image
+            
+        except Exception as e:
+            self.stderr.write(f"Error processing image {image_id}: {e}")
+            return None
 
     def _get_or_create_option(self, model_class, value, **kwargs):
         """Get or create option with caching"""
@@ -557,3 +662,173 @@ class Command(BaseCommand):
             return []
         parts = [p.strip() for p in block.split(',')]
         return [p for p in parts if p]
+    
+    def _process_image_metadata(self, image, data):
+        """Process all metadata fields for an image"""
+        try:
+            # Process media type
+            if data.get('media_type'):
+                media_type = self._get_or_create_option(MediaTypeOption, data['media_type'])
+                if media_type:
+                    image.media_type = media_type
+            
+            # Process color
+            if data.get('color'):
+                color = self._get_or_create_option(ColorOption, data['color'])
+                if color:
+                    image.color = color
+            
+            # Process aspect ratio
+            if data.get('aspect_ratio'):
+                aspect_ratio = self._get_or_create_option(AspectRatioOption, data['aspect_ratio'])
+                if aspect_ratio:
+                    image.aspect_ratio = aspect_ratio
+            
+            # Process time of day
+            if data.get('time_of_day'):
+                time_of_day = self._get_or_create_option(TimeOfDayOption, data['time_of_day'])
+                if time_of_day:
+                    image.time_of_day = time_of_day
+            
+            # Process interior/exterior
+            if data.get('interior_exterior'):
+                interior_exterior = self._get_or_create_option(InteriorExteriorOption, data['interior_exterior'])
+                if interior_exterior:
+                    image.interior_exterior = interior_exterior
+            
+            # Process frame size
+            if data.get('frame_size'):
+                frame_size = self._get_or_create_option(FrameSizeOption, data['frame_size'])
+                if frame_size:
+                    image.frame_size = frame_size
+            
+            # Process shot type
+            if data.get('shot_type'):
+                shot_type = self._get_or_create_option(ShotTypeOption, data['shot_type'])
+                if shot_type:
+                    image.shot_type = shot_type
+            
+            # Process composition
+            if data.get('composition'):
+                composition = self._get_or_create_option(CompositionOption, data['composition'])
+                if composition:
+                    image.composition = composition
+            
+            # Process lens type
+            if data.get('lens_type'):
+                lens_type = self._get_or_create_option(LensTypeOption, data['lens_type'])
+                if lens_type:
+                    image.lens_type = lens_type
+            
+            # Process lighting
+            if data.get('lighting'):
+                lighting = self._get_or_create_option(LightingOption, data['lighting'])
+                if lighting:
+                    image.lighting = lighting
+            
+            # Process lighting type
+            if data.get('lighting_type'):
+                lighting_type = self._get_or_create_option(LightingTypeOption, data['lighting_type'])
+                if lighting_type:
+                    image.lighting_type = lighting_type
+            
+            # Process gender
+            if data.get('gender'):
+                gender = self._get_or_create_option(GenderOption, data['gender'])
+                if gender:
+                    image.gender = gender
+            
+            # Process director
+            if data.get('director'):
+                director = self._get_or_create_option(DirectorOption, data['director'])
+                if director:
+                    image.director = director
+            
+            # Process cinematographer
+            if data.get('cinematographer'):
+                cinematographer = self._get_or_create_option(CinematographerOption, data['cinematographer'])
+                if cinematographer:
+                    image.cinematographer = cinematographer
+            
+            # Process editor
+            if data.get('editor'):
+                editor = self._get_or_create_option(EditorOption, data['editor'])
+                if editor:
+                    image.editor = editor
+            
+            # Process actor
+            if data.get('actor'):
+                actor = self._get_or_create_option(ActorOption, data['actor'])
+                if actor:
+                    image.actor = actor
+            
+            # Process camera
+            if data.get('camera'):
+                camera = self._get_or_create_option(CameraOption, data['camera'])
+                if camera:
+                    image.camera = camera
+            
+            # Process lens
+            if data.get('lens'):
+                lens = self._get_or_create_option(LensOption, data['lens'])
+                if lens:
+                    image.lens = lens
+            
+            # Process location
+            if data.get('location'):
+                location = self._get_or_create_option(LocationOption, data['location'])
+                if location:
+                    image.location = location
+            
+            # Process setting
+            if data.get('setting'):
+                setting = self._get_or_create_option(SettingOption, data['setting'])
+                if setting:
+                    image.setting = setting
+            
+            # Process film stock
+            if data.get('film_stock'):
+                film_stock = self._get_or_create_option(FilmStockOption, data['film_stock'])
+                if film_stock:
+                    image.film_stock = film_stock
+            
+            # Process filming location
+            if data.get('filming_location'):
+                filming_location = self._get_or_create_option(FilmingLocationOption, data['filming_location'])
+                if filming_location:
+                    image.filming_location = filming_location
+            
+            # Process location type
+            if data.get('location_type'):
+                location_type = self._get_or_create_option(LocationTypeOption, data['location_type'])
+                if location_type:
+                    image.location_type = location_type
+            
+            # Process shade
+            if data.get('shade'):
+                shade = self._get_or_create_option(ShadeOption, data['shade'])
+                if shade:
+                    image.shade = shade
+            
+            # Process artist
+            if data.get('artist'):
+                artist = self._get_or_create_option(ArtistOption, data['artist'])
+                if artist:
+                    image.artist = artist
+            
+            # Process genre (many-to-many)
+            if data.get('genre'):
+                genres = data['genre'] if isinstance(data['genre'], list) else [data['genre']]
+                for genre_name in genres:
+                    if genre_name:
+                        genre = self._get_or_create_option(GenreOption, genre_name)
+                        if genre:
+                            image.genre.add(genre)
+            
+            # Save the image with all metadata
+            image.save()
+            
+            self.stdout.write(f"Processed metadata for image {image.slug}")
+            
+        except Exception as e:
+            self.stderr.write(f"Error processing metadata for image {image.slug}: {e}")
