@@ -117,11 +117,12 @@ class ImageListSerializer(serializers.ModelSerializer):
     shade_value = serializers.CharField(source='shade.value', read_only=True)
     artist_value = serializers.CharField(source='artist.value', read_only=True)
     location_type_value = serializers.CharField(source='location_type.value', read_only=True)
+    gender_value = serializers.CharField(source='gender.value', read_only=True)
 
     class Meta:
         model = Image
         fields = [
-            'id', 'slug', 'title', 'image_url',
+            'id', 'slug', 'title', 'image_url', 'description',
             'tags', 'release_year', 'media_type', 'media_type_value',
             'color', 'color_value', 'movie', 'movie_value', 'movie_slug',
             # All the missing fields
@@ -133,6 +134,11 @@ class ImageListSerializer(serializers.ModelSerializer):
             'frame_size', 'frame_size_value', 'shot_type', 'shot_type_value', 'composition', 'composition_value',
             'lens_type', 'lens_type_value', 'lighting', 'lighting_value', 'lighting_type', 'lighting_type_value',
             'shade', 'shade_value', 'artist', 'artist_value', 'location_type', 'location_type_value',
+            'gender', 'gender_value',
+            # Additional fields from original response
+            'exclude_nudity', 'exclude_violence', 'dominant_colors', 'primary_color_hex', 'primary_colors',
+            'secondary_color_hex', 'color_palette', 'color_samples', 'color_histogram', 'color_search_terms',
+            'color_temperature', 'hue_range', 'image_available',
             'created_at', 'updated_at'
         ]
 
@@ -143,7 +149,7 @@ class ImageListSerializer(serializers.ModelSerializer):
         return obj.color.value if obj.color else None
 
     def to_representation(self, instance):
-        """Convert relative image URLs to full URLs for clickable links"""
+        """Convert relative image URLs to full URLs for clickable links and drop empty keys"""
         representation = super().to_representation(instance)
 
         # Handle image URL conversion
@@ -176,6 +182,23 @@ class ImageListSerializer(serializers.ModelSerializer):
             else:
                 representation['image_url'] = full_url
                 representation['image_available'] = False
+
+        # Drop empty keys like camera_value, lens_value, etc.
+        empty_value_fields = [
+            'camera_value', 'lens_value', 'film_stock_value', 'vfx_backing_value',
+            'colorist_value', 'costume_designer_value', 'artist_value'
+        ]
+        
+        for field in empty_value_fields:
+            if representation.get(field) == "" or representation.get(field) is None:
+                representation.pop(field, None)
+
+        # Handle empty collections - remove empty tags instead of setting to empty array
+        if not representation.get('tags') or len(representation.get('tags', [])) == 0:
+            representation.pop('tags', None)
+
+        # Add image_available field
+        representation['image_available'] = True
 
         return representation
 
@@ -298,11 +321,12 @@ class ImageSerializer(serializers.ModelSerializer):
     artist_value = serializers.CharField(source='artist.value', read_only=True)
     filming_location_value = serializers.CharField(source='filming_location.value', read_only=True)
     location_type_value = serializers.CharField(source='location_type.value', read_only=True)
+    gender_value = serializers.CharField(source='gender.value', read_only=True)
 
     class Meta:
         model = Image
         fields = [
-            'id', 'slug', 'title', 'image_url',
+            'id', 'slug', 'title', 'image_url', 'description',
             'tags', 'tag_ids',
             'release_year', 'media_type', 'media_type_value', 'genre',
             'color', 'color_value', 'aspect_ratio', 'aspect_ratio_value',
@@ -323,6 +347,7 @@ class ImageSerializer(serializers.ModelSerializer):
             # New filter fields
             'shade', 'shade_value', 'artist', 'artist_value',
             'filming_location', 'filming_location_value', 'location_type', 'location_type_value',
+            'gender', 'gender_value',
             # Additional flags
             'exclude_nudity', 'exclude_violence',
             # Enhanced color analysis fields
@@ -418,7 +443,7 @@ class ImageSerializer(serializers.ModelSerializer):
             'movie_value', 'actor_value', 'camera_value', 'lens_value', 'location_value',
             'setting_value', 'film_stock_value', 'vfx_backing_value', 'director_value', 'cinematographer_value', 'editor_value',
             'colorist_value', 'costume_designer_value', 'production_designer_value',
-            'shade_value', 'artist_value', 'filming_location_value', 'location_type_value'
+            'shade_value', 'artist_value', 'filming_location_value', 'location_type_value', 'gender_value'
         ]
 
         # Keep null values as null instead of converting to empty strings
@@ -428,13 +453,23 @@ class ImageSerializer(serializers.ModelSerializer):
             if field not in nullable_fields and representation.get(field) is None:
                 representation[field] = ""
 
-        # Handle empty collections
-        if not representation.get('tags'):
-            representation['tags'] = []
+        # Drop empty keys like camera_value, lens_value, etc.
+        empty_value_fields = [
+            'camera_value', 'lens_value', 'film_stock_value', 'vfx_backing_value',
+            'colorist_value', 'costume_designer_value', 'artist_value'
+        ]
+        
+        for field in empty_value_fields:
+            if representation.get(field) == "" or representation.get(field) is None:
+                representation.pop(field, None)
 
-        # Handle empty genre (ManyToManyField)
-        if not representation.get('genre'):
-            representation['genre'] = []
+        # Handle empty collections - remove empty tags instead of setting to empty array
+        if not representation.get('tags') or len(representation.get('tags', [])) == 0:
+            representation.pop('tags', None)
+
+        # Handle empty genre (ManyToManyField) - remove empty genre instead of setting to empty array
+        if not representation.get('genre') or len(representation.get('genre', [])) == 0:
+            representation.pop('genre', None)
 
         # Handle color analysis fields that might be null
         color_analysis_fields = [
@@ -456,6 +491,9 @@ class ImageSerializer(serializers.ModelSerializer):
 
         if representation.get('release_year') is None:
             representation['release_year'] = None  # Keep as null for year fields
+
+        # Add image_available field
+        representation['image_available'] = True
 
         return representation
 

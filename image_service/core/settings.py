@@ -70,21 +70,6 @@ else:
             'CONN_HEALTH_CHECKS': True,  # Health checks for connection pooling
             'OPTIONS': {
                 'connect_timeout': 10,
-                'options': (
-                    '-c statement_timeout=30000ms '  # 30 second query timeout
-                    '-c work_mem=64MB '  # Increase working memory for complex queries
-                    '-c maintenance_work_mem=256MB '  # More memory for maintenance operations
-                    '-c shared_preload_libraries=pg_stat_statements '  # Enable query statistics
-                    '-c random_page_cost=1.1 '  # Optimize for SSD storage
-                    '-c effective_cache_size=2GB '  # Assume 2GB cache
-                    '-c checkpoint_completion_target=0.9 '  # Faster checkpoints
-                    '-c wal_buffers=16MB '  # Larger WAL buffers
-                    '-c default_statistics_target=100 '  # Better statistics
-                ),
-                'keepalives': 1,
-                'keepalives_idle': 30,
-                'keepalives_interval': 10,
-                'keepalives_count': 5,
                 'application_name': 'shotdeck_image_service',  # Identify connections
             },
             'ATOMIC_REQUESTS': False,  # Disable for performance
