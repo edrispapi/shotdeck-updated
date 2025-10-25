@@ -103,8 +103,10 @@ AUTH_PASSWORD_VALIDATORS = [
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': ['rest_framework.authentication.TokenAuthentication', 'rest_framework.authentication.SessionAuthentication'],
     'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.AllowAny'],  # Ultra-fast: Allow all access
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 50,  # Increased page size for better performance
+    # Use project custom pagination which sets default page size to 20 and
+    # enforces a maximum page_size of 20 when clients pass `page_size`.
+    'DEFAULT_PAGINATION_CLASS': 'apps.common.pagination.CustomPageNumberPagination',
+    'PAGE_SIZE': 20,  # Default page size and max enforced by the pagination class
     'DEFAULT_RENDERER_CLASSES': [
         'rest_framework.renderers.JSONRenderer',
     ],  # Removed BrowsableAPIRenderer for speed

@@ -73,6 +73,10 @@ REST_FRAMEWORK = {
     ],
 }
 
+# Pagination: default page size 20 and allow clients to request page_size up to 20
+REST_FRAMEWORK.setdefault('DEFAULT_PAGINATION_CLASS', 'apps.common.pagination.CustomPageNumberPagination')
+REST_FRAMEWORK.setdefault('PAGE_SIZE', 20)
+
 SPECTACULAR_SETTINGS = {
     'TITLE': 'Shotdeck Search Service API',
     'DESCRIPTION': 'Powerful API for advanced image search using Elasticsearch with Redis caching.',
