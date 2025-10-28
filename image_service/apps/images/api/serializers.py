@@ -1,4 +1,5 @@
 from rest_framework import serializers
+from drf_spectacular.utils import extend_schema_field, OpenApiTypes
 from django.conf import settings
 from apps.images.models import (
     Image, Movie, Tag,
@@ -48,48 +49,25 @@ class MovieSerializer(serializers.ModelSerializer):
     def to_representation(self, instance):
         representation = super().to_representation(instance)
 
-        # Remove empty/null fields to clean up the response
-        fields_to_remove = []
-        
-        # Check for empty string fields
-        empty_string_fields = [
-            'description', 'genre', 'country', 'language',
-            'colorist', 'costume_designer', 'production_designer'
-        ]
-        
-        for field in empty_string_fields:
-            if representation.get(field) == "" or representation.get(field) is None:
-                fields_to_remove.append(field)
-        
-        # Check for empty nested value fields
+        # Handle null values for nested fields - convert null to empty strings
         nested_value_fields = [
             'director_value', 'director_slug', 'cinematographer_value', 'cinematographer_slug',
             'editor_value', 'editor_slug', 'colorist_value',
             'costume_designer_value', 'production_designer_value'
         ]
-        
+
         for field in nested_value_fields:
-            if representation.get(field) == "" or representation.get(field) is None:
-                fields_to_remove.append(field)
-        
-        # Remove null duration field
-        if representation.get('duration') is None:
-            fields_to_remove.append('duration')
-        
-        # Handle cast field - convert to list if it's a string
-        if representation.get('cast'):
-            if isinstance(representation['cast'], str):
-                # Convert comma-separated string to list
-                cast_list = [actor.strip() for actor in representation['cast'].split(',') if actor.strip()]
-                representation['cast'] = cast_list
-            elif not representation['cast']:  # Empty string or None
-                fields_to_remove.append('cast')
-        else:
-            fields_to_remove.append('cast')
-        
-        # Remove the empty fields
-        for field in fields_to_remove:
-            representation.pop(field, None)
+            if representation.get(field) is None:
+                representation[field] = ""
+
+        # Handle other potentially null fields
+        text_fields = ['description', 'genre', 'cast', 'country', 'language']
+        for field in text_fields:
+            if representation.get(field) is None:
+                representation[field] = ""
+
+        # Keep numeric fields as null if they're None (year, duration, image_count)
+        # They should remain null rather than empty strings for proper API semantics
 
         return representation
 
@@ -104,6 +82,26 @@ class TagSerializer(serializers.ModelSerializer):
         model = Tag
         fields = ['id', 'slug', 'name']
         read_only_fields = ['slug']
+
+
+class HealthSerializer(serializers.Serializer):
+    """Serializer used by HealthCheckView to describe health response."""
+    status = serializers.CharField()
+    database = serializers.CharField()
+    image_count = serializers.IntegerField()
+    timestamp = serializers.DateTimeField()
+
+
+class FilterResponseSerializer(serializers.Serializer):
+    """Minimal flexible serializer for FiltersView responses.
+
+    The response shape is flexible (either configuration dict or search results).
+    We keep it permissive using DictField/ListField where appropriate.
+    """
+    success = serializers.BooleanField(required=False)
+    count = serializers.IntegerField(required=False)
+    results = serializers.ListField(child=serializers.DictField(), required=False)
+    message = serializers.CharField(required=False)
 
 class ImageListSerializer(serializers.ModelSerializer):
     """
@@ -140,12 +138,11 @@ class ImageListSerializer(serializers.ModelSerializer):
     shade_value = serializers.CharField(source='shade.value', read_only=True)
     artist_value = serializers.CharField(source='artist.value', read_only=True)
     location_type_value = serializers.CharField(source='location_type.value', read_only=True)
-    gender_value = serializers.CharField(source='gender.value', read_only=True)
 
     class Meta:
         model = Image
         fields = [
-            'id', 'slug', 'title', 'image_url', 'description',
+            'id', 'slug', 'title', 'image_url',
             'tags', 'release_year', 'media_type', 'media_type_value',
             'color', 'color_value', 'movie', 'movie_value', 'movie_slug',
             # All the missing fields
@@ -157,22 +154,19 @@ class ImageListSerializer(serializers.ModelSerializer):
             'frame_size', 'frame_size_value', 'shot_type', 'shot_type_value', 'composition', 'composition_value',
             'lens_type', 'lens_type_value', 'lighting', 'lighting_value', 'lighting_type', 'lighting_type_value',
             'shade', 'shade_value', 'artist', 'artist_value', 'location_type', 'location_type_value',
-            'gender', 'gender_value',
-            # Additional fields from original response
-            'exclude_nudity', 'exclude_violence', 'dominant_colors', 'primary_color_hex', 'primary_colors',
-            'secondary_color_hex', 'color_palette', 'color_samples', 'color_histogram', 'color_search_terms',
-            'color_temperature', 'hue_range',
             'created_at', 'updated_at'
         ]
 
+    @extend_schema_field(OpenApiTypes.STR)
     def get_media_type_value(self, obj):
         return obj.media_type.value if obj.media_type else None
 
+    @extend_schema_field(OpenApiTypes.STR)
     def get_color_value(self, obj):
         return obj.color.value if obj.color else None
 
     def to_representation(self, instance):
-        """Convert relative image URLs to full URLs for clickable links and drop empty keys"""
+        """Convert relative image URLs to full URLs for clickable links"""
         representation = super().to_representation(instance)
 
         # Handle image URL conversion
@@ -205,24 +199,6 @@ class ImageListSerializer(serializers.ModelSerializer):
             else:
                 representation['image_url'] = full_url
                 representation['image_available'] = False
-
-        # Drop empty keys like camera_value, lens_value, etc.
-        empty_value_fields = [
-            'camera_value', 'lens_value', 'film_stock_value', 'vfx_backing_value',
-            'colorist_value', 'costume_designer_value', 'artist_value', 'gender_value'
-        ]
-        
-        for field in empty_value_fields:
-            if representation.get(field) == "" or representation.get(field) is None:
-                representation.pop(field, None)
-
-        # Keep tags field even if empty - users expect to see tags field
-        # Ensure tags are properly serialized
-        if not representation.get('tags') or len(representation.get('tags', [])) == 0:
-            representation['tags'] = []
-
-        # Add image_available field
-        representation['image_available'] = True
 
         return representation
 
@@ -345,12 +321,11 @@ class ImageSerializer(serializers.ModelSerializer):
     artist_value = serializers.CharField(source='artist.value', read_only=True)
     filming_location_value = serializers.CharField(source='filming_location.value', read_only=True)
     location_type_value = serializers.CharField(source='location_type.value', read_only=True)
-    gender_value = serializers.CharField(source='gender.value', read_only=True)
 
     class Meta:
         model = Image
         fields = [
-            'id', 'slug', 'title', 'image_url', 'description',
+            'id', 'slug', 'title', 'image_url',
             'tags', 'tag_ids',
             'release_year', 'media_type', 'media_type_value', 'genre',
             'color', 'color_value', 'aspect_ratio', 'aspect_ratio_value',
@@ -371,7 +346,6 @@ class ImageSerializer(serializers.ModelSerializer):
             # New filter fields
             'shade', 'shade_value', 'artist', 'artist_value',
             'filming_location', 'filming_location_value', 'location_type', 'location_type_value',
-            'gender', 'gender_value',
             # Additional flags
             'exclude_nudity', 'exclude_violence',
             # Enhanced color analysis fields
@@ -382,26 +356,37 @@ class ImageSerializer(serializers.ModelSerializer):
         ]
         read_only_fields = ['id', 'slug', 'created_at', 'updated_at']
 
+    @extend_schema_field(OpenApiTypes.STR)
     def get_media_type_value(self, obj):
         return obj.media_type.value if obj.media_type else None
+
+    @extend_schema_field(OpenApiTypes.STR)
+    def get_color_value(self, obj):
+        return obj.color.value if obj.color else None
 
     def get_color_value(self, obj):
         return obj.color.value if obj.color else None
 
+    @extend_schema_field(OpenApiTypes.STR)
     def get_frame_size_value(self, obj):
         return obj.frame_size.value if obj.frame_size else None
 
+    @extend_schema_field(OpenApiTypes.STR)
     def get_shot_type_value(self, obj):
         return obj.shot_type.value if obj.shot_type else None
 
+    @extend_schema_field(OpenApiTypes.STR)
     def get_lighting_value(self, obj):
         return obj.lighting.value if obj.lighting else None
 
+    # Note: drf-spectacular sometimes cannot infer types of SerializerMethodField
+    # methods. We decorate methods above with @extend_schema_field(OpenApiTypes.STR)
+    # to explicitly tell the schema generator these return strings (or null).
+
     def to_representation(self, instance):
         representation = super().to_representation(instance)
-        
-        # Fix tags field - ensure tags are properly serialized
-        representation['tags'] = TagSerializer(instance.tags.all(), many=True).data
+        # Temporarily disable tag serialization for debugging
+        # representation['tags'] = TagSerializer(instance.tags.all(), many=True).data
 
         # Fix image URL to use proper host and port
         if instance.image_url:
@@ -468,7 +453,7 @@ class ImageSerializer(serializers.ModelSerializer):
             'movie_value', 'actor_value', 'camera_value', 'lens_value', 'location_value',
             'setting_value', 'film_stock_value', 'vfx_backing_value', 'director_value', 'cinematographer_value', 'editor_value',
             'colorist_value', 'costume_designer_value', 'production_designer_value',
-            'shade_value', 'artist_value', 'filming_location_value', 'location_type_value', 'gender_value'
+            'shade_value', 'artist_value', 'filming_location_value', 'location_type_value'
         ]
 
         # Keep null values as null instead of converting to empty strings
@@ -478,28 +463,13 @@ class ImageSerializer(serializers.ModelSerializer):
             if field not in nullable_fields and representation.get(field) is None:
                 representation[field] = ""
 
-        # Drop empty keys like camera_value, lens_value, etc.
-        empty_value_fields = [
-            'camera_value', 'lens_value', 'film_stock_value', 'vfx_backing_value',
-            'colorist_value', 'costume_designer_value', 'artist_value'
-        ]
-        
-        for field in empty_value_fields:
-            if representation.get(field) == "" or representation.get(field) is None:
-                representation.pop(field, None)
-        
-        # Keep gender_value field even if empty - it's important for filtering
-        # Only remove it if it's truly null/empty
-        if representation.get('gender_value') == "" or representation.get('gender_value') is None:
-            representation.pop('gender_value', None)
+        # Handle empty collections
+        if not representation.get('tags'):
+            representation['tags'] = []
 
-        # Handle empty collections - remove empty tags instead of setting to empty array
-        if not representation.get('tags') or len(representation.get('tags', [])) == 0:
-            representation.pop('tags', None)
-
-        # Handle empty genre (ManyToManyField) - remove empty genre instead of setting to empty array
-        if not representation.get('genre') or len(representation.get('genre', [])) == 0:
-            representation.pop('genre', None)
+        # Handle empty genre (ManyToManyField)
+        if not representation.get('genre'):
+            representation['genre'] = []
 
         # Handle color analysis fields that might be null
         color_analysis_fields = [
@@ -521,9 +491,6 @@ class ImageSerializer(serializers.ModelSerializer):
 
         if representation.get('release_year') is None:
             representation['release_year'] = None  # Keep as null for year fields
-
-        # Add image_available field
-        representation['image_available'] = True
 
         return representation
 

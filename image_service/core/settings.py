@@ -14,12 +14,18 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',  # WhiteNoise for static files
     'corsheaders',  # CORS headers
     'rest_framework', 'rest_framework.authtoken', 'django_filters',
+    # Enable drf-spectacular and the sidecar so the Swagger UI template and
+    # bundled UI assets are available for the schema views.
+    'drf_spectacular', 'drf_spectacular_sidecar',
     'apps.images', 'apps.common',
 ]
 
 # Ultra-fast middleware - minimal but functional
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    # GZipMiddleware compresses large responses (like the OpenAPI JSON) which
+    # reduces transfer size and speeds up Swagger UI load times.
+    'django.middleware.gzip.GZipMiddleware',
     'corsheaders.middleware.CorsMiddleware',  # CORS middleware
     'whitenoise.middleware.WhiteNoiseMiddleware',  # Add WhiteNoise for static files
     'django.contrib.sessions.middleware.SessionMiddleware',  # Required for admin
@@ -101,10 +107,13 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
     'DEFAULT_AUTHENTICATION_CLASSES': ['rest_framework.authentication.TokenAuthentication', 'rest_framework.authentication.SessionAuthentication'],
     'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.AllowAny'],  # Ultra-fast: Allow all access
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 50,  # Increased page size for better performance
+    # Use project custom pagination which sets default page size to 20 and
+    # enforces a maximum page_size of 20 when clients pass `page_size`.
+    'DEFAULT_PAGINATION_CLASS': 'apps.common.pagination.CustomPageNumberPagination',
+    'PAGE_SIZE': 20,  # Default page size and max enforced by the pagination class
     'DEFAULT_RENDERER_CLASSES': [
         'rest_framework.renderers.JSONRenderer',
     ],  # Removed BrowsableAPIRenderer for speed
@@ -117,6 +126,16 @@ REST_FRAMEWORK = {
     'NUM_PROXIES': None,  # Performance optimization
     'USE_X_FORWARDED_HOST': True,  # Respect proxy headers for correct host in URLs
     'UNICODE_JSON': False,  # Faster JSON encoding
+}
+
+# drf-spectacular minimal settings so SpectacularSwaggerView can locate the
+# template and the sidecar can serve UI static assets.
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Shotdeck Image Service API',
+    'DESCRIPTION': 'Image service API schema and Swagger UI',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+    'SWAGGER_UI_DIST': 'SIDECAR',
 }
 
 # Ultra-fast caching configuration

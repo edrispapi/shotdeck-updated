@@ -17,7 +17,7 @@ def home_view(request):
         "endpoints": {
             "api": "/api/search/",
             "admin": "/admin/",
-            "docs": "/api/schema/swagger-ui/",
+            "docs": "/docs/",
             "images_search": "/api/search/images/",
             "similar_search": "/api/search/similar/",
             "user_search": "/api/search/user/"
@@ -42,5 +42,5 @@ urlpatterns = [
     # Image-related endpoints (color samples, search by color)
     path('api/images/', include('apps.search.api.image_urls')),
     path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
-    path('api/schema/swagger-ui/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
+    path('docs/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
 ]

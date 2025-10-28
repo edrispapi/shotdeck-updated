@@ -23,9 +23,8 @@ urlpatterns = [
     re_path(r'^images/(?P<slug>[^/]+)/$', ImageViewSet.as_view({
         'get': 'retrieve'
     }), name='image-detail'),
-    re_path(r'^image/(?P<slug>[^/]+)/$', ImageViewSet.as_view({
-        'get': 'retrieve'
-    }), name='image-detail-alt'),
+    # Singular legacy route removed to avoid duplicate paths in the OpenAPI schema.
+    # Keep only the plural '/images/{slug}/' endpoint above.
 
     # Images list endpoint
     path('images/', ImageViewSet.as_view({

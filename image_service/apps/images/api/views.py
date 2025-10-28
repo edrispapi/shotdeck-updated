@@ -3,6 +3,7 @@ from apps.images.filters import ImageFilter, MovieFilter, TagFilter
 import logging
 import time
 from rest_framework import viewsets, permissions, serializers, status
+from django.core.cache import cache  # Add cache import
 from rest_framework.viewsets import ReadOnlyModelViewSet
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -114,16 +115,43 @@ class ImageViewSet(ReadOnlyModelViewSet):
     lookup_field = 'slug'
 
     def get_queryset(self):
-        """Optimized queryset with select_related for all foreign key fields"""
-        return Image.objects.select_related(
-            'movie', 'actor', 'camera', 'cinematographer', 'director', 'lens', 'film_stock',
-            'setting', 'location', 'filming_location', 'aspect_ratio', 'time_period',
-            'time_of_day', 'interior_exterior', 'number_of_people', 'gender', 'age',
-            'ethnicity', 'frame_size', 'shot_type', 'composition', 'lens_type',
-            'lighting', 'lighting_type', 'camera_type', 'resolution', 'frame_rate',
-            'vfx_backing', 'shade', 'artist', 'location_type', 'media_type', 'color',
-            'optical_format', 'format', 'lab_process'
-        ).prefetch_related('tags', 'genre')
+        """
+        Enhanced queryset optimization with caching and selective field loading
+        """
+        # Use full queryset for detail views
+        if self.action == 'retrieve':
+            return Image.objects.select_related(
+                'movie', 'actor', 'camera', 'cinematographer', 'director', 'lens', 'film_stock',
+                'setting', 'location', 'filming_location', 'aspect_ratio', 'time_period',
+                'time_of_day', 'interior_exterior', 'number_of_people', 'gender', 'age',
+                'ethnicity', 'frame_size', 'shot_type', 'composition', 'lens_type',
+                'lighting', 'lighting_type', 'camera_type', 'resolution', 'frame_rate',
+                'vfx_backing', 'shade', 'artist', 'location_type', 'media_type', 'color',
+                'optical_format', 'format', 'lab_process'
+            ).prefetch_related('tags', 'genre')
+        
+        # Optimized queryset for list view with caching
+        cache_key = f"image_list_{hash(frozenset(self.request.query_params.items()))}"
+        cached_queryset = cache.get(cache_key)
+        
+        if cached_queryset is not None:
+            return cached_queryset
+
+        # Select only necessary fields for list view
+        queryset = Image.objects.only(
+            'id', 'slug', 'title', 'image_url', 'created_at',
+            'movie__title', 'movie__year',
+            'director__value',
+            'cinematographer__value'
+        ).select_related(
+            'movie',
+            'director',
+            'cinematographer'
+        )
+
+        # Cache the queryset for 5 minutes
+        cache.set(cache_key, queryset, timeout=300)
+        return queryset
 
     def filter_queryset(self, queryset):
         """Optimized filtering with performance monitoring"""
@@ -266,40 +294,36 @@ class ImageViewSet(ReadOnlyModelViewSet):
 
     def list(self, request, *args, **kwargs):
         """
-        List images using database queries with filtering
+        Enhanced list method with performance monitoring and caching
         """
         try:
-            # Get the filtered queryset first to get accurate counts
+            start_time = time.time()
+            
+            # Get filtered queryset
             queryset = self.filter_queryset(self.get_queryset())
 
+            # Get page size from settings or default to 20
+            page_size = getattr(settings, 'REST_FRAMEWORK', {}).get('PAGE_SIZE', 20)
+            
             # Apply pagination
             page = self.paginate_queryset(queryset)
             if page is not None:
                 serializer = self.get_serializer(page, many=True, context={'request': request})
-                paginated_response = self.get_paginated_response(serializer.data)
-                data = paginated_response.data
+                data = self.get_paginated_response(serializer.data).data
             else:
-                serializer = self.get_serializer(queryset, many=True, context={'request': request})
+                # Fallback to limiting results if pagination fails
+                limited_qs = queryset[:page_size]
+                serializer = self.get_serializer(limited_qs, many=True, context={'request': request})
                 data = {
                     'results': serializer.data,
-                    'count': queryset.count(),
-                    'next': None,
-                    'previous': None
+                    'count': queryset.count()
                 }
 
             # Extract pagination info
-            results = data['results']
-            count = len(results)  # Count of items in current page
-
-            # Get total count from pagination data or queryset - ensure it's never null/empty
-            total = data.get('count')
-            if total is None or total == 'null':
-                # Fallback: get count from queryset if pagination didn't set it
-                if hasattr(queryset, 'count'):
-                    total = queryset.count()
-                else:
-                    total = len(results)
-            total = int(total)  # Ensure it's an integer
+            count = data['count'] if isinstance(data, dict) and 'count' in data else queryset.count()
+            
+            # Ensure we always have valid counts
+            total = int(count) if count is not None else len(data.get('results', []))
 
             # Get applied filters (non-empty values from request)
             applied_filters = {}
@@ -307,18 +331,30 @@ class ImageViewSet(ReadOnlyModelViewSet):
                 if key not in ['limit', 'offset', 'page'] and value and value != ['']:
                     applied_filters[key] = value[0] if isinstance(value, list) else value
 
+            execution_time = time.time() - start_time
+            
             custom_response = {
                 'success': True,
-                'count': total,  # Total count of all matching results
-                'results': results,  # Current page results
-                'filters_applied': applied_filters,
+                'count': total,
+                'results': data.get('results', []),
+                'filters_applied': dict(request.query_params),
                 'message': 'Images retrieved from database',
-                'source': 'database'
+                'source': 'database',
+                'performance': {
+                    'execution_time': f"{execution_time:.2f}s",
+                    'items_per_page': page_size
+                }
             }
+
+            if data.get('next'):
+                custom_response['next'] = data['next']
+            if data.get('previous'):
+                custom_response['previous'] = data['previous']
 
             return Response(custom_response)
 
         except Exception as e:
+            logger.error(f"Error in image list: {str(e)}")
             return Response({
                 'success': False,
                 'count': 0,
@@ -1703,14 +1739,6 @@ class FiltersView(APIView):
                 {
                     "id": "aspect_ratio",
                     "label": "Aspect Ratio",
-                    "type": "dropdown",
-                    "multiple": False,
-                    "options": [{"value": opt["value"], "label": opt["value"]} for opt in filter_options.get('aspect_ratio', [])]
-                },
-                {
-                    "id": "optical_format",
-                    "label": "Optical Format",
-                    "type": "dropdown",
                     "multiple": False,
                     "options": [{"value": opt["value"], "label": opt["value"]} for opt in filter_options.get('optical_format', [])]
                 },

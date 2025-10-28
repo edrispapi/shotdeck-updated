@@ -497,7 +497,7 @@ curl "http://localhost:51009/api/health/"
 
 ```bash
 # Check table sizes
-docker-compose exec image_db psql -U postgres -d image_db -c "
+docker-compose exec image_db_17 psql -U postgres -d image_db -c "
 SELECT schemaname, tablename, n_tup_ins, n_tup_upd, n_tup_del
 FROM pg_stat_user_tables
 ORDER BY n_tup_ins DESC;
@@ -511,7 +511,7 @@ ORDER BY n_tup_ins DESC;
 docker-compose logs -f image_service
 
 # View database logs
-docker-compose logs -f image_db
+docker-compose logs -f image_db_17
 ```
 
 ---

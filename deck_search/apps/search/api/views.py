@@ -2,6 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status, permissions
 from rest_framework.parsers import MultiPartParser, FormParser, JSONParser
+from django.core.cache import cache
 import logging
 import io
 from PIL import Image as PILImage
@@ -11,26 +12,20 @@ import requests
 from io import BytesIO
 from pathlib import Path
 import os
-
-from elasticsearch_dsl import Q
-from elasticsearch_dsl.search import Search
-from elasticsearch import Elasticsearch
+from elasticsearch_dsl import Q, Search, connections
+from elasticsearch import Elasticsearch, exceptions as es_exceptions
 from django.conf import settings
-
 from drf_spectacular.utils import extend_schema, OpenApiParameter
 from .serializers import ImageSearchResultSerializer, ColorSamplesSerializer, ColorSearchSerializer
 from apps.common.serializers import Error404Serializer
 from deck_search_utils.utils import cache_search_result
 from deck_search_utils.user_api import user_api
 from deck_search_utils.color_processor import UltimateColorProcessor
-
 logger = logging.getLogger(__name__)
-
 # Helper function to create selectable options
 def create_options_list(option_strings):
     """Convert list of strings to list of selectable option objects"""
     return [{"value": opt, "label": opt} for opt in option_strings]
-
 # Filter configuration - defines all available filters and their options
 FILTER_CONFIG = {
     "filters": [
@@ -261,11 +256,23 @@ FILTER_CONFIG = {
         }
     ]
 }
-
 class SimilarImagesView(APIView):
     permission_classes = [permissions.AllowAny]
     serializer_class = ImageSearchResultSerializer
-
+   
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.logger = logging.getLogger(__name__)
+       
+        # Initialize Elasticsearch connection
+        try:
+            connections.create_connection(
+                alias='default',
+                hosts=[settings.ELASTICSEARCH_DSL['default']['hosts']],
+                timeout=20
+            )
+        except Exception as e:
+            self.logger.error(f"Failed to initialize Elasticsearch connection: {e}", exc_info=True)
     @extend_schema(
         tags=['Search & Filtering'],
         description="Find similar images based on an image slug with Redis caching.",
@@ -285,41 +292,28 @@ class SimilarImagesView(APIView):
     )
     def get(self, request, slug, *args, **kwargs):
         try:
-            # Check if Elasticsearch is enabled
-            if not getattr(settings, 'ELASTICSEARCH_ENABLED', False):
-                logger.info("Elasticsearch is disabled - returning mock result for development")
-                return Response({
-                    'message': 'Similar images search (development mode)',
-                    'note': 'Elasticsearch is disabled. Enable ELASTICSEARCH_ENABLED=True in .env for full functionality',
-                    'mock_results': [
-                        {
-                            'slug': 'sample-image-1',
-                            'title': 'Sample Similar Image 1',
-                            'similarity_score': 0.95,
-                            '_similarity_score': 0.95
-                        },
-                        {
-                            'slug': 'sample-image-2',
-                            'title': 'Sample Similar Image 2',
-                            'similarity_score': 0.89,
-                            '_similarity_score': 0.89
-                        }
-                    ]
-                }, status=status.HTTP_200_OK)
-
-            client = Elasticsearch(hosts=[settings.ELASTICSEARCH_DSL['default']['hosts']])
-            source_search = Search(using=client, index='images').query("term", slug=slug)
-            response = source_search.execute()
-
-            if not response.hits:
-                return Response({'detail': 'Image with the given slug not found.'}, status=status.HTTP_404_NOT_FOUND)
-
+            # Try to get cached results first
+            cache_key = f'similar_images_{slug}'
+            cached_results = cache.get(cache_key)
+           
+            if cached_results is not None:
+                logger.info(f"Returning cached similar images for slug: {slug}")
+                return Response(cached_results)
+            try:
+                source_search = Search(index='images').query("term", slug=slug)
+                response = source_search.execute()
+                if not response.hits:
+                    return Response({'detail': 'Image with the given slug not found.'}, status=status.HTTP_404_NOT_FOUND)
+            except es_exceptions.ConnectionError:
+                self.logger.error("Failed to connect to Elasticsearch", exc_info=True)
+                return Response(
+                    {'detail': 'Search service is temporarily unavailable. Please try again later.'},
+                    status=status.HTTP_503_SERVICE_UNAVAILABLE
+                )
             source_image = response.hits[0]
             source_data = source_image.to_dict()
-
             # Enhanced similarity scoring with comprehensive multi-factor analysis
             similarity_queries = []
-
             # 1. Core Content Similarity (Highest Priority - boost: 6.0-5.0)
             core_fields = {
                 'genre': 6.0, 'media_type': 5.5, 'color': 5.0, 'format': 5.0,
@@ -329,17 +323,14 @@ class SimilarImagesView(APIView):
                 value = getattr(source_image, field, None)
                 if value is not None:
                     similarity_queries.append(Q('term', **{field: {"value": value, "boost": boost}}))
-
             # 2. Movie/Production Context (boost: 4.5-4.0)
             movie_slug = source_data.get('movie', {}).get('slug')
             if movie_slug:
                 similarity_queries.append(Q('term', movie__slug={"value": movie_slug, "boost": 4.5}))
-
             # Director/Production team similarity
             director = source_data.get('movie', {}).get('director', '')
             if director:
                 similarity_queries.append(Q('match', movie__director={"query": director, "boost": 4.0}))
-
             # 3. Enhanced Tag-based Similarity with Multiple Approaches (boost: 4.0-3.0)
             tags = source_data.get('tags', [])
             if tags:
@@ -349,15 +340,13 @@ class SimilarImagesView(APIView):
                     if tag_slug:
                         similarity_queries.append(Q('nested', path='tags',
                                                    query=Q('term', tags__slug={"value": tag_slug, "boost": 4.0})))
-
                 # Tag category similarity (action, drama, etc.)
                 tag_names = [tag.get('name', '').lower() for tag in tags if tag.get('name')]
                 if tag_names:
                     for tag_name in tag_names:
-                        if len(tag_name.split()) == 1:  # Single word tags
+                        if len(tag_name.split()) == 1: # Single word tags
                             similarity_queries.append(Q('nested', path='tags',
                                                        query=Q('match', tags__name={"query": tag_name, "boost": 3.5})))
-
             # 4. Advanced Technical Parameters (boost: 3.5-2.5)
             technical_fields = {
                 'frame_size': 3.5, 'shot_type': 3.2, 'composition': 3.0,
@@ -369,7 +358,6 @@ class SimilarImagesView(APIView):
                 value = getattr(source_image, field, None)
                 if value is not None:
                     similarity_queries.append(Q('term', **{field: {"value": value, "boost": boost}}))
-
             # 5. Enhanced Demographic & Contextual Similarity (boost: 3.0-2.0)
             demographic_fields = {
                 'gender': 3.0, 'age': 2.8, 'ethnicity': 2.8,
@@ -379,22 +367,19 @@ class SimilarImagesView(APIView):
                 value = getattr(source_image, field, None)
                 if value is not None:
                     similarity_queries.append(Q('term', **{field: {"value": value, "boost": boost}}))
-
             # 6. Temporal & Period Similarity (boost: 2.5-1.5)
             release_year = getattr(source_image, 'release_year', None)
             if release_year:
                 # Close temporal proximity gets higher boost
                 year_boost = 2.5 if abs(2024 - release_year) <= 5 else 2.0 if abs(2024 - release_year) <= 15 else 1.5
                 similarity_queries.append(Q('range', release_year={
-                    'gte': release_year - 5,  # Tighter range for better similarity
+                    'gte': release_year - 5, # Tighter range for better similarity
                     'lte': release_year + 5,
                     'boost': year_boost
                 }))
-
             # 7. Intelligent Text Similarity with Context (boost: 2.0-1.0)
             title = getattr(source_image, 'title', '')
             description = getattr(source_image, 'description', '')
-
             # Enhanced text matching with better field weighting
             if title:
                 similarity_queries.append(Q('match', title={
@@ -403,10 +388,9 @@ class SimilarImagesView(APIView):
                     "fuzziness": "AUTO",
                     "operator": "and"
                 }))
-
             if description:
                 # Extract key phrases from description for better matching
-                desc_words = description.split()[:10]  # First 10 words
+                desc_words = description.split()[:10] # First 10 words
                 if desc_words:
                     desc_query = ' '.join(desc_words)
                     similarity_queries.append(Q('match', description={
@@ -414,13 +398,11 @@ class SimilarImagesView(APIView):
                         "boost": 1.5,
                         "fuzziness": "AUTO"
                     }))
-
             # 8. Cross-field Similarity Boosting (boost: 1.5-1.0)
             # Boost images that share multiple similar characteristics
             if len(similarity_queries) > 3:
                 # Add a general similarity query for images with multiple matching attributes
                 similarity_queries.append(Q('match_all', boost=1.2))
-
             # 9. Location & Setting Similarity (if available)
             location = getattr(source_image, 'location', None)
             if location:
@@ -429,48 +411,68 @@ class SimilarImagesView(APIView):
                     "boost": 1.8,
                     "fuzziness": "AUTO"
                 }))
-
             # 10. Exclude the source image itself
             must_not_clause = Q('term', slug=slug)
-
             if not similarity_queries:
                 return Response({'detail': 'No similarity criteria found for this image.'}, status=status.HTTP_400_BAD_REQUEST)
-
             # Build the final query with optimized scoring and performance
             final_query = Q('bool',
                           should=similarity_queries,
                           must_not=[must_not_clause],
                           minimum_should_match=1)
-
             # Execute search with optimized scoring and performance settings
-            similar_search = (Search(using=client, index='images')
+            similar_search = (Search(index='images')
                             .query(final_query)
                             .sort('_score', {'release_year': {'order': 'desc'}})
-                            .extra(size=30,  # Optimized result size for better performance
+                            .extra(size=30, # Optimized result size for better performance
                                    track_scores=True,
-                                   explain=False)  # Disable explanation for better performance
-                            [:30])  # Limit to top 30 most similar for better performance
-
+                                   explain=False) # Disable explanation for better performance
+                            [:30]) # Limit to top 30 most similar for better performance
             results = similar_search.execute()
-
             # Add similarity score to each result
             enhanced_results = []
             for hit in results.hits:
                 result_data = hit.to_dict()
                 result_data['_similarity_score'] = hit.meta.score
-                enhanced_results.append(result_data)
-
+               
+                # Only include necessary fields for response
+                filtered_result = {
+                    'slug': result_data.get('slug'),
+                    'title': result_data.get('title'),
+                    'description': result_data.get('description'),
+                    'image_url': result_data.get('image_url'),
+                    'thumbnail_url': result_data.get('thumbnail_url'),
+                    'movie': result_data.get('movie'),
+                    'tags': result_data.get('tags', []),
+                    'release_year': result_data.get('release_year'),
+                    '_similarity_score': result_data['_similarity_score']
+                }
+                enhanced_results.append(filtered_result)
+            # Cache the results for 1 hour
+            cache.set(cache_key, enhanced_results, timeout=3600)
+           
             return Response(enhanced_results)
-
+        except es_exceptions.NotFoundError:
+            logger.warning(f"Image with slug '{slug}' not found in Elasticsearch")
+            return Response(
+                {'detail': 'Image with the given slug not found.'},
+                status=status.HTTP_404_NOT_FOUND
+            )
+        except es_exceptions.ConnectionError as e:
+            logger.error(f"Elasticsearch connection error: {e}", exc_info=True)
+            return Response(
+                {'detail': 'Search service is temporarily unavailable.'},
+                status=status.HTTP_503_SERVICE_UNAVAILABLE
+            )
         except Exception as e:
             logger.error(f"Error during enhanced similar search: {e}", exc_info=True)
-            return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-
-
+            return Response(
+                {'detail': 'An unexpected error occurred while processing your request.'},
+                status=status.HTTP_500_INTERNAL_SERVER_ERROR
+            )
 class UserView(APIView):
     permission_classes = [permissions.AllowAny]
     serializer_class = None
-
     @extend_schema(
         tags=['User Management'],
         description="Validate JWT token and check user subscription status",
@@ -513,7 +515,6 @@ class UserView(APIView):
                     },
                     status=status.HTTP_401_UNAUTHORIZED
                 )
-
             if not auth_header.startswith('Bearer '):
                 return Response(
                     {
@@ -523,18 +524,14 @@ class UserView(APIView):
                     },
                     status=status.HTTP_401_UNAUTHORIZED
                 )
-
             jwt_token = auth_header.replace('Bearer ', '')
-
             # Validate JWT and get user data
             user_result = user_api.validate_jwt_and_get_user(jwt_token)
-
             if not user_result:
                 return Response(
                     {'error': 'Invalid token or user not found'},
                     status=status.HTTP_401_UNAUTHORIZED
                 )
-
             # Return user data with subscription info
             response_data = {
                 'user_uuid': user_result['user_uuid'],
@@ -542,17 +539,13 @@ class UserView(APIView):
                 'is_vip_plus': user_result['is_vip_plus'],
                 'subscription_status': 'VIP Plus Active' if user_result['is_vip_plus'] else 'Standard User'
             }
-
             return Response(response_data, status=status.HTTP_200_OK)
-
         except Exception as e:
             logger.error(f"Error in user validation: {e}")
             return Response(
                 {'error': 'Internal server error'},
                 status=status.HTTP_500_INTERNAL_SERVER_ERROR
             )
-
-
 class ColorSimilaritySearchView(APIView):
     """
     Get analogous color palette for images by slug or upload new images for analysis
@@ -560,7 +553,6 @@ class ColorSimilaritySearchView(APIView):
     permission_classes = [permissions.AllowAny]
     parser_classes = [MultiPartParser, FormParser, JSONParser]
     serializer_class = ImageSearchResultSerializer
-
     @extend_schema(
         tags=['Color Analysis'],
         summary="Get analogous color palette",
@@ -592,7 +584,6 @@ class ColorSimilaritySearchView(APIView):
             500: {'description': 'Analysis failed'}
         }
     )
-
     def get(self, request):
         """
         Get analogous color palette for a specific image by slug
@@ -612,18 +603,15 @@ class ColorSimilaritySearchView(APIView):
                     },
                     status=status.HTTP_400_BAD_REQUEST
                 )
-
             # Find image file
             image_dir = Path(settings.BASE_DIR) / 'images'
             image_extensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp']
             image_path = None
-
             for ext in image_extensions:
                 potential_path = image_dir / f"{slug}{ext}"
                 if potential_path.exists():
                     image_path = potential_path
                     break
-
             if not image_path:
                 return Response(
                     {
@@ -632,17 +620,14 @@ class ColorSimilaritySearchView(APIView):
                     },
                     status=status.HTTP_404_NOT_FOUND
                 )
-
             # Initialize color analyzer
             analyzer = UltimateColorProcessor(
                 images_folder=str(image_dir),
                 max_colors=10
             )
-
             # Analyze image colors
             try:
                 analysis_result = analyzer.analyze_image_colors(image_path)
-
                 if not analysis_result:
                     return Response(
                         {
@@ -651,7 +636,6 @@ class ColorSimilaritySearchView(APIView):
                         },
                         status=status.HTTP_500_INTERNAL_SERVER_ERROR
                     )
-
                 # Return analogous palette results
                 return Response({
                     'success': True,
@@ -662,7 +646,6 @@ class ColorSimilaritySearchView(APIView):
                     'analysis_timestamp': analysis_result.get('timestamp', None),
                     'message': f'Analogous color palette generated for {slug}'
                 }, status=status.HTTP_200_OK)
-
             except Exception as color_error:
                 logger.error(f"Color analysis error for {slug}: {color_error}")
                 return Response(
@@ -672,7 +655,6 @@ class ColorSimilaritySearchView(APIView):
                     },
                     status=status.HTTP_500_INTERNAL_SERVER_ERROR
                 )
-
         except Exception as e:
             logger.error(f"Error in color similarity analysis for slug {slug}: {e}")
             return Response(
@@ -682,7 +664,6 @@ class ColorSimilaritySearchView(APIView):
                 },
                 status=status.HTTP_500_INTERNAL_SERVER_ERROR
             )
-
     @extend_schema(
         tags=['Image Upload & Color Search'],
         description="Upload an image and find similar images based on color analysis",
@@ -722,34 +703,27 @@ class ColorSimilaritySearchView(APIView):
             uploaded_image = request.FILES.get('image')
             image_url = request.data.get('image_url')
             limit = int(request.data.get('limit', 20))
-
             if not uploaded_image and not image_url:
                 return Response(
                     {'error': 'Either image file or image_url is required'},
                     status=status.HTTP_400_BAD_REQUEST
                 )
-
             # Process the image and extract colors
             image_colors = self.extract_colors_from_image(uploaded_image, image_url)
-
             if not image_colors:
                 return Response(
                     {'error': 'Could not process image or extract colors'},
                     status=status.HTTP_400_BAD_REQUEST
                 )
-
             # Find similar images based on colors
             similar_images = self.find_similar_images_by_color(image_colors, limit)
-
             return Response(similar_images)
-
         except Exception as e:
             logger.error(f"Error in color similarity search: {e}")
             return Response(
                 {'error': 'Internal server error during color analysis'},
                 status=status.HTTP_500_INTERNAL_SERVER_ERROR
             )
-
     def extract_colors_from_image(self, uploaded_image=None, image_url=None):
         """
         Extract dominant colors from uploaded image or image URL
@@ -765,27 +739,21 @@ class ColorSimilaritySearchView(APIView):
                 image = PILImage.open(BytesIO(response.content))
             else:
                 return None
-
             # Convert to RGB if necessary
             if image.mode != 'RGB':
                 image = image.convert('RGB')
-
             # Resize for faster processing
             image = image.resize((200, 200))
-
             # Get pixels
             pixels = list(image.getdata())
-
             # Extract dominant colors
             color_counts = Counter(pixels)
             dominant_colors = color_counts.most_common(10)
-
             # Process colors
             processed_colors = []
             for color, count in dominant_colors:
                 percentage = (count / len(pixels)) * 100
                 hex_code = f"#{color[0]:02x}{color[1]:02x}{color[2]:02x}"
-
                 processed_colors.append({
                     'rgb': color,
                     'hex': hex_code,
@@ -793,58 +761,42 @@ class ColorSimilaritySearchView(APIView):
                     'hsl': self.rgb_to_hsl(color),
                     'color_name': self.get_color_name(color)
                 })
-
             return processed_colors
-
         except Exception as e:
             logger.error(f"Error extracting colors from image: {e}")
             return None
-
     def find_similar_images_by_color(self, image_colors, limit=20):
         """
         Find images similar to the given colors using Elasticsearch
         """
         try:
-            # Check if Elasticsearch is enabled
-            if not getattr(settings, 'ELASTICSEARCH_ENABLED', False):
-                logger.info("Elasticsearch is disabled - returning empty color search results")
-                return []
-
             client = Elasticsearch(hosts=[settings.ELASTICSEARCH_DSL['default']['hosts']])
             search = Search(using=client, index='images')
-
             # Build color similarity queries
             color_queries = []
-
             # Enhanced search by multiple primary colors and their similar colors
             if image_colors:
                 # Search by all primary colors (top 5)
                 for i, color_data in enumerate(image_colors[:5]):
-                    boost = 10.0 - i  # Higher boost for more dominant colors
-
+                    boost = 10.0 - i # Higher boost for more dominant colors
                     # Exact hex match in primary_color_hex
                     color_queries.append(Q('term', primary_color_hex={"value": color_data['hex'], "boost": boost}))
-
                     # Search in primary_colors array (if available) - exact match
                     color_queries.append(Q('nested', path='primary_colors',
                                          query=Q('term', primary_colors__hex={"value": color_data['hex'], "boost": boost * 0.8})))
-
                     # Search in similar_hexes of primary_colors - enhanced similarity search
                     try:
                         color_queries.append(Q('nested', path='primary_colors',
                                              query=Q('terms', primary_colors__similar_hexes=color_data['hex'],
                                                      boost=boost * 0.6)))
                     except:
-                        pass  # Skip if nested field not available
-
+                        pass # Skip if nested field not available
                     # Search in color_search_terms
                     color_queries.append(Q('terms', color_search_terms=[color_data['hex'].lower()], boost=boost * 0.4))
-
                     # Similar hex colors for this color (from our analysis)
                     similar_hexes = self.find_similar_hex_colors(color_data['hex'])
                     for hex_color in similar_hexes:
                         color_queries.append(Q('term', primary_color_hex={"value": hex_color, "boost": boost * 0.5}))
-
                         # Also search in primary_colors similar_hexes
                         try:
                             color_queries.append(Q('nested', path='primary_colors',
@@ -852,55 +804,42 @@ class ColorSimilaritySearchView(APIView):
                                                          boost=boost * 0.3)))
                         except:
                             pass
-
             # Search by color names
             color_names = set()
-            for color_data in image_colors[:5]:  # Top 5 colors
+            for color_data in image_colors[:5]: # Top 5 colors
                 if color_data.get('color_name'):
                     color_names.add(color_data['color_name'])
-
             for color_name in color_names:
                 # Search in primary color name (simplified approach)
                 # For now, we'll use a simpler approach since nested fields may not exist
                 pass
-
             # Search by HSL values (hue similarity) - simplified
             # For now, we'll skip HSL search since nested fields may not exist in current data
-
             # Execute search
             if color_queries:
                 final_query = Q('bool', should=color_queries, minimum_should_match=1)
                 search = search.query(final_query)
-
             search = search.extra(size=limit, track_scores=True)
             response = search.execute()
-
             # Format results
             results = []
             for hit in response.hits:
                 result_data = hit.to_dict()
                 result_data['_color_similarity_score'] = hit.meta.score
-
                 # Add color matching information
                 result_data['_matched_colors'] = self.get_matching_colors(hit, image_colors)
-
                 results.append(result_data)
-
             return results
-
         except Exception as e:
             logger.error(f"Error finding similar images by color: {e}")
             return []
-
     def get_matching_colors(self, es_hit, query_colors):
         """
         Get matching colors between query and result
         """
         matching_colors = []
-
         hit_primary = getattr(es_hit, 'primary_color_hex', None)
-
-        for query_color in query_colors[:3]:  # Check top 3 query colors
+        for query_color in query_colors[:3]: # Check top 3 query colors
             # Check primary color match
             if hit_primary and self.color_distance_hex(query_color['hex'], hit_primary) < 30:
                 matching_colors.append({
@@ -908,9 +847,7 @@ class ColorSimilaritySearchView(APIView):
                     'match_type': 'primary',
                     'distance': self.color_distance_hex(query_color['hex'], hit_primary)
                 })
-
         return matching_colors
-
     @staticmethod
     def rgb_to_hsl(rgb):
         """Convert RGB to HSL"""
@@ -921,13 +858,11 @@ class ColorSimilaritySearchView(APIView):
             'saturation': round(s * 100, 1),
             'lightness': round(l * 100, 1)
         }
-
     @staticmethod
     def get_color_name(rgb):
         """Get approximate color name from RGB"""
         r, g, b = rgb
         brightness = (r + g + b) / 3
-
         if brightness < 64:
             return "black"
         elif brightness > 192:
@@ -946,34 +881,28 @@ class ColorSimilaritySearchView(APIView):
             return "cyan"
         else:
             return "gray"
-
     @staticmethod
     def color_distance_hex(hex1, hex2):
         """Calculate distance between two hex colors"""
         if not hex1 or not hex2:
             return 100
-
         try:
             hex1 = hex1.lstrip('#')
             hex2 = hex2.lstrip('#')
             rgb1 = tuple(int(hex1[i:i+2], 16) for i in (0, 2, 4))
             rgb2 = tuple(int(hex2[i:i+2], 16) for i in (0, 2, 4))
-
             return ((rgb1[0] - rgb2[0]) ** 2 +
                    (rgb1[1] - rgb2[1]) ** 2 +
                    (rgb1[2] - rgb2[2]) ** 2) ** 0.5
         except:
             return 100
-
     @staticmethod
     def find_similar_hex_colors(hex_color, threshold=30):
         """Find similar hex colors within threshold distance"""
         if not hex_color or not hex_color.startswith('#'):
             return []
-
         similar_colors = []
         base_rgb = ColorSimilaritySearchView.hex_to_rgb(hex_color)
-
         # Generate some similar colors
         for dr in [-20, -10, 0, 10, 20]:
             for dg in [-20, -10, 0, 10, 20]:
@@ -981,28 +910,22 @@ class ColorSimilaritySearchView(APIView):
                     new_r = max(0, min(255, base_rgb[0] + dr))
                     new_g = max(0, min(255, base_rgb[1] + dg))
                     new_b = max(0, min(255, base_rgb[2] + db))
-
                     if abs(dr) + abs(dg) + abs(db) <= threshold:
                         similar_hex = f"#{int(new_r):02x}{int(new_g):02x}{int(new_b):02x}"
                         if similar_hex != hex_color:
                             similar_colors.append(similar_hex)
-
-        return similar_colors[:10]  # Limit to 10 similar colors
-
+        return similar_colors[:10] # Limit to 10 similar colors
     @staticmethod
     def hex_to_rgb(hex_color):
         """Convert hex to RGB"""
         hex_color = hex_color.lstrip('#')
         return tuple(int(hex_color[i:i+2], 16) for i in (0, 2, 4))
-
-
 class ImageColorSamplesView(APIView):
     """
     Get color samples for a specific image by slug
     """
     permission_classes = [permissions.AllowAny]
     serializer_class = ColorSamplesSerializer
-
     @extend_schema(
         tags=['Color Operations'],
         summary="Get image color samples",
@@ -1014,115 +937,39 @@ class ImageColorSamplesView(APIView):
     def get(self, request, slug):
         """Get color samples for a specific image"""
         try:
-            # Search for image in Elasticsearch
-            if not getattr(settings, 'ELASTICSEARCH_ENABLED', False):
-                # Return mock color samples data
-                mock_data = self._generate_mock_color_samples(slug)
-                return Response(mock_data)
-
             search = Search(using='default', index='images')
             search = search.query('term', slug=slug)
             response = search.execute()
-
             if not response.hits:
                 return Response({
                     'error': 'Image not found'
                 }, status=status.HTTP_404_NOT_FOUND)
-
             image_data = response.hits[0]
-
             # Check if color samples exist
             if not hasattr(image_data, 'color_samples') or not image_data.color_samples:
-                # Return mock color samples data when real data is not available
-                mock_data = self._generate_mock_color_samples(slug)
-                return Response(mock_data)
-
+                return Response({
+                    'image_slug': image_data.slug,
+                    'color_samples': [],
+                    'dominant_colors': getattr(image_data, 'dominant_colors', []),
+                    'color_histogram': getattr(image_data, 'color_histogram', [])
+                })
             return Response({
                 'image_slug': image_data.slug,
                 'color_samples': image_data.color_samples,
                 'dominant_colors': getattr(image_data, 'dominant_colors', []),
                 'color_histogram': getattr(image_data, 'color_histogram', [])
             })
-
         except Exception as e:
             logger.error(f"Error retrieving color samples for slug {slug}: {str(e)}")
             return Response({
                 'error': 'Internal server error'
             }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-
-    def _generate_mock_color_samples(self, slug):
-        """Generate mock color samples data when Elasticsearch is disabled"""
-        # Generate different mock data based on slug
-        if 'red' in slug.lower() or 'action' in slug.lower():
-            dominant_colors = [
-                {'hex': '#FF0000', 'percentage': 35.2, 'name': 'Red'},
-                {'hex': '#000000', 'percentage': 28.7, 'name': 'Black'},
-                {'hex': '#8B0000', 'percentage': 18.9, 'name': 'Dark Red'},
-                {'hex': '#FF4500', 'percentage': 12.1, 'name': 'Orange Red'},
-                {'hex': '#800000', 'percentage': 5.1, 'name': 'Maroon'}
-            ]
-            color_samples = [
-                {'hex': '#FF0000', 'rgb': [255, 0, 0], 'position': {'x': 45, 'y': 30}, 'percentage': 35.2},
-                {'hex': '#000000', 'rgb': [0, 0, 0], 'position': {'x': 20, 'y': 25}, 'percentage': 28.7},
-                {'hex': '#8B0000', 'rgb': [139, 0, 0], 'position': {'x': 70, 'y': 40}, 'percentage': 18.9},
-                {'hex': '#FF4500', 'rgb': [255, 69, 0], 'position': {'x': 85, 'y': 60}, 'percentage': 12.1},
-                {'hex': '#800000', 'rgb': [128, 0, 0], 'position': {'x': 15, 'y': 70}, 'percentage': 5.1}
-            ]
-        elif 'blue' in slug.lower() or 'drama' in slug.lower():
-            dominant_colors = [
-                {'hex': '#0000FF', 'percentage': 42.3, 'name': 'Blue'},
-                {'hex': '#000080', 'percentage': 25.6, 'name': 'Navy'},
-                {'hex': '#4169E1', 'percentage': 15.8, 'name': 'Royal Blue'},
-                {'hex': '#1E90FF', 'percentage': 11.2, 'name': 'Dodger Blue'},
-                {'hex': '#00008B', 'percentage': 5.1, 'name': 'Dark Blue'}
-            ]
-            color_samples = [
-                {'hex': '#0000FF', 'rgb': [0, 0, 255], 'position': {'x': 50, 'y': 35}, 'percentage': 42.3},
-                {'hex': '#000080', 'rgb': [0, 0, 128], 'position': {'x': 25, 'y': 45}, 'percentage': 25.6},
-                {'hex': '#4169E1', 'rgb': [65, 105, 225], 'position': {'x': 75, 'y': 55}, 'percentage': 15.8},
-                {'hex': '#1E90FF', 'rgb': [30, 144, 255], 'position': {'x': 10, 'y': 80}, 'percentage': 11.2},
-                {'hex': '#00008B', 'rgb': [0, 0, 139], 'position': {'x': 90, 'y': 20}, 'percentage': 5.1}
-            ]
-        else:
-            # Default color samples for other scenes
-            dominant_colors = [
-                {'hex': '#808080', 'percentage': 30.5, 'name': 'Gray'},
-                {'hex': '#FFFFFF', 'percentage': 25.3, 'name': 'White'},
-                {'hex': '#000000', 'percentage': 20.1, 'name': 'Black'},
-                {'hex': '#A9A9A9', 'percentage': 15.6, 'name': 'Dark Gray'},
-                {'hex': '#D3D3D3', 'percentage': 8.5, 'name': 'Light Gray'}
-            ]
-            color_samples = [
-                {'hex': '#808080', 'rgb': [128, 128, 128], 'position': {'x': 40, 'y': 40}, 'percentage': 30.5},
-                {'hex': '#FFFFFF', 'rgb': [255, 255, 255], 'position': {'x': 60, 'y': 30}, 'percentage': 25.3},
-                {'hex': '#000000', 'rgb': [0, 0, 0], 'position': {'x': 20, 'y': 50}, 'percentage': 20.1},
-                {'hex': '#A9A9A9', 'rgb': [169, 169, 169], 'position': {'x': 80, 'y': 70}, 'percentage': 15.6},
-                {'hex': '#D3D3D3', 'rgb': [211, 211, 211], 'position': {'x': 5, 'y': 85}, 'percentage': 8.5}
-            ]
-
-        return {
-            'image_slug': slug,
-            'color_samples': color_samples,
-            'dominant_colors': dominant_colors,
-            'color_histogram': [
-                {'color': '#808080', 'count': 1525},
-                {'color': '#FFFFFF', 'count': 1265},
-                {'color': '#000000', 'count': 1005},
-                {'color': '#A9A9A9', 'count': 780},
-                {'color': '#D3D3D3', 'count': 425}
-            ],
-            'total_pixels': 5000,
-            'message': 'Mock color samples data (Elasticsearch disabled)'
-        }
-
-
 class ImageColorSearchView(APIView):
     """
     Advanced color search endpoint
     """
     permission_classes = [permissions.AllowAny]
     serializer_class = ImageSearchResultSerializer
-
     @extend_schema(
         tags=['Color Operations'],
         summary="Advanced color search",
@@ -1148,20 +995,7 @@ class ImageColorSearchView(APIView):
             primary_colors = request.query_params.get('primary_colors')
             color_family = request.query_params.get('color_family')
             limit = int(request.query_params.get('limit', 20))
-
-            # Build Elasticsearch query
-            if not getattr(settings, 'ELASTICSEARCH_ENABLED', False):
-                # Generate mock results for color search
-                mock_results = self._generate_mock_color_search_results(request)
-                return Response({
-                    'count': len(mock_results),
-                    'results': mock_results,
-                    'total': len(mock_results),
-                    'message': 'Mock color search results (Elasticsearch disabled)'
-                })
-
             search = Search(using='default', index='images')
-
             # Apply color filters
             if hex_color:
                 search = self._filter_by_hex_color(search, hex_color)
@@ -1180,11 +1014,9 @@ class ImageColorSearchView(APIView):
                 return Response({
                     'error': 'At least one color parameter must be specified'
                 }, status=status.HTTP_400_BAD_REQUEST)
-
             # Execute search
             search = search[:limit]
             response = search.execute()
-
             # Format results
             results = []
             for hit in response.hits:
@@ -1196,26 +1028,21 @@ class ImageColorSearchView(APIView):
                     'color_family': getattr(hit, 'color_search_terms', []),
                     'score': hit.meta.score if hasattr(hit.meta, 'score') else 1.0
                 })
-
             return Response({
                 'count': len(results),
                 'results': results,
                 'total': response.hits.total.value if hasattr(response.hits, 'total') else len(results)
             })
-
         except Exception as e:
             logger.error(f"Error in color search: {str(e)}")
             return Response({
                 'error': 'Internal server error'
             }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-
-
 class FiltersView(APIView):
     """
     API endpoint to retrieve all available filter options for image search
     """
     permission_classes = [permissions.AllowAny]
-
     def _safe_int_param(self, value, default):
         """Safely convert a parameter to integer, returning default if conversion fails"""
         if value is None or value == '':
@@ -1224,7 +1051,6 @@ class FiltersView(APIView):
             return int(value)
         except (ValueError, TypeError):
             return default
-
     @extend_schema(
         tags=['Search & Filtering'],
         summary="Get available search filters or search images by filters",
@@ -1323,11 +1149,9 @@ class FiltersView(APIView):
                 'limit': self._safe_int_param(request.query_params.get('limit'), 20),
                 'offset': self._safe_int_param(request.query_params.get('offset'), 0)
             }
-
             # Remove None values and check if any filters are applied
             applied_filters = {k: v for k, v in search_params.items() if v is not None and k not in ['limit', 'offset']}
             has_filters = len(applied_filters) > 0
-
             if not has_filters:
                 # Return the filter configuration (no search parameters provided)
                 response_data = {
@@ -1336,14 +1160,12 @@ class FiltersView(APIView):
                     "data": FILTER_CONFIG
                 }
                 return Response(response_data, status=status.HTTP_200_OK)
-
             # Perform search with filters
             logger.info("About to call _perform_filtered_search")
             logger.info(f"Elasticsearch enabled setting: {getattr(settings, 'ELASTICSEARCH_ENABLED', 'NOT_SET')}")
             result = self._perform_filtered_search(search_params, applied_filters)
             logger.info("Search completed successfully")
             return result
-
         except Exception as e:
             logger.error(f"Error in filters/search operation: {e}")
             return Response({
@@ -1351,78 +1173,52 @@ class FiltersView(APIView):
                 'message': 'Error processing request',
                 'error': str(e)
             }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-
     def _perform_filtered_search(self, search_params, applied_filters):
         """
         Perform search based on applied filters using real Elasticsearch
         """
-        # Check if Elasticsearch is enabled in settings
-        es_enabled = getattr(settings, 'ELASTICSEARCH_ENABLED', False)
-        logger.info(f"Elasticsearch enabled: {es_enabled}")
-
-        if not es_enabled:
-            logger.info("Elasticsearch disabled, using mock response")
-            return self._generate_mock_search_response(search_params, applied_filters)
-
         # Perform real Elasticsearch search
-        try:
-            return self._perform_elasticsearch_search(search_params, applied_filters)
-        except Exception as e:
-            logger.error(f"Error performing Elasticsearch search: {e}")
-            return self._generate_mock_search_response(search_params, applied_filters)
-
+        return self._perform_elasticsearch_search(search_params, applied_filters)
     def _perform_elasticsearch_search(self, search_params, applied_filters):
         """
         Perform actual Elasticsearch search with applied filters
         """
         logger.info(f"Performing Elasticsearch search with params: {search_params}, filters: {applied_filters}")
-
         try:
             # Connect to Elasticsearch
             es_hosts = settings.ELASTICSEARCH_DSL['default']['hosts']
             logger.info(f"Connecting to Elasticsearch at: {es_hosts}")
             client = Elasticsearch(hosts=[es_hosts])
-
             logger.info("Attempting Elasticsearch ping...")
             ping_result = client.ping()
             logger.info(f"Elasticsearch ping result: {ping_result}")
-
             if not ping_result:
                 logger.error("Elasticsearch ping failed")
                 raise Exception("Elasticsearch connection failed")
-
             # Build search query
             search = Search(using=client, index='images')
-
             # Apply filters
             filter_queries = []
-
             if search_params.get('color'):
                 color_filter = search_params['color'].strip()
                 filter_queries.append(Q('term', color=color_filter))
-
             if search_params.get('media_type'):
                 media_type_filter = search_params['media_type'].strip()
                 filter_queries.append(Q('term', media_type=media_type_filter))
-
             if search_params.get('genre'):
                 genre_filters = [g.strip() for g in search_params['genre'].split(',') if g.strip()]
                 if genre_filters:
                     filter_queries.append(Q('terms', genre=genre_filters))
-
             # Apply all filters
             if filter_queries:
                 search = search.filter(Q('bool', must=filter_queries))
-
             # Apply pagination
             limit = min(int(search_params.get('limit', 20)), 100)
             offset = int(search_params.get('offset', 0))
-
             # Execute search
             logger.info(f"Executing Elasticsearch search with offset={offset}, limit={limit}")
             response = search[offset:offset + limit].execute()
             logger.info(f"Elasticsearch response received: {response.hits.total.value} total hits, {len(response.hits)} returned")
-
             # Format results
             results = []
             for hit in response:
@@ -1465,7 +1261,6 @@ class FiltersView(APIView):
                     'updated_at': data.get('updated_at')
                 }
                 results.append(result)
-
             return Response({
                 'success': True,
                 'count': len(results),
@@ -1475,268 +1270,25 @@ class FiltersView(APIView):
                 'message': 'Search completed (using real Elasticsearch data)',
                 'debug_info': 'elasticsearch_success'
             })
-
         except Exception as e:
             logger.error(f"Error performing Elasticsearch search: {e}")
             logger.error(f"Elasticsearch config: {getattr(settings, 'ELASTICSEARCH_DSL', 'NOT_FOUND')}")
             import traceback
             logger.error(f"Full traceback: {traceback.format_exc()}")
-            # Return mock response with error info for debugging
-            mock_response = self._generate_mock_search_response(search_params, applied_filters)
-            if hasattr(mock_response, 'data'):
-                mock_response.data['elasticsearch_error'] = str(e)
-                mock_response.data['debug_info'] = 'elasticsearch_failed'
-            return mock_response
-
-    def _generate_mock_search_response(self, search_params, applied_filters):
-        """
-        Generate mock search response when Elasticsearch is disabled or fails
-        """
-        mock_results = [
-            {
-                'id': 1,
-                'slug': 'sample-image-1',
-                'title': 'Sample Image',
-                'description': 'Mock image data',
-                'image_url': 'http://localhost:12001/media/images/sample.jpg',
-                'release_year': 2023,
-                'color': 'Blue' if applied_filters.get('color') == 'Blue' else 'Warm',
-                'genre': ['Action'],
-                'lighting': 'Soft light'
-            }
-        ]
-
-        # Filter mock results based on applied filters
-        filtered_results = mock_results
-        if applied_filters.get('color'):
-            filtered_results = [r for r in filtered_results if r.get('color', '').lower() == applied_filters['color'].lower()]
-
             return Response({
-            'success': True,
-            'count': len(filtered_results),
-            'results': filtered_results,
-            'total': len(filtered_results),
-            'filters_applied': applied_filters,
-            'message': 'Search completed (using mock data - Elasticsearch unavailable)',
-            'debug_info': 'mock_fallback',
-            'elasticsearch_error': None
-        })
-
-    def _generate_mock_search_results(self, search_params, applied_filters):
-        """
-        Generate mock search results based on applied filters
-        """
-        # Mock images with different properties
-        mock_images = [
-            {
-                'id': 1,
-                'slug': 'action-movie-1',
-                'title': 'Intense Action Scene',
-                'description': 'High-energy action sequence',
-                'image_url': '/images/action-movie-1.jpg',
-                'release_year': 2023,
-                'media_type': 'Movie',
-                'genre': ['Action', 'Thriller'],
-                'time_period': '2020s',
-                'color': 'Dark',
-                'shade': '#000000~10~0.8',
-                'aspect_ratio': '2.35',
-                'optical_format': 'Anamorphic',
-                'lab_process': 'Bleach Bypass',
-                'format': 'Film - 35mm',
-                'int_ext': 'Exterior',
-                'time_of_day': 'Day',
-                'numpeople': '3',
-                'gender': 'Male',
-                'subject_age': 'Young Adult',
-                'subject_ethnicity': 'White',
-                'frame_size': 'Wide',
-                'shot_type': 'Aerial',
-                'composition': 'Balanced',
-                'lens_type': 'Long Lens',
-                'lighting': 'Hard light',
-                'lighting_type': 'Daylight'
-            },
-            {
-                'id': 2,
-                'slug': 'drama-scene-1',
-                'title': 'Emotional Drama Moment',
-                'description': 'Powerful emotional scene',
-                'image_url': '/images/drama-scene-1.jpg',
-                'release_year': 2022,
-                'media_type': 'Movie',
-                'genre': ['Drama', 'Romance'],
-                'time_period': '2020s',
-                'color': 'Warm',
-                'shade': '#FFA500~15~0.7',
-                'aspect_ratio': '1.85',
-                'optical_format': 'Spherical',
-                'lab_process': 'Cross Process',
-                'format': 'Digital',
-                'int_ext': 'Interior',
-                'time_of_day': 'Night',
-                'numpeople': '2',
-                'gender': 'Female',
-                'subject_age': 'Mid-adult',
-                'subject_ethnicity': 'Black',
-                'frame_size': 'Medium Close Up',
-                'shot_type': 'Over the shoulder',
-                'composition': 'Center',
-                'lens_type': 'Medium',
-                'lighting': 'Soft light',
-                'lighting_type': 'Artificial light'
-            },
-            {
-                'id': 3,
-                'slug': 'comedy-clip-1',
-                'title': 'Funny Comedy Moment',
-                'description': 'Hilarious comedy scene',
-                'image_url': '/images/comedy-clip-1.jpg',
-                'release_year': 2021,
-                'media_type': 'TV',
-                'genre': ['Comedy'],
-                'time_period': '2020s',
-                'color': 'Mixed',
-                'shade': '#FFFF00~20~0.6',
-                'aspect_ratio': '1.78',
-                'optical_format': 'Super 35',
-                'lab_process': 'Flashing',
-                'format': 'Digital - Large Format',
-                'int_ext': 'Interior',
-                'time_of_day': 'Day',
-                'numpeople': '4',
-                'gender': 'Male',
-                'subject_age': 'Teenager',
-                'subject_ethnicity': 'Latinx',
-                'frame_size': 'Medium',
-                'shot_type': '2 shot',
-                'composition': 'Symmetrical',
-                'lens_type': 'Wide',
-                'lighting': 'Soft light',
-                'lighting_type': 'Fluorescent'
-            },
-            {
-                'id': 4,
-                'slug': 'horror-scene-1',
-                'title': 'Scary Horror Moment',
-                'description': 'Terrifying horror scene',
-                'image_url': '/images/horror-scene-1.jpg',
-                'release_year': 2020,
-                'media_type': 'Movie',
-                'genre': ['Horror', 'Thriller'],
-                'time_period': '2020s',
-                'color': 'Cool',
-                'shade': '#000080~12~0.9',
-                'aspect_ratio': '2.39',
-                'optical_format': '3D',
-                'lab_process': 'Bleach Bypass',
-                'format': 'Film - IMAX',
-                'int_ext': 'Interior',
-                'time_of_day': 'Night',
-                'numpeople': '1',
-                'gender': 'Female',
-                'subject_age': 'Young Adult',
-                'subject_ethnicity': 'East Asian',
-                'frame_size': 'Close Up',
-                'shot_type': 'Dutch angle',
-                'composition': 'Left heavy',
-                'lens_type': 'Ultra Wide / Fisheye',
-                'lighting': 'High contrast',
-                'lighting_type': 'Artificial light'
-            },
-            {
-                'id': 5,
-                'slug': 'documentary-1',
-                'title': 'Nature Documentary Scene',
-                'description': 'Beautiful nature documentary footage',
-                'image_url': '/images/documentary-1.jpg',
-                'release_year': 2019,
-                'media_type': 'TV',
-                'genre': ['Documentary'],
-                'time_period': '2010s',
-                'color': 'Saturated',
-                'shade': '#00FF00~8~0.5',
-                'aspect_ratio': '1.90',
-                'optical_format': 'Spherical',
-                'lab_process': None,
-                'format': 'Digital',
-                'int_ext': 'Exterior',
-                'time_of_day': 'Dawn',
-                'numpeople': 'None',
-                'gender': None,
-                'subject_age': None,
-                'subject_ethnicity': None,
-                'frame_size': 'Extreme Wide',
-                'shot_type': 'Establishing shot',
-                'composition': 'Balanced',
-                'lens_type': 'Wide',
-                'lighting': 'Soft light',
-                'lighting_type': 'Daylight'
-            }
-        ]
-
-        # Filter results based on applied filters
-        filtered_results = []
-        for image in mock_images:
-            match = True
-
-            # Check each applied filter
-            for filter_name, filter_value in applied_filters.items():
-                if filter_name == 'search':
-                    # Simple text search in title/description
-                    search_text = filter_value.lower()
-                    if not (search_text in image['title'].lower() or
-                           search_text in image['description'].lower()):
-                        match = False
-                        break
-                elif filter_name == 'genre':
-                    # Handle comma-separated genres
-                    requested_genres = [g.strip() for g in filter_value.split(',')]
-                    image_genres = image.get('genre', [])
-                    if not any(genre in image_genres for genre in requested_genres):
-                        match = False
-                        break
-                elif filter_name == 'shade':
-                    # Handle color picker format: HEX_COLOR~COLOR_DISTANCE~PROPORTION
-                    if image.get('shade'):
-                        image_hex = image['shade'].split('~')[0].upper()
-                        requested_hex = filter_value.split('~')[0].upper()
-                        if image_hex != requested_hex:
-                            match = False
-                            break
-                    else:
-                        match = False
-                        break
-                else:
-                    # Exact match for other filters
-                    image_value = image.get(filter_name)
-                    if image_value is None:
-                        match = False
-                        break
-                    if str(image_value).lower() != str(filter_value).lower():
-                        match = False
-                        break
-
-            if match:
-                filtered_results.append(image)
-
-        # Apply pagination
-        start_idx = search_params['offset']
-        end_idx = start_idx + search_params['limit']
-        return filtered_results[start_idx:end_idx]
-
+                'success': False,
+                'message': 'Error performing search',
+                'error': str(e)
+            }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
     def _filter_by_hex_color(self, search, hex_color):
         """Filter by exact hex color match"""
         return search.query('term', primary_color_hex=hex_color)
-
     def _filter_by_similarity(self, search, similarity):
         """Filter by color similarity"""
         return search.query('match', color_search_terms=similarity)
-
     def _filter_by_temperature(self, search, temperature):
         """Filter by color temperature"""
         return search.query('term', color_temperature=temperature)
-
     def _filter_by_hue_range(self, search, hue_range):
         """Filter by hue range"""
         try:
@@ -1744,29 +1296,9 @@ class FiltersView(APIView):
             return search.query('range', color_hue={'gte': min_hue, 'lte': max_hue})
         except ValueError:
             return search
-
     def _filter_by_primary_colors(self, search, primary_colors):
         """Filter by primary colors"""
         return search.query('terms', primary_colors__hex=primary_colors.split(','))
-
     def _filter_by_color_family(self, search, color_family):
         """Filter by color family"""
         return search.query('term', color_family=color_family)
-
-    def _generate_mock_color_search_results(self, request):
-        """Generate mock color search results when Elasticsearch is disabled"""
-        # Very simple mock data
-        return [
-            {
-                'slug': 'red-scene',
-                'title': 'Red Scene',
-                'primary_color_hex': '#FF0000',
-                'score': 0.95
-            },
-            {
-                'slug': 'blue-scene',
-                'title': 'Blue Scene',
-                'primary_color_hex': '#0000FF',
-                'score': 0.89
-            }
-        ]

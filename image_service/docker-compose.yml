@@ -1,13 +1,15 @@
 services:
-  image_db:
-    image: postgres:13
-    container_name: image_db
+  # Postgres 17 — the single canonical DB for image_service.
+  # This service holds the migrated data and is the DB the app should use.
+  image-db:
+    image: postgres:17
+    container_name: image-db
     environment:
       - POSTGRES_DB=image_db
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=image_password
     volumes:
-      - image_postgres_data:/var/lib/postgresql/data
+      - image_postgres_17_data:/var/lib/postgresql/data
     networks:
       - shotdeck_platform_network
     healthcheck:
@@ -20,11 +22,11 @@ services:
     build: .
     container_name: image_service
     environment:
-      - DATABASE_URL=postgresql://postgres:image_password@image_db:5432/image_db
+      - DATABASE_URL=postgresql://postgres:image_password@image-db:5432/image_db
       - DB_NAME=image_db
       - DB_USER=postgres
       - DB_PASSWORD=image_password
-      - DB_HOST=image_db
+      - DB_HOST=image-db
       - DB_PORT=5432
       - USE_POSTGRESQL=1
       - SECRET_KEY=django-insecure-dev-key-change-in-production
@@ -49,7 +51,10 @@ services:
     ports:
       - "51009:8000"
     depends_on:
-      image_db:
+      # By default the service still depends on the old DB for safety. After
+      # you've migrated data and switched DB_HOST to `image-db` you can update
+      # this to depend on `image-db` instead.
+      image-db:
         condition: service_healthy
     networks:
       - shotdeck_platform_network
@@ -67,6 +72,7 @@ services:
 
 volumes:
   image_postgres_data:
+  image_postgres_17_data:
 
 networks:
   shotdeck_platform_network:

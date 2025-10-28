@@ -73,6 +73,10 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.IsAuthenticated']
 }
 
+# Pagination defaults: default page size 20 and maximum page size 20
+REST_FRAMEWORK.setdefault('DEFAULT_PAGINATION_CLASS', 'core.pagination.CustomPageNumberPagination')
+REST_FRAMEWORK.setdefault('PAGE_SIZE', 20)
+
 SPECTACULAR_SETTINGS = {
     'TITLE': 'Shotdeck Deck Service API',
     'DESCRIPTION': 'API for managing image decks and collections',

@@ -1,0 +1,3 @@
+from apps.indexer.kafka_consumer import run_kafka_consumer
+
+# ...existing code...

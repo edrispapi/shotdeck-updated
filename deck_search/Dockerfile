@@ -9,14 +9,16 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     postgresql-client && \
     rm -rf /var/lib/apt/lists/*
 
-WORKDIR /service
+WORKDIR /app
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-COPY entrypoint.sh /usr/local/bin/entrypoint.sh
-RUN chmod +x /usr/local/bin/entrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
-CMD ["/usr/local/bin/entrypoint.sh"]
+ENV PYTHONPATH=/app
+
+CMD ["/bin/bash", "/entrypoint.sh"]
