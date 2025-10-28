@@ -9,7 +9,14 @@ SECRET_KEY = 'django-insecure-dev-key-change-in-production'
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '192.168.100.11']
+
+CORS_ALLOW_ALL_ORIGINS = False
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:12004",
+    "http://127.0.0.1:12004",
+    "http://192.168.100.11:12004",
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin', 'django.contrib.auth', 'django.contrib.contenttypes',
@@ -110,6 +117,7 @@ USER_MANAGEMENT_API_URL = 'http://127.0.0.1:12700/api/v1'
 USER_API_TIMEOUT = 10
 
 # Kafka configuration
+KAFKA_ENABLED = os.environ.get('KAFKA_ENABLED', 'True').lower() == 'true'
 KAFKA_BOOTSTRAP_SERVERS = os.environ.get('KAFKA_BOOTSTRAP_SERVERS', 'kafka:9092')
 KAFKA_CONSUMER_GROUP = os.environ.get('KAFKA_CONSUMER_GROUP', 'deck_search_consumer_group')
 
@@ -117,6 +125,10 @@ KAFKA_CONSUMER_GROUP = os.environ.get('KAFKA_CONSUMER_GROUP', 'deck_search_consu
 KAFKA_IMAGE_CREATED_TOPIC = os.environ.get('KAFKA_IMAGE_CREATED_TOPIC', 'image_created')
 KAFKA_IMAGE_UPDATED_TOPIC = os.environ.get('KAFKA_IMAGE_UPDATED_TOPIC', 'image_updated')
 KAFKA_IMAGE_DELETED_TOPIC = os.environ.get('KAFKA_IMAGE_DELETED_TOPIC', 'image_deleted')
+
+# Similar Images Kafka topics
+KAFKA_SIMILAR_IMAGES_REQUEST_TOPIC = os.environ.get('KAFKA_SIMILAR_IMAGES_REQUEST_TOPIC', 'similar_images_request')
+KAFKA_SIMILAR_IMAGES_RESPONSE_TOPIC = os.environ.get('KAFKA_SIMILAR_IMAGES_RESPONSE_TOPIC', 'similar_images_response')
 
 # Elasticsearch configuration - disabled for development
 ELASTICSEARCH_ENABLED = config('ELASTICSEARCH_ENABLED', default=False, cast=bool)

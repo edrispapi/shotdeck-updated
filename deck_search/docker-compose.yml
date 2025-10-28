@@ -13,7 +13,11 @@ services:
       - ingest.geoip.downloader.enabled=false
     ports:
       - "12002:9200"
-      - "12003:9300"
+      # Note: we do NOT publish the transport port 9300 to the host by default.
+      # Elasticsearch nodes and other services can communicate over the Docker network
+      # using the container name `deck_elasticsearch:9300`. Publishing 9300 to the
+      # host can cause port conflicts (as you saw). If you need host access to
+      # the transport port, change this to a different host port like "12093:9300".
     volumes:
       - deck_es_data:/usr/share/elasticsearch/data
     networks:
@@ -36,19 +40,23 @@ services:
     container_name: deck_search_web
     working_dir: /app
     environment:
-      - DATABASE_URL=sqlite:///tmp/deck_search.db
-      - SECRET_KEY=deck-search-secure-key-2024-prod-ready
-      - DEBUG=False
-      - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0,deck_search
-      - ELASTICSEARCH_HOST=deck_elasticsearch
-      - ELASTICSEARCH_PORT=9200
-      - ELASTICSEARCH_ENABLED=True
-      - IMAGE_SERVICE_URL=http://172.50.0.6:8000
-      - DJANGO_SETTINGS_MODULE=core.settings
+      DATABASE_URL: "sqlite:///tmp/deck_search.db"
+      SECRET_KEY: "deck-search-secure-key-2024-prod-ready"
+      DEBUG: "False"
+      ALLOWED_HOSTS: "localhost,127.0.0.1,0.0.0.0,deck_search,192.168.100.11"
+      ELASTICSEARCH_HOST: "deck_elasticsearch"
+      ELASTICSEARCH_PORT: "9200"
+      ELASTICSEARCH_ENABLED: "True"
+      IMAGE_SERVICE_URL: "http://172.50.0.6:8000"
+      DJANGO_SETTINGS_MODULE: "core.settings"
+      KAFKA_ENABLED: "True"
+      KAFKA_BOOTSTRAP_SERVERS: "kafka:9092"
+      KAFKA_CONSUMER_GROUP: "deck_search_consumer_group"
     volumes:
       - .:/app
       - deck_search_static:/app/staticfiles
     ports:
+      # Bind to both localhost and specific IP for broader accessibility
       - "12004:8000"
     depends_on:
       deck_elasticsearch:
@@ -56,12 +64,12 @@ services:
     networks:
       - shotdeck_platform_network
     healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost:8000/ || exit 1"]
+      test: ["CMD-SHELL", "curl -f http://localhost:8000/docs/ || exit 1"]
       interval: 30s
       timeout: 15s
       retries: 3
       start_period: 30s
-    restart: unless-stopped
+    restart: always
 
 volumes:
   deck_es_data:
