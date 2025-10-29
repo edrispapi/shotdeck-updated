@@ -1,85 +1,27 @@
-# .gitignore
-
-# Byte-compiled / optimized / DLL files
+# Local environment variables
+.env
+*.env
+.env.*
+# Large media files that should not be in git
+shotdeck-media/
+image_service/media/
+# Python artifacts
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.hypothesis/
-.pytest_cache/
-pytestdebug.log
-
-# Django stuff
-*.mo
-*.pot
-*.po
-db.sqlite3
-db.sqlite3-journal
-media/
-staticfiles/
-
-# Docker
-.dockerignore
-docker-compose.yml.override
-
-# VS Code
+# Virtual environment
+.venv/
+venv/
+env/
+# IDE and OS files
+.idea/
 .vscode/
-.history/
-
-# Environment variables
-.env
-.env.*
-!.env.example
-
-# Temporary files
-*.swp
-*~
-*.tmp
-
-# Custom
-deck_search/django.log
+.DS_Store
+*.log
+# Static files collected by Django
+staticfiles/
+image_service/staticfiles/
+deck_service/staticfiles/
+# Backup files
+*.bak
