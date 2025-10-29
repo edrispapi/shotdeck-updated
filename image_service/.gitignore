@@ -1,0 +1,36 @@
+# دستور زیر تمام محتوای فایل را با متن جدید جایگزین می‌کند
+cat > .gitignore << EOL
+# Local environment variables
+.env
+*.env
+.env.*
+
+# Large media files that should not be in git
+shotdeck-media/
+image_service/media/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+*.log
+
+# Static files collected by Django
+staticfiles/
+image_service/staticfiles/
+deck_service/staticfiles/
+
+# Backup files
+*.bak
+EOL

@@ -189,9 +189,9 @@ class ImageListSerializer(serializers.ModelSerializer):
             # Check if the image file actually exists
             import os
             from django.conf import settings
-            media_root = getattr(settings, 'MEDIA_ROOT', '/app/media')
-            relative_path = instance.image_url.replace('/media/', '')
-            file_path = os.path.join(media_root, relative_path)
+            media_root = settings.MEDIA_ROOT  # ← Correct
+            relative_path = instance.image_url.lstrip('/')
+            file_path = safe_join(settings.MEDIA_ROOT, relative_path)
 
             if os.path.exists(file_path):
                 representation['image_url'] = full_url

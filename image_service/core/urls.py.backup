@@ -94,9 +94,6 @@ def serve_media_with_fallback(request, path):
     """
     # Check if the requested file exists
     full_path = os.path.join(settings.MEDIA_ROOT, path)
-    print("Checking full_path:", full_path)
-    print("Exists?", os.path.exists(full_path))
-    print("Readable?", os.access(full_path, os.R_OK))
     if os.path.exists(full_path):
         return serve(request, path, document_root=settings.MEDIA_ROOT)
 

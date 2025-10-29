@@ -1,19 +1,18 @@
 services:
-  # Postgres 17 — the single canonical DB for image_service.
-  # This service holds the migrated data and is the DB the app should use.
   image-db:
     image: postgres:17
     container_name: image-db
     environment:
-      - POSTGRES_DB=image_db
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=image_password
+      # These now read from the .env file for consistency
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
     volumes:
       - image_postgres_17_data:/var/lib/postgresql/data
     networks:
       - shotdeck_platform_network
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres -d image_db"]
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER} -d ${DB_NAME}"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -21,45 +20,26 @@ services:
   image_service:
     build: .
     container_name: image_service
+    # This line tells Docker Compose to load the .env file
+    env_file:
+      - .env
+    # We only define DATABASE_URL and let Django handle it.
+    # The values are automatically picked up from the env_file.
     environment:
-      - DATABASE_URL=postgresql://postgres:image_password@image-db:5432/image_db
-      - DB_NAME=image_db
-      - DB_USER=postgres
-      - DB_PASSWORD=image_password
-      - DB_HOST=image-db
-      - DB_PORT=5432
-      - USE_POSTGRESQL=1
-      - SECRET_KEY=django-insecure-dev-key-change-in-production
-      - DEBUG=True
-      - ALLOWED_HOSTS=*
-      # Kafka Configuration for deck_search integration
-      - KAFKA_ENABLED=True
-      - KAFKA_BOOTSTRAP_SERVERS=kafka-1:29092,kafka-2:29092,kafka-3:29092
-      # S3 Configuration
-      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID:-}
-      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY:-}
-      - AWS_STORAGE_BUCKET_NAME=shotdeck-image-service
-      - AWS_S3_REGION_NAME=us-east-1
-      # Service-specific S3 buckets
-      - IMAGE_SERVICE_BUCKET=shotdeck-image-service
-      - SEARCH_SERVICE_BUCKET=shotdeck-search-service
-      - DECK_SERVICE_BUCKET=shotdeck-deck-service
+      - DATABASE_URL=postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}
+      - USE_POSTGRESQL=1 # If your app needs this
     volumes:
       - .:/service
       - /home/a/Desktop/shotdeck:/host_data:ro
-      - /home/a/shotdeck-main/image_service/media:/service/media:rw
+      - ~/shotdeck-media/media:/service/media:rw
     ports:
       - "51009:8000"
     depends_on:
-      # By default the service still depends on the old DB for safety. After
-      # you've migrated data and switched DB_HOST to `image-db` you can update
-      # this to depend on `image-db` instead.
       image-db:
         condition: service_healthy
     networks:
       - shotdeck_platform_network
-    # command: python manage.py runserver 0.0.0.0:8000  # کامنت: ENTRYPOINT در Dockerfile مدیریت می‌کنه
-    healthcheck: # اضافه: برای چک سلامت service (اختیاری)
+    healthcheck:
       test:
         [
           "CMD-SHELL",
