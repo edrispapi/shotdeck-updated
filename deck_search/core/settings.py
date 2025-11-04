@@ -24,8 +24,8 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',  # WhiteNoise for static files
     'corsheaders',  # CORS headers
     'rest_framework', 'drf_spectacular', 'drf_spectacular_sidecar', 'django_elasticsearch_dsl',
-    'apps.common', 'apps.search', 'apps.indexer'
-
+    'apps.common', 'apps.search', 'apps.indexer', 'apps.color_ai',
+    'apps.images',  # ADD THIS LINE - shared models from image_service
 ]
 
 MIDDLEWARE = [
@@ -58,8 +58,12 @@ TEMPLATES = [
 # No database needed - deck_search is a search service using Elasticsearch only
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': ':memory:',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': config('DB_NAME', default='image_db'),
+        'USER': config('DB_USER', default='postgres'),
+        'PASSWORD': config('DB_PASSWORD', default='postgres'),
+        'HOST': config('DB_HOST', default='image-db'),
+        'PORT': config('DB_PORT', default='5432'),
     }
 }
 

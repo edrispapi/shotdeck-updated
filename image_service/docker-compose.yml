@@ -1,9 +1,10 @@
+version: '3.9'
+
 services:
   image-db:
     image: postgres:17
     container_name: image-db
     environment:
-      # These now read from the .env file for consistency
       POSTGRES_DB: ${DB_NAME}
       POSTGRES_USER: ${DB_USER}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
@@ -16,18 +17,32 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+    restart: unless-stopped
+
+  redis:
+    image: redis:7.2-alpine
+    container_name: image-redis
+    command: ["redis-server", "--save", "60", "1", "--loglevel", "warning"]
+    volumes:
+      - image_redis_data:/data
+    networks:
+      - shotdeck_platform_network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
 
   image_service:
     build: .
     container_name: image_service
-    # This line tells Docker Compose to load the .env file
+    image: shot_image
     env_file:
       - .env
-    # We only define DATABASE_URL and let Django handle it.
-    # The values are automatically picked up from the env_file.
     environment:
       - DATABASE_URL=postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}
-      - USE_POSTGRESQL=1 # If your app needs this
+      - REDIS_URL=redis://redis:6379/1
     volumes:
       - .:/service
       - /home/a/Desktop/shotdeck:/host_data:ro
@@ -37,22 +52,27 @@ services:
     depends_on:
       image-db:
         condition: service_healthy
+      redis:
+        condition: service_healthy
     networks:
       - shotdeck_platform_network
     healthcheck:
-      test:
-        [
-          "CMD-SHELL",
-          "curl -f http://localhost:8000/api/schema/swagger-ui/ || exit 1",
-        ]
+      test: ["CMD-SHELL", "curl -f http://localhost:8000/ || exit 1"]
       interval: 30s
       timeout: 10s
       retries: 3
       start_period: 40s
+    restart: unless-stopped
+    command: >
+      sh -c "python manage.py migrate &&
+             python manage.py collectstatic --noinput &&
+             gunicorn core.wsgi:application --bind 0.0.0.0:8000 --workers 4 --timeout 120"
 
 volumes:
-  image_postgres_data:
   image_postgres_17_data:
+    driver: local
+  image_redis_data:
+    driver: local
 
 networks:
   shotdeck_platform_network:

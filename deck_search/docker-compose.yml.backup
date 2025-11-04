@@ -36,12 +36,16 @@ services:
     image: deck_search
     working_dir: /app
     env_file:
-      - .env
+      - .env  # Load DB credentials and other config from .env file
     environment:
+      # Override specific variables
       DJANGO_SETTINGS_MODULE: "core.settings"
       ELASTICSEARCH_HOST: "deck_elasticsearch"
       ELASTICSEARCH_PORT: "9200"
       ELASTICSEARCH_ENABLED: "True"
+      # DB config (DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT) comes from .env
+      # Kafka config (KAFKA_*) comes from .env
+      # Remove DATABASE_URL - we use DATABASES in settings.py with PostgreSQL
     volumes:
       - .:/app
       - deck_search_static:/app/staticfiles

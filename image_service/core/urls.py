@@ -1,151 +1,135 @@
-# مسیر: image_service/core/urls.py
 from django.contrib import admin
 from django.urls import path, include, re_path
 from django.http import JsonResponse, HttpResponse, Http404
-import base64
 from django.conf import settings
 from django.conf.urls.static import static
-from django.views.generic import TemplateView
 from django.views.static import serve
-# drf-spectacular views for auto-generated OpenAPI schema and Swagger UI
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 from django.views.decorators.cache import cache_page
 from rest_framework.authtoken.views import obtain_auth_token
+from apps.images.models import Image
 import os
 
+
 def home_view(request):
+    """Service home endpoint with statistics"""
+    from apps.images.models import Image, Movie, Tag
+    
     return JsonResponse({
         "service": "Image Service",
         "version": "1.0.0",
-        "description": "مدیریت تصاویر و داده‌های بصری در پلتفرم Shotdeck",
+        "description": "Image management and metadata service for Shotdeck platform",
         "stats": {
-            "total_images": 1000,
-            "indexed_images": 1310,
-            "tags_count": 30,
-            "movies_count": 20
+            "total_images": Image.objects.count(),
+            "total_movies": Movie.objects.count(),
+            "total_tags": Tag.objects.count(),
         },
         "endpoints": {
             "api": "/api/",
             "admin": "/admin/",
             "docs": "/api/schema/swagger-ui/",
+            "shots": "/shots/",
             "images": "/api/images/",
-            "token": "/api/api-token-auth/"
+            "movies": "/api/movies/",
+            "tags": "/api/tags/",
+            "token": "/api/api-token-auth/",
+            "health": "/api/health/",
         },
         "status": "running",
-        "timestamp": request.META.get('HTTP_HOST', 'localhost')
+        "host": request.get_host()
     })
+
 
 def health_view(request):
     """Health check endpoint"""
+    from django.db import connection
+    
+    try:
+        # Test database connection
+        with connection.cursor() as cursor:
+            cursor.execute("SELECT 1")
+        db_status = "healthy"
+    except Exception as e:
+        db_status = f"unhealthy: {str(e)}"
+    
     return JsonResponse({
-        "status": "healthy",
+        "status": "healthy" if db_status == "healthy" else "degraded",
         "service": "image_service",
-        "timestamp": request.META.get('HTTP_HOST', 'localhost')
+        "database": db_status,
+        "host": request.get_host()
     })
-# Static OpenAPI schema removed. drf-spectacular is the canonical schema provider.
-# Use the `/api/schema/` SpectacularAPIView endpoint to get the generated schema.
 
-# The previous custom Swagger UI HTML fallback has been removed in favor of
-# drf-spectacular's `SpectacularSwaggerView`, which serves the Swagger UI and
-# loads the dynamically generated schema.
 
-def test_schema_view(request):
-    """Test view to verify schema loading works"""
-    html_content = """
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Test Schema Loading</title>
-</head>
-<body>
-    <h1>Testing Schema Load</h1>
-    <div id="result"></div>
-
-    <script>
-        fetch('/api/schema/?format=json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                return response.json();
-            })
-            .then(data => {
-                document.getElementById('result').innerHTML =
-                    '<h2 style="color: green;">SUCCESS!</h2>' +
-                    '<p>OpenAPI version: ' + data.openapi + '</p>' +
-                    '<p>Title: ' + data.info.title + '</p>';
-            })
-            .catch(error => {
-                document.getElementById('result').innerHTML =
-                    '<h2 style="color: red;">ERROR!</h2>' +
-                    '<p>' + error.message + '</p>';
-            });
-    </script>
-</body>
-</html>
+def shots_view(request):
     """
-    return HttpResponse(html_content, content_type='text/html')
-
-
-def serve_media_with_fallback(request, path):
+    Main shots endpoint - returns paginated list of images
+    This is the main endpoint for browsing shots/images
     """
-    Serve media files with fallback for missing images.
-    Returns a placeholder image for missing image files.
-    """
-    # Check if the requested file exists
-    full_path = os.path.join(settings.MEDIA_ROOT, path)
-    print("Checking full_path:", full_path)
-    print("Exists?", os.path.exists(full_path))
-    print("Readable?", os.access(full_path, os.R_OK))
-    if os.path.exists(full_path):
-        return serve(request, path, document_root=settings.MEDIA_ROOT)
+    from apps.images.models import Image
+    from django.core.paginator import Paginator
+    
+    # Get query parameters
+    page = int(request.GET.get('page', 1))
+    page_size = min(int(request.GET.get('page_size', 20)), 100)
+    search = request.GET.get('search', '')
+    color = request.GET.get('color', '')
+    media_type = request.GET.get('media_type', '')
+    
+    # Build queryset
+    # In shots_view:
+    queryset = Image.objects.select_related('movie').prefetch_related('tags').all()
+    
+    # Apply filters
+    if search:
+        queryset = queryset.filter(title__icontains=search)
+    if color:
+        queryset = queryset.filter(color__value__iexact=color)
+    if media_type:
+        queryset = queryset.filter(media_type__value__iexact=media_type)
+    
+    # Paginate
+    paginator = Paginator(queryset, page_size)
+    page_obj = paginator.get_page(page)
+    
+    # Build response
+    images_data = []
+    for image in page_obj:
+        image_data = {
+            "uuid": image.id,
+            "slug": image.slug,
+            "title": image.title,
+            "description": image.description,
+            "image_url": request.build_absolute_uri(image.image_url) if image.image_url else None,
+            "movie": { 
+                "slug": image.movie.slug,
+                "title": image.movie.title,
+                "year": image.movie.year,
+            } if image.movie else None,
+            "tags": [{"slug": tag.slug, "name": tag.name} for tag in image.tags.all()[:10]],
+            "color": image.color.value if image.color else None,
+            "media_type": image.media_type.value if image.media_type else None,
+            "time_of_day": image.time_of_day.value if image.time_of_day else None,
+            "interior_exterior": image.interior_exterior.value if image.interior_exterior else None,
+        }
+        images_data.append(image_data)
+    
+    return JsonResponse({
+        "success": True,
+        "count": len(images_data),
+        "total": paginator.count,
+        "page": page,
+        "page_size": page_size,
+        "total_pages": paginator.num_pages,
+        "has_next": page_obj.has_next(),
+        "has_previous": page_obj.has_previous(),
+        "results": images_data,
+        "filters_applied": {
+            "search": search or None,
+            "color": color or None,
+            "media_type": media_type or None,
+        }
+    })
 
-    # Check if it's an image file (jpg, png, etc.)
-    if path.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp')):
-        # Prefer serving a branded placeholder from MEDIA_ROOT if present
-        placeholder_candidates = [
-            os.path.join(settings.MEDIA_ROOT, 'images', 'placeholder.png'),
-            os.path.join(settings.MEDIA_ROOT, 'placeholder.png'),
-        ]
-
-        image_data = None
-        for candidate in placeholder_candidates:
-            if os.path.exists(candidate):
-                with open(candidate, 'rb') as f:
-                    image_data = f.read()
-                break
-
-        # If no file placeholder, return a visible SVG placeholder (renders clearly in browsers)
-        if image_data is None:
-            svg = (
-                "<?xml version='1.0' encoding='UTF-8'?>"
-                "<svg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'>"
-                "<defs><style>@media(prefers-color-scheme:dark){.bg{fill:#1e1e1e}.fg{fill:#ddd}}@media(prefers-color-scheme:light){.bg{fill:#f3f3f3}.fg{fill:#333}}</style></defs>"
-                "<rect class='bg' x='0' y='0' width='400' height='300'/>"
-                "<g fill='none' stroke='#bbb' stroke-width='2'>"
-                "<rect x='60' y='40' width='280' height='200' rx='8' ry='8'/>"
-                "<path d='M90 210 L160 140 L210 190 L270 120 L330 210'/>"
-                "<circle cx='230' cy='110' r='18'/></g>"
-                "<text class='fg' x='200' y='270' text-anchor='middle' font-family='Arial, sans-serif' font-size='16'>Image not available</text>"
-                "</svg>"
-            )
-            response = HttpResponse(svg, content_type='image/svg+xml; charset=utf-8')
-            response['Cache-Control'] = 'no-store, no-cache, must-revalidate, max-age=0'
-            response['Pragma'] = 'no-cache'
-            response['Expires'] = '0'
-            response['Content-Disposition'] = 'inline; filename="placeholder.svg"'
-            return response
-
-        # Otherwise serve the found placeholder file bytes (PNG)
-        response = HttpResponse(image_data, content_type='image/png')
-        response['Cache-Control'] = 'no-store, no-cache, must-revalidate, max-age=0'
-        response['Pragma'] = 'no-cache'
-        response['Expires'] = '0'
-        response['Content-Disposition'] = 'inline; filename="placeholder.png"'
-        return response
-
-    # For non-image files, return 404
-    raise Http404(f"Media file '{path}' not found.")
 
 def options_view(request):
     """Filter options endpoint - aggregate all options"""
@@ -161,7 +145,6 @@ def options_view(request):
 
     options_data = {}
 
-    # Get options from each ViewSet
     viewsets = [
         ('genre', GenreOptionViewSet),
         ('color', ColorOptionViewSet),
@@ -198,21 +181,75 @@ def options_view(request):
         "data": options_data
     })
 
+
+def serve_media_with_fallback(request, path):
+    """
+    Serve media files with fallback for missing images.
+    Returns a placeholder image for missing image files.
+    """
+    full_path = os.path.join(settings.MEDIA_ROOT, path)
+    
+    if os.path.exists(full_path):
+        return serve(request, path, document_root=settings.MEDIA_ROOT)
+
+    # Return placeholder for missing image files
+    if path.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp')):
+        placeholder_candidates = [
+            os.path.join(settings.MEDIA_ROOT, 'images', 'placeholder.png'),
+            os.path.join(settings.MEDIA_ROOT, 'placeholder.png'),
+        ]
+
+        image_data = None
+        for candidate in placeholder_candidates:
+            if os.path.exists(candidate):
+                with open(candidate, 'rb') as f:
+                    image_data = f.read()
+                response = HttpResponse(image_data, content_type='image/png')
+                response['Cache-Control'] = 'no-store'
+                return response
+
+        # SVG placeholder
+        svg = (
+            "<?xml version='1.0' encoding='UTF-8'?>"
+            "<svg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'>"
+            "<rect fill='#f3f3f3' width='400' height='300'/>"
+            "<g fill='none' stroke='#bbb' stroke-width='2'>"
+            "<rect x='60' y='40' width='280' height='200' rx='8'/>"
+            "<path d='M90 210 L160 140 L210 190 L270 120 L330 210'/>"
+            "<circle cx='230' cy='110' r='18'/></g>"
+            "<text x='200' y='270' text-anchor='middle' font-family='Arial' font-size='16' fill='#333'>"
+            "Image not available</text>"
+            "</svg>"
+        )
+        response = HttpResponse(svg, content_type='image/svg+xml')
+        response['Cache-Control'] = 'no-store'
+        return response
+
+    raise Http404(f"Media file '{path}' not found.")
+
+
 urlpatterns = [
+    # Main endpoints
     path('', home_view, name='home'),
+    path('shots/', shots_view, name='shots'),
+    
+    # API endpoints
+    path('api/', include('apps.images.api.urls')),
     path('api/health/', health_view, name='health'),
     path('api/options/', options_view, name='options'),
-
-    path('admin/', admin.site.urls),
-    path('api/', include('apps.images.api.urls')),
     path('api/api-token-auth/', obtain_auth_token, name='api_token_auth'),
-    # Serve schema and Swagger UI using drf-spectacular (required)
-    # Cache the generated OpenAPI JSON for 1 hour to avoid regenerating the
-    # schema on every request; the schema is fairly static and this speeds up
-    # the Swagger UI which requests the schema JSON on load.
+    
+    # Schema and documentation
     path('api/schema/', cache_page(60 * 60)(SpectacularAPIView.as_view()), name='schema'),
     path('api/schema/swagger-ui/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
-    path('test-schema/', test_schema_view, name='test-schema'),
-] + [
+    
+    # Admin
+    path('admin/', admin.site.urls),
+    
+    # Media files
     re_path(r'^media/(?P<path>.*)$', serve_media_with_fallback, name='media'),
 ]
+
+# Add static files in development
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
