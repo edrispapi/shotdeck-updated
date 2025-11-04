@@ -869,7 +869,7 @@ class Image(models.Model):
         ]
 
     def __str__(self):
-        return self.title or str(self.id)
+        return self.title or str(self.uuid)
 
     def get_absolute_url(self):
         return reverse('image-detail', kwargs={'slug': self.slug})
@@ -883,7 +883,7 @@ class Image(models.Model):
                 movie_slug = self.movie.slug
                 self.slug = f"{movie_slug}-{shot_id.lower()}"
             else:
-                base_slug = slugify(self.title) if self.title else str(self.id)[:12]
+                base_slug = slugify(self.title) if self.title else str(self.uuid)[:12]
                 self.slug = f"{base_slug}-{uuid.uuid4().hex[:8]}"
         
         is_new = self.pk is None
@@ -909,7 +909,7 @@ class Image(models.Model):
         Use force=True to re-analyze even if already analyzed
         """
         if not force and self.primary_color_hex:
-            logger.info(f"Image {self.id} already has color analysis")
+            logger.info(f"Image {self.uuid} already has color analysis")
             return True
 
         try:
@@ -999,11 +999,11 @@ class Image(models.Model):
                 'color_temperature', 'hue_range'
             ])
 
-            logger.info(f"Successfully analyzed colors for image {self.id}")
+            logger.info(f"Successfully analyzed colors for image {self.uuid}")
             return True
 
         except Exception as e:
-            logger.error(f"Error analyzing colors for {self.id}: {e}")
+            logger.error(f"Error analyzing colors for {self.uuid}: {e}")
             return False
 
     @staticmethod

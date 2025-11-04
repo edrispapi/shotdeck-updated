@@ -505,7 +505,7 @@ class MovieImageSerializer(serializers.ModelSerializer):
 
     def to_representation(self, instance):
         rep = {
-            'id': instance.id,
+            'id': instance.uuid,
             'slug': instance.slug,
             'title': instance.title,
             'description': instance.description,
@@ -588,7 +588,7 @@ class ImageSerializer(serializers.ModelSerializer):
     class Meta:
         model = Image
         fields = [
-            'id', 'slug', 'title', 'image_url',                     # ← UUID
+            'uuid', 'slug', 'title', 'image_url',                     # ← UUID
             'tags', 'tag_ids',
             'release_year', 'media_type', 'media_type_value', 'genre',
             'color', 'color_value', 'aspect_ratio', 'aspect_ratio_value',
@@ -613,7 +613,7 @@ class ImageSerializer(serializers.ModelSerializer):
             'color_temperature', 'hue_range',
             'created_at', 'updated_at'
         ]
-        read_only_fields = ['id', 'slug', 'created_at', 'updated_at']
+        read_only_fields = ['uuid', 'slug', 'created_at', 'updated_at']
 
     # ------------------------------------------------------------------- #
     #  SerializerMethodFields
