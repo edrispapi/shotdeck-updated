@@ -1,0 +1,464 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05THMMPG",
+    "image_file": "05THMMPG.png",
+    "mime": "image/png",
+    "width": "1920",
+    "height": "818",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Embrace of the Serpent",
+            "search_value": "6402"
+          }
+        ]
+      },
+      "full_title": "Embrace of the Serpent",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2015",
+            "search_value": "2015"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0c0c0c",
+            "search_value": "0c0c0c~25~1"
+          },
+          {
+            "display_value": "565656",
+            "search_value": "565656~25~1"
+          },
+          {
+            "display_value": "979797",
+            "search_value": "979797~25~1"
+          },
+          {
+            "display_value": "cbcbcb",
+            "search_value": "cbcbcb~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "fire",
+              "search_value": "fire"
+            },
+            {
+              "display_value": "sickly",
+              "search_value": "sickly"
+            },
+            {
+              "display_value": "watching",
+              "search_value": "watching"
+            },
+            {
+              "display_value": "crouching",
+              "search_value": "crouching"
+            },
+            {
+              "display_value": "firepit",
+              "search_value": "firepit"
+            },
+            {
+              "display_value": "unconcerned",
+              "search_value": "unconcerned"
+            },
+            {
+              "display_value": "resentful",
+              "search_value": "resentful"
+            },
+            {
+              "display_value": "upset",
+              "search_value": "upset"
+            },
+            {
+              "display_value": "insulted",
+              "search_value": "insulted"
+            },
+            {
+              "display_value": "pissed off",
+              "search_value": "\"pissed+off\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Nilbio Torres",
+              "search_value": "Nilbio+Torres"
+            },
+            {
+              "display_value": "Jan Bijvoet",
+              "search_value": "Jan+Bijvoet"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1900s",
+              "search_value": "1900s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Underlight",
+              "search_value": "Underlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke Varotal Lenses",
+              "search_value": "Cooke+Varotal+Lenses"
+            },
+            {
+              "display_value": "Zeiss Super Speed",
+              "search_value": "Zeiss+Super+Speed"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "8573/8673\tEterna 500T",
+              "search_value": "8573%2F8673%09Eterna+500T"
+            },
+            {
+              "display_value": "8543 Fuji Eterna Vivid 160T",
+              "search_value": "8543+Fuji+Eterna+Vivid+160T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Rainforest",
+              "search_value": "Rainforest"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Colombia",
+              "search_value": "Colombia"
+            },
+            {
+              "display_value": "Amazon Rainforest",
+              "search_value": "Amazon+Rainforest"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Colombia",
+              "search_value": "Colombia"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:32:11",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Ciro Guerra",
+              "search_value": "Ciro+Guerra"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "David Gallego",
+              "search_value": "David+Gallego"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Angélica Perea",
+              "search_value": "Ang%C3%A9lica+Perea"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Catherine Rodríguez",
+              "search_value": "Catherine+Rodr%C3%ADguez"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Etienne Boussac",
+              "search_value": "Etienne+Boussac"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Roberto Zambrino",
+              "search_value": "Roberto+Zambrino"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

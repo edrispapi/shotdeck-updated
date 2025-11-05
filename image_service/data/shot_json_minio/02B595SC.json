@@ -1,0 +1,452 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02B595SC",
+    "image_file": "02B595SC.jpg",
+    "mime": "image/jpeg",
+    "width": "1915",
+    "height": "812",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Monster Squad",
+            "search_value": "917"
+          }
+        ]
+      },
+      "full_title": "The Monster Squad",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1987",
+            "search_value": "1987"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "16181b",
+            "search_value": "16181b~25~1"
+          },
+          {
+            "display_value": "311418",
+            "search_value": "311418~25~1"
+          },
+          {
+            "display_value": "182413",
+            "search_value": "182413~25~1"
+          },
+          {
+            "display_value": "262817",
+            "search_value": "262817~25~1"
+          },
+          {
+            "display_value": "622529",
+            "search_value": "622529~25~1"
+          },
+          {
+            "display_value": "59352c",
+            "search_value": "59352c~25~1"
+          },
+          {
+            "display_value": "38492c",
+            "search_value": "38492c~25~1"
+          },
+          {
+            "display_value": "3f472d",
+            "search_value": "3f472d~25~1"
+          },
+          {
+            "display_value": "655044",
+            "search_value": "655044~25~1"
+          },
+          {
+            "display_value": "505e4d",
+            "search_value": "505e4d~25~1"
+          },
+          {
+            "display_value": "957371",
+            "search_value": "957371~25~1"
+          },
+          {
+            "display_value": "929e93",
+            "search_value": "929e93~25~1"
+          },
+          {
+            "display_value": "a6a896",
+            "search_value": "a6a896~25~1"
+          },
+          {
+            "display_value": "c8c5ae",
+            "search_value": "c8c5ae~25~1"
+          },
+          {
+            "display_value": "f7e5c3",
+            "search_value": "f7e5c3~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "chainlink fence",
+              "search_value": "\"chainlink+fence\""
+            },
+            {
+              "display_value": "creepy smile",
+              "search_value": "\"creepy+smile\""
+            },
+            {
+              "display_value": "green shrubs",
+              "search_value": "\"green+shrubs\""
+            },
+            {
+              "display_value": "horror",
+              "search_value": "horror"
+            },
+            {
+              "display_value": "plaid checkered shirt",
+              "search_value": "\"plaid+checkered+shirt\""
+            },
+            {
+              "display_value": "receding hairline",
+              "search_value": "\"receding+hairline\""
+            },
+            {
+              "display_value": "red shirt",
+              "search_value": "\"red+shirt\""
+            },
+            {
+              "display_value": "tall bushy trees in background",
+              "search_value": "\"tall+bushy+trees+in+background\""
+            },
+            {
+              "display_value": "wool seater",
+              "search_value": "\"wool+seater\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Leonardo Cimino",
+              "search_value": "Leonardo+Cimino"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Sidewalk",
+              "search_value": "Sidewalk"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Louisiana",
+              "search_value": "Louisiana"
+            },
+            {
+              "display_value": "Baton Rouge",
+              "search_value": "Baton+Rouge"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United Sates",
+              "search_value": "United+Sates"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Burbank",
+              "search_value": "Burbank"
+            },
+            {
+              "display_value": "Warner Brothers Studios",
+              "search_value": "Warner+Brothers+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "general_notes": {
+          "filter": "n/a",
+          "filter_name": "Notes",
+          "values": [
+            {
+              "display_value": " Panavision (anamorphic)",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Fred Dekker",
+              "search_value": "Fred+Dekker"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Bradford May",
+              "search_value": "Bradford+May"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Albert Brenner",
+              "search_value": "Albert+Brenner"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "James Mitchell",
+              "search_value": "James+Mitchell"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Bob Kaiser",
+              "search_value": "Bob+Kaiser"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

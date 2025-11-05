@@ -1,0 +1,370 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05879DBN",
+    "image_file": "05879DBN.jpg",
+    "mime": "image/jpeg",
+    "width": "1800",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Emitaï",
+            "search_value": "48609"
+          }
+        ]
+      },
+      "full_title": "Emitaï",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1971",
+            "search_value": "1971"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "362c28",
+            "search_value": "362c28~25~1"
+          },
+          {
+            "display_value": "3a3135",
+            "search_value": "3a3135~25~1"
+          },
+          {
+            "display_value": "323732",
+            "search_value": "323732~25~1"
+          },
+          {
+            "display_value": "35373d",
+            "search_value": "35373d~25~1"
+          },
+          {
+            "display_value": "493a3f",
+            "search_value": "493a3f~25~1"
+          },
+          {
+            "display_value": "4f5b54",
+            "search_value": "4f5b54~25~1"
+          },
+          {
+            "display_value": "61585d",
+            "search_value": "61585d~25~1"
+          },
+          {
+            "display_value": "5a5c64",
+            "search_value": "5a5c64~25~1"
+          },
+          {
+            "display_value": "776a62",
+            "search_value": "776a62~25~1"
+          },
+          {
+            "display_value": "8b7b76",
+            "search_value": "8b7b76~25~1"
+          },
+          {
+            "display_value": "898072",
+            "search_value": "898072~25~1"
+          },
+          {
+            "display_value": "958f92",
+            "search_value": "958f92~25~1"
+          },
+          {
+            "display_value": "989089",
+            "search_value": "989089~25~1"
+          },
+          {
+            "display_value": "979ca1",
+            "search_value": "979ca1~25~1"
+          },
+          {
+            "display_value": "a4a9a7",
+            "search_value": "a4a9a7~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "shooting at",
+              "search_value": "\"shooting+at\""
+            },
+            {
+              "display_value": "armed",
+              "search_value": "armed"
+            },
+            {
+              "display_value": "taking cover",
+              "search_value": "\"taking+cover\""
+            },
+            {
+              "display_value": "laying on stomach",
+              "search_value": "\"laying+on+stomach\""
+            },
+            {
+              "display_value": "soldiers",
+              "search_value": "soldiers"
+            },
+            {
+              "display_value": "aiming gun",
+              "search_value": "\"aiming+gun\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1940s",
+              "search_value": "1940s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Forest",
+              "search_value": "Forest"
+            },
+            {
+              "display_value": "Clearing",
+              "search_value": "Clearing"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "Dimbering",
+              "search_value": "Dimbering"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "Dimbering",
+              "search_value": "Dimbering"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:35:35",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Ousmane Sembène",
+              "search_value": "Ousmane+Semb%C3%A8ne"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Michel Remaudeau",
+              "search_value": "Michel+Remaudeau"
+            },
+            {
+              "display_value": "Georges Caristan",
+              "search_value": "Georges+Caristan"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Gilbert Kikoïne",
+              "search_value": "Gilbert+Kiko%C3%AFne"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

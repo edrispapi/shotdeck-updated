@@ -29,17 +29,53 @@ class Command(BaseCommand):
         parser.add_argument('--limit', type=int, default=3000)
         parser.add_argument('--batch-size', type=int, default=100)
         parser.add_argument('--update-existing', action='store_true', default=True)
+        parser.add_argument('--no-create-images', action='store_true', default=False,
+                            help='Only update existing Image rows; skip creation when missing')
+        parser.add_argument('--only-db-slugs', action='store_true', default=False,
+                            help='Restrict import to JSONs whose base filename matches Image.slug in DB')
+        parser.add_argument('--ids-file', type=str, default=None,
+                            help='Optional path to a newline-delimited list of image IDs to import (case-insensitive)')
+        parser.add_argument(
+            '--image-url-template',
+            type=str,
+            default='/media/images/{id}.jpg',
+            help=(
+                'Template used to build image_url for each record. '
+                'Use {id} as placeholder for the image code, e.g. '
+                '"http://192.168.100.11:4008/images/shots/shot/{id}.jpg".'
+            ),
+        )
 
     def handle(self, *args, **options):
         json_dir = options['json_dir']
         limit = options['limit']
         batch_size = options['batch_size']
         update_existing = options['update_existing']
+        self.image_url_template = options['image_url_template']
+        only_db_slugs: bool = options['only_db_slugs']
+        no_create_images: bool = options['no_create_images']
+        ids_file: str | None = options.get('ids_file')
         
         if not os.path.exists(json_dir):
             raise CommandError(f"JSON directory not found: {json_dir}")
         
         json_files = sorted([f for f in os.listdir(json_dir) if f.endswith('.json')])
+
+        # Build allowed id set if requested
+        allowed_ids: set[str] | None = None
+        if only_db_slugs:
+            from apps.images.models import Image as ImageModel
+            db_slugs = set(s.lower() for s in ImageModel.objects.values_list('slug', flat=True))
+            allowed_ids = db_slugs if allowed_ids is None else (allowed_ids & db_slugs)
+        if ids_file and os.path.exists(ids_file):
+            with open(ids_file, 'r', encoding='utf-8') as fh:
+                file_ids = {line.strip().lower() for line in fh if line.strip()}
+            allowed_ids = file_ids if allowed_ids is None else (allowed_ids & file_ids)
+
+        if allowed_ids is not None:
+            before = len(json_files)
+            json_files = [f for f in json_files if os.path.splitext(f)[0].lower() in allowed_ids]
+            self.stdout.write(f"Filtered JSON files by allowed IDs: {len(json_files)} of {before}")
         
         if limit:
             json_files = json_files[:limit]
@@ -53,7 +89,7 @@ class Command(BaseCommand):
                     data = json.load(f)
                 
                 with transaction.atomic():
-                    self._process_image(data, json_file, update_existing)
+                    self._process_image(data, json_file, update_existing, no_create_images)
                 
                 if idx % batch_size == 0:
                     self._print_progress(idx, len(json_files))
@@ -64,7 +100,7 @@ class Command(BaseCommand):
         
         self._print_final_stats()
 
-    def _process_image(self, data, filename, update_existing):
+    def _process_image(self, data, filename, update_existing, no_create_images=False):
         """Process image with nested metadata extraction"""
         
         # Get image ID from filename
@@ -90,36 +126,53 @@ class Command(BaseCommand):
             except:
                 pass
         
-        # Create/update image
-        image_url = f"/media/images/{image_id}.jpg"
-        
-        image, created = Image.objects.get_or_create(
-            slug=image_id.lower(),
-            defaults={
-                'title': title or full_title or image_id,
-                'image_url': image_url,
-                'release_year': release_year
-            }
-        )
-        
-        if created:
+        # Ensure we have a Movie first (Image.movie is NOT NULL)
+        movie_title = title or full_title or image_id
+        # Prefer matching on (title, year) when year is available to avoid duplicates
+        if release_year is not None:
+            movie, _ = Movie.objects.get_or_create(title=movie_title, year=release_year)
+        else:
+            movie, _ = Movie.objects.get_or_create(title=movie_title)
+
+        # Create/update image (avoid get_or_create due to NOT NULL movie)
+        # Build image URL without copying to MEDIA_ROOT
+        try:
+            image_url = str(self.image_url_template).format(id=image_id)
+        except Exception:
+            image_url = f"/media/images/{image_id}.jpg"
+        image = Image.objects.filter(slug=image_id.lower()).first()
+        if image is None:
+            if no_create_images:
+                # Skip if creation not allowed
+                self.stats['processed'] += 1
+                return
+            image = Image(
+                slug=image_id.lower(),
+                title=movie_title,
+                image_url=image_url,
+                release_year=release_year,
+                movie=movie,
+            )
+            image.save()
+            created = True
             self.stats['created'] += 1
         else:
+            created = False
             self.stats['updated'] += 1
+        
+        # Update existing fields when requested (including image_url)
+        if not created:
             if not update_existing:
                 return
+            # Always refresh image_url to match the template (no local copy)
+            if image.image_url != image_url:
+                image.image_url = image_url
         
-        # Update title if we have it
+        # Update title/movie if we have a better title
         if title:
             image.title = title
-        
-        # Create/update movie
-        if title:
-            movie, _ = Movie.objects.get_or_create(
-                title=title,
-                defaults={'year': release_year}
-            )
-            image.movie = movie
+            if image.movie_id != movie.id:
+                image.movie = movie
         
         # Extract shot_info metadata
         shot_info = details.get('shot_info', {})
@@ -192,10 +245,8 @@ class Command(BaseCommand):
                 for tag_item in tags_data['values']:
                     tag_name = tag_item.get('display_value')
                     if tag_name:
-                        tag, _ = Tag.objects.get_or_create(
-                            name=tag_name,
-                            defaults={'slug': slugify(tag_name)}
-                        )
+                        # Do not pass slug; Tag.save() ensures a unique slug
+                        tag, _ = Tag.objects.get_or_create(name=tag_name)
                         image.tags.add(tag)
                         self._track_field('tags')
         
@@ -283,15 +334,10 @@ class Command(BaseCommand):
         if cache_key in self.option_cache:
             return self.option_cache[cache_key]
         
-        # Check if model has slug field
-        kwargs = {}
-        model_fields = [f.name for f in model_class._meta.fields]
-        if 'slug' in model_fields:
-            kwargs['slug'] = slugify(value)
-        
-        option, created = model_class.objects.get_or_create(value=value, defaults=kwargs)
+        # Avoid passing slug defaults so model save() can ensure unique slugs
+        option, created = model_class.objects.get_or_create(value=value)
         self.option_cache[cache_key] = option
-        
+
         return option
 
     def _track_field(self, field_name):

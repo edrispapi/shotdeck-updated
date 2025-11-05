@@ -1,0 +1,510 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "004XXC7F",
+    "image_file": "004XXC7F.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Jacob's Ladder",
+            "search_value": "3294"
+          }
+        ]
+      },
+      "full_title": "Jacob's Ladder",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1990",
+            "search_value": "1990"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "050507",
+            "search_value": "050507~25~1"
+          },
+          {
+            "display_value": "090608",
+            "search_value": "090608~25~1"
+          },
+          {
+            "display_value": "1c1e1c",
+            "search_value": "1c1e1c~25~1"
+          },
+          {
+            "display_value": "262014",
+            "search_value": "262014~25~1"
+          },
+          {
+            "display_value": "533831",
+            "search_value": "533831~25~1"
+          },
+          {
+            "display_value": "4b412f",
+            "search_value": "4b412f~25~1"
+          },
+          {
+            "display_value": "585042",
+            "search_value": "585042~25~1"
+          },
+          {
+            "display_value": "515251",
+            "search_value": "515251~25~1"
+          },
+          {
+            "display_value": "59595f",
+            "search_value": "59595f~25~1"
+          },
+          {
+            "display_value": "6d6063",
+            "search_value": "6d6063~25~1"
+          },
+          {
+            "display_value": "868594",
+            "search_value": "868594~25~1"
+          },
+          {
+            "display_value": "a39399",
+            "search_value": "a39399~25~1"
+          },
+          {
+            "display_value": "a69993",
+            "search_value": "a69993~25~1"
+          },
+          {
+            "display_value": "d8d3d7",
+            "search_value": "d8d3d7~25~1"
+          },
+          {
+            "display_value": "e5e1de",
+            "search_value": "e5e1de~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "nightmare",
+              "search_value": "nightmare"
+            },
+            {
+              "display_value": "muscular",
+              "search_value": "muscular"
+            },
+            {
+              "display_value": "bag over head",
+              "search_value": "\"bag+over+head\""
+            },
+            {
+              "display_value": "ceiling light",
+              "search_value": "\"ceiling+light\""
+            },
+            {
+              "display_value": "tile wall",
+              "search_value": "\"tile+wall\""
+            },
+            {
+              "display_value": "missing legs",
+              "search_value": "\"missing+legs\""
+            },
+            {
+              "display_value": "suspenders",
+              "search_value": "suspenders"
+            },
+            {
+              "display_value": "shirtless",
+              "search_value": "shirtless"
+            },
+            {
+              "display_value": "tunic",
+              "search_value": "tunic"
+            },
+            {
+              "display_value": "torturous",
+              "search_value": "torturous"
+            },
+            {
+              "display_value": "trapped",
+              "search_value": "trapped"
+            },
+            {
+              "display_value": "open box",
+              "search_value": "\"open+box\""
+            },
+            {
+              "display_value": "head shaking",
+              "search_value": "\"head+shaking\""
+            },
+            {
+              "display_value": "hellish",
+              "search_value": "hellish"
+            },
+            {
+              "display_value": "demonic",
+              "search_value": "demonic"
+            },
+            {
+              "display_value": "possessed",
+              "search_value": "possessed"
+            },
+            {
+              "display_value": "sweaty",
+              "search_value": "sweaty"
+            },
+            {
+              "display_value": "dirty walls",
+              "search_value": "\"dirty+walls\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Panaflex",
+              "search_value": "Panavision+Panaflex"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Lenses",
+              "search_value": "Panavision+Lenses"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Asylum",
+              "search_value": "Asylum"
+            },
+            {
+              "display_value": "Hallway",
+              "search_value": "Hallway"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:18:02",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Military",
+              "search_value": "Movie%2FTV+-+Military"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Vietnam War",
+              "search_value": "Movie%2FTV+-+Vietnam+War"
+            },
+            {
+              "display_value": "War",
+              "search_value": "Movie%2FTV+-+War"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Adrian Lyne",
+              "search_value": "Adrian+Lyne"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Jeffrey L. Kimball",
+              "search_value": "Jeffrey+L.+Kimball"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Brian Morris",
+              "search_value": "Brian+Morris"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Ellen Mirojnick",
+              "search_value": "Ellen+Mirojnick"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Tom Rolf",
+              "search_value": "Tom+Rolf"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Robert Raring",
+              "search_value": "Robert+Raring"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02QABHJI",
+    "image_file": "02QABHJI.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Dark Crystal",
+            "search_value": "1352"
+          }
+        ]
+      },
+      "full_title": "The Dark Crystal",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1982",
+            "search_value": "1982"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "030602",
+            "search_value": "030602~25~1"
+          },
+          {
+            "display_value": "201610",
+            "search_value": "201610~25~1"
+          },
+          {
+            "display_value": "271116",
+            "search_value": "271116~25~1"
+          },
+          {
+            "display_value": "2f2b38",
+            "search_value": "2f2b38~25~1"
+          },
+          {
+            "display_value": "3d3a4a",
+            "search_value": "3d3a4a~25~1"
+          },
+          {
+            "display_value": "54343b",
+            "search_value": "54343b~25~1"
+          },
+          {
+            "display_value": "513834",
+            "search_value": "513834~25~1"
+          },
+          {
+            "display_value": "4a4031",
+            "search_value": "4a4031~25~1"
+          },
+          {
+            "display_value": "504e5b",
+            "search_value": "504e5b~25~1"
+          },
+          {
+            "display_value": "6e4b55",
+            "search_value": "6e4b55~25~1"
+          },
+          {
+            "display_value": "6a5549",
+            "search_value": "6a5549~25~1"
+          },
+          {
+            "display_value": "a06c78",
+            "search_value": "a06c78~25~1"
+          },
+          {
+            "display_value": "9b726c",
+            "search_value": "9b726c~25~1"
+          },
+          {
+            "display_value": "b0848e",
+            "search_value": "b0848e~25~1"
+          },
+          {
+            "display_value": "aa9583",
+            "search_value": "aa9583~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "skeksis",
+              "search_value": "skeksis"
+            },
+            {
+              "display_value": "monster",
+              "search_value": "monster"
+            },
+            {
+              "display_value": "bird creature",
+              "search_value": "\"bird+creature\""
+            },
+            {
+              "display_value": "beast",
+              "search_value": "beast"
+            },
+            {
+              "display_value": "beak",
+              "search_value": "beak"
+            },
+            {
+              "display_value": "evil",
+              "search_value": "evil"
+            },
+            {
+              "display_value": "bird lizard",
+              "search_value": "\"bird+lizard\""
+            },
+            {
+              "display_value": "sinister",
+              "search_value": "sinister"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Ancient: 2000BC-500AD",
+              "search_value": "Ancient%3A+2000BC-500AD"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Panaflex",
+              "search_value": "Panavision+Panaflex"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision E series",
+              "search_value": "Panavision+E+series"
+            },
+            {
+              "display_value": "Panavision Primo Anamorphics",
+              "search_value": "Panavision+Primo+Anamorphics"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Throne Room",
+              "search_value": "Throne+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Thra",
+              "search_value": "Thra"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "Borehamwood",
+              "search_value": "Borehamwood"
+            },
+            {
+              "display_value": "Elstree Studios",
+              "search_value": "Elstree+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:06:28",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Jim Henson",
+              "search_value": "Jim+Henson"
+            },
+            {
+              "display_value": "Frank Oz",
+              "search_value": "Frank+Oz"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Oswald Morris",
+              "search_value": "Oswald+Morris"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Harry Lange",
+              "search_value": "Harry+Lange"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Brian Froud",
+              "search_value": "Brian+Froud"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Ralph Kemplen",
+              "search_value": "Ralph+Kemplen"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

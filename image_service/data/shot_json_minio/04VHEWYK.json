@@ -1,0 +1,470 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04VHEWYK",
+    "image_file": "04VHEWYK.jpg",
+    "mime": "image/jpeg",
+    "width": "2880",
+    "height": "1200",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Rafiki",
+            "search_value": "3492"
+          }
+        ]
+      },
+      "full_title": "Rafiki",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2018",
+            "search_value": "2018"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0f1510",
+            "search_value": "0f1510~25~1"
+          },
+          {
+            "display_value": "05283a",
+            "search_value": "05283a~25~1"
+          },
+          {
+            "display_value": "353121",
+            "search_value": "353121~25~1"
+          },
+          {
+            "display_value": "46432d",
+            "search_value": "46432d~25~1"
+          },
+          {
+            "display_value": "4a5b4d",
+            "search_value": "4a5b4d~25~1"
+          },
+          {
+            "display_value": "3d6682",
+            "search_value": "3d6682~25~1"
+          },
+          {
+            "display_value": "6c6854",
+            "search_value": "6c6854~25~1"
+          },
+          {
+            "display_value": "878272",
+            "search_value": "878272~25~1"
+          },
+          {
+            "display_value": "a79e97",
+            "search_value": "a79e97~25~1"
+          },
+          {
+            "display_value": "9ba2aa",
+            "search_value": "9ba2aa~25~1"
+          },
+          {
+            "display_value": "bcbdc7",
+            "search_value": "bcbdc7~25~1"
+          },
+          {
+            "display_value": "c8bcba",
+            "search_value": "c8bcba~25~1"
+          },
+          {
+            "display_value": "d8cbc9",
+            "search_value": "d8cbc9~25~1"
+          },
+          {
+            "display_value": "d0ceda",
+            "search_value": "d0ceda~25~1"
+          },
+          {
+            "display_value": "ddcfd2",
+            "search_value": "ddcfd2~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "shadow",
+              "search_value": "shadow"
+            },
+            {
+              "display_value": "lockers",
+              "search_value": "lockers"
+            },
+            {
+              "display_value": "locker room",
+              "search_value": "\"locker+room\""
+            },
+            {
+              "display_value": "med student",
+              "search_value": "\"med+student\""
+            },
+            {
+              "display_value": "scrubs",
+              "search_value": "scrubs"
+            },
+            {
+              "display_value": "stethoscope",
+              "search_value": "stethoscope"
+            },
+            {
+              "display_value": "breakroom",
+              "search_value": "breakroom"
+            },
+            {
+              "display_value": "back to camera",
+              "search_value": "\"back+to+camera\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Samantha Mugatsia",
+              "search_value": "Samantha+Mugatsia"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke Panchro Classic",
+              "search_value": "Cooke+Panchro+Classic"
+            },
+            {
+              "display_value": "Cooke Panchro / i - uncoated",
+              "search_value": "Cooke+Panchro+%2F+i+-+uncoated"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Hospital",
+              "search_value": "Hospital"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "Kenya",
+              "search_value": "Kenya"
+            },
+            {
+              "display_value": "Nairobi",
+              "search_value": "Nairobi"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "Kenya",
+              "search_value": "Kenya"
+            },
+            {
+              "display_value": "Nairobi",
+              "search_value": "Nairobi"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:16:13",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Wanuri Kahiu",
+              "search_value": "Wanuri+Kahiu"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Christopher Wessels",
+              "search_value": "Christopher+Wessels"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Arya Lalloo",
+              "search_value": "Arya+Lalloo"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Wambui Thimba",
+              "search_value": "Wambui+Thimba"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Isabelle Dedieu",
+              "search_value": "Isabelle+Dedieu"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Bianca Rudolph",
+              "search_value": "Bianca+Rudolph"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

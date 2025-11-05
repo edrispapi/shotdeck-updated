@@ -1,0 +1,540 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05UAWCGT",
+    "image_file": "05UAWCGT.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "802",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Captain Phillips",
+            "search_value": "1757"
+          }
+        ]
+      },
+      "full_title": "Captain Phillips",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2013",
+            "search_value": "2013"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "301e16",
+            "search_value": "301e16~25~1"
+          },
+          {
+            "display_value": "182f34",
+            "search_value": "182f34~25~1"
+          },
+          {
+            "display_value": "253533",
+            "search_value": "253533~25~1"
+          },
+          {
+            "display_value": "4a4130",
+            "search_value": "4a4130~25~1"
+          },
+          {
+            "display_value": "324745",
+            "search_value": "324745~25~1"
+          },
+          {
+            "display_value": "2d484c",
+            "search_value": "2d484c~25~1"
+          },
+          {
+            "display_value": "3f585b",
+            "search_value": "3f585b~25~1"
+          },
+          {
+            "display_value": "5a6a64",
+            "search_value": "5a6a64~25~1"
+          },
+          {
+            "display_value": "726b58",
+            "search_value": "726b58~25~1"
+          },
+          {
+            "display_value": "788579",
+            "search_value": "788579~25~1"
+          },
+          {
+            "display_value": "86856f",
+            "search_value": "86856f~25~1"
+          },
+          {
+            "display_value": "849082",
+            "search_value": "849082~25~1"
+          },
+          {
+            "display_value": "a4a388",
+            "search_value": "a4a388~25~1"
+          },
+          {
+            "display_value": "cac7a3",
+            "search_value": "cac7a3~25~1"
+          },
+          {
+            "display_value": "d7d7b3",
+            "search_value": "d7d7b3~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "alabama",
+              "search_value": "alabama"
+            },
+            {
+              "display_value": "big boat",
+              "search_value": "\"big+boat\""
+            },
+            {
+              "display_value": "big ship",
+              "search_value": "\"big+ship\""
+            },
+            {
+              "display_value": "boat",
+              "search_value": "boat"
+            },
+            {
+              "display_value": "cargo container",
+              "search_value": "\"cargo+container\""
+            },
+            {
+              "display_value": "cargo ship",
+              "search_value": "\"cargo+ship\""
+            },
+            {
+              "display_value": "containers",
+              "search_value": "containers"
+            },
+            {
+              "display_value": "ocean",
+              "search_value": "ocean"
+            },
+            {
+              "display_value": "sailing",
+              "search_value": "sailing"
+            },
+            {
+              "display_value": "sea",
+              "search_value": "sea"
+            },
+            {
+              "display_value": "ship",
+              "search_value": "ship"
+            },
+            {
+              "display_value": "wake",
+              "search_value": "wake"
+            },
+            {
+              "display_value": "water",
+              "search_value": "water"
+            },
+            {
+              "display_value": "waves",
+              "search_value": "waves"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Aerial",
+              "search_value": "Aerial"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            },
+            {
+              "display_value": "Vista Vision",
+              "search_value": "Vista+Vision"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 435",
+              "search_value": "Arriflex+435"
+            },
+            {
+              "display_value": "Arri 235",
+              "search_value": "Arri+235"
+            },
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            },
+            {
+              "display_value": "Aaton Penelope",
+              "search_value": "Aaton+Penelope"
+            },
+            {
+              "display_value": "ARRI ALEXA M",
+              "search_value": "ARRI+ALEXA+M"
+            },
+            {
+              "display_value": "Canon C300",
+              "search_value": "Canon+C300"
+            },
+            {
+              "display_value": "GoPro",
+              "search_value": "GoPro"
+            },
+            {
+              "display_value": "Aaton XTR Prod 16mm",
+              "search_value": "Aaton+XTR+Prod+16mm"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Super Speed",
+              "search_value": "Zeiss+Super+Speed"
+            },
+            {
+              "display_value": "Leitz SUMMILUX-C",
+              "search_value": "Leitz+SUMMILUX-C"
+            },
+            {
+              "display_value": "Canon Cinema Primes",
+              "search_value": "Canon+Cinema+Primes"
+            },
+            {
+              "display_value": "Angenieux Optimo Zooms",
+              "search_value": "Angenieux+Optimo+Zooms"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "8563/8663\tEterna 250D",
+              "search_value": "8563%2F8663%09Eterna+250D"
+            },
+            {
+              "display_value": "8573/8673\tEterna 500T",
+              "search_value": "8573%2F8673%09Eterna+500T"
+            },
+            {
+              "display_value": "2.8K / 2.8K ArriRaw",
+              "search_value": "2.8K+%2F+2.8K+ArriRaw"
+            },
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Ocean",
+              "search_value": "Ocean"
+            },
+            {
+              "display_value": "Cargo Ship",
+              "search_value": "Cargo+Ship"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Malta",
+              "search_value": "Malta"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:14:20",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Paul Greengrass",
+              "search_value": "Paul+Greengrass"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Barry Ackroyd",
+              "search_value": "Barry+Ackroyd"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Paul Kirby",
+              "search_value": "Paul+Kirby"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Mark Bridges",
+              "search_value": "Mark+Bridges"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Christopher Rouse",
+              "search_value": "Christopher+Rouse"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

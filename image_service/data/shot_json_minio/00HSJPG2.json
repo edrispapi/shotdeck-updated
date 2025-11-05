@@ -1,0 +1,430 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00HSJPG2",
+    "image_file": "00HSJPG2.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "An Angel at My Table",
+            "search_value": "3321"
+          }
+        ]
+      },
+      "full_title": "An Angel at My Table",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1990",
+            "search_value": "1990"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "010202",
+            "search_value": "010202~25~1"
+          },
+          {
+            "display_value": "020204",
+            "search_value": "020204~25~1"
+          },
+          {
+            "display_value": "1c0102",
+            "search_value": "1c0102~25~1"
+          },
+          {
+            "display_value": "1f0904",
+            "search_value": "1f0904~25~1"
+          },
+          {
+            "display_value": "543f26",
+            "search_value": "543f26~25~1"
+          },
+          {
+            "display_value": "8d0304",
+            "search_value": "8d0304~25~1"
+          },
+          {
+            "display_value": "900f07",
+            "search_value": "900f07~25~1"
+          },
+          {
+            "display_value": "6d4347",
+            "search_value": "6d4347~25~1"
+          },
+          {
+            "display_value": "7f5b3a",
+            "search_value": "7f5b3a~25~1"
+          },
+          {
+            "display_value": "687761",
+            "search_value": "687761~25~1"
+          },
+          {
+            "display_value": "bc694e",
+            "search_value": "bc694e~25~1"
+          },
+          {
+            "display_value": "958161",
+            "search_value": "958161~25~1"
+          },
+          {
+            "display_value": "ab8f6f",
+            "search_value": "ab8f6f~25~1"
+          },
+          {
+            "display_value": "d2c49e",
+            "search_value": "d2c49e~25~1"
+          },
+          {
+            "display_value": "e4d9b6",
+            "search_value": "e4d9b6~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "blouse",
+              "search_value": "blouse"
+            },
+            {
+              "display_value": "curtains",
+              "search_value": "curtains"
+            },
+            {
+              "display_value": "floral",
+              "search_value": "floral"
+            },
+            {
+              "display_value": "lipstick",
+              "search_value": "lipstick"
+            },
+            {
+              "display_value": "microphone",
+              "search_value": "microphone"
+            },
+            {
+              "display_value": "red",
+              "search_value": "red"
+            },
+            {
+              "display_value": "show",
+              "search_value": "show"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1950s",
+              "search_value": "1950s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            },
+            {
+              "display_value": "Orange",
+              "search_value": "Orange"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 16mm",
+              "search_value": "Film+-+16mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Radio Station",
+              "search_value": "Radio+Station"
+            },
+            {
+              "display_value": "Recording Booth",
+              "search_value": "Recording+Booth"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Oceania",
+              "search_value": "Oceania"
+            },
+            {
+              "display_value": "New Zealand",
+              "search_value": "New+Zealand"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Oceania",
+              "search_value": "Oceania"
+            },
+            {
+              "display_value": "New Zealand",
+              "search_value": "New+Zealand"
+            },
+            {
+              "display_value": "Auckland",
+              "search_value": "Auckland"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:22:51",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Jane Campion",
+              "search_value": "Jane+Campion"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Stuart Dryburgh",
+              "search_value": "Stuart+Dryburgh"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Grant Major",
+              "search_value": "Grant+Major"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Glenys Jackson",
+              "search_value": "Glenys+Jackson"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Veronika Jenet",
+              "search_value": "Veronika+Jenet"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,492 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "0124CX8V",
+    "image_file": "0124CX8V.jpg",
+    "mime": "image/jpeg",
+    "width": "1918",
+    "height": "816",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "A Very Long Engagement",
+            "search_value": "1604"
+          }
+        ]
+      },
+      "full_title": "A Very Long Engagement",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2004",
+            "search_value": "2004"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "271f0b",
+            "search_value": "271f0b~25~1"
+          },
+          {
+            "display_value": "69331b",
+            "search_value": "69331b~25~1"
+          },
+          {
+            "display_value": "5d4915",
+            "search_value": "5d4915~25~1"
+          },
+          {
+            "display_value": "7f671f",
+            "search_value": "7f671f~25~1"
+          },
+          {
+            "display_value": "a79132",
+            "search_value": "a79132~25~1"
+          },
+          {
+            "display_value": "c9b159",
+            "search_value": "c9b159~25~1"
+          },
+          {
+            "display_value": "dfcf80",
+            "search_value": "dfcf80~25~1"
+          },
+          {
+            "display_value": "eee6a4",
+            "search_value": "eee6a4~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "taking a stroll",
+              "search_value": "\"taking+a+stroll\""
+            },
+            {
+              "display_value": "nice day out",
+              "search_value": "\"nice+day+out\""
+            },
+            {
+              "display_value": "shopping",
+              "search_value": "shopping"
+            },
+            {
+              "display_value": "skylight",
+              "search_value": "skylight"
+            },
+            {
+              "display_value": "vanishing point",
+              "search_value": "\"vanishing+point\""
+            },
+            {
+              "display_value": "wandering around",
+              "search_value": "\"wandering+around\""
+            },
+            {
+              "display_value": "hat shop",
+              "search_value": "\"hat+shop\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Jodie Foster",
+              "search_value": "Jodie+Foster"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1910s",
+              "search_value": "1910s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            },
+            {
+              "display_value": "Symmetrical",
+              "search_value": "Symmetrical"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            },
+            {
+              "display_value": "Mixed light",
+              "search_value": "Mixed+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            },
+            {
+              "display_value": "Super 35",
+              "search_value": "Super+35"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Aaton 35-III",
+              "search_value": "Aaton+35-III"
+            },
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            },
+            {
+              "display_value": "Arricam ST",
+              "search_value": "Arricam+ST"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke S4/ i",
+              "search_value": "Cooke+S4%2F+i"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2393 Vision Premier",
+              "search_value": "2393+Vision+Premier"
+            },
+            {
+              "display_value": "5218/7218\tVision 2 \t500T",
+              "search_value": "5218%2F7218%09Vision+2+%09500T"
+            },
+            {
+              "display_value": "5274/7274      Vision     200T",
+              "search_value": "5274%2F7274++++++Vision+++++200T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Market",
+              "search_value": "Market"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:59:32",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "War",
+              "search_value": "Movie%2FTV+-+War"
+            },
+            {
+              "display_value": "World War I",
+              "search_value": "Movie%2FTV+-+World+War+I"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Jean-Pierre Jeunet",
+              "search_value": "Jean-Pierre+Jeunet"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Bruno Delbonnel",
+              "search_value": "Bruno+Delbonnel"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Aline Bonetto",
+              "search_value": "Aline+Bonetto"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Madeline Fontaine",
+              "search_value": "Madeline+Fontaine"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Hervé Schneid",
+              "search_value": "Herv%C3%A9+Schneid"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Yvan Lucas",
+              "search_value": "Yvan+Lucas"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

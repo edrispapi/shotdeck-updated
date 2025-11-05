@@ -1,0 +1,466 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05FIURNE",
+    "image_file": "05FIURNE.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1036",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Time Bandits",
+            "search_value": "274"
+          }
+        ]
+      },
+      "full_title": "Time Bandits",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1981",
+            "search_value": "1981"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "020303",
+            "search_value": "020303~25~1"
+          },
+          {
+            "display_value": "040307",
+            "search_value": "040307~25~1"
+          },
+          {
+            "display_value": "110407",
+            "search_value": "110407~25~1"
+          },
+          {
+            "display_value": "190d08",
+            "search_value": "190d08~25~1"
+          },
+          {
+            "display_value": "6e2e1d",
+            "search_value": "6e2e1d~25~1"
+          },
+          {
+            "display_value": "840911",
+            "search_value": "840911~25~1"
+          },
+          {
+            "display_value": "613c1a",
+            "search_value": "613c1a~25~1"
+          },
+          {
+            "display_value": "803638",
+            "search_value": "803638~25~1"
+          },
+          {
+            "display_value": "86573d",
+            "search_value": "86573d~25~1"
+          },
+          {
+            "display_value": "a37462",
+            "search_value": "a37462~25~1"
+          },
+          {
+            "display_value": "9d7879",
+            "search_value": "9d7879~25~1"
+          },
+          {
+            "display_value": "ab794f",
+            "search_value": "ab794f~25~1"
+          },
+          {
+            "display_value": "aa7b6c",
+            "search_value": "aa7b6c~25~1"
+          },
+          {
+            "display_value": "a77f80",
+            "search_value": "a77f80~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "blue eyes",
+              "search_value": "\"blue+eyes\""
+            },
+            {
+              "display_value": "taken aback",
+              "search_value": "\"taken+aback\""
+            },
+            {
+              "display_value": "napoleon",
+              "search_value": "napoleon"
+            },
+            {
+              "display_value": "army general",
+              "search_value": "\"army+general\""
+            },
+            {
+              "display_value": "military uniform",
+              "search_value": "\"military+uniform\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Ian Holm",
+              "search_value": "Ian+Holm"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1700s",
+              "search_value": "1700s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Underlight",
+              "search_value": "Underlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "JDC Camera",
+              "search_value": "JDC+Camera"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Castle",
+              "search_value": "Castle"
+            },
+            {
+              "display_value": "Courtyard",
+              "search_value": "Courtyard"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Castiglione delle Stiviere",
+              "search_value": "Castiglione+delle+Stiviere"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "Wales",
+              "search_value": "Wales"
+            },
+            {
+              "display_value": "Monmouthshire",
+              "search_value": "Monmouthshire"
+            },
+            {
+              "display_value": "Raglan Castle",
+              "search_value": "Raglan+Castle"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:20:44",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Terry Gilliam",
+              "search_value": "Terry+Gilliam"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Peter Biziou",
+              "search_value": "Peter+Biziou"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Milly Burns",
+              "search_value": "Milly+Burns"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "James Acheson",
+              "search_value": "James+Acheson"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Julian Doyle",
+              "search_value": "Julian+Doyle"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

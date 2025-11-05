@@ -1,0 +1,444 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03EWS31T",
+    "image_file": "03EWS31T.jpg",
+    "mime": "image/jpeg",
+    "width": "1792",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Kings of the Road",
+            "search_value": "41895"
+          }
+        ]
+      },
+      "full_title": "Kings of the Road",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1976",
+            "search_value": "1976"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "131414",
+            "search_value": "131414~25~1"
+          },
+          {
+            "display_value": "171718",
+            "search_value": "171718~25~1"
+          },
+          {
+            "display_value": "1a191a",
+            "search_value": "1a191a~25~1"
+          },
+          {
+            "display_value": "1b1b1b",
+            "search_value": "1b1b1b~25~1"
+          },
+          {
+            "display_value": "5e5e5e",
+            "search_value": "5e5e5e~25~1"
+          },
+          {
+            "display_value": "9b9b9b",
+            "search_value": "9b9b9b~25~1"
+          },
+          {
+            "display_value": "c0c0c0",
+            "search_value": "c0c0c0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "glasses",
+              "search_value": "glasses"
+            },
+            {
+              "display_value": "striped blazer",
+              "search_value": "\"striped+blazer\""
+            },
+            {
+              "display_value": "vintage sneakers",
+              "search_value": "\"vintage+sneakers\""
+            },
+            {
+              "display_value": "casual conversation",
+              "search_value": "\"casual+conversation\""
+            },
+            {
+              "display_value": "child's drawing",
+              "search_value": "\"child%27s+drawing\""
+            },
+            {
+              "display_value": "patterned shirt",
+              "search_value": "\"patterned+shirt\""
+            },
+            {
+              "display_value": "wooden bench",
+              "search_value": "\"wooden+bench\""
+            },
+            {
+              "display_value": "striped dress",
+              "search_value": "\"striped+dress\""
+            },
+            {
+              "display_value": "white satchel",
+              "search_value": "\"white+satchel\""
+            },
+            {
+              "display_value": "engaged interaction",
+              "search_value": "\"engaged+interaction\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Hanns Zischler",
+              "search_value": "Hanns+Zischler"
+            },
+            {
+              "display_value": "Patric Kreuzer",
+              "search_value": "Patric+Kreuzer"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex BL",
+              "search_value": "Arriflex+BL"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Lenses",
+              "search_value": "Zeiss+Lenses"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Train Station",
+              "search_value": "Train+Station"
+            },
+            {
+              "display_value": "Platform",
+              "search_value": "Platform"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Germany",
+              "search_value": "Germany"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Germany",
+              "search_value": "Germany"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Buddy Films",
+              "search_value": "Movie%2FTV+-+Buddy+Films"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "German Expressionism",
+              "search_value": "Movie%2FTV+-+German+Expressionism"
+            },
+            {
+              "display_value": "Road Trip",
+              "search_value": "Movie%2FTV+-+Road+Trip"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Wim Wenders",
+              "search_value": "Wim+Wenders"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Robby Müller",
+              "search_value": "Robby+M%C3%BCller"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Heidi Lüdi",
+              "search_value": "Heidi+L%C3%BCdi"
+            },
+            {
+              "display_value": "Bernd Hirskorn",
+              "search_value": "Bernd+Hirskorn"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Peter Przygodda",
+              "search_value": "Peter+Przygodda"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

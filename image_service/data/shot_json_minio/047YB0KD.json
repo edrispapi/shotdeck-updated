@@ -1,0 +1,456 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "047YB0KD",
+    "image_file": "047YB0KD.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1072",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Shaft",
+            "search_value": "3144"
+          }
+        ]
+      },
+      "full_title": "Shaft",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1971",
+            "search_value": "1971"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "030504",
+            "search_value": "030504~25~1"
+          },
+          {
+            "display_value": "06080b",
+            "search_value": "06080b~25~1"
+          },
+          {
+            "display_value": "0f0907",
+            "search_value": "0f0907~25~1"
+          },
+          {
+            "display_value": "140e11",
+            "search_value": "140e11~25~1"
+          },
+          {
+            "display_value": "2c3e5a",
+            "search_value": "2c3e5a~25~1"
+          },
+          {
+            "display_value": "533533",
+            "search_value": "533533~25~1"
+          },
+          {
+            "display_value": "4a3941",
+            "search_value": "4a3941~25~1"
+          },
+          {
+            "display_value": "61403e",
+            "search_value": "61403e~25~1"
+          },
+          {
+            "display_value": "594954",
+            "search_value": "594954~25~1"
+          },
+          {
+            "display_value": "425876",
+            "search_value": "425876~25~1"
+          },
+          {
+            "display_value": "697e9c",
+            "search_value": "697e9c~25~1"
+          },
+          {
+            "display_value": "9f909c",
+            "search_value": "9f909c~25~1"
+          },
+          {
+            "display_value": "7c9ab5",
+            "search_value": "7c9ab5~25~1"
+          },
+          {
+            "display_value": "b9bdca",
+            "search_value": "b9bdca~25~1"
+          },
+          {
+            "display_value": "b2cddd",
+            "search_value": "b2cddd~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "cop",
+              "search_value": "cop"
+            },
+            {
+              "display_value": "detective",
+              "search_value": "detective"
+            },
+            {
+              "display_value": "law",
+              "search_value": "law"
+            },
+            {
+              "display_value": "police",
+              "search_value": "police"
+            },
+            {
+              "display_value": "policeman",
+              "search_value": "policeman"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Richard Roundtree",
+              "search_value": "Richard+Roundtree"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "HMI",
+              "search_value": "HMI"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision R-200",
+              "search_value": "Panavision+R-200"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Brownstone",
+              "search_value": "Brownstone"
+            },
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            },
+            {
+              "display_value": "Roosevelt Island",
+              "search_value": "Roosevelt+Island"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:37:30",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Gordon Parks",
+              "search_value": "Gordon+Parks"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Urs Furrer",
+              "search_value": "Urs+Furrer"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Emanuel Gerard",
+              "search_value": "Emanuel+Gerard"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Joseph G. Aulisi",
+              "search_value": "Joseph+G.+Aulisi"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Hugh A. Robertson",
+              "search_value": "Hugh+A.+Robertson"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

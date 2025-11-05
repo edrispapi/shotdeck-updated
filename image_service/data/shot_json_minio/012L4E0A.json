@@ -1,0 +1,428 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "012L4E0A",
+    "image_file": "012L4E0A.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1036",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Paris, 13th District",
+            "search_value": "12922"
+          }
+        ]
+      },
+      "full_title": "Paris, 13th District",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2021",
+            "search_value": "2021"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0f0f0f",
+            "search_value": "0f0f0f~25~1"
+          },
+          {
+            "display_value": "5b5b5b",
+            "search_value": "5b5b5b~25~1"
+          },
+          {
+            "display_value": "9b9b9b",
+            "search_value": "9b9b9b~25~1"
+          },
+          {
+            "display_value": "d0d0d0",
+            "search_value": "d0d0d0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "in love",
+              "search_value": "\"in+love\""
+            },
+            {
+              "display_value": "having a crush",
+              "search_value": "\"having+a+crush\""
+            },
+            {
+              "display_value": "facetime",
+              "search_value": "facetime"
+            },
+            {
+              "display_value": "video call",
+              "search_value": "\"video+call\""
+            },
+            {
+              "display_value": "video chat",
+              "search_value": "\"video+chat\""
+            },
+            {
+              "display_value": "long distance relationship",
+              "search_value": "\"long+distance+relationship\""
+            },
+            {
+              "display_value": "shot over shoulder",
+              "search_value": "\"shot+over+shoulder\""
+            },
+            {
+              "display_value": "laptop",
+              "search_value": "laptop"
+            },
+            {
+              "display_value": "camera light",
+              "search_value": "\"camera+light\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Jehnny Beth",
+              "search_value": "Jehnny+Beth"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital, Digital - Large Format",
+              "search_value": "Digital%2C+Digital+-+Large+Format"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Close Up",
+              "search_value": "Extreme+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Sony VENICE",
+              "search_value": "Sony+VENICE"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Angenieux Optimo",
+              "search_value": "Angenieux+Optimo"
+            },
+            {
+              "display_value": "Leica Summilux-C",
+              "search_value": "Leica+Summilux-C"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            },
+            {
+              "display_value": "Bedroom",
+              "search_value": "Bedroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:13:47",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Jacques Audiard",
+              "search_value": "Jacques+Audiard"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Paul Guilhaume",
+              "search_value": "Paul+Guilhaume"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Mila Preli",
+              "search_value": "Mila+Preli"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Virginie Montel",
+              "search_value": "Virginie+Montel"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Juliette Welfling",
+              "search_value": "Juliette+Welfling"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Christophe Bousquet",
+              "search_value": "Christophe+Bousquet"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

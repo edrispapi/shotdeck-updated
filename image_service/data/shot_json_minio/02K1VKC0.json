@@ -1,0 +1,464 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02K1VKC0",
+    "image_file": "02K1VKC0.jpg",
+    "mime": "image/jpeg",
+    "width": "1918",
+    "height": "812",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Dark City",
+            "search_value": "1817"
+          }
+        ]
+      },
+      "full_title": "Dark City",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1998",
+            "search_value": "1998"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "000000",
+            "search_value": "000000~25~1"
+          },
+          {
+            "display_value": "010001",
+            "search_value": "010001~25~1"
+          },
+          {
+            "display_value": "030a0f",
+            "search_value": "030a0f~25~1"
+          },
+          {
+            "display_value": "0a1e1b",
+            "search_value": "0a1e1b~25~1"
+          },
+          {
+            "display_value": "224d51",
+            "search_value": "224d51~25~1"
+          },
+          {
+            "display_value": "22514c",
+            "search_value": "22514c~25~1"
+          },
+          {
+            "display_value": "306569",
+            "search_value": "306569~25~1"
+          },
+          {
+            "display_value": "356f68",
+            "search_value": "356f68~25~1"
+          },
+          {
+            "display_value": "489597",
+            "search_value": "489597~25~1"
+          },
+          {
+            "display_value": "4d9d90",
+            "search_value": "4d9d90~25~1"
+          },
+          {
+            "display_value": "60c1ae",
+            "search_value": "60c1ae~25~1"
+          },
+          {
+            "display_value": "72e1ca",
+            "search_value": "72e1ca~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "alien",
+              "search_value": "alien"
+            },
+            {
+              "display_value": "bald",
+              "search_value": "bald"
+            },
+            {
+              "display_value": "black coat",
+              "search_value": "\"black+coat\""
+            },
+            {
+              "display_value": "creepy",
+              "search_value": "creepy"
+            },
+            {
+              "display_value": "dark coat",
+              "search_value": "\"dark+coat\""
+            },
+            {
+              "display_value": "pale skin",
+              "search_value": "\"pale+skin\""
+            },
+            {
+              "display_value": "pale",
+              "search_value": "pale"
+            },
+            {
+              "display_value": "unsettling",
+              "search_value": "unsettling"
+            },
+            {
+              "display_value": "hairless",
+              "search_value": "hairless"
+            },
+            {
+              "display_value": "evil",
+              "search_value": "evil"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Richard O'Brien",
+              "search_value": "Richard+O%27Brien"
+            },
+            {
+              "display_value": "Ian Richardson",
+              "search_value": "Ian+Richardson"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Panaflex",
+              "search_value": "Panavision+Panaflex"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Classic",
+              "search_value": "Panavision+Primo+Classic"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Dark Chamber",
+              "search_value": "Dark+Chamber"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Dark City",
+              "search_value": "Dark+City"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Australia",
+              "search_value": "Australia"
+            },
+            {
+              "display_value": "New South Wales",
+              "search_value": "New+South+Wales"
+            },
+            {
+              "display_value": "Sydney",
+              "search_value": "Sydney"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:48:36",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Cyberpunk",
+              "search_value": "Movie%2FTV+-+Cyberpunk"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Alex Proyas",
+              "search_value": "Alex+Proyas"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Dariusz Wolski",
+              "search_value": "Dariusz+Wolski"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Patrick Tatopoulos",
+              "search_value": "Patrick+Tatopoulos"
+            },
+            {
+              "display_value": "George Liddle",
+              "search_value": "George+Liddle"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Liz Keogh",
+              "search_value": "Liz+Keogh"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Dov Hoenig",
+              "search_value": "Dov+Hoenig"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

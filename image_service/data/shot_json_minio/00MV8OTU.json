@@ -1,0 +1,444 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00MV8OTU",
+    "image_file": "00MV8OTU.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Maggie",
+            "search_value": "3369"
+          }
+        ]
+      },
+      "full_title": "Maggie",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2015",
+            "search_value": "2015"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "080708",
+            "search_value": "080708~25~1"
+          },
+          {
+            "display_value": "09090a",
+            "search_value": "09090a~25~1"
+          },
+          {
+            "display_value": "090b09",
+            "search_value": "090b09~25~1"
+          },
+          {
+            "display_value": "17170f",
+            "search_value": "17170f~25~1"
+          },
+          {
+            "display_value": "484034",
+            "search_value": "484034~25~1"
+          },
+          {
+            "display_value": "4e4539",
+            "search_value": "4e4539~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "dark area",
+              "search_value": "\"dark+area\""
+            },
+            {
+              "display_value": "forest",
+              "search_value": "forest"
+            },
+            {
+              "display_value": "meeting",
+              "search_value": "meeting"
+            },
+            {
+              "display_value": "police",
+              "search_value": "police"
+            },
+            {
+              "display_value": "scary",
+              "search_value": "scary"
+            },
+            {
+              "display_value": "white house",
+              "search_value": "\"white+house\""
+            },
+            {
+              "display_value": "worried",
+              "search_value": "worried"
+            },
+            {
+              "display_value": "plaid shirt",
+              "search_value": "\"plaid+shirt\""
+            },
+            {
+              "display_value": "balcony",
+              "search_value": "balcony"
+            },
+            {
+              "display_value": "doorway",
+              "search_value": "doorway"
+            },
+            {
+              "display_value": "darkness",
+              "search_value": "darkness"
+            },
+            {
+              "display_value": "mysterious",
+              "search_value": "mysterious"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Arnold Schwarzenegger",
+              "search_value": "Arnold+Schwarzenegger"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA",
+              "search_value": "ARRI+ALEXA"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Front Porch",
+              "search_value": "Front+Porch"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Louisiana",
+              "search_value": "Louisiana"
+            },
+            {
+              "display_value": "New Orleans",
+              "search_value": "New+Orleans"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:29:31",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Henry Hobson",
+              "search_value": "Henry+Hobson"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Lukas Ettlin",
+              "search_value": "Lukas+Ettlin"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Gabor Norman",
+              "search_value": "Gabor+Norman"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Claire Breaux",
+              "search_value": "Claire+Breaux"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Jane Rizzo",
+              "search_value": "Jane+Rizzo"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Adam Scott",
+              "search_value": "Adam+Scott"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

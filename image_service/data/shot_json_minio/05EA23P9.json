@@ -1,0 +1,452 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05EA23P9",
+    "image_file": "05EA23P9.jpg",
+    "mime": "image/jpeg",
+    "width": "1480",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Rififi",
+            "search_value": "1041"
+          }
+        ]
+      },
+      "full_title": "Rififi",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1955",
+            "search_value": "1955"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "191919",
+            "search_value": "191919~25~1"
+          },
+          {
+            "display_value": "1c1b1c",
+            "search_value": "1c1b1c~25~1"
+          },
+          {
+            "display_value": "202021",
+            "search_value": "202021~25~1"
+          },
+          {
+            "display_value": "545354",
+            "search_value": "545354~25~1"
+          },
+          {
+            "display_value": "555556",
+            "search_value": "555556~25~1"
+          },
+          {
+            "display_value": "5f5f5f",
+            "search_value": "5f5f5f~25~1"
+          },
+          {
+            "display_value": "6c6d6d",
+            "search_value": "6c6d6d~25~1"
+          },
+          {
+            "display_value": "878687",
+            "search_value": "878687~25~1"
+          },
+          {
+            "display_value": "8b8b8c",
+            "search_value": "8b8b8c~25~1"
+          },
+          {
+            "display_value": "939393",
+            "search_value": "939393~25~1"
+          },
+          {
+            "display_value": "c4c4c4",
+            "search_value": "c4c4c4~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "criminals",
+              "search_value": "criminals"
+            },
+            {
+              "display_value": "suitcase",
+              "search_value": "suitcase"
+            },
+            {
+              "display_value": "brief case",
+              "search_value": "\"brief+case\""
+            },
+            {
+              "display_value": "building",
+              "search_value": "building"
+            },
+            {
+              "display_value": "assembling",
+              "search_value": "assembling"
+            },
+            {
+              "display_value": "suit",
+              "search_value": "suit"
+            },
+            {
+              "display_value": "tool",
+              "search_value": "tool"
+            },
+            {
+              "display_value": "pickaxe",
+              "search_value": "pickaxe"
+            },
+            {
+              "display_value": "shovel",
+              "search_value": "shovel"
+            },
+            {
+              "display_value": "twisting together",
+              "search_value": "\"twisting+together\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Jean Servais",
+              "search_value": "Jean+Servais"
+            },
+            {
+              "display_value": "Robert Manuel",
+              "search_value": "Robert+Manuel"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1950s",
+              "search_value": "1950s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.37",
+              "search_value": "1.37"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:50:16",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Heist",
+              "search_value": "Movie%2FTV+-+Heist"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Jules Dassin",
+              "search_value": "Jules+Dassin"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Philippe Agostini",
+              "search_value": "Philippe+Agostini"
+            },
+            {
+              "display_value": "Raymond Pierre Lemoigne",
+              "search_value": "Raymond+Pierre+Lemoigne"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Auguste Capelier",
+              "search_value": "Auguste+Capelier"
+            },
+            {
+              "display_value": "Alexandre Trauner",
+              "search_value": "Alexandre+Trauner"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Rosine Delamare",
+              "search_value": "Rosine+Delamare"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Roger Dwyre",
+              "search_value": "Roger+Dwyre"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

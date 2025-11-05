@@ -1,0 +1,450 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "018FW3BB",
+    "image_file": "018FW3BB.jpg",
+    "mime": "image/jpeg",
+    "width": "1910",
+    "height": "810",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "3 Women",
+            "search_value": "3085"
+          }
+        ]
+      },
+      "full_title": "3 Women",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1977",
+            "search_value": "1977"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "070406",
+            "search_value": "070406~25~1"
+          },
+          {
+            "display_value": "110d0a",
+            "search_value": "110d0a~25~1"
+          },
+          {
+            "display_value": "121715",
+            "search_value": "121715~25~1"
+          },
+          {
+            "display_value": "182026",
+            "search_value": "182026~25~1"
+          },
+          {
+            "display_value": "443d3c",
+            "search_value": "443d3c~25~1"
+          },
+          {
+            "display_value": "433d40",
+            "search_value": "433d40~25~1"
+          },
+          {
+            "display_value": "32414e",
+            "search_value": "32414e~25~1"
+          },
+          {
+            "display_value": "41403c",
+            "search_value": "41403c~25~1"
+          },
+          {
+            "display_value": "32444b",
+            "search_value": "32444b~25~1"
+          },
+          {
+            "display_value": "454241",
+            "search_value": "454241~25~1"
+          },
+          {
+            "display_value": "454243",
+            "search_value": "454243~25~1"
+          },
+          {
+            "display_value": "3e4946",
+            "search_value": "3e4946~25~1"
+          },
+          {
+            "display_value": "384a55",
+            "search_value": "384a55~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "coma",
+              "search_value": "coma"
+            },
+            {
+              "display_value": "patient",
+              "search_value": "patient"
+            },
+            {
+              "display_value": "in bed",
+              "search_value": "\"in+bed\""
+            },
+            {
+              "display_value": "asleep",
+              "search_value": "asleep"
+            },
+            {
+              "display_value": "passed out",
+              "search_value": "\"passed+out\""
+            },
+            {
+              "display_value": "breathing tubes",
+              "search_value": "\"breathing+tubes\""
+            },
+            {
+              "display_value": "opening eye",
+              "search_value": "\"opening+eye\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Sissy Spacek",
+              "search_value": "Sissy+Spacek"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Cameras",
+              "search_value": "Panavision+Cameras"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Hospital",
+              "search_value": "Hospital"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "USA",
+              "search_value": "USA"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "USA",
+              "search_value": "USA"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Palm Springs",
+              "search_value": "Palm+Springs"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:12:32",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Robert Altman",
+              "search_value": "Robert+Altman"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Charles Rosher Jr.",
+              "search_value": "Charles+Rosher+Jr."
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Shelley Duvall",
+              "search_value": "Shelley+Duvall"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jules Melillo",
+              "search_value": "Jules+Melillo"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Dennis M. Hill",
+              "search_value": "Dennis+M.+Hill"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

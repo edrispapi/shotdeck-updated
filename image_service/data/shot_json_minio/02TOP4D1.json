@@ -1,0 +1,452 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02TOP4D1",
+    "image_file": "02TOP4D1.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "960",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Crown",
+            "search_value": "3638",
+            "season": "5",
+            "episode": "5"
+          }
+        ]
+      },
+      "full_title": "The Crown - Season 5 - Episode 5",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1d1b12",
+            "search_value": "1d1b12~25~1"
+          },
+          {
+            "display_value": "191d19",
+            "search_value": "191d19~25~1"
+          },
+          {
+            "display_value": "1c2124",
+            "search_value": "1c2124~25~1"
+          },
+          {
+            "display_value": "282627",
+            "search_value": "282627~25~1"
+          },
+          {
+            "display_value": "39433c",
+            "search_value": "39433c~25~1"
+          },
+          {
+            "display_value": "48432f",
+            "search_value": "48432f~25~1"
+          },
+          {
+            "display_value": "545255",
+            "search_value": "545255~25~1"
+          },
+          {
+            "display_value": "4d574f",
+            "search_value": "4d574f~25~1"
+          },
+          {
+            "display_value": "4e595f",
+            "search_value": "4e595f~25~1"
+          },
+          {
+            "display_value": "60583f",
+            "search_value": "60583f~25~1"
+          },
+          {
+            "display_value": "738783",
+            "search_value": "738783~25~1"
+          },
+          {
+            "display_value": "a1834b",
+            "search_value": "a1834b~25~1"
+          },
+          {
+            "display_value": "798e92",
+            "search_value": "798e92~25~1"
+          },
+          {
+            "display_value": "83998f",
+            "search_value": "83998f~25~1"
+          },
+          {
+            "display_value": "a29366",
+            "search_value": "a29366~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "brown hair",
+              "search_value": "\"brown+hair\""
+            },
+            {
+              "display_value": "prince",
+              "search_value": "prince"
+            },
+            {
+              "display_value": "royal",
+              "search_value": "royal"
+            },
+            {
+              "display_value": "royalty",
+              "search_value": "royalty"
+            },
+            {
+              "display_value": "reading newspaper",
+              "search_value": "\"reading+newspaper\""
+            },
+            {
+              "display_value": "table lamp",
+              "search_value": "\"table+lamp\""
+            },
+            {
+              "display_value": "crossed legs",
+              "search_value": "\"crossed+legs\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Dominic West",
+              "search_value": "Dominic+West"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital, Digital - Large Format",
+              "search_value": "Digital%2C+Digital+-+Large+Format"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            },
+            {
+              "display_value": "Symmetrical",
+              "search_value": "Symmetrical"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.00",
+              "search_value": "2.00"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Sony VENICE",
+              "search_value": "Sony+VENICE"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke S4/ i",
+              "search_value": "Cooke+S4%2F+i"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Estate",
+              "search_value": "Estate"
+            },
+            {
+              "display_value": "Dining Room",
+              "search_value": "Dining+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:20:47",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Costume Drama",
+              "search_value": "Movie%2FTV+-+Costume+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            },
+            {
+              "display_value": "Political",
+              "search_value": "Movie%2FTV+-+Political"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "May el-Toukhy",
+              "search_value": "May+el-Toukhy"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Rasmus Videbæk",
+              "search_value": "Rasmus+Videb%C3%A6k"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Amy Roberts",
+              "search_value": "Amy+Roberts"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Simon Brasse",
+              "search_value": "Simon+Brasse"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

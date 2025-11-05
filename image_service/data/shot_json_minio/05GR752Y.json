@@ -1,0 +1,392 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05GR752Y",
+    "image_file": "05GR752Y.jpg",
+    "mime": "image/jpeg",
+    "width": "1436",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Napoleon",
+            "search_value": "2301"
+          }
+        ]
+      },
+      "full_title": "Napoleon",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1927",
+            "search_value": "1927"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "2b1801",
+            "search_value": "2b1801~25~1"
+          },
+          {
+            "display_value": "723e04",
+            "search_value": "723e04~25~1"
+          },
+          {
+            "display_value": "a65a04",
+            "search_value": "a65a04~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "act 1",
+              "search_value": "\"act+1\""
+            },
+            {
+              "display_value": "clairvoyant",
+              "search_value": "clairvoyant"
+            },
+            {
+              "display_value": "dress",
+              "search_value": "dress"
+            },
+            {
+              "display_value": "fortune teller",
+              "search_value": "\"fortune+teller\""
+            },
+            {
+              "display_value": "marie-anne lenormand",
+              "search_value": "\"marie-anne+lenormand\""
+            },
+            {
+              "display_value": "palm reading",
+              "search_value": "\"palm+reading\""
+            },
+            {
+              "display_value": "psychic",
+              "search_value": "psychic"
+            },
+            {
+              "display_value": "reading palm",
+              "search_value": "\"reading+palm\""
+            },
+            {
+              "display_value": "telling fortune",
+              "search_value": "\"telling+fortune\""
+            },
+            {
+              "display_value": "act one",
+              "search_value": "\"act+one\""
+            },
+            {
+              "display_value": "color wash",
+              "search_value": "\"color+wash\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1700s",
+              "search_value": "1700s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.33",
+              "search_value": "1.33"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Parlor",
+              "search_value": "Parlor"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Abel Gance",
+              "search_value": "Abel+Gance"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Léonce-Henri Burel",
+              "search_value": "L%C3%A9once-Henri+Burel"
+            },
+            {
+              "display_value": "Jules Kruger",
+              "search_value": "Jules+Kruger"
+            },
+            {
+              "display_value": "Joseph-Louis Mundwiller",
+              "search_value": "Joseph-Louis+Mundwiller"
+            },
+            {
+              "display_value": "Nikolai Toporkoff",
+              "search_value": "Nikolai+Toporkoff"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jeanne Lanvin",
+              "search_value": "Jeanne+Lanvin"
+            },
+            {
+              "display_value": "Mme. Augris",
+              "search_value": "Mme.+Augris"
+            },
+            {
+              "display_value": "Georges Charmy",
+              "search_value": "Georges+Charmy"
+            },
+            {
+              "display_value": "Mme. Neminsky",
+              "search_value": "Mme.+Neminsky"
+            },
+            {
+              "display_value": "Sauvageau",
+              "search_value": "Sauvageau"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Abel Gance",
+              "search_value": "Abel+Gance"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

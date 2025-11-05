@@ -1,0 +1,416 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00Q89XKP",
+    "image_file": "00Q89XKP.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Game of Thrones",
+            "search_value": "3646",
+            "season": "4",
+            "episode": "9"
+          }
+        ]
+      },
+      "full_title": "Game of Thrones - Season 4 - Episode 9",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2014",
+            "search_value": "2014"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "060808",
+            "search_value": "060808~25~1"
+          },
+          {
+            "display_value": "0c161d",
+            "search_value": "0c161d~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "flurries",
+              "search_value": "flurries"
+            },
+            {
+              "display_value": "snow",
+              "search_value": "snow"
+            },
+            {
+              "display_value": "mammoth",
+              "search_value": "mammoth"
+            },
+            {
+              "display_value": "fur",
+              "search_value": "fur"
+            },
+            {
+              "display_value": "feet",
+              "search_value": "feet"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Medieval: 500-1400",
+              "search_value": "Medieval%3A+500-1400"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            },
+            {
+              "display_value": "Moonlight",
+              "search_value": "Moonlight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Studio",
+              "search_value": "ARRI+ALEXA+Studio"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Angenieux Optimo",
+              "search_value": "Angenieux+Optimo"
+            },
+            {
+              "display_value": "Cooke S4/ i",
+              "search_value": "Cooke+S4%2F+i"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Snowfield",
+              "search_value": "Snowfield"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Westeros",
+              "search_value": "Westeros"
+            },
+            {
+              "display_value": "The North",
+              "search_value": "The+North"
+            },
+            {
+              "display_value": "Castle Black",
+              "search_value": "Castle+Black"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Ireland",
+              "search_value": "Ireland"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "vfx_backing": {
+          "filter": "vfx_backing",
+          "filter_name": "VFX",
+          "values": [
+            {
+              "display_value": "CGI",
+              "search_value": "CGI"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:30:40",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Neil Marshall",
+              "search_value": "Neil+Marshall"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "David Franco",
+              "search_value": "David+Franco"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Deborah Riley",
+              "search_value": "Deborah+Riley"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Michele Clapton",
+              "search_value": "Michele+Clapton"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Katie Weiland",
+              "search_value": "Katie+Weiland"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Joe Finley",
+              "search_value": "Joe+Finley"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

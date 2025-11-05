@@ -1,0 +1,448 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01JYB7LN",
+    "image_file": "01JYB7LN.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1037",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Days of Being Wild",
+            "search_value": "3401"
+          }
+        ]
+      },
+      "full_title": "Days of Being Wild",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1990",
+            "search_value": "1990"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "070a0c",
+            "search_value": "070a0c~25~1"
+          },
+          {
+            "display_value": "212516",
+            "search_value": "212516~25~1"
+          },
+          {
+            "display_value": "1a2c22",
+            "search_value": "1a2c22~25~1"
+          },
+          {
+            "display_value": "2a4e3d",
+            "search_value": "2a4e3d~25~1"
+          },
+          {
+            "display_value": "434f23",
+            "search_value": "434f23~25~1"
+          },
+          {
+            "display_value": "4e5f2c",
+            "search_value": "4e5f2c~25~1"
+          },
+          {
+            "display_value": "38654f",
+            "search_value": "38654f~25~1"
+          },
+          {
+            "display_value": "778569",
+            "search_value": "778569~25~1"
+          },
+          {
+            "display_value": "5a9379",
+            "search_value": "5a9379~25~1"
+          },
+          {
+            "display_value": "72a68d",
+            "search_value": "72a68d~25~1"
+          },
+          {
+            "display_value": "a6d1b4",
+            "search_value": "a6d1b4~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "beaten up",
+              "search_value": "\"beaten+up\""
+            },
+            {
+              "display_value": "body",
+              "search_value": "body"
+            },
+            {
+              "display_value": "frame within a frame",
+              "search_value": "\"frame+within+a+frame\""
+            },
+            {
+              "display_value": "heels",
+              "search_value": "heels"
+            },
+            {
+              "display_value": "laying on the ground",
+              "search_value": "\"laying+on+the+ground\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1960s",
+              "search_value": "1960s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Dutch angle",
+              "search_value": "Dutch+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Tungsten",
+              "search_value": "Tungsten"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex BL4",
+              "search_value": "Arriflex+BL4"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Super Speed",
+              "search_value": "Zeiss+Super+Speed"
+            },
+            {
+              "display_value": "Angenieux - HR Zoom - 25-250mm",
+              "search_value": "Angenieux+-+HR+Zoom+-+25-250mm"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "dressing room",
+              "search_value": "dressing+room"
+            },
+            {
+              "display_value": "bathroom",
+              "search_value": "bathroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "China",
+              "search_value": "China"
+            },
+            {
+              "display_value": "Hong Kong",
+              "search_value": "Hong+Kong"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "asia",
+              "search_value": "asia"
+            },
+            {
+              "display_value": "China",
+              "search_value": "China"
+            },
+            {
+              "display_value": "Hong Kong",
+              "search_value": "Hong+Kong"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:13:32",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Wong Kar-wai",
+              "search_value": "Wong+Kar-wai"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Christopher Doyle",
+              "search_value": "Christopher+Doyle"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "William Chang",
+              "search_value": "William+Chang"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "William Chang",
+              "search_value": "William+Chang"
+            },
+            {
+              "display_value": "Hai Kit-Wai",
+              "search_value": "Hai+Kit-Wai"
+            },
+            {
+              "display_value": "Patrick Tam Kar-Ming",
+              "search_value": "Patrick+Tam+Kar-Ming"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

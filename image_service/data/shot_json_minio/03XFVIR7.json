@@ -1,0 +1,386 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03XFVIR7",
+    "image_file": "03XFVIR7.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Woman Who Left",
+            "search_value": "8298"
+          }
+        ]
+      },
+      "full_title": "The Woman Who Left",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2017",
+            "search_value": "2017"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "181818",
+            "search_value": "181818~25~1"
+          },
+          {
+            "display_value": "626262",
+            "search_value": "626262~25~1"
+          },
+          {
+            "display_value": "a1a1a1",
+            "search_value": "a1a1a1~25~1"
+          },
+          {
+            "display_value": "e1e1e1",
+            "search_value": "e1e1e1~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "city street",
+              "search_value": "\"city+street\""
+            },
+            {
+              "display_value": "street",
+              "search_value": "street"
+            },
+            {
+              "display_value": "filipino street",
+              "search_value": "\"filipino+street\""
+            },
+            {
+              "display_value": "filipino",
+              "search_value": "filipino"
+            },
+            {
+              "display_value": "lower class",
+              "search_value": "\"lower+class\""
+            },
+            {
+              "display_value": "sidewalk",
+              "search_value": "sidewalk"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Ultra Wide / Fisheye",
+              "search_value": "Ultra+Wide+%2F+Fisheye"
+            },
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Sony A7s II",
+              "search_value": "Sony+A7s+II"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Gate",
+              "search_value": "Gate"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Philippines",
+              "search_value": "Philippines"
+            },
+            {
+              "display_value": "Mindoro",
+              "search_value": "Mindoro"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Philippines",
+              "search_value": "Philippines"
+            },
+            {
+              "display_value": "Mindoro",
+              "search_value": "Mindoro"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:53:35",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Lav Diaz",
+              "search_value": "Lav+Diaz"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Lav Diaz",
+              "search_value": "Lav+Diaz"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Popo Diaz",
+              "search_value": "Popo+Diaz"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Kyla Domingo",
+              "search_value": "Kyla+Domingo"
+            },
+            {
+              "display_value": "Kim Perez",
+              "search_value": "Kim+Perez"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Lav Diaz",
+              "search_value": "Lav+Diaz"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Timmy Torres",
+              "search_value": "Timmy+Torres"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

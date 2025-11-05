@@ -1,0 +1,488 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02QBLLQ0",
+    "image_file": "02QBLLQ0.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The City of Lost Children",
+            "search_value": "2637"
+          }
+        ]
+      },
+      "full_title": "The City of Lost Children",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1995",
+            "search_value": "1995"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "000001",
+            "search_value": "000001~25~1"
+          },
+          {
+            "display_value": "0d0c04",
+            "search_value": "0d0c04~25~1"
+          },
+          {
+            "display_value": "061906",
+            "search_value": "061906~25~1"
+          },
+          {
+            "display_value": "360204",
+            "search_value": "360204~25~1"
+          },
+          {
+            "display_value": "52481d",
+            "search_value": "52481d~25~1"
+          },
+          {
+            "display_value": "87211b",
+            "search_value": "87211b~25~1"
+          },
+          {
+            "display_value": "185c1e",
+            "search_value": "185c1e~25~1"
+          },
+          {
+            "display_value": "90191b",
+            "search_value": "90191b~25~1"
+          },
+          {
+            "display_value": "795b2e",
+            "search_value": "795b2e~25~1"
+          },
+          {
+            "display_value": "25872d",
+            "search_value": "25872d~25~1"
+          },
+          {
+            "display_value": "bc6d46",
+            "search_value": "bc6d46~25~1"
+          },
+          {
+            "display_value": "a4864a",
+            "search_value": "a4864a~25~1"
+          },
+          {
+            "display_value": "38ab3d",
+            "search_value": "38ab3d~25~1"
+          },
+          {
+            "display_value": "ba9759",
+            "search_value": "ba9759~25~1"
+          },
+          {
+            "display_value": "4dc84c",
+            "search_value": "4dc84c~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "green fog",
+              "search_value": "\"green+fog\""
+            },
+            {
+              "display_value": "green mist",
+              "search_value": "\"green+mist\""
+            },
+            {
+              "display_value": "green smoke",
+              "search_value": "\"green+smoke\""
+            },
+            {
+              "display_value": "striped undershirt",
+              "search_value": "\"striped+undershirt\""
+            },
+            {
+              "display_value": "sleeping",
+              "search_value": "sleeping"
+            },
+            {
+              "display_value": "dreaming",
+              "search_value": "dreaming"
+            },
+            {
+              "display_value": "nightmare",
+              "search_value": "nightmare"
+            },
+            {
+              "display_value": "bad dream",
+              "search_value": "\"bad+dream\""
+            },
+            {
+              "display_value": "eyes closed",
+              "search_value": "\"eyes+closed\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Judith Vittet",
+              "search_value": "Judith+Vittet"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Technovision",
+              "search_value": "Technovision"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5248/7248\tEXR\t\t100T",
+              "search_value": "5248%2F7248%09EXR%09%09100T"
+            },
+            {
+              "display_value": "5293/7293  \tEXR\t\t200T",
+              "search_value": "5293%2F7293++%09EXR%09%09200T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Alley",
+              "search_value": "Alley"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Essonne",
+              "search_value": "Essonne"
+            },
+            {
+              "display_value": "Saint-Germain-les-Arpajon",
+              "search_value": "Saint-Germain-les-Arpajon"
+            },
+            {
+              "display_value": "Studios 91 Arpajon",
+              "search_value": "Studios+91+Arpajon"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:07:59",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Jean-Pierre Jeunet",
+              "search_value": "Jean-Pierre+Jeunet"
+            },
+            {
+              "display_value": "Marc Caro",
+              "search_value": "Marc+Caro"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Darius Khondji",
+              "search_value": "Darius+Khondji"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Marc Caro",
+              "search_value": "Marc+Caro"
+            },
+            {
+              "display_value": "Jean Rabasse",
+              "search_value": "Jean+Rabasse"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jean Paul Gaultier",
+              "search_value": "Jean+Paul+Gaultier"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Hervé Schneid",
+              "search_value": "Herv%C3%A9+Schneid"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Yvan Lucas",
+              "search_value": "Yvan+Lucas"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

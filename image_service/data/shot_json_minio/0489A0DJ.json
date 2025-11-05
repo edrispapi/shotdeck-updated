@@ -1,0 +1,358 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "0489A0DJ",
+    "image_file": "0489A0DJ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1614",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "City Lights",
+            "search_value": "1451"
+          }
+        ]
+      },
+      "full_title": "City Lights",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1931",
+            "search_value": "1931"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1d1d1d",
+            "search_value": "1d1d1d~25~1"
+          },
+          {
+            "display_value": "292b29",
+            "search_value": "292b29~25~1"
+          },
+          {
+            "display_value": "3f413e",
+            "search_value": "3f413e~25~1"
+          },
+          {
+            "display_value": "4d4e4e",
+            "search_value": "4d4e4e~25~1"
+          },
+          {
+            "display_value": "595959",
+            "search_value": "595959~25~1"
+          },
+          {
+            "display_value": "8f8f8f",
+            "search_value": "8f8f8f~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "accidental",
+              "search_value": "accidental"
+            },
+            {
+              "display_value": "feet up",
+              "search_value": "\"feet+up\""
+            },
+            {
+              "display_value": "floating hat",
+              "search_value": "\"floating+hat\""
+            },
+            {
+              "display_value": "sinking",
+              "search_value": "sinking"
+            },
+            {
+              "display_value": "wet feet",
+              "search_value": "\"wet+feet\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Charlie Chaplin",
+              "search_value": "Charlie+Chaplin"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.20",
+              "search_value": "1.20"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "City",
+              "search_value": "City"
+            },
+            {
+              "display_value": "Dock",
+              "search_value": "Dock"
+            },
+            {
+              "display_value": "Water",
+              "search_value": "Water"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:13:40",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Charlie Chaplin",
+              "search_value": "Charlie+Chaplin"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Gordon Pollock",
+              "search_value": "Gordon+Pollock"
+            },
+            {
+              "display_value": "Roland Totheroh",
+              "search_value": "Roland+Totheroh"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Henry Clive",
+              "search_value": "Henry+Clive"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Charlie Chaplin",
+              "search_value": "Charlie+Chaplin"
+            },
+            {
+              "display_value": "Willard Nico",
+              "search_value": "Willard+Nico"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

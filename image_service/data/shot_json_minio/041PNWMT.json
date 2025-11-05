@@ -1,0 +1,498 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "041PNWMT",
+    "image_file": "041PNWMT.jpg",
+    "mime": "image/jpeg",
+    "width": "1924",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Instigators",
+            "search_value": "64760"
+          }
+        ]
+      },
+      "full_title": "The Instigators",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2024",
+            "search_value": "2024"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0b0f0d",
+            "search_value": "0b0f0d~25~1"
+          },
+          {
+            "display_value": "221109",
+            "search_value": "221109~25~1"
+          },
+          {
+            "display_value": "102127",
+            "search_value": "102127~25~1"
+          },
+          {
+            "display_value": "271f22",
+            "search_value": "271f22~25~1"
+          },
+          {
+            "display_value": "38443f",
+            "search_value": "38443f~25~1"
+          },
+          {
+            "display_value": "464134",
+            "search_value": "464134~25~1"
+          },
+          {
+            "display_value": "69321e",
+            "search_value": "69321e~25~1"
+          },
+          {
+            "display_value": "194e5d",
+            "search_value": "194e5d~25~1"
+          },
+          {
+            "display_value": "605045",
+            "search_value": "605045~25~1"
+          },
+          {
+            "display_value": "764b4f",
+            "search_value": "764b4f~25~1"
+          },
+          {
+            "display_value": "535f59",
+            "search_value": "535f59~25~1"
+          },
+          {
+            "display_value": "32697a",
+            "search_value": "32697a~25~1"
+          },
+          {
+            "display_value": "4594af",
+            "search_value": "4594af~25~1"
+          },
+          {
+            "display_value": "8b9d98",
+            "search_value": "8b9d98~25~1"
+          },
+          {
+            "display_value": "63b0cd",
+            "search_value": "63b0cd~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "car rig",
+              "search_value": "\"car+rig\""
+            },
+            {
+              "display_value": "fire truck",
+              "search_value": "\"fire+truck\""
+            },
+            {
+              "display_value": "car chase",
+              "search_value": "\"car+chase\""
+            },
+            {
+              "display_value": "chase scene",
+              "search_value": "\"chase+scene\""
+            },
+            {
+              "display_value": "police lights",
+              "search_value": "\"police+lights\""
+            },
+            {
+              "display_value": "firetruck lights",
+              "search_value": "\"firetruck+lights\""
+            },
+            {
+              "display_value": "open door",
+              "search_value": "\"open+door\""
+            },
+            {
+              "display_value": "open car door",
+              "search_value": "\"open+car+door\""
+            },
+            {
+              "display_value": "tilted angle",
+              "search_value": "\"tilted+angle\""
+            },
+            {
+              "display_value": "canted angle",
+              "search_value": "\"canted+angle\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Ultra Wide / Fisheye",
+              "search_value": "Ultra+Wide+%2F+Fisheye"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Dutch angle",
+              "search_value": "Dutch+angle"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "RED V-Raptor",
+              "search_value": "RED+V-Raptor"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Leitz M 0.8",
+              "search_value": "Leitz+M+0.8"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "City",
+              "search_value": "City"
+            },
+            {
+              "display_value": "Street",
+              "search_value": "Street"
+            },
+            {
+              "display_value": "Firetruck",
+              "search_value": "Firetruck"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Massachusetts",
+              "search_value": "Massachusetts"
+            },
+            {
+              "display_value": "Boston",
+              "search_value": "Boston"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "USA",
+              "search_value": "USA"
+            },
+            {
+              "display_value": "Massachusetts",
+              "search_value": "Massachusetts"
+            },
+            {
+              "display_value": "Boston",
+              "search_value": "Boston"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Doug Liman",
+              "search_value": "Doug+Liman"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Henry Braham",
+              "search_value": "Henry+Braham"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Greg Berry",
+              "search_value": "Greg+Berry"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Charlese Antoinette Jones",
+              "search_value": "Charlese+Antoinette+Jones"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "William Goldenberg",
+              "search_value": "William+Goldenberg"
+            },
+            {
+              "display_value": "Tatiana S. Riegel",
+              "search_value": "Tatiana+S.+Riegel"
+            },
+            {
+              "display_value": "Saar Klein",
+              "search_value": "Saar+Klein"
+            },
+            {
+              "display_value": "Brett M. Reed",
+              "search_value": "Brett+M.+Reed"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Andrew Geary",
+              "search_value": "Andrew+Geary"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

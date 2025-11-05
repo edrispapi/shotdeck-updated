@@ -1,0 +1,394 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "0426IMU7",
+    "image_file": "0426IMU7.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Johnny",
+            "search_value": "30688"
+          }
+        ]
+      },
+      "full_title": "Johnny",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "141e25",
+            "search_value": "141e25~25~1"
+          },
+          {
+            "display_value": "2b221a",
+            "search_value": "2b221a~25~1"
+          },
+          {
+            "display_value": "24312d",
+            "search_value": "24312d~25~1"
+          },
+          {
+            "display_value": "354447",
+            "search_value": "354447~25~1"
+          },
+          {
+            "display_value": "57636a",
+            "search_value": "57636a~25~1"
+          },
+          {
+            "display_value": "5c6460",
+            "search_value": "5c6460~25~1"
+          },
+          {
+            "display_value": "64645a",
+            "search_value": "64645a~25~1"
+          },
+          {
+            "display_value": "858474",
+            "search_value": "858474~25~1"
+          },
+          {
+            "display_value": "929ba1",
+            "search_value": "929ba1~25~1"
+          },
+          {
+            "display_value": "969b99",
+            "search_value": "969b99~25~1"
+          },
+          {
+            "display_value": "a6a595",
+            "search_value": "a6a595~25~1"
+          },
+          {
+            "display_value": "c4c4b5",
+            "search_value": "c4c4b5~25~1"
+          },
+          {
+            "display_value": "c8d0d2",
+            "search_value": "c8d0d2~25~1"
+          },
+          {
+            "display_value": "d3d3c6",
+            "search_value": "d3d3c6~25~1"
+          },
+          {
+            "display_value": "d4d9d7",
+            "search_value": "d4d9d7~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "ill",
+              "search_value": "ill"
+            },
+            {
+              "display_value": "sick",
+              "search_value": "sick"
+            },
+            {
+              "display_value": "hospital bed",
+              "search_value": "\"hospital+bed\""
+            },
+            {
+              "display_value": "hospital patient",
+              "search_value": "\"hospital+patient\""
+            },
+            {
+              "display_value": "laying in bed",
+              "search_value": "\"laying+in+bed\""
+            },
+            {
+              "display_value": "bandaged head",
+              "search_value": "\"bandaged+head\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Dawid Ogrodnik",
+              "search_value": "Dawid+Ogrodnik"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Hospital",
+              "search_value": "Hospital"
+            },
+            {
+              "display_value": "Room",
+              "search_value": "Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Poland",
+              "search_value": "Poland"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Poland",
+              "search_value": "Poland"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:20:26",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Daniel Jaroszek",
+              "search_value": "Daniel+Jaroszek"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Michał Dąbal",
+              "search_value": "Micha%C5%82+D%C4%85bal"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Karolina Rączka",
+              "search_value": "Karolina+R%C4%85czka"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Zofia Komasa",
+              "search_value": "Zofia+Komasa"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Maciej Kozłowski",
+              "search_value": "Maciej+Koz%C5%82owski"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

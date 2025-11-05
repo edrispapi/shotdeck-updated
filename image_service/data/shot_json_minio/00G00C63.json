@@ -1,0 +1,418 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00G00C63",
+    "image_file": "00G00C63.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "814",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Secret in Their Eyes",
+            "search_value": "2850"
+          }
+        ]
+      },
+      "full_title": "The Secret in Their Eyes",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2009",
+            "search_value": "2009"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "020203",
+            "search_value": "020203~25~1"
+          },
+          {
+            "display_value": "040802",
+            "search_value": "040802~25~1"
+          },
+          {
+            "display_value": "2f250a",
+            "search_value": "2f250a~25~1"
+          },
+          {
+            "display_value": "58441a",
+            "search_value": "58441a~25~1"
+          },
+          {
+            "display_value": "795d28",
+            "search_value": "795d28~25~1"
+          },
+          {
+            "display_value": "9e7f3e",
+            "search_value": "9e7f3e~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "photo",
+              "search_value": "photo"
+            },
+            {
+              "display_value": "picture",
+              "search_value": "picture"
+            },
+            {
+              "display_value": "finger",
+              "search_value": "finger"
+            },
+            {
+              "display_value": "memories",
+              "search_value": "memories"
+            },
+            {
+              "display_value": "group",
+              "search_value": "group"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Close Up",
+              "search_value": "Extreme+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "RED One / OneMX",
+              "search_value": "RED+One+%2F+OneMX"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            },
+            {
+              "display_value": "Living Room",
+              "search_value": "Living+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Argentina",
+              "search_value": "Argentina"
+            },
+            {
+              "display_value": "Buenos Aires",
+              "search_value": "Buenos+Aires"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Argentina",
+              "search_value": "Argentina"
+            },
+            {
+              "display_value": "Buenos Aires",
+              "search_value": "Buenos+Aires"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:26:00",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Juan José Campanella",
+              "search_value": "Juan+Jos%C3%A9+Campanella"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Félix Monti",
+              "search_value": "F%C3%A9lix+Monti"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Marcelo Pont Vergés\t",
+              "search_value": "Marcelo+Pont+Verg%C3%A9s%09"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Cecilia Monti",
+              "search_value": "Cecilia+Monti"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Juan José Campanella",
+              "search_value": "Juan+Jos%C3%A9+Campanella"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Miguel P Gilaberte",
+              "search_value": "Miguel+P+Gilaberte"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01JFAVCX",
+    "image_file": "01JFAVCX.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1030",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Polyester",
+            "search_value": "18596"
+          }
+        ]
+      },
+      "full_title": "Polyester",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1981",
+            "search_value": "1981"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1c1215",
+            "search_value": "1c1215~25~1"
+          },
+          {
+            "display_value": "2f2617",
+            "search_value": "2f2617~25~1"
+          },
+          {
+            "display_value": "24321a",
+            "search_value": "24321a~25~1"
+          },
+          {
+            "display_value": "2c3138",
+            "search_value": "2c3138~25~1"
+          },
+          {
+            "display_value": "384e27",
+            "search_value": "384e27~25~1"
+          },
+          {
+            "display_value": "474c26",
+            "search_value": "474c26~25~1"
+          },
+          {
+            "display_value": "4a613c",
+            "search_value": "4a613c~25~1"
+          },
+          {
+            "display_value": "5f5d3d",
+            "search_value": "5f5d3d~25~1"
+          },
+          {
+            "display_value": "6d575e",
+            "search_value": "6d575e~25~1"
+          },
+          {
+            "display_value": "51616d",
+            "search_value": "51616d~25~1"
+          },
+          {
+            "display_value": "89836b",
+            "search_value": "89836b~25~1"
+          },
+          {
+            "display_value": "8a8f8c",
+            "search_value": "8a8f8c~25~1"
+          },
+          {
+            "display_value": "89919b",
+            "search_value": "89919b~25~1"
+          },
+          {
+            "display_value": "95918a",
+            "search_value": "95918a~25~1"
+          },
+          {
+            "display_value": "a69ea3",
+            "search_value": "a69ea3~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "holding paintings",
+              "search_value": "\"holding+paintings\""
+            },
+            {
+              "display_value": "foot painting",
+              "search_value": "\"foot+painting\""
+            },
+            {
+              "display_value": "shoe painting",
+              "search_value": "\"shoe+painting\""
+            },
+            {
+              "display_value": "artist",
+              "search_value": "artist"
+            },
+            {
+              "display_value": "suit and tie",
+              "search_value": "\"suit+and+tie\""
+            },
+            {
+              "display_value": "briefcase",
+              "search_value": "briefcase"
+            },
+            {
+              "display_value": "front yard",
+              "search_value": "\"front+yard\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Divine",
+              "search_value": "Divine"
+            },
+            {
+              "display_value": "Ken King",
+              "search_value": "Ken+King"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Ultra Wide / Fisheye",
+              "search_value": "Ultra+Wide+%2F+Fisheye"
+            },
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex",
+              "search_value": "Arriflex"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Suburban Home",
+              "search_value": "Suburban+Home"
+            },
+            {
+              "display_value": "Front Yard",
+              "search_value": "Front+Yard"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Maryland",
+              "search_value": "Maryland"
+            },
+            {
+              "display_value": "Baltimore",
+              "search_value": "Baltimore"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Maryland",
+              "search_value": "Maryland"
+            },
+            {
+              "display_value": "Baltimore",
+              "search_value": "Baltimore"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:01:39",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "John Waters",
+              "search_value": "John+Waters"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "David Insley",
+              "search_value": "David+Insley"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Van Smith",
+              "search_value": "Van+Smith"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Charles Roggero",
+              "search_value": "Charles+Roggero"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "012SSQSG",
+    "image_file": "012SSQSG.jpg",
+    "mime": "image/jpeg",
+    "width": "768",
+    "height": "576",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Mifune",
+            "search_value": "25001"
+          }
+        ]
+      },
+      "full_title": "Mifune",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1999",
+            "search_value": "1999"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "03060c",
+            "search_value": "03060c~25~1"
+          },
+          {
+            "display_value": "0b0f0d",
+            "search_value": "0b0f0d~25~1"
+          },
+          {
+            "display_value": "1d171a",
+            "search_value": "1d171a~25~1"
+          },
+          {
+            "display_value": "38280b",
+            "search_value": "38280b~25~1"
+          },
+          {
+            "display_value": "5b430f",
+            "search_value": "5b430f~25~1"
+          },
+          {
+            "display_value": "3d534a",
+            "search_value": "3d534a~25~1"
+          },
+          {
+            "display_value": "4f5258",
+            "search_value": "4f5258~25~1"
+          },
+          {
+            "display_value": "665a5d",
+            "search_value": "665a5d~25~1"
+          },
+          {
+            "display_value": "86562f",
+            "search_value": "86562f~25~1"
+          },
+          {
+            "display_value": "9b7769",
+            "search_value": "9b7769~25~1"
+          },
+          {
+            "display_value": "b78d7a",
+            "search_value": "b78d7a~25~1"
+          },
+          {
+            "display_value": "bda4ac",
+            "search_value": "bda4ac~25~1"
+          },
+          {
+            "display_value": "d2b7bf",
+            "search_value": "d2b7bf~25~1"
+          },
+          {
+            "display_value": "ead7e8",
+            "search_value": "ead7e8~25~1"
+          },
+          {
+            "display_value": "ede4e1",
+            "search_value": "ede4e1~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "bus",
+              "search_value": "bus"
+            },
+            {
+              "display_value": "middle of nowhere",
+              "search_value": "\"middle+of+nowhere\""
+            },
+            {
+              "display_value": "fields",
+              "search_value": "fields"
+            },
+            {
+              "display_value": "tall grass",
+              "search_value": "\"tall+grass\""
+            },
+            {
+              "display_value": "country road",
+              "search_value": "\"country+road\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.33",
+              "search_value": "1.33"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss | B-Speed",
+              "search_value": "Zeiss+%7C+B-Speed"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Country Road",
+              "search_value": "Country+Road"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Denmark",
+              "search_value": "Denmark"
+            },
+            {
+              "display_value": "Lolland",
+              "search_value": "Lolland"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Denmark",
+              "search_value": "Denmark"
+            },
+            {
+              "display_value": "Lolland",
+              "search_value": "Lolland"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Søren Kragh-Jacobsen",
+              "search_value": "S%C3%B8ren+Kragh-Jacobsen"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Anthony Dod Mantle",
+              "search_value": "Anthony+Dod+Mantle"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Valdís Óskarsdóttir",
+              "search_value": "Vald%C3%ADs+%C3%93skarsd%C3%B3ttir"
+            },
+            {
+              "display_value": "Vagn Rose",
+              "search_value": "Vagn+Rose"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03N0E4S4",
+    "image_file": "03N0E4S4.jpg",
+    "mime": "image/jpeg",
+    "width": "1440",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Eight Mountains",
+            "search_value": "33417"
+          }
+        ]
+      },
+      "full_title": "The Eight Mountains",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "121d1a",
+            "search_value": "121d1a~25~1"
+          },
+          {
+            "display_value": "111f21",
+            "search_value": "111f21~25~1"
+          },
+          {
+            "display_value": "2f2d17",
+            "search_value": "2f2d17~25~1"
+          },
+          {
+            "display_value": "39433e",
+            "search_value": "39433e~25~1"
+          },
+          {
+            "display_value": "354447",
+            "search_value": "354447~25~1"
+          },
+          {
+            "display_value": "504a22",
+            "search_value": "504a22~25~1"
+          },
+          {
+            "display_value": "4b534d",
+            "search_value": "4b534d~25~1"
+          },
+          {
+            "display_value": "495960",
+            "search_value": "495960~25~1"
+          },
+          {
+            "display_value": "655d40",
+            "search_value": "655d40~25~1"
+          },
+          {
+            "display_value": "768487",
+            "search_value": "768487~25~1"
+          },
+          {
+            "display_value": "7b8480",
+            "search_value": "7b8480~25~1"
+          },
+          {
+            "display_value": "8f8069",
+            "search_value": "8f8069~25~1"
+          },
+          {
+            "display_value": "998d79",
+            "search_value": "998d79~25~1"
+          },
+          {
+            "display_value": "9db1b5",
+            "search_value": "9db1b5~25~1"
+          },
+          {
+            "display_value": "acbbba",
+            "search_value": "acbbba~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "houses",
+              "search_value": "houses"
+            },
+            {
+              "display_value": "green grass",
+              "search_value": "\"green+grass\""
+            },
+            {
+              "display_value": "green trees",
+              "search_value": "\"green+trees\""
+            },
+            {
+              "display_value": "mountains",
+              "search_value": "mountains"
+            },
+            {
+              "display_value": "view from above",
+              "search_value": "\"view+from+above\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Aerial",
+              "search_value": "Aerial"
+            },
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.33",
+              "search_value": "1.33"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini LF",
+              "search_value": "ARRI+ALEXA+Mini+LF"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Angenieux Optimo",
+              "search_value": "Angenieux+Optimo"
+            },
+            {
+              "display_value": "Zeiss Supreme Prime",
+              "search_value": "Zeiss+Supreme+Prime"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Village",
+              "search_value": "Village"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Grana",
+              "search_value": "Grana"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:02:54",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Felix van Groeningen",
+              "search_value": "Felix+van+Groeningen"
+            },
+            {
+              "display_value": "Charlotte Vandermeersch",
+              "search_value": "Charlotte+Vandermeersch"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Ruben Impens",
+              "search_value": "Ruben+Impens"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Massimiliano Nocente",
+              "search_value": "Massimiliano+Nocente"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Francesca Brunori",
+              "search_value": "Francesca+Brunori"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Nico Leunen",
+              "search_value": "Nico+Leunen"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Veerle Zeelmaekers",
+              "search_value": "Veerle+Zeelmaekers"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

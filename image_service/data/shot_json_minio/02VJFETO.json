@@ -1,0 +1,494 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02VJFETO",
+    "image_file": "02VJFETO.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Chariots of Fire",
+            "search_value": "166"
+          }
+        ]
+      },
+      "full_title": "Chariots of Fire",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1981",
+            "search_value": "1981"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "040605",
+            "search_value": "040605~25~1"
+          },
+          {
+            "display_value": "140e08",
+            "search_value": "140e08~25~1"
+          },
+          {
+            "display_value": "131318",
+            "search_value": "131318~25~1"
+          },
+          {
+            "display_value": "2c181d",
+            "search_value": "2c181d~25~1"
+          },
+          {
+            "display_value": "632f23",
+            "search_value": "632f23~25~1"
+          },
+          {
+            "display_value": "4f402b",
+            "search_value": "4f402b~25~1"
+          },
+          {
+            "display_value": "762428",
+            "search_value": "762428~25~1"
+          },
+          {
+            "display_value": "6a4043",
+            "search_value": "6a4043~25~1"
+          },
+          {
+            "display_value": "6e5d47",
+            "search_value": "6e5d47~25~1"
+          },
+          {
+            "display_value": "a7755c",
+            "search_value": "a7755c~25~1"
+          },
+          {
+            "display_value": "8f8369",
+            "search_value": "8f8369~25~1"
+          },
+          {
+            "display_value": "aaa38a",
+            "search_value": "aaa38a~25~1"
+          },
+          {
+            "display_value": "c9c6a9",
+            "search_value": "c9c6a9~25~1"
+          },
+          {
+            "display_value": "d5d4b9",
+            "search_value": "d5d4b9~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "arms crossed",
+              "search_value": "\"arms+crossed\""
+            },
+            {
+              "display_value": "coach",
+              "search_value": "coach"
+            },
+            {
+              "display_value": "curly hair",
+              "search_value": "\"curly+hair\""
+            },
+            {
+              "display_value": "disappointed",
+              "search_value": "disappointed"
+            },
+            {
+              "display_value": "distraught",
+              "search_value": "distraught"
+            },
+            {
+              "display_value": "down",
+              "search_value": "down"
+            },
+            {
+              "display_value": "motivating",
+              "search_value": "motivating"
+            },
+            {
+              "display_value": "pep talk",
+              "search_value": "\"pep+talk\""
+            },
+            {
+              "display_value": "picture frame",
+              "search_value": "\"picture+frame\""
+            },
+            {
+              "display_value": "reflection",
+              "search_value": "reflection"
+            },
+            {
+              "display_value": "scolding",
+              "search_value": "scolding"
+            },
+            {
+              "display_value": "straw hat",
+              "search_value": "\"straw+hat\""
+            },
+            {
+              "display_value": "sweater vest",
+              "search_value": "\"sweater+vest\""
+            },
+            {
+              "display_value": "tie",
+              "search_value": "tie"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Ben Cross",
+              "search_value": "Ben+Cross"
+            },
+            {
+              "display_value": "Ian Holm",
+              "search_value": "Ian+Holm"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1920s",
+              "search_value": "1920s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex BL",
+              "search_value": "Arriflex+BL"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Hotel Room",
+              "search_value": "Hotel+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            },
+            {
+              "display_value": "Olympics",
+              "search_value": "Olympics"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "Merseyside",
+              "search_value": "Merseyside"
+            },
+            {
+              "display_value": "Bebington",
+              "search_value": "Bebington"
+            },
+            {
+              "display_value": "The Oval Sports Centre, Bebington, Merseyside, England, UK",
+              "search_value": "The+Oval+Sports+Centre%2C+Bebington%2C+Merseyside%2C+England%2C+UK"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:35:34",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Hugh Hudson",
+              "search_value": "Hugh+Hudson"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "David Watkin",
+              "search_value": "David+Watkin"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Jonathan Amberston",
+              "search_value": "Jonathan+Amberston"
+            },
+            {
+              "display_value": "Len Huntingford",
+              "search_value": "Len+Huntingford"
+            },
+            {
+              "display_value": "Anna Ridley",
+              "search_value": "Anna+Ridley"
+            },
+            {
+              "display_value": "Andrew Sanders",
+              "search_value": "Andrew+Sanders"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Milena Canonero",
+              "search_value": "Milena+Canonero"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Terry Rawlings",
+              "search_value": "Terry+Rawlings"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

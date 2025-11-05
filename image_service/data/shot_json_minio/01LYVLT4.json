@@ -1,0 +1,494 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01LYVLT4",
+    "image_file": "01LYVLT4.jpg",
+    "mime": "image/jpeg",
+    "width": "1802",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Alcarràs",
+            "search_value": "32457"
+          }
+        ]
+      },
+      "full_title": "Alcarràs",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "172810",
+            "search_value": "172810~25~1"
+          },
+          {
+            "display_value": "272b13",
+            "search_value": "272b13~25~1"
+          },
+          {
+            "display_value": "5c312d",
+            "search_value": "5c312d~25~1"
+          },
+          {
+            "display_value": "344e22",
+            "search_value": "344e22~25~1"
+          },
+          {
+            "display_value": "425516",
+            "search_value": "425516~25~1"
+          },
+          {
+            "display_value": "4c643f",
+            "search_value": "4c643f~25~1"
+          },
+          {
+            "display_value": "765a62",
+            "search_value": "765a62~25~1"
+          },
+          {
+            "display_value": "5f7027",
+            "search_value": "5f7027~25~1"
+          },
+          {
+            "display_value": "85a122",
+            "search_value": "85a122~25~1"
+          },
+          {
+            "display_value": "a3ab75",
+            "search_value": "a3ab75~25~1"
+          },
+          {
+            "display_value": "99ab9c",
+            "search_value": "99ab9c~25~1"
+          },
+          {
+            "display_value": "a4b7bc",
+            "search_value": "a4b7bc~25~1"
+          },
+          {
+            "display_value": "b0cad8",
+            "search_value": "b0cad8~25~1"
+          },
+          {
+            "display_value": "c6cecc",
+            "search_value": "c6cecc~25~1"
+          },
+          {
+            "display_value": "cfcdc2",
+            "search_value": "cfcdc2~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "walking",
+              "search_value": "walking"
+            },
+            {
+              "display_value": "angry",
+              "search_value": "angry"
+            },
+            {
+              "display_value": "downhill",
+              "search_value": "downhill"
+            },
+            {
+              "display_value": "mother",
+              "search_value": "mother"
+            },
+            {
+              "display_value": "fruit trees",
+              "search_value": "\"fruit+trees\""
+            },
+            {
+              "display_value": "wilderness",
+              "search_value": "wilderness"
+            },
+            {
+              "display_value": "pissed off",
+              "search_value": "\"pissed+off\""
+            },
+            {
+              "display_value": "following someone",
+              "search_value": "\"following+someone\""
+            },
+            {
+              "display_value": "leading the way",
+              "search_value": "\"leading+the+way\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke Speed Panchro",
+              "search_value": "Cooke+Speed+Panchro"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "3.2K / 3.2K ArriRaw",
+              "search_value": "3.2K+%2F+3.2K+ArriRaw"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Peach Farm",
+              "search_value": "Peach+Farm"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Spain",
+              "search_value": "Spain"
+            },
+            {
+              "display_value": "Catalonia",
+              "search_value": "Catalonia"
+            },
+            {
+              "display_value": "Lleida",
+              "search_value": "Lleida"
+            },
+            {
+              "display_value": "Alcarràs",
+              "search_value": "Alcarr%C3%A0s"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Spain",
+              "search_value": "Spain"
+            },
+            {
+              "display_value": "Catalonia",
+              "search_value": "Catalonia"
+            },
+            {
+              "display_value": "Lleida",
+              "search_value": "Lleida"
+            },
+            {
+              "display_value": "Alcarràs",
+              "search_value": "Alcarr%C3%A0s"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:11:20",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Carla Simón",
+              "search_value": "Carla+Sim%C3%B3n"
+            },
+            {
+              "display_value": "Sonia Castelo",
+              "search_value": "Sonia+Castelo"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Daniela Cajías",
+              "search_value": "Daniela+Caj%C3%ADas"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Mónica Bernuy",
+              "search_value": "M%C3%B3nica+Bernuy"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Anna Aguilà",
+              "search_value": "Anna+Aguil%C3%A0"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Ana Pfaff",
+              "search_value": "Ana+Pfaff"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Angelo Francavilla",
+              "search_value": "Angelo+Francavilla"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

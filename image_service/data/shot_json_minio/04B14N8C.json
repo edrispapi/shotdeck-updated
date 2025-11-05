@@ -1,0 +1,496 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04B14N8C",
+    "image_file": "04B14N8C.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Swan Song",
+            "search_value": "17547"
+          }
+        ]
+      },
+      "full_title": "Swan Song",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2021",
+            "search_value": "2021"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "342413",
+            "search_value": "342413~25~1"
+          },
+          {
+            "display_value": "5b3f1b",
+            "search_value": "5b3f1b~25~1"
+          },
+          {
+            "display_value": "693616",
+            "search_value": "693616~25~1"
+          },
+          {
+            "display_value": "8e6524",
+            "search_value": "8e6524~25~1"
+          },
+          {
+            "display_value": "b48433",
+            "search_value": "b48433~25~1"
+          },
+          {
+            "display_value": "c7913a",
+            "search_value": "c7913a~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "doctor",
+              "search_value": "doctor"
+            },
+            {
+              "display_value": "scientist",
+              "search_value": "scientist"
+            },
+            {
+              "display_value": "old woman",
+              "search_value": "\"old+woman\""
+            },
+            {
+              "display_value": "senior",
+              "search_value": "senior"
+            },
+            {
+              "display_value": "psychiatrist",
+              "search_value": "psychiatrist"
+            },
+            {
+              "display_value": "medical researcher",
+              "search_value": "\"medical+researcher\""
+            },
+            {
+              "display_value": "examiner",
+              "search_value": "examiner"
+            },
+            {
+              "display_value": "dr",
+              "search_value": "dr"
+            },
+            {
+              "display_value": "colorful lighting",
+              "search_value": "\"colorful+lighting\""
+            },
+            {
+              "display_value": "yellow light",
+              "search_value": "\"yellow+light\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Glenn Close",
+              "search_value": "Glenn+Close"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital, Digital - Large Format",
+              "search_value": "Digital%2C+Digital+-+Large+Format"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            },
+            {
+              "display_value": "Underlight",
+              "search_value": "Underlight"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Mixed light",
+              "search_value": "Mixed+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini LF",
+              "search_value": "ARRI+ALEXA+Mini+LF"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Master Anamorphics",
+              "search_value": "Zeiss+Master+Anamorphics"
+            },
+            {
+              "display_value": "Arri DNA Large Format Lenses",
+              "search_value": "Arri+DNA+Large+Format+Lenses"
+            },
+            {
+              "display_value": "Arri Signature Prime Lenses",
+              "search_value": "Arri+Signature+Prime+Lenses"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "ARRIRAW (4.5K)",
+              "search_value": "ARRIRAW+%284.5K%29"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Research Facility ",
+              "search_value": "Research+Facility+"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Canada",
+              "search_value": "Canada"
+            },
+            {
+              "display_value": "British Colombia",
+              "search_value": "British+Colombia"
+            },
+            {
+              "display_value": "Vancouver",
+              "search_value": "Vancouver"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Canada",
+              "search_value": "Canada"
+            },
+            {
+              "display_value": "British Columbia",
+              "search_value": "British+Columbia"
+            },
+            {
+              "display_value": "Vancouver",
+              "search_value": "Vancouver"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:30:21",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            },
+            {
+              "display_value": "Fatherhood",
+              "search_value": "Movie%2FTV+-+Fatherhood"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Benjamin Cleary",
+              "search_value": "Benjamin+Cleary"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Masanobu Takayanagi",
+              "search_value": "Masanobu+Takayanagi"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Annie Beauchamp",
+              "search_value": "Annie+Beauchamp"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Cynthia Ann Summers",
+              "search_value": "Cynthia+Ann+Summers"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Nathan Nugent",
+              "search_value": "Nathan+Nugent"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Tom Poole",
+              "search_value": "Tom+Poole"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

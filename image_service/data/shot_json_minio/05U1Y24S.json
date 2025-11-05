@@ -1,0 +1,452 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05U1Y24S",
+    "image_file": "05U1Y24S.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "802",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Night of the Kings",
+            "search_value": "26477"
+          }
+        ]
+      },
+      "full_title": "Night of the Kings",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2020",
+            "search_value": "2020"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "080305",
+            "search_value": "080305~25~1"
+          },
+          {
+            "display_value": "101315",
+            "search_value": "101315~25~1"
+          },
+          {
+            "display_value": "18130e",
+            "search_value": "18130e~25~1"
+          },
+          {
+            "display_value": "151b16",
+            "search_value": "151b16~25~1"
+          },
+          {
+            "display_value": "5b3729",
+            "search_value": "5b3729~25~1"
+          },
+          {
+            "display_value": "4d402d",
+            "search_value": "4d402d~25~1"
+          },
+          {
+            "display_value": "2f4a38",
+            "search_value": "2f4a38~25~1"
+          },
+          {
+            "display_value": "654d38",
+            "search_value": "654d38~25~1"
+          },
+          {
+            "display_value": "405c47",
+            "search_value": "405c47~25~1"
+          },
+          {
+            "display_value": "9e8157",
+            "search_value": "9e8157~25~1"
+          },
+          {
+            "display_value": "8a9b8a",
+            "search_value": "8a9b8a~25~1"
+          },
+          {
+            "display_value": "b2916b",
+            "search_value": "b2916b~25~1"
+          },
+          {
+            "display_value": "d5c2a2",
+            "search_value": "d5c2a2~25~1"
+          },
+          {
+            "display_value": "dde5df",
+            "search_value": "dde5df~25~1"
+          },
+          {
+            "display_value": "f7f5ec",
+            "search_value": "f7f5ec~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "threaten",
+              "search_value": "threaten"
+            },
+            {
+              "display_value": "threatening",
+              "search_value": "threatening"
+            },
+            {
+              "display_value": "facing camera",
+              "search_value": "\"facing+camera\""
+            },
+            {
+              "display_value": "directly at camera",
+              "search_value": "\"directly+at+camera\""
+            },
+            {
+              "display_value": "winding up",
+              "search_value": "\"winding+up\""
+            },
+            {
+              "display_value": "fist",
+              "search_value": "fist"
+            },
+            {
+              "display_value": "punch",
+              "search_value": "punch"
+            },
+            {
+              "display_value": "prisoners",
+              "search_value": "prisoners"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Fluorescent",
+              "search_value": "Fluorescent"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Hawk V-Lite",
+              "search_value": "Hawk+V-Lite"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Prison",
+              "search_value": "Prison"
+            },
+            {
+              "display_value": "Dayroom",
+              "search_value": "Dayroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "United Arab Emirates",
+              "search_value": "United+Arab+Emirates"
+            },
+            {
+              "display_value": "Dubai",
+              "search_value": "Dubai"
+            },
+            {
+              "display_value": "Ivory Coast",
+              "search_value": "Ivory+Coast"
+            },
+            {
+              "display_value": "Abidjan",
+              "search_value": "Abidjan"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "United Arab Emirates",
+              "search_value": "United+Arab+Emirates"
+            },
+            {
+              "display_value": "Dubai",
+              "search_value": "Dubai"
+            },
+            {
+              "display_value": "Ivory Coast",
+              "search_value": "Ivory+Coast"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:21:24",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Philippe Lacôte",
+              "search_value": "Philippe+Lac%C3%B4te"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Tobie Marier Robitaille",
+              "search_value": "Tobie+Marier+Robitaille"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Samuel Teisseire",
+              "search_value": "Samuel+Teisseire"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Hanna Sjödin",
+              "search_value": "Hanna+Sj%C3%B6din"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Aube Foglia",
+              "search_value": "Aube+Foglia"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Jérôme Cloutier",
+              "search_value": "J%C3%A9r%C3%B4me+Cloutier"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

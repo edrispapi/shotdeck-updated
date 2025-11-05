@@ -1,0 +1,442 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "001CPQOD",
+    "image_file": "001CPQOD.jpg",
+    "mime": "image/jpeg",
+    "width": "1440",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "A Story of Floating Weeds",
+            "search_value": "29895"
+          }
+        ]
+      },
+      "full_title": "A Story of Floating Weeds",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1934",
+            "search_value": "1934"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "121212",
+            "search_value": "121212~25~1"
+          },
+          {
+            "display_value": "555555",
+            "search_value": "555555~25~1"
+          },
+          {
+            "display_value": "9a9a9a",
+            "search_value": "9a9a9a~25~1"
+          },
+          {
+            "display_value": "cfcfcf",
+            "search_value": "cfcfcf~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "4:3",
+              "search_value": "4%3A3"
+            },
+            {
+              "display_value": "argument",
+              "search_value": "argument"
+            },
+            {
+              "display_value": "black and white",
+              "search_value": "\"black+and+white\""
+            },
+            {
+              "display_value": "drama",
+              "search_value": "drama"
+            },
+            {
+              "display_value": "film",
+              "search_value": "film"
+            },
+            {
+              "display_value": "foreign film",
+              "search_value": "\"foreign+film\""
+            },
+            {
+              "display_value": "husband and wife",
+              "search_value": "\"husband+and+wife\""
+            },
+            {
+              "display_value": "japanese",
+              "search_value": "japanese"
+            },
+            {
+              "display_value": "japanese clothing",
+              "search_value": "\"japanese+clothing\""
+            },
+            {
+              "display_value": "japanese film",
+              "search_value": "\"japanese+film\""
+            },
+            {
+              "display_value": "japanese robe",
+              "search_value": "\"japanese+robe\""
+            },
+            {
+              "display_value": "silent film",
+              "search_value": "\"silent+film\""
+            },
+            {
+              "display_value": "confronting",
+              "search_value": "confronting"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Takeshi Sakamoto",
+              "search_value": "Takeshi+Sakamoto"
+            },
+            {
+              "display_value": "Chōko Iida",
+              "search_value": "Ch%C5%8Dko+Iida"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1930s",
+              "search_value": "1930s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.33",
+              "search_value": "1.33"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Japan",
+              "search_value": "Japan"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Japan",
+              "search_value": "Japan"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:51:25",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Yasujirō Ozu",
+              "search_value": "Yasujir%C5%8D+Ozu"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Hideo Shigehara",
+              "search_value": "Hideo+Shigehara"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Tatsuo Hamada",
+              "search_value": "Tatsuo+Hamada"
+            },
+            {
+              "display_value": "Yoshio Hino",
+              "search_value": "Yoshio+Hino"
+            },
+            {
+              "display_value": "Shintarô Mishima",
+              "search_value": "Shintar%C3%B4+Mishima"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Taizô Saitô",
+              "search_value": "Taiz%C3%B4+Sait%C3%B4"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Hideo Shigehara",
+              "search_value": "Hideo+Shigehara"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": " Kentarô Abe",
+              "search_value": "+Kentar%C3%B4+Abe"
+            },
+            {
+              "display_value": "Toshimi Nassho",
+              "search_value": "Toshimi+Nassho"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

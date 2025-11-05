@@ -1,0 +1,424 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04RCTG3X",
+    "image_file": "04RCTG3X.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "20 Days in Mariupol",
+            "search_value": "42055"
+          }
+        ]
+      },
+      "full_title": "20 Days in Mariupol",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2023",
+            "search_value": "2023"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "182022",
+            "search_value": "182022~25~1"
+          },
+          {
+            "display_value": "242b29",
+            "search_value": "242b29~25~1"
+          },
+          {
+            "display_value": "372d21",
+            "search_value": "372d21~25~1"
+          },
+          {
+            "display_value": "39433f",
+            "search_value": "39433f~25~1"
+          },
+          {
+            "display_value": "394344",
+            "search_value": "394344~25~1"
+          },
+          {
+            "display_value": "573929",
+            "search_value": "573929~25~1"
+          },
+          {
+            "display_value": "4e3f2c",
+            "search_value": "4e3f2c~25~1"
+          },
+          {
+            "display_value": "4c554d",
+            "search_value": "4c554d~25~1"
+          },
+          {
+            "display_value": "685c46",
+            "search_value": "685c46~25~1"
+          },
+          {
+            "display_value": "7b8673",
+            "search_value": "7b8673~25~1"
+          },
+          {
+            "display_value": "90845f",
+            "search_value": "90845f~25~1"
+          },
+          {
+            "display_value": "97a291",
+            "search_value": "97a291~25~1"
+          },
+          {
+            "display_value": "a5a289",
+            "search_value": "a5a289~25~1"
+          },
+          {
+            "display_value": "c4c6ae",
+            "search_value": "c4c6ae~25~1"
+          },
+          {
+            "display_value": "ced2bb",
+            "search_value": "ced2bb~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "civilians",
+              "search_value": "civilians"
+            },
+            {
+              "display_value": "town people",
+              "search_value": "\"town+people\""
+            },
+            {
+              "display_value": "emotionless",
+              "search_value": "emotionless"
+            },
+            {
+              "display_value": "helpless",
+              "search_value": "helpless"
+            },
+            {
+              "display_value": "stuck under debris",
+              "search_value": "\"stuck+under+debris\""
+            },
+            {
+              "display_value": "holding hands",
+              "search_value": "\"holding+hands\""
+            },
+            {
+              "display_value": "lowered gaze",
+              "search_value": "\"lowered+gaze\""
+            },
+            {
+              "display_value": "debris",
+              "search_value": "debris"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Sony A7 Series",
+              "search_value": "Sony+A7+Series"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "City Street",
+              "search_value": "City+Street"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Ukraine",
+              "search_value": "Ukraine"
+            },
+            {
+              "display_value": "Mariupol",
+              "search_value": "Mariupol"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Ukraine",
+              "search_value": "Ukraine"
+            },
+            {
+              "display_value": "Mariupol",
+              "search_value": "Mariupol"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:58:06",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Documentary",
+              "search_value": "Movie%2FTV+-+Documentary"
+            },
+            {
+              "display_value": "War",
+              "search_value": "Movie%2FTV+-+War"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Mstyslav Chernov",
+              "search_value": "Mstyslav+Chernov"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Evgeniy Maloletka",
+              "search_value": "Evgeniy+Maloletka"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Michelle Mizner",
+              "search_value": "Michelle+Mizner"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Jim Ferguson",
+              "search_value": "Jim+Ferguson"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

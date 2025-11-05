@@ -1,0 +1,452 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "050LJNBG",
+    "image_file": "050LJNBG.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "960",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Interview with the Vampire",
+            "search_value": "30584",
+            "season": "1",
+            "episode": "5"
+          }
+        ]
+      },
+      "full_title": "Interview with the Vampire - Season 1 - Episode 5",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "181a18",
+            "search_value": "181a18~25~1"
+          },
+          {
+            "display_value": "181a1b",
+            "search_value": "181a1b~25~1"
+          },
+          {
+            "display_value": "1b1a1b",
+            "search_value": "1b1a1b~25~1"
+          },
+          {
+            "display_value": "251d15",
+            "search_value": "251d15~25~1"
+          },
+          {
+            "display_value": "4f3b30",
+            "search_value": "4f3b30~25~1"
+          },
+          {
+            "display_value": "4d3e30",
+            "search_value": "4d3e30~25~1"
+          },
+          {
+            "display_value": "624d3c",
+            "search_value": "624d3c~25~1"
+          },
+          {
+            "display_value": "9a7c64",
+            "search_value": "9a7c64~25~1"
+          },
+          {
+            "display_value": "a9886d",
+            "search_value": "a9886d~25~1"
+          },
+          {
+            "display_value": "efbd8a",
+            "search_value": "efbd8a~25~1"
+          },
+          {
+            "display_value": "f0cea2",
+            "search_value": "f0cea2~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "desperate",
+              "search_value": "desperate"
+            },
+            {
+              "display_value": "sense of urgency",
+              "search_value": "\"sense+of+urgency\""
+            },
+            {
+              "display_value": "back to camera",
+              "search_value": "\"back+to+camera\""
+            },
+            {
+              "display_value": "running upstairs",
+              "search_value": "\"running+upstairs\""
+            },
+            {
+              "display_value": "broken handrail",
+              "search_value": "\"broken+handrail\""
+            },
+            {
+              "display_value": "framed artwork",
+              "search_value": "\"framed+artwork\""
+            },
+            {
+              "display_value": "patterned wallpaper",
+              "search_value": "\"patterned+wallpaper\""
+            },
+            {
+              "display_value": "panicked",
+              "search_value": "panicked"
+            },
+            {
+              "display_value": "worried",
+              "search_value": "worried"
+            },
+            {
+              "display_value": "tense",
+              "search_value": "tense"
+            },
+            {
+              "display_value": "looking for someone",
+              "search_value": "\"looking+for+someone\""
+            },
+            {
+              "display_value": "injured",
+              "search_value": "injured"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1930s",
+              "search_value": "1930s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.00",
+              "search_value": "2.00"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini LF",
+              "search_value": "ARRI+ALEXA+Mini+LF"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Panaspeed Lenses",
+              "search_value": "Panavision+Panaspeed+Lenses"
+            },
+            {
+              "display_value": "Arri Rental | Heroes",
+              "search_value": "Arri+Rental+%7C+Heroes"
+            },
+            {
+              "display_value": "Arri Signature Prime Lenses",
+              "search_value": "Arri+Signature+Prime+Lenses"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Staircase",
+              "search_value": "Staircase"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Louisiana",
+              "search_value": "Louisiana"
+            },
+            {
+              "display_value": "New Orleans",
+              "search_value": "New+Orleans"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Louisiana",
+              "search_value": "Louisiana"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:38:55",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Levan Akin",
+              "search_value": "Levan+Akin"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "David Tattersall",
+              "search_value": "David+Tattersall"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Mara LePere-Schloop",
+              "search_value": "Mara+LePere-Schloop"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Carol Cutshall",
+              "search_value": "Carol+Cutshall"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Yuka Shirasuna",
+              "search_value": "Yuka+Shirasuna"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Wade Felker",
+              "search_value": "Wade+Felker"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

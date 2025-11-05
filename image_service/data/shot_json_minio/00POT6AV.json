@@ -1,0 +1,388 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00POT6AV",
+    "image_file": "00POT6AV.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Coco",
+            "search_value": "1298"
+          }
+        ]
+      },
+      "full_title": "Coco",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2017",
+            "search_value": "2017"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "181d40",
+            "search_value": "181d40~25~1"
+          },
+          {
+            "display_value": "32231e",
+            "search_value": "32231e~25~1"
+          },
+          {
+            "display_value": "3b1c2d",
+            "search_value": "3b1c2d~25~1"
+          },
+          {
+            "display_value": "29336e",
+            "search_value": "29336e~25~1"
+          },
+          {
+            "display_value": "5a2d48",
+            "search_value": "5a2d48~25~1"
+          },
+          {
+            "display_value": "434e93",
+            "search_value": "434e93~25~1"
+          },
+          {
+            "display_value": "71436b",
+            "search_value": "71436b~25~1"
+          },
+          {
+            "display_value": "75513c",
+            "search_value": "75513c~25~1"
+          },
+          {
+            "display_value": "337645",
+            "search_value": "337645~25~1"
+          },
+          {
+            "display_value": "6169ca",
+            "search_value": "6169ca~25~1"
+          },
+          {
+            "display_value": "b2589d",
+            "search_value": "b2589d~25~1"
+          },
+          {
+            "display_value": "b5836c",
+            "search_value": "b5836c~25~1"
+          },
+          {
+            "display_value": "7889e1",
+            "search_value": "7889e1~25~1"
+          },
+          {
+            "display_value": "b57fa3",
+            "search_value": "b57fa3~25~1"
+          },
+          {
+            "display_value": "97a1f4",
+            "search_value": "97a1f4~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "dog biting foot",
+              "search_value": "\"dog+biting+foot\""
+            },
+            {
+              "display_value": "dog with wings",
+              "search_value": "\"dog+with+wings\""
+            },
+            {
+              "display_value": "final battle",
+              "search_value": "\"final+battle\""
+            },
+            {
+              "display_value": "magical creature",
+              "search_value": "\"magical+creature\""
+            },
+            {
+              "display_value": "mariachi suit",
+              "search_value": "\"mariachi+suit\""
+            },
+            {
+              "display_value": "pulling leg",
+              "search_value": "\"pulling+leg\""
+            },
+            {
+              "display_value": "skeleton",
+              "search_value": "skeleton"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            },
+            {
+              "display_value": "Purple",
+              "search_value": "Purple"
+            },
+            {
+              "display_value": "Magenta",
+              "search_value": "Magenta"
+            },
+            {
+              "display_value": "Pink",
+              "search_value": "Pink"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Animation"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Stadium",
+              "search_value": "Stadium"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Land of the Dead",
+              "search_value": "Land+of+the+Dead"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:24:39",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Lee Unkrich",
+              "search_value": "Lee+Unkrich"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Matt Aspbury",
+              "search_value": "Matt+Aspbury"
+            },
+            {
+              "display_value": "Danielle Feinberg",
+              "search_value": "Danielle+Feinberg"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Harley Jessup",
+              "search_value": "Harley+Jessup"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Lee Unkrich",
+              "search_value": "Lee+Unkrich"
+            },
+            {
+              "display_value": "Steve Bloom",
+              "search_value": "Steve+Bloom"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Mark Dinicola",
+              "search_value": "Mark+Dinicola"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

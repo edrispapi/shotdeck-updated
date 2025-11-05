@@ -1,0 +1,494 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01OPLFI2",
+    "image_file": "01OPLFI2.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Star Wars: The Force Awakens",
+            "search_value": "441"
+          }
+        ]
+      },
+      "full_title": "Star Wars: The Force Awakens",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2015",
+            "search_value": "2015"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "14030c",
+            "search_value": "14030c~25~1"
+          },
+          {
+            "display_value": "0b1021",
+            "search_value": "0b1021~25~1"
+          },
+          {
+            "display_value": "1e337e",
+            "search_value": "1e337e~25~1"
+          },
+          {
+            "display_value": "85103f",
+            "search_value": "85103f~25~1"
+          },
+          {
+            "display_value": "2e4994",
+            "search_value": "2e4994~25~1"
+          },
+          {
+            "display_value": "ac2d54",
+            "search_value": "ac2d54~25~1"
+          },
+          {
+            "display_value": "c84b64",
+            "search_value": "c84b64~25~1"
+          },
+          {
+            "display_value": "2079ed",
+            "search_value": "2079ed~25~1"
+          },
+          {
+            "display_value": "e17c93",
+            "search_value": "e17c93~25~1"
+          },
+          {
+            "display_value": "50a9f3",
+            "search_value": "50a9f3~25~1"
+          },
+          {
+            "display_value": "ed9eaf",
+            "search_value": "ed9eaf~25~1"
+          },
+          {
+            "display_value": "81d2f9",
+            "search_value": "81d2f9~25~1"
+          },
+          {
+            "display_value": "f7dbe3",
+            "search_value": "f7dbe3~25~1"
+          },
+          {
+            "display_value": "baf2fd",
+            "search_value": "baf2fd~25~1"
+          },
+          {
+            "display_value": "d6fefe",
+            "search_value": "d6fefe~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "sith lord",
+              "search_value": "\"sith+lord\""
+            },
+            {
+              "display_value": "bad guy",
+              "search_value": "\"bad+guy\""
+            },
+            {
+              "display_value": "villain",
+              "search_value": "villain"
+            },
+            {
+              "display_value": "black outfit",
+              "search_value": "\"black+outfit\""
+            },
+            {
+              "display_value": "lightsaber",
+              "search_value": "lightsaber"
+            },
+            {
+              "display_value": "duel",
+              "search_value": "duel"
+            },
+            {
+              "display_value": "sword fight",
+              "search_value": "\"sword+fight\""
+            },
+            {
+              "display_value": "snow",
+              "search_value": "snow"
+            },
+            {
+              "display_value": "jedi",
+              "search_value": "jedi"
+            },
+            {
+              "display_value": "rey",
+              "search_value": "rey"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Daisy Ridley",
+              "search_value": "Daisy+Ridley"
+            },
+            {
+              "display_value": "Adam Driver",
+              "search_value": "Adam+Driver"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            },
+            {
+              "display_value": "Magenta",
+              "search_value": "Magenta"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Underlight",
+              "search_value": "Underlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Moonlight",
+              "search_value": "Moonlight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            },
+            {
+              "display_value": "Mixed light",
+              "search_value": "Mixed+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Forest",
+              "search_value": "Forest"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Starkiller Base",
+              "search_value": "Starkiller+Base"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "Buckinghamshire",
+              "search_value": "Buckinghamshire"
+            },
+            {
+              "display_value": "Pinewood Studios",
+              "search_value": "Pinewood+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:56:45",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "J.J. Abrams",
+              "search_value": "J.J.+Abrams"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Dan Mindel",
+              "search_value": "Dan+Mindel"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Rick Carter",
+              "search_value": "Rick+Carter"
+            },
+            {
+              "display_value": "Darren Gilford",
+              "search_value": "Darren+Gilford"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Michael Kaplan",
+              "search_value": "Michael+Kaplan"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Maryann Brandon",
+              "search_value": "Maryann+Brandon"
+            },
+            {
+              "display_value": "Mary Jo Markey",
+              "search_value": "Mary+Jo+Markey"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Stefan Sonnenfeld",
+              "search_value": "Stefan+Sonnenfeld"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

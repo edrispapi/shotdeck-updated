@@ -1,0 +1,418 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03R85BWU",
+    "image_file": "03R85BWU.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "819",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Godzilla vs. Hedorah",
+            "search_value": "55909"
+          }
+        ]
+      },
+      "full_title": "Godzilla vs. Hedorah",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1971",
+            "search_value": "1971"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0b090a",
+            "search_value": "0b090a~25~1"
+          },
+          {
+            "display_value": "12100c",
+            "search_value": "12100c~25~1"
+          },
+          {
+            "display_value": "272c26",
+            "search_value": "272c26~25~1"
+          },
+          {
+            "display_value": "3d4438",
+            "search_value": "3d4438~25~1"
+          },
+          {
+            "display_value": "424335",
+            "search_value": "424335~25~1"
+          },
+          {
+            "display_value": "50594c",
+            "search_value": "50594c~25~1"
+          },
+          {
+            "display_value": "5c5749",
+            "search_value": "5c5749~25~1"
+          },
+          {
+            "display_value": "6b6769",
+            "search_value": "6b6769~25~1"
+          },
+          {
+            "display_value": "686a6e",
+            "search_value": "686a6e~25~1"
+          },
+          {
+            "display_value": "8a8070",
+            "search_value": "8a8070~25~1"
+          },
+          {
+            "display_value": "868e92",
+            "search_value": "868e92~25~1"
+          },
+          {
+            "display_value": "918d8f",
+            "search_value": "918d8f~25~1"
+          },
+          {
+            "display_value": "8f9591",
+            "search_value": "8f9591~25~1"
+          },
+          {
+            "display_value": "a89e93",
+            "search_value": "a89e93~25~1"
+          },
+          {
+            "display_value": "e7cabe",
+            "search_value": "e7cabe~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "television screen",
+              "search_value": "\"television+screen\""
+            },
+            {
+              "display_value": "collage",
+              "search_value": "collage"
+            },
+            {
+              "display_value": "montage",
+              "search_value": "montage"
+            },
+            {
+              "display_value": "tv screen",
+              "search_value": "\"tv+screen\""
+            },
+            {
+              "display_value": "news",
+              "search_value": "news"
+            },
+            {
+              "display_value": "news reports",
+              "search_value": "\"news+reports\""
+            },
+            {
+              "display_value": "interviews",
+              "search_value": "interviews"
+            },
+            {
+              "display_value": "grid",
+              "search_value": "grid"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Close Up",
+              "search_value": "Extreme+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Tohoscope",
+              "search_value": "Tohoscope"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "News Broadcast",
+              "search_value": "News+Broadcast"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Japan",
+              "search_value": "Japan"
+            },
+            {
+              "display_value": "Tokyo",
+              "search_value": "Tokyo"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Japan",
+              "search_value": "Japan"
+            },
+            {
+              "display_value": "Tokyo",
+              "search_value": "Tokyo"
+            },
+            {
+              "display_value": "Toho Studios",
+              "search_value": "Toho+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Monster",
+              "search_value": "Movie%2FTV+-+Monster"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Yoshimitsu Banno",
+              "search_value": "Yoshimitsu+Banno"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Yôichi Manoda",
+              "search_value": "Y%C3%B4ichi+Manoda"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Yasuyuki Inoue",
+              "search_value": "Yasuyuki+Inoue"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Yoshitami Kuroiwa",
+              "search_value": "Yoshitami+Kuroiwa"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

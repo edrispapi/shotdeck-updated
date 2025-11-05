@@ -1,0 +1,490 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02KN5SWW",
+    "image_file": "02KN5SWW.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Captain America: Brave New World",
+            "search_value": "64024"
+          }
+        ]
+      },
+      "full_title": "Captain America: Brave New World",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2025",
+            "search_value": "2025"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "2f3e49",
+            "search_value": "2f3e49~25~1"
+          },
+          {
+            "display_value": "5c707a",
+            "search_value": "5c707a~25~1"
+          },
+          {
+            "display_value": "797074",
+            "search_value": "797074~25~1"
+          },
+          {
+            "display_value": "857573",
+            "search_value": "857573~25~1"
+          },
+          {
+            "display_value": "6d7e7e",
+            "search_value": "6d7e7e~25~1"
+          },
+          {
+            "display_value": "6b8395",
+            "search_value": "6b8395~25~1"
+          },
+          {
+            "display_value": "72858a",
+            "search_value": "72858a~25~1"
+          },
+          {
+            "display_value": "748686",
+            "search_value": "748686~25~1"
+          },
+          {
+            "display_value": "83979e",
+            "search_value": "83979e~25~1"
+          },
+          {
+            "display_value": "aeac9e",
+            "search_value": "aeac9e~25~1"
+          },
+          {
+            "display_value": "a0b1ac",
+            "search_value": "a0b1ac~25~1"
+          },
+          {
+            "display_value": "b4c6bb",
+            "search_value": "b4c6bb~25~1"
+          },
+          {
+            "display_value": "bfc5b3",
+            "search_value": "bfc5b3~25~1"
+          },
+          {
+            "display_value": "c2d2c2",
+            "search_value": "c2d2c2~25~1"
+          },
+          {
+            "display_value": "d3dbc2",
+            "search_value": "d3dbc2~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "clouds",
+              "search_value": "clouds"
+            },
+            {
+              "display_value": "action scene",
+              "search_value": "\"action+scene\""
+            },
+            {
+              "display_value": "fighting",
+              "search_value": "fighting"
+            },
+            {
+              "display_value": "flying",
+              "search_value": "flying"
+            },
+            {
+              "display_value": "ocean",
+              "search_value": "ocean"
+            },
+            {
+              "display_value": "water",
+              "search_value": "water"
+            },
+            {
+              "display_value": "waves",
+              "search_value": "waves"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Telephoto",
+              "search_value": "Telephoto"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Aerial",
+              "search_value": "Aerial"
+            },
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini LF",
+              "search_value": "ARRI+ALEXA+Mini+LF"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision 40-80 (Bailey zoom - AWZ2)",
+              "search_value": "Panavision+40-80+%28Bailey+zoom+-+AWZ2%29"
+            },
+            {
+              "display_value": "Panavision 70-200mm (ATZ)",
+              "search_value": "Panavision+70-200mm+%28ATZ%29"
+            },
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision VA Primes",
+              "search_value": "Panavision+VA+Primes"
+            },
+            {
+              "display_value": "Petzval Lenses",
+              "search_value": "Petzval+Lenses"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "ARRIRAW (4.5K)",
+              "search_value": "ARRIRAW+%284.5K%29"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Sky",
+              "search_value": "Sky"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Celestial Island",
+              "search_value": "Celestial+Island"
+            },
+            {
+              "display_value": "Indian Ocean",
+              "search_value": "Indian+Ocean"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Georgia",
+              "search_value": "Georgia"
+            },
+            {
+              "display_value": "Atlanta",
+              "search_value": "Atlanta"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:18:56",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Julius Onah",
+              "search_value": "Julius+Onah"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Kramer Morgenthau",
+              "search_value": "Kramer+Morgenthau"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Ramsey Avery",
+              "search_value": "Ramsey+Avery"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Gersha Phillips",
+              "search_value": "Gersha+Phillips"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Matthew Schmidt",
+              "search_value": "Matthew+Schmidt"
+            },
+            {
+              "display_value": "Madeleine Gavin",
+              "search_value": "Madeleine+Gavin"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

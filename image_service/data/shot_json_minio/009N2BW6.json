@@ -1,0 +1,398 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "009N2BW6",
+    "image_file": "009N2BW6.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "816",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Nymphomaniac: Vol. I",
+            "search_value": "5593"
+          }
+        ]
+      },
+      "full_title": "Nymphomaniac: Vol. I",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2013",
+            "search_value": "2013"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1d1d1d",
+            "search_value": "1d1d1d~25~1"
+          },
+          {
+            "display_value": "5b5b5b",
+            "search_value": "5b5b5b~25~1"
+          },
+          {
+            "display_value": "909090",
+            "search_value": "909090~25~1"
+          },
+          {
+            "display_value": "c9c9c9",
+            "search_value": "c9c9c9~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "bed",
+              "search_value": "bed"
+            },
+            {
+              "display_value": "hospital bed",
+              "search_value": "\"hospital+bed\""
+            },
+            {
+              "display_value": "pager",
+              "search_value": "pager"
+            },
+            {
+              "display_value": "nurse",
+              "search_value": "nurse"
+            },
+            {
+              "display_value": "alarm",
+              "search_value": "alarm"
+            },
+            {
+              "display_value": "beeper",
+              "search_value": "beeper"
+            },
+            {
+              "display_value": "buzzer",
+              "search_value": "buzzer"
+            },
+            {
+              "display_value": "emergency",
+              "search_value": "emergency"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Close Up",
+              "search_value": "Extreme+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Classic / plus",
+              "search_value": "ARRI+ALEXA+Classic+%2F+plus"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Fujinon Alura Zooms",
+              "search_value": "Fujinon+Alura+Zooms"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2K",
+              "search_value": "2K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Hospital",
+              "search_value": "Hospital"
+            },
+            {
+              "display_value": "Hospital Room",
+              "search_value": "Hospital+Room"
+            },
+            {
+              "display_value": "Bedroom",
+              "search_value": "Bedroom"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Germany",
+              "search_value": "Germany"
+            },
+            {
+              "display_value": "Belgium",
+              "search_value": "Belgium"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:52:32",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Lars von Trier",
+              "search_value": "Lars+von+Trier"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Manuel Alberto Claro",
+              "search_value": "Manuel+Alberto+Claro"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Simone Grau",
+              "search_value": "Simone+Grau"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Manon Rasmussen",
+              "search_value": "Manon+Rasmussen"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Molly Malene Stensgaard",
+              "search_value": "Molly+Malene+Stensgaard"
+            },
+            {
+              "display_value": "Morten H",
+              "search_value": "Morten+H"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Sandra Klass",
+              "search_value": "Sandra+Klass"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

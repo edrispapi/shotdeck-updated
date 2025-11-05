@@ -1,0 +1,496 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "052LZ5QZ",
+    "image_file": "052LZ5QZ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1037",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Happy Together",
+            "search_value": "24"
+          }
+        ]
+      },
+      "full_title": "Happy Together",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1997",
+            "search_value": "1997"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0e0205",
+            "search_value": "0e0205~25~1"
+          },
+          {
+            "display_value": "07090d",
+            "search_value": "07090d~25~1"
+          },
+          {
+            "display_value": "2c1c0d",
+            "search_value": "2c1c0d~25~1"
+          },
+          {
+            "display_value": "213726",
+            "search_value": "213726~25~1"
+          },
+          {
+            "display_value": "274d38",
+            "search_value": "274d38~25~1"
+          },
+          {
+            "display_value": "554121",
+            "search_value": "554121~25~1"
+          },
+          {
+            "display_value": "3f5c45",
+            "search_value": "3f5c45~25~1"
+          },
+          {
+            "display_value": "6b5634",
+            "search_value": "6b5634~25~1"
+          },
+          {
+            "display_value": "3f777d",
+            "search_value": "3f777d~25~1"
+          },
+          {
+            "display_value": "5c8f94",
+            "search_value": "5c8f94~25~1"
+          },
+          {
+            "display_value": "8f8662",
+            "search_value": "8f8662~25~1"
+          },
+          {
+            "display_value": "aca081",
+            "search_value": "aca081~25~1"
+          },
+          {
+            "display_value": "8fab9b",
+            "search_value": "8fab9b~25~1"
+          },
+          {
+            "display_value": "cac6a8",
+            "search_value": "cac6a8~25~1"
+          },
+          {
+            "display_value": "d6d2b8",
+            "search_value": "d6d2b8~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "blue waterfall lamp",
+              "search_value": "\"blue+waterfall+lamp\""
+            },
+            {
+              "display_value": "cyan bed",
+              "search_value": "\"cyan+bed\""
+            },
+            {
+              "display_value": "cyan walls",
+              "search_value": "\"cyan+walls\""
+            },
+            {
+              "display_value": "deep in thought",
+              "search_value": "\"deep+in+thought\""
+            },
+            {
+              "display_value": "nostalgic",
+              "search_value": "nostalgic"
+            },
+            {
+              "display_value": "paper lamp",
+              "search_value": "\"paper+lamp\""
+            },
+            {
+              "display_value": "plastic waterbottle",
+              "search_value": "\"plastic+waterbottle\""
+            },
+            {
+              "display_value": "polaroids",
+              "search_value": "polaroids"
+            },
+            {
+              "display_value": "reflecting",
+              "search_value": "reflecting"
+            },
+            {
+              "display_value": "relaxed pose",
+              "search_value": "\"relaxed+pose\""
+            },
+            {
+              "display_value": "shirtless",
+              "search_value": "shirtless"
+            },
+            {
+              "display_value": "smoking cigarette",
+              "search_value": "\"smoking+cigarette\""
+            },
+            {
+              "display_value": "smoking in bed",
+              "search_value": "\"smoking+in+bed\""
+            },
+            {
+              "display_value": "wood nightstand",
+              "search_value": "\"wood+nightstand\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Leslie Cheung",
+              "search_value": "Leslie+Cheung"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            },
+            {
+              "display_value": "Bedroom",
+              "search_value": "Bedroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Argentina",
+              "search_value": "Argentina"
+            },
+            {
+              "display_value": "Buenos Aires",
+              "search_value": "Buenos+Aires"
+            },
+            {
+              "display_value": "Buenos Aires",
+              "search_value": "Buenos+Aires"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Argentina",
+              "search_value": "Argentina"
+            },
+            {
+              "display_value": "Buenos Aires",
+              "search_value": "Buenos+Aires"
+            },
+            {
+              "display_value": "Buenos Aires",
+              "search_value": "Buenos+Aires"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:01:00",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Wong Kar-wai",
+              "search_value": "Wong+Kar-wai"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Christopher Doyle",
+              "search_value": "Christopher+Doyle"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "William Chang",
+              "search_value": "William+Chang"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "William Chang",
+              "search_value": "William+Chang"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "William Chang",
+              "search_value": "William+Chang"
+            },
+            {
+              "display_value": "Ming Lam Wong",
+              "search_value": "Ming+Lam+Wong"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "0560XBXD",
+    "image_file": "0560XBXD.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1036",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Illusionist",
+            "search_value": "14963"
+          }
+        ]
+      },
+      "full_title": "The Illusionist",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2010",
+            "search_value": "2010"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "232723",
+            "search_value": "232723~25~1"
+          },
+          {
+            "display_value": "2d2c20",
+            "search_value": "2d2c20~25~1"
+          },
+          {
+            "display_value": "394538",
+            "search_value": "394538~25~1"
+          },
+          {
+            "display_value": "5f3426",
+            "search_value": "5f3426~25~1"
+          },
+          {
+            "display_value": "48442e",
+            "search_value": "48442e~25~1"
+          },
+          {
+            "display_value": "454f45",
+            "search_value": "454f45~25~1"
+          },
+          {
+            "display_value": "6f5a41",
+            "search_value": "6f5a41~25~1"
+          },
+          {
+            "display_value": "a03339",
+            "search_value": "a03339~25~1"
+          },
+          {
+            "display_value": "d3434a",
+            "search_value": "d3434a~25~1"
+          },
+          {
+            "display_value": "ac725c",
+            "search_value": "ac725c~25~1"
+          },
+          {
+            "display_value": "98835c",
+            "search_value": "98835c~25~1"
+          },
+          {
+            "display_value": "919f87",
+            "search_value": "919f87~25~1"
+          },
+          {
+            "display_value": "ab9870",
+            "search_value": "ab9870~25~1"
+          },
+          {
+            "display_value": "d1cc9a",
+            "search_value": "d1cc9a~25~1"
+          },
+          {
+            "display_value": "dcdbb2",
+            "search_value": "dcdbb2~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "cars driving",
+              "search_value": "\"cars+driving\""
+            },
+            {
+              "display_value": "glass display case",
+              "search_value": "\"glass+display+case\""
+            },
+            {
+              "display_value": "fans storming",
+              "search_value": "\"fans+storming\""
+            },
+            {
+              "display_value": "screaming",
+              "search_value": "screaming"
+            },
+            {
+              "display_value": "fangirling",
+              "search_value": "fangirling"
+            },
+            {
+              "display_value": "posters on wall",
+              "search_value": "\"posters+on+wall\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1950s",
+              "search_value": "1950s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Theatre",
+              "search_value": "Theatre"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingom",
+              "search_value": "United+Kingom"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:08:46",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Sylvain Chomet",
+              "search_value": "Sylvain+Chomet"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Bjarne Hansen",
+              "search_value": "Bjarne+Hansen"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Sylvain Chomet",
+              "search_value": "Sylvain+Chomet"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Julien De Man",
+              "search_value": "Julien+De+Man"
+            },
+            {
+              "display_value": "Sylvain Delcourt",
+              "search_value": "Sylvain+Delcourt"
+            },
+            {
+              "display_value": "Emma McCann",
+              "search_value": "Emma+McCann"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

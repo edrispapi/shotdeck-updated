@@ -1,0 +1,464 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "0254LISN",
+    "image_file": "0254LISN.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Encounter",
+            "search_value": "12934"
+          }
+        ]
+      },
+      "full_title": "Encounter",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2021",
+            "search_value": "2021"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "020c0f",
+            "search_value": "020c0f~25~1"
+          },
+          {
+            "display_value": "09110f",
+            "search_value": "09110f~25~1"
+          },
+          {
+            "display_value": "211a0d",
+            "search_value": "211a0d~25~1"
+          },
+          {
+            "display_value": "274d47",
+            "search_value": "274d47~25~1"
+          },
+          {
+            "display_value": "0b5169",
+            "search_value": "0b5169~25~1"
+          },
+          {
+            "display_value": "6d3d0a",
+            "search_value": "6d3d0a~25~1"
+          },
+          {
+            "display_value": "0e6795",
+            "search_value": "0e6795~25~1"
+          },
+          {
+            "display_value": "875917",
+            "search_value": "875917~25~1"
+          },
+          {
+            "display_value": "576e5c",
+            "search_value": "576e5c~25~1"
+          },
+          {
+            "display_value": "708b76",
+            "search_value": "708b76~25~1"
+          },
+          {
+            "display_value": "b78e1e",
+            "search_value": "b78e1e~25~1"
+          },
+          {
+            "display_value": "879f8f",
+            "search_value": "879f8f~25~1"
+          },
+          {
+            "display_value": "76b1be",
+            "search_value": "76b1be~25~1"
+          },
+          {
+            "display_value": "a3cac8",
+            "search_value": "a3cac8~25~1"
+          },
+          {
+            "display_value": "a2cdd3",
+            "search_value": "a2cdd3~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "suspect",
+              "search_value": "suspect"
+            },
+            {
+              "display_value": "powerpoint",
+              "search_value": "powerpoint"
+            },
+            {
+              "display_value": "investigation",
+              "search_value": "investigation"
+            },
+            {
+              "display_value": "informational",
+              "search_value": "informational"
+            },
+            {
+              "display_value": "agents",
+              "search_value": "agents"
+            },
+            {
+              "display_value": "task force",
+              "search_value": "\"task+force\""
+            },
+            {
+              "display_value": "profile",
+              "search_value": "profile"
+            },
+            {
+              "display_value": "briefing",
+              "search_value": "briefing"
+            },
+            {
+              "display_value": "criminal",
+              "search_value": "criminal"
+            },
+            {
+              "display_value": "screen",
+              "search_value": "screen"
+            },
+            {
+              "display_value": "meeting",
+              "search_value": "meeting"
+            },
+            {
+              "display_value": "desk",
+              "search_value": "desk"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Rory Cochrane",
+              "search_value": "Rory+Cochrane"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Mixed light",
+              "search_value": "Mixed+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "FBI Headquarters",
+              "search_value": "FBI+Headquarters"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:48:58",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fatherhood",
+              "search_value": "Movie%2FTV+-+Fatherhood"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Michael Pearce",
+              "search_value": "Michael+Pearce"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Benjamin Kracun",
+              "search_value": "Benjamin+Kracun"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Tim Grimes",
+              "search_value": "Tim+Grimes"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Emma Potter",
+              "search_value": "Emma+Potter"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Maya Maffioli",
+              "search_value": "Maya+Maffioli"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Rob Pizzey",
+              "search_value": "Rob+Pizzey"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,512 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "044WK9PS",
+    "image_file": "044WK9PS.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "A.I. Artificial Intelligence",
+            "search_value": "1019"
+          }
+        ]
+      },
+      "full_title": "A.I. Artificial Intelligence",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2001",
+            "search_value": "2001"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0f0b0c",
+            "search_value": "0f0b0c~25~1"
+          },
+          {
+            "display_value": "261a14",
+            "search_value": "261a14~25~1"
+          },
+          {
+            "display_value": "232430",
+            "search_value": "232430~25~1"
+          },
+          {
+            "display_value": "263328",
+            "search_value": "263328~25~1"
+          },
+          {
+            "display_value": "30395a",
+            "search_value": "30395a~25~1"
+          },
+          {
+            "display_value": "662f22",
+            "search_value": "662f22~25~1"
+          },
+          {
+            "display_value": "715441",
+            "search_value": "715441~25~1"
+          },
+          {
+            "display_value": "505f70",
+            "search_value": "505f70~25~1"
+          },
+          {
+            "display_value": "4e6451",
+            "search_value": "4e6451~25~1"
+          },
+          {
+            "display_value": "6f5861",
+            "search_value": "6f5861~25~1"
+          },
+          {
+            "display_value": "938263",
+            "search_value": "938263~25~1"
+          },
+          {
+            "display_value": "8d99a0",
+            "search_value": "8d99a0~25~1"
+          },
+          {
+            "display_value": "a99885",
+            "search_value": "a99885~25~1"
+          },
+          {
+            "display_value": "95a195",
+            "search_value": "95a195~25~1"
+          },
+          {
+            "display_value": "d8cdc5",
+            "search_value": "d8cdc5~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "area rug",
+              "search_value": "\"area+rug\""
+            },
+            {
+              "display_value": "playroom",
+              "search_value": "playroom"
+            },
+            {
+              "display_value": "criss cross applesauce",
+              "search_value": "\"criss+cross+applesauce\""
+            },
+            {
+              "display_value": "chilling",
+              "search_value": "chilling"
+            },
+            {
+              "display_value": "flannel",
+              "search_value": "flannel"
+            },
+            {
+              "display_value": "numbers",
+              "search_value": "numbers"
+            },
+            {
+              "display_value": "hands clasped",
+              "search_value": "\"hands+clasped\""
+            },
+            {
+              "display_value": "looking over",
+              "search_value": "\"looking+over\""
+            },
+            {
+              "display_value": "pale skin",
+              "search_value": "\"pale+skin\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Haley Joel Osment",
+              "search_value": "Haley+Joel+Osment"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Millennium / Millenium XL / XL2",
+              "search_value": "Panavision+Millennium+%2F+Millenium+XL+%2F+XL2"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Super Speed",
+              "search_value": "Zeiss+Super+Speed"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5279/7279\tVision\t500T",
+              "search_value": "5279%2F7279%09Vision%09500T"
+            },
+            {
+              "display_value": "5293/7293  \tEXR\t\t200T",
+              "search_value": "5293%2F7293++%09EXR%09%09200T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Bedroom",
+              "search_value": "Bedroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "New Jersey",
+              "search_value": "New+Jersey"
+            },
+            {
+              "display_value": "Haddonfield",
+              "search_value": "Haddonfield"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "USA",
+              "search_value": "USA"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Burbank",
+              "search_value": "Burbank"
+            },
+            {
+              "display_value": "Warner Brothers Burbank Studios",
+              "search_value": "Warner+Brothers+Burbank+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:31:34",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Cyberpunk",
+              "search_value": "Movie%2FTV+-+Cyberpunk"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Steven Spielberg",
+              "search_value": "Steven+Spielberg"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Janusz Kamiński",
+              "search_value": "Janusz+Kami%C5%84ski"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Rick Carter",
+              "search_value": "Rick+Carter"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Bob Ringwood",
+              "search_value": "Bob+Ringwood"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Michael Kahn",
+              "search_value": "Michael+Kahn"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Dale E. Grahn",
+              "search_value": "Dale+E.+Grahn"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00VSUJI8",
+    "image_file": "00VSUJI8.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "819",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Assault on Precinct 13",
+            "search_value": "6586"
+          }
+        ]
+      },
+      "full_title": "Assault on Precinct 13",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1976",
+            "search_value": "1976"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "070c13",
+            "search_value": "070c13~25~1"
+          },
+          {
+            "display_value": "0f0c0e",
+            "search_value": "0f0c0e~25~1"
+          },
+          {
+            "display_value": "191712",
+            "search_value": "191712~25~1"
+          },
+          {
+            "display_value": "191b1a",
+            "search_value": "191b1a~25~1"
+          },
+          {
+            "display_value": "2f3e54",
+            "search_value": "2f3e54~25~1"
+          },
+          {
+            "display_value": "1b4862",
+            "search_value": "1b4862~25~1"
+          },
+          {
+            "display_value": "3d536e",
+            "search_value": "3d536e~25~1"
+          },
+          {
+            "display_value": "6b7a9d",
+            "search_value": "6b7a9d~25~1"
+          },
+          {
+            "display_value": "7893b3",
+            "search_value": "7893b3~25~1"
+          },
+          {
+            "display_value": "a9c3d7",
+            "search_value": "a9c3d7~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "police station",
+              "search_value": "\"police+station\""
+            },
+            {
+              "display_value": "doorway",
+              "search_value": "doorway"
+            },
+            {
+              "display_value": "prisoner",
+              "search_value": "prisoner"
+            },
+            {
+              "display_value": "leaning back",
+              "search_value": "\"leaning+back\""
+            },
+            {
+              "display_value": "window",
+              "search_value": "window"
+            },
+            {
+              "display_value": "blinds",
+              "search_value": "blinds"
+            },
+            {
+              "display_value": "breaking in",
+              "search_value": "\"breaking+in\""
+            },
+            {
+              "display_value": "windows",
+              "search_value": "windows"
+            },
+            {
+              "display_value": "broken window",
+              "search_value": "\"broken+window\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision R-200",
+              "search_value": "Panavision+R-200"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5254/7254                     100T",
+              "search_value": "5254%2F7254+++++++++++++++++++++100T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Police Station ",
+              "search_value": "Police+Station+"
+            },
+            {
+              "display_value": "Windows",
+              "search_value": "Windows"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:58:28",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "John Carpenter",
+              "search_value": "John+Carpenter"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Douglas Knapp",
+              "search_value": "Douglas+Knapp"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Nancy Kyes",
+              "search_value": "Nancy+Kyes"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "John Carpenter",
+              "search_value": "John+Carpenter"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

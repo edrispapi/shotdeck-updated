@@ -1,0 +1,482 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "008TUCCN",
+    "image_file": "008TUCCN.jpg",
+    "mime": "image/jpeg",
+    "width": "1924",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Gorge",
+            "search_value": "63858"
+          }
+        ]
+      },
+      "full_title": "The Gorge",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2025",
+            "search_value": "2025"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "080708",
+            "search_value": "080708~25~1"
+          },
+          {
+            "display_value": "070809",
+            "search_value": "070809~25~1"
+          },
+          {
+            "display_value": "060907",
+            "search_value": "060907~25~1"
+          },
+          {
+            "display_value": "11100b",
+            "search_value": "11100b~25~1"
+          },
+          {
+            "display_value": "3d4636",
+            "search_value": "3d4636~25~1"
+          },
+          {
+            "display_value": "4c4426",
+            "search_value": "4c4426~25~1"
+          },
+          {
+            "display_value": "4d5b45",
+            "search_value": "4d5b45~25~1"
+          },
+          {
+            "display_value": "635738",
+            "search_value": "635738~25~1"
+          },
+          {
+            "display_value": "8b895a",
+            "search_value": "8b895a~25~1"
+          },
+          {
+            "display_value": "b3a16c",
+            "search_value": "b3a16c~25~1"
+          },
+          {
+            "display_value": "e1ca85",
+            "search_value": "e1ca85~25~1"
+          },
+          {
+            "display_value": "f4d490",
+            "search_value": "f4d490~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "looking through binoculars",
+              "search_value": "\"looking+through+binoculars\""
+            },
+            {
+              "display_value": "pov shot",
+              "search_value": "\"pov+shot\""
+            },
+            {
+              "display_value": "vignette",
+              "search_value": "vignette"
+            },
+            {
+              "display_value": "silly",
+              "search_value": "silly"
+            },
+            {
+              "display_value": "dangerous",
+              "search_value": "dangerous"
+            },
+            {
+              "display_value": "bottle on head",
+              "search_value": "\"bottle+on+head\""
+            },
+            {
+              "display_value": "balancing",
+              "search_value": "balancing"
+            },
+            {
+              "display_value": "open arms",
+              "search_value": "\"open+arms\""
+            },
+            {
+              "display_value": "challenging",
+              "search_value": "challenging"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Anya Taylor-Joy",
+              "search_value": "Anya+Taylor-Joy"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA 65",
+              "search_value": "ARRI+ALEXA+65"
+            },
+            {
+              "display_value": "ARRI ALEXA LF",
+              "search_value": "ARRI+ALEXA+LF"
+            },
+            {
+              "display_value": "ARRI ALEXA Mini LF",
+              "search_value": "ARRI+ALEXA+Mini+LF"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Arri Signature Prime Lenses",
+              "search_value": "Arri+Signature+Prime+Lenses"
+            },
+            {
+              "display_value": "Leitz Thalia Lenses",
+              "search_value": "Leitz+Thalia+Lenses"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Watchtower",
+              "search_value": "Watchtower"
+            },
+            {
+              "display_value": "Balcony",
+              "search_value": "Balcony"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Northern Hemisphere",
+              "search_value": "Northern+Hemisphere"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "Hertfordshire",
+              "search_value": "Hertfordshire"
+            },
+            {
+              "display_value": "Warner Bros. Studios Leavesden",
+              "search_value": "Warner+Bros.+Studios+Leavesden"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:34:05",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Scott Derrickson",
+              "search_value": "Scott+Derrickson"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Dan Laustsen",
+              "search_value": "Dan+Laustsen"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Rick Heinrichs",
+              "search_value": "Rick+Heinrichs"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Ellen Mirojnick",
+              "search_value": "Ellen+Mirojnick"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Frédéric Thoraval",
+              "search_value": "Fr%C3%A9d%C3%A9ric+Thoraval"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Stefan Sonnenfeld",
+              "search_value": "Stefan+Sonnenfeld"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

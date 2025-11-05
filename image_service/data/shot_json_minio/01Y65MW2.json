@@ -1,0 +1,460 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01Y65MW2",
+    "image_file": "01Y65MW2.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1038",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Midnight in Paris",
+            "search_value": "2242"
+          }
+        ]
+      },
+      "full_title": "Midnight in Paris",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2011",
+            "search_value": "2011"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "020608",
+            "search_value": "020608~25~1"
+          },
+          {
+            "display_value": "050706",
+            "search_value": "050706~25~1"
+          },
+          {
+            "display_value": "1f1308",
+            "search_value": "1f1308~25~1"
+          },
+          {
+            "display_value": "340405",
+            "search_value": "340405~25~1"
+          },
+          {
+            "display_value": "752e10",
+            "search_value": "752e10~25~1"
+          },
+          {
+            "display_value": "614213",
+            "search_value": "614213~25~1"
+          },
+          {
+            "display_value": "84531b",
+            "search_value": "84531b~25~1"
+          },
+          {
+            "display_value": "ae7e3e",
+            "search_value": "ae7e3e~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "author",
+              "search_value": "author"
+            },
+            {
+              "display_value": "dark hair",
+              "search_value": "\"dark+hair\""
+            },
+            {
+              "display_value": "drunk",
+              "search_value": "drunk"
+            },
+            {
+              "display_value": "facial hair",
+              "search_value": "\"facial+hair\""
+            },
+            {
+              "display_value": "facial scruff",
+              "search_value": "\"facial+scruff\""
+            },
+            {
+              "display_value": "mustache",
+              "search_value": "mustache"
+            },
+            {
+              "display_value": "leaning forward",
+              "search_value": "\"leaning+forward\""
+            },
+            {
+              "display_value": "blue eyes",
+              "search_value": "\"blue+eyes\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Corey Stoll",
+              "search_value": "Corey+Stoll"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1920s",
+              "search_value": "1920s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            },
+            {
+              "display_value": "Arricam ST",
+              "search_value": "Arricam+ST"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Angenieux Optimo",
+              "search_value": "Angenieux+Optimo"
+            },
+            {
+              "display_value": "Cooke Panchro Classic",
+              "search_value": "Cooke+Panchro+Classic"
+            },
+            {
+              "display_value": "Cooke S4/ i",
+              "search_value": "Cooke+S4%2F+i"
+            },
+            {
+              "display_value": "Cooke S5i",
+              "search_value": "Cooke+S5i"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Cafe",
+              "search_value": "Cafe"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:27:26",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Magical Realism",
+              "search_value": "Movie%2FTV+-+Magical+Realism"
+            },
+            {
+              "display_value": "Time Travel",
+              "search_value": "Movie%2FTV+-+Time+Travel"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Woody Allen",
+              "search_value": "Woody+Allen"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Darius Khondji",
+              "search_value": "Darius+Khondji"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Anne Seibel",
+              "search_value": "Anne+Seibel"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Sonia Grande",
+              "search_value": "Sonia+Grande"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Alisa Lepselter",
+              "search_value": "Alisa+Lepselter"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Joe Gawler",
+              "search_value": "Joe+Gawler"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

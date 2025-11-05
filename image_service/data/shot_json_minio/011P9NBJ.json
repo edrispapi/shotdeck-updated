@@ -1,0 +1,532 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "011P9NBJ",
+    "image_file": "011P9NBJ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Snowpiercer",
+            "search_value": "1477"
+          }
+        ]
+      },
+      "full_title": "Snowpiercer",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2013",
+            "search_value": "2013"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0f0c0e",
+            "search_value": "0f0c0e~25~1"
+          },
+          {
+            "display_value": "0e0e10",
+            "search_value": "0e0e10~25~1"
+          },
+          {
+            "display_value": "171917",
+            "search_value": "171917~25~1"
+          },
+          {
+            "display_value": "281e15",
+            "search_value": "281e15~25~1"
+          },
+          {
+            "display_value": "652d24",
+            "search_value": "652d24~25~1"
+          },
+          {
+            "display_value": "514228",
+            "search_value": "514228~25~1"
+          },
+          {
+            "display_value": "526059",
+            "search_value": "526059~25~1"
+          },
+          {
+            "display_value": "75575e",
+            "search_value": "75575e~25~1"
+          },
+          {
+            "display_value": "7f5a40",
+            "search_value": "7f5a40~25~1"
+          },
+          {
+            "display_value": "626974",
+            "search_value": "626974~25~1"
+          },
+          {
+            "display_value": "aa6b61",
+            "search_value": "aa6b61~25~1"
+          },
+          {
+            "display_value": "a18750",
+            "search_value": "a18750~25~1"
+          },
+          {
+            "display_value": "b3a080",
+            "search_value": "b3a080~25~1"
+          },
+          {
+            "display_value": "d3c59c",
+            "search_value": "d3c59c~25~1"
+          },
+          {
+            "display_value": "ddd0b9",
+            "search_value": "ddd0b9~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "arts and crafts",
+              "search_value": "\"arts+and+crafts\""
+            },
+            {
+              "display_value": "black suit",
+              "search_value": "\"black+suit\""
+            },
+            {
+              "display_value": "chello",
+              "search_value": "chello"
+            },
+            {
+              "display_value": "excited",
+              "search_value": "excited"
+            },
+            {
+              "display_value": "happy",
+              "search_value": "happy"
+            },
+            {
+              "display_value": "kids",
+              "search_value": "kids"
+            },
+            {
+              "display_value": "music",
+              "search_value": "music"
+            },
+            {
+              "display_value": "playing instrument",
+              "search_value": "\"playing+instrument\""
+            },
+            {
+              "display_value": "teacher",
+              "search_value": "teacher"
+            },
+            {
+              "display_value": "treat",
+              "search_value": "treat"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Alison Pill",
+              "search_value": "Alison+Pill"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Mixed light",
+              "search_value": "Mixed+light"
+            },
+            {
+              "display_value": "HMI",
+              "search_value": "HMI"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Super 35",
+              "search_value": "Super+35"
+            },
+            {
+              "display_value": "3 perf",
+              "search_value": "3+perf"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arri 435 / 435ES",
+              "search_value": "Arri+435+%2F+435ES"
+            },
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            },
+            {
+              "display_value": "Arricam ST",
+              "search_value": "Arricam+ST"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Master Primes",
+              "search_value": "Zeiss+Master+Primes"
+            },
+            {
+              "display_value": "Angenieux Optimo Zooms",
+              "search_value": "Angenieux+Optimo+Zooms"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            },
+            {
+              "display_value": "5207/7207\tVision 3\t250D",
+              "search_value": "5207%2F7207%09Vision+3%09250D"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Train",
+              "search_value": "Train"
+            },
+            {
+              "display_value": "Classroom",
+              "search_value": "Classroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Train",
+              "search_value": "Train"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Czech Republic",
+              "search_value": "Czech+Republic"
+            },
+            {
+              "display_value": "Prague",
+              "search_value": "Prague"
+            },
+            {
+              "display_value": "Barrandov Studios",
+              "search_value": "Barrandov+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:13:05",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Bong Joon-ho",
+              "search_value": "Bong+Joon-ho"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Hong Kyung-pyo",
+              "search_value": "Hong+Kyung-pyo"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Ondrej Nekvasil",
+              "search_value": "Ondrej+Nekvasil"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Catherine George",
+              "search_value": "Catherine+George"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Steve M. Choe",
+              "search_value": "Steve+M.+Choe"
+            },
+            {
+              "display_value": "Kim Chang-ju",
+              "search_value": "Kim+Chang-ju"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Kevin Kang",
+              "search_value": "Kevin+Kang"
+            },
+            {
+              "display_value": "Yvan Lucas",
+              "search_value": "Yvan+Lucas"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

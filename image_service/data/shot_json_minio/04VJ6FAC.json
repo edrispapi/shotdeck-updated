@@ -1,0 +1,388 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04VJ6FAC",
+    "image_file": "04VJ6FAC.jpg",
+    "mime": "image/jpeg",
+    "width": "1442",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The 39 Steps",
+            "search_value": "825"
+          }
+        ]
+      },
+      "full_title": "The 39 Steps",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1935",
+            "search_value": "1935"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "181818",
+            "search_value": "181818~25~1"
+          },
+          {
+            "display_value": "595959",
+            "search_value": "595959~25~1"
+          },
+          {
+            "display_value": "8f8f8f",
+            "search_value": "8f8f8f~25~1"
+          },
+          {
+            "display_value": "c3c3c3",
+            "search_value": "c3c3c3~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "train",
+              "search_value": "train"
+            },
+            {
+              "display_value": "passenger train",
+              "search_value": "\"passenger+train\""
+            },
+            {
+              "display_value": "riding on train",
+              "search_value": "\"riding+on+train\""
+            },
+            {
+              "display_value": "train passengers",
+              "search_value": "\"train+passengers\""
+            },
+            {
+              "display_value": "head turned",
+              "search_value": "\"head+turned\""
+            },
+            {
+              "display_value": "windows",
+              "search_value": "windows"
+            },
+            {
+              "display_value": "three piece suit",
+              "search_value": "\"three+piece+suit\""
+            },
+            {
+              "display_value": "white collared shirt",
+              "search_value": "\"white+collared+shirt\""
+            },
+            {
+              "display_value": "asleep",
+              "search_value": "asleep"
+            },
+            {
+              "display_value": "head against window",
+              "search_value": "\"head+against+window\""
+            },
+            {
+              "display_value": "train car",
+              "search_value": "\"train+car\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Robert Donat",
+              "search_value": "Robert+Donat"
+            },
+            {
+              "display_value": "Gus McNaughton",
+              "search_value": "Gus+McNaughton"
+            },
+            {
+              "display_value": "Jerry Verno",
+              "search_value": "Jerry+Verno"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1930s",
+              "search_value": "1930s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.33",
+              "search_value": "1.33"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Train",
+              "search_value": "Train"
+            },
+            {
+              "display_value": "Passenger Car",
+              "search_value": "Passenger+Car"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            },
+            {
+              "display_value": "Shepherd's Bush, Lime Grove Studios",
+              "search_value": "Shepherd%27s+Bush%2C+Lime+Grove+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:21:05",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Alfred Hitchcock",
+              "search_value": "Alfred+Hitchcock"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Bernard Knowles",
+              "search_value": "Bernard+Knowles"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Derek N. Twist",
+              "search_value": "Derek+N.+Twist"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

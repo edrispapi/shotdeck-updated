@@ -1,0 +1,276 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02IQ8SIY",
+    "image_file": "02IQ8SIY.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "797",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Exodus: Gods and Kings",
+            "search_value": "1301"
+          }
+        ]
+      },
+      "full_title": "Exodus: Gods and Kings",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2014",
+            "search_value": "2014"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "000000",
+            "search_value": "000000~25~1"
+          },
+          {
+            "display_value": "010001",
+            "search_value": "010001~25~1"
+          },
+          {
+            "display_value": "010202",
+            "search_value": "010202~25~1"
+          },
+          {
+            "display_value": "050f19",
+            "search_value": "050f19~25~1"
+          },
+          {
+            "display_value": "1f4166",
+            "search_value": "1f4166~25~1"
+          },
+          {
+            "display_value": "355d85",
+            "search_value": "355d85~25~1"
+          },
+          {
+            "display_value": "5883ad",
+            "search_value": "5883ad~25~1"
+          },
+          {
+            "display_value": "7ca5c3",
+            "search_value": "7ca5c3~25~1"
+          },
+          {
+            "display_value": "a8c9ce",
+            "search_value": "a8c9ce~25~1"
+          },
+          {
+            "display_value": "adcecd",
+            "search_value": "adcecd~25~1"
+          },
+          {
+            "display_value": "b1ced0",
+            "search_value": "b1ced0~25~1"
+          },
+          {
+            "display_value": "b8d1cc",
+            "search_value": "b8d1cc~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "fire",
+              "search_value": "fire"
+            },
+            {
+              "display_value": "flame",
+              "search_value": "flame"
+            },
+            {
+              "display_value": "bush",
+              "search_value": "bush"
+            },
+            {
+              "display_value": "rocky",
+              "search_value": "rocky"
+            },
+            {
+              "display_value": "wilderness",
+              "search_value": "wilderness"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Ancient: 2000BC-500AD",
+              "search_value": "Ancient%3A+2000BC-500AD"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "RED Epic Dragon",
+              "search_value": "RED+Epic+Dragon"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Ultra Prime",
+              "search_value": "Zeiss+Ultra+Prime"
+            },
+            {
+              "display_value": "Angenieux Optimo Zooms",
+              "search_value": "Angenieux+Optimo+Zooms"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Ridley Scott",
+              "search_value": "Ridley+Scott"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Dariusz Wolski",
+              "search_value": "Dariusz+Wolski"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Arthur Max",
+              "search_value": "Arthur+Max"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Janty Yates",
+              "search_value": "Janty+Yates"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Billy Rich",
+              "search_value": "Billy+Rich"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Stefan Sonnenfeld",
+              "search_value": "Stefan+Sonnenfeld"
+            },
+            {
+              "display_value": "Stephen Nakamura",
+              "search_value": "Stephen+Nakamura"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

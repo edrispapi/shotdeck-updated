@@ -1,0 +1,520 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01RUUUXJ",
+    "image_file": "01RUUUXJ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Eye in the Sky",
+            "search_value": "1888"
+          }
+        ]
+      },
+      "full_title": "Eye in the Sky",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2015",
+            "search_value": "2015"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "3d3721",
+            "search_value": "3d3721~25~1"
+          },
+          {
+            "display_value": "3c4338",
+            "search_value": "3c4338~25~1"
+          },
+          {
+            "display_value": "4c462b",
+            "search_value": "4c462b~25~1"
+          },
+          {
+            "display_value": "685d3f",
+            "search_value": "685d3f~25~1"
+          },
+          {
+            "display_value": "496a46",
+            "search_value": "496a46~25~1"
+          },
+          {
+            "display_value": "ae7355",
+            "search_value": "ae7355~25~1"
+          },
+          {
+            "display_value": "5a976c",
+            "search_value": "5a976c~25~1"
+          },
+          {
+            "display_value": "908860",
+            "search_value": "908860~25~1"
+          },
+          {
+            "display_value": "aea47c",
+            "search_value": "aea47c~25~1"
+          },
+          {
+            "display_value": "8faf94",
+            "search_value": "8faf94~25~1"
+          },
+          {
+            "display_value": "aaceaf",
+            "search_value": "aaceaf~25~1"
+          },
+          {
+            "display_value": "d0c89d",
+            "search_value": "d0c89d~25~1"
+          },
+          {
+            "display_value": "eae6cc",
+            "search_value": "eae6cc~25~1"
+          },
+          {
+            "display_value": "edf4f5",
+            "search_value": "edf4f5~25~1"
+          },
+          {
+            "display_value": "f1f7f3",
+            "search_value": "f1f7f3~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "al-shabaab",
+              "search_value": "al-shabaab"
+            },
+            {
+              "display_value": "jihadists",
+              "search_value": "jihadists"
+            },
+            {
+              "display_value": "cargo vest",
+              "search_value": "\"cargo+vest\""
+            },
+            {
+              "display_value": "jeep",
+              "search_value": "jeep"
+            },
+            {
+              "display_value": "red keffiyeh",
+              "search_value": "\"red+keffiyeh\""
+            },
+            {
+              "display_value": "picking up",
+              "search_value": "\"picking+up\""
+            },
+            {
+              "display_value": "carrying",
+              "search_value": "carrying"
+            },
+            {
+              "display_value": "bloodied",
+              "search_value": "bloodied"
+            },
+            {
+              "display_value": "wounded",
+              "search_value": "wounded"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Aisha Takow",
+              "search_value": "Aisha+Takow"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            },
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Telephoto",
+              "search_value": "Telephoto"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Blackmagic Pocket Cinema Camera",
+              "search_value": "Blackmagic+Pocket+Cinema+Camera"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Leitz SUMMILUX-C",
+              "search_value": "Leitz+SUMMILUX-C"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2K",
+              "search_value": "2K"
+            },
+            {
+              "display_value": "Redcode RAW 6K",
+              "search_value": "Redcode+RAW+6K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Village",
+              "search_value": "Village"
+            },
+            {
+              "display_value": "Street",
+              "search_value": "Street"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "Kenya",
+              "search_value": "Kenya"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "South Africa",
+              "search_value": "South+Africa"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:25:41",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Military",
+              "search_value": "Movie%2FTV+-+Military"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "War",
+              "search_value": "Movie%2FTV+-+War"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Gavin Hood",
+              "search_value": "Gavin+Hood"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Haris Zambarloukos",
+              "search_value": "Haris+Zambarloukos"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Johnny Breedt",
+              "search_value": "Johnny+Breedt"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Ruy Filipe",
+              "search_value": "Ruy+Filipe"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Megan Gill",
+              "search_value": "Megan+Gill"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Noel Albornoz",
+              "search_value": "Noel+Albornoz"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

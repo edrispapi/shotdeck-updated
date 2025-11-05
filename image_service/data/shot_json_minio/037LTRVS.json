@@ -1,0 +1,434 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "037LTRVS",
+    "image_file": "037LTRVS.jpg",
+    "mime": "image/jpeg",
+    "width": "1912",
+    "height": "791",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Winter's Tale",
+            "search_value": "510"
+          }
+        ]
+      },
+      "full_title": "Winter's Tale",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2014",
+            "search_value": "2014"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "010001",
+            "search_value": "010001~25~1"
+          },
+          {
+            "display_value": "030506",
+            "search_value": "030506~25~1"
+          },
+          {
+            "display_value": "060a08",
+            "search_value": "060a08~25~1"
+          },
+          {
+            "display_value": "262216",
+            "search_value": "262216~25~1"
+          },
+          {
+            "display_value": "3d433a",
+            "search_value": "3d433a~25~1"
+          },
+          {
+            "display_value": "4b412e",
+            "search_value": "4b412e~25~1"
+          },
+          {
+            "display_value": "5d3825",
+            "search_value": "5d3825~25~1"
+          },
+          {
+            "display_value": "41483f",
+            "search_value": "41483f~25~1"
+          },
+          {
+            "display_value": "67563d",
+            "search_value": "67563d~25~1"
+          },
+          {
+            "display_value": "928364",
+            "search_value": "928364~25~1"
+          },
+          {
+            "display_value": "a29274",
+            "search_value": "a29274~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "black horse",
+              "search_value": "\"black+horse\""
+            },
+            {
+              "display_value": "bleak",
+              "search_value": "bleak"
+            },
+            {
+              "display_value": "dead trees",
+              "search_value": "\"dead+trees\""
+            },
+            {
+              "display_value": "ford model t cars",
+              "search_value": "\"ford+model+t+cars\""
+            },
+            {
+              "display_value": "gangsters",
+              "search_value": "gangsters"
+            },
+            {
+              "display_value": "winter",
+              "search_value": "winter"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Russell Crowe",
+              "search_value": "Russell+Crowe"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1900s",
+              "search_value": "1900s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA 4:3 / plus",
+              "search_value": "ARRI+ALEXA+4%3A3+%2F+plus"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision E series",
+              "search_value": "Panavision+E+series"
+            },
+            {
+              "display_value": "Panavision G series",
+              "search_value": "Panavision+G+series"
+            },
+            {
+              "display_value": "Panavision 70-200mm (ATZ)",
+              "search_value": "Panavision+70-200mm+%28ATZ%29"
+            },
+            {
+              "display_value": "Panavision 40-80 (Bailey zoom - AWZ2)",
+              "search_value": "Panavision+40-80+%28Bailey+zoom+-+AWZ2%29"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Field",
+              "search_value": "Field"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Akiva Goldsman",
+              "search_value": "Akiva+Goldsman"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Caleb Deschanel",
+              "search_value": "Caleb+Deschanel"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Naomi Shohan",
+              "search_value": "Naomi+Shohan"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Michael Kaplan",
+              "search_value": "Michael+Kaplan"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Tim Squyres",
+              "search_value": "Tim+Squyres"
+            },
+            {
+              "display_value": "Wayne Wahrman",
+              "search_value": "Wayne+Wahrman"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

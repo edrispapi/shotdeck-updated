@@ -1,0 +1,470 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01XJCMM3",
+    "image_file": "01XJCMM3.jpg",
+    "mime": "image/jpeg",
+    "width": "1343",
+    "height": "1030",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Godland",
+            "search_value": "26810"
+          }
+        ]
+      },
+      "full_title": "Godland",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "080e12",
+            "search_value": "080e12~25~1"
+          },
+          {
+            "display_value": "111514",
+            "search_value": "111514~25~1"
+          },
+          {
+            "display_value": "251d11",
+            "search_value": "251d11~25~1"
+          },
+          {
+            "display_value": "4d3f2e",
+            "search_value": "4d3f2e~25~1"
+          },
+          {
+            "display_value": "695a50",
+            "search_value": "695a50~25~1"
+          },
+          {
+            "display_value": "5c6663",
+            "search_value": "5c6663~25~1"
+          },
+          {
+            "display_value": "7f5e61",
+            "search_value": "7f5e61~25~1"
+          },
+          {
+            "display_value": "5f6c70",
+            "search_value": "5f6c70~25~1"
+          },
+          {
+            "display_value": "907775",
+            "search_value": "907775~25~1"
+          },
+          {
+            "display_value": "758488",
+            "search_value": "758488~25~1"
+          },
+          {
+            "display_value": "96817e",
+            "search_value": "96817e~25~1"
+          },
+          {
+            "display_value": "9b8184",
+            "search_value": "9b8184~25~1"
+          },
+          {
+            "display_value": "97a3b1",
+            "search_value": "97a3b1~25~1"
+          },
+          {
+            "display_value": "b3bdd3",
+            "search_value": "b3bdd3~25~1"
+          },
+          {
+            "display_value": "b8c2da",
+            "search_value": "b8c2da~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "dark blue cape",
+              "search_value": "\"dark+blue+cape\""
+            },
+            {
+              "display_value": "19th century clothing",
+              "search_value": "\"19th+century+clothing\""
+            },
+            {
+              "display_value": "mountains in distance",
+              "search_value": "\"mountains+in+distance\""
+            },
+            {
+              "display_value": "strong stare",
+              "search_value": "\"strong+stare\""
+            },
+            {
+              "display_value": "serious look",
+              "search_value": "\"serious+look\""
+            },
+            {
+              "display_value": "blank expression",
+              "search_value": "\"blank+expression\""
+            },
+            {
+              "display_value": "mounting horse",
+              "search_value": "\"mounting+horse\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Elliott Crosset Hove",
+              "search_value": "Elliott+Crosset+Hove"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1800s",
+              "search_value": "1800s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.33",
+              "search_value": "1.33"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            },
+            {
+              "display_value": "Super 35",
+              "search_value": "Super+35"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Super Speed",
+              "search_value": "Zeiss+Super+Speed"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5203/7203\tVision 3\t50D",
+              "search_value": "5203%2F7203%09Vision+3%0950D"
+            },
+            {
+              "display_value": "5207/7207\tVision 3\t250D",
+              "search_value": "5207%2F7207%09Vision+3%09250D"
+            },
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "River",
+              "search_value": "River"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Iceland",
+              "search_value": "Iceland"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Iceland",
+              "search_value": "Iceland"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:35:31",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Hlynur Pálmason",
+              "search_value": "Hlynur+P%C3%A1lmason"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Maria von Hausswolff",
+              "search_value": "Maria+von+Hausswolff"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Frosti Fridriksson",
+              "search_value": "Frosti+Fridriksson"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Nina Grønlund",
+              "search_value": "Nina+Gr%C3%B8nlund"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Julius Krebs Damsbo",
+              "search_value": "Julius+Krebs+Damsbo"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Nikolai Waldman",
+              "search_value": "Nikolai+Waldman"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

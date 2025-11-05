@@ -1,0 +1,436 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03LBD26K",
+    "image_file": "03LBD26K.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "820",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Apollo 13",
+            "search_value": "1232"
+          }
+        ]
+      },
+      "full_title": "Apollo 13",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1995",
+            "search_value": "1995"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1a1512",
+            "search_value": "1a1512~25~1"
+          },
+          {
+            "display_value": "191f1e",
+            "search_value": "191f1e~25~1"
+          },
+          {
+            "display_value": "283035",
+            "search_value": "283035~25~1"
+          },
+          {
+            "display_value": "393235",
+            "search_value": "393235~25~1"
+          },
+          {
+            "display_value": "383f49",
+            "search_value": "383f49~25~1"
+          },
+          {
+            "display_value": "463b3f",
+            "search_value": "463b3f~25~1"
+          },
+          {
+            "display_value": "513733",
+            "search_value": "513733~25~1"
+          },
+          {
+            "display_value": "384246",
+            "search_value": "384246~25~1"
+          },
+          {
+            "display_value": "3f413e",
+            "search_value": "3f413e~25~1"
+          },
+          {
+            "display_value": "454c56",
+            "search_value": "454c56~25~1"
+          },
+          {
+            "display_value": "4c4e4d",
+            "search_value": "4c4e4d~25~1"
+          },
+          {
+            "display_value": "65524f",
+            "search_value": "65524f~25~1"
+          },
+          {
+            "display_value": "64565a",
+            "search_value": "64565a~25~1"
+          },
+          {
+            "display_value": "7a7d8a",
+            "search_value": "7a7d8a~25~1"
+          },
+          {
+            "display_value": "878b9a",
+            "search_value": "878b9a~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "astronaut",
+              "search_value": "astronaut"
+            },
+            {
+              "display_value": "deep thought",
+              "search_value": "\"deep+thought\""
+            },
+            {
+              "display_value": "leaning forward",
+              "search_value": "\"leaning+forward\""
+            },
+            {
+              "display_value": "looking out window",
+              "search_value": "\"looking+out+window\""
+            },
+            {
+              "display_value": "narrowed eyebrows",
+              "search_value": "\"narrowed+eyebrows\""
+            },
+            {
+              "display_value": "noticing something",
+              "search_value": "\"noticing+something\""
+            },
+            {
+              "display_value": "shot through window",
+              "search_value": "\"shot+through+window\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Tom Hanks",
+              "search_value": "Tom+Hanks"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            },
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Platinum",
+              "search_value": "Panavision+Platinum"
+            },
+            {
+              "display_value": "Panavision Panaflex",
+              "search_value": "Panavision+Panaflex"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Primes",
+              "search_value": "Panavision+Primo+Primes"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5293/7293  \tEXR\t\t200T",
+              "search_value": "5293%2F7293++%09EXR%09%09200T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Space",
+              "search_value": "Space"
+            },
+            {
+              "display_value": "Rocket Ship",
+              "search_value": "Rocket+Ship"
+            },
+            {
+              "display_value": "Cockpit",
+              "search_value": "Cockpit"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Space",
+              "search_value": "Space"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Florida",
+              "search_value": "Florida"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "02:00:21",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Ron Howard",
+              "search_value": "Ron+Howard"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Dean Cundey",
+              "search_value": "Dean+Cundey"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Michael Corenblith",
+              "search_value": "Michael+Corenblith"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Rita Ryack",
+              "search_value": "Rita+Ryack"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Daniel P. Hanley",
+              "search_value": "Daniel+P.+Hanley"
+            },
+            {
+              "display_value": "Mike Hill",
+              "search_value": "Mike+Hill"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

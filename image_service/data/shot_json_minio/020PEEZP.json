@@ -1,0 +1,432 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "020PEEZP",
+    "image_file": "020PEEZP.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "803",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Cars",
+            "search_value": "5521"
+          }
+        ]
+      },
+      "full_title": "Cars",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2006",
+            "search_value": "2006"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "222030",
+            "search_value": "222030~25~1"
+          },
+          {
+            "display_value": "2d2029",
+            "search_value": "2d2029~25~1"
+          },
+          {
+            "display_value": "372926",
+            "search_value": "372926~25~1"
+          },
+          {
+            "display_value": "3b3a4f",
+            "search_value": "3b3a4f~25~1"
+          },
+          {
+            "display_value": "5f515e",
+            "search_value": "5f515e~25~1"
+          },
+          {
+            "display_value": "595571",
+            "search_value": "595571~25~1"
+          },
+          {
+            "display_value": "52664e",
+            "search_value": "52664e~25~1"
+          },
+          {
+            "display_value": "746050",
+            "search_value": "746050~25~1"
+          },
+          {
+            "display_value": "8f8c5b",
+            "search_value": "8f8c5b~25~1"
+          },
+          {
+            "display_value": "bd8a91",
+            "search_value": "bd8a91~25~1"
+          },
+          {
+            "display_value": "92a8b7",
+            "search_value": "92a8b7~25~1"
+          },
+          {
+            "display_value": "bda178",
+            "search_value": "bda178~25~1"
+          },
+          {
+            "display_value": "b2d5dd",
+            "search_value": "b2d5dd~25~1"
+          },
+          {
+            "display_value": "e1d87b",
+            "search_value": "e1d87b~25~1"
+          },
+          {
+            "display_value": "f5e3a1",
+            "search_value": "f5e3a1~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "black pavement",
+              "search_value": "\"black+pavement\""
+            },
+            {
+              "display_value": "asphalt road",
+              "search_value": "\"asphalt+road\""
+            },
+            {
+              "display_value": "black tires",
+              "search_value": "\"black+tires\""
+            },
+            {
+              "display_value": "disney",
+              "search_value": "disney"
+            },
+            {
+              "display_value": "pixar",
+              "search_value": "pixar"
+            },
+            {
+              "display_value": "pleasant surprise",
+              "search_value": "\"pleasant+surprise\""
+            },
+            {
+              "display_value": "yellow car",
+              "search_value": "\"yellow+car\""
+            },
+            {
+              "display_value": "italian car",
+              "search_value": "\"italian+car\""
+            },
+            {
+              "display_value": "forklift",
+              "search_value": "forklift"
+            },
+            {
+              "display_value": "small town",
+              "search_value": "\"small+town\""
+            },
+            {
+              "display_value": "sale sign",
+              "search_value": "\"sale+sign\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Animation"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Tire shop",
+              "search_value": "Tire+shop"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Arizona",
+              "search_value": "Arizona"
+            },
+            {
+              "display_value": "Radiator Springs",
+              "search_value": "Radiator+Springs"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:47:50",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "John Lasseter",
+              "search_value": "John+Lasseter"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Jean-Claude Kalache",
+              "search_value": "Jean-Claude+Kalache"
+            },
+            {
+              "display_value": "Jeremy Lasky",
+              "search_value": "Jeremy+Lasky"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Bob Pauley",
+              "search_value": "Bob+Pauley"
+            },
+            {
+              "display_value": "William Cone",
+              "search_value": "William+Cone"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Ken Schretzmann",
+              "search_value": "Ken+Schretzmann"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "David Lortsher",
+              "search_value": "David+Lortsher"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

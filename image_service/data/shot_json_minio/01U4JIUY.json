@@ -1,0 +1,460 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01U4JIUY",
+    "image_file": "01U4JIUY.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "RIPLEY",
+            "search_value": "50060",
+            "season": "1",
+            "episode": "7"
+          }
+        ]
+      },
+      "full_title": "RIPLEY - Season 1 - Episode 7",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2024",
+            "search_value": "2024"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1d1d1d",
+            "search_value": "1d1d1d~25~1"
+          },
+          {
+            "display_value": "6a6a6a",
+            "search_value": "6a6a6a~25~1"
+          },
+          {
+            "display_value": "8e8e8e",
+            "search_value": "8e8e8e~25~1"
+          },
+          {
+            "display_value": "eaeaea",
+            "search_value": "eaeaea~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "black coat",
+              "search_value": "\"black+coat\""
+            },
+            {
+              "display_value": "black curtain",
+              "search_value": "\"black+curtain\""
+            },
+            {
+              "display_value": "black hair",
+              "search_value": "\"black+hair\""
+            },
+            {
+              "display_value": "confused",
+              "search_value": "confused"
+            },
+            {
+              "display_value": "desk",
+              "search_value": "desk"
+            },
+            {
+              "display_value": "sheers",
+              "search_value": "sheers"
+            },
+            {
+              "display_value": "slicked hair",
+              "search_value": "\"slicked+hair\""
+            },
+            {
+              "display_value": "white shirt",
+              "search_value": "\"white+shirt\""
+            },
+            {
+              "display_value": "stoic",
+              "search_value": "stoic"
+            },
+            {
+              "display_value": "window",
+              "search_value": "window"
+            },
+            {
+              "display_value": "black suit",
+              "search_value": "\"black+suit\""
+            },
+            {
+              "display_value": "chair",
+              "search_value": "chair"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Andrew Scott",
+              "search_value": "Andrew+Scott"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1960s",
+              "search_value": "1960s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            },
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA LF",
+              "search_value": "ARRI+ALEXA+LF"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision VA Lenses",
+              "search_value": "Panavision+VA+Lenses"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Office",
+              "search_value": "Office"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Palermo",
+              "search_value": "Palermo"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Palermo",
+              "search_value": "Palermo"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:40:01",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Steven Zaillian",
+              "search_value": "Steven+Zaillian"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Robert Elswit",
+              "search_value": "Robert+Elswit"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "David Gropman",
+              "search_value": "David+Gropman"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Maurizio Millenotti",
+              "search_value": "Maurizio+Millenotti"
+            },
+            {
+              "display_value": "Giovanni Casalnuovo",
+              "search_value": "Giovanni+Casalnuovo"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Joshua Raymond Lee",
+              "search_value": "Joshua+Raymond+Lee"
+            },
+            {
+              "display_value": "David O. Rogers",
+              "search_value": "David+O.+Rogers"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Stefan Sonnenfeld",
+              "search_value": "Stefan+Sonnenfeld"
+            },
+            {
+              "display_value": "J. Cody Baker",
+              "search_value": "J.+Cody+Baker"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00CZ8T7A",
+    "image_file": "00CZ8T7A.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "An Angel at My Table",
+            "search_value": "3321"
+          }
+        ]
+      },
+      "full_title": "An Angel at My Table",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1990",
+            "search_value": "1990"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "040203",
+            "search_value": "040203~25~1"
+          },
+          {
+            "display_value": "040604",
+            "search_value": "040604~25~1"
+          },
+          {
+            "display_value": "301d0e",
+            "search_value": "301d0e~25~1"
+          },
+          {
+            "display_value": "6a2e1b",
+            "search_value": "6a2e1b~25~1"
+          },
+          {
+            "display_value": "504228",
+            "search_value": "504228~25~1"
+          },
+          {
+            "display_value": "745b3e",
+            "search_value": "745b3e~25~1"
+          },
+          {
+            "display_value": "607357",
+            "search_value": "607357~25~1"
+          },
+          {
+            "display_value": "ad7058",
+            "search_value": "ad7058~25~1"
+          },
+          {
+            "display_value": "7b8871",
+            "search_value": "7b8871~25~1"
+          },
+          {
+            "display_value": "8a8866",
+            "search_value": "8a8866~25~1"
+          },
+          {
+            "display_value": "9ea483",
+            "search_value": "9ea483~25~1"
+          },
+          {
+            "display_value": "9fae95",
+            "search_value": "9fae95~25~1"
+          },
+          {
+            "display_value": "b8c7ae",
+            "search_value": "b8c7ae~25~1"
+          },
+          {
+            "display_value": "bec7ab",
+            "search_value": "bec7ab~25~1"
+          },
+          {
+            "display_value": "cad3b4",
+            "search_value": "cad3b4~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "beige",
+              "search_value": "beige"
+            },
+            {
+              "display_value": "collard",
+              "search_value": "collard"
+            },
+            {
+              "display_value": "glasses",
+              "search_value": "glasses"
+            },
+            {
+              "display_value": "shirt",
+              "search_value": "shirt"
+            },
+            {
+              "display_value": "sun",
+              "search_value": "sun"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1950s",
+              "search_value": "1950s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 16mm",
+              "search_value": "Film+-+16mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Restaurant",
+              "search_value": "Restaurant"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Spain",
+              "search_value": "Spain"
+            },
+            {
+              "display_value": "Ibiza",
+              "search_value": "Ibiza"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Spain",
+              "search_value": "Spain"
+            },
+            {
+              "display_value": "Ibiza",
+              "search_value": "Ibiza"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:57:20",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Jane Campion",
+              "search_value": "Jane+Campion"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Stuart Dryburgh",
+              "search_value": "Stuart+Dryburgh"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Grant Major",
+              "search_value": "Grant+Major"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Glenys Jackson",
+              "search_value": "Glenys+Jackson"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Veronika Jenet",
+              "search_value": "Veronika+Jenet"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,498 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "043ZAQBW",
+    "image_file": "043ZAQBW.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1012",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "X",
+            "search_value": "11028"
+          }
+        ]
+      },
+      "full_title": "X",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0a0c0f",
+            "search_value": "0a0c0f~25~1"
+          },
+          {
+            "display_value": "161211",
+            "search_value": "161211~25~1"
+          },
+          {
+            "display_value": "111615",
+            "search_value": "111615~25~1"
+          },
+          {
+            "display_value": "181517",
+            "search_value": "181517~25~1"
+          },
+          {
+            "display_value": "304052",
+            "search_value": "304052~25~1"
+          },
+          {
+            "display_value": "433d40",
+            "search_value": "433d40~25~1"
+          },
+          {
+            "display_value": "453e3b",
+            "search_value": "453e3b~25~1"
+          },
+          {
+            "display_value": "564f52",
+            "search_value": "564f52~25~1"
+          },
+          {
+            "display_value": "455a6f",
+            "search_value": "455a6f~25~1"
+          },
+          {
+            "display_value": "635852",
+            "search_value": "635852~25~1"
+          },
+          {
+            "display_value": "b08741",
+            "search_value": "b08741~25~1"
+          },
+          {
+            "display_value": "869fb0",
+            "search_value": "869fb0~25~1"
+          },
+          {
+            "display_value": "a89b87",
+            "search_value": "a89b87~25~1"
+          },
+          {
+            "display_value": "e9d37b",
+            "search_value": "e9d37b~25~1"
+          },
+          {
+            "display_value": "f4f3e7",
+            "search_value": "f4f3e7~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "disturbing",
+              "search_value": "disturbing"
+            },
+            {
+              "display_value": "eerie",
+              "search_value": "eerie"
+            },
+            {
+              "display_value": "horror",
+              "search_value": "horror"
+            },
+            {
+              "display_value": "scary",
+              "search_value": "scary"
+            },
+            {
+              "display_value": "horrifying",
+              "search_value": "horrifying"
+            },
+            {
+              "display_value": "injured",
+              "search_value": "injured"
+            },
+            {
+              "display_value": "killed",
+              "search_value": "killed"
+            },
+            {
+              "display_value": "murdered",
+              "search_value": "murdered"
+            },
+            {
+              "display_value": "slasher",
+              "search_value": "slasher"
+            },
+            {
+              "display_value": "blood",
+              "search_value": "blood"
+            },
+            {
+              "display_value": "bleeding",
+              "search_value": "bleeding"
+            },
+            {
+              "display_value": "blood squirting",
+              "search_value": "\"blood+squirting\""
+            },
+            {
+              "display_value": "blood splatter",
+              "search_value": "\"blood+splatter\""
+            },
+            {
+              "display_value": "shocked",
+              "search_value": "shocked"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Owen Campbell",
+              "search_value": "Owen+Campbell"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Moonlight",
+              "search_value": "Moonlight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            },
+            {
+              "display_value": "Mixed light",
+              "search_value": "Mixed+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.90",
+              "search_value": "1.90"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Sony VENICE",
+              "search_value": "Sony+VENICE"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Hawk Lenses",
+              "search_value": "Hawk+Lenses"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Farm",
+              "search_value": "Farm"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Texas",
+              "search_value": "Texas"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Oceania",
+              "search_value": "Oceania"
+            },
+            {
+              "display_value": "New Zealand",
+              "search_value": "New+Zealand"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:59:13",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Slasher",
+              "search_value": "Movie%2FTV+-+Slasher"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Ti West",
+              "search_value": "Ti+West"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Eliot Rockett",
+              "search_value": "Eliot+Rockett"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Thomas S. Hammock",
+              "search_value": "Thomas+S.+Hammock"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Malgosia Turzanska",
+              "search_value": "Malgosia+Turzanska"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Ti West",
+              "search_value": "Ti+West"
+            },
+            {
+              "display_value": "David Kashevaroff",
+              "search_value": "David+Kashevaroff"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Damian McDonnell",
+              "search_value": "Damian+McDonnell"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,520 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03WPPRON",
+    "image_file": "03WPPRON.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Italian Job",
+            "search_value": "10904"
+          }
+        ]
+      },
+      "full_title": "The Italian Job",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2003",
+            "search_value": "2003"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1a2221",
+            "search_value": "1a2221~25~1"
+          },
+          {
+            "display_value": "292927",
+            "search_value": "292927~25~1"
+          },
+          {
+            "display_value": "262f37",
+            "search_value": "262f37~25~1"
+          },
+          {
+            "display_value": "313031",
+            "search_value": "313031~25~1"
+          },
+          {
+            "display_value": "373f4a",
+            "search_value": "373f4a~25~1"
+          },
+          {
+            "display_value": "433d44",
+            "search_value": "433d44~25~1"
+          },
+          {
+            "display_value": "3b4143",
+            "search_value": "3b4143~25~1"
+          },
+          {
+            "display_value": "3b4444",
+            "search_value": "3b4444~25~1"
+          },
+          {
+            "display_value": "554f55",
+            "search_value": "554f55~25~1"
+          },
+          {
+            "display_value": "4f5867",
+            "search_value": "4f5867~25~1"
+          },
+          {
+            "display_value": "6e7d98",
+            "search_value": "6e7d98~25~1"
+          },
+          {
+            "display_value": "688596",
+            "search_value": "688596~25~1"
+          },
+          {
+            "display_value": "90a6c1",
+            "search_value": "90a6c1~25~1"
+          },
+          {
+            "display_value": "abc1d7",
+            "search_value": "abc1d7~25~1"
+          },
+          {
+            "display_value": "b3cddf",
+            "search_value": "b3cddf~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "driving off bridge",
+              "search_value": "\"driving+off+bridge\""
+            },
+            {
+              "display_value": "driving off the edge",
+              "search_value": "\"driving+off+the+edge\""
+            },
+            {
+              "display_value": "car in lake",
+              "search_value": "\"car+in+lake\""
+            },
+            {
+              "display_value": "dropping into lake",
+              "search_value": "\"dropping+into+lake\""
+            },
+            {
+              "display_value": "freezing waters",
+              "search_value": "\"freezing+waters\""
+            },
+            {
+              "display_value": "snow covered mountains",
+              "search_value": "\"snow+covered+mountains\""
+            },
+            {
+              "display_value": "icy water",
+              "search_value": "\"icy+water\""
+            },
+            {
+              "display_value": "land rover sinking",
+              "search_value": "\"land+rover+sinking\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Edward Norton",
+              "search_value": "Edward+Norton"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 35 III",
+              "search_value": "Arriflex+35+III"
+            },
+            {
+              "display_value": "Bell & Howell Eyemo",
+              "search_value": "Bell+%26+Howell+Eyemo"
+            },
+            {
+              "display_value": "Panavision Panaflex Gold",
+              "search_value": "Panavision+Panaflex+Gold"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Primes",
+              "search_value": "Panavision+Primo+Primes"
+            },
+            {
+              "display_value": "Panavision Ultra Speed Zeiss",
+              "search_value": "Panavision+Ultra+Speed+Zeiss"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5246/7246\tVision \t250D",
+              "search_value": "5246%2F7246%09Vision+%09250D"
+            },
+            {
+              "display_value": "5248/7248\tEXR\t\t100T",
+              "search_value": "5248%2F7248%09EXR%09%09100T"
+            },
+            {
+              "display_value": "5279/7279\tVision\t500T",
+              "search_value": "5279%2F7279%09Vision%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Alpine Road",
+              "search_value": "Alpine+Road"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Dolomites",
+              "search_value": "Dolomites"
+            },
+            {
+              "display_value": "Fedaia Pass",
+              "search_value": "Fedaia+Pass"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Dolomites",
+              "search_value": "Dolomites"
+            },
+            {
+              "display_value": "Fedaia Pass",
+              "search_value": "Fedaia+Pass"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:22:03",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "F. Gary Gray",
+              "search_value": "F.+Gary+Gray"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Wally Pfister",
+              "search_value": "Wally+Pfister"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Charles Wood",
+              "search_value": "Charles+Wood"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Mark Bridges",
+              "search_value": "Mark+Bridges"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Richard Francis-Bruce",
+              "search_value": "Richard+Francis-Bruce"
+            },
+            {
+              "display_value": "Christopher Rouse",
+              "search_value": "Christopher+Rouse"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Donald Freeman",
+              "search_value": "Donald+Freeman"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

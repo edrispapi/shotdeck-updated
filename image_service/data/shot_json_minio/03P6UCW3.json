@@ -1,0 +1,396 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03P6UCW3",
+    "image_file": "03P6UCW3.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "819",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Godzilla vs. Hedorah",
+            "search_value": "55909"
+          }
+        ]
+      },
+      "full_title": "Godzilla vs. Hedorah",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1971",
+            "search_value": "1971"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1e090b",
+            "search_value": "1e090b~25~1"
+          },
+          {
+            "display_value": "330f0a",
+            "search_value": "330f0a~25~1"
+          },
+          {
+            "display_value": "583236",
+            "search_value": "583236~25~1"
+          },
+          {
+            "display_value": "71271b",
+            "search_value": "71271b~25~1"
+          },
+          {
+            "display_value": "724448",
+            "search_value": "724448~25~1"
+          },
+          {
+            "display_value": "8c4331",
+            "search_value": "8c4331~25~1"
+          },
+          {
+            "display_value": "b6694d",
+            "search_value": "b6694d~25~1"
+          },
+          {
+            "display_value": "be7d6f",
+            "search_value": "be7d6f~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "monster",
+              "search_value": "monster"
+            },
+            {
+              "display_value": "red eye",
+              "search_value": "\"red+eye\""
+            },
+            {
+              "display_value": "glowing eye",
+              "search_value": "\"glowing+eye\""
+            },
+            {
+              "display_value": "eye closing",
+              "search_value": "\"eye+closing\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Close Up",
+              "search_value": "Extreme+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Tohoscope",
+              "search_value": "Tohoscope"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Field ",
+              "search_value": "Field+"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Japan",
+              "search_value": "Japan"
+            },
+            {
+              "display_value": "Mount Fuji",
+              "search_value": "Mount+Fuji"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Japan",
+              "search_value": "Japan"
+            },
+            {
+              "display_value": "Tokyo",
+              "search_value": "Tokyo"
+            },
+            {
+              "display_value": "Toho Studios",
+              "search_value": "Toho+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "vfx_backing": {
+          "filter": "vfx_backing",
+          "filter_name": "VFX",
+          "values": [
+            {
+              "display_value": "Miniature",
+              "search_value": "Miniature"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Monster",
+              "search_value": "Movie%2FTV+-+Monster"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Yoshimitsu Banno",
+              "search_value": "Yoshimitsu+Banno"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Yôichi Manoda",
+              "search_value": "Y%C3%B4ichi+Manoda"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Yasuyuki Inoue",
+              "search_value": "Yasuyuki+Inoue"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Yoshitami Kuroiwa",
+              "search_value": "Yoshitami+Kuroiwa"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

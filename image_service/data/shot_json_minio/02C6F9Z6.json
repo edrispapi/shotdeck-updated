@@ -1,0 +1,478 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02C6F9Z6",
+    "image_file": "02C6F9Z6.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Frida",
+            "search_value": "1933"
+          }
+        ]
+      },
+      "full_title": "Frida",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2002",
+            "search_value": "2002"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0a0f0a",
+            "search_value": "0a0f0a~25~1"
+          },
+          {
+            "display_value": "1c0c09",
+            "search_value": "1c0c09~25~1"
+          },
+          {
+            "display_value": "0f1216",
+            "search_value": "0f1216~25~1"
+          },
+          {
+            "display_value": "3f1113",
+            "search_value": "3f1113~25~1"
+          },
+          {
+            "display_value": "602e27",
+            "search_value": "602e27~25~1"
+          },
+          {
+            "display_value": "424530",
+            "search_value": "424530~25~1"
+          },
+          {
+            "display_value": "850a0e",
+            "search_value": "850a0e~25~1"
+          },
+          {
+            "display_value": "65585d",
+            "search_value": "65585d~25~1"
+          },
+          {
+            "display_value": "7a5b4f",
+            "search_value": "7a5b4f~25~1"
+          },
+          {
+            "display_value": "6c6b7e",
+            "search_value": "6c6b7e~25~1"
+          },
+          {
+            "display_value": "7d768a",
+            "search_value": "7d768a~25~1"
+          },
+          {
+            "display_value": "867988",
+            "search_value": "867988~25~1"
+          },
+          {
+            "display_value": "96776f",
+            "search_value": "96776f~25~1"
+          },
+          {
+            "display_value": "97888f",
+            "search_value": "97888f~25~1"
+          },
+          {
+            "display_value": "a89288",
+            "search_value": "a89288~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "canvases",
+              "search_value": "canvases"
+            },
+            {
+              "display_value": "walking cane",
+              "search_value": "\"walking+cane\""
+            },
+            {
+              "display_value": "red dress",
+              "search_value": "\"red+dress\""
+            },
+            {
+              "display_value": "passenger",
+              "search_value": "passenger"
+            },
+            {
+              "display_value": "bus",
+              "search_value": "bus"
+            },
+            {
+              "display_value": "back to camera",
+              "search_value": "\"back+to+camera\""
+            },
+            {
+              "display_value": "getting picked up",
+              "search_value": "\"getting+picked+up\""
+            },
+            {
+              "display_value": "driver",
+              "search_value": "driver"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1920s",
+              "search_value": "1920s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 435",
+              "search_value": "Arriflex+435"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Ultra Prime",
+              "search_value": "Zeiss+Ultra+Prime"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5245/7245     EXR         50D",
+              "search_value": "5245%2F7245+++++EXR+++++++++50D"
+            },
+            {
+              "display_value": "5246/7246\tVision \t250D",
+              "search_value": "5246%2F7246%09Vision+%09250D"
+            },
+            {
+              "display_value": "5274/7274      Vision     200T",
+              "search_value": "5274%2F7274++++++Vision+++++200T"
+            },
+            {
+              "display_value": "5279/7279\tVision\t500T",
+              "search_value": "5279%2F7279%09Vision%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Alley",
+              "search_value": "Alley"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Mexico",
+              "search_value": "Mexico"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Mexico",
+              "search_value": "Mexico"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:21:14",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Biopic",
+              "search_value": "Movie%2FTV+-+Biopic"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Julie Taymor",
+              "search_value": "Julie+Taymor"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Rodrigo Prieto",
+              "search_value": "Rodrigo+Prieto"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Felipe Fernández del Paso",
+              "search_value": "Felipe+Fern%C3%A1ndez+del+Paso"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Julie Weiss",
+              "search_value": "Julie+Weiss"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Françoise Bonnot",
+              "search_value": "Fran%C3%A7oise+Bonnot"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Steve Bowen",
+              "search_value": "Steve+Bowen"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

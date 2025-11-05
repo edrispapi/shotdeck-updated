@@ -1,0 +1,466 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "013I5RLE",
+    "image_file": "013I5RLE.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Age of Adaline",
+            "search_value": "1264"
+          }
+        ]
+      },
+      "full_title": "The Age of Adaline",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2015",
+            "search_value": "2015"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "130c10",
+            "search_value": "130c10~25~1"
+          },
+          {
+            "display_value": "0b1319",
+            "search_value": "0b1319~25~1"
+          },
+          {
+            "display_value": "18201f",
+            "search_value": "18201f~25~1"
+          },
+          {
+            "display_value": "26221d",
+            "search_value": "26221d~25~1"
+          },
+          {
+            "display_value": "334050",
+            "search_value": "334050~25~1"
+          },
+          {
+            "display_value": "434236",
+            "search_value": "434236~25~1"
+          },
+          {
+            "display_value": "2b4651",
+            "search_value": "2b4651~25~1"
+          },
+          {
+            "display_value": "445966",
+            "search_value": "445966~25~1"
+          },
+          {
+            "display_value": "655b54",
+            "search_value": "655b54~25~1"
+          },
+          {
+            "display_value": "6f575e",
+            "search_value": "6f575e~25~1"
+          },
+          {
+            "display_value": "5c6461",
+            "search_value": "5c6461~25~1"
+          },
+          {
+            "display_value": "a26775",
+            "search_value": "a26775~25~1"
+          },
+          {
+            "display_value": "95898c",
+            "search_value": "95898c~25~1"
+          },
+          {
+            "display_value": "988f88",
+            "search_value": "988f88~25~1"
+          },
+          {
+            "display_value": "929aa5",
+            "search_value": "929aa5~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "neck scarf",
+              "search_value": "\"neck+scarf\""
+            },
+            {
+              "display_value": "serious",
+              "search_value": "serious"
+            },
+            {
+              "display_value": "tense",
+              "search_value": "tense"
+            },
+            {
+              "display_value": "having lunch",
+              "search_value": "\"having+lunch\""
+            },
+            {
+              "display_value": "bob haircut",
+              "search_value": "\"bob+haircut\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Ellen Burstyn",
+              "search_value": "Ellen+Burstyn"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 16mm",
+              "search_value": "Film+-+16mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            },
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arri SR3/SR3HS",
+              "search_value": "Arri+SR3%2FSR3HS"
+            },
+            {
+              "display_value": "RED Epic Dragon",
+              "search_value": "RED+Epic+Dragon"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Hawk V-Lite",
+              "search_value": "Hawk+V-Lite"
+            },
+            {
+              "display_value": "Kowa Cine Prominar",
+              "search_value": "Kowa+Cine+Prominar"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "Tri-X reversal\t7278\t200D/160T",
+              "search_value": "Tri-X+reversal%097278%09200D%2F160T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Restaurant",
+              "search_value": "Restaurant"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "San Francisco",
+              "search_value": "San+Francisco"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Canada",
+              "search_value": "Canada"
+            },
+            {
+              "display_value": "British Columbia",
+              "search_value": "British+Columbia"
+            },
+            {
+              "display_value": "Vancouver",
+              "search_value": "Vancouver"
+            },
+            {
+              "display_value": "Water St. Cafe",
+              "search_value": "Water+St.+Cafe"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Lee Toland Krieger",
+              "search_value": "Lee+Toland+Krieger"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "David Lanzenberg",
+              "search_value": "David+Lanzenberg"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Claude Par",
+              "search_value": "Claude+Par"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Angus Strathie",
+              "search_value": "Angus+Strathie"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Melissa Kent",
+              "search_value": "Melissa+Kent"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Stephen Nakamura",
+              "search_value": "Stephen+Nakamura"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

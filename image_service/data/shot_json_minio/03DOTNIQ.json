@@ -1,0 +1,512 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03DOTNIQ",
+    "image_file": "03DOTNIQ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Moon Knight",
+            "search_value": "13326",
+            "season": "1",
+            "episode": "4"
+          }
+        ]
+      },
+      "full_title": "Moon Knight - Season 1 - Episode 4",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d0d0f",
+            "search_value": "0d0d0f~25~1"
+          },
+          {
+            "display_value": "120e0f",
+            "search_value": "120e0f~25~1"
+          },
+          {
+            "display_value": "121312",
+            "search_value": "121312~25~1"
+          },
+          {
+            "display_value": "24150f",
+            "search_value": "24150f~25~1"
+          },
+          {
+            "display_value": "3b3e47",
+            "search_value": "3b3e47~25~1"
+          },
+          {
+            "display_value": "553a2b",
+            "search_value": "553a2b~25~1"
+          },
+          {
+            "display_value": "4f3e2e",
+            "search_value": "4f3e2e~25~1"
+          },
+          {
+            "display_value": "514147",
+            "search_value": "514147~25~1"
+          },
+          {
+            "display_value": "7a5b47",
+            "search_value": "7a5b47~25~1"
+          },
+          {
+            "display_value": "9c7865",
+            "search_value": "9c7865~25~1"
+          },
+          {
+            "display_value": "9b7b62",
+            "search_value": "9b7b62~25~1"
+          },
+          {
+            "display_value": "ab876d",
+            "search_value": "ab876d~25~1"
+          },
+          {
+            "display_value": "ddc199",
+            "search_value": "ddc199~25~1"
+          },
+          {
+            "display_value": "e8cea5",
+            "search_value": "e8cea5~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "curving",
+              "search_value": "curving"
+            },
+            {
+              "display_value": "hiking",
+              "search_value": "hiking"
+            },
+            {
+              "display_value": "sandstone",
+              "search_value": "sandstone"
+            },
+            {
+              "display_value": "traveling",
+              "search_value": "traveling"
+            },
+            {
+              "display_value": "walking",
+              "search_value": "walking"
+            },
+            {
+              "display_value": "rocks",
+              "search_value": "rocks"
+            },
+            {
+              "display_value": "canyon",
+              "search_value": "canyon"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            },
+            {
+              "display_value": "Sunrise",
+              "search_value": "Sunrise"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital, Digital - Large Format",
+              "search_value": "Digital%2C+Digital+-+Large+Format"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Aerial",
+              "search_value": "Aerial"
+            },
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA LF",
+              "search_value": "ARRI+ALEXA+LF"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision H series",
+              "search_value": "Panavision+H+series"
+            },
+            {
+              "display_value": "Panavision Ultra Vista",
+              "search_value": "Panavision+Ultra+Vista"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Desert",
+              "search_value": "Desert"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "Egypt ",
+              "search_value": "Egypt+"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "Jordan",
+              "search_value": "Jordan"
+            },
+            {
+              "display_value": "Wadi Rum Desert",
+              "search_value": "Wadi+Rum+Desert"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:07:36",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Marvel Cinematic Universe",
+              "search_value": "Movie%2FTV+-+Marvel+Cinematic+Universe"
+            },
+            {
+              "display_value": "Mental Illness",
+              "search_value": "Movie%2FTV+-+Mental+Illness"
+            },
+            {
+              "display_value": "Psychological",
+              "search_value": "Movie%2FTV+-+Psychological"
+            },
+            {
+              "display_value": "Supernatural",
+              "search_value": "Movie%2FTV+-+Supernatural"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Justin Benson",
+              "search_value": "Justin+Benson"
+            },
+            {
+              "display_value": "Aaron Moorhead",
+              "search_value": "Aaron+Moorhead"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Andrew Droz Palermo",
+              "search_value": "Andrew+Droz+Palermo"
+            },
+            {
+              "display_value": "Russell Carpenter",
+              "search_value": "Russell+Carpenter"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Stefania Cella",
+              "search_value": "Stefania+Cella"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Meghan Kasperlik",
+              "search_value": "Meghan+Kasperlik"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Ahmed Hafez",
+              "search_value": "Ahmed+Hafez"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Travis Flynn",
+              "search_value": "Travis+Flynn"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

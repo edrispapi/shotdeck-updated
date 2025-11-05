@@ -1,0 +1,498 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00S9CZ23",
+    "image_file": "00S9CZ23.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "802",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Rez Ball",
+            "search_value": "58612"
+          }
+        ]
+      },
+      "full_title": "Rez Ball",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2024",
+            "search_value": "2024"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d1417",
+            "search_value": "0d1417~25~1"
+          },
+          {
+            "display_value": "331217",
+            "search_value": "331217~25~1"
+          },
+          {
+            "display_value": "342722",
+            "search_value": "342722~25~1"
+          },
+          {
+            "display_value": "233231",
+            "search_value": "233231~25~1"
+          },
+          {
+            "display_value": "344547",
+            "search_value": "344547~25~1"
+          },
+          {
+            "display_value": "324745",
+            "search_value": "324745~25~1"
+          },
+          {
+            "display_value": "7c181f",
+            "search_value": "7c181f~25~1"
+          },
+          {
+            "display_value": "3a4b4d",
+            "search_value": "3a4b4d~25~1"
+          },
+          {
+            "display_value": "6d5042",
+            "search_value": "6d5042~25~1"
+          },
+          {
+            "display_value": "56685e",
+            "search_value": "56685e~25~1"
+          },
+          {
+            "display_value": "768675",
+            "search_value": "768675~25~1"
+          },
+          {
+            "display_value": "8d9b89",
+            "search_value": "8d9b89~25~1"
+          },
+          {
+            "display_value": "a5a28a",
+            "search_value": "a5a28a~25~1"
+          },
+          {
+            "display_value": "c4d7c1",
+            "search_value": "c4d7c1~25~1"
+          },
+          {
+            "display_value": "e6d9b6",
+            "search_value": "e6d9b6~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "plaid shirt",
+              "search_value": "\"plaid+shirt\""
+            },
+            {
+              "display_value": "gray hoodie",
+              "search_value": "\"gray+hoodie\""
+            },
+            {
+              "display_value": "backwards cap",
+              "search_value": "\"backwards+cap\""
+            },
+            {
+              "display_value": "driver",
+              "search_value": "driver"
+            },
+            {
+              "display_value": "passenger",
+              "search_value": "passenger"
+            },
+            {
+              "display_value": "earrings",
+              "search_value": "earrings"
+            },
+            {
+              "display_value": "smiling",
+              "search_value": "smiling"
+            },
+            {
+              "display_value": "pulling up",
+              "search_value": "\"pulling+up\""
+            },
+            {
+              "display_value": "window rolled down",
+              "search_value": "\"window+rolled+down\""
+            },
+            {
+              "display_value": "couple",
+              "search_value": "couple"
+            },
+            {
+              "display_value": "high school sweethearts",
+              "search_value": "\"high+school+sweethearts\""
+            },
+            {
+              "display_value": "inviting out",
+              "search_value": "\"inviting+out\""
+            },
+            {
+              "display_value": "seatbelt",
+              "search_value": "seatbelt"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Amber Midthunder",
+              "search_value": "Amber+Midthunder"
+            },
+            {
+              "display_value": "Devin Sampson-Craig",
+              "search_value": "Devin+Sampson-Craig"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA 35",
+              "search_value": "ARRI+ALEXA+35"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Neighborhood Street",
+              "search_value": "Neighborhood+Street"
+            },
+            {
+              "display_value": "Car",
+              "search_value": "Car"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New Mexico",
+              "search_value": "New+Mexico"
+            },
+            {
+              "display_value": "Chuska",
+              "search_value": "Chuska"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New Mexico",
+              "search_value": "New+Mexico"
+            },
+            {
+              "display_value": "Navajo Nation",
+              "search_value": "Navajo+Nation"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:10:10",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Sydney Freeland",
+              "search_value": "Sydney+Freeland"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Kira Kelly",
+              "search_value": "Kira+Kelly"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Richard Toyon",
+              "search_value": "Richard+Toyon"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Olivia Miles",
+              "search_value": "Olivia+Miles"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Jessica Baclesse",
+              "search_value": "Jessica+Baclesse"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Tom Poole",
+              "search_value": "Tom+Poole"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

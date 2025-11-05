@@ -1,0 +1,520 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "007EFB06",
+    "image_file": "007EFB06.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Beach",
+            "search_value": "3233"
+          }
+        ]
+      },
+      "full_title": "The Beach",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2000",
+            "search_value": "2000"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "161817",
+            "search_value": "161817~25~1"
+          },
+          {
+            "display_value": "2a2a28",
+            "search_value": "2a2a28~25~1"
+          },
+          {
+            "display_value": "2d3135",
+            "search_value": "2d3135~25~1"
+          },
+          {
+            "display_value": "393738",
+            "search_value": "393738~25~1"
+          },
+          {
+            "display_value": "3a3f46",
+            "search_value": "3a3f46~25~1"
+          },
+          {
+            "display_value": "3a4144",
+            "search_value": "3a4144~25~1"
+          },
+          {
+            "display_value": "41403d",
+            "search_value": "41403d~25~1"
+          },
+          {
+            "display_value": "4f5358",
+            "search_value": "4f5358~25~1"
+          },
+          {
+            "display_value": "525554",
+            "search_value": "525554~25~1"
+          },
+          {
+            "display_value": "6b6467",
+            "search_value": "6b6467~25~1"
+          },
+          {
+            "display_value": "716361",
+            "search_value": "716361~25~1"
+          },
+          {
+            "display_value": "8f7577",
+            "search_value": "8f7577~25~1"
+          },
+          {
+            "display_value": "9c736e",
+            "search_value": "9c736e~25~1"
+          },
+          {
+            "display_value": "a9897a",
+            "search_value": "a9897a~25~1"
+          },
+          {
+            "display_value": "b0cac2",
+            "search_value": "b0cac2~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "water",
+              "search_value": "water"
+            },
+            {
+              "display_value": "sea",
+              "search_value": "sea"
+            },
+            {
+              "display_value": "ocean",
+              "search_value": "ocean"
+            },
+            {
+              "display_value": "wearing t-shirt",
+              "search_value": "\"wearing+t-shirt\""
+            },
+            {
+              "display_value": "looking at ocean",
+              "search_value": "\"looking+at+ocean\""
+            },
+            {
+              "display_value": "sitting on ground",
+              "search_value": "\"sitting+on+ground\""
+            },
+            {
+              "display_value": "sitting alone",
+              "search_value": "\"sitting+alone\""
+            },
+            {
+              "display_value": "sunset",
+              "search_value": "sunset"
+            },
+            {
+              "display_value": "sun on horizon",
+              "search_value": "\"sun+on+horizon\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Leonardo DiCaprio",
+              "search_value": "Leonardo+DiCaprio"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            },
+            {
+              "display_value": "Sunset",
+              "search_value": "Sunset"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Silhouette",
+              "search_value": "Silhouette"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 435",
+              "search_value": "Arriflex+435"
+            },
+            {
+              "display_value": "Moviecam SL",
+              "search_value": "Moviecam+SL"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke S4/ i",
+              "search_value": "Cooke+S4%2F+i"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5248/7248\tEXR\t\t100T",
+              "search_value": "5248%2F7248%09EXR%09%09100T"
+            },
+            {
+              "display_value": "5277/7277\tVision\t320T",
+              "search_value": "5277%2F7277%09Vision%09320T"
+            },
+            {
+              "display_value": "5289/7289\tVision \t800T",
+              "search_value": "5289%2F7289%09Vision+%09800T"
+            },
+            {
+              "display_value": "Eastman EXR 50D 5245",
+              "search_value": "Eastman+EXR+50D+5245"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Mountain Peak",
+              "search_value": "Mountain+Peak"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Thailand",
+              "search_value": "Thailand"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Thailand",
+              "search_value": "Thailand"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:20:42",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Danny Boyle",
+              "search_value": "Danny+Boyle"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Darius Khondji",
+              "search_value": "Darius+Khondji"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Andrew McAlpine",
+              "search_value": "Andrew+McAlpine"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Rachael Fleming",
+              "search_value": "Rachael+Fleming"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Masahiro Hirakubo",
+              "search_value": "Masahiro+Hirakubo"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Mark Waddell",
+              "search_value": "Mark+Waddell"
+            },
+            {
+              "display_value": "Yvan Lucas",
+              "search_value": "Yvan+Lucas"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

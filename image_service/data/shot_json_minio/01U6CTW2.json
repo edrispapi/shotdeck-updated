@@ -1,0 +1,456 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01U6CTW2",
+    "image_file": "01U6CTW2.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "794",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Salt and Fire",
+            "search_value": "3589"
+          }
+        ]
+      },
+      "full_title": "Salt and Fire",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2016",
+            "search_value": "2016"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "160f16",
+            "search_value": "160f16~25~1"
+          },
+          {
+            "display_value": "1d1d26",
+            "search_value": "1d1d26~25~1"
+          },
+          {
+            "display_value": "372a27",
+            "search_value": "372a27~25~1"
+          },
+          {
+            "display_value": "2f3332",
+            "search_value": "2f3332~25~1"
+          },
+          {
+            "display_value": "4f3835",
+            "search_value": "4f3835~25~1"
+          },
+          {
+            "display_value": "525856",
+            "search_value": "525856~25~1"
+          },
+          {
+            "display_value": "51585e",
+            "search_value": "51585e~25~1"
+          },
+          {
+            "display_value": "695952",
+            "search_value": "695952~25~1"
+          },
+          {
+            "display_value": "6d5c60",
+            "search_value": "6d5c60~25~1"
+          },
+          {
+            "display_value": "938066",
+            "search_value": "938066~25~1"
+          },
+          {
+            "display_value": "9a9498",
+            "search_value": "9a9498~25~1"
+          },
+          {
+            "display_value": "a1978a",
+            "search_value": "a1978a~25~1"
+          },
+          {
+            "display_value": "a9b5c2",
+            "search_value": "a9b5c2~25~1"
+          },
+          {
+            "display_value": "b4c0cd",
+            "search_value": "b4c0cd~25~1"
+          },
+          {
+            "display_value": "cad5dc",
+            "search_value": "cad5dc~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "alcohol",
+              "search_value": "alcohol"
+            },
+            {
+              "display_value": "bottle",
+              "search_value": "bottle"
+            },
+            {
+              "display_value": "celebration",
+              "search_value": "celebration"
+            },
+            {
+              "display_value": "champagne",
+              "search_value": "champagne"
+            },
+            {
+              "display_value": "champagne bottle",
+              "search_value": "\"champagne+bottle\""
+            },
+            {
+              "display_value": "disability",
+              "search_value": "disability"
+            },
+            {
+              "display_value": "disabled",
+              "search_value": "disabled"
+            },
+            {
+              "display_value": "goggles",
+              "search_value": "goggles"
+            },
+            {
+              "display_value": "leather jacket",
+              "search_value": "\"leather+jacket\""
+            },
+            {
+              "display_value": "salt flats",
+              "search_value": "\"salt+flats\""
+            },
+            {
+              "display_value": "wheelchair",
+              "search_value": "wheelchair"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Lawrence Krauss",
+              "search_value": "Lawrence+Krauss"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "RED Epic Dragon",
+              "search_value": "RED+Epic+Dragon"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke Panchro Classic",
+              "search_value": "Cooke+Panchro+Classic"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Bolivia",
+              "search_value": "Bolivia"
+            },
+            {
+              "display_value": "Salar de Uyuni",
+              "search_value": "Salar+de+Uyuni"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Bolivia",
+              "search_value": "Bolivia"
+            },
+            {
+              "display_value": "Salar de Uyuni",
+              "search_value": "Salar+de+Uyuni"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:33:27",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Werner Herzog",
+              "search_value": "Werner+Herzog"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Peter Zeitlinger",
+              "search_value": "Peter+Zeitlinger"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Ulrich Bergfelder",
+              "search_value": "Ulrich+Bergfelder"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Esther Walz",
+              "search_value": "Esther+Walz"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Joe Bini",
+              "search_value": "Joe+Bini"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

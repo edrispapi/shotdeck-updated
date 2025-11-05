@@ -1,0 +1,520 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "0582RL2D",
+    "image_file": "0582RL2D.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "WandaVision",
+            "search_value": "12241",
+            "season": "1",
+            "episode": "6"
+          }
+        ]
+      },
+      "full_title": "WandaVision - Season 1 - Episode 6",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2021",
+            "search_value": "2021"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "391f13",
+            "search_value": "391f13~25~1"
+          },
+          {
+            "display_value": "2f2329",
+            "search_value": "2f2329~25~1"
+          },
+          {
+            "display_value": "35323d",
+            "search_value": "35323d~25~1"
+          },
+          {
+            "display_value": "3e3b49",
+            "search_value": "3e3b49~25~1"
+          },
+          {
+            "display_value": "5c342a",
+            "search_value": "5c342a~25~1"
+          },
+          {
+            "display_value": "6e2830",
+            "search_value": "6e2830~25~1"
+          },
+          {
+            "display_value": "4e4e5d",
+            "search_value": "4e4e5d~25~1"
+          },
+          {
+            "display_value": "704b52",
+            "search_value": "704b52~25~1"
+          },
+          {
+            "display_value": "7a5743",
+            "search_value": "7a5743~25~1"
+          },
+          {
+            "display_value": "9e7269",
+            "search_value": "9e7269~25~1"
+          },
+          {
+            "display_value": "a57e52",
+            "search_value": "a57e52~25~1"
+          },
+          {
+            "display_value": "9f9194",
+            "search_value": "9f9194~25~1"
+          },
+          {
+            "display_value": "9697a1",
+            "search_value": "9697a1~25~1"
+          },
+          {
+            "display_value": "ae9280",
+            "search_value": "ae9280~25~1"
+          },
+          {
+            "display_value": "e9e2d6",
+            "search_value": "e9e2d6~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "laying on couch",
+              "search_value": "\"laying+on+couch\""
+            },
+            {
+              "display_value": "family",
+              "search_value": "family"
+            },
+            {
+              "display_value": "morning",
+              "search_value": "morning"
+            },
+            {
+              "display_value": "sleeping",
+              "search_value": "sleeping"
+            },
+            {
+              "display_value": "uncle and nephews",
+              "search_value": "\"uncle+and+nephews\""
+            },
+            {
+              "display_value": "brothers",
+              "search_value": "brothers"
+            },
+            {
+              "display_value": "hand on chest",
+              "search_value": "\"hand+on+chest\""
+            },
+            {
+              "display_value": "stopping someone",
+              "search_value": "\"stopping+someone\""
+            },
+            {
+              "display_value": "red cape",
+              "search_value": "\"red+cape\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Julian Hilliard",
+              "search_value": "Julian+Hilliard"
+            },
+            {
+              "display_value": "Jett Klyne",
+              "search_value": "Jett+Klyne"
+            },
+            {
+              "display_value": "Evan Peters",
+              "search_value": "Evan+Peters"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            },
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA LF",
+              "search_value": "ARRI+ALEXA+LF"
+            },
+            {
+              "display_value": "ARRI ALEXA Mini LF",
+              "search_value": "ARRI+ALEXA+Mini+LF"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Fujinon Premista",
+              "search_value": "Fujinon+Premista"
+            },
+            {
+              "display_value": "Panavision Panaspeed",
+              "search_value": "Panavision+Panaspeed"
+            },
+            {
+              "display_value": "Panavision T series",
+              "search_value": "Panavision+T+series"
+            },
+            {
+              "display_value": "Panavision Ultra Panatar Lenses",
+              "search_value": "Panavision+Ultra+Panatar+Lenses"
+            },
+            {
+              "display_value": "Panavision Ultra Speed II (PVintage)",
+              "search_value": "Panavision+Ultra+Speed+II+%28PVintage%29"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            },
+            {
+              "display_value": "ARRIRAW (4.5K)",
+              "search_value": "ARRIRAW+%284.5K%29"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Living Room",
+              "search_value": "Living+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New Jersey",
+              "search_value": "New+Jersey"
+            },
+            {
+              "display_value": "Westview",
+              "search_value": "Westview"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:03:01",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Matt Shakman",
+              "search_value": "Matt+Shakman"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Jess Hall",
+              "search_value": "Jess+Hall"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Mark Worthington",
+              "search_value": "Mark+Worthington"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Mayes C. Rubeo",
+              "search_value": "Mayes+C.+Rubeo"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Zene Baker",
+              "search_value": "Zene+Baker"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Matt Watson",
+              "search_value": "Matt+Watson"
+            },
+            {
+              "display_value": "Cory Pennington",
+              "search_value": "Cory+Pennington"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

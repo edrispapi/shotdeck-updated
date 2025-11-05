@@ -1,0 +1,398 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00PRS68M",
+    "image_file": "00PRS68M.jpg",
+    "mime": "image/jpeg",
+    "width": "1816",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Small Town",
+            "search_value": "22294"
+          }
+        ]
+      },
+      "full_title": "The Small Town",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1997",
+            "search_value": "1997"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "171817",
+            "search_value": "171817~25~1"
+          },
+          {
+            "display_value": "1a1a1b",
+            "search_value": "1a1a1b~25~1"
+          },
+          {
+            "display_value": "252525",
+            "search_value": "252525~25~1"
+          },
+          {
+            "display_value": "2d2c2d",
+            "search_value": "2d2c2d~25~1"
+          },
+          {
+            "display_value": "5d5d5d",
+            "search_value": "5d5d5d~25~1"
+          },
+          {
+            "display_value": "636364",
+            "search_value": "636364~25~1"
+          },
+          {
+            "display_value": "636463",
+            "search_value": "636463~25~1"
+          },
+          {
+            "display_value": "6d6b6c",
+            "search_value": "6d6b6c~25~1"
+          },
+          {
+            "display_value": "817f80",
+            "search_value": "817f80~25~1"
+          },
+          {
+            "display_value": "929294",
+            "search_value": "929294~25~1"
+          },
+          {
+            "display_value": "929393",
+            "search_value": "929393~25~1"
+          },
+          {
+            "display_value": "9e9c9d",
+            "search_value": "9e9c9d~25~1"
+          },
+          {
+            "display_value": "9d9d9d",
+            "search_value": "9d9d9d~25~1"
+          },
+          {
+            "display_value": "c6c4c5",
+            "search_value": "c6c4c5~25~1"
+          },
+          {
+            "display_value": "cacaca",
+            "search_value": "cacaca~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "goat",
+              "search_value": "goat"
+            },
+            {
+              "display_value": "killed",
+              "search_value": "killed"
+            },
+            {
+              "display_value": "cooking",
+              "search_value": "cooking"
+            },
+            {
+              "display_value": "wood",
+              "search_value": "wood"
+            },
+            {
+              "display_value": "dowel",
+              "search_value": "dowel"
+            },
+            {
+              "display_value": "tent",
+              "search_value": "tent"
+            },
+            {
+              "display_value": "covered",
+              "search_value": "covered"
+            },
+            {
+              "display_value": "dirt",
+              "search_value": "dirt"
+            },
+            {
+              "display_value": "pit",
+              "search_value": "pit"
+            },
+            {
+              "display_value": "dug out",
+              "search_value": "\"dug+out\""
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Dutch angle",
+              "search_value": "Dutch+angle"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Encampment",
+              "search_value": "Encampment"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Turkey",
+              "search_value": "Turkey"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Turkey",
+              "search_value": "Turkey"
+            },
+            {
+              "display_value": "Yenice",
+              "search_value": "Yenice"
+            },
+            {
+              "display_value": "Çanakkale",
+              "search_value": "%C3%87anakkale"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:17:26",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Nuri Bilge Ceylan",
+              "search_value": "Nuri+Bilge+Ceylan"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Nuri Bilge Ceylan",
+              "search_value": "Nuri+Bilge+Ceylan"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Ebru Ceylan",
+              "search_value": "Ebru+Ceylan"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Ayhan Ergürsel",
+              "search_value": "Ayhan+Erg%C3%BCrsel"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

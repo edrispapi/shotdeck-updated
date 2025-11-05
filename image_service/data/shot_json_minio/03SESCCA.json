@@ -1,0 +1,496 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03SESCCA",
+    "image_file": "03SESCCA.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Brokeback Mountain",
+            "search_value": "342"
+          }
+        ]
+      },
+      "full_title": "Brokeback Mountain",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2005",
+            "search_value": "2005"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0a0d10",
+            "search_value": "0a0d10~25~1"
+          },
+          {
+            "display_value": "182118",
+            "search_value": "182118~25~1"
+          },
+          {
+            "display_value": "251e20",
+            "search_value": "251e20~25~1"
+          },
+          {
+            "display_value": "282d1f",
+            "search_value": "282d1f~25~1"
+          },
+          {
+            "display_value": "374a2e",
+            "search_value": "374a2e~25~1"
+          },
+          {
+            "display_value": "3d492d",
+            "search_value": "3d492d~25~1"
+          },
+          {
+            "display_value": "4c6044",
+            "search_value": "4c6044~25~1"
+          },
+          {
+            "display_value": "5f575a",
+            "search_value": "5f575a~25~1"
+          },
+          {
+            "display_value": "5b6268",
+            "search_value": "5b6268~25~1"
+          },
+          {
+            "display_value": "626853",
+            "search_value": "626853~25~1"
+          },
+          {
+            "display_value": "798675",
+            "search_value": "798675~25~1"
+          },
+          {
+            "display_value": "808474",
+            "search_value": "808474~25~1"
+          },
+          {
+            "display_value": "8c8d82",
+            "search_value": "8c8d82~25~1"
+          },
+          {
+            "display_value": "87969c",
+            "search_value": "87969c~25~1"
+          },
+          {
+            "display_value": "8c988c",
+            "search_value": "8c988c~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "cowboys",
+              "search_value": "cowboys"
+            },
+            {
+              "display_value": "horsemen",
+              "search_value": "horsemen"
+            },
+            {
+              "display_value": "wilderness",
+              "search_value": "wilderness"
+            },
+            {
+              "display_value": "fir trees",
+              "search_value": "\"fir+trees\""
+            },
+            {
+              "display_value": "coniferous forest",
+              "search_value": "\"coniferous+forest\""
+            },
+            {
+              "display_value": "downhill",
+              "search_value": "downhill"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Heath Ledger",
+              "search_value": "Heath+Ledger"
+            },
+            {
+              "display_value": "Jake Gyllenhaal",
+              "search_value": "Jake+Gyllenhaal"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1960s",
+              "search_value": "1960s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke S4/ i",
+              "search_value": "Cooke+S4%2F+i"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5218/7218\tVision 2 \t500T",
+              "search_value": "5218%2F7218%09Vision+2+%09500T"
+            },
+            {
+              "display_value": "5245/7289 \tEXR\t\t50D",
+              "search_value": "5245%2F7289+%09EXR%09%0950D"
+            },
+            {
+              "display_value": "5246/7246\tVision \t250D",
+              "search_value": "5246%2F7246%09Vision+%09250D"
+            },
+            {
+              "display_value": "5279/7279\tVision\t500T",
+              "search_value": "5279%2F7279%09Vision%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Mountain",
+              "search_value": "Mountain"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Wyoming",
+              "search_value": "Wyoming"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Canada",
+              "search_value": "Canada"
+            },
+            {
+              "display_value": "Alberta",
+              "search_value": "Alberta"
+            },
+            {
+              "display_value": "Mountains of Kananaskis",
+              "search_value": "Mountains+of+Kananaskis"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:29:49",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Ang Lee",
+              "search_value": "Ang+Lee"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Rodrigo Prieto",
+              "search_value": "Rodrigo+Prieto"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Judy Becker",
+              "search_value": "Judy+Becker"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Marit Allen",
+              "search_value": "Marit+Allen"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Geraldine Peroni",
+              "search_value": "Geraldine+Peroni"
+            },
+            {
+              "display_value": "Dylan Tichenor",
+              "search_value": "Dylan+Tichenor"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Chris Hinton",
+              "search_value": "Chris+Hinton"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

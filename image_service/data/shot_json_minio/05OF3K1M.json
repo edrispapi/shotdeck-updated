@@ -1,0 +1,506 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05OF3K1M",
+    "image_file": "05OF3K1M.jpg",
+    "mime": "image/jpeg",
+    "width": "1924",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "CODA",
+            "search_value": "6649"
+          }
+        ]
+      },
+      "full_title": "CODA",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2021",
+            "search_value": "2021"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "18201d",
+            "search_value": "18201d~25~1"
+          },
+          {
+            "display_value": "331d21",
+            "search_value": "331d21~25~1"
+          },
+          {
+            "display_value": "341f1a",
+            "search_value": "341f1a~25~1"
+          },
+          {
+            "display_value": "20272f",
+            "search_value": "20272f~25~1"
+          },
+          {
+            "display_value": "444137",
+            "search_value": "444137~25~1"
+          },
+          {
+            "display_value": "74291d",
+            "search_value": "74291d~25~1"
+          },
+          {
+            "display_value": "5d4c50",
+            "search_value": "5d4c50~25~1"
+          },
+          {
+            "display_value": "4d5350",
+            "search_value": "4d5350~25~1"
+          },
+          {
+            "display_value": "4c5963",
+            "search_value": "4c5963~25~1"
+          },
+          {
+            "display_value": "7a483a",
+            "search_value": "7a483a~25~1"
+          },
+          {
+            "display_value": "b76758",
+            "search_value": "b76758~25~1"
+          },
+          {
+            "display_value": "b09184",
+            "search_value": "b09184~25~1"
+          },
+          {
+            "display_value": "8faec9",
+            "search_value": "8faec9~25~1"
+          },
+          {
+            "display_value": "a3c2de",
+            "search_value": "a3c2de~25~1"
+          },
+          {
+            "display_value": "acc7dc",
+            "search_value": "acc7dc~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "baskets",
+              "search_value": "baskets"
+            },
+            {
+              "display_value": "sitting",
+              "search_value": "sitting"
+            },
+            {
+              "display_value": "fish",
+              "search_value": "fish"
+            },
+            {
+              "display_value": "family business",
+              "search_value": "\"family+business\""
+            },
+            {
+              "display_value": "fishermen",
+              "search_value": "fishermen"
+            },
+            {
+              "display_value": "fishing net",
+              "search_value": "\"fishing+net\""
+            },
+            {
+              "display_value": "overalls",
+              "search_value": "overalls"
+            },
+            {
+              "display_value": "wearing hat",
+              "search_value": "\"wearing+hat\""
+            },
+            {
+              "display_value": "wearing uniform",
+              "search_value": "\"wearing+uniform\""
+            },
+            {
+              "display_value": "working",
+              "search_value": "working"
+            },
+            {
+              "display_value": "normal day",
+              "search_value": "\"normal+day\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Emilia Jones",
+              "search_value": "Emilia+Jones"
+            },
+            {
+              "display_value": "Troy Kotsur",
+              "search_value": "Troy+Kotsur"
+            },
+            {
+              "display_value": "Daniel Durant",
+              "search_value": "Daniel+Durant"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Sony VENICE",
+              "search_value": "Sony+VENICE"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Arri Signature Prime Lenses",
+              "search_value": "Arri+Signature+Prime+Lenses"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Ocean",
+              "search_value": "Ocean"
+            },
+            {
+              "display_value": "Fishing Boat",
+              "search_value": "Fishing+Boat"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Massachusetts",
+              "search_value": "Massachusetts"
+            },
+            {
+              "display_value": "Gloucester",
+              "search_value": "Gloucester"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Massachusetts",
+              "search_value": "Massachusetts"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:01:55",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Music",
+              "search_value": "Movie%2FTV+-+Music"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Siân Heder",
+              "search_value": "Si%C3%A2n+Heder"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Paula Huidobro",
+              "search_value": "Paula+Huidobro"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Diane Lederman",
+              "search_value": "Diane+Lederman"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Brenda Abbandandolo",
+              "search_value": "Brenda+Abbandandolo"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Geraud Brisson",
+              "search_value": "Geraud+Brisson"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Marc Lussier",
+              "search_value": "Marc+Lussier"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

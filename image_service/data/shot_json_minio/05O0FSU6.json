@@ -1,0 +1,346 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05O0FSU6",
+    "image_file": "05O0FSU6.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "960",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Flow",
+            "search_value": "59635"
+          }
+        ]
+      },
+      "full_title": "Flow",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2024",
+            "search_value": "2024"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "020001",
+            "search_value": "020001~25~1"
+          },
+          {
+            "display_value": "0d110e",
+            "search_value": "0d110e~25~1"
+          },
+          {
+            "display_value": "0f1415",
+            "search_value": "0f1415~25~1"
+          },
+          {
+            "display_value": "2f1f14",
+            "search_value": "2f1f14~25~1"
+          },
+          {
+            "display_value": "5c3825",
+            "search_value": "5c3825~25~1"
+          },
+          {
+            "display_value": "513e2c",
+            "search_value": "513e2c~25~1"
+          },
+          {
+            "display_value": "72523b",
+            "search_value": "72523b~25~1"
+          },
+          {
+            "display_value": "997968",
+            "search_value": "997968~25~1"
+          },
+          {
+            "display_value": "a37d56",
+            "search_value": "a37d56~25~1"
+          },
+          {
+            "display_value": "c49c78",
+            "search_value": "c49c78~25~1"
+          },
+          {
+            "display_value": "e4bc95",
+            "search_value": "e4bc95~25~1"
+          },
+          {
+            "display_value": "f3d4b3",
+            "search_value": "f3d4b3~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "boat",
+              "search_value": "boat"
+            },
+            {
+              "display_value": "wood boat",
+              "search_value": "\"wood+boat\""
+            },
+            {
+              "display_value": "journey",
+              "search_value": "journey"
+            },
+            {
+              "display_value": "sail boat",
+              "search_value": "\"sail+boat\""
+            },
+            {
+              "display_value": "animals",
+              "search_value": "animals"
+            },
+            {
+              "display_value": "capybara",
+              "search_value": "capybara"
+            },
+            {
+              "display_value": "lemur",
+              "search_value": "lemur"
+            },
+            {
+              "display_value": "basket",
+              "search_value": "basket"
+            },
+            {
+              "display_value": "searching",
+              "search_value": "searching"
+            },
+            {
+              "display_value": "dirty wood",
+              "search_value": "\"dirty+wood\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.00",
+              "search_value": "2.00"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "River",
+              "search_value": "River"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:29:02",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Post-Apocalyptic",
+              "search_value": "Movie%2FTV+-+Post-Apocalyptic"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Gints Zilbalodis",
+              "search_value": "Gints+Zilbalodis"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Gints Zilbalodis",
+              "search_value": "Gints+Zilbalodis"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Gints Zilbalodis",
+              "search_value": "Gints+Zilbalodis"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Gints Zilbalodis",
+              "search_value": "Gints+Zilbalodis"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

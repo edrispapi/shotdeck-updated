@@ -1,0 +1,514 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "007NEGCJ",
+    "image_file": "007NEGCJ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "814",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Notting Hill",
+            "search_value": "619"
+          }
+        ]
+      },
+      "full_title": "Notting Hill",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1999",
+            "search_value": "1999"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0c0e14",
+            "search_value": "0c0e14~25~1"
+          },
+          {
+            "display_value": "28191b",
+            "search_value": "28191b~25~1"
+          },
+          {
+            "display_value": "31211b",
+            "search_value": "31211b~25~1"
+          },
+          {
+            "display_value": "515f5d",
+            "search_value": "515f5d~25~1"
+          },
+          {
+            "display_value": "58626e",
+            "search_value": "58626e~25~1"
+          },
+          {
+            "display_value": "775d51",
+            "search_value": "775d51~25~1"
+          },
+          {
+            "display_value": "776772",
+            "search_value": "776772~25~1"
+          },
+          {
+            "display_value": "777c90",
+            "search_value": "777c90~25~1"
+          },
+          {
+            "display_value": "897885",
+            "search_value": "897885~25~1"
+          },
+          {
+            "display_value": "a07168",
+            "search_value": "a07168~25~1"
+          },
+          {
+            "display_value": "8e91a1",
+            "search_value": "8e91a1~25~1"
+          },
+          {
+            "display_value": "a1919d",
+            "search_value": "a1919d~25~1"
+          },
+          {
+            "display_value": "ab958a",
+            "search_value": "ab958a~25~1"
+          },
+          {
+            "display_value": "e1d3dd",
+            "search_value": "e1d3dd~25~1"
+          },
+          {
+            "display_value": "e3d6d0",
+            "search_value": "e3d6d0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "happy",
+              "search_value": "happy"
+            },
+            {
+              "display_value": "blue top",
+              "search_value": "\"blue+top\""
+            },
+            {
+              "display_value": "bookshelf",
+              "search_value": "bookshelf"
+            },
+            {
+              "display_value": "display window",
+              "search_value": "\"display+window\""
+            },
+            {
+              "display_value": "bookstore",
+              "search_value": "bookstore"
+            },
+            {
+              "display_value": "smiling",
+              "search_value": "smiling"
+            },
+            {
+              "display_value": "smile",
+              "search_value": "smile"
+            },
+            {
+              "display_value": "looking at someone",
+              "search_value": "\"looking+at+someone\""
+            },
+            {
+              "display_value": "reunion",
+              "search_value": "reunion"
+            },
+            {
+              "display_value": "standing afar",
+              "search_value": "\"standing+afar\""
+            },
+            {
+              "display_value": "standing apart",
+              "search_value": "\"standing+apart\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Julia Roberts",
+              "search_value": "Julia+Roberts"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Moviecam Compact",
+              "search_value": "Moviecam+Compact"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Ultra Prime",
+              "search_value": "Zeiss+Ultra+Prime"
+            },
+            {
+              "display_value": "Cooke Varotal Lenses",
+              "search_value": "Cooke+Varotal+Lenses"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5274/7274      Vision     200T",
+              "search_value": "5274%2F7274++++++Vision+++++200T"
+            },
+            {
+              "display_value": "5279/7279\tVision\t500T",
+              "search_value": "5279%2F7279%09Vision%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Bookstore",
+              "search_value": "Bookstore"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            },
+            {
+              "display_value": "Shepperton Studios",
+              "search_value": "Shepperton+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:40:11",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Rom-Com",
+              "search_value": "Movie%2FTV+-+Rom-Com"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Roger Michell",
+              "search_value": "Roger+Michell"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Michael Coulter",
+              "search_value": "Michael+Coulter"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Stuart Craig",
+              "search_value": "Stuart+Craig"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Shuna Harwood",
+              "search_value": "Shuna+Harwood"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Nick Moore",
+              "search_value": "Nick+Moore"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Clive Noakes",
+              "search_value": "Clive+Noakes"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

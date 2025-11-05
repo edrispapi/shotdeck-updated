@@ -1,0 +1,506 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "016NE3GD",
+    "image_file": "016NE3GD.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Limitless",
+            "search_value": "2187"
+          }
+        ]
+      },
+      "full_title": "Limitless",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2011",
+            "search_value": "2011"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0b0506",
+            "search_value": "0b0506~25~1"
+          },
+          {
+            "display_value": "041114",
+            "search_value": "041114~25~1"
+          },
+          {
+            "display_value": "16100a",
+            "search_value": "16100a~25~1"
+          },
+          {
+            "display_value": "081e18",
+            "search_value": "081e18~25~1"
+          },
+          {
+            "display_value": "5c3627",
+            "search_value": "5c3627~25~1"
+          },
+          {
+            "display_value": "2e464d",
+            "search_value": "2e464d~25~1"
+          },
+          {
+            "display_value": "2b4b3a",
+            "search_value": "2b4b3a~25~1"
+          },
+          {
+            "display_value": "4d422b",
+            "search_value": "4d422b~25~1"
+          },
+          {
+            "display_value": "4d604e",
+            "search_value": "4d604e~25~1"
+          },
+          {
+            "display_value": "6f593f",
+            "search_value": "6f593f~25~1"
+          },
+          {
+            "display_value": "536169",
+            "search_value": "536169~25~1"
+          },
+          {
+            "display_value": "758a6b",
+            "search_value": "758a6b~25~1"
+          },
+          {
+            "display_value": "90885d",
+            "search_value": "90885d~25~1"
+          },
+          {
+            "display_value": "819275",
+            "search_value": "819275~25~1"
+          },
+          {
+            "display_value": "b3ac85",
+            "search_value": "b3ac85~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "explanatory hand gesture",
+              "search_value": "\"explanatory+hand+gesture\""
+            },
+            {
+              "display_value": "wearing suit",
+              "search_value": "\"wearing+suit\""
+            },
+            {
+              "display_value": "back seat",
+              "search_value": "\"back+seat\""
+            },
+            {
+              "display_value": "inside car",
+              "search_value": "\"inside+car\""
+            },
+            {
+              "display_value": "talking to driver",
+              "search_value": "\"talking+to+driver\""
+            },
+            {
+              "display_value": "raising eyebrows",
+              "search_value": "\"raising+eyebrows\""
+            },
+            {
+              "display_value": "boss",
+              "search_value": "boss"
+            },
+            {
+              "display_value": "important man",
+              "search_value": "\"important+man\""
+            },
+            {
+              "display_value": "raising hand",
+              "search_value": "\"raising+hand\""
+            },
+            {
+              "display_value": "well mannered",
+              "search_value": "\"well+mannered\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Robert De Niro",
+              "search_value": "Robert+De+Niro"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke S4/ i",
+              "search_value": "Cooke+S4%2F+i"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2K",
+              "search_value": "2K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Car",
+              "search_value": "Car"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "Manhattan",
+              "search_value": "Manhattan"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:40:24",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Neil Burger",
+              "search_value": "Neil+Burger"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Jo Willems",
+              "search_value": "Jo+Willems"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Patrizia von Brandenstein",
+              "search_value": "Patrizia+von+Brandenstein"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jenny Gering",
+              "search_value": "Jenny+Gering"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Naomi Geraghty",
+              "search_value": "Naomi+Geraghty"
+            },
+            {
+              "display_value": "Tracy Adams",
+              "search_value": "Tracy+Adams"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "David Orr",
+              "search_value": "David+Orr"
+            },
+            {
+              "display_value": "Michael Hatzer",
+              "search_value": "Michael+Hatzer"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

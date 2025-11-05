@@ -1,0 +1,482 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01PA9214",
+    "image_file": "01PA9214.jpg",
+    "mime": "image/jpeg",
+    "width": "2880",
+    "height": "1222",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Spy Game",
+            "search_value": "3246"
+          }
+        ]
+      },
+      "full_title": "Spy Game",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2001",
+            "search_value": "2001"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "171b25",
+            "search_value": "171b25~25~1"
+          },
+          {
+            "display_value": "25171b",
+            "search_value": "25171b~25~1"
+          },
+          {
+            "display_value": "271f19",
+            "search_value": "271f19~25~1"
+          },
+          {
+            "display_value": "272e2b",
+            "search_value": "272e2b~25~1"
+          },
+          {
+            "display_value": "5d555a",
+            "search_value": "5d555a~25~1"
+          },
+          {
+            "display_value": "656157",
+            "search_value": "656157~25~1"
+          },
+          {
+            "display_value": "5a636b",
+            "search_value": "5a636b~25~1"
+          },
+          {
+            "display_value": "626a65",
+            "search_value": "626a65~25~1"
+          },
+          {
+            "display_value": "848375",
+            "search_value": "848375~25~1"
+          },
+          {
+            "display_value": "96978f",
+            "search_value": "96978f~25~1"
+          },
+          {
+            "display_value": "98a2ab",
+            "search_value": "98a2ab~25~1"
+          },
+          {
+            "display_value": "9fa6a2",
+            "search_value": "9fa6a2~25~1"
+          },
+          {
+            "display_value": "c5d5db",
+            "search_value": "c5d5db~25~1"
+          },
+          {
+            "display_value": "dde9e7",
+            "search_value": "dde9e7~25~1"
+          },
+          {
+            "display_value": "f0f0ee",
+            "search_value": "f0f0ee~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "doctor",
+              "search_value": "doctor"
+            },
+            {
+              "display_value": "leaning on table",
+              "search_value": "\"leaning+on+table\""
+            },
+            {
+              "display_value": "looking through photos",
+              "search_value": "\"looking+through+photos\""
+            },
+            {
+              "display_value": "people working in background",
+              "search_value": "\"people+working+in+background\""
+            },
+            {
+              "display_value": "smiling",
+              "search_value": "smiling"
+            },
+            {
+              "display_value": "white lab coat",
+              "search_value": "\"white+lab+coat\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Brad Pitt",
+              "search_value": "Brad+Pitt"
+            },
+            {
+              "display_value": "Amidou",
+              "search_value": "Amidou"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Millennium / Millenium XL / XL2",
+              "search_value": "Panavision+Millennium+%2F+Millenium+XL+%2F+XL2"
+            },
+            {
+              "display_value": "Panavision Platinum",
+              "search_value": "Panavision+Platinum"
+            },
+            {
+              "display_value": "Arriflex 435",
+              "search_value": "Arriflex+435"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision E series",
+              "search_value": "Panavision+E+series"
+            },
+            {
+              "display_value": "Panavision Primo Anamorphics",
+              "search_value": "Panavision+Primo+Anamorphics"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5274/7274      Vision     200T",
+              "search_value": "5274%2F7274++++++Vision+++++200T"
+            },
+            {
+              "display_value": "5279/7279\tVision\t500T",
+              "search_value": "5279%2F7279%09Vision%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Medical Tent",
+              "search_value": "Medical+Tent"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Lebanon",
+              "search_value": "Lebanon"
+            },
+            {
+              "display_value": "Beirut",
+              "search_value": "Beirut"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Morocco",
+              "search_value": "Morocco"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:07:59",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Tony Scott",
+              "search_value": "Tony+Scott"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Dan Mindel",
+              "search_value": "Dan+Mindel"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Norris Spencer",
+              "search_value": "Norris+Spencer"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Louise Frogley",
+              "search_value": "Louise+Frogley"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Christian Wagner",
+              "search_value": "Christian+Wagner"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

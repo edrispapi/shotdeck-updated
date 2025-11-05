@@ -1,0 +1,436 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01UP3Q12",
+    "image_file": "01UP3Q12.jpg",
+    "mime": "image/jpeg",
+    "width": "2048",
+    "height": "576",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "El Suspiro del Silencio",
+            "search_value": "27008"
+          }
+        ]
+      },
+      "full_title": "El Suspiro del Silencio",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2021",
+            "search_value": "2021"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "172112",
+            "search_value": "172112~25~1"
+          },
+          {
+            "display_value": "252417",
+            "search_value": "252417~25~1"
+          },
+          {
+            "display_value": "232430",
+            "search_value": "232430~25~1"
+          },
+          {
+            "display_value": "3d1a21",
+            "search_value": "3d1a21~25~1"
+          },
+          {
+            "display_value": "48462a",
+            "search_value": "48462a~25~1"
+          },
+          {
+            "display_value": "474b62",
+            "search_value": "474b62~25~1"
+          },
+          {
+            "display_value": "695e41",
+            "search_value": "695e41~25~1"
+          },
+          {
+            "display_value": "54664b",
+            "search_value": "54664b~25~1"
+          },
+          {
+            "display_value": "7b5761",
+            "search_value": "7b5761~25~1"
+          },
+          {
+            "display_value": "8a8865",
+            "search_value": "8a8865~25~1"
+          },
+          {
+            "display_value": "99a793",
+            "search_value": "99a793~25~1"
+          },
+          {
+            "display_value": "a6a491",
+            "search_value": "a6a491~25~1"
+          },
+          {
+            "display_value": "b0a5a9",
+            "search_value": "b0a5a9~25~1"
+          },
+          {
+            "display_value": "c3c6ab",
+            "search_value": "c3c6ab~25~1"
+          },
+          {
+            "display_value": "d2d1c7",
+            "search_value": "d2d1c7~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "dark hair",
+              "search_value": "\"dark+hair\""
+            },
+            {
+              "display_value": "long hair",
+              "search_value": "\"long+hair\""
+            },
+            {
+              "display_value": "white bowtie",
+              "search_value": "\"white+bowtie\""
+            },
+            {
+              "display_value": "white suit",
+              "search_value": "\"white+suit\""
+            },
+            {
+              "display_value": "beard",
+              "search_value": "beard"
+            },
+            {
+              "display_value": "facial hair",
+              "search_value": "\"facial+hair\""
+            },
+            {
+              "display_value": "grey hair",
+              "search_value": "\"grey+hair\""
+            },
+            {
+              "display_value": "competition",
+              "search_value": "competition"
+            },
+            {
+              "display_value": "speech",
+              "search_value": "speech"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Laura Osma",
+              "search_value": "Laura+Osma"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            },
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            },
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "3.55",
+              "search_value": "3.55"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA",
+              "search_value": "ARRI+ALEXA"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Jungle",
+              "search_value": "Jungle"
+            },
+            {
+              "display_value": "Coffee Plantation",
+              "search_value": "Coffee+Plantation"
+            },
+            {
+              "display_value": "Main House",
+              "search_value": "Main+House"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Central America",
+              "search_value": "Central+America"
+            },
+            {
+              "display_value": "El Salvador",
+              "search_value": "El+Salvador"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Central America",
+              "search_value": "Central+America"
+            },
+            {
+              "display_value": "El Salvador",
+              "search_value": "El+Salvador"
+            },
+            {
+              "display_value": "San Salvador",
+              "search_value": "San+Salvador"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:06:20",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Alfonso Quijada",
+              "search_value": "Alfonso+Quijada"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Andy Hodgson",
+              "search_value": "Andy+Hodgson"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Lourdes Sandoval\t",
+              "search_value": "Lourdes+Sandoval%09"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Andrea Trigueros",
+              "search_value": "Andrea+Trigueros"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Andrés Porras",
+              "search_value": "Andr%C3%A9s+Porras"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

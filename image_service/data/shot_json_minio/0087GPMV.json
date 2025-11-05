@@ -1,0 +1,496 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "0087GPMV",
+    "image_file": "0087GPMV.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "True Detective",
+            "search_value": "3779",
+            "season": "1",
+            "episode": "1"
+          }
+        ]
+      },
+      "full_title": "True Detective - Season 1 - Episode 1",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2014",
+            "search_value": "2014"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "040506",
+            "search_value": "040506~25~1"
+          },
+          {
+            "display_value": "040605",
+            "search_value": "040605~25~1"
+          },
+          {
+            "display_value": "070607",
+            "search_value": "070607~25~1"
+          },
+          {
+            "display_value": "20170d",
+            "search_value": "20170d~25~1"
+          },
+          {
+            "display_value": "504027",
+            "search_value": "504027~25~1"
+          },
+          {
+            "display_value": "605446",
+            "search_value": "605446~25~1"
+          },
+          {
+            "display_value": "636166",
+            "search_value": "636166~25~1"
+          },
+          {
+            "display_value": "6e6a6b",
+            "search_value": "6e6a6b~25~1"
+          },
+          {
+            "display_value": "907e6a",
+            "search_value": "907e6a~25~1"
+          },
+          {
+            "display_value": "aa9b93",
+            "search_value": "aa9b93~25~1"
+          },
+          {
+            "display_value": "beb3b4",
+            "search_value": "beb3b4~25~1"
+          },
+          {
+            "display_value": "d2ccce",
+            "search_value": "d2ccce~25~1"
+          },
+          {
+            "display_value": "d8ccc9",
+            "search_value": "d8ccc9~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "college",
+              "search_value": "college"
+            },
+            {
+              "display_value": "living room",
+              "search_value": "\"living+room\""
+            },
+            {
+              "display_value": "loose tie",
+              "search_value": "\"loose+tie\""
+            },
+            {
+              "display_value": "paneling",
+              "search_value": "paneling"
+            },
+            {
+              "display_value": "spaced out",
+              "search_value": "\"spaced+out\""
+            },
+            {
+              "display_value": "thinking",
+              "search_value": "thinking"
+            },
+            {
+              "display_value": "wondering",
+              "search_value": "wondering"
+            },
+            {
+              "display_value": "wood paneling",
+              "search_value": "\"wood+paneling\""
+            },
+            {
+              "display_value": "wood pannelling",
+              "search_value": "\"wood+pannelling\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Matthew McConaughey",
+              "search_value": "Matthew+McConaughey"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Super 35",
+              "search_value": "Super+35"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Millennium / Millenium XL / XL2",
+              "search_value": "Panavision+Millennium+%2F+Millenium+XL+%2F+XL2"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Primes",
+              "search_value": "Panavision+Primo+Primes"
+            },
+            {
+              "display_value": "Panavision Ultra Speed II (PVintage)",
+              "search_value": "Panavision+Ultra+Speed+II+%28PVintage%29"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            },
+            {
+              "display_value": "5203/7203\tVision 3\t50D",
+              "search_value": "5203%2F7203%09Vision+3%0950D"
+            },
+            {
+              "display_value": "SxS",
+              "search_value": "SxS"
+            },
+            {
+              "display_value": "Redcode raw 5K",
+              "search_value": "Redcode+raw+5K"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Louisiana",
+              "search_value": "Louisiana"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Louisiana",
+              "search_value": "Louisiana"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:53:39",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Detective",
+              "search_value": "Movie%2FTV+-+Detective"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Serial Killer",
+              "search_value": "Movie%2FTV+-+Serial+Killer"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Cary Joji Fukunaga",
+              "search_value": "Cary+Joji+Fukunaga"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Adam Arkapaw",
+              "search_value": "Adam+Arkapaw"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Alex DiGerlando",
+              "search_value": "Alex+DiGerlando"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jenny Eagan",
+              "search_value": "Jenny+Eagan"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Alex Hall",
+              "search_value": "Alex+Hall"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Steven Bodner",
+              "search_value": "Steven+Bodner"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

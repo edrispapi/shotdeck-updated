@@ -1,0 +1,456 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04YX779P",
+    "image_file": "04YX779P.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "818",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Glengarry Glen Ross",
+            "search_value": "1956"
+          }
+        ]
+      },
+      "full_title": "Glengarry Glen Ross",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1992",
+            "search_value": "1992"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d0a08",
+            "search_value": "0d0a08~25~1"
+          },
+          {
+            "display_value": "0c0d10",
+            "search_value": "0c0d10~25~1"
+          },
+          {
+            "display_value": "130f10",
+            "search_value": "130f10~25~1"
+          },
+          {
+            "display_value": "0f1110",
+            "search_value": "0f1110~25~1"
+          },
+          {
+            "display_value": "353d4f",
+            "search_value": "353d4f~25~1"
+          },
+          {
+            "display_value": "533633",
+            "search_value": "533633~25~1"
+          },
+          {
+            "display_value": "523639",
+            "search_value": "523639~25~1"
+          },
+          {
+            "display_value": "614644",
+            "search_value": "614644~25~1"
+          },
+          {
+            "display_value": "4e5150",
+            "search_value": "4e5150~25~1"
+          },
+          {
+            "display_value": "515865",
+            "search_value": "515865~25~1"
+          },
+          {
+            "display_value": "6d5359",
+            "search_value": "6d5359~25~1"
+          },
+          {
+            "display_value": "8d7781",
+            "search_value": "8d7781~25~1"
+          },
+          {
+            "display_value": "978490",
+            "search_value": "978490~25~1"
+          },
+          {
+            "display_value": "8291a0",
+            "search_value": "8291a0~25~1"
+          },
+          {
+            "display_value": "a9978f",
+            "search_value": "a9978f~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "being bribed",
+              "search_value": "\"being+bribed\""
+            },
+            {
+              "display_value": "offering money",
+              "search_value": "\"offering+money\""
+            },
+            {
+              "display_value": "holding money",
+              "search_value": "\"holding+money\""
+            },
+            {
+              "display_value": "holding cash",
+              "search_value": "\"holding+cash\""
+            },
+            {
+              "display_value": "uninterested",
+              "search_value": "uninterested"
+            },
+            {
+              "display_value": "late at night",
+              "search_value": "\"late+at+night\""
+            },
+            {
+              "display_value": "rain on windows",
+              "search_value": "\"rain+on+windows\""
+            },
+            {
+              "display_value": "trying to make a deal",
+              "search_value": "\"trying+to+make+a+deal\""
+            },
+            {
+              "display_value": "wearing glasses",
+              "search_value": "\"wearing+glasses\""
+            },
+            {
+              "display_value": "secret conversation",
+              "search_value": "\"secret+conversation\""
+            },
+            {
+              "display_value": "sitting in car",
+              "search_value": "\"sitting+in+car\""
+            },
+            {
+              "display_value": "some tension",
+              "search_value": "\"some+tension\""
+            },
+            {
+              "display_value": "dark night",
+              "search_value": "\"dark+night\""
+            },
+            {
+              "display_value": "boss and employee",
+              "search_value": "\"boss+and+employee\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Jack Lemmon",
+              "search_value": "Jack+Lemmon"
+            },
+            {
+              "display_value": "Kevin Spacey",
+              "search_value": "Kevin+Spacey"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Car",
+              "search_value": "Car"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:30:35",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "James Foley",
+              "search_value": "James+Foley"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Juan Ruiz Anch",
+              "search_value": "Juan+Ruiz+Anch"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Jane Musky",
+              "search_value": "Jane+Musky"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jane Greenwood",
+              "search_value": "Jane+Greenwood"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Howard E. Smith",
+              "search_value": "Howard+E.+Smith"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Mike Stanwick",
+              "search_value": "Mike+Stanwick"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

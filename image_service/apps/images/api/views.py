@@ -14,6 +14,7 @@ from django.conf import settings
 from django.core.cache import cache
 from django.db import connection
 from django.utils import timezone
+from django.utils.text import slugify
 
 from apps.images.models import (
     Image, Movie, Tag, BaseOption,
@@ -172,6 +173,27 @@ class ImageViewSet(ReadOnlyModelViewSet):
         response = super().partial_update(request, *args, **kwargs)
         invalidate_filter_cache('image')
         return response
+
+    def get_object(self):
+        queryset = self.filter_queryset(self.get_queryset())
+        lookup_value = self.kwargs.get(self.lookup_field)
+
+        if lookup_value:
+            try:
+                return queryset.get(slug=lookup_value)
+            except Image.DoesNotExist:
+                normalized = slugify(lookup_value)
+                if normalized:
+                    title_guess = normalized.replace('-', ' ')
+                    fallback = (
+                        Image.objects.only('id', 'slug', 'title')
+                        .filter(title__iexact=title_guess)
+                        .first()
+                    )
+                    if fallback:
+                        self.kwargs[self.lookup_field] = fallback.slug
+                        return super().get_object()
+        return super().get_object()
 
     def retrieve(self, request, *args, **kwargs):
         image = self.get_object()

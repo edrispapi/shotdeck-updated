@@ -1,0 +1,512 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "0297ILTN",
+    "image_file": "0297ILTN.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "802",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Mandalorian",
+            "search_value": "8842",
+            "season": "1",
+            "episode": "5"
+          }
+        ]
+      },
+      "full_title": "The Mandalorian - Season 1 - Episode 5",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2019",
+            "search_value": "2019"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "101010",
+            "search_value": "101010~25~1"
+          },
+          {
+            "display_value": "141a1a",
+            "search_value": "141a1a~25~1"
+          },
+          {
+            "display_value": "1a232c",
+            "search_value": "1a232c~25~1"
+          },
+          {
+            "display_value": "2e4253",
+            "search_value": "2e4253~25~1"
+          },
+          {
+            "display_value": "30444d",
+            "search_value": "30444d~25~1"
+          },
+          {
+            "display_value": "304a4a",
+            "search_value": "304a4a~25~1"
+          },
+          {
+            "display_value": "445b66",
+            "search_value": "445b66~25~1"
+          },
+          {
+            "display_value": "4e6363",
+            "search_value": "4e6363~25~1"
+          },
+          {
+            "display_value": "6c868f",
+            "search_value": "6c868f~25~1"
+          },
+          {
+            "display_value": "86a0a8",
+            "search_value": "86a0a8~25~1"
+          },
+          {
+            "display_value": "afc7cb",
+            "search_value": "afc7cb~25~1"
+          },
+          {
+            "display_value": "b8cfd1",
+            "search_value": "b8cfd1~25~1"
+          },
+          {
+            "display_value": "d1e3e1",
+            "search_value": "d1e3e1~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "in the desert",
+              "search_value": "\"in+the+desert\""
+            },
+            {
+              "display_value": "travelling through the desert",
+              "search_value": "\"travelling+through+the+desert\""
+            },
+            {
+              "display_value": "sand dunes",
+              "search_value": "\"sand+dunes\""
+            },
+            {
+              "display_value": "sand bikes",
+              "search_value": "\"sand+bikes\""
+            },
+            {
+              "display_value": "hover bikes",
+              "search_value": "\"hover+bikes\""
+            },
+            {
+              "display_value": "shooting flares into the sky",
+              "search_value": "\"shooting+flares+into+the+sky\""
+            },
+            {
+              "display_value": "attempting to blind sniper",
+              "search_value": "\"attempting+to+blind+sniper\""
+            },
+            {
+              "display_value": "flare flying through the air",
+              "search_value": "\"flare+flying+through+the+air\""
+            },
+            {
+              "display_value": "rocket arcing",
+              "search_value": "\"rocket+arcing\""
+            },
+            {
+              "display_value": "bright light",
+              "search_value": "\"bright+light\""
+            },
+            {
+              "display_value": "lens flare",
+              "search_value": "\"lens+flare\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital, Digital - Large Format",
+              "search_value": "Digital%2C+Digital+-+Large+Format"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Aerial",
+              "search_value": "Aerial"
+            },
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA LF",
+              "search_value": "ARRI+ALEXA+LF"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Ultra Vista",
+              "search_value": "Panavision+Ultra+Vista"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Desert",
+              "search_value": "Desert"
+            },
+            {
+              "display_value": "Sand Dunes",
+              "search_value": "Sand+Dunes"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Tatooine",
+              "search_value": "Tatooine"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "USA",
+              "search_value": "USA"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "vfx_backing": {
+          "filter": "vfx_backing",
+          "filter_name": "VFX",
+          "values": [
+            {
+              "display_value": "LED Background",
+              "search_value": "LED+Background"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:19:21",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Space",
+              "search_value": "Movie%2FTV+-+Space"
+            },
+            {
+              "display_value": "Hard Sci-Fi",
+              "search_value": "Movie%2FTV+-+Hard+Sci-Fi"
+            },
+            {
+              "display_value": "Western",
+              "search_value": "Movie%2FTV+-+Western"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Dave Filoni",
+              "search_value": "Dave+Filoni"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Barry Idoine",
+              "search_value": "Barry+Idoine"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Andrew L. Jones",
+              "search_value": "Andrew+L.+Jones"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Joseph A. Porro",
+              "search_value": "Joseph+A.+Porro"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Andrew S. Eisen",
+              "search_value": "Andrew+S.+Eisen"
+            },
+            {
+              "display_value": "Dana E. Glauberman",
+              "search_value": "Dana+E.+Glauberman"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Charles Bunnag",
+              "search_value": "Charles+Bunnag"
+            },
+            {
+              "display_value": "Adam Nazarenko",
+              "search_value": "Adam+Nazarenko"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

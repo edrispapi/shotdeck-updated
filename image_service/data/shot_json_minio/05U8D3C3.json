@@ -1,0 +1,482 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05U8D3C3",
+    "image_file": "05U8D3C3.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1038",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Lodge",
+            "search_value": "5543"
+          }
+        ]
+      },
+      "full_title": "The Lodge",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2020",
+            "search_value": "2020"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1e4453",
+            "search_value": "1e4453~25~1"
+          },
+          {
+            "display_value": "234959",
+            "search_value": "234959~25~1"
+          },
+          {
+            "display_value": "2a5060",
+            "search_value": "2a5060~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "chilly",
+              "search_value": "chilly"
+            },
+            {
+              "display_value": "cold",
+              "search_value": "cold"
+            },
+            {
+              "display_value": "freezing",
+              "search_value": "freezing"
+            },
+            {
+              "display_value": "frozen",
+              "search_value": "frozen"
+            },
+            {
+              "display_value": "snow",
+              "search_value": "snow"
+            },
+            {
+              "display_value": "winter",
+              "search_value": "winter"
+            },
+            {
+              "display_value": "isolated",
+              "search_value": "isolated"
+            },
+            {
+              "display_value": "stormy",
+              "search_value": "stormy"
+            },
+            {
+              "display_value": "storm",
+              "search_value": "storm"
+            },
+            {
+              "display_value": "tundra",
+              "search_value": "tundra"
+            },
+            {
+              "display_value": "walking alone",
+              "search_value": "\"walking+alone\""
+            },
+            {
+              "display_value": "lost",
+              "search_value": "lost"
+            },
+            {
+              "display_value": "astray",
+              "search_value": "astray"
+            },
+            {
+              "display_value": "wasteland",
+              "search_value": "wasteland"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Riley Keough",
+              "search_value": "Riley+Keough"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            },
+            {
+              "display_value": "Dusk",
+              "search_value": "Dusk"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Super 35",
+              "search_value": "Super+35"
+            },
+            {
+              "display_value": "3 perf",
+              "search_value": "3+perf"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Primes",
+              "search_value": "Panavision+Primo+Primes"
+            },
+            {
+              "display_value": "Panavision Primo Zooms",
+              "search_value": "Panavision+Primo+Zooms"
+            },
+            {
+              "display_value": "Panavision Ultra Speed MKII",
+              "search_value": "Panavision+Ultra+Speed+MKII"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5213/7213\tVision 3\t200T",
+              "search_value": "5213%2F7213%09Vision+3%09200T"
+            },
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Frozen Lake",
+              "search_value": "Frozen+Lake"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Massachusetts",
+              "search_value": "Massachusetts"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Canada",
+              "search_value": "Canada"
+            },
+            {
+              "display_value": "Quebec",
+              "search_value": "Quebec"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:56:24",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Veronika Franz",
+              "search_value": "Veronika+Franz"
+            },
+            {
+              "display_value": "Severin Fiala",
+              "search_value": "Severin+Fiala"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Thimios Bakatakis",
+              "search_value": "Thimios+Bakatakis"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Sylvain Lemaitre",
+              "search_value": "Sylvain+Lemaitre"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Sophie Lefebvre",
+              "search_value": "Sophie+Lefebvre"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Michael Palm",
+              "search_value": "Michael+Palm"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

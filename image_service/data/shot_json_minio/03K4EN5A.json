@@ -1,0 +1,520 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03K4EN5A",
+    "image_file": "03K4EN5A.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "816",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Ip Man 2",
+            "search_value": "2083"
+          }
+        ]
+      },
+      "full_title": "Ip Man 2",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2010",
+            "search_value": "2010"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "08131a",
+            "search_value": "08131a~25~1"
+          },
+          {
+            "display_value": "101412",
+            "search_value": "101412~25~1"
+          },
+          {
+            "display_value": "2c2113",
+            "search_value": "2c2113~25~1"
+          },
+          {
+            "display_value": "5e3f19",
+            "search_value": "5e3f19~25~1"
+          },
+          {
+            "display_value": "66555b",
+            "search_value": "66555b~25~1"
+          },
+          {
+            "display_value": "575c5a",
+            "search_value": "575c5a~25~1"
+          },
+          {
+            "display_value": "426275",
+            "search_value": "426275~25~1"
+          },
+          {
+            "display_value": "7f5b33",
+            "search_value": "7f5b33~25~1"
+          },
+          {
+            "display_value": "b87d3b",
+            "search_value": "b87d3b~25~1"
+          },
+          {
+            "display_value": "7ca6bc",
+            "search_value": "7ca6bc~25~1"
+          },
+          {
+            "display_value": "c8986a",
+            "search_value": "c8986a~25~1"
+          },
+          {
+            "display_value": "9ca6a2",
+            "search_value": "9ca6a2~25~1"
+          },
+          {
+            "display_value": "f1bd85",
+            "search_value": "f1bd85~25~1"
+          },
+          {
+            "display_value": "bbe7f1",
+            "search_value": "bbe7f1~25~1"
+          },
+          {
+            "display_value": "f3deb8",
+            "search_value": "f3deb8~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "punch",
+              "search_value": "punch"
+            },
+            {
+              "display_value": "fight",
+              "search_value": "fight"
+            },
+            {
+              "display_value": "combat",
+              "search_value": "combat"
+            },
+            {
+              "display_value": "fighter",
+              "search_value": "fighter"
+            },
+            {
+              "display_value": "camera flash",
+              "search_value": "\"camera+flash\""
+            },
+            {
+              "display_value": "changshan",
+              "search_value": "changshan"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Sammo Hung",
+              "search_value": "Sammo+Hung"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1950s",
+              "search_value": "1950s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            },
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Ultra Wide / Fisheye",
+              "search_value": "Ultra+Wide+%2F+Fisheye"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            },
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            },
+            {
+              "display_value": "Mixed light",
+              "search_value": "Mixed+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 435",
+              "search_value": "Arriflex+435"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Ultra Prime",
+              "search_value": "Zeiss+Ultra+Prime"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5217/7217\tVision 2  200T",
+              "search_value": "5217%2F7217%09Vision+2++200T"
+            },
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Gymnasium",
+              "search_value": "Gymnasium"
+            },
+            {
+              "display_value": "Hall",
+              "search_value": "Hall"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "China",
+              "search_value": "China"
+            },
+            {
+              "display_value": "Hong Kong",
+              "search_value": "Hong+Kong"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "China",
+              "search_value": "China"
+            },
+            {
+              "display_value": "Hong Kong",
+              "search_value": "Hong+Kong"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:08:29",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Wilson Yip",
+              "search_value": "Wilson+Yip"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Hang-Sang Poon",
+              "search_value": "Hang-Sang+Poon"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Kenneth Mak",
+              "search_value": "Kenneth+Mak"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Pik Kwan Lee",
+              "search_value": "Pik+Kwan+Lee"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Nick Cheung",
+              "search_value": "Nick+Cheung"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Stéphane Ma",
+              "search_value": "St%C3%A9phane+Ma"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

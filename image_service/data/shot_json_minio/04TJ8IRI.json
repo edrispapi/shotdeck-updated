@@ -1,0 +1,492 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04TJ8IRI",
+    "image_file": "04TJ8IRI.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Courage Under Fire",
+            "search_value": "33499"
+          }
+        ]
+      },
+      "full_title": "Courage Under Fire",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1996",
+            "search_value": "1996"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "31191c",
+            "search_value": "31191c~25~1"
+          },
+          {
+            "display_value": "362e25",
+            "search_value": "362e25~25~1"
+          },
+          {
+            "display_value": "583430",
+            "search_value": "583430~25~1"
+          },
+          {
+            "display_value": "474232",
+            "search_value": "474232~25~1"
+          },
+          {
+            "display_value": "6b5f4f",
+            "search_value": "6b5f4f~25~1"
+          },
+          {
+            "display_value": "6d776a",
+            "search_value": "6d776a~25~1"
+          },
+          {
+            "display_value": "89836e",
+            "search_value": "89836e~25~1"
+          },
+          {
+            "display_value": "bf9396",
+            "search_value": "bf9396~25~1"
+          },
+          {
+            "display_value": "afa595",
+            "search_value": "afa595~25~1"
+          },
+          {
+            "display_value": "a5b0a1",
+            "search_value": "a5b0a1~25~1"
+          },
+          {
+            "display_value": "b9c5b7",
+            "search_value": "b9c5b7~25~1"
+          },
+          {
+            "display_value": "c8c1b2",
+            "search_value": "c8c1b2~25~1"
+          },
+          {
+            "display_value": "c6d0c7",
+            "search_value": "c6d0c7~25~1"
+          },
+          {
+            "display_value": "d8d1c6",
+            "search_value": "d8d1c6~25~1"
+          },
+          {
+            "display_value": "cfd9dc",
+            "search_value": "cfd9dc~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "injured",
+              "search_value": "injured"
+            },
+            {
+              "display_value": "headshot wound",
+              "search_value": "\"headshot+wound\""
+            },
+            {
+              "display_value": "bandage",
+              "search_value": "bandage"
+            },
+            {
+              "display_value": "bloody",
+              "search_value": "bloody"
+            },
+            {
+              "display_value": "dried blood",
+              "search_value": "\"dried+blood\""
+            },
+            {
+              "display_value": "dirty face",
+              "search_value": "\"dirty+face\""
+            },
+            {
+              "display_value": "unconscious",
+              "search_value": "unconscious"
+            },
+            {
+              "display_value": "laying down",
+              "search_value": "\"laying+down\""
+            },
+            {
+              "display_value": "dying",
+              "search_value": "dying"
+            },
+            {
+              "display_value": "army",
+              "search_value": "army"
+            },
+            {
+              "display_value": "pilot",
+              "search_value": "pilot"
+            },
+            {
+              "display_value": "uniform",
+              "search_value": "uniform"
+            },
+            {
+              "display_value": "sand",
+              "search_value": "sand"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Tim Guinee",
+              "search_value": "Tim+Guinee"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Dutch angle",
+              "search_value": "Dutch+angle"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arri 535 / 535B",
+              "search_value": "Arri+535+%2F+535B"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5293/7293  \tEXR\t\t200T",
+              "search_value": "5293%2F7293++%09EXR%09%09200T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Desert",
+              "search_value": "Desert"
+            },
+            {
+              "display_value": "Crash Site",
+              "search_value": "Crash+Site"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Kuwait",
+              "search_value": "Kuwait"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Texas",
+              "search_value": "Texas"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:33:20",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "War",
+              "search_value": "Movie%2FTV+-+War"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Edward Zwick",
+              "search_value": "Edward+Zwick"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Roger Deakins",
+              "search_value": "Roger+Deakins"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "John Graysmark",
+              "search_value": "John+Graysmark"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Francine Jamison-Tanchuck",
+              "search_value": "Francine+Jamison-Tanchuck"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Steven Rosenblum",
+              "search_value": "Steven+Rosenblum"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Michael Healey",
+              "search_value": "Michael+Healey"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

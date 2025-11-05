@@ -1,0 +1,428 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01AQIU9E",
+    "image_file": "01AQIU9E.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Cabaret",
+            "search_value": "756"
+          }
+        ]
+      },
+      "full_title": "Cabaret",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1972",
+            "search_value": "1972"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "040306",
+            "search_value": "040306~25~1"
+          },
+          {
+            "display_value": "0e0b0d",
+            "search_value": "0e0b0d~25~1"
+          },
+          {
+            "display_value": "18130f",
+            "search_value": "18130f~25~1"
+          },
+          {
+            "display_value": "131613",
+            "search_value": "131613~25~1"
+          },
+          {
+            "display_value": "543537",
+            "search_value": "543537~25~1"
+          },
+          {
+            "display_value": "513832",
+            "search_value": "513832~25~1"
+          },
+          {
+            "display_value": "3f3e48",
+            "search_value": "3f3e48~25~1"
+          },
+          {
+            "display_value": "38433f",
+            "search_value": "38433f~25~1"
+          },
+          {
+            "display_value": "374344",
+            "search_value": "374344~25~1"
+          },
+          {
+            "display_value": "50402a",
+            "search_value": "50402a~25~1"
+          },
+          {
+            "display_value": "5c4a3b",
+            "search_value": "5c4a3b~25~1"
+          },
+          {
+            "display_value": "4e505a",
+            "search_value": "4e505a~25~1"
+          },
+          {
+            "display_value": "614b4d",
+            "search_value": "614b4d~25~1"
+          },
+          {
+            "display_value": "4c5853",
+            "search_value": "4c5853~25~1"
+          },
+          {
+            "display_value": "a08d7f",
+            "search_value": "a08d7f~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "creeping on someone",
+              "search_value": "\"creeping+on+someone\""
+            },
+            {
+              "display_value": "floral blouse",
+              "search_value": "\"floral+blouse\""
+            },
+            {
+              "display_value": "opening door",
+              "search_value": "\"opening+door\""
+            },
+            {
+              "display_value": "peeping",
+              "search_value": "peeping"
+            },
+            {
+              "display_value": "purple curtain",
+              "search_value": "\"purple+curtain\""
+            },
+            {
+              "display_value": "secretive",
+              "search_value": "secretive"
+            },
+            {
+              "display_value": "sneaky",
+              "search_value": "sneaky"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1930s",
+              "search_value": "1930s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Tungsten",
+              "search_value": "Tungsten"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Germany",
+              "search_value": "Germany"
+            },
+            {
+              "display_value": "Berlin",
+              "search_value": "Berlin"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Germany",
+              "search_value": "Germany"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:02:10",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Music",
+              "search_value": "Movie%2FTV+-+Music"
+            },
+            {
+              "display_value": "Musical",
+              "search_value": "Movie%2FTV+-+Musical"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Stage Adaptation",
+              "search_value": "Movie%2FTV+-+Stage+Adaptation"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Bob Fosse",
+              "search_value": "Bob+Fosse"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Geoffrey Unsworth",
+              "search_value": "Geoffrey+Unsworth"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Rolf Zehetbauer",
+              "search_value": "Rolf+Zehetbauer"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Charlotte Flemming",
+              "search_value": "Charlotte+Flemming"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "David Bretherton",
+              "search_value": "David+Bretherton"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

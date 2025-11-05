@@ -1,0 +1,440 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01LKKWQ3",
+    "image_file": "01LKKWQ3.jpg",
+    "mime": "image/jpeg",
+    "width": "1800",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Help!",
+            "search_value": "13591"
+          }
+        ]
+      },
+      "full_title": "Help!",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1965",
+            "search_value": "1965"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "232326",
+            "search_value": "232326~25~1"
+          },
+          {
+            "display_value": "27241f",
+            "search_value": "27241f~25~1"
+          },
+          {
+            "display_value": "282628",
+            "search_value": "282628~25~1"
+          },
+          {
+            "display_value": "262d27",
+            "search_value": "262d27~25~1"
+          },
+          {
+            "display_value": "3d3e44",
+            "search_value": "3d3e44~25~1"
+          },
+          {
+            "display_value": "423d41",
+            "search_value": "423d41~25~1"
+          },
+          {
+            "display_value": "443e3c",
+            "search_value": "443e3c~25~1"
+          },
+          {
+            "display_value": "36453a",
+            "search_value": "36453a~25~1"
+          },
+          {
+            "display_value": "4b432d",
+            "search_value": "4b432d~25~1"
+          },
+          {
+            "display_value": "46554c",
+            "search_value": "46554c~25~1"
+          },
+          {
+            "display_value": "595248",
+            "search_value": "595248~25~1"
+          },
+          {
+            "display_value": "595356",
+            "search_value": "595356~25~1"
+          },
+          {
+            "display_value": "56575d",
+            "search_value": "56575d~25~1"
+          },
+          {
+            "display_value": "958681",
+            "search_value": "958681~25~1"
+          },
+          {
+            "display_value": "968a8e",
+            "search_value": "968a8e~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "bengal tiger",
+              "search_value": "\"bengal+tiger\""
+            },
+            {
+              "display_value": "open window",
+              "search_value": "\"open+window\""
+            },
+            {
+              "display_value": "rough plaster wall",
+              "search_value": "\"rough+plaster+wall\""
+            },
+            {
+              "display_value": "approaching",
+              "search_value": "approaching"
+            },
+            {
+              "display_value": "coming in",
+              "search_value": "\"coming+in\""
+            },
+            {
+              "display_value": "tiger",
+              "search_value": "tiger"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1960s",
+              "search_value": "1960s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex",
+              "search_value": "Arriflex"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Pub",
+              "search_value": "Pub"
+            },
+            {
+              "display_value": "Basement",
+              "search_value": "Basement"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:06:57",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Music",
+              "search_value": "Movie%2FTV+-+Music"
+            },
+            {
+              "display_value": "Musical",
+              "search_value": "Movie%2FTV+-+Musical"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Richard Lester",
+              "search_value": "Richard+Lester"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "David Watkin",
+              "search_value": "David+Watkin"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Julie Harris",
+              "search_value": "Julie+Harris"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "John Victor-Smith",
+              "search_value": "John+Victor-Smith"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Robert Freeman",
+              "search_value": "Robert+Freeman"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

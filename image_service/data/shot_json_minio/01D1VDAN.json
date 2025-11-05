@@ -1,0 +1,546 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01D1VDAN",
+    "image_file": "01D1VDAN.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "816",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Birds of Passage",
+            "search_value": "1713"
+          }
+        ]
+      },
+      "full_title": "Birds of Passage",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2018",
+            "search_value": "2018"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1a1b1d",
+            "search_value": "1a1b1d~25~1"
+          },
+          {
+            "display_value": "1a1d1c",
+            "search_value": "1a1d1c~25~1"
+          },
+          {
+            "display_value": "2e291e",
+            "search_value": "2e291e~25~1"
+          },
+          {
+            "display_value": "4c442c",
+            "search_value": "4c442c~25~1"
+          },
+          {
+            "display_value": "72636d",
+            "search_value": "72636d~25~1"
+          },
+          {
+            "display_value": "706a56",
+            "search_value": "706a56~25~1"
+          },
+          {
+            "display_value": "717770",
+            "search_value": "717770~25~1"
+          },
+          {
+            "display_value": "a37362",
+            "search_value": "a37362~25~1"
+          },
+          {
+            "display_value": "858571",
+            "search_value": "858571~25~1"
+          },
+          {
+            "display_value": "9c9199",
+            "search_value": "9c9199~25~1"
+          },
+          {
+            "display_value": "a19a88",
+            "search_value": "a19a88~25~1"
+          },
+          {
+            "display_value": "959d95",
+            "search_value": "959d95~25~1"
+          },
+          {
+            "display_value": "c4c7af",
+            "search_value": "c4c7af~25~1"
+          },
+          {
+            "display_value": "d8dfc8",
+            "search_value": "d8dfc8~25~1"
+          },
+          {
+            "display_value": "d1e3d6",
+            "search_value": "d1e3d6~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "lavender headscarf",
+              "search_value": "\"lavender+headscarf\""
+            },
+            {
+              "display_value": "floral dress",
+              "search_value": "\"floral+dress\""
+            },
+            {
+              "display_value": "mirror",
+              "search_value": "mirror"
+            },
+            {
+              "display_value": "ornate chair",
+              "search_value": "\"ornate+chair\""
+            },
+            {
+              "display_value": "white dresser",
+              "search_value": "\"white+dresser\""
+            },
+            {
+              "display_value": "beige walls",
+              "search_value": "\"beige+walls\""
+            },
+            {
+              "display_value": "decorative pattern",
+              "search_value": "\"decorative+pattern\""
+            },
+            {
+              "display_value": "violet and green",
+              "search_value": "\"violet+and+green\""
+            },
+            {
+              "display_value": "small table lamp",
+              "search_value": "\"small+table+lamp\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Carmiña Martínez",
+              "search_value": "Carmi%C3%B1a+Mart%C3%ADnez"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            },
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Master Primes",
+              "search_value": "Zeiss+Master+Primes"
+            },
+            {
+              "display_value": "Angenieux Optimo",
+              "search_value": "Angenieux+Optimo"
+            },
+            {
+              "display_value": "Fujinon Alura Zooms",
+              "search_value": "Fujinon+Alura+Zooms"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2383/3383 Vision",
+              "search_value": "2383%2F3383+Vision"
+            },
+            {
+              "display_value": "5203/7203\tVision 3\t50D",
+              "search_value": "5203%2F7203%09Vision+3%0950D"
+            },
+            {
+              "display_value": "5207/7207\tVision 3\t250D",
+              "search_value": "5207%2F7207%09Vision+3%09250D"
+            },
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Desert",
+              "search_value": "Desert"
+            },
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Living Room",
+              "search_value": "Living+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Columbia",
+              "search_value": "Columbia"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Columbia",
+              "search_value": "Columbia"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:47:14",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Outlaw",
+              "search_value": "Movie%2FTV+-+Outlaw"
+            },
+            {
+              "display_value": "Police",
+              "search_value": "Movie%2FTV+-+Police"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Small town",
+              "search_value": "Movie%2FTV+-+Small+town"
+            },
+            {
+              "display_value": "Revenge",
+              "search_value": "Movie%2FTV+-+Revenge"
+            },
+            {
+              "display_value": "War",
+              "search_value": "Movie%2FTV+-+War"
+            },
+            {
+              "display_value": "Addiction",
+              "search_value": "Movie%2FTV+-+Addiction"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            },
+            {
+              "display_value": "Fatherhood",
+              "search_value": "Movie%2FTV+-+Fatherhood"
+            },
+            {
+              "display_value": "Finance",
+              "search_value": "Movie%2FTV+-+Finance"
+            },
+            {
+              "display_value": "Gangster",
+              "search_value": "Movie%2FTV+-+Gangster"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Ciro Guerra",
+              "search_value": "Ciro+Guerra"
+            },
+            {
+              "display_value": "Cristina Gallego",
+              "search_value": "Cristina+Gallego"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "David Gallego",
+              "search_value": "David+Gallego"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Angélica Perea",
+              "search_value": "Ang%C3%A9lica+Perea"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Catherine Rodríguez",
+              "search_value": "Catherine+Rodr%C3%ADguez"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Miguel Schverdfinger",
+              "search_value": "Miguel+Schverdfinger"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Sandra Klass",
+              "search_value": "Sandra+Klass"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

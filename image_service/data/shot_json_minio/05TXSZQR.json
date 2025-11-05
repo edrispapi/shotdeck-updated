@@ -1,0 +1,506 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05TXSZQR",
+    "image_file": "05TXSZQR.jpg",
+    "mime": "image/jpeg",
+    "width": "1910",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Aquaman",
+            "search_value": "11326"
+          }
+        ]
+      },
+      "full_title": "Aquaman",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2018",
+            "search_value": "2018"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "212522",
+            "search_value": "212522~25~1"
+          },
+          {
+            "display_value": "31231c",
+            "search_value": "31231c~25~1"
+          },
+          {
+            "display_value": "44151b",
+            "search_value": "44151b~25~1"
+          },
+          {
+            "display_value": "232930",
+            "search_value": "232930~25~1"
+          },
+          {
+            "display_value": "6e2822",
+            "search_value": "6e2822~25~1"
+          },
+          {
+            "display_value": "4b452c",
+            "search_value": "4b452c~25~1"
+          },
+          {
+            "display_value": "7f1729",
+            "search_value": "7f1729~25~1"
+          },
+          {
+            "display_value": "515a68",
+            "search_value": "515a68~25~1"
+          },
+          {
+            "display_value": "79505c",
+            "search_value": "79505c~25~1"
+          },
+          {
+            "display_value": "6f5d4e",
+            "search_value": "6f5d4e~25~1"
+          },
+          {
+            "display_value": "8e8565",
+            "search_value": "8e8565~25~1"
+          },
+          {
+            "display_value": "af9887",
+            "search_value": "af9887~25~1"
+          },
+          {
+            "display_value": "b395a1",
+            "search_value": "b395a1~25~1"
+          },
+          {
+            "display_value": "decebf",
+            "search_value": "decebf~25~1"
+          },
+          {
+            "display_value": "e1cfd3",
+            "search_value": "e1cfd3~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "confused",
+              "search_value": "confused"
+            },
+            {
+              "display_value": "eating",
+              "search_value": "eating"
+            },
+            {
+              "display_value": "red roses",
+              "search_value": "\"red+roses\""
+            },
+            {
+              "display_value": "bouquet of flowers",
+              "search_value": "\"bouquet+of+flowers\""
+            },
+            {
+              "display_value": "chewing",
+              "search_value": "chewing"
+            },
+            {
+              "display_value": "wig",
+              "search_value": "wig"
+            },
+            {
+              "display_value": "curled hair",
+              "search_value": "\"curled+hair\""
+            },
+            {
+              "display_value": "hungry",
+              "search_value": "hungry"
+            },
+            {
+              "display_value": "tourists",
+              "search_value": "tourists"
+            },
+            {
+              "display_value": "backpacks",
+              "search_value": "backpacks"
+            },
+            {
+              "display_value": "fresh flowers",
+              "search_value": "\"fresh+flowers\""
+            },
+            {
+              "display_value": "outdoor market",
+              "search_value": "\"outdoor+market\""
+            },
+            {
+              "display_value": "street vendors",
+              "search_value": "\"street+vendors\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Amber Heard",
+              "search_value": "Amber+Heard"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            },
+            {
+              "display_value": "ARRI ALEXA XT / XTplus",
+              "search_value": "ARRI+ALEXA+XT+%2F+XTplus"
+            },
+            {
+              "display_value": "RED Epic Dragon",
+              "search_value": "RED+Epic+Dragon"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo 70s",
+              "search_value": "Panavision+Primo+70s"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2.8K / 2.8K ArriRaw",
+              "search_value": "2.8K+%2F+2.8K+ArriRaw"
+            },
+            {
+              "display_value": "Redcode Raw",
+              "search_value": "Redcode+Raw"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Town Center",
+              "search_value": "Town+Center"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Sicily",
+              "search_value": "Sicily"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Oceania",
+              "search_value": "Oceania"
+            },
+            {
+              "display_value": "Australia",
+              "search_value": "Australia"
+            },
+            {
+              "display_value": "Queensland",
+              "search_value": "Queensland"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "DC Extended Universe",
+              "search_value": "Movie%2FTV+-+DC+Extended+Universe"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "James Wan",
+              "search_value": "James+Wan"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Don Burgess",
+              "search_value": "Don+Burgess"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Bill Brzeski",
+              "search_value": "Bill+Brzeski"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Kym Barrett",
+              "search_value": "Kym+Barrett"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Kirk M. Morri",
+              "search_value": "Kirk+M.+Morri"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Greg Curry",
+              "search_value": "Greg+Curry"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02S1EJ70",
+    "image_file": "02S1EJ70.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1074",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Once Upon a Time in America",
+            "search_value": "2337"
+          }
+        ]
+      },
+      "full_title": "Once Upon a Time in America",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1984",
+            "search_value": "1984"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0f130e",
+            "search_value": "0f130e~25~1"
+          },
+          {
+            "display_value": "121314",
+            "search_value": "121314~25~1"
+          },
+          {
+            "display_value": "191718",
+            "search_value": "191718~25~1"
+          },
+          {
+            "display_value": "231e18",
+            "search_value": "231e18~25~1"
+          },
+          {
+            "display_value": "593928",
+            "search_value": "593928~25~1"
+          },
+          {
+            "display_value": "4d412d",
+            "search_value": "4d412d~25~1"
+          },
+          {
+            "display_value": "735c44",
+            "search_value": "735c44~25~1"
+          },
+          {
+            "display_value": "918565",
+            "search_value": "918565~25~1"
+          },
+          {
+            "display_value": "b0a682",
+            "search_value": "b0a682~25~1"
+          },
+          {
+            "display_value": "ccc4a0",
+            "search_value": "ccc4a0~25~1"
+          },
+          {
+            "display_value": "dcd1b2",
+            "search_value": "dcd1b2~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "sitting",
+              "search_value": "sitting"
+            },
+            {
+              "display_value": "leaning back",
+              "search_value": "\"leaning+back\""
+            },
+            {
+              "display_value": "serious face",
+              "search_value": "\"serious+face\""
+            },
+            {
+              "display_value": "listening",
+              "search_value": "listening"
+            },
+            {
+              "display_value": "on the phone",
+              "search_value": "\"on+the+phone\""
+            },
+            {
+              "display_value": "wired phone",
+              "search_value": "\"wired+phone\""
+            },
+            {
+              "display_value": "talking on the phone",
+              "search_value": "\"talking+on+the+phone\""
+            },
+            {
+              "display_value": "looking up",
+              "search_value": "\"looking+up\""
+            },
+            {
+              "display_value": "not happy",
+              "search_value": "\"not+happy\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Robert De Niro",
+              "search_value": "Robert+De+Niro"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            },
+            {
+              "display_value": "Living Room",
+              "search_value": "Living+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "03:02:28",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Sergio Leone",
+              "search_value": "Sergio+Leone"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Tonino Delli Colli",
+              "search_value": "Tonino+Delli+Colli"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Giovanni Natalucci",
+              "search_value": "Giovanni+Natalucci"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Gabriella Pescucci",
+              "search_value": "Gabriella+Pescucci"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Nino Baragli",
+              "search_value": "Nino+Baragli"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

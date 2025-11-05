@@ -1,0 +1,468 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00W88SCE",
+    "image_file": "00W88SCE.jpg",
+    "mime": "image/jpeg",
+    "width": "1480",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Merchant of Four Seasons",
+            "search_value": "14880"
+          }
+        ]
+      },
+      "full_title": "The Merchant of Four Seasons",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1972",
+            "search_value": "1972"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "050507",
+            "search_value": "050507~25~1"
+          },
+          {
+            "display_value": "0a0708",
+            "search_value": "0a0708~25~1"
+          },
+          {
+            "display_value": "1c1e1c",
+            "search_value": "1c1e1c~25~1"
+          },
+          {
+            "display_value": "2c1f16",
+            "search_value": "2c1f16~25~1"
+          },
+          {
+            "display_value": "4a3e33",
+            "search_value": "4a3e33~25~1"
+          },
+          {
+            "display_value": "5d3726",
+            "search_value": "5d3726~25~1"
+          },
+          {
+            "display_value": "6d5244",
+            "search_value": "6d5244~25~1"
+          },
+          {
+            "display_value": "605759",
+            "search_value": "605759~25~1"
+          },
+          {
+            "display_value": "a8725e",
+            "search_value": "a8725e~25~1"
+          },
+          {
+            "display_value": "c1957d",
+            "search_value": "c1957d~25~1"
+          },
+          {
+            "display_value": "ddb9a4",
+            "search_value": "ddb9a4~25~1"
+          },
+          {
+            "display_value": "debba0",
+            "search_value": "debba0~25~1"
+          },
+          {
+            "display_value": "e5d3c7",
+            "search_value": "e5d3c7~25~1"
+          },
+          {
+            "display_value": "e9e5e6",
+            "search_value": "e9e5e6~25~1"
+          },
+          {
+            "display_value": "e8eae9",
+            "search_value": "e8eae9~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "marriage",
+              "search_value": "marriage"
+            },
+            {
+              "display_value": "upset",
+              "search_value": "upset"
+            },
+            {
+              "display_value": "unhappy",
+              "search_value": "unhappy"
+            },
+            {
+              "display_value": "back to someone",
+              "search_value": "\"back+to+someone\""
+            },
+            {
+              "display_value": "whispering",
+              "search_value": "whispering"
+            },
+            {
+              "display_value": "seductive",
+              "search_value": "seductive"
+            },
+            {
+              "display_value": "lamp",
+              "search_value": "lamp"
+            },
+            {
+              "display_value": "angry",
+              "search_value": "angry"
+            },
+            {
+              "display_value": "lovers",
+              "search_value": "lovers"
+            },
+            {
+              "display_value": "in bed",
+              "search_value": "\"in+bed\""
+            },
+            {
+              "display_value": "on edge",
+              "search_value": "\"on+edge\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Hans Hirschmüller",
+              "search_value": "Hans+Hirschm%C3%BCller"
+            },
+            {
+              "display_value": "Irm Hermann",
+              "search_value": "Irm+Hermann"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1950s",
+              "search_value": "1950s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            },
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.37",
+              "search_value": "1.37"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            },
+            {
+              "display_value": "Bedroom",
+              "search_value": "Bedroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Germany",
+              "search_value": "Germany"
+            },
+            {
+              "display_value": "Munich",
+              "search_value": "Munich"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Germany",
+              "search_value": "Germany"
+            },
+            {
+              "display_value": "Munich",
+              "search_value": "Munich"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:45:54",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Rainer Werner Fassbinder",
+              "search_value": "Rainer+Werner+Fassbinder"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Dietrich Lohmann",
+              "search_value": "Dietrich+Lohmann"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Kurt Raab",
+              "search_value": "Kurt+Raab"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Kurt Raab",
+              "search_value": "Kurt+Raab"
+            },
+            {
+              "display_value": "Uta Wilhelm",
+              "search_value": "Uta+Wilhelm"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Thea Eymèsz",
+              "search_value": "Thea+Eym%C3%A8sz"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

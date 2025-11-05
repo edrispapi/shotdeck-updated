@@ -1,0 +1,502 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "059WVFGW",
+    "image_file": "059WVFGW.jpg",
+    "mime": "image/jpeg",
+    "width": "2880",
+    "height": "1198",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Whiplash",
+            "search_value": "1403"
+          }
+        ]
+      },
+      "full_title": "Whiplash",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2014",
+            "search_value": "2014"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "020304",
+            "search_value": "020304~25~1"
+          },
+          {
+            "display_value": "010400",
+            "search_value": "010400~25~1"
+          },
+          {
+            "display_value": "050405",
+            "search_value": "050405~25~1"
+          },
+          {
+            "display_value": "140c01",
+            "search_value": "140c01~25~1"
+          },
+          {
+            "display_value": "674806",
+            "search_value": "674806~25~1"
+          },
+          {
+            "display_value": "8b6410",
+            "search_value": "8b6410~25~1"
+          },
+          {
+            "display_value": "b18e2a",
+            "search_value": "b18e2a~25~1"
+          },
+          {
+            "display_value": "c9af5c",
+            "search_value": "c9af5c~25~1"
+          },
+          {
+            "display_value": "dfcd8c",
+            "search_value": "dfcd8c~25~1"
+          },
+          {
+            "display_value": "e3d7ab",
+            "search_value": "e3d7ab~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "music stands",
+              "search_value": "\"music+stands\""
+            },
+            {
+              "display_value": "sheet music",
+              "search_value": "\"sheet+music\""
+            },
+            {
+              "display_value": "saxaphone",
+              "search_value": "saxaphone"
+            },
+            {
+              "display_value": "drum set",
+              "search_value": "\"drum+set\""
+            },
+            {
+              "display_value": "suits",
+              "search_value": "suits"
+            },
+            {
+              "display_value": "black shirt",
+              "search_value": "\"black+shirt\""
+            },
+            {
+              "display_value": "bald",
+              "search_value": "bald"
+            },
+            {
+              "display_value": "professor",
+              "search_value": "professor"
+            },
+            {
+              "display_value": "speaking",
+              "search_value": "speaking"
+            },
+            {
+              "display_value": "sitting on stool",
+              "search_value": "\"sitting+on+stool\""
+            },
+            {
+              "display_value": "chairs",
+              "search_value": "chairs"
+            },
+            {
+              "display_value": "beginning class",
+              "search_value": "\"beginning+class\""
+            },
+            {
+              "display_value": "trombone",
+              "search_value": "trombone"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "J.K. Simmons",
+              "search_value": "J.K.+Simmons"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Classic / plus",
+              "search_value": "ARRI+ALEXA+Classic+%2F+plus"
+            },
+            {
+              "display_value": "Canon 7D",
+              "search_value": "Canon+7D"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Angenieux Optimo Zooms",
+              "search_value": "Angenieux+Optimo+Zooms"
+            },
+            {
+              "display_value": "Cooke Panchro Classic",
+              "search_value": "Cooke+Panchro+Classic"
+            },
+            {
+              "display_value": "Leica Summilux-C",
+              "search_value": "Leica+Summilux-C"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "HD / 1080p",
+              "search_value": "HD+%2F+1080p"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "College",
+              "search_value": "College"
+            },
+            {
+              "display_value": "Music Room",
+              "search_value": "Music+Room"
+            },
+            {
+              "display_value": "Band Room",
+              "search_value": "Band+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            },
+            {
+              "display_value": "Shaffer Conservatory",
+              "search_value": "Shaffer+Conservatory"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            },
+            {
+              "display_value": "Palace Theatre",
+              "search_value": "Palace+Theatre"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:54:18",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Damien Chazelle",
+              "search_value": "Damien+Chazelle"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Sharone Meir",
+              "search_value": "Sharone+Meir"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Melanie Jones",
+              "search_value": "Melanie+Jones"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Lisa Norcia",
+              "search_value": "Lisa+Norcia"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Tom Cross",
+              "search_value": "Tom+Cross"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Natasha Leonnet",
+              "search_value": "Natasha+Leonnet"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

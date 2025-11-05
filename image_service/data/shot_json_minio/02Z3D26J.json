@@ -1,0 +1,452 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02Z3D26J",
+    "image_file": "02Z3D26J.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1039",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Juliet of the Spirits",
+            "search_value": "3406"
+          }
+        ]
+      },
+      "full_title": "Juliet of the Spirits",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1965",
+            "search_value": "1965"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "33242b",
+            "search_value": "33242b~25~1"
+          },
+          {
+            "display_value": "292832",
+            "search_value": "292832~25~1"
+          },
+          {
+            "display_value": "2a3329",
+            "search_value": "2a3329~25~1"
+          },
+          {
+            "display_value": "3d352f",
+            "search_value": "3d352f~25~1"
+          },
+          {
+            "display_value": "4d373f",
+            "search_value": "4d373f~25~1"
+          },
+          {
+            "display_value": "454037",
+            "search_value": "454037~25~1"
+          },
+          {
+            "display_value": "5d5350",
+            "search_value": "5d5350~25~1"
+          },
+          {
+            "display_value": "505b4b",
+            "search_value": "505b4b~25~1"
+          },
+          {
+            "display_value": "625c6b",
+            "search_value": "625c6b~25~1"
+          },
+          {
+            "display_value": "6f6368",
+            "search_value": "6f6368~25~1"
+          },
+          {
+            "display_value": "887a83",
+            "search_value": "887a83~25~1"
+          },
+          {
+            "display_value": "a18e9c",
+            "search_value": "a18e9c~25~1"
+          },
+          {
+            "display_value": "b39790",
+            "search_value": "b39790~25~1"
+          },
+          {
+            "display_value": "ddb1b8",
+            "search_value": "ddb1b8~25~1"
+          },
+          {
+            "display_value": "f9cfe8",
+            "search_value": "f9cfe8~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "leaving",
+              "search_value": "leaving"
+            },
+            {
+              "display_value": "going home",
+              "search_value": "\"going+home\""
+            },
+            {
+              "display_value": "goodbye",
+              "search_value": "goodbye"
+            },
+            {
+              "display_value": "rushing",
+              "search_value": "rushing"
+            },
+            {
+              "display_value": "hurried",
+              "search_value": "hurried"
+            },
+            {
+              "display_value": "doorway framing",
+              "search_value": "\"doorway+framing\""
+            },
+            {
+              "display_value": "open door",
+              "search_value": "\"open+door\""
+            },
+            {
+              "display_value": "white fence",
+              "search_value": "\"white+fence\""
+            },
+            {
+              "display_value": "see you later",
+              "search_value": "\"see+you+later\""
+            },
+            {
+              "display_value": "waving at someone",
+              "search_value": "\"waving+at+someone\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Valentina Cortese",
+              "search_value": "Valentina+Cortese"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1960s",
+              "search_value": "1960s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Pink",
+              "search_value": "Pink"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Front Yard",
+              "search_value": "Front+Yard"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Fragene",
+              "search_value": "Fragene"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:37:09",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Federico Fellini",
+              "search_value": "Federico+Fellini"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Gianni Di Venanzo",
+              "search_value": "Gianni+Di+Venanzo"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Giantito Burchiellaro",
+              "search_value": "Giantito+Burchiellaro"
+            },
+            {
+              "display_value": "Luciano Ricceri",
+              "search_value": "Luciano+Ricceri"
+            },
+            {
+              "display_value": "E. Benazzi Taglietti",
+              "search_value": "E.+Benazzi+Taglietti"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Piero Gherardi",
+              "search_value": "Piero+Gherardi"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Ruggero Mastroianni",
+              "search_value": "Ruggero+Mastroianni"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

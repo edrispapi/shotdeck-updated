@@ -1,0 +1,406 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "059MQK4X",
+    "image_file": "059MQK4X.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1036",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Tenebrae",
+            "search_value": "33487"
+          }
+        ]
+      },
+      "full_title": "Tenebrae",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1982",
+            "search_value": "1982"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1a1116",
+            "search_value": "1a1116~25~1"
+          },
+          {
+            "display_value": "1d1b23",
+            "search_value": "1d1b23~25~1"
+          },
+          {
+            "display_value": "3b2927",
+            "search_value": "3b2927~25~1"
+          },
+          {
+            "display_value": "4e3935",
+            "search_value": "4e3935~25~1"
+          },
+          {
+            "display_value": "5e4e53",
+            "search_value": "5e4e53~25~1"
+          },
+          {
+            "display_value": "6c534c",
+            "search_value": "6c534c~25~1"
+          },
+          {
+            "display_value": "616b7c",
+            "search_value": "616b7c~25~1"
+          },
+          {
+            "display_value": "717e93",
+            "search_value": "717e93~25~1"
+          },
+          {
+            "display_value": "9f7369",
+            "search_value": "9f7369~25~1"
+          },
+          {
+            "display_value": "b28e83",
+            "search_value": "b28e83~25~1"
+          },
+          {
+            "display_value": "80a3ce",
+            "search_value": "80a3ce~25~1"
+          },
+          {
+            "display_value": "ab9fa5",
+            "search_value": "ab9fa5~25~1"
+          },
+          {
+            "display_value": "c3c4cb",
+            "search_value": "c3c4cb~25~1"
+          },
+          {
+            "display_value": "cec8cb",
+            "search_value": "cec8cb~25~1"
+          },
+          {
+            "display_value": "d3cbc8",
+            "search_value": "d3cbc8~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "view from below",
+              "search_value": "\"view+from+below\""
+            },
+            {
+              "display_value": "white sleeveless dress",
+              "search_value": "\"white+sleeveless+dress\""
+            },
+            {
+              "display_value": "long hair",
+              "search_value": "\"long+hair\""
+            },
+            {
+              "display_value": "blood",
+              "search_value": "blood"
+            },
+            {
+              "display_value": "bleeding",
+              "search_value": "bleeding"
+            },
+            {
+              "display_value": "blood on mouth",
+              "search_value": "\"blood+on+mouth\""
+            },
+            {
+              "display_value": "light blue sky",
+              "search_value": "\"light+blue+sky\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Eva Robins",
+              "search_value": "Eva+Robins"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Beach",
+              "search_value": "Beach"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:24:08",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Giallo",
+              "search_value": "Movie%2FTV+-+Giallo"
+            },
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Dario Argento",
+              "search_value": "Dario+Argento"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Luciano Tovoli",
+              "search_value": "Luciano+Tovoli"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Giuseppe Bassan",
+              "search_value": "Giuseppe+Bassan"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Piero Cicoletti",
+              "search_value": "Piero+Cicoletti"
+            },
+            {
+              "display_value": "Franco Tomei",
+              "search_value": "Franco+Tomei"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Franco Fraticelli",
+              "search_value": "Franco+Fraticelli"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "David Block",
+              "search_value": "David+Block"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01T6HGIV",
+    "image_file": "01T6HGIV.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "A Quiet Place",
+            "search_value": "3759"
+          }
+        ]
+      },
+      "full_title": "A Quiet Place",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2018",
+            "search_value": "2018"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "030304",
+            "search_value": "030304~25~1"
+          },
+          {
+            "display_value": "070203",
+            "search_value": "070203~25~1"
+          },
+          {
+            "display_value": "040605",
+            "search_value": "040605~25~1"
+          },
+          {
+            "display_value": "251208",
+            "search_value": "251208~25~1"
+          },
+          {
+            "display_value": "5c3d20",
+            "search_value": "5c3d20~25~1"
+          },
+          {
+            "display_value": "742b13",
+            "search_value": "742b13~25~1"
+          },
+          {
+            "display_value": "23554c",
+            "search_value": "23554c~25~1"
+          },
+          {
+            "display_value": "745437",
+            "search_value": "745437~25~1"
+          },
+          {
+            "display_value": "466358",
+            "search_value": "466358~25~1"
+          },
+          {
+            "display_value": "9c815a",
+            "search_value": "9c815a~25~1"
+          },
+          {
+            "display_value": "bb7147",
+            "search_value": "bb7147~25~1"
+          },
+          {
+            "display_value": "b19d76",
+            "search_value": "b19d76~25~1"
+          },
+          {
+            "display_value": "d5c79b",
+            "search_value": "d5c79b~25~1"
+          },
+          {
+            "display_value": "e5deb7",
+            "search_value": "e5deb7~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "backpack",
+              "search_value": "backpack"
+            },
+            {
+              "display_value": "basket",
+              "search_value": "basket"
+            },
+            {
+              "display_value": "chairs",
+              "search_value": "chairs"
+            },
+            {
+              "display_value": "ready to go",
+              "search_value": "\"ready+to+go\""
+            },
+            {
+              "display_value": "red sweaer",
+              "search_value": "\"red+sweaer\""
+            },
+            {
+              "display_value": "supplies",
+              "search_value": "supplies"
+            },
+            {
+              "display_value": "table",
+              "search_value": "table"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "John Krasinski",
+              "search_value": "John+Krasinski"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Millennium / Millenium XL / XL2",
+              "search_value": "Panavision+Millennium+%2F+Millenium+XL+%2F+XL2"
+            },
+            {
+              "display_value": "Arri 235",
+              "search_value": "Arri+235"
+            },
+            {
+              "display_value": "Arriflex 35 IIIc",
+              "search_value": "Arriflex+35+IIIc"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Ultra Speed MKII",
+              "search_value": "Panavision+Ultra+Speed+MKII"
+            },
+            {
+              "display_value": "Angenieux Optimo Zooms",
+              "search_value": "Angenieux+Optimo+Zooms"
+            },
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision G series",
+              "search_value": "Panavision+G+series"
+            },
+            {
+              "display_value": "Panavision T series",
+              "search_value": "Panavision+T+series"
+            },
+            {
+              "display_value": "Panavision 70-200mm (ATZ)",
+              "search_value": "Panavision+70-200mm+%28ATZ%29"
+            },
+            {
+              "display_value": "Panavision 40-80 (Bailey zoom - AWZ2)",
+              "search_value": "Panavision+40-80+%28Bailey+zoom+-+AWZ2%29"
+            },
+            {
+              "display_value": "Panavision Sphero 65mm Lenses",
+              "search_value": "Panavision+Sphero+65mm+Lenses"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            },
+            {
+              "display_value": "5207/7207\tVision 3\t250D",
+              "search_value": "5207%2F7207%09Vision+3%09250D"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Barn",
+              "search_value": "Barn"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "Little Falls",
+              "search_value": "Little+Falls"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:29:49",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            },
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Motherhood",
+              "search_value": "Movie%2FTV+-+Motherhood"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "John Krasinski",
+              "search_value": "John+Krasinski"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Charlotte Bruus Christensen",
+              "search_value": "Charlotte+Bruus+Christensen"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Jeffrey Beecroft",
+              "search_value": "Jeffrey+Beecroft"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Kasia Walicka-Maimone",
+              "search_value": "Kasia+Walicka-Maimone"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Christopher Tellefsen",
+              "search_value": "Christopher+Tellefsen"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Stefan Sonnenfeld",
+              "search_value": "Stefan+Sonnenfeld"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

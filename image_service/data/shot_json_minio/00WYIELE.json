@@ -1,0 +1,520 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00WYIELE",
+    "image_file": "00WYIELE.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The King's Speech",
+            "search_value": "267"
+          }
+        ]
+      },
+      "full_title": "The King's Speech",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2010",
+            "search_value": "2010"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0b1725",
+            "search_value": "0b1725~25~1"
+          },
+          {
+            "display_value": "2d252a",
+            "search_value": "2d252a~25~1"
+          },
+          {
+            "display_value": "2e2726",
+            "search_value": "2e2726~25~1"
+          },
+          {
+            "display_value": "353e4f",
+            "search_value": "353e4f~25~1"
+          },
+          {
+            "display_value": "4c3938",
+            "search_value": "4c3938~25~1"
+          },
+          {
+            "display_value": "463b42",
+            "search_value": "463b42~25~1"
+          },
+          {
+            "display_value": "1c4860",
+            "search_value": "1c4860~25~1"
+          },
+          {
+            "display_value": "534140",
+            "search_value": "534140~25~1"
+          },
+          {
+            "display_value": "505c6d",
+            "search_value": "505c6d~25~1"
+          },
+          {
+            "display_value": "635963",
+            "search_value": "635963~25~1"
+          },
+          {
+            "display_value": "787e8b",
+            "search_value": "787e8b~25~1"
+          },
+          {
+            "display_value": "948c93",
+            "search_value": "948c93~25~1"
+          },
+          {
+            "display_value": "939da7",
+            "search_value": "939da7~25~1"
+          },
+          {
+            "display_value": "a4a3a2",
+            "search_value": "a4a3a2~25~1"
+          },
+          {
+            "display_value": "c7d7e0",
+            "search_value": "c7d7e0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "antique phone",
+              "search_value": "\"antique+phone\""
+            },
+            {
+              "display_value": "black suit",
+              "search_value": "\"black+suit\""
+            },
+            {
+              "display_value": "books",
+              "search_value": "books"
+            },
+            {
+              "display_value": "dejected",
+              "search_value": "dejected"
+            },
+            {
+              "display_value": "messy desk",
+              "search_value": "\"messy+desk\""
+            },
+            {
+              "display_value": "metal fan",
+              "search_value": "\"metal+fan\""
+            },
+            {
+              "display_value": "out of focus foreground",
+              "search_value": "\"out+of+focus+foreground\""
+            },
+            {
+              "display_value": "phone",
+              "search_value": "phone"
+            },
+            {
+              "display_value": "sad",
+              "search_value": "sad"
+            },
+            {
+              "display_value": "stacks of paper",
+              "search_value": "\"stacks+of+paper\""
+            },
+            {
+              "display_value": "table lamp",
+              "search_value": "\"table+lamp\""
+            },
+            {
+              "display_value": "telephone",
+              "search_value": "telephone"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1930s",
+              "search_value": "1930s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Master Primes",
+              "search_value": "Zeiss+Master+Primes"
+            },
+            {
+              "display_value": "Zeiss Master Primes",
+              "search_value": "Zeiss+Master+Primes"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "8522/8622\tF-64D",
+              "search_value": "8522%2F8622%09F-64D"
+            },
+            {
+              "display_value": "8543/8643\tVivid \t160T",
+              "search_value": "8543%2F8643%09Vivid+%09160T"
+            },
+            {
+              "display_value": "8547/8647\tVivid \t500T",
+              "search_value": "8547%2F8647%09Vivid+%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Government Building",
+              "search_value": "Government+Building"
+            },
+            {
+              "display_value": "Office",
+              "search_value": "Office"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:05:43",
+              "search_value": "n/a"
+            }
+          ]
+        },
+        "general_notes": {
+          "filter": "n/a",
+          "filter_name": "Notes",
+          "values": [
+            {
+              "display_value": " Arricam LT, Zeiss Master Prime Lenses, Arricam ST, Zeiss Master Prime",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Tom Hooper",
+              "search_value": "Tom+Hooper"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Danny Cohen",
+              "search_value": "Danny+Cohen"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Eve Stewart",
+              "search_value": "Eve+Stewart"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jenny Beavan",
+              "search_value": "Jenny+Beavan"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Tariq Anwar",
+              "search_value": "Tariq+Anwar"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Gareth Spensley",
+              "search_value": "Gareth+Spensley"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

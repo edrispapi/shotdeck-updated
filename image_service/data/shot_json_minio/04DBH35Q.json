@@ -1,0 +1,500 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04DBH35Q",
+    "image_file": "04DBH35Q.jpg",
+    "mime": "image/jpeg",
+    "width": "1433",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Artist",
+            "search_value": "1190"
+          }
+        ]
+      },
+      "full_title": "The Artist",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2011",
+            "search_value": "2011"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "242424",
+            "search_value": "242424~25~1"
+          },
+          {
+            "display_value": "616161",
+            "search_value": "616161~25~1"
+          },
+          {
+            "display_value": "6d6b6c",
+            "search_value": "6d6b6c~25~1"
+          },
+          {
+            "display_value": "727372",
+            "search_value": "727372~25~1"
+          },
+          {
+            "display_value": "929293",
+            "search_value": "929293~25~1"
+          },
+          {
+            "display_value": "979797",
+            "search_value": "979797~25~1"
+          },
+          {
+            "display_value": "9b9a9b",
+            "search_value": "9b9a9b~25~1"
+          },
+          {
+            "display_value": "9b9c9c",
+            "search_value": "9b9c9c~25~1"
+          },
+          {
+            "display_value": "c1c2c1",
+            "search_value": "c1c2c1~25~1"
+          },
+          {
+            "display_value": "cac9ca",
+            "search_value": "cac9ca~25~1"
+          },
+          {
+            "display_value": "cacaca",
+            "search_value": "cacaca~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "1920s",
+              "search_value": "1920s"
+            },
+            {
+              "display_value": "black tuxedo",
+              "search_value": "\"black+tuxedo\""
+            },
+            {
+              "display_value": "dog",
+              "search_value": "dog"
+            },
+            {
+              "display_value": "dog trick",
+              "search_value": "\"dog+trick\""
+            },
+            {
+              "display_value": "jack russell terrier",
+              "search_value": "\"jack+russell+terrier\""
+            },
+            {
+              "display_value": "movie star",
+              "search_value": "\"movie+star\""
+            },
+            {
+              "display_value": "performance",
+              "search_value": "performance"
+            },
+            {
+              "display_value": "silent film star",
+              "search_value": "\"silent+film+star\""
+            },
+            {
+              "display_value": "stage curtain",
+              "search_value": "\"stage+curtain\""
+            },
+            {
+              "display_value": "stage spotlight",
+              "search_value": "\"stage+spotlight\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Jean Dujardin",
+              "search_value": "Jean+Dujardin"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1920s",
+              "search_value": "1920s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            },
+            {
+              "display_value": "Symmetrical",
+              "search_value": "Symmetrical"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.33",
+              "search_value": "1.33"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Super 35",
+              "search_value": "Super+35"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arri 435 / 435ES",
+              "search_value": "Arri+435+%2F+435ES"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Super Speed Zeiss MKII",
+              "search_value": "Panavision+Super+Speed+Zeiss+MKII"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Theater",
+              "search_value": "Theater"
+            },
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            },
+            {
+              "display_value": "Hollywood",
+              "search_value": "Hollywood"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:06:40",
+              "search_value": "n/a"
+            }
+          ]
+        },
+        "general_notes": {
+          "filter": "n/a",
+          "filter_name": "Notes",
+          "values": [
+            {
+              "display_value": " ",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Michel Hazanavicius",
+              "search_value": "Michel+Hazanavicius"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Guillaume Schiffman",
+              "search_value": "Guillaume+Schiffman"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Laurence Bennett",
+              "search_value": "Laurence+Bennett"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Mark Bridges",
+              "search_value": "Mark+Bridges"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Anne-Sophie Bion",
+              "search_value": "Anne-Sophie+Bion"
+            },
+            {
+              "display_value": "Michel Hazanavicius",
+              "search_value": "Michel+Hazanavicius"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Christian Dutac",
+              "search_value": "Christian+Dutac"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

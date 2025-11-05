@@ -1,0 +1,514 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05QN30Y3",
+    "image_file": "05QN30Y3.jpg",
+    "mime": "image/jpeg",
+    "width": "1548",
+    "height": "1079",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "EO",
+            "search_value": "24892"
+          }
+        ]
+      },
+      "full_title": "EO",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "080f0c",
+            "search_value": "080f0c~25~1"
+          },
+          {
+            "display_value": "091012",
+            "search_value": "091012~25~1"
+          },
+          {
+            "display_value": "260a06",
+            "search_value": "260a06~25~1"
+          },
+          {
+            "display_value": "330809",
+            "search_value": "330809~25~1"
+          },
+          {
+            "display_value": "0f5a36",
+            "search_value": "0f5a36~25~1"
+          },
+          {
+            "display_value": "a50101",
+            "search_value": "a50101~25~1"
+          },
+          {
+            "display_value": "755549",
+            "search_value": "755549~25~1"
+          },
+          {
+            "display_value": "4d675c",
+            "search_value": "4d675c~25~1"
+          },
+          {
+            "display_value": "7e545b",
+            "search_value": "7e545b~25~1"
+          },
+          {
+            "display_value": "4b696b",
+            "search_value": "4b696b~25~1"
+          },
+          {
+            "display_value": "be010b",
+            "search_value": "be010b~25~1"
+          },
+          {
+            "display_value": "6f8a7a",
+            "search_value": "6f8a7a~25~1"
+          },
+          {
+            "display_value": "81988e",
+            "search_value": "81988e~25~1"
+          },
+          {
+            "display_value": "9b9283",
+            "search_value": "9b9283~25~1"
+          },
+          {
+            "display_value": "e2dfc9",
+            "search_value": "e2dfc9~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "front seat",
+              "search_value": "\"front+seat\""
+            },
+            {
+              "display_value": "truck",
+              "search_value": "truck"
+            },
+            {
+              "display_value": "semi truck",
+              "search_value": "\"semi+truck\""
+            },
+            {
+              "display_value": "red light",
+              "search_value": "\"red+light\""
+            },
+            {
+              "display_value": "long hair",
+              "search_value": "\"long+hair\""
+            },
+            {
+              "display_value": "disheveled",
+              "search_value": "disheveled"
+            },
+            {
+              "display_value": "shaggy hair",
+              "search_value": "\"shaggy+hair\""
+            },
+            {
+              "display_value": "friendly",
+              "search_value": "friendly"
+            },
+            {
+              "display_value": "happy",
+              "search_value": "happy"
+            },
+            {
+              "display_value": "delighted",
+              "search_value": "delighted"
+            },
+            {
+              "display_value": "kind",
+              "search_value": "kind"
+            },
+            {
+              "display_value": "big smile",
+              "search_value": "\"big+smile\""
+            },
+            {
+              "display_value": "teeth",
+              "search_value": "teeth"
+            },
+            {
+              "display_value": "gold tooth",
+              "search_value": "\"gold+tooth\""
+            },
+            {
+              "display_value": "laughing",
+              "search_value": "laughing"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Mateusz Kościukiewicz",
+              "search_value": "Mateusz+Ko%C5%9Bciukiewicz"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital, Digital - Large Format",
+              "search_value": "Digital%2C+Digital+-+Large+Format"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.43",
+              "search_value": "1.43"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini LF",
+              "search_value": "ARRI+ALEXA+Mini+LF"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Canon K35",
+              "search_value": "Canon+K35"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            },
+            {
+              "display_value": "ARRIRAW (4.5K)",
+              "search_value": "ARRIRAW+%284.5K%29"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Truck Stop",
+              "search_value": "Truck+Stop"
+            },
+            {
+              "display_value": "Semi Truck",
+              "search_value": "Semi+Truck"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Poland",
+              "search_value": "Poland"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Poland",
+              "search_value": "Poland"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:02:54",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Jerzy Skolimowski",
+              "search_value": "Jerzy+Skolimowski"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Michal Dymek",
+              "search_value": "Michal+Dymek"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Miroslaw Koncewicz",
+              "search_value": "Miroslaw+Koncewicz"
+            },
+            {
+              "display_value": "Roberta Amodio",
+              "search_value": "Roberta+Amodio"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Katarzyna Lewinska",
+              "search_value": "Katarzyna+Lewinska"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Agnieszka Glińska",
+              "search_value": "Agnieszka+Gli%C5%84ska"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,498 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00DTMY94",
+    "image_file": "00DTMY94.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Last Tango in Paris",
+            "search_value": "1242"
+          }
+        ]
+      },
+      "full_title": "Last Tango in Paris",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1972",
+            "search_value": "1972"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "020105",
+            "search_value": "020105~25~1"
+          },
+          {
+            "display_value": "1b050a",
+            "search_value": "1b050a~25~1"
+          },
+          {
+            "display_value": "131514",
+            "search_value": "131514~25~1"
+          },
+          {
+            "display_value": "2f1d19",
+            "search_value": "2f1d19~25~1"
+          },
+          {
+            "display_value": "6b2328",
+            "search_value": "6b2328~25~1"
+          },
+          {
+            "display_value": "533830",
+            "search_value": "533830~25~1"
+          },
+          {
+            "display_value": "4b3f32",
+            "search_value": "4b3f32~25~1"
+          },
+          {
+            "display_value": "5a4e51",
+            "search_value": "5a4e51~25~1"
+          },
+          {
+            "display_value": "614f43",
+            "search_value": "614f43~25~1"
+          },
+          {
+            "display_value": "53545a",
+            "search_value": "53545a~25~1"
+          },
+          {
+            "display_value": "878074",
+            "search_value": "878074~25~1"
+          },
+          {
+            "display_value": "a29d91",
+            "search_value": "a29d91~25~1"
+          },
+          {
+            "display_value": "a2a8a2",
+            "search_value": "a2a8a2~25~1"
+          },
+          {
+            "display_value": "c4c2b6",
+            "search_value": "c4c2b6~25~1"
+          },
+          {
+            "display_value": "d4d3c8",
+            "search_value": "d4d3c8~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "curls",
+              "search_value": "curls"
+            },
+            {
+              "display_value": "curly",
+              "search_value": "curly"
+            },
+            {
+              "display_value": "flared jeans",
+              "search_value": "\"flared+jeans\""
+            },
+            {
+              "display_value": "sitting on the floor",
+              "search_value": "\"sitting+on+the+floor\""
+            },
+            {
+              "display_value": "two shot reflection",
+              "search_value": "\"two+shot+reflection\""
+            },
+            {
+              "display_value": "trash on the floor",
+              "search_value": "\"trash+on+the+floor\""
+            },
+            {
+              "display_value": "red sweater",
+              "search_value": "\"red+sweater\""
+            },
+            {
+              "display_value": "paying attention",
+              "search_value": "\"paying+attention\""
+            },
+            {
+              "display_value": "conversation",
+              "search_value": "conversation"
+            },
+            {
+              "display_value": "chatting",
+              "search_value": "chatting"
+            },
+            {
+              "display_value": "talking",
+              "search_value": "talking"
+            },
+            {
+              "display_value": "mirror",
+              "search_value": "mirror"
+            },
+            {
+              "display_value": "girl reflected on mirror",
+              "search_value": "\"girl+reflected+on+mirror\""
+            },
+            {
+              "display_value": "lens flare",
+              "search_value": "\"lens+flare\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Marlon Brando",
+              "search_value": "Marlon+Brando"
+            },
+            {
+              "display_value": "Maria Schneider",
+              "search_value": "Maria+Schneider"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            },
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Mitchell BNCR",
+              "search_value": "Mitchell+BNCR"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:15:46",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Bernardo Bertolucci",
+              "search_value": "Bernardo+Bertolucci"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Vittorio Storaro",
+              "search_value": "Vittorio+Storaro"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Ferdinando Scarfiotti",
+              "search_value": "Ferdinando+Scarfiotti"
+            },
+            {
+              "display_value": "Philippe Turlure",
+              "search_value": "Philippe+Turlure"
+            },
+            {
+              "display_value": "Maria Paola Maino",
+              "search_value": "Maria+Paola+Maino"
+            },
+            {
+              "display_value": "Albert Rajau",
+              "search_value": "Albert+Rajau"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Gitt Magrini",
+              "search_value": "Gitt+Magrini"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Franco Arcalli",
+              "search_value": "Franco+Arcalli"
+            },
+            {
+              "display_value": "Roberto Perpignani",
+              "search_value": "Roberto+Perpignani"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Andrea Gargano",
+              "search_value": "Andrea+Gargano"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

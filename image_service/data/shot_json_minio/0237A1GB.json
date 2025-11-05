@@ -1,0 +1,482 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "0237A1GB",
+    "image_file": "0237A1GB.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Andor",
+            "search_value": "23110",
+            "season": "1",
+            "episode": "9"
+          }
+        ]
+      },
+      "full_title": "Andor - Season 1 - Episode 9",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "161516",
+            "search_value": "161516~25~1"
+          },
+          {
+            "display_value": "1d2224",
+            "search_value": "1d2224~25~1"
+          },
+          {
+            "display_value": "222625",
+            "search_value": "222625~25~1"
+          },
+          {
+            "display_value": "2d2521",
+            "search_value": "2d2521~25~1"
+          },
+          {
+            "display_value": "384245",
+            "search_value": "384245~25~1"
+          },
+          {
+            "display_value": "5a3729",
+            "search_value": "5a3729~25~1"
+          },
+          {
+            "display_value": "664e42",
+            "search_value": "664e42~25~1"
+          },
+          {
+            "display_value": "5c6463",
+            "search_value": "5c6463~25~1"
+          },
+          {
+            "display_value": "5d696d",
+            "search_value": "5d696d~25~1"
+          },
+          {
+            "display_value": "758487",
+            "search_value": "758487~25~1"
+          },
+          {
+            "display_value": "908882",
+            "search_value": "908882~25~1"
+          },
+          {
+            "display_value": "99a7a7",
+            "search_value": "99a7a7~25~1"
+          },
+          {
+            "display_value": "97aaae",
+            "search_value": "97aaae~25~1"
+          },
+          {
+            "display_value": "b3c5c8",
+            "search_value": "b3c5c8~25~1"
+          },
+          {
+            "display_value": "b8c7cb",
+            "search_value": "b8c7cb~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "imperial prison complex",
+              "search_value": "\"imperial+prison+complex\""
+            },
+            {
+              "display_value": "detention facility",
+              "search_value": "\"detention+facility\""
+            },
+            {
+              "display_value": "bathroom",
+              "search_value": "bathroom"
+            },
+            {
+              "display_value": "prisoner",
+              "search_value": "prisoner"
+            },
+            {
+              "display_value": "working",
+              "search_value": "working"
+            },
+            {
+              "display_value": "side profile",
+              "search_value": "\"side+profile\""
+            },
+            {
+              "display_value": "head forward",
+              "search_value": "\"head+forward\""
+            },
+            {
+              "display_value": "looking down",
+              "search_value": "\"looking+down\""
+            },
+            {
+              "display_value": "white uniform",
+              "search_value": "\"white+uniform\""
+            },
+            {
+              "display_value": "cutting pipes",
+              "search_value": "\"cutting+pipes\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Diego Luna",
+              "search_value": "Diego+Luna"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital, Digital - Large Format",
+              "search_value": "Digital%2C+Digital+-+Large+Format"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Fluorescent",
+              "search_value": "Fluorescent"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Sony VENICE",
+              "search_value": "Sony+VENICE"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision G series",
+              "search_value": "Panavision+G+series"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "Sony X-OCN XT/ST/LT (6k)",
+              "search_value": "Sony+X-OCN+XT%2FST%2FLT+%286k%29"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Prison",
+              "search_value": "Prison"
+            },
+            {
+              "display_value": "Bathroom",
+              "search_value": "Bathroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Narkina-5",
+              "search_value": "Narkina-5"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:12:44",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Political",
+              "search_value": "Movie%2FTV+-+Political"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Spy",
+              "search_value": "Movie%2FTV+-+Spy"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "War",
+              "search_value": "Movie%2FTV+-+War"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Toby Haynes",
+              "search_value": "Toby+Haynes"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Adriano Goldman",
+              "search_value": "Adriano+Goldman"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Luke Hull",
+              "search_value": "Luke+Hull"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Michael Wilkinson",
+              "search_value": "Michael+Wilkinson"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Simon Smith",
+              "search_value": "Simon+Smith"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Jean-Clement Soret",
+              "search_value": "Jean-Clement+Soret"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03537IMC",
+    "image_file": "03537IMC.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "814",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Arcane",
+            "search_value": "5308",
+            "season": "1",
+            "episode": "1"
+          }
+        ]
+      },
+      "full_title": "Arcane - Season 1 - Episode 1",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2021",
+            "search_value": "2021"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "101210",
+            "search_value": "101210~25~1"
+          },
+          {
+            "display_value": "241a13",
+            "search_value": "241a13~25~1"
+          },
+          {
+            "display_value": "302426",
+            "search_value": "302426~25~1"
+          },
+          {
+            "display_value": "30393b",
+            "search_value": "30393b~25~1"
+          },
+          {
+            "display_value": "374347",
+            "search_value": "374347~25~1"
+          },
+          {
+            "display_value": "4d3e30",
+            "search_value": "4d3e30~25~1"
+          },
+          {
+            "display_value": "404240",
+            "search_value": "404240~25~1"
+          },
+          {
+            "display_value": "5c3728",
+            "search_value": "5c3728~25~1"
+          },
+          {
+            "display_value": "3d4547",
+            "search_value": "3d4547~25~1"
+          },
+          {
+            "display_value": "6c4733",
+            "search_value": "6c4733~25~1"
+          },
+          {
+            "display_value": "a5745d",
+            "search_value": "a5745d~25~1"
+          },
+          {
+            "display_value": "a17c55",
+            "search_value": "a17c55~25~1"
+          },
+          {
+            "display_value": "b48361",
+            "search_value": "b48361~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "dystopian",
+              "search_value": "dystopian"
+            },
+            {
+              "display_value": "steam punk",
+              "search_value": "\"steam+punk\""
+            },
+            {
+              "display_value": "before a fight",
+              "search_value": "\"before+a+fight\""
+            },
+            {
+              "display_value": "before getting jumped",
+              "search_value": "\"before+getting+jumped\""
+            },
+            {
+              "display_value": "ragged clothes",
+              "search_value": "\"ragged+clothes\""
+            },
+            {
+              "display_value": "sketchy alleyway",
+              "search_value": "\"sketchy+alleyway\""
+            },
+            {
+              "display_value": "sizing up opponent",
+              "search_value": "\"sizing+up+opponent\""
+            },
+            {
+              "display_value": "orphans",
+              "search_value": "orphans"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            },
+            {
+              "display_value": "Sunset",
+              "search_value": "Sunset"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Animation"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Piltover",
+              "search_value": "Piltover"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:14:58",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Superhero",
+              "search_value": "Movie%2FTV+-+Superhero"
+            },
+            {
+              "display_value": "Video Game Adaptation",
+              "search_value": "Movie%2FTV+-+Video+Game+Adaptation"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Arnaud Delord",
+              "search_value": "Arnaud+Delord"
+            },
+            {
+              "display_value": "Pascal Charrue",
+              "search_value": "Pascal+Charrue"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

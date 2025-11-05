@@ -1,0 +1,508 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05LLUADJ",
+    "image_file": "05LLUADJ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Theory of Everything",
+            "search_value": "713"
+          }
+        ]
+      },
+      "full_title": "The Theory of Everything",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2014",
+            "search_value": "2014"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "2b090b",
+            "search_value": "2b090b~25~1"
+          },
+          {
+            "display_value": "173025",
+            "search_value": "173025~25~1"
+          },
+          {
+            "display_value": "372b23",
+            "search_value": "372b23~25~1"
+          },
+          {
+            "display_value": "414534",
+            "search_value": "414534~25~1"
+          },
+          {
+            "display_value": "6f2b22",
+            "search_value": "6f2b22~25~1"
+          },
+          {
+            "display_value": "22513c",
+            "search_value": "22513c~25~1"
+          },
+          {
+            "display_value": "47624c",
+            "search_value": "47624c~25~1"
+          },
+          {
+            "display_value": "5a5d66",
+            "search_value": "5a5d66~25~1"
+          },
+          {
+            "display_value": "68624f",
+            "search_value": "68624f~25~1"
+          },
+          {
+            "display_value": "838666",
+            "search_value": "838666~25~1"
+          },
+          {
+            "display_value": "638e7e",
+            "search_value": "638e7e~25~1"
+          },
+          {
+            "display_value": "9799a5",
+            "search_value": "9799a5~25~1"
+          },
+          {
+            "display_value": "a49b90",
+            "search_value": "a49b90~25~1"
+          },
+          {
+            "display_value": "aba1a5",
+            "search_value": "aba1a5~25~1"
+          },
+          {
+            "display_value": "d8d4cd",
+            "search_value": "d8d4cd~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "chasing brother",
+              "search_value": "\"chasing+brother\""
+            },
+            {
+              "display_value": "happy",
+              "search_value": "happy"
+            },
+            {
+              "display_value": "kids having fun",
+              "search_value": "\"kids+having+fun\""
+            },
+            {
+              "display_value": "playing together",
+              "search_value": "\"playing+together\""
+            },
+            {
+              "display_value": "running around",
+              "search_value": "\"running+around\""
+            },
+            {
+              "display_value": "smiling",
+              "search_value": "smiling"
+            },
+            {
+              "display_value": "tent in background",
+              "search_value": "\"tent+in+background\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Sophie Perry",
+              "search_value": "Sophie+Perry"
+            },
+            {
+              "display_value": "Finlay Wright-Stephens",
+              "search_value": "Finlay+Wright-Stephens"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1960s",
+              "search_value": "1960s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA 4:3 / plus",
+              "search_value": "ARRI+ALEXA+4%3A3+%2F+plus"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Leitz SUMMILUX-C",
+              "search_value": "Leitz+SUMMILUX-C"
+            },
+            {
+              "display_value": "Hawk V-series Anamorphics",
+              "search_value": "Hawk+V-series+Anamorphics"
+            },
+            {
+              "display_value": "Hawk V-Plus",
+              "search_value": "Hawk+V-Plus"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "SxS",
+              "search_value": "SxS"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Campground",
+              "search_value": "Campground"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "Cambridge",
+              "search_value": "Cambridge"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "Berkshire",
+              "search_value": "Berkshire"
+            },
+            {
+              "display_value": "Bracknell",
+              "search_value": "Bracknell"
+            },
+            {
+              "display_value": "Swinley Forest",
+              "search_value": "Swinley+Forest"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:20:55",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "James Marsh",
+              "search_value": "James+Marsh"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Benoît Delhomme",
+              "search_value": "Beno%C3%AEt+Delhomme"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "John Paul Kelly",
+              "search_value": "John+Paul+Kelly"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Stephen Noble",
+              "search_value": "Stephen+Noble"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Jinx Godfrey",
+              "search_value": "Jinx+Godfrey"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Peter Doyle",
+              "search_value": "Peter+Doyle"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

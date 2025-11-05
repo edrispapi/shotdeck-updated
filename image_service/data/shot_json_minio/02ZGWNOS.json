@@ -1,0 +1,448 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02ZGWNOS",
+    "image_file": "02ZGWNOS.jpg",
+    "mime": "image/jpeg",
+    "width": "1906",
+    "height": "790",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Forbidden Planet",
+            "search_value": "1924"
+          }
+        ]
+      },
+      "full_title": "Forbidden Planet",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1956",
+            "search_value": "1956"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d100c",
+            "search_value": "0d100c~25~1"
+          },
+          {
+            "display_value": "1d1c22",
+            "search_value": "1d1c22~25~1"
+          },
+          {
+            "display_value": "261c10",
+            "search_value": "261c10~25~1"
+          },
+          {
+            "display_value": "2c1e22",
+            "search_value": "2c1e22~25~1"
+          },
+          {
+            "display_value": "3d3c48",
+            "search_value": "3d3c48~25~1"
+          },
+          {
+            "display_value": "4c383d",
+            "search_value": "4c383d~25~1"
+          },
+          {
+            "display_value": "543531",
+            "search_value": "543531~25~1"
+          },
+          {
+            "display_value": "46462d",
+            "search_value": "46462d~25~1"
+          },
+          {
+            "display_value": "575345",
+            "search_value": "575345~25~1"
+          },
+          {
+            "display_value": "655055",
+            "search_value": "655055~25~1"
+          },
+          {
+            "display_value": "545b66",
+            "search_value": "545b66~25~1"
+          },
+          {
+            "display_value": "545f52",
+            "search_value": "545f52~25~1"
+          },
+          {
+            "display_value": "978780",
+            "search_value": "978780~25~1"
+          },
+          {
+            "display_value": "9e858b",
+            "search_value": "9e858b~25~1"
+          },
+          {
+            "display_value": "82939f",
+            "search_value": "82939f~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "head in hands",
+              "search_value": "\"head+in+hands\""
+            },
+            {
+              "display_value": "frustrated",
+              "search_value": "frustrated"
+            },
+            {
+              "display_value": "stressed out",
+              "search_value": "\"stressed+out\""
+            },
+            {
+              "display_value": "worried",
+              "search_value": "worried"
+            },
+            {
+              "display_value": "hands held together",
+              "search_value": "\"hands+held+together\""
+            },
+            {
+              "display_value": "eyebrows furrowed",
+              "search_value": "\"eyebrows+furrowed\""
+            },
+            {
+              "display_value": "starting to understand",
+              "search_value": "\"starting+to+understand\""
+            },
+            {
+              "display_value": "captain",
+              "search_value": "captain"
+            },
+            {
+              "display_value": "dark clothing",
+              "search_value": "\"dark+clothing\""
+            },
+            {
+              "display_value": "concerned",
+              "search_value": "concerned"
+            },
+            {
+              "display_value": "sitting on couch",
+              "search_value": "\"sitting+on+couch\""
+            },
+            {
+              "display_value": "holster",
+              "search_value": "holster"
+            },
+            {
+              "display_value": "black robe",
+              "search_value": "\"black+robe\""
+            },
+            {
+              "display_value": "grey uniform",
+              "search_value": "\"grey+uniform\""
+            },
+            {
+              "display_value": "gelled hair",
+              "search_value": "\"gelled+hair\""
+            },
+            {
+              "display_value": "green walls",
+              "search_value": "\"green+walls\""
+            },
+            {
+              "display_value": "confused",
+              "search_value": "confused"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Walter Pidgeon",
+              "search_value": "Walter+Pidgeon"
+            },
+            {
+              "display_value": "Leslie Nielsen",
+              "search_value": "Leslie+Nielsen"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Moonlight",
+              "search_value": "Moonlight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Living Room",
+              "search_value": "Living+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Altair IV",
+              "search_value": "Altair+IV"
+            },
+            {
+              "display_value": "Morbius' Residence",
+              "search_value": "Morbius%27+Residence"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Culver City",
+              "search_value": "Culver+City"
+            },
+            {
+              "display_value": "10202 West Washington Boulevard",
+              "search_value": "10202+West+Washington+Boulevard"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:26:52",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Fred M. Wilcox",
+              "search_value": "Fred+M.+Wilcox"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "George J. Folsey",
+              "search_value": "George+J.+Folsey"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Irving Block",
+              "search_value": "Irving+Block"
+            },
+            {
+              "display_value": "Mentor Huebner",
+              "search_value": "Mentor+Huebner"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Helen Rose",
+              "search_value": "Helen+Rose"
+            },
+            {
+              "display_value": "Walter Plunkett",
+              "search_value": "Walter+Plunkett"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Ferris Webster",
+              "search_value": "Ferris+Webster"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

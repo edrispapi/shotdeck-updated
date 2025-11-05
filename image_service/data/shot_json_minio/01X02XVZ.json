@@ -1,0 +1,470 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01X02XVZ",
+    "image_file": "01X02XVZ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "816",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Talaash",
+            "search_value": "35534"
+          }
+        ]
+      },
+      "full_title": "Talaash",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2012",
+            "search_value": "2012"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "070b09",
+            "search_value": "070b09~25~1"
+          },
+          {
+            "display_value": "120f11",
+            "search_value": "120f11~25~1"
+          },
+          {
+            "display_value": "231c14",
+            "search_value": "231c14~25~1"
+          },
+          {
+            "display_value": "171e27",
+            "search_value": "171e27~25~1"
+          },
+          {
+            "display_value": "353d4e",
+            "search_value": "353d4e~25~1"
+          },
+          {
+            "display_value": "58392a",
+            "search_value": "58392a~25~1"
+          },
+          {
+            "display_value": "4d3f2f",
+            "search_value": "4d3f2f~25~1"
+          },
+          {
+            "display_value": "3d4655",
+            "search_value": "3d4655~25~1"
+          },
+          {
+            "display_value": "454846",
+            "search_value": "454846~25~1"
+          },
+          {
+            "display_value": "544b4f",
+            "search_value": "544b4f~25~1"
+          },
+          {
+            "display_value": "635342",
+            "search_value": "635342~25~1"
+          },
+          {
+            "display_value": "97796a",
+            "search_value": "97796a~25~1"
+          },
+          {
+            "display_value": "937f67",
+            "search_value": "937f67~25~1"
+          },
+          {
+            "display_value": "a89683",
+            "search_value": "a89683~25~1"
+          },
+          {
+            "display_value": "eee5d1",
+            "search_value": "eee5d1~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "face in profile",
+              "search_value": "\"face+in+profile\""
+            },
+            {
+              "display_value": "talking",
+              "search_value": "talking"
+            },
+            {
+              "display_value": "conversation",
+              "search_value": "conversation"
+            },
+            {
+              "display_value": "police",
+              "search_value": "police"
+            },
+            {
+              "display_value": "officer",
+              "search_value": "officer"
+            },
+            {
+              "display_value": "confrontation",
+              "search_value": "confrontation"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Aamir Khan",
+              "search_value": "Aamir+Khan"
+            },
+            {
+              "display_value": "Rajkummar Rao",
+              "search_value": "Rajkummar+Rao"
+            },
+            {
+              "display_value": "Suhaas Ahuja",
+              "search_value": "Suhaas+Ahuja"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            },
+            {
+              "display_value": "Super 35",
+              "search_value": "Super+35"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            },
+            {
+              "display_value": "Living Room",
+              "search_value": "Living+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "India",
+              "search_value": "India"
+            },
+            {
+              "display_value": "Mumbai",
+              "search_value": "Mumbai"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "India",
+              "search_value": "India"
+            },
+            {
+              "display_value": "Maharashtra",
+              "search_value": "Maharashtra"
+            },
+            {
+              "display_value": "Mumbai",
+              "search_value": "Mumbai"
+            },
+            {
+              "display_value": "Kamathipura",
+              "search_value": "Kamathipura"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:56:45",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Reema Kagti",
+              "search_value": "Reema+Kagti"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "K.U. Mohanan",
+              "search_value": "K.U.+Mohanan"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Sharmishta Roy",
+              "search_value": "Sharmishta+Roy"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Manoshi Nath",
+              "search_value": "Manoshi+Nath"
+            },
+            {
+              "display_value": "Rushi Sharma",
+              "search_value": "Rushi+Sharma"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Anand Subaya",
+              "search_value": "Anand+Subaya"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Ken Metzker",
+              "search_value": "Ken+Metzker"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

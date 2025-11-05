@@ -1,0 +1,444 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "036UGV0U",
+    "image_file": "036UGV0U.jpg",
+    "mime": "image/jpeg",
+    "width": "1802",
+    "height": "1078",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Purple Noon",
+            "search_value": "2408"
+          }
+        ]
+      },
+      "full_title": "Purple Noon",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1960",
+            "search_value": "1960"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "332c23",
+            "search_value": "332c23~25~1"
+          },
+          {
+            "display_value": "28302c",
+            "search_value": "28302c~25~1"
+          },
+          {
+            "display_value": "1c323b",
+            "search_value": "1c323b~25~1"
+          },
+          {
+            "display_value": "536059",
+            "search_value": "536059~25~1"
+          },
+          {
+            "display_value": "406571",
+            "search_value": "406571~25~1"
+          },
+          {
+            "display_value": "666451",
+            "search_value": "666451~25~1"
+          },
+          {
+            "display_value": "628b95",
+            "search_value": "628b95~25~1"
+          },
+          {
+            "display_value": "83866f",
+            "search_value": "83866f~25~1"
+          },
+          {
+            "display_value": "919480",
+            "search_value": "919480~25~1"
+          },
+          {
+            "display_value": "94a796",
+            "search_value": "94a796~25~1"
+          },
+          {
+            "display_value": "8abac2",
+            "search_value": "8abac2~25~1"
+          },
+          {
+            "display_value": "a6cccf",
+            "search_value": "a6cccf~25~1"
+          },
+          {
+            "display_value": "abccca",
+            "search_value": "abccca~25~1"
+          },
+          {
+            "display_value": "b3d2d4",
+            "search_value": "b3d2d4~25~1"
+          },
+          {
+            "display_value": "b6d3d1",
+            "search_value": "b6d3d1~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "italian architecture",
+              "search_value": "\"italian+architecture\""
+            },
+            {
+              "display_value": "white buildings",
+              "search_value": "\"white+buildings\""
+            },
+            {
+              "display_value": "docking ship",
+              "search_value": "\"docking+ship\""
+            },
+            {
+              "display_value": "small boat",
+              "search_value": "\"small+boat\""
+            },
+            {
+              "display_value": "dinghy",
+              "search_value": "dinghy"
+            },
+            {
+              "display_value": "paddle boat",
+              "search_value": "\"paddle+boat\""
+            },
+            {
+              "display_value": "travelling",
+              "search_value": "travelling"
+            },
+            {
+              "display_value": "coastal town",
+              "search_value": "\"coastal+town\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1950s",
+              "search_value": "1950s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Harbor",
+              "search_value": "Harbor"
+            },
+            {
+              "display_value": "Boat",
+              "search_value": "Boat"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:11:00",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "René Clément",
+              "search_value": "Ren%C3%A9+Cl%C3%A9ment"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Henri Decaë",
+              "search_value": "Henri+Deca%C3%AB"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Paul Bertrand",
+              "search_value": "Paul+Bertrand"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Bella Clément",
+              "search_value": "Bella+Cl%C3%A9ment"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Françoise Javet",
+              "search_value": "Fran%C3%A7oise+Javet"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Gilles Grainer",
+              "search_value": "Gilles+Grainer"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

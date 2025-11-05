@@ -1,0 +1,458 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01I9FGBK",
+    "image_file": "01I9FGBK.jpg",
+    "mime": "image/jpeg",
+    "width": "1924",
+    "height": "1036",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "XXY",
+            "search_value": "3033"
+          }
+        ]
+      },
+      "full_title": "XXY",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2007",
+            "search_value": "2007"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "020102",
+            "search_value": "020102~25~1"
+          },
+          {
+            "display_value": "14100a",
+            "search_value": "14100a~25~1"
+          },
+          {
+            "display_value": "1e2f2c",
+            "search_value": "1e2f2c~25~1"
+          },
+          {
+            "display_value": "1b383b",
+            "search_value": "1b383b~25~1"
+          },
+          {
+            "display_value": "414334",
+            "search_value": "414334~25~1"
+          },
+          {
+            "display_value": "334644",
+            "search_value": "334644~25~1"
+          },
+          {
+            "display_value": "2c484b",
+            "search_value": "2c484b~25~1"
+          },
+          {
+            "display_value": "3a5b62",
+            "search_value": "3a5b62~25~1"
+          },
+          {
+            "display_value": "4e5c59",
+            "search_value": "4e5c59~25~1"
+          },
+          {
+            "display_value": "6d604e",
+            "search_value": "6d604e~25~1"
+          },
+          {
+            "display_value": "7a837f",
+            "search_value": "7a837f~25~1"
+          },
+          {
+            "display_value": "8c7f70",
+            "search_value": "8c7f70~25~1"
+          },
+          {
+            "display_value": "8e8374",
+            "search_value": "8e8374~25~1"
+          },
+          {
+            "display_value": "838a86",
+            "search_value": "838a86~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "walking",
+              "search_value": "walking"
+            },
+            {
+              "display_value": "thinking",
+              "search_value": "thinking"
+            },
+            {
+              "display_value": "shore",
+              "search_value": "shore"
+            },
+            {
+              "display_value": "waves",
+              "search_value": "waves"
+            },
+            {
+              "display_value": "breeze",
+              "search_value": "breeze"
+            },
+            {
+              "display_value": "hoodie",
+              "search_value": "hoodie"
+            },
+            {
+              "display_value": "tanktop",
+              "search_value": "tanktop"
+            },
+            {
+              "display_value": "necklace",
+              "search_value": "necklace"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Inés Efron",
+              "search_value": "In%C3%A9s+Efron"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Beach",
+              "search_value": "Beach"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Uruguay",
+              "search_value": "Uruguay"
+            },
+            {
+              "display_value": "Maldonado",
+              "search_value": "Maldonado"
+            },
+            {
+              "display_value": "Piriápolis",
+              "search_value": "Piri%C3%A1polis"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Uruguay",
+              "search_value": "Uruguay"
+            },
+            {
+              "display_value": "Maldonado",
+              "search_value": "Maldonado"
+            },
+            {
+              "display_value": "Piriápolis",
+              "search_value": "Piri%C3%A1polis"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:02:32",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Lucía Puenzo",
+              "search_value": "Luc%C3%ADa+Puenzo"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Natasha Braier",
+              "search_value": "Natasha+Braier"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Roberto Samuelle",
+              "search_value": "Roberto+Samuelle"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Luisina Troncoso",
+              "search_value": "Luisina+Troncoso"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Hugo Primero",
+              "search_value": "Hugo+Primero"
+            },
+            {
+              "display_value": "Alex Zito",
+              "search_value": "Alex+Zito"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Juan Casale",
+              "search_value": "Juan+Casale"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

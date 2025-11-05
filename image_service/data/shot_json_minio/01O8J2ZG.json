@@ -1,0 +1,384 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01O8J2ZG",
+    "image_file": "01O8J2ZG.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "960",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Crown",
+            "search_value": "3638",
+            "season": "2",
+            "episode": "3"
+          }
+        ]
+      },
+      "full_title": "The Crown - Season 2 - Episode 3",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2017",
+            "search_value": "2017"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "16241a",
+            "search_value": "16241a~25~1"
+          },
+          {
+            "display_value": "1b2d33",
+            "search_value": "1b2d33~25~1"
+          },
+          {
+            "display_value": "2a2f1a",
+            "search_value": "2a2f1a~25~1"
+          },
+          {
+            "display_value": "37453c",
+            "search_value": "37453c~25~1"
+          },
+          {
+            "display_value": "2c474f",
+            "search_value": "2c474f~25~1"
+          },
+          {
+            "display_value": "46462d",
+            "search_value": "46462d~25~1"
+          },
+          {
+            "display_value": "646049",
+            "search_value": "646049~25~1"
+          },
+          {
+            "display_value": "5d6862",
+            "search_value": "5d6862~25~1"
+          },
+          {
+            "display_value": "547683",
+            "search_value": "547683~25~1"
+          },
+          {
+            "display_value": "77857e",
+            "search_value": "77857e~25~1"
+          },
+          {
+            "display_value": "668894",
+            "search_value": "668894~25~1"
+          },
+          {
+            "display_value": "88856a",
+            "search_value": "88856a~25~1"
+          },
+          {
+            "display_value": "999a86",
+            "search_value": "999a86~25~1"
+          },
+          {
+            "display_value": "8cabb0",
+            "search_value": "8cabb0~25~1"
+          },
+          {
+            "display_value": "9eb2ac",
+            "search_value": "9eb2ac~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "blue sky",
+              "search_value": "\"blue+sky\""
+            },
+            {
+              "display_value": "blue water",
+              "search_value": "\"blue+water\""
+            },
+            {
+              "display_value": "smoke from train",
+              "search_value": "\"smoke+from+train\""
+            },
+            {
+              "display_value": "train crossing lake",
+              "search_value": "\"train+crossing+lake\""
+            },
+            {
+              "display_value": "bridge",
+              "search_value": "bridge"
+            },
+            {
+              "display_value": "arched bridge",
+              "search_value": "\"arched+bridge\""
+            },
+            {
+              "display_value": "trees",
+              "search_value": "trees"
+            },
+            {
+              "display_value": "framed by branches",
+              "search_value": "\"framed+by+branches\""
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Aerial",
+              "search_value": "Aerial"
+            },
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.00",
+              "search_value": "2.00"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Train",
+              "search_value": "Train"
+            },
+            {
+              "display_value": "Lake",
+              "search_value": "Lake"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:14:50",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Costume Drama",
+              "search_value": "Movie%2FTV+-+Costume+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            },
+            {
+              "display_value": "Political",
+              "search_value": "Movie%2FTV+-+Political"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Philip Martin",
+              "search_value": "Philip+Martin"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Stuart Howell",
+              "search_value": "Stuart+Howell"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Martin Childs",
+              "search_value": "Martin+Childs"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jane Petrie",
+              "search_value": "Jane+Petrie"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Chris Barwell",
+              "search_value": "Chris+Barwell"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Asa Shoul",
+              "search_value": "Asa+Shoul"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

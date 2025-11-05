@@ -1,0 +1,432 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "013AIZ82",
+    "image_file": "013AIZ82.jpg",
+    "mime": "image/jpeg",
+    "width": "1480",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The War of the Worlds",
+            "search_value": "13126"
+          }
+        ]
+      },
+      "full_title": "The War of the Worlds",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1953",
+            "search_value": "1953"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "191b30",
+            "search_value": "191b30~25~1"
+          },
+          {
+            "display_value": "3a1127",
+            "search_value": "3a1127~25~1"
+          },
+          {
+            "display_value": "37374f",
+            "search_value": "37374f~25~1"
+          },
+          {
+            "display_value": "6a2845",
+            "search_value": "6a2845~25~1"
+          },
+          {
+            "display_value": "7c2720",
+            "search_value": "7c2720~25~1"
+          },
+          {
+            "display_value": "8a3a60",
+            "search_value": "8a3a60~25~1"
+          },
+          {
+            "display_value": "585d67",
+            "search_value": "585d67~25~1"
+          },
+          {
+            "display_value": "944e36",
+            "search_value": "944e36~25~1"
+          },
+          {
+            "display_value": "d25287",
+            "search_value": "d25287~25~1"
+          },
+          {
+            "display_value": "82919a",
+            "search_value": "82919a~25~1"
+          },
+          {
+            "display_value": "eb77a6",
+            "search_value": "eb77a6~25~1"
+          },
+          {
+            "display_value": "d3926d",
+            "search_value": "d3926d~25~1"
+          },
+          {
+            "display_value": "f69cc0",
+            "search_value": "f69cc0~25~1"
+          },
+          {
+            "display_value": "facede",
+            "search_value": "facede~25~1"
+          },
+          {
+            "display_value": "fcefeb",
+            "search_value": "fcefeb~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "alien invasion",
+              "search_value": "\"alien+invasion\""
+            },
+            {
+              "display_value": "alien spaceship",
+              "search_value": "\"alien+spaceship\""
+            },
+            {
+              "display_value": "alien technology",
+              "search_value": "\"alien+technology\""
+            },
+            {
+              "display_value": "laser",
+              "search_value": "laser"
+            },
+            {
+              "display_value": "laser beam",
+              "search_value": "\"laser+beam\""
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            },
+            {
+              "display_value": "Magenta",
+              "search_value": "Magenta"
+            },
+            {
+              "display_value": "Pink",
+              "search_value": "Pink"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Telephoto",
+              "search_value": "Telephoto"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Aerial",
+              "search_value": "Aerial"
+            },
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Underlight",
+              "search_value": "Underlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Moonlight",
+              "search_value": "Moonlight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Mixed light",
+              "search_value": "Mixed+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.37",
+              "search_value": "1.37"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Hills",
+              "search_value": "Hills"
+            },
+            {
+              "display_value": "Landing Site",
+              "search_value": "Landing+Site"
+            },
+            {
+              "display_value": "Alien Spaceship",
+              "search_value": "Alien+Spaceship"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            },
+            {
+              "display_value": "5555 Melrose Avenue",
+              "search_value": "5555+Melrose+Avenue"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:35:42",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Byron Haskin",
+              "search_value": "Byron+Haskin"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "George Barnes",
+              "search_value": "George+Barnes"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Albert Nozaki",
+              "search_value": "Albert+Nozaki"
+            },
+            {
+              "display_value": "Hal Pereira",
+              "search_value": "Hal+Pereira"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Edith Head",
+              "search_value": "Edith+Head"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Everett Douglas",
+              "search_value": "Everett+Douglas"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

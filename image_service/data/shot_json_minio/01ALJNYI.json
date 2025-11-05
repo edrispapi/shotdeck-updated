@@ -1,0 +1,442 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01ALJNYI",
+    "image_file": "01ALJNYI.jpg",
+    "mime": "image/jpeg",
+    "width": "2880",
+    "height": "1620",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "I May Destroy You",
+            "search_value": "7278",
+            "season": "1",
+            "episode": "7"
+          }
+        ]
+      },
+      "full_title": "I May Destroy You - Season 1 - Episode 7",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2020",
+            "search_value": "2020"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "26210e",
+            "search_value": "26210e~25~1"
+          },
+          {
+            "display_value": "112a0f",
+            "search_value": "112a0f~25~1"
+          },
+          {
+            "display_value": "630105",
+            "search_value": "630105~25~1"
+          },
+          {
+            "display_value": "643422",
+            "search_value": "643422~25~1"
+          },
+          {
+            "display_value": "454720",
+            "search_value": "454720~25~1"
+          },
+          {
+            "display_value": "135b25",
+            "search_value": "135b25~25~1"
+          },
+          {
+            "display_value": "6b492f",
+            "search_value": "6b492f~25~1"
+          },
+          {
+            "display_value": "4c7743",
+            "search_value": "4c7743~25~1"
+          },
+          {
+            "display_value": "888a62",
+            "search_value": "888a62~25~1"
+          },
+          {
+            "display_value": "719261",
+            "search_value": "719261~25~1"
+          },
+          {
+            "display_value": "7f9c6e",
+            "search_value": "7f9c6e~25~1"
+          },
+          {
+            "display_value": "b2a586",
+            "search_value": "b2a586~25~1"
+          },
+          {
+            "display_value": "d1c1a6",
+            "search_value": "d1c1a6~25~1"
+          },
+          {
+            "display_value": "d8cab1",
+            "search_value": "d8cab1~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "headband",
+              "search_value": "headband"
+            },
+            {
+              "display_value": "braided hair",
+              "search_value": "\"braided+hair\""
+            },
+            {
+              "display_value": "party",
+              "search_value": "party"
+            },
+            {
+              "display_value": "red lipstick",
+              "search_value": "\"red+lipstick\""
+            },
+            {
+              "display_value": "red solo cup",
+              "search_value": "\"red+solo+cup\""
+            },
+            {
+              "display_value": "green light",
+              "search_value": "\"green+light\""
+            },
+            {
+              "display_value": "turning around",
+              "search_value": "\"turning+around\""
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Mixed light",
+              "search_value": "Mixed+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            },
+            {
+              "display_value": "Living room",
+              "search_value": "Living+room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:14:02",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Michaela Coel",
+              "search_value": "Michaela+Coel"
+            },
+            {
+              "display_value": "Sam Miller",
+              "search_value": "Sam+Miller"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Brad Gillham",
+              "search_value": "Brad+Gillham"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Paul Cross",
+              "search_value": "Paul+Cross"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Lynsey Moore",
+              "search_value": "Lynsey+Moore"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Lindsey Woodward",
+              "search_value": "Lindsey+Woodward"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Perry Gibbs",
+              "search_value": "Perry+Gibbs"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

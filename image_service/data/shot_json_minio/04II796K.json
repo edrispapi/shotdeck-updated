@@ -1,0 +1,536 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04II796K",
+    "image_file": "04II796K.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "818",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Impossible",
+            "search_value": "363"
+          }
+        ]
+      },
+      "full_title": "The Impossible",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2012",
+            "search_value": "2012"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1d2f27",
+            "search_value": "1d2f27~25~1"
+          },
+          {
+            "display_value": "0f2f3b",
+            "search_value": "0f2f3b~25~1"
+          },
+          {
+            "display_value": "322b1a",
+            "search_value": "322b1a~25~1"
+          },
+          {
+            "display_value": "2c4a3e",
+            "search_value": "2c4a3e~25~1"
+          },
+          {
+            "display_value": "204a58",
+            "search_value": "204a58~25~1"
+          },
+          {
+            "display_value": "4a4626",
+            "search_value": "4a4626~25~1"
+          },
+          {
+            "display_value": "58573d",
+            "search_value": "58573d~25~1"
+          },
+          {
+            "display_value": "4a5e4c",
+            "search_value": "4a5e4c~25~1"
+          },
+          {
+            "display_value": "37626b",
+            "search_value": "37626b~25~1"
+          },
+          {
+            "display_value": "828a67",
+            "search_value": "828a67~25~1"
+          },
+          {
+            "display_value": "619286",
+            "search_value": "619286~25~1"
+          },
+          {
+            "display_value": "8f9a75",
+            "search_value": "8f9a75~25~1"
+          },
+          {
+            "display_value": "82b19d",
+            "search_value": "82b19d~25~1"
+          },
+          {
+            "display_value": "a3d0c1",
+            "search_value": "a3d0c1~25~1"
+          },
+          {
+            "display_value": "b2ddcd",
+            "search_value": "b2ddcd~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "dirty",
+              "search_value": "dirty"
+            },
+            {
+              "display_value": "mugs",
+              "search_value": "mugs"
+            },
+            {
+              "display_value": "tense",
+              "search_value": "tense"
+            },
+            {
+              "display_value": "about to cry",
+              "search_value": "\"about+to+cry\""
+            },
+            {
+              "display_value": "caring",
+              "search_value": "caring"
+            },
+            {
+              "display_value": "looking at mom",
+              "search_value": "\"looking+at+mom\""
+            },
+            {
+              "display_value": "worried",
+              "search_value": "worried"
+            },
+            {
+              "display_value": "young boy",
+              "search_value": "\"young+boy\""
+            },
+            {
+              "display_value": "scared",
+              "search_value": "scared"
+            },
+            {
+              "display_value": "muscle shirt",
+              "search_value": "\"muscle+shirt\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Tom Holland",
+              "search_value": "Tom+Holland"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Fluorescent",
+              "search_value": "Fluorescent"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Phantom HD Gold",
+              "search_value": "Phantom+HD+Gold"
+            },
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            },
+            {
+              "display_value": "Arriflex 435",
+              "search_value": "Arriflex+435"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Master Primes",
+              "search_value": "Zeiss+Master+Primes"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5207/7207\tVision 3\t250D",
+              "search_value": "5207%2F7207%09Vision+3%09250D"
+            },
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Hospital",
+              "search_value": "Hospital"
+            },
+            {
+              "display_value": "Medicine Closet",
+              "search_value": "Medicine+Closet"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Thailand",
+              "search_value": "Thailand"
+            },
+            {
+              "display_value": "Khao Lak",
+              "search_value": "Khao+Lak"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Thailand",
+              "search_value": "Thailand"
+            },
+            {
+              "display_value": "Phang Nga",
+              "search_value": "Phang+Nga"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:41:14",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Survival",
+              "search_value": "Movie%2FTV+-+Survival"
+            },
+            {
+              "display_value": "Disaster",
+              "search_value": "Movie%2FTV+-+Disaster"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "J.A. Bayona",
+              "search_value": "J.A.+Bayona"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Óscar Faura",
+              "search_value": "%C3%93scar+Faura"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Eugenio Caballero",
+              "search_value": "Eugenio+Caballero"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Anna Bingemann",
+              "search_value": "Anna+Bingemann"
+            },
+            {
+              "display_value": "Sparka Lee Hall",
+              "search_value": "Sparka+Lee+Hall"
+            },
+            {
+              "display_value": "Maria Reyes",
+              "search_value": "Maria+Reyes"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Elana Ruiz",
+              "search_value": "Elana+Ruiz"
+            },
+            {
+              "display_value": "Bernat Vilaplana",
+              "search_value": "Bernat+Vilaplana"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Quique Cañadas",
+              "search_value": "Quique+Ca%C3%B1adas"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

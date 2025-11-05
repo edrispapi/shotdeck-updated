@@ -1,0 +1,482 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04NSX4NW",
+    "image_file": "04NSX4NW.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Karate Kid",
+            "search_value": "3634"
+          }
+        ]
+      },
+      "full_title": "The Karate Kid",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1984",
+            "search_value": "1984"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0e130c",
+            "search_value": "0e130c~25~1"
+          },
+          {
+            "display_value": "181a1c",
+            "search_value": "181a1c~25~1"
+          },
+          {
+            "display_value": "332417",
+            "search_value": "332417~25~1"
+          },
+          {
+            "display_value": "393436",
+            "search_value": "393436~25~1"
+          },
+          {
+            "display_value": "652d27",
+            "search_value": "652d27~25~1"
+          },
+          {
+            "display_value": "4a412f",
+            "search_value": "4a412f~25~1"
+          },
+          {
+            "display_value": "61564a",
+            "search_value": "61564a~25~1"
+          },
+          {
+            "display_value": "655d60",
+            "search_value": "655d60~25~1"
+          },
+          {
+            "display_value": "69696d",
+            "search_value": "69696d~25~1"
+          },
+          {
+            "display_value": "6c706b",
+            "search_value": "6c706b~25~1"
+          },
+          {
+            "display_value": "93766f",
+            "search_value": "93766f~25~1"
+          },
+          {
+            "display_value": "8c8269",
+            "search_value": "8c8269~25~1"
+          },
+          {
+            "display_value": "878791",
+            "search_value": "878791~25~1"
+          },
+          {
+            "display_value": "988b7e",
+            "search_value": "988b7e~25~1"
+          },
+          {
+            "display_value": "948d92",
+            "search_value": "948d92~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "using chopsticks",
+              "search_value": "\"using+chopsticks\""
+            },
+            {
+              "display_value": "screen door",
+              "search_value": "\"screen+door\""
+            },
+            {
+              "display_value": "calling out to someone",
+              "search_value": "\"calling+out+to+someone\""
+            },
+            {
+              "display_value": "back turned to someone",
+              "search_value": "\"back+turned+to+someone\""
+            },
+            {
+              "display_value": "nonchalant",
+              "search_value": "nonchalant"
+            },
+            {
+              "display_value": "hachimaki",
+              "search_value": "hachimaki"
+            },
+            {
+              "display_value": "khaki shirt",
+              "search_value": "\"khaki+shirt\""
+            },
+            {
+              "display_value": "blue muscle shirt",
+              "search_value": "\"blue+muscle+shirt\""
+            },
+            {
+              "display_value": "bonsai tree",
+              "search_value": "\"bonsai+tree\""
+            },
+            {
+              "display_value": "maintenance worker",
+              "search_value": "\"maintenance+worker\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Ralph Macchio",
+              "search_value": "Ralph+Macchio"
+            },
+            {
+              "display_value": "Pat Morita",
+              "search_value": "Pat+Morita"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Cameras",
+              "search_value": "Panavision+Cameras"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Lenses",
+              "search_value": "Panavision+Lenses"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment Building",
+              "search_value": "Apartment+Building"
+            },
+            {
+              "display_value": "Maintenance Room",
+              "search_value": "Maintenance+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:08:49",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "John G. Avildsen",
+              "search_value": "John+G.+Avildsen"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "James Crabe",
+              "search_value": "James+Crabe"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "William J. Cassidy",
+              "search_value": "William+J.+Cassidy"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Richard Bruno",
+              "search_value": "Richard+Bruno"
+            },
+            {
+              "display_value": "Aida Swinson",
+              "search_value": "Aida+Swinson"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "John G. Avildsen",
+              "search_value": "John+G.+Avildsen"
+            },
+            {
+              "display_value": "Walt Mulconery",
+              "search_value": "Walt+Mulconery"
+            },
+            {
+              "display_value": "Bud S. Smith",
+              "search_value": "Bud+S.+Smith"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "David Bernstein",
+              "search_value": "David+Bernstein"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

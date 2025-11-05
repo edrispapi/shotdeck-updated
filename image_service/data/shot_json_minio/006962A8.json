@@ -1,0 +1,466 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "006962A8",
+    "image_file": "006962A8.jpg",
+    "mime": "image/jpeg",
+    "width": "1728",
+    "height": "1024",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Funny Face",
+            "search_value": "220"
+          }
+        ]
+      },
+      "full_title": "Funny Face",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1957",
+            "search_value": "1957"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0b0f0c",
+            "search_value": "0b0f0c~25~1"
+          },
+          {
+            "display_value": "1d171a",
+            "search_value": "1d171a~25~1"
+          },
+          {
+            "display_value": "191c26",
+            "search_value": "191c26~25~1"
+          },
+          {
+            "display_value": "241e19",
+            "search_value": "241e19~25~1"
+          },
+          {
+            "display_value": "2a3c61",
+            "search_value": "2a3c61~25~1"
+          },
+          {
+            "display_value": "3b433d",
+            "search_value": "3b433d~25~1"
+          },
+          {
+            "display_value": "474132",
+            "search_value": "474132~25~1"
+          },
+          {
+            "display_value": "22475a",
+            "search_value": "22475a~25~1"
+          },
+          {
+            "display_value": "454d47",
+            "search_value": "454d47~25~1"
+          },
+          {
+            "display_value": "564e3e",
+            "search_value": "564e3e~25~1"
+          },
+          {
+            "display_value": "365781",
+            "search_value": "365781~25~1"
+          },
+          {
+            "display_value": "4e7fbe",
+            "search_value": "4e7fbe~25~1"
+          },
+          {
+            "display_value": "5c91d5",
+            "search_value": "5c91d5~25~1"
+          },
+          {
+            "display_value": "ae9b8c",
+            "search_value": "ae9b8c~25~1"
+          },
+          {
+            "display_value": "f5eee3",
+            "search_value": "f5eee3~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "neighbors",
+              "search_value": "neighbors"
+            },
+            {
+              "display_value": "neighborhood kids",
+              "search_value": "\"neighborhood+kids\""
+            },
+            {
+              "display_value": "grandma",
+              "search_value": "grandma"
+            },
+            {
+              "display_value": "vines",
+              "search_value": "vines"
+            },
+            {
+              "display_value": "standing on balcony",
+              "search_value": "\"standing+on+balcony\""
+            },
+            {
+              "display_value": "blue cloak",
+              "search_value": "\"blue+cloak\""
+            },
+            {
+              "display_value": "fairy godmother",
+              "search_value": "\"fairy+godmother\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Audrey Hepburn",
+              "search_value": "Audrey+Hepburn"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1950s",
+              "search_value": "1950s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Vista Vision",
+              "search_value": "Vista+Vision"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Neighborhood",
+              "search_value": "Neighborhood"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:14:19",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Music",
+              "search_value": "Movie%2FTV+-+Music"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Technicolor Musical",
+              "search_value": "Movie%2FTV+-+Technicolor+Musical"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Stanley Donen",
+              "search_value": "Stanley+Donen"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Ray June",
+              "search_value": "Ray+June"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Hal Pereira",
+              "search_value": "Hal+Pereira"
+            },
+            {
+              "display_value": "George W. Davis",
+              "search_value": "George+W.+Davis"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Edith Head",
+              "search_value": "Edith+Head"
+            },
+            {
+              "display_value": "Hubert de Givenchy",
+              "search_value": "Hubert+de+Givenchy"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Frank Bracht",
+              "search_value": "Frank+Bracht"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Technicolor",
+              "search_value": "Technicolor"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

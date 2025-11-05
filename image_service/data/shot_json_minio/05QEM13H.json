@@ -1,0 +1,486 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05QEM13H",
+    "image_file": "05QEM13H.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "802",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Mandalorian",
+            "search_value": "8842",
+            "season": "1",
+            "episode": "7"
+          }
+        ]
+      },
+      "full_title": "The Mandalorian - Season 1 - Episode 7",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2019",
+            "search_value": "2019"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "171516",
+            "search_value": "171516~25~1"
+          },
+          {
+            "display_value": "171615",
+            "search_value": "171615~25~1"
+          },
+          {
+            "display_value": "161919",
+            "search_value": "161919~25~1"
+          },
+          {
+            "display_value": "1c1f23",
+            "search_value": "1c1f23~25~1"
+          },
+          {
+            "display_value": "373f4a",
+            "search_value": "373f4a~25~1"
+          },
+          {
+            "display_value": "6f5545",
+            "search_value": "6f5545~25~1"
+          },
+          {
+            "display_value": "5f6766",
+            "search_value": "5f6766~25~1"
+          },
+          {
+            "display_value": "62737d",
+            "search_value": "62737d~25~1"
+          },
+          {
+            "display_value": "72838c",
+            "search_value": "72838c~25~1"
+          },
+          {
+            "display_value": "778484",
+            "search_value": "778484~25~1"
+          },
+          {
+            "display_value": "86969c",
+            "search_value": "86969c~25~1"
+          },
+          {
+            "display_value": "a09c87",
+            "search_value": "a09c87~25~1"
+          },
+          {
+            "display_value": "9eabaa",
+            "search_value": "9eabaa~25~1"
+          },
+          {
+            "display_value": "b7c4bf",
+            "search_value": "b7c4bf~25~1"
+          },
+          {
+            "display_value": "bac7c1",
+            "search_value": "bac7c1~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "fleeing",
+              "search_value": "fleeing"
+            },
+            {
+              "display_value": "scout troopers",
+              "search_value": "\"scout+troopers\""
+            },
+            {
+              "display_value": "speeder bikers",
+              "search_value": "\"speeder+bikers\""
+            },
+            {
+              "display_value": "alien creature",
+              "search_value": "\"alien+creature\""
+            },
+            {
+              "display_value": "cloudy sky",
+              "search_value": "\"cloudy+sky\""
+            },
+            {
+              "display_value": "kuiil",
+              "search_value": "kuiil"
+            },
+            {
+              "display_value": "rocky area",
+              "search_value": "\"rocky+area\""
+            },
+            {
+              "display_value": "riding blurry",
+              "search_value": "\"riding+blurry\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital, Digital - Large Format",
+              "search_value": "Digital%2C+Digital+-+Large+Format"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            },
+            {
+              "display_value": "Silhouette",
+              "search_value": "Silhouette"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA LF",
+              "search_value": "ARRI+ALEXA+LF"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Ultra Vista",
+              "search_value": "Panavision+Ultra+Vista"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Wasteland",
+              "search_value": "Wasteland"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Nevarro",
+              "search_value": "Nevarro"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "USA",
+              "search_value": "USA"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Manhattan Beach Studios",
+              "search_value": "Manhattan+Beach+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:35:11",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Hard Sci-Fi",
+              "search_value": "Movie%2FTV+-+Hard+Sci-Fi"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Western",
+              "search_value": "Movie%2FTV+-+Western"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Deborah Chow",
+              "search_value": "Deborah+Chow"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Greig Fraser",
+              "search_value": "Greig+Fraser"
+            },
+            {
+              "display_value": "Barry Idoine",
+              "search_value": "Barry+Idoine"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Andrew L. Jones",
+              "search_value": "Andrew+L.+Jones"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Joseph A. Porro",
+              "search_value": "Joseph+A.+Porro"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Andrew S. Eisen",
+              "search_value": "Andrew+S.+Eisen"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Charles Bunnag",
+              "search_value": "Charles+Bunnag"
+            },
+            {
+              "display_value": "Adam Nazarenko",
+              "search_value": "Adam+Nazarenko"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

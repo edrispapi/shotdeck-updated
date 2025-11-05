@@ -1,0 +1,476 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02RGVO40",
+    "image_file": "02RGVO40.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1038",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Limits of Control",
+            "search_value": "61324"
+          }
+        ]
+      },
+      "full_title": "The Limits of Control",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2009",
+            "search_value": "2009"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0e130f",
+            "search_value": "0e130f~25~1"
+          },
+          {
+            "display_value": "13150f",
+            "search_value": "13150f~25~1"
+          },
+          {
+            "display_value": "2b3435",
+            "search_value": "2b3435~25~1"
+          },
+          {
+            "display_value": "3b433b",
+            "search_value": "3b433b~25~1"
+          },
+          {
+            "display_value": "404339",
+            "search_value": "404339~25~1"
+          },
+          {
+            "display_value": "44473e",
+            "search_value": "44473e~25~1"
+          },
+          {
+            "display_value": "424c4e",
+            "search_value": "424c4e~25~1"
+          },
+          {
+            "display_value": "4a564d",
+            "search_value": "4a564d~25~1"
+          },
+          {
+            "display_value": "70897a",
+            "search_value": "70897a~25~1"
+          },
+          {
+            "display_value": "778f80",
+            "search_value": "778f80~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "looking at someone",
+              "search_value": "\"looking+at+someone\""
+            },
+            {
+              "display_value": "looking at something",
+              "search_value": "\"looking+at+something\""
+            },
+            {
+              "display_value": "naked",
+              "search_value": "naked"
+            },
+            {
+              "display_value": "blanket over furniture",
+              "search_value": "\"blanket+over+furniture\""
+            },
+            {
+              "display_value": "covered furniture",
+              "search_value": "\"covered+furniture\""
+            },
+            {
+              "display_value": "sheet covered furniture",
+              "search_value": "\"sheet+covered+furniture\""
+            },
+            {
+              "display_value": "abandoned house",
+              "search_value": "\"abandoned+house\""
+            },
+            {
+              "display_value": "frame within frame",
+              "search_value": "\"frame+within+frame\""
+            },
+            {
+              "display_value": "laying in bed",
+              "search_value": "\"laying+in+bed\""
+            },
+            {
+              "display_value": "sleeping",
+              "search_value": "sleeping"
+            },
+            {
+              "display_value": "asleep",
+              "search_value": "asleep"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam ST",
+              "search_value": "Arricam+ST"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke S4/ i",
+              "search_value": "Cooke+S4%2F+i"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "8583/8683\tEterna 400T",
+              "search_value": "8583%2F8683%09Eterna+400T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Abandoned House",
+              "search_value": "Abandoned+House"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Spain",
+              "search_value": "Spain"
+            },
+            {
+              "display_value": "Andalucia",
+              "search_value": "Andalucia"
+            },
+            {
+              "display_value": "Almería",
+              "search_value": "Almer%C3%ADa"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Spain",
+              "search_value": "Spain"
+            },
+            {
+              "display_value": "Andalucia",
+              "search_value": "Andalucia"
+            },
+            {
+              "display_value": "Almeria",
+              "search_value": "Almeria"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Jim Jarmusch",
+              "search_value": "Jim+Jarmusch"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Christopher Doyle",
+              "search_value": "Christopher+Doyle"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Eugenio Caballero",
+              "search_value": "Eugenio+Caballero"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Bina Daigeler",
+              "search_value": "Bina+Daigeler"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Jay Rabinowitz",
+              "search_value": "Jay+Rabinowitz"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Joe Gawler",
+              "search_value": "Joe+Gawler"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

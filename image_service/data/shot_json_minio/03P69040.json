@@ -1,0 +1,484 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03P69040",
+    "image_file": "03P69040.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Lost",
+            "search_value": "3811",
+            "season": "1",
+            "episode": "3"
+          }
+        ]
+      },
+      "full_title": "Lost - Season 1 - Episode 3",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2004",
+            "search_value": "2004"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0f180e",
+            "search_value": "0f180e~25~1"
+          },
+          {
+            "display_value": "1c191b",
+            "search_value": "1c191b~25~1"
+          },
+          {
+            "display_value": "1c1b0d",
+            "search_value": "1c1b0d~25~1"
+          },
+          {
+            "display_value": "1c1f27",
+            "search_value": "1c1f27~25~1"
+          },
+          {
+            "display_value": "3b3d48",
+            "search_value": "3b3d48~25~1"
+          },
+          {
+            "display_value": "4e4622",
+            "search_value": "4e4622~25~1"
+          },
+          {
+            "display_value": "5e5444",
+            "search_value": "5e5444~25~1"
+          },
+          {
+            "display_value": "525755",
+            "search_value": "525755~25~1"
+          },
+          {
+            "display_value": "51565f",
+            "search_value": "51565f~25~1"
+          },
+          {
+            "display_value": "727e92",
+            "search_value": "727e92~25~1"
+          },
+          {
+            "display_value": "808ea2",
+            "search_value": "808ea2~25~1"
+          },
+          {
+            "display_value": "ad9ca1",
+            "search_value": "ad9ca1~25~1"
+          },
+          {
+            "display_value": "bfb0a7",
+            "search_value": "bfb0a7~25~1"
+          },
+          {
+            "display_value": "cac1b1",
+            "search_value": "cac1b1~25~1"
+          },
+          {
+            "display_value": "cdc8bc",
+            "search_value": "cdc8bc~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "stranded",
+              "search_value": "stranded"
+            },
+            {
+              "display_value": "speaking",
+              "search_value": "speaking"
+            },
+            {
+              "display_value": "talking",
+              "search_value": "talking"
+            },
+            {
+              "display_value": "conversation",
+              "search_value": "conversation"
+            },
+            {
+              "display_value": "sitting down",
+              "search_value": "\"sitting+down\""
+            },
+            {
+              "display_value": "sitting on log",
+              "search_value": "\"sitting+on+log\""
+            },
+            {
+              "display_value": "whittling",
+              "search_value": "whittling"
+            },
+            {
+              "display_value": "white shirt",
+              "search_value": "\"white+shirt\""
+            },
+            {
+              "display_value": "tan pants",
+              "search_value": "\"tan+pants\""
+            },
+            {
+              "display_value": "eyebrows furrowed",
+              "search_value": "\"eyebrows+furrowed\""
+            },
+            {
+              "display_value": "striped shirt",
+              "search_value": "\"striped+shirt\""
+            },
+            {
+              "display_value": "focused",
+              "search_value": "focused"
+            },
+            {
+              "display_value": "concentrated",
+              "search_value": "concentrated"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Terry O'Quinn",
+              "search_value": "Terry+O%27Quinn"
+            },
+            {
+              "display_value": "Dominic Monaghan",
+              "search_value": "Dominic+Monaghan"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 35 III",
+              "search_value": "Arriflex+35+III"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Classic",
+              "search_value": "Panavision+Primo+Classic"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Island",
+              "search_value": "Island"
+            },
+            {
+              "display_value": "Beach",
+              "search_value": "Beach"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Unknown",
+              "search_value": "Unknown"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Hawaii",
+              "search_value": "Hawaii"
+            },
+            {
+              "display_value": "O'ahu",
+              "search_value": "O%27ahu"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:26:50",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Survival",
+              "search_value": "Movie%2FTV+-+Survival"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Soft Sci-Fi",
+              "search_value": "Movie%2FTV+-+Soft+Sci-Fi"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Jack Bender",
+              "search_value": "Jack+Bender"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Larry Fong",
+              "search_value": "Larry+Fong"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Carlos Barbosa",
+              "search_value": "Carlos+Barbosa"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Kathryn Morrison",
+              "search_value": "Kathryn+Morrison"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Mary Jo Markey",
+              "search_value": "Mary+Jo+Markey"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Steve Porter",
+              "search_value": "Steve+Porter"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

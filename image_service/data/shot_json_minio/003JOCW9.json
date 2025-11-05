@@ -1,0 +1,450 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "003JOCW9",
+    "image_file": "003JOCW9.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Game of Thrones",
+            "search_value": "3646",
+            "season": "4",
+            "episode": "5"
+          }
+        ]
+      },
+      "full_title": "Game of Thrones - Season 4 - Episode 5",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2014",
+            "search_value": "2014"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "080607",
+            "search_value": "080607~25~1"
+          },
+          {
+            "display_value": "18191b",
+            "search_value": "18191b~25~1"
+          },
+          {
+            "display_value": "201811",
+            "search_value": "201811~25~1"
+          },
+          {
+            "display_value": "1c1e1d",
+            "search_value": "1c1e1d~25~1"
+          },
+          {
+            "display_value": "4c402e",
+            "search_value": "4c402e~25~1"
+          },
+          {
+            "display_value": "60584f",
+            "search_value": "60584f~25~1"
+          },
+          {
+            "display_value": "5d595b",
+            "search_value": "5d595b~25~1"
+          },
+          {
+            "display_value": "5d605f",
+            "search_value": "5d605f~25~1"
+          },
+          {
+            "display_value": "606367",
+            "search_value": "606367~25~1"
+          },
+          {
+            "display_value": "868076",
+            "search_value": "868076~25~1"
+          },
+          {
+            "display_value": "959294",
+            "search_value": "959294~25~1"
+          },
+          {
+            "display_value": "9a958d",
+            "search_value": "9a958d~25~1"
+          },
+          {
+            "display_value": "8e98a1",
+            "search_value": "8e98a1~25~1"
+          },
+          {
+            "display_value": "989b9a",
+            "search_value": "989b9a~25~1"
+          },
+          {
+            "display_value": "ccdee8",
+            "search_value": "ccdee8~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "geometric pattern",
+              "search_value": "\"geometric+pattern\""
+            },
+            {
+              "display_value": "dramatic lighting",
+              "search_value": "\"dramatic+lighting\""
+            },
+            {
+              "display_value": "balcony",
+              "search_value": "balcony"
+            },
+            {
+              "display_value": "moment alone",
+              "search_value": "\"moment+alone\""
+            },
+            {
+              "display_value": "back turned",
+              "search_value": "\"back+turned\""
+            },
+            {
+              "display_value": "white skirt",
+              "search_value": "\"white+skirt\""
+            },
+            {
+              "display_value": "waiting for response",
+              "search_value": "\"waiting+for+response\""
+            },
+            {
+              "display_value": "frame within a frame",
+              "search_value": "\"frame+within+a+frame\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Medieval: 500-1400",
+              "search_value": "Medieval%3A+500-1400"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            },
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Studio",
+              "search_value": "ARRI+ALEXA+Studio"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Angenieux Optimo",
+              "search_value": "Angenieux+Optimo"
+            },
+            {
+              "display_value": "Cooke S4/ i",
+              "search_value": "Cooke+S4%2F+i"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Castle",
+              "search_value": "Castle"
+            },
+            {
+              "display_value": "Council Chamber",
+              "search_value": "Council+Chamber"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Essos",
+              "search_value": "Essos"
+            },
+            {
+              "display_value": "Slaver's Bay",
+              "search_value": "Slaver%27s+Bay"
+            },
+            {
+              "display_value": "Meereen",
+              "search_value": "Meereen"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Croatia",
+              "search_value": "Croatia"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:10:20",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Michelle MacLaren",
+              "search_value": "Michelle+MacLaren"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Robert McLachlan",
+              "search_value": "Robert+McLachlan"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Deborah Riley",
+              "search_value": "Deborah+Riley"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Michele Clapton",
+              "search_value": "Michele+Clapton"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Crispin Green",
+              "search_value": "Crispin+Green"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Joe Finley",
+              "search_value": "Joe+Finley"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

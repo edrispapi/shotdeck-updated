@@ -215,20 +215,45 @@ if not (os.path.exists(images_dir) or os.path.islink(images_dir)):
 PUBLIC_BASE_URL = config('PUBLIC_BASE_URL', default='http://localhost:51009')
 
 # ============================================================================
-# AWS S3 CONFIGURATION (Optional)
+# MINIO / S3 STORAGE CONFIGURATION
 # ============================================================================
-AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID', default='')
-AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY', default='')
-AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME', default='shotdeck-image-service')
-AWS_S3_REGION_NAME = config('AWS_S3_REGION_NAME', default='us-east-1')
-AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
-AWS_DEFAULT_ACL = 'public-read'
-AWS_S3_OBJECT_PARAMETERS = {
-    'CacheControl': 'max-age=86400',
-}
+MINIO_ENDPOINT = config('MINIO_ENDPOINT', default=None)
+if MINIO_ENDPOINT:
+    MINIO_ACCESS_KEY = config('MINIO_ACCESS_KEY', default='')
+    MINIO_SECRET_KEY = config('MINIO_SECRET_KEY', default='')
+    MINIO_BUCKET = config('MINIO_BUCKET', default='browser')
+    MINIO_REGION = config('MINIO_REGION', default='us-east-1')
+    MINIO_USE_SSL = config('MINIO_USE_SSL', default=False, cast=bool)
+
+    AWS_ACCESS_KEY_ID = MINIO_ACCESS_KEY
+    AWS_SECRET_ACCESS_KEY = MINIO_SECRET_KEY
+    AWS_STORAGE_BUCKET_NAME = MINIO_BUCKET
+    AWS_S3_REGION_NAME = MINIO_REGION
+    AWS_S3_ENDPOINT_URL = (
+        f"https://{MINIO_ENDPOINT}" if MINIO_USE_SSL else f"http://{MINIO_ENDPOINT}"
+    )
+    AWS_S3_SIGNATURE_VERSION = 's3v4'
+    AWS_S3_ADDRESSING_STYLE = 'path'
+    AWS_DEFAULT_ACL = 'public-read'
+    AWS_S3_OBJECT_PARAMETERS = {
+        'CacheControl': 'max-age=86400',
+    }
+    DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+else:
+    AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID', default='')
+    AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY', default='')
+    AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME', default='shotdeck-image-service')
+    AWS_S3_REGION_NAME = config('AWS_S3_REGION_NAME', default='us-east-1')
+    AWS_S3_ENDPOINT_URL = f"https://{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com"
+    AWS_S3_SIGNATURE_VERSION = 's3v4'
+    AWS_S3_ADDRESSING_STYLE = 'virtual'
+    AWS_DEFAULT_ACL = 'public-read'
+    AWS_S3_OBJECT_PARAMETERS = {
+        'CacheControl': 'max-age=86400',
+    }
 
 S3_BUCKETS = {
-    'image_service': config('IMAGE_SERVICE_BUCKET', default='shotdeck-image-service'),
+    'image_service': config('IMAGE_SERVICE_BUCKET', default=AWS_STORAGE_BUCKET_NAME),
     'deck_search': config('DECK_SEARCH_BUCKET', default='shotdeck-deck-search'),
     'deck_service': config('DECK_SERVICE_BUCKET', default='shotdeck-deck-service'),
 }

@@ -1,0 +1,444 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02ZASRF1",
+    "image_file": "02ZASRF1.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Narcos",
+            "search_value": "4442",
+            "season": "2",
+            "episode": "8"
+          }
+        ]
+      },
+      "full_title": "Narcos - Season 2 - Episode 8",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2016",
+            "search_value": "2016"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "010103",
+            "search_value": "010103~25~1"
+          },
+          {
+            "display_value": "010201",
+            "search_value": "010201~25~1"
+          },
+          {
+            "display_value": "060102",
+            "search_value": "060102~25~1"
+          },
+          {
+            "display_value": "241305",
+            "search_value": "241305~25~1"
+          },
+          {
+            "display_value": "5a4514",
+            "search_value": "5a4514~25~1"
+          },
+          {
+            "display_value": "7d6129",
+            "search_value": "7d6129~25~1"
+          },
+          {
+            "display_value": "a28548",
+            "search_value": "a28548~25~1"
+          },
+          {
+            "display_value": "b39355",
+            "search_value": "b39355~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "dark lighting",
+              "search_value": "\"dark+lighting\""
+            },
+            {
+              "display_value": "floral shirt",
+              "search_value": "\"floral+shirt\""
+            },
+            {
+              "display_value": "beard",
+              "search_value": "beard"
+            },
+            {
+              "display_value": "contemplative",
+              "search_value": "contemplative"
+            },
+            {
+              "display_value": "low-key lighting",
+              "search_value": "\"low-key+lighting\""
+            },
+            {
+              "display_value": "intense expression",
+              "search_value": "\"intense+expression\""
+            },
+            {
+              "display_value": "side profile",
+              "search_value": "\"side+profile\""
+            },
+            {
+              "display_value": "film noir",
+              "search_value": "\"film+noir\""
+            },
+            {
+              "display_value": "vintage wallpaper",
+              "search_value": "\"vintage+wallpaper\""
+            },
+            {
+              "display_value": "moody atmosphere",
+              "search_value": "\"moody+atmosphere\""
+            },
+            {
+              "display_value": "patterned shirt",
+              "search_value": "\"patterned+shirt\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "RED Epic Dragon",
+              "search_value": "RED+Epic+Dragon"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Ultra Prime",
+              "search_value": "Zeiss+Ultra+Prime"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": " House",
+              "search_value": "+House"
+            },
+            {
+              "display_value": "Living Room",
+              "search_value": "Living+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Columbia",
+              "search_value": "Columbia"
+            },
+            {
+              "display_value": "Bogota",
+              "search_value": "Bogota"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Columbia",
+              "search_value": "Columbia"
+            },
+            {
+              "display_value": "Bogota",
+              "search_value": "Bogota"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:04:27",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Gerardo Naranjo",
+              "search_value": "Gerardo+Naranjo"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Carmen Cabana",
+              "search_value": "Carmen+Cabana"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Salvador Parra",
+              "search_value": "Salvador+Parra"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "María Estela Fernández",
+              "search_value": "Mar%C3%ADa+Estela+Fern%C3%A1ndez"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Matthew Colonna",
+              "search_value": "Matthew+Colonna"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Siggy Ferstl",
+              "search_value": "Siggy+Ferstl"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00NIMS3T",
+    "image_file": "00NIMS3T.jpg",
+    "mime": "image/jpeg",
+    "width": "1916",
+    "height": "816",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "What Dreams May Come",
+            "search_value": "14983"
+          }
+        ]
+      },
+      "full_title": "What Dreams May Come",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1998",
+            "search_value": "1998"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "020303",
+            "search_value": "020303~25~1"
+          },
+          {
+            "display_value": "040406",
+            "search_value": "040406~25~1"
+          },
+          {
+            "display_value": "120b0d",
+            "search_value": "120b0d~25~1"
+          },
+          {
+            "display_value": "261913",
+            "search_value": "261913~25~1"
+          },
+          {
+            "display_value": "56352d",
+            "search_value": "56352d~25~1"
+          },
+          {
+            "display_value": "4c3a3c",
+            "search_value": "4c3a3c~25~1"
+          },
+          {
+            "display_value": "644843",
+            "search_value": "644843~25~1"
+          },
+          {
+            "display_value": "6d5557",
+            "search_value": "6d5557~25~1"
+          },
+          {
+            "display_value": "a06f6a",
+            "search_value": "a06f6a~25~1"
+          },
+          {
+            "display_value": "b27973",
+            "search_value": "b27973~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "red sails",
+              "search_value": "\"red+sails\""
+            },
+            {
+              "display_value": "water surface",
+              "search_value": "\"water+surface\""
+            },
+            {
+              "display_value": "sail boat",
+              "search_value": "\"sail+boat\""
+            },
+            {
+              "display_value": "library",
+              "search_value": "library"
+            },
+            {
+              "display_value": "bookshelves",
+              "search_value": "bookshelves"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            },
+            {
+              "display_value": "Symmetrical",
+              "search_value": "Symmetrical"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Silhouette",
+              "search_value": "Silhouette"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Gold / G2",
+              "search_value": "Panavision+Gold+%2F+G2"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Classic",
+              "search_value": "Panavision+Primo+Classic"
+            },
+            {
+              "display_value": "Panavision Primo Zooms",
+              "search_value": "Panavision+Primo+Zooms"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5277/7277\tVision\t320T",
+              "search_value": "5277%2F7277%09Vision%09320T"
+            },
+            {
+              "display_value": "5298/7298\tEXR\t\t500T",
+              "search_value": "5298%2F7298%09EXR%09%09500T"
+            },
+            {
+              "display_value": "8572/8672\tF-500T",
+              "search_value": "8572%2F8672%09F-500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Public Library",
+              "search_value": "Public+Library"
+            },
+            {
+              "display_value": "Summerland",
+              "search_value": "Summerland"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Limbo",
+              "search_value": "Limbo"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:57:28",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Vincent Ward",
+              "search_value": "Vincent+Ward"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Eduardo Serra",
+              "search_value": "Eduardo+Serra"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Eugenio Zanetti",
+              "search_value": "Eugenio+Zanetti"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Yvonne Blake",
+              "search_value": "Yvonne+Blake"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "David Brenner",
+              "search_value": "David+Brenner"
+            },
+            {
+              "display_value": "Maysie Hoy",
+              "search_value": "Maysie+Hoy"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "David Orr",
+              "search_value": "David+Orr"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

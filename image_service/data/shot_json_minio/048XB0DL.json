@@ -1,0 +1,494 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "048XB0DL",
+    "image_file": "048XB0DL.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Hours",
+            "search_value": "2715"
+          }
+        ]
+      },
+      "full_title": "The Hours",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2002",
+            "search_value": "2002"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "060806",
+            "search_value": "060806~25~1"
+          },
+          {
+            "display_value": "100d0a",
+            "search_value": "100d0a~25~1"
+          },
+          {
+            "display_value": "110e0f",
+            "search_value": "110e0f~25~1"
+          },
+          {
+            "display_value": "21252e",
+            "search_value": "21252e~25~1"
+          },
+          {
+            "display_value": "363d4e",
+            "search_value": "363d4e~25~1"
+          },
+          {
+            "display_value": "4f3934",
+            "search_value": "4f3934~25~1"
+          },
+          {
+            "display_value": "4b5163",
+            "search_value": "4b5163~25~1"
+          },
+          {
+            "display_value": "61544c",
+            "search_value": "61544c~25~1"
+          },
+          {
+            "display_value": "686064",
+            "search_value": "686064~25~1"
+          },
+          {
+            "display_value": "9a948f",
+            "search_value": "9a948f~25~1"
+          },
+          {
+            "display_value": "9e969c",
+            "search_value": "9e969c~25~1"
+          },
+          {
+            "display_value": "979cad",
+            "search_value": "979cad~25~1"
+          },
+          {
+            "display_value": "c4cbd0",
+            "search_value": "c4cbd0~25~1"
+          },
+          {
+            "display_value": "d2d1ce",
+            "search_value": "d2d1ce~25~1"
+          },
+          {
+            "display_value": "d2d5d2",
+            "search_value": "d2d5d2~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "facial stubble",
+              "search_value": "\"facial+stubble\""
+            },
+            {
+              "display_value": "knowing look",
+              "search_value": "\"knowing+look\""
+            },
+            {
+              "display_value": "assessing someone",
+              "search_value": "\"assessing+someone\""
+            },
+            {
+              "display_value": "sympathetic smile",
+              "search_value": "\"sympathetic+smile\""
+            },
+            {
+              "display_value": "old friends",
+              "search_value": "\"old+friends\""
+            },
+            {
+              "display_value": "light and shade",
+              "search_value": "\"light+and+shade\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Meryl Streep",
+              "search_value": "Meryl+Streep"
+            },
+            {
+              "display_value": "Jeff Daniels",
+              "search_value": "Jeff+Daniels"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Millennium / Millenium XL / XL2",
+              "search_value": "Panavision+Millennium+%2F+Millenium+XL+%2F+XL2"
+            },
+            {
+              "display_value": "Panavision Panaflex",
+              "search_value": "Panavision+Panaflex"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Primes",
+              "search_value": "Panavision+Primo+Primes"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5274/7274      Vision     200T",
+              "search_value": "5274%2F7274++++++Vision+++++200T"
+            },
+            {
+              "display_value": "5277/7277\tVision\t320T",
+              "search_value": "5277%2F7277%09Vision%09320T"
+            },
+            {
+              "display_value": "5279/7279\tVision\t500T",
+              "search_value": "5279%2F7279%09Vision%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            },
+            {
+              "display_value": "Kitchen",
+              "search_value": "Kitchen"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            },
+            {
+              "display_value": "Manhattan",
+              "search_value": "Manhattan"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            },
+            {
+              "display_value": "Manhattan",
+              "search_value": "Manhattan"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:58:43",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Stephen Daldry",
+              "search_value": "Stephen+Daldry"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Seamus McGarvey",
+              "search_value": "Seamus+McGarvey"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Maria Djurkovic",
+              "search_value": "Maria+Djurkovic"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Ann Roth",
+              "search_value": "Ann+Roth"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Peter Boyle",
+              "search_value": "Peter+Boyle"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Bryan McMahan",
+              "search_value": "Bryan+McMahan"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

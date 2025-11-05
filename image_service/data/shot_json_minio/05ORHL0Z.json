@@ -1,0 +1,402 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05ORHL0Z",
+    "image_file": "05ORHL0Z.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Iron Man 3",
+            "search_value": "246"
+          }
+        ]
+      },
+      "full_title": "Iron Man 3",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2013",
+            "search_value": "2013"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "161a23",
+            "search_value": "161a23~25~1"
+          },
+          {
+            "display_value": "1e2120",
+            "search_value": "1e2120~25~1"
+          },
+          {
+            "display_value": "281e1a",
+            "search_value": "281e1a~25~1"
+          },
+          {
+            "display_value": "262123",
+            "search_value": "262123~25~1"
+          },
+          {
+            "display_value": "373e4c",
+            "search_value": "373e4c~25~1"
+          },
+          {
+            "display_value": "463b40",
+            "search_value": "463b40~25~1"
+          },
+          {
+            "display_value": "533830",
+            "search_value": "533830~25~1"
+          },
+          {
+            "display_value": "4e432a",
+            "search_value": "4e432a~25~1"
+          },
+          {
+            "display_value": "52494e",
+            "search_value": "52494e~25~1"
+          },
+          {
+            "display_value": "455460",
+            "search_value": "455460~25~1"
+          },
+          {
+            "display_value": "675141",
+            "search_value": "675141~25~1"
+          },
+          {
+            "display_value": "595f5c",
+            "search_value": "595f5c~25~1"
+          },
+          {
+            "display_value": "8e979c",
+            "search_value": "8e979c~25~1"
+          },
+          {
+            "display_value": "b39478",
+            "search_value": "b39478~25~1"
+          },
+          {
+            "display_value": "dccfc3",
+            "search_value": "dccfc3~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "cargo ship",
+              "search_value": "\"cargo+ship\""
+            },
+            {
+              "display_value": "collapse",
+              "search_value": "collapse"
+            },
+            {
+              "display_value": "cranes",
+              "search_value": "cranes"
+            },
+            {
+              "display_value": "destruction",
+              "search_value": "destruction"
+            },
+            {
+              "display_value": "fire",
+              "search_value": "fire"
+            },
+            {
+              "display_value": "flying sparks",
+              "search_value": "\"flying+sparks\""
+            },
+            {
+              "display_value": "industrial",
+              "search_value": "industrial"
+            },
+            {
+              "display_value": "smoke",
+              "search_value": "smoke"
+            },
+            {
+              "display_value": "visual fx",
+              "search_value": "\"visual+fx\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Mixed light",
+              "search_value": "Mixed+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA XT / XTplus",
+              "search_value": "ARRI+ALEXA+XT+%2F+XTplus"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Leica Summilux-C",
+              "search_value": "Leica+Summilux-C"
+            },
+            {
+              "display_value": "Angenieux Optimo Zooms",
+              "search_value": "Angenieux+Optimo+Zooms"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Dock",
+              "search_value": "Dock"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:36:56",
+              "search_value": "n/a"
+            }
+          ]
+        },
+        "general_notes": {
+          "filter": "n/a",
+          "filter_name": "Notes",
+          "values": [
+            {
+              "display_value": " Arri Alexa, Leica Summilux-C, Fujinon Lenses, Angenieux Lenses, ",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Shane Black",
+              "search_value": "Shane+Black"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "John Toll",
+              "search_value": "John+Toll"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Bill Brzeski",
+              "search_value": "Bill+Brzeski"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Louise Frogley",
+              "search_value": "Louise+Frogley"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Jeffrey Ford",
+              "search_value": "Jeffrey+Ford"
+            },
+            {
+              "display_value": "Peter S. Elliot",
+              "search_value": "Peter+S.+Elliot"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

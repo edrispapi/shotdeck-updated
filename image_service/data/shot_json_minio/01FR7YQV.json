@@ -1,0 +1,436 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01FR7YQV",
+    "image_file": "01FR7YQV.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Voyagers",
+            "search_value": "10786"
+          }
+        ]
+      },
+      "full_title": "Voyagers",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2021",
+            "search_value": "2021"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d2429",
+            "search_value": "0d2429~25~1"
+          },
+          {
+            "display_value": "182926",
+            "search_value": "182926~25~1"
+          },
+          {
+            "display_value": "37362c",
+            "search_value": "37362c~25~1"
+          },
+          {
+            "display_value": "2a4c4b",
+            "search_value": "2a4c4b~25~1"
+          },
+          {
+            "display_value": "204f52",
+            "search_value": "204f52~25~1"
+          },
+          {
+            "display_value": "565145",
+            "search_value": "565145~25~1"
+          },
+          {
+            "display_value": "517579",
+            "search_value": "517579~25~1"
+          },
+          {
+            "display_value": "577a79",
+            "search_value": "577a79~25~1"
+          },
+          {
+            "display_value": "668a8d",
+            "search_value": "668a8d~25~1"
+          },
+          {
+            "display_value": "6b8a89",
+            "search_value": "6b8a89~25~1"
+          },
+          {
+            "display_value": "7d9a9c",
+            "search_value": "7d9a9c~25~1"
+          },
+          {
+            "display_value": "8da5a4",
+            "search_value": "8da5a4~25~1"
+          },
+          {
+            "display_value": "b3c6c4",
+            "search_value": "b3c6c4~25~1"
+          },
+          {
+            "display_value": "c1cfd0",
+            "search_value": "c1cfd0~25~1"
+          },
+          {
+            "display_value": "cddad5",
+            "search_value": "cddad5~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "sitting at desk",
+              "search_value": "\"sitting+at+desk\""
+            },
+            {
+              "display_value": "all white room",
+              "search_value": "\"all+white+room\""
+            },
+            {
+              "display_value": "focused",
+              "search_value": "focused"
+            },
+            {
+              "display_value": "working at desk",
+              "search_value": "\"working+at+desk\""
+            },
+            {
+              "display_value": "white room",
+              "search_value": "\"white+room\""
+            },
+            {
+              "display_value": "black shirt",
+              "search_value": "\"black+shirt\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Tye Sheridan",
+              "search_value": "Tye+Sheridan"
+            },
+            {
+              "display_value": "Fionn Whitehead",
+              "search_value": "Fionn+Whitehead"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Sony VENICE",
+              "search_value": "Sony+VENICE"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "6K",
+              "search_value": "6K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Space Ship",
+              "search_value": "Space+Ship"
+            },
+            {
+              "display_value": "Classroom",
+              "search_value": "Classroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Space",
+              "search_value": "Space"
+            },
+            {
+              "display_value": "Space Ship",
+              "search_value": "Space+Ship"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Romania",
+              "search_value": "Romania"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:13:51",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Neil Burger",
+              "search_value": "Neil+Burger"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Enrique Chediak",
+              "search_value": "Enrique+Chediak"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Scott Chambliss",
+              "search_value": "Scott+Chambliss"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Bojana Nikitovi?",
+              "search_value": "Bojana+Nikitovi%3F"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Naomi Geraghty",
+              "search_value": "Naomi+Geraghty"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Glen Castinho",
+              "search_value": "Glen+Castinho"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

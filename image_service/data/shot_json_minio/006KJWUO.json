@@ -1,0 +1,516 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "006KJWUO",
+    "image_file": "006KJWUO.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1078",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Local Hero",
+            "search_value": "2194"
+          }
+        ]
+      },
+      "full_title": "Local Hero",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1983",
+            "search_value": "1983"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1d171b",
+            "search_value": "1d171b~25~1"
+          },
+          {
+            "display_value": "161b17",
+            "search_value": "161b17~25~1"
+          },
+          {
+            "display_value": "181f24",
+            "search_value": "181f24~25~1"
+          },
+          {
+            "display_value": "29221b",
+            "search_value": "29221b~25~1"
+          },
+          {
+            "display_value": "3c3d4a",
+            "search_value": "3c3d4a~25~1"
+          },
+          {
+            "display_value": "463b45",
+            "search_value": "463b45~25~1"
+          },
+          {
+            "display_value": "4d3b34",
+            "search_value": "4d3b34~25~1"
+          },
+          {
+            "display_value": "4d3e31",
+            "search_value": "4d3e31~25~1"
+          },
+          {
+            "display_value": "3f4242",
+            "search_value": "3f4242~25~1"
+          },
+          {
+            "display_value": "58463e",
+            "search_value": "58463e~25~1"
+          },
+          {
+            "display_value": "554a58",
+            "search_value": "554a58~25~1"
+          },
+          {
+            "display_value": "5e5778",
+            "search_value": "5e5778~25~1"
+          },
+          {
+            "display_value": "736a9b",
+            "search_value": "736a9b~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "business",
+              "search_value": "business"
+            },
+            {
+              "display_value": "experiencing",
+              "search_value": "experiencing"
+            },
+            {
+              "display_value": "village",
+              "search_value": "village"
+            },
+            {
+              "display_value": "city",
+              "search_value": "city"
+            },
+            {
+              "display_value": "neighborhood",
+              "search_value": "neighborhood"
+            },
+            {
+              "display_value": "talking",
+              "search_value": "talking"
+            },
+            {
+              "display_value": "scenic",
+              "search_value": "scenic"
+            },
+            {
+              "display_value": "walking",
+              "search_value": "walking"
+            },
+            {
+              "display_value": "enjoying",
+              "search_value": "enjoying"
+            },
+            {
+              "display_value": "happy",
+              "search_value": "happy"
+            },
+            {
+              "display_value": "negotiating",
+              "search_value": "negotiating"
+            },
+            {
+              "display_value": "conversation",
+              "search_value": "conversation"
+            },
+            {
+              "display_value": "exciting",
+              "search_value": "exciting"
+            },
+            {
+              "display_value": "beach",
+              "search_value": "beach"
+            },
+            {
+              "display_value": "sea side",
+              "search_value": "\"sea+side\""
+            },
+            {
+              "display_value": "on the coast",
+              "search_value": "\"on+the+coast\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            },
+            {
+              "display_value": "Dusk",
+              "search_value": "Dusk"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "JDC Camera",
+              "search_value": "JDC+Camera"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "JDC",
+              "search_value": "JDC"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Village",
+              "search_value": "Village"
+            },
+            {
+              "display_value": "Town",
+              "search_value": "Town"
+            },
+            {
+              "display_value": "Beach",
+              "search_value": "Beach"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "Scotland",
+              "search_value": "Scotland"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "Scotland",
+              "search_value": "Scotland"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:33:24",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Legal",
+              "search_value": "Movie%2FTV+-+Legal"
+            },
+            {
+              "display_value": "Political",
+              "search_value": "Movie%2FTV+-+Political"
+            },
+            {
+              "display_value": "Road Trip",
+              "search_value": "Movie%2FTV+-+Road+Trip"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Soft Sci-Fi",
+              "search_value": "Movie%2FTV+-+Soft+Sci-Fi"
+            },
+            {
+              "display_value": "Space",
+              "search_value": "Movie%2FTV+-+Space"
+            },
+            {
+              "display_value": "Travel",
+              "search_value": "Movie%2FTV+-+Travel"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Bill Forsyth",
+              "search_value": "Bill+Forsyth"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Chris Menges",
+              "search_value": "Chris+Menges"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Roger Murray-Leach",
+              "search_value": "Roger+Murray-Leach"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Shawn Dale",
+              "search_value": "Shawn+Dale"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Michael Bradsell",
+              "search_value": "Michael+Bradsell"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

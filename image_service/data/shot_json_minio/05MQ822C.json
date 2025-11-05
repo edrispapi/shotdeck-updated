@@ -1,0 +1,494 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05MQ822C",
+    "image_file": "05MQ822C.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Game of Thrones",
+            "search_value": "3646",
+            "season": "2",
+            "episode": "10"
+          }
+        ]
+      },
+      "full_title": "Game of Thrones - Season 2 - Episode 10",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2012",
+            "search_value": "2012"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "150e09",
+            "search_value": "150e09~25~1"
+          },
+          {
+            "display_value": "161817",
+            "search_value": "161817~25~1"
+          },
+          {
+            "display_value": "1e1a1c",
+            "search_value": "1e1a1c~25~1"
+          },
+          {
+            "display_value": "252429",
+            "search_value": "252429~25~1"
+          },
+          {
+            "display_value": "3d3d46",
+            "search_value": "3d3d46~25~1"
+          },
+          {
+            "display_value": "463b3e",
+            "search_value": "463b3e~25~1"
+          },
+          {
+            "display_value": "4c3a36",
+            "search_value": "4c3a36~25~1"
+          },
+          {
+            "display_value": "644a3a",
+            "search_value": "644a3a~25~1"
+          },
+          {
+            "display_value": "5b5a65",
+            "search_value": "5b5a65~25~1"
+          },
+          {
+            "display_value": "645a60",
+            "search_value": "645a60~25~1"
+          },
+          {
+            "display_value": "7b7c89",
+            "search_value": "7b7c89~25~1"
+          },
+          {
+            "display_value": "9b929b",
+            "search_value": "9b929b~25~1"
+          },
+          {
+            "display_value": "b69a82",
+            "search_value": "b69a82~25~1"
+          },
+          {
+            "display_value": "9ea0ac",
+            "search_value": "9ea0ac~25~1"
+          },
+          {
+            "display_value": "c5c8cf",
+            "search_value": "c5c8cf~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "injured",
+              "search_value": "injured"
+            },
+            {
+              "display_value": "cut",
+              "search_value": "cut"
+            },
+            {
+              "display_value": "gash",
+              "search_value": "gash"
+            },
+            {
+              "display_value": "large gash",
+              "search_value": "\"large+gash\""
+            },
+            {
+              "display_value": "large cut",
+              "search_value": "\"large+cut\""
+            },
+            {
+              "display_value": "fresh cut",
+              "search_value": "\"fresh+cut\""
+            },
+            {
+              "display_value": "injury",
+              "search_value": "injury"
+            },
+            {
+              "display_value": "bed ridden",
+              "search_value": "\"bed+ridden\""
+            },
+            {
+              "display_value": "wounded",
+              "search_value": "wounded"
+            },
+            {
+              "display_value": "face wound",
+              "search_value": "\"face+wound\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Peter Dinklage",
+              "search_value": "Peter+Dinklage"
+            },
+            {
+              "display_value": "Conleth Hill",
+              "search_value": "Conleth+Hill"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA",
+              "search_value": "ARRI+ALEXA"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke S4/ i",
+              "search_value": "Cooke+S4%2F+i"
+            },
+            {
+              "display_value": "Angenieux Optimo Zooms",
+              "search_value": "Angenieux+Optimo+Zooms"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Castle",
+              "search_value": "Castle"
+            },
+            {
+              "display_value": "Chambers",
+              "search_value": "Chambers"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "The World",
+              "search_value": "The+World"
+            },
+            {
+              "display_value": "Westeros",
+              "search_value": "Westeros"
+            },
+            {
+              "display_value": "Crownlands",
+              "search_value": "Crownlands"
+            },
+            {
+              "display_value": "King's Landing",
+              "search_value": "King%27s+Landing"
+            },
+            {
+              "display_value": "Chambers",
+              "search_value": "Chambers"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Croatia",
+              "search_value": "Croatia"
+            },
+            {
+              "display_value": "Dubrovnik",
+              "search_value": "Dubrovnik"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:30:06",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Alan Taylor",
+              "search_value": "Alan+Taylor"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Jonathan Freeman",
+              "search_value": "Jonathan+Freeman"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Gemma Jackson",
+              "search_value": "Gemma+Jackson"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Michele Clapton",
+              "search_value": "Michele+Clapton"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Frances Parker",
+              "search_value": "Frances+Parker"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Joe Finley",
+              "search_value": "Joe+Finley"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

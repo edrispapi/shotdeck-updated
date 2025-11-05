@@ -1,0 +1,492 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03SXX53F",
+    "image_file": "03SXX53F.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1030",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Fallen Leaves",
+            "search_value": "42000"
+          }
+        ]
+      },
+      "full_title": "Fallen Leaves",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2023",
+            "search_value": "2023"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1d191b",
+            "search_value": "1d191b~25~1"
+          },
+          {
+            "display_value": "1b1e23",
+            "search_value": "1b1e23~25~1"
+          },
+          {
+            "display_value": "1e251e",
+            "search_value": "1e251e~25~1"
+          },
+          {
+            "display_value": "2b291f",
+            "search_value": "2b291f~25~1"
+          },
+          {
+            "display_value": "434433",
+            "search_value": "434433~25~1"
+          },
+          {
+            "display_value": "474f55",
+            "search_value": "474f55~25~1"
+          },
+          {
+            "display_value": "4f5950",
+            "search_value": "4f5950~25~1"
+          },
+          {
+            "display_value": "595842",
+            "search_value": "595842~25~1"
+          },
+          {
+            "display_value": "7d8f93",
+            "search_value": "7d8f93~25~1"
+          },
+          {
+            "display_value": "99a9a1",
+            "search_value": "99a9a1~25~1"
+          },
+          {
+            "display_value": "adae94",
+            "search_value": "adae94~25~1"
+          },
+          {
+            "display_value": "b6c6ba",
+            "search_value": "b6c6ba~25~1"
+          },
+          {
+            "display_value": "c5c8ab",
+            "search_value": "c5c8ab~25~1"
+          },
+          {
+            "display_value": "bccabe",
+            "search_value": "bccabe~25~1"
+          },
+          {
+            "display_value": "cfd4ba",
+            "search_value": "cfd4ba~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "walk in the park",
+              "search_value": "\"walk+in+the+park\""
+            },
+            {
+              "display_value": "walking dog",
+              "search_value": "\"walking+dog\""
+            },
+            {
+              "display_value": "man standing on crutches",
+              "search_value": "\"man+standing+on+crutches\""
+            },
+            {
+              "display_value": "walking with crutches",
+              "search_value": "\"walking+with+crutches\""
+            },
+            {
+              "display_value": "boot on foot",
+              "search_value": "\"boot+on+foot\""
+            },
+            {
+              "display_value": "cast on foot",
+              "search_value": "\"cast+on+foot\""
+            },
+            {
+              "display_value": "sun setting",
+              "search_value": "\"sun+setting\""
+            },
+            {
+              "display_value": "finally together",
+              "search_value": "\"finally+together\""
+            },
+            {
+              "display_value": "final shot",
+              "search_value": "\"final+shot\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Alma Pöysti",
+              "search_value": "Alma+P%C3%B6ysti"
+            },
+            {
+              "display_value": "Jussi Vatanen",
+              "search_value": "Jussi+Vatanen"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Sunset",
+              "search_value": "Sunset"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex BL3",
+              "search_value": "Arriflex+BL3"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Ultra Prime",
+              "search_value": "Zeiss+Ultra+Prime"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Park ",
+              "search_value": "Park+"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Finland",
+              "search_value": "Finland"
+            },
+            {
+              "display_value": "Helsinki",
+              "search_value": "Helsinki"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Finland",
+              "search_value": "Finland"
+            },
+            {
+              "display_value": "Helsinki",
+              "search_value": "Helsinki"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:17:44",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Aki Kaurismäki",
+              "search_value": "Aki+Kaurism%C3%A4ki"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Timo Salminen",
+              "search_value": "Timo+Salminen"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Ville Grönroos",
+              "search_value": "Ville+Gr%C3%B6nroos"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Tiina Kaukanen",
+              "search_value": "Tiina+Kaukanen"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Samu Heikkilä",
+              "search_value": "Samu+Heikkil%C3%A4"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Dirk Dejonghe",
+              "search_value": "Dirk+Dejonghe"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

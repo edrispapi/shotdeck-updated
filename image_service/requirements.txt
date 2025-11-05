@@ -10,6 +10,8 @@ psycopg2-binary==2.9.9
 django-redis==5.4.0
 redis==5.0.8
 hiredis>=2.0.0
+django-storages
+boto3
 
 # Elastic
 elasticsearch==7.17.9

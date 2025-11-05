@@ -1,0 +1,406 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00CE18LZ",
+    "image_file": "00CE18LZ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "872",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Chambermaid",
+            "search_value": "3497"
+          }
+        ]
+      },
+      "full_title": "The Chambermaid",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2019",
+            "search_value": "2019"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1e1d20",
+            "search_value": "1e1d20~25~1"
+          },
+          {
+            "display_value": "241c1a",
+            "search_value": "241c1a~25~1"
+          },
+          {
+            "display_value": "262124",
+            "search_value": "262124~25~1"
+          },
+          {
+            "display_value": "423e40",
+            "search_value": "423e40~25~1"
+          },
+          {
+            "display_value": "54382f",
+            "search_value": "54382f~25~1"
+          },
+          {
+            "display_value": "444236",
+            "search_value": "444236~25~1"
+          },
+          {
+            "display_value": "4c484a",
+            "search_value": "4c484a~25~1"
+          },
+          {
+            "display_value": "4e4e51",
+            "search_value": "4e4e51~25~1"
+          },
+          {
+            "display_value": "6a5a51",
+            "search_value": "6a5a51~25~1"
+          },
+          {
+            "display_value": "86826f",
+            "search_value": "86826f~25~1"
+          },
+          {
+            "display_value": "9f9f9a",
+            "search_value": "9f9f9a~25~1"
+          },
+          {
+            "display_value": "a8aba7",
+            "search_value": "a8aba7~25~1"
+          },
+          {
+            "display_value": "c0c2ba",
+            "search_value": "c0c2ba~25~1"
+          },
+          {
+            "display_value": "cccdc9",
+            "search_value": "cccdc9~25~1"
+          },
+          {
+            "display_value": "d1d4d0",
+            "search_value": "d1d4d0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "bed",
+              "search_value": "bed"
+            },
+            {
+              "display_value": "pillow",
+              "search_value": "pillow"
+            },
+            {
+              "display_value": "maid",
+              "search_value": "maid"
+            },
+            {
+              "display_value": "hairnet",
+              "search_value": "hairnet"
+            },
+            {
+              "display_value": "employee",
+              "search_value": "employee"
+            },
+            {
+              "display_value": "cleaning",
+              "search_value": "cleaning"
+            },
+            {
+              "display_value": "puff",
+              "search_value": "puff"
+            },
+            {
+              "display_value": "linen",
+              "search_value": "linen"
+            },
+            {
+              "display_value": "horse",
+              "search_value": "horse"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Gabriela Cartol",
+              "search_value": "Gabriela+Cartol"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.20",
+              "search_value": "2.20"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Hotel ",
+              "search_value": "Hotel+"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Mexico",
+              "search_value": "Mexico"
+            },
+            {
+              "display_value": "Mexico City",
+              "search_value": "Mexico+City"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Mexico",
+              "search_value": "Mexico"
+            },
+            {
+              "display_value": "Mexico City",
+              "search_value": "Mexico+City"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:08:30",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Lila Avilés",
+              "search_value": "Lila+Avil%C3%A9s"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Carlos Rossini",
+              "search_value": "Carlos+Rossini"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Vika Fleitas",
+              "search_value": "Vika+Fleitas"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Omar Guzmán",
+              "search_value": "Omar+Guzm%C3%A1n"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Jonathan Buenrostro",
+              "search_value": "Jonathan+Buenrostro"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

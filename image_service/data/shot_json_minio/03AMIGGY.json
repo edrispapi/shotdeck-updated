@@ -1,0 +1,474 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03AMIGGY",
+    "image_file": "03AMIGGY.jpg",
+    "mime": "image/jpeg",
+    "width": "1918",
+    "height": "1063",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Fallen Angels",
+            "search_value": "3175"
+          }
+        ]
+      },
+      "full_title": "Fallen Angels",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1995",
+            "search_value": "1995"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "020203",
+            "search_value": "020203~25~1"
+          },
+          {
+            "display_value": "180506",
+            "search_value": "180506~25~1"
+          },
+          {
+            "display_value": "1c140a",
+            "search_value": "1c140a~25~1"
+          },
+          {
+            "display_value": "111a0c",
+            "search_value": "111a0c~25~1"
+          },
+          {
+            "display_value": "6b311c",
+            "search_value": "6b311c~25~1"
+          },
+          {
+            "display_value": "344d27",
+            "search_value": "344d27~25~1"
+          },
+          {
+            "display_value": "484b24",
+            "search_value": "484b24~25~1"
+          },
+          {
+            "display_value": "426036",
+            "search_value": "426036~25~1"
+          },
+          {
+            "display_value": "5e6134",
+            "search_value": "5e6134~25~1"
+          },
+          {
+            "display_value": "8b8b4e",
+            "search_value": "8b8b4e~25~1"
+          },
+          {
+            "display_value": "b99b61",
+            "search_value": "b99b61~25~1"
+          },
+          {
+            "display_value": "f9b971",
+            "search_value": "f9b971~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "thinking about life",
+              "search_value": "\"thinking+about+life\""
+            },
+            {
+              "display_value": "smokey air",
+              "search_value": "\"smokey+air\""
+            },
+            {
+              "display_value": "metal tongs",
+              "search_value": "\"metal+tongs\""
+            },
+            {
+              "display_value": "grilling",
+              "search_value": "grilling"
+            },
+            {
+              "display_value": "skewer",
+              "search_value": "skewer"
+            },
+            {
+              "display_value": "kebab",
+              "search_value": "kebab"
+            },
+            {
+              "display_value": "chef",
+              "search_value": "chef"
+            },
+            {
+              "display_value": "cooking",
+              "search_value": "cooking"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Leon Lai",
+              "search_value": "Leon+Lai"
+            },
+            {
+              "display_value": "Takeshi Kaneshiro",
+              "search_value": "Takeshi+Kaneshiro"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Ultra Wide / Fisheye",
+              "search_value": "Ultra+Wide+%2F+Fisheye"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "Dutch angle",
+              "search_value": "Dutch+angle"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Fluorescent",
+              "search_value": "Fluorescent"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Century Precision / Kinoptik",
+              "search_value": "Century+Precision+%2F+Kinoptik"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Restaurant",
+              "search_value": "Restaurant"
+            },
+            {
+              "display_value": "Bar",
+              "search_value": "Bar"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "China",
+              "search_value": "China"
+            },
+            {
+              "display_value": "Hong Kong",
+              "search_value": "Hong+Kong"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "China",
+              "search_value": "China"
+            },
+            {
+              "display_value": "Hong Kong",
+              "search_value": "Hong+Kong"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:02:32",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Wong Kar-wai",
+              "search_value": "Wong+Kar-wai"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Christopher Doyle",
+              "search_value": "Christopher+Doyle"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "William Chang ",
+              "search_value": "William+Chang+"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "William Chang ",
+              "search_value": "William+Chang+"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "William Chang",
+              "search_value": "William+Chang"
+            },
+            {
+              "display_value": "Wong Ming-Lam",
+              "search_value": "Wong+Ming-Lam"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00NEAMYN",
+    "image_file": "00NEAMYN.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Rosaline",
+            "search_value": "28005"
+          }
+        ]
+      },
+      "full_title": "Rosaline",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "121511",
+            "search_value": "121511~25~1"
+          },
+          {
+            "display_value": "1e2022",
+            "search_value": "1e2022~25~1"
+          },
+          {
+            "display_value": "242318",
+            "search_value": "242318~25~1"
+          },
+          {
+            "display_value": "2e2b2c",
+            "search_value": "2e2b2c~25~1"
+          },
+          {
+            "display_value": "4f3a32",
+            "search_value": "4f3a32~25~1"
+          },
+          {
+            "display_value": "494727",
+            "search_value": "494727~25~1"
+          },
+          {
+            "display_value": "505551",
+            "search_value": "505551~25~1"
+          },
+          {
+            "display_value": "645d4e",
+            "search_value": "645d4e~25~1"
+          },
+          {
+            "display_value": "615f60",
+            "search_value": "615f60~25~1"
+          },
+          {
+            "display_value": "5a6268",
+            "search_value": "5a6268~25~1"
+          },
+          {
+            "display_value": "8c7c74",
+            "search_value": "8c7c74~25~1"
+          },
+          {
+            "display_value": "8a8070",
+            "search_value": "8a8070~25~1"
+          },
+          {
+            "display_value": "938a81",
+            "search_value": "938a81~25~1"
+          },
+          {
+            "display_value": "85929f",
+            "search_value": "85929f~25~1"
+          },
+          {
+            "display_value": "a19fa1",
+            "search_value": "a19fa1~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "garden",
+              "search_value": "garden"
+            },
+            {
+              "display_value": "trees",
+              "search_value": "trees"
+            },
+            {
+              "display_value": "bushes",
+              "search_value": "bushes"
+            },
+            {
+              "display_value": "fountain",
+              "search_value": "fountain"
+            },
+            {
+              "display_value": "water",
+              "search_value": "water"
+            },
+            {
+              "display_value": "maze",
+              "search_value": "maze"
+            },
+            {
+              "display_value": "oranges",
+              "search_value": "oranges"
+            },
+            {
+              "display_value": "cloudy skies",
+              "search_value": "\"cloudy+skies\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Renaissance: 1400-1700",
+              "search_value": "Renaissance%3A+1400-1700"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Garden",
+              "search_value": "Garden"
+            },
+            {
+              "display_value": "Fountain",
+              "search_value": "Fountain"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Verona",
+              "search_value": "Verona"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Tuscany",
+              "search_value": "Tuscany"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:21:21",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Shakespeare on Screen",
+              "search_value": "Movie%2FTV+-+Shakespeare+on+Screen"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Karen Maine",
+              "search_value": "Karen+Maine"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Laurie Rose",
+              "search_value": "Laurie+Rose"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Andrew McAlpine",
+              "search_value": "Andrew+McAlpine"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Mitchell Travers",
+              "search_value": "Mitchell+Travers"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Jennifer Lee",
+              "search_value": "Jennifer+Lee"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Katie Jordan",
+              "search_value": "Katie+Jordan"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

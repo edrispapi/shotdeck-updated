@@ -1,0 +1,456 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01AKR7II",
+    "image_file": "01AKR7II.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1038",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Withnail & I",
+            "search_value": "3018"
+          }
+        ]
+      },
+      "full_title": "Withnail & I",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1987",
+            "search_value": "1987"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "050407",
+            "search_value": "050407~25~1"
+          },
+          {
+            "display_value": "090508",
+            "search_value": "090508~25~1"
+          },
+          {
+            "display_value": "050706",
+            "search_value": "050706~25~1"
+          },
+          {
+            "display_value": "22170d",
+            "search_value": "22170d~25~1"
+          },
+          {
+            "display_value": "65351c",
+            "search_value": "65351c~25~1"
+          },
+          {
+            "display_value": "5d3d1e",
+            "search_value": "5d3d1e~25~1"
+          },
+          {
+            "display_value": "6c4527",
+            "search_value": "6c4527~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "countryside",
+              "search_value": "countryside"
+            },
+            {
+              "display_value": "rural",
+              "search_value": "rural"
+            },
+            {
+              "display_value": "threat",
+              "search_value": "threat"
+            },
+            {
+              "display_value": "forcing them into corner",
+              "search_value": "\"forcing+them+into+corner\""
+            },
+            {
+              "display_value": "sexually attracted",
+              "search_value": "\"sexually+attracted\""
+            },
+            {
+              "display_value": "homosexual",
+              "search_value": "homosexual"
+            },
+            {
+              "display_value": "worried",
+              "search_value": "worried"
+            },
+            {
+              "display_value": "terrified",
+              "search_value": "terrified"
+            },
+            {
+              "display_value": "disturbing",
+              "search_value": "disturbing"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Richard Griffiths",
+              "search_value": "Richard+Griffiths"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Cottage",
+              "search_value": "Cottage"
+            },
+            {
+              "display_value": "Bedroom",
+              "search_value": "Bedroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "UK",
+              "search_value": "UK"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "UK",
+              "search_value": "UK"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:24:30",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Addiction",
+              "search_value": "Movie%2FTV+-+Addiction"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fashion",
+              "search_value": "Movie%2FTV+-+Fashion"
+            },
+            {
+              "display_value": "Gambling",
+              "search_value": "Movie%2FTV+-+Gambling"
+            },
+            {
+              "display_value": "Mental Illness",
+              "search_value": "Movie%2FTV+-+Mental+Illness"
+            },
+            {
+              "display_value": "Police",
+              "search_value": "Movie%2FTV+-+Police"
+            },
+            {
+              "display_value": "Psychological",
+              "search_value": "Movie%2FTV+-+Psychological"
+            },
+            {
+              "display_value": "Road Trip",
+              "search_value": "Movie%2FTV+-+Road+Trip"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Bruce Robinson",
+              "search_value": "Bruce+Robinson"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Peter Hannan",
+              "search_value": "Peter+Hannan"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Michael Pickwoad",
+              "search_value": "Michael+Pickwoad"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Andrea Galer",
+              "search_value": "Andrea+Galer"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Alan Strachan",
+              "search_value": "Alan+Strachan"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

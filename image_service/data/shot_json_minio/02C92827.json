@@ -1,0 +1,466 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02C92827",
+    "image_file": "02C92827.jpg",
+    "mime": "image/jpeg",
+    "width": "2690",
+    "height": "1610",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Diva",
+            "search_value": "7353"
+          }
+        ]
+      },
+      "full_title": "Diva",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1981",
+            "search_value": "1981"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "080607",
+            "search_value": "080607~25~1"
+          },
+          {
+            "display_value": "080706",
+            "search_value": "080706~25~1"
+          },
+          {
+            "display_value": "0d1019",
+            "search_value": "0d1019~25~1"
+          },
+          {
+            "display_value": "0e1311",
+            "search_value": "0e1311~25~1"
+          },
+          {
+            "display_value": "224061",
+            "search_value": "224061~25~1"
+          },
+          {
+            "display_value": "2e474b",
+            "search_value": "2e474b~25~1"
+          },
+          {
+            "display_value": "2f4944",
+            "search_value": "2f4944~25~1"
+          },
+          {
+            "display_value": "406059",
+            "search_value": "406059~25~1"
+          },
+          {
+            "display_value": "41697d",
+            "search_value": "41697d~25~1"
+          },
+          {
+            "display_value": "5284af",
+            "search_value": "5284af~25~1"
+          },
+          {
+            "display_value": "5d8a9c",
+            "search_value": "5d8a9c~25~1"
+          },
+          {
+            "display_value": "5d9390",
+            "search_value": "5d9390~25~1"
+          },
+          {
+            "display_value": "65a5a0",
+            "search_value": "65a5a0~25~1"
+          },
+          {
+            "display_value": "72a0bb",
+            "search_value": "72a0bb~25~1"
+          },
+          {
+            "display_value": "93c2ee",
+            "search_value": "93c2ee~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "chaise lounge",
+              "search_value": "\"chaise+lounge\""
+            },
+            {
+              "display_value": "sleeping on couch",
+              "search_value": "\"sleeping+on+couch\""
+            },
+            {
+              "display_value": "lace curtains",
+              "search_value": "\"lace+curtains\""
+            },
+            {
+              "display_value": "house plants",
+              "search_value": "\"house+plants\""
+            },
+            {
+              "display_value": "arms crossed",
+              "search_value": "\"arms+crossed\""
+            },
+            {
+              "display_value": "insomnia",
+              "search_value": "insomnia"
+            },
+            {
+              "display_value": "striped furniture",
+              "search_value": "\"striped+furniture\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Frédéric Andréi",
+              "search_value": "Fr%C3%A9d%C3%A9ric+Andr%C3%A9i"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Dawn",
+              "search_value": "Dawn"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Panaflex",
+              "search_value": "Panavision+Panaflex"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Lenses",
+              "search_value": "Panavision+Lenses"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:56:37",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Jean-Jacques Beineix",
+              "search_value": "Jean-Jacques+Beineix"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Philippe Rousselot",
+              "search_value": "Philippe+Rousselot"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Hilton McConnico",
+              "search_value": "Hilton+McConnico"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Claire Fraisse",
+              "search_value": "Claire+Fraisse"
+            },
+            {
+              "display_value": "Hilton McConnico",
+              "search_value": "Hilton+McConnico"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Marie-Josèphe Yoyotte",
+              "search_value": "Marie-Jos%C3%A8phe+Yoyotte"
+            },
+            {
+              "display_value": "Monique Prim",
+              "search_value": "Monique+Prim"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

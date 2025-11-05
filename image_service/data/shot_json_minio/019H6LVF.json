@@ -1,0 +1,532 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "019H6LVF",
+    "image_file": "019H6LVF.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Blade Runner 2049",
+            "search_value": "1281"
+          }
+        ]
+      },
+      "full_title": "Blade Runner 2049",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2017",
+            "search_value": "2017"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "022025",
+            "search_value": "022025~25~1"
+          },
+          {
+            "display_value": "1c2018",
+            "search_value": "1c2018~25~1"
+          },
+          {
+            "display_value": "1b3023",
+            "search_value": "1b3023~25~1"
+          },
+          {
+            "display_value": "2c4b35",
+            "search_value": "2c4b35~25~1"
+          },
+          {
+            "display_value": "49644d",
+            "search_value": "49644d~25~1"
+          },
+          {
+            "display_value": "738363",
+            "search_value": "738363~25~1"
+          },
+          {
+            "display_value": "748a6e",
+            "search_value": "748a6e~25~1"
+          },
+          {
+            "display_value": "7f8d69",
+            "search_value": "7f8d69~25~1"
+          },
+          {
+            "display_value": "869b7b",
+            "search_value": "869b7b~25~1"
+          },
+          {
+            "display_value": "a3b18e",
+            "search_value": "a3b18e~25~1"
+          },
+          {
+            "display_value": "b7ccab",
+            "search_value": "b7ccab~25~1"
+          },
+          {
+            "display_value": "c3c9a9",
+            "search_value": "c3c9a9~25~1"
+          },
+          {
+            "display_value": "c1d3b6",
+            "search_value": "c1d3b6~25~1"
+          },
+          {
+            "display_value": "dfdcbf",
+            "search_value": "dfdcbf~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "artificial intelligence",
+              "search_value": "\"artificial+intelligence\""
+            },
+            {
+              "display_value": "hologram",
+              "search_value": "hologram"
+            },
+            {
+              "display_value": "translucent",
+              "search_value": "translucent"
+            },
+            {
+              "display_value": "projection",
+              "search_value": "projection"
+            },
+            {
+              "display_value": "reaction",
+              "search_value": "reaction"
+            },
+            {
+              "display_value": "glowing skin",
+              "search_value": "\"glowing+skin\""
+            },
+            {
+              "display_value": "staring at hands",
+              "search_value": "\"staring+at+hands\""
+            },
+            {
+              "display_value": "curious",
+              "search_value": "curious"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Ana de Armas",
+              "search_value": "Ana+de+Armas"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Silhouette",
+              "search_value": "Silhouette"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            },
+            {
+              "display_value": "Fluorescent",
+              "search_value": "Fluorescent"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            },
+            {
+              "display_value": "ARRI ALEXA Plus",
+              "search_value": "ARRI+ALEXA+Plus"
+            },
+            {
+              "display_value": "ARRI ALEXA XT / XTplus",
+              "search_value": "ARRI+ALEXA+XT+%2F+XTplus"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Master Primes",
+              "search_value": "Zeiss+Master+Primes"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "3.2K / 3.2K ArriRaw",
+              "search_value": "3.2K+%2F+3.2K+ArriRaw"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment Building",
+              "search_value": "Apartment+Building"
+            },
+            {
+              "display_value": "Rooftop",
+              "search_value": "Rooftop"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Hungary",
+              "search_value": "Hungary"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:21:32",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Cyberpunk",
+              "search_value": "Movie%2FTV+-+Cyberpunk"
+            },
+            {
+              "display_value": "Dystopian",
+              "search_value": "Movie%2FTV+-+Dystopian"
+            },
+            {
+              "display_value": "Epic",
+              "search_value": "Movie%2FTV+-+Epic"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "Psychedelic",
+              "search_value": "Movie%2FTV+-+Psychedelic"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Denis Villeneuve",
+              "search_value": "Denis+Villeneuve"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Roger Deakins",
+              "search_value": "Roger+Deakins"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Dennis Gassner",
+              "search_value": "Dennis+Gassner"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Renée April",
+              "search_value": "Ren%C3%A9e+April"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Joe Walker",
+              "search_value": "Joe+Walker"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Mitch Paulson",
+              "search_value": "Mitch+Paulson"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02R2Z97Q",
+    "image_file": "02R2Z97Q.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "803",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "I Care a Lot",
+            "search_value": "14014"
+          }
+        ]
+      },
+      "full_title": "I Care a Lot",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2021",
+            "search_value": "2021"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "180f11",
+            "search_value": "180f11~25~1"
+          },
+          {
+            "display_value": "04181e",
+            "search_value": "04181e~25~1"
+          },
+          {
+            "display_value": "38231f",
+            "search_value": "38231f~25~1"
+          },
+          {
+            "display_value": "252f2e",
+            "search_value": "252f2e~25~1"
+          },
+          {
+            "display_value": "5b352d",
+            "search_value": "5b352d~25~1"
+          },
+          {
+            "display_value": "364443",
+            "search_value": "364443~25~1"
+          },
+          {
+            "display_value": "30454a",
+            "search_value": "30454a~25~1"
+          },
+          {
+            "display_value": "43565b",
+            "search_value": "43565b~25~1"
+          },
+          {
+            "display_value": "57605b",
+            "search_value": "57605b~25~1"
+          },
+          {
+            "display_value": "7b5b4e",
+            "search_value": "7b5b4e~25~1"
+          },
+          {
+            "display_value": "9d7566",
+            "search_value": "9d7566~25~1"
+          },
+          {
+            "display_value": "7a837b",
+            "search_value": "7a837b~25~1"
+          },
+          {
+            "display_value": "878173",
+            "search_value": "878173~25~1"
+          },
+          {
+            "display_value": "818881",
+            "search_value": "818881~25~1"
+          },
+          {
+            "display_value": "9a917e",
+            "search_value": "9a917e~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "guardianship",
+              "search_value": "guardianship"
+            },
+            {
+              "display_value": "signing document",
+              "search_value": "\"signing+document\""
+            },
+            {
+              "display_value": "signature",
+              "search_value": "signature"
+            },
+            {
+              "display_value": "pen",
+              "search_value": "pen"
+            },
+            {
+              "display_value": "hand",
+              "search_value": "hand"
+            },
+            {
+              "display_value": "legal document",
+              "search_value": "\"legal+document\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital, Digital - Large Format",
+              "search_value": "Digital%2C+Digital+-+Large+Format"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Close Up",
+              "search_value": "Extreme+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Sony VENICE",
+              "search_value": "Sony+VENICE"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Tribe 7 Blackwing 7",
+              "search_value": "Tribe+7+Blackwing+7"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Courthouse",
+              "search_value": "Courthouse"
+            },
+            {
+              "display_value": "Court Room",
+              "search_value": "Court+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Massachusetts",
+              "search_value": "Massachusetts"
+            },
+            {
+              "display_value": "Boston",
+              "search_value": "Boston"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Massachusetts",
+              "search_value": "Massachusetts"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:15:07",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "J Blakeson",
+              "search_value": "J+Blakeson"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Doug Emmett",
+              "search_value": "Doug+Emmett"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Michael Grasley",
+              "search_value": "Michael+Grasley"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Deborah Newhall",
+              "search_value": "Deborah+Newhall"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Mark Eckersley",
+              "search_value": "Mark+Eckersley"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Peter Doyle",
+              "search_value": "Peter+Doyle"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

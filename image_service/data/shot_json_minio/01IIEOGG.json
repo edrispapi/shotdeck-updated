@@ -1,0 +1,498 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01IIEOGG",
+    "image_file": "01IIEOGG.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1036",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Endless Poetry",
+            "search_value": "11659"
+          }
+        ]
+      },
+      "full_title": "Endless Poetry",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2016",
+            "search_value": "2016"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "040506",
+            "search_value": "040506~25~1"
+          },
+          {
+            "display_value": "171610",
+            "search_value": "171610~25~1"
+          },
+          {
+            "display_value": "181e19",
+            "search_value": "181e19~25~1"
+          },
+          {
+            "display_value": "394634",
+            "search_value": "394634~25~1"
+          },
+          {
+            "display_value": "43482c",
+            "search_value": "43482c~25~1"
+          },
+          {
+            "display_value": "566751",
+            "search_value": "566751~25~1"
+          },
+          {
+            "display_value": "6a694a",
+            "search_value": "6a694a~25~1"
+          },
+          {
+            "display_value": "758d68",
+            "search_value": "758d68~25~1"
+          },
+          {
+            "display_value": "868b63",
+            "search_value": "868b63~25~1"
+          },
+          {
+            "display_value": "a4ad83",
+            "search_value": "a4ad83~25~1"
+          },
+          {
+            "display_value": "9ab489",
+            "search_value": "9ab489~25~1"
+          },
+          {
+            "display_value": "b6cea4",
+            "search_value": "b6cea4~25~1"
+          },
+          {
+            "display_value": "c0cca2",
+            "search_value": "c0cca2~25~1"
+          },
+          {
+            "display_value": "c4dbb4",
+            "search_value": "c4dbb4~25~1"
+          },
+          {
+            "display_value": "cbd9b2",
+            "search_value": "cbd9b2~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "middle of street",
+              "search_value": "\"middle+of+street\""
+            },
+            {
+              "display_value": "all black outfit",
+              "search_value": "\"all+black+outfit\""
+            },
+            {
+              "display_value": "silly",
+              "search_value": "silly"
+            },
+            {
+              "display_value": "carefree",
+              "search_value": "carefree"
+            },
+            {
+              "display_value": "lamp posts",
+              "search_value": "\"lamp+posts\""
+            },
+            {
+              "display_value": "man in suit",
+              "search_value": "\"man+in+suit\""
+            },
+            {
+              "display_value": "wearing suit",
+              "search_value": "\"wearing+suit\""
+            },
+            {
+              "display_value": "jig",
+              "search_value": "jig"
+            },
+            {
+              "display_value": "dancing",
+              "search_value": "dancing"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Adan Jodorowsky",
+              "search_value": "Adan+Jodorowsky"
+            },
+            {
+              "display_value": "Leandro Taub",
+              "search_value": "Leandro+Taub"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1950s",
+              "search_value": "1950s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA",
+              "search_value": "ARRI+ALEXA"
+            },
+            {
+              "display_value": "ARRI ALEXA Classic / plus",
+              "search_value": "ARRI+ALEXA+Classic+%2F+plus"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Angenieux Optimo",
+              "search_value": "Angenieux+Optimo"
+            },
+            {
+              "display_value": "Zeiss Master Primes",
+              "search_value": "Zeiss+Master+Primes"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "City Street",
+              "search_value": "City+Street"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Chile",
+              "search_value": "Chile"
+            },
+            {
+              "display_value": "Santiago",
+              "search_value": "Santiago"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Chile",
+              "search_value": "Chile"
+            },
+            {
+              "display_value": "Santiago",
+              "search_value": "Santiago"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:13:30",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Coming-of-Age",
+              "search_value": "Movie%2FTV+-+Coming-of-Age"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Philosophical",
+              "search_value": "Movie%2FTV+-+Philosophical"
+            },
+            {
+              "display_value": "Psychedelic",
+              "search_value": "Movie%2FTV+-+Psychedelic"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Alejandro Jodorowsky",
+              "search_value": "Alejandro+Jodorowsky"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Christopher Doyle",
+              "search_value": "Christopher+Doyle"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Alejandro Jodorowsky",
+              "search_value": "Alejandro+Jodorowsky"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Pascale Montandon-Jodorowsky",
+              "search_value": "Pascale+Montandon-Jodorowsky"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Maryline Monthieux",
+              "search_value": "Maryline+Monthieux"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Didier Le Fouest",
+              "search_value": "Didier+Le+Fouest"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

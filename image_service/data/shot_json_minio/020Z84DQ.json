@@ -1,0 +1,434 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "020Z84DQ",
+    "image_file": "020Z84DQ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "817",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Synecdoche, New York",
+            "search_value": "3628"
+          }
+        ]
+      },
+      "full_title": "Synecdoche, New York",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2008",
+            "search_value": "2008"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0b0f0e",
+            "search_value": "0b0f0e~25~1"
+          },
+          {
+            "display_value": "0e1315",
+            "search_value": "0e1315~25~1"
+          },
+          {
+            "display_value": "3f2d1d",
+            "search_value": "3f2d1d~25~1"
+          },
+          {
+            "display_value": "56392c",
+            "search_value": "56392c~25~1"
+          },
+          {
+            "display_value": "36463e",
+            "search_value": "36463e~25~1"
+          },
+          {
+            "display_value": "614715",
+            "search_value": "614715~25~1"
+          },
+          {
+            "display_value": "506157",
+            "search_value": "506157~25~1"
+          },
+          {
+            "display_value": "735e42",
+            "search_value": "735e42~25~1"
+          },
+          {
+            "display_value": "7a8673",
+            "search_value": "7a8673~25~1"
+          },
+          {
+            "display_value": "a4765e",
+            "search_value": "a4765e~25~1"
+          },
+          {
+            "display_value": "918560",
+            "search_value": "918560~25~1"
+          },
+          {
+            "display_value": "8c9f90",
+            "search_value": "8c9f90~25~1"
+          },
+          {
+            "display_value": "b7a377",
+            "search_value": "b7a377~25~1"
+          },
+          {
+            "display_value": "d5c2a1",
+            "search_value": "d5c2a1~25~1"
+          },
+          {
+            "display_value": "d9cbb0",
+            "search_value": "d9cbb0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "looking through window",
+              "search_value": "\"looking+through+window\""
+            },
+            {
+              "display_value": "window",
+              "search_value": "window"
+            },
+            {
+              "display_value": "window reflection",
+              "search_value": "\"window+reflection\""
+            },
+            {
+              "display_value": "reflection",
+              "search_value": "reflection"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Philip Seymour Hoffman",
+              "search_value": "Philip+Seymour+Hoffman"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Close Up",
+              "search_value": "Extreme+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            },
+            {
+              "display_value": "Arricam ST",
+              "search_value": "Arricam+ST"
+            },
+            {
+              "display_value": "Arriflex",
+              "search_value": "Arriflex"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            },
+            {
+              "display_value": "Window",
+              "search_value": "Window"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "Schenectady",
+              "search_value": "Schenectady"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "Schenectady",
+              "search_value": "Schenectady"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:55:38",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Magical Realism",
+              "search_value": "Movie%2FTV+-+Magical+Realism"
+            },
+            {
+              "display_value": "Psychedelic",
+              "search_value": "Movie%2FTV+-+Psychedelic"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Charlie Kaufman",
+              "search_value": "Charlie+Kaufman"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Frederick Elmes",
+              "search_value": "Frederick+Elmes"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Mark Friedberg",
+              "search_value": "Mark+Friedberg"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Melissa Toth",
+              "search_value": "Melissa+Toth"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Robert Frazen",
+              "search_value": "Robert+Frazen"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Joe Gawler",
+              "search_value": "Joe+Gawler"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

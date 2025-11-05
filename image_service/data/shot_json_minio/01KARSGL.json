@@ -1,0 +1,434 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01KARSGL",
+    "image_file": "01KARSGL.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Mountainhead",
+            "search_value": "67853"
+          }
+        ]
+      },
+      "full_title": "Mountainhead",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2025",
+            "search_value": "2025"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "20262c",
+            "search_value": "20262c~25~1"
+          },
+          {
+            "display_value": "2b282a",
+            "search_value": "2b282a~25~1"
+          },
+          {
+            "display_value": "2b2e2d",
+            "search_value": "2b2e2d~25~1"
+          },
+          {
+            "display_value": "37312e",
+            "search_value": "37312e~25~1"
+          },
+          {
+            "display_value": "605e57",
+            "search_value": "605e57~25~1"
+          },
+          {
+            "display_value": "566064",
+            "search_value": "566064~25~1"
+          },
+          {
+            "display_value": "636a67",
+            "search_value": "636a67~25~1"
+          },
+          {
+            "display_value": "79847e",
+            "search_value": "79847e~25~1"
+          },
+          {
+            "display_value": "87866f",
+            "search_value": "87866f~25~1"
+          },
+          {
+            "display_value": "889389",
+            "search_value": "889389~25~1"
+          },
+          {
+            "display_value": "9c9d85",
+            "search_value": "9c9d85~25~1"
+          },
+          {
+            "display_value": "a8ccc4",
+            "search_value": "a8ccc4~25~1"
+          },
+          {
+            "display_value": "cec6a1",
+            "search_value": "cec6a1~25~1"
+          },
+          {
+            "display_value": "b4d5ca",
+            "search_value": "b4d5ca~25~1"
+          },
+          {
+            "display_value": "e6e4c7",
+            "search_value": "e6e4c7~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "sitting on bed",
+              "search_value": "\"sitting+on+bed\""
+            },
+            {
+              "display_value": "reflection in mirror",
+              "search_value": "\"reflection+in+mirror\""
+            },
+            {
+              "display_value": "legs crossed",
+              "search_value": "\"legs+crossed\""
+            },
+            {
+              "display_value": "big mirror",
+              "search_value": "\"big+mirror\""
+            },
+            {
+              "display_value": "mirror leaning against wall",
+              "search_value": "\"mirror+leaning+against+wall\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Jason Schwartzman",
+              "search_value": "Jason+Schwartzman"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Ultra Wide / Fisheye",
+              "search_value": "Ultra+Wide+%2F+Fisheye"
+            },
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Bedroom",
+              "search_value": "Bedroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Utah",
+              "search_value": "Utah"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Utah",
+              "search_value": "Utah"
+            },
+            {
+              "display_value": "Park City",
+              "search_value": "Park+City"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:06:56",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Jesse Armstrong",
+              "search_value": "Jesse+Armstrong"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Marcel Zyskind",
+              "search_value": "Marcel+Zyskind"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Stephen H. Carter",
+              "search_value": "Stephen+H.+Carter"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Susan Lyall",
+              "search_value": "Susan+Lyall"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "William Henry",
+              "search_value": "William+Henry"
+            },
+            {
+              "display_value": "Mark Davies",
+              "search_value": "Mark+Davies"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Dan Coles",
+              "search_value": "Dan+Coles"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

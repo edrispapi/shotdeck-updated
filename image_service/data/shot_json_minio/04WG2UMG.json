@@ -1,0 +1,438 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04WG2UMG",
+    "image_file": "04WG2UMG.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Royal Hotel",
+            "search_value": "41777"
+          }
+        ]
+      },
+      "full_title": "The Royal Hotel",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2023",
+            "search_value": "2023"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "141a13",
+            "search_value": "141a13~25~1"
+          },
+          {
+            "display_value": "2d2517",
+            "search_value": "2d2517~25~1"
+          },
+          {
+            "display_value": "3d4439",
+            "search_value": "3d4439~25~1"
+          },
+          {
+            "display_value": "5c3727",
+            "search_value": "5c3727~25~1"
+          },
+          {
+            "display_value": "4c422b",
+            "search_value": "4c422b~25~1"
+          },
+          {
+            "display_value": "695e42",
+            "search_value": "695e42~25~1"
+          },
+          {
+            "display_value": "647065",
+            "search_value": "647065~25~1"
+          },
+          {
+            "display_value": "73867e",
+            "search_value": "73867e~25~1"
+          },
+          {
+            "display_value": "908560",
+            "search_value": "908560~25~1"
+          },
+          {
+            "display_value": "b1b29f",
+            "search_value": "b1b29f~25~1"
+          },
+          {
+            "display_value": "aab4a8",
+            "search_value": "aab4a8~25~1"
+          },
+          {
+            "display_value": "b9c4bc",
+            "search_value": "b9c4bc~25~1"
+          },
+          {
+            "display_value": "c1c3b6",
+            "search_value": "c1c3b6~25~1"
+          },
+          {
+            "display_value": "bfc8bf",
+            "search_value": "bfc8bf~25~1"
+          },
+          {
+            "display_value": "c8c8bc",
+            "search_value": "c8c8bc~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "speaking",
+              "search_value": "speaking"
+            },
+            {
+              "display_value": "talking",
+              "search_value": "talking"
+            },
+            {
+              "display_value": "conversation",
+              "search_value": "conversation"
+            },
+            {
+              "display_value": "smiling",
+              "search_value": "smiling"
+            },
+            {
+              "display_value": "grinning",
+              "search_value": "grinning"
+            },
+            {
+              "display_value": "happy",
+              "search_value": "happy"
+            },
+            {
+              "display_value": "laughign",
+              "search_value": "laughign"
+            },
+            {
+              "display_value": "amused",
+              "search_value": "amused"
+            },
+            {
+              "display_value": "arms crossed",
+              "search_value": "\"arms+crossed\""
+            },
+            {
+              "display_value": "hoodie",
+              "search_value": "hoodie"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Toby Wallace",
+              "search_value": "Toby+Wallace"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Bar",
+              "search_value": "Bar"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Oceania",
+              "search_value": "Oceania"
+            },
+            {
+              "display_value": "Australia",
+              "search_value": "Australia"
+            },
+            {
+              "display_value": "South Australia",
+              "search_value": "South+Australia"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Oceania",
+              "search_value": "Oceania"
+            },
+            {
+              "display_value": "Australia",
+              "search_value": "Australia"
+            },
+            {
+              "display_value": "South Australia",
+              "search_value": "South+Australia"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:29:30",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Kitty Green",
+              "search_value": "Kitty+Green"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Michael Latham",
+              "search_value": "Michael+Latham"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Leah Popple",
+              "search_value": "Leah+Popple"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Mariot Kerr",
+              "search_value": "Mariot+Kerr"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Kasra Rassoulzadegan",
+              "search_value": "Kasra+Rassoulzadegan"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Matt Fezz",
+              "search_value": "Matt+Fezz"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

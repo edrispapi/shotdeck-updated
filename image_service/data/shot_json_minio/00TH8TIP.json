@@ -1,0 +1,504 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00TH8TIP",
+    "image_file": "00TH8TIP.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1077",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "One Flew Over the Cuckoo's Nest",
+            "search_value": "1174"
+          }
+        ]
+      },
+      "full_title": "One Flew Over the Cuckoo's Nest",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1975",
+            "search_value": "1975"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0b0c0b",
+            "search_value": "0b0c0b~25~1"
+          },
+          {
+            "display_value": "250e10",
+            "search_value": "250e10~25~1"
+          },
+          {
+            "display_value": "36281e",
+            "search_value": "36281e~25~1"
+          },
+          {
+            "display_value": "5c342b",
+            "search_value": "5c342b~25~1"
+          },
+          {
+            "display_value": "4c412e",
+            "search_value": "4c412e~25~1"
+          },
+          {
+            "display_value": "635846",
+            "search_value": "635846~25~1"
+          },
+          {
+            "display_value": "7b6c71",
+            "search_value": "7b6c71~25~1"
+          },
+          {
+            "display_value": "957570",
+            "search_value": "957570~25~1"
+          },
+          {
+            "display_value": "897a7f",
+            "search_value": "897a7f~25~1"
+          },
+          {
+            "display_value": "888270",
+            "search_value": "888270~25~1"
+          },
+          {
+            "display_value": "94887e",
+            "search_value": "94887e~25~1"
+          },
+          {
+            "display_value": "a0919b",
+            "search_value": "a0919b~25~1"
+          },
+          {
+            "display_value": "a69db3",
+            "search_value": "a69db3~25~1"
+          },
+          {
+            "display_value": "c6b8cc",
+            "search_value": "c6b8cc~25~1"
+          },
+          {
+            "display_value": "cbbed2",
+            "search_value": "cbbed2~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "dissapointed look",
+              "search_value": "\"dissapointed+look\""
+            },
+            {
+              "display_value": "holding hands behind back",
+              "search_value": "\"holding+hands+behind+back\""
+            },
+            {
+              "display_value": "looking at someone off-screen",
+              "search_value": "\"looking+at+someone+off-screen\""
+            },
+            {
+              "display_value": "making eye contact",
+              "search_value": "\"making+eye+contact\""
+            },
+            {
+              "display_value": "nametag",
+              "search_value": "nametag"
+            },
+            {
+              "display_value": "nurse",
+              "search_value": "nurse"
+            },
+            {
+              "display_value": "pageboy hairstyle",
+              "search_value": "\"pageboy+hairstyle\""
+            },
+            {
+              "display_value": "pins on collar",
+              "search_value": "\"pins+on+collar\""
+            },
+            {
+              "display_value": "silent stare",
+              "search_value": "\"silent+stare\""
+            },
+            {
+              "display_value": "unamused",
+              "search_value": "unamused"
+            },
+            {
+              "display_value": "unhappy",
+              "search_value": "unhappy"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Louise Fletcher",
+              "search_value": "Louise+Fletcher"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1960s",
+              "search_value": "1960s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Mixed light",
+              "search_value": "Mixed+light"
+            },
+            {
+              "display_value": "Fluorescent",
+              "search_value": "Fluorescent"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Cameras",
+              "search_value": "Panavision+Cameras"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Lenses",
+              "search_value": "Panavision+Lenses"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5254/7254                     100T",
+              "search_value": "5254%2F7254+++++++++++++++++++++100T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Mental Asylum",
+              "search_value": "Mental+Asylum"
+            },
+            {
+              "display_value": "Hallway",
+              "search_value": "Hallway"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Oregon",
+              "search_value": "Oregon"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Oregon",
+              "search_value": "Oregon"
+            },
+            {
+              "display_value": "Salem",
+              "search_value": "Salem"
+            },
+            {
+              "display_value": "Oregon State Mental Hospital - 2600 Center Street NE",
+              "search_value": "Oregon+State+Mental+Hospital+-+2600+Center+Street+NE"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:54:47",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Prison",
+              "search_value": "Movie%2FTV+-+Prison"
+            },
+            {
+              "display_value": "Psychological",
+              "search_value": "Movie%2FTV+-+Psychological"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Miloš Forman",
+              "search_value": "Milo%C5%A1+Forman"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Haskell Wexler",
+              "search_value": "Haskell+Wexler"
+            },
+            {
+              "display_value": "Bill Butler",
+              "search_value": "Bill+Butler"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Paul Sylbert",
+              "search_value": "Paul+Sylbert"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Aggie Guerard Rodgers",
+              "search_value": "Aggie+Guerard+Rodgers"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Sheldon Kahn",
+              "search_value": "Sheldon+Kahn"
+            },
+            {
+              "display_value": "Lynzee Klingman",
+              "search_value": "Lynzee+Klingman"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

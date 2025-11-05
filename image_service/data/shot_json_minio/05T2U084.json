@@ -1,0 +1,404 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05T2U084",
+    "image_file": "05T2U084.jpg",
+    "mime": "image/jpeg",
+    "width": "3358",
+    "height": "1456",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Rose",
+            "search_value": "4330"
+          }
+        ]
+      },
+      "full_title": "Rose",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2012",
+            "search_value": "2012"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "030607",
+            "search_value": "030607~25~1"
+          },
+          {
+            "display_value": "050707",
+            "search_value": "050707~25~1"
+          },
+          {
+            "display_value": "15130f",
+            "search_value": "15130f~25~1"
+          },
+          {
+            "display_value": "494033",
+            "search_value": "494033~25~1"
+          },
+          {
+            "display_value": "69594b",
+            "search_value": "69594b~25~1"
+          },
+          {
+            "display_value": "977a6a",
+            "search_value": "977a6a~25~1"
+          },
+          {
+            "display_value": "8a7f73",
+            "search_value": "8a7f73~25~1"
+          },
+          {
+            "display_value": "ab9b8c",
+            "search_value": "ab9b8c~25~1"
+          },
+          {
+            "display_value": "cac0b1",
+            "search_value": "cac0b1~25~1"
+          },
+          {
+            "display_value": "e5ddd0",
+            "search_value": "e5ddd0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "interrogation",
+              "search_value": "interrogation"
+            },
+            {
+              "display_value": "bureaucrat",
+              "search_value": "bureaucrat"
+            },
+            {
+              "display_value": "seated",
+              "search_value": "seated"
+            },
+            {
+              "display_value": "standing behind",
+              "search_value": "\"standing+behind\""
+            },
+            {
+              "display_value": "stoic",
+              "search_value": "stoic"
+            },
+            {
+              "display_value": "tense",
+              "search_value": "tense"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Marcin Doroci?ski",
+              "search_value": "Marcin+Doroci%3Fski"
+            },
+            {
+              "display_value": "Szymon Bobrowski",
+              "search_value": "Szymon+Bobrowski"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Super 35",
+              "search_value": "Super+35"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Interrogation Room",
+              "search_value": "Interrogation+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Poland",
+              "search_value": "Poland"
+            },
+            {
+              "display_value": "Masuria",
+              "search_value": "Masuria"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Poland",
+              "search_value": "Poland"
+            },
+            {
+              "display_value": "Warminsko-Mazurskie",
+              "search_value": "Warminsko-Mazurskie"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            },
+            {
+              "display_value": "War",
+              "search_value": "Movie%2FTV+-+War"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Wojciech Smarzowski",
+              "search_value": "Wojciech+Smarzowski"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Piotr Sobocinski Jr.",
+              "search_value": "Piotr+Sobocinski+Jr."
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Marek Zawierucha",
+              "search_value": "Marek+Zawierucha"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Ewa Helman-Szczerbic",
+              "search_value": "Ewa+Helman-Szczerbic"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Pawel Laskowski",
+              "search_value": "Pawel+Laskowski"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

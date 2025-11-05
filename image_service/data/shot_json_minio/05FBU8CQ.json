@@ -1,0 +1,550 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05FBU8CQ",
+    "image_file": "05FBU8CQ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Andor",
+            "search_value": "23110",
+            "season": "1",
+            "episode": "3"
+          }
+        ]
+      },
+      "full_title": "Andor - Season 1 - Episode 3",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0a0c0b",
+            "search_value": "0a0c0b~25~1"
+          },
+          {
+            "display_value": "0f0c0e",
+            "search_value": "0f0c0e~25~1"
+          },
+          {
+            "display_value": "151517",
+            "search_value": "151517~25~1"
+          },
+          {
+            "display_value": "211913",
+            "search_value": "211913~25~1"
+          },
+          {
+            "display_value": "513732",
+            "search_value": "513732~25~1"
+          },
+          {
+            "display_value": "433d40",
+            "search_value": "433d40~25~1"
+          },
+          {
+            "display_value": "503f2a",
+            "search_value": "503f2a~25~1"
+          },
+          {
+            "display_value": "645142",
+            "search_value": "645142~25~1"
+          },
+          {
+            "display_value": "5e5a5d",
+            "search_value": "5e5a5d~25~1"
+          },
+          {
+            "display_value": "605f65",
+            "search_value": "605f65~25~1"
+          },
+          {
+            "display_value": "7d7e84",
+            "search_value": "7d7e84~25~1"
+          },
+          {
+            "display_value": "937772",
+            "search_value": "937772~25~1"
+          },
+          {
+            "display_value": "868486",
+            "search_value": "868486~25~1"
+          },
+          {
+            "display_value": "97827e",
+            "search_value": "97827e~25~1"
+          },
+          {
+            "display_value": "8d8f98",
+            "search_value": "8d8f98~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "scruffy",
+              "search_value": "scruffy"
+            },
+            {
+              "display_value": "vigilante",
+              "search_value": "vigilante"
+            },
+            {
+              "display_value": "criminal",
+              "search_value": "criminal"
+            },
+            {
+              "display_value": "fugitive",
+              "search_value": "fugitive"
+            },
+            {
+              "display_value": "short beard",
+              "search_value": "\"short+beard\""
+            },
+            {
+              "display_value": "warehouse",
+              "search_value": "warehouse"
+            },
+            {
+              "display_value": "old factory",
+              "search_value": "\"old+factory\""
+            },
+            {
+              "display_value": "window light",
+              "search_value": "\"window+light\""
+            },
+            {
+              "display_value": "old building",
+              "search_value": "\"old+building\""
+            },
+            {
+              "display_value": "old machines",
+              "search_value": "\"old+machines\""
+            },
+            {
+              "display_value": "chains",
+              "search_value": "chains"
+            },
+            {
+              "display_value": "secret meeting",
+              "search_value": "\"secret+meeting\""
+            },
+            {
+              "display_value": "making deal",
+              "search_value": "\"making+deal\""
+            },
+            {
+              "display_value": "dealer",
+              "search_value": "dealer"
+            },
+            {
+              "display_value": "discussing",
+              "search_value": "discussing"
+            },
+            {
+              "display_value": "argument",
+              "search_value": "argument"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Diego Luna",
+              "search_value": "Diego+Luna"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital, Digital - Large Format",
+              "search_value": "Digital%2C+Digital+-+Large+Format"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            },
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA LF",
+              "search_value": "ARRI+ALEXA+LF"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision H series",
+              "search_value": "Panavision+H+series"
+            },
+            {
+              "display_value": "Panavision Ultra Vista",
+              "search_value": "Panavision+Ultra+Vista"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "Sony X-OCN XT/ST/LT (6k)",
+              "search_value": "Sony+X-OCN+XT%2FST%2FLT+%286k%29"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Abandoned Factory",
+              "search_value": "Abandoned+Factory"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Ferrix",
+              "search_value": "Ferrix"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:17:09",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Political",
+              "search_value": "Movie%2FTV+-+Political"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Space",
+              "search_value": "Movie%2FTV+-+Space"
+            },
+            {
+              "display_value": "Spy",
+              "search_value": "Movie%2FTV+-+Spy"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "War",
+              "search_value": "Movie%2FTV+-+War"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Toby Haynes",
+              "search_value": "Toby+Haynes"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Adriano Goldman",
+              "search_value": "Adriano+Goldman"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Luke Hull",
+              "search_value": "Luke+Hull"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Michael Wilkinson",
+              "search_value": "Michael+Wilkinson"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "John Gilroy",
+              "search_value": "John+Gilroy"
+            },
+            {
+              "display_value": "Tim Porter",
+              "search_value": "Tim+Porter"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Jean-Clement Soret",
+              "search_value": "Jean-Clement+Soret"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "036875H8",
+    "image_file": "036875H8.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Dark Knight Rises",
+            "search_value": "122"
+          }
+        ]
+      },
+      "full_title": "The Dark Knight Rises",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2012",
+            "search_value": "2012"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "070604",
+            "search_value": "070604~25~1"
+          },
+          {
+            "display_value": "0d0e0d",
+            "search_value": "0d0e0d~25~1"
+          },
+          {
+            "display_value": "202023",
+            "search_value": "202023~25~1"
+          },
+          {
+            "display_value": "2e2c2e",
+            "search_value": "2e2c2e~25~1"
+          },
+          {
+            "display_value": "3f3e44",
+            "search_value": "3f3e44~25~1"
+          },
+          {
+            "display_value": "423e41",
+            "search_value": "423e41~25~1"
+          },
+          {
+            "display_value": "555359",
+            "search_value": "555359~25~1"
+          },
+          {
+            "display_value": "5d595c",
+            "search_value": "5d595c~25~1"
+          },
+          {
+            "display_value": "695f59",
+            "search_value": "695f59~25~1"
+          },
+          {
+            "display_value": "86868a",
+            "search_value": "86868a~25~1"
+          },
+          {
+            "display_value": "a8814a",
+            "search_value": "a8814a~25~1"
+          },
+          {
+            "display_value": "8c888b",
+            "search_value": "8c888b~25~1"
+          },
+          {
+            "display_value": "9c9288",
+            "search_value": "9c9288~25~1"
+          },
+          {
+            "display_value": "e0c38c",
+            "search_value": "e0c38c~25~1"
+          },
+          {
+            "display_value": "e6d7ba",
+            "search_value": "e6d7ba~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "explosion",
+              "search_value": "explosion"
+            },
+            {
+              "display_value": "black smoke",
+              "search_value": "\"black+smoke\""
+            },
+            {
+              "display_value": "trapped",
+              "search_value": "trapped"
+            },
+            {
+              "display_value": "tunnel",
+              "search_value": "tunnel"
+            },
+            {
+              "display_value": "concrete floor",
+              "search_value": "\"concrete+floor\""
+            },
+            {
+              "display_value": "debris",
+              "search_value": "debris"
+            },
+            {
+              "display_value": "police officers",
+              "search_value": "\"police+officers\""
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            },
+            {
+              "display_value": "Firelight",
+              "search_value": "Firelight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "IMAX-MSM 9802",
+              "search_value": "IMAX-MSM+9802"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "IMAX MK-II Hasselblad Lenses",
+              "search_value": "IMAX+MK-II+Hasselblad+Lenses"
+            },
+            {
+              "display_value": "Mamiya Large Format Lenses",
+              "search_value": "Mamiya+Large+Format+Lenses"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5207/7207\tVision 3\t250D",
+              "search_value": "5207%2F7207%09Vision+3%09250D"
+            },
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Underground Tunnel",
+              "search_value": "Underground+Tunnel"
+            },
+            {
+              "display_value": "Train Tracks",
+              "search_value": "Train+Tracks"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Gotham City",
+              "search_value": "Gotham+City"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Pennsylvania",
+              "search_value": "Pennsylvania"
+            },
+            {
+              "display_value": "Pittsburgh",
+              "search_value": "Pittsburgh"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:23:44",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Christopher Nolan",
+              "search_value": "Christopher+Nolan"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Wally Pfister",
+              "search_value": "Wally+Pfister"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Nathan Crowley",
+              "search_value": "Nathan+Crowley"
+            },
+            {
+              "display_value": "Kevin Kavanaugh",
+              "search_value": "Kevin+Kavanaugh"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Lindy Hemming",
+              "search_value": "Lindy+Hemming"
+            },
+            {
+              "display_value": "Roberto Craciunica",
+              "search_value": "Roberto+Craciunica"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Lee Smith",
+              "search_value": "Lee+Smith"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "David Orr",
+              "search_value": "David+Orr"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

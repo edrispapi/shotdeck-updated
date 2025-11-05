@@ -1,0 +1,520 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "0596XY9R",
+    "image_file": "0596XY9R.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "790",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Lara Croft: Tomb Raider",
+            "search_value": "24372"
+          }
+        ]
+      },
+      "full_title": "Lara Croft: Tomb Raider",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2001",
+            "search_value": "2001"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "020204",
+            "search_value": "020204~25~1"
+          },
+          {
+            "display_value": "171214",
+            "search_value": "171214~25~1"
+          },
+          {
+            "display_value": "291f1a",
+            "search_value": "291f1a~25~1"
+          },
+          {
+            "display_value": "483c38",
+            "search_value": "483c38~25~1"
+          },
+          {
+            "display_value": "635854",
+            "search_value": "635854~25~1"
+          },
+          {
+            "display_value": "6c6466",
+            "search_value": "6c6466~25~1"
+          },
+          {
+            "display_value": "877b7d",
+            "search_value": "877b7d~25~1"
+          },
+          {
+            "display_value": "8a7b78",
+            "search_value": "8a7b78~25~1"
+          },
+          {
+            "display_value": "9d8983",
+            "search_value": "9d8983~25~1"
+          },
+          {
+            "display_value": "a3959b",
+            "search_value": "a3959b~25~1"
+          },
+          {
+            "display_value": "c0b9d1",
+            "search_value": "c0b9d1~25~1"
+          },
+          {
+            "display_value": "c7bac8",
+            "search_value": "c7bac8~25~1"
+          },
+          {
+            "display_value": "dcd8ea",
+            "search_value": "dcd8ea~25~1"
+          },
+          {
+            "display_value": "e0d8e2",
+            "search_value": "e0d8e2~25~1"
+          },
+          {
+            "display_value": "f6ece7",
+            "search_value": "f6ece7~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "wealthy",
+              "search_value": "wealthy"
+            },
+            {
+              "display_value": "mansion",
+              "search_value": "mansion"
+            },
+            {
+              "display_value": "rich",
+              "search_value": "rich"
+            },
+            {
+              "display_value": "grand staircase",
+              "search_value": "\"grand+staircase\""
+            },
+            {
+              "display_value": "butler",
+              "search_value": "butler"
+            },
+            {
+              "display_value": "following",
+              "search_value": "following"
+            },
+            {
+              "display_value": "servant",
+              "search_value": "servant"
+            },
+            {
+              "display_value": "armchairs",
+              "search_value": "armchairs"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Silhouette",
+              "search_value": "Silhouette"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Millennium / Millenium XL / XL2",
+              "search_value": "Panavision+Millennium+%2F+Millenium+XL+%2F+XL2"
+            },
+            {
+              "display_value": "Panavision Panaflex Platinum",
+              "search_value": "Panavision+Panaflex+Platinum"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Primes",
+              "search_value": "Panavision+Primo+Primes"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5248/7248\tEXR\t\t100T",
+              "search_value": "5248%2F7248%09EXR%09%09100T"
+            },
+            {
+              "display_value": "5279/7279\tVision\t500T",
+              "search_value": "5279%2F7279%09Vision%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Manor",
+              "search_value": "Manor"
+            },
+            {
+              "display_value": "Foyer",
+              "search_value": "Foyer"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "Croft Manor",
+              "search_value": "Croft+Manor"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "Buckinghamshire",
+              "search_value": "Buckinghamshire"
+            },
+            {
+              "display_value": "Iver Heath",
+              "search_value": "Iver+Heath"
+            },
+            {
+              "display_value": "Albert R. Broccoli 007 Stage, Pinewood Studios",
+              "search_value": "Albert+R.+Broccoli+007+Stage%2C+Pinewood+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:06:14",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "Video Game Adaptation",
+              "search_value": "Movie%2FTV+-+Video+Game+Adaptation"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Simon West",
+              "search_value": "Simon+West"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Peter Menzies Jr.",
+              "search_value": "Peter+Menzies+Jr."
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Kirk M. Petruccelli",
+              "search_value": "Kirk+M.+Petruccelli"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Lindy Hemming",
+              "search_value": "Lindy+Hemming"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Glen Scantlebury",
+              "search_value": "Glen+Scantlebury"
+            },
+            {
+              "display_value": "Eric Strand",
+              "search_value": "Eric+Strand"
+            },
+            {
+              "display_value": "Mark Warner",
+              "search_value": "Mark+Warner"
+            },
+            {
+              "display_value": "Dallas Puett",
+              "search_value": "Dallas+Puett"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Jim Passon",
+              "search_value": "Jim+Passon"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

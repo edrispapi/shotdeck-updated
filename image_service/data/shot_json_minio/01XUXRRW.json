@@ -1,0 +1,402 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01XUXRRW",
+    "image_file": "01XUXRRW.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "816",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Arcane",
+            "search_value": "5308",
+            "season": "1",
+            "episode": "2"
+          }
+        ]
+      },
+      "full_title": "Arcane - Season 1 - Episode 2",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2021",
+            "search_value": "2021"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "201e19",
+            "search_value": "201e19~25~1"
+          },
+          {
+            "display_value": "1e232b",
+            "search_value": "1e232b~25~1"
+          },
+          {
+            "display_value": "202620",
+            "search_value": "202620~25~1"
+          },
+          {
+            "display_value": "282527",
+            "search_value": "282527~25~1"
+          },
+          {
+            "display_value": "303a52",
+            "search_value": "303a52~25~1"
+          },
+          {
+            "display_value": "38443a",
+            "search_value": "38443a~25~1"
+          },
+          {
+            "display_value": "4d3d33",
+            "search_value": "4d3d33~25~1"
+          },
+          {
+            "display_value": "494231",
+            "search_value": "494231~25~1"
+          },
+          {
+            "display_value": "454951",
+            "search_value": "454951~25~1"
+          },
+          {
+            "display_value": "4b484a",
+            "search_value": "4b484a~25~1"
+          },
+          {
+            "display_value": "414d41",
+            "search_value": "414d41~25~1"
+          },
+          {
+            "display_value": "5f543f",
+            "search_value": "5f543f~25~1"
+          },
+          {
+            "display_value": "8e855e",
+            "search_value": "8e855e~25~1"
+          },
+          {
+            "display_value": "7e8b7d",
+            "search_value": "7e8b7d~25~1"
+          },
+          {
+            "display_value": "949475",
+            "search_value": "949475~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "animation",
+              "search_value": "animation"
+            },
+            {
+              "display_value": "armor",
+              "search_value": "armor"
+            },
+            {
+              "display_value": "gear",
+              "search_value": "gear"
+            },
+            {
+              "display_value": "guard",
+              "search_value": "guard"
+            },
+            {
+              "display_value": "league of legends",
+              "search_value": "\"league+of+legends\""
+            },
+            {
+              "display_value": "police",
+              "search_value": "police"
+            },
+            {
+              "display_value": "riot games",
+              "search_value": "\"riot+games\""
+            },
+            {
+              "display_value": "soldier",
+              "search_value": "soldier"
+            },
+            {
+              "display_value": "uniform",
+              "search_value": "uniform"
+            },
+            {
+              "display_value": "video game",
+              "search_value": "\"video+game\""
+            },
+            {
+              "display_value": "officer",
+              "search_value": "officer"
+            },
+            {
+              "display_value": "captain",
+              "search_value": "captain"
+            },
+            {
+              "display_value": "sargeant",
+              "search_value": "sargeant"
+            },
+            {
+              "display_value": "lieutenant",
+              "search_value": "lieutenant"
+            },
+            {
+              "display_value": "leader",
+              "search_value": "leader"
+            },
+            {
+              "display_value": "commander",
+              "search_value": "commander"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1800s",
+              "search_value": "1800s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Animation"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            },
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Council Room",
+              "search_value": "Council+Room"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:24:29",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Superhero",
+              "search_value": "Movie%2FTV+-+Superhero"
+            },
+            {
+              "display_value": "Video Game Adaptation",
+              "search_value": "Movie%2FTV+-+Video+Game+Adaptation"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Arnaud Delord",
+              "search_value": "Arnaud+Delord"
+            },
+            {
+              "display_value": "Pascal Charrue",
+              "search_value": "Pascal+Charrue"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Kevin Aymeric",
+              "search_value": "Kevin+Aymeric"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Dion Demetries",
+              "search_value": "Dion+Demetries"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Lawrence Gan",
+              "search_value": "Lawrence+Gan"
+            },
+            {
+              "display_value": "Ernesto Matamoros-Cox",
+              "search_value": "Ernesto+Matamoros-Cox"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Nicolas Guibert",
+              "search_value": "Nicolas+Guibert"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

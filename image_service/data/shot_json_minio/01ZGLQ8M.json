@@ -1,0 +1,456 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01ZGLQ8M",
+    "image_file": "01ZGLQ8M.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Dune: Part Two",
+            "search_value": "14592"
+          }
+        ]
+      },
+      "full_title": "Dune: Part Two",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2024",
+            "search_value": "2024"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1a1819",
+            "search_value": "1a1819~25~1"
+          },
+          {
+            "display_value": "242624",
+            "search_value": "242624~25~1"
+          },
+          {
+            "display_value": "2e2922",
+            "search_value": "2e2922~25~1"
+          },
+          {
+            "display_value": "484034",
+            "search_value": "484034~25~1"
+          },
+          {
+            "display_value": "565b54",
+            "search_value": "565b54~25~1"
+          },
+          {
+            "display_value": "7a7166",
+            "search_value": "7a7166~25~1"
+          },
+          {
+            "display_value": "8b7f72",
+            "search_value": "8b7f72~25~1"
+          },
+          {
+            "display_value": "ada08b",
+            "search_value": "ada08b~25~1"
+          },
+          {
+            "display_value": "a9aea6",
+            "search_value": "a9aea6~25~1"
+          },
+          {
+            "display_value": "bcc4b8",
+            "search_value": "bcc4b8~25~1"
+          },
+          {
+            "display_value": "c2c3b7",
+            "search_value": "c2c3b7~25~1"
+          },
+          {
+            "display_value": "cad0c6",
+            "search_value": "cad0c6~25~1"
+          },
+          {
+            "display_value": "d4d6cc",
+            "search_value": "d4d6cc~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "desert",
+              "search_value": "desert"
+            },
+            {
+              "display_value": "sand",
+              "search_value": "sand"
+            },
+            {
+              "display_value": "sand dunes",
+              "search_value": "\"sand+dunes\""
+            },
+            {
+              "display_value": "weapon",
+              "search_value": "weapon"
+            },
+            {
+              "display_value": "holding weapon",
+              "search_value": "\"holding+weapon\""
+            },
+            {
+              "display_value": "head covering",
+              "search_value": "\"head+covering\""
+            },
+            {
+              "display_value": "scarf around neck",
+              "search_value": "\"scarf+around+neck\""
+            },
+            {
+              "display_value": "stillsuit",
+              "search_value": "stillsuit"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital, Digital - Large Format",
+              "search_value": "Digital%2C+Digital+-+Large+Format"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Telephoto",
+              "search_value": "Telephoto"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA 65",
+              "search_value": "ARRI+ALEXA+65"
+            },
+            {
+              "display_value": "ARRI ALEXA Mini LF",
+              "search_value": "ARRI+ALEXA+Mini+LF"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "IronGlass VLFV MKII",
+              "search_value": "IronGlass+VLFV+MKII"
+            },
+            {
+              "display_value": "Arri Moviecam",
+              "search_value": "Arri+Moviecam"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Desert",
+              "search_value": "Desert"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Arrakis",
+              "search_value": "Arrakis"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "United Arab Emirates",
+              "search_value": "United+Arab+Emirates"
+            },
+            {
+              "display_value": "Abu Dhabi",
+              "search_value": "Abu+Dhabi"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:52:05",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Denis Villeneuve",
+              "search_value": "Denis+Villeneuve"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Greig Fraser",
+              "search_value": "Greig+Fraser"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Patrice Vermette",
+              "search_value": "Patrice+Vermette"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jacqueline West",
+              "search_value": "Jacqueline+West"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Joe Walker",
+              "search_value": "Joe+Walker"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "David Cole",
+              "search_value": "David+Cole"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,488 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02U14T5R",
+    "image_file": "02U14T5R.jpg",
+    "mime": "image/jpeg",
+    "width": "1915",
+    "height": "803",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Die Another Day",
+            "search_value": "552"
+          }
+        ]
+      },
+      "full_title": "Die Another Day",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2002",
+            "search_value": "2002"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "49271e",
+            "search_value": "49271e~25~1"
+          },
+          {
+            "display_value": "5b3129",
+            "search_value": "5b3129~25~1"
+          },
+          {
+            "display_value": "635654",
+            "search_value": "635654~25~1"
+          },
+          {
+            "display_value": "696066",
+            "search_value": "696066~25~1"
+          },
+          {
+            "display_value": "6c6c80",
+            "search_value": "6c6c80~25~1"
+          },
+          {
+            "display_value": "767997",
+            "search_value": "767997~25~1"
+          },
+          {
+            "display_value": "867a88",
+            "search_value": "867a88~25~1"
+          },
+          {
+            "display_value": "878ab0",
+            "search_value": "878ab0~25~1"
+          },
+          {
+            "display_value": "aa9baa",
+            "search_value": "aa9baa~25~1"
+          },
+          {
+            "display_value": "b6b5d8",
+            "search_value": "b6b5d8~25~1"
+          },
+          {
+            "display_value": "c8b8c8",
+            "search_value": "c8b8c8~25~1"
+          },
+          {
+            "display_value": "dddbed",
+            "search_value": "dddbed~25~1"
+          },
+          {
+            "display_value": "e6dde5",
+            "search_value": "e6dde5~25~1"
+          },
+          {
+            "display_value": "faf7f6",
+            "search_value": "faf7f6~25~1"
+          },
+          {
+            "display_value": "fcfdfc",
+            "search_value": "fcfdfc~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "bikini",
+              "search_value": "bikini"
+            },
+            {
+              "display_value": "james bond",
+              "search_value": "\"james+bond\""
+            },
+            {
+              "display_value": "posing",
+              "search_value": "posing"
+            },
+            {
+              "display_value": "seductive",
+              "search_value": "seductive"
+            },
+            {
+              "display_value": "sexy",
+              "search_value": "sexy"
+            },
+            {
+              "display_value": "stylish",
+              "search_value": "stylish"
+            },
+            {
+              "display_value": "sunny",
+              "search_value": "sunny"
+            },
+            {
+              "display_value": "sunny day",
+              "search_value": "\"sunny+day\""
+            },
+            {
+              "display_value": "swimming in ocean",
+              "search_value": "\"swimming+in+ocean\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Halle Berry",
+              "search_value": "Halle+Berry"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Millennium / Millenium XL / XL2",
+              "search_value": "Panavision+Millennium+%2F+Millenium+XL+%2F+XL2"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision E series",
+              "search_value": "Panavision+E+series"
+            },
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision 70-200mm (ATZ)",
+              "search_value": "Panavision+70-200mm+%28ATZ%29"
+            },
+            {
+              "display_value": "Panavision 40-80 (Bailey zoom - AWZ2)",
+              "search_value": "Panavision+40-80+%28Bailey+zoom+-+AWZ2%29"
+            },
+            {
+              "display_value": "Panavision 70-200mm (ATZ)",
+              "search_value": "Panavision+70-200mm+%28ATZ%29"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Ocean",
+              "search_value": "Ocean"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Cuba",
+              "search_value": "Cuba"
+            },
+            {
+              "display_value": "Havana",
+              "search_value": "Havana"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:36:12",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Lee Tamahori",
+              "search_value": "Lee+Tamahori"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "David Tattersall",
+              "search_value": "David+Tattersall"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Peter Lamont",
+              "search_value": "Peter+Lamont"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Lindy Hemming",
+              "search_value": "Lindy+Hemming"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Andrew MacRitchie",
+              "search_value": "Andrew+MacRitchie"
+            },
+            {
+              "display_value": "Christian Wagner",
+              "search_value": "Christian+Wagner"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

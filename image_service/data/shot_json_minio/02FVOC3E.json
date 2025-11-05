@@ -1,0 +1,354 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02FVOC3E",
+    "image_file": "02FVOC3E.jpg",
+    "mime": "image/jpeg",
+    "width": "1452",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Pinocchio",
+            "search_value": "1328"
+          }
+        ]
+      },
+      "full_title": "Pinocchio",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1940",
+            "search_value": "1940"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "030302",
+            "search_value": "030302~25~1"
+          },
+          {
+            "display_value": "060b09",
+            "search_value": "060b09~25~1"
+          },
+          {
+            "display_value": "0d2139",
+            "search_value": "0d2139~25~1"
+          },
+          {
+            "display_value": "40284a",
+            "search_value": "40284a~25~1"
+          },
+          {
+            "display_value": "492c55",
+            "search_value": "492c55~25~1"
+          },
+          {
+            "display_value": "163973",
+            "search_value": "163973~25~1"
+          },
+          {
+            "display_value": "494341",
+            "search_value": "494341~25~1"
+          },
+          {
+            "display_value": "574e56",
+            "search_value": "574e56~25~1"
+          },
+          {
+            "display_value": "3e5d7b",
+            "search_value": "3e5d7b~25~1"
+          },
+          {
+            "display_value": "496f6e",
+            "search_value": "496f6e~25~1"
+          },
+          {
+            "display_value": "707d94",
+            "search_value": "707d94~25~1"
+          },
+          {
+            "display_value": "639096",
+            "search_value": "639096~25~1"
+          },
+          {
+            "display_value": "6c969c",
+            "search_value": "6c969c~25~1"
+          },
+          {
+            "display_value": "6b9998",
+            "search_value": "6b9998~25~1"
+          },
+          {
+            "display_value": "a293a5",
+            "search_value": "a293a5~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "checkered bedspread",
+              "search_value": "\"checkered+bedspread\""
+            },
+            {
+              "display_value": "kneeling",
+              "search_value": "kneeling"
+            },
+            {
+              "display_value": "making a wish",
+              "search_value": "\"making+a+wish\""
+            },
+            {
+              "display_value": "sleepy",
+              "search_value": "sleepy"
+            },
+            {
+              "display_value": "night gown",
+              "search_value": "\"night+gown\""
+            },
+            {
+              "display_value": "looking out the window",
+              "search_value": "\"looking+out+the+window\""
+            },
+            {
+              "display_value": "star",
+              "search_value": "star"
+            },
+            {
+              "display_value": "kitten",
+              "search_value": "kitten"
+            },
+            {
+              "display_value": "cat",
+              "search_value": "cat"
+            },
+            {
+              "display_value": "technicolor",
+              "search_value": "technicolor"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Christian Rub",
+              "search_value": "Christian+Rub"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1800s",
+              "search_value": "1800s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            },
+            {
+              "display_value": "Purple",
+              "search_value": "Purple"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Moonlight",
+              "search_value": "Moonlight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.33",
+              "search_value": "1.33"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Toy Workshop",
+              "search_value": "Toy+Workshop"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:13:18",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Hamilton Luske",
+              "search_value": "Hamilton+Luske"
+            },
+            {
+              "display_value": "Ben Sharpsteen",
+              "search_value": "Ben+Sharpsteen"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

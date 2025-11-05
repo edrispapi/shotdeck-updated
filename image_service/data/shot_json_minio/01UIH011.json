@@ -1,0 +1,500 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01UIH011",
+    "image_file": "01UIH011.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "799",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Kitchen",
+            "search_value": "49047"
+          }
+        ]
+      },
+      "full_title": "The Kitchen",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2019",
+            "search_value": "2019"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d100f",
+            "search_value": "0d100f~25~1"
+          },
+          {
+            "display_value": "1d1109",
+            "search_value": "1d1109~25~1"
+          },
+          {
+            "display_value": "2c060b",
+            "search_value": "2c060b~25~1"
+          },
+          {
+            "display_value": "162026",
+            "search_value": "162026~25~1"
+          },
+          {
+            "display_value": "3c423b",
+            "search_value": "3c423b~25~1"
+          },
+          {
+            "display_value": "5b3628",
+            "search_value": "5b3628~25~1"
+          },
+          {
+            "display_value": "34444d",
+            "search_value": "34444d~25~1"
+          },
+          {
+            "display_value": "514029",
+            "search_value": "514029~25~1"
+          },
+          {
+            "display_value": "674d37",
+            "search_value": "674d37~25~1"
+          },
+          {
+            "display_value": "515b53",
+            "search_value": "515b53~25~1"
+          },
+          {
+            "display_value": "788776",
+            "search_value": "788776~25~1"
+          },
+          {
+            "display_value": "8f8566",
+            "search_value": "8f8566~25~1"
+          },
+          {
+            "display_value": "aa9f79",
+            "search_value": "aa9f79~25~1"
+          },
+          {
+            "display_value": "c5c7af",
+            "search_value": "c5c7af~25~1"
+          },
+          {
+            "display_value": "c9cdb8",
+            "search_value": "c9cdb8~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "feet up on desk",
+              "search_value": "\"feet+up+on+desk\""
+            },
+            {
+              "display_value": "sitting at desk",
+              "search_value": "\"sitting+at+desk\""
+            },
+            {
+              "display_value": "not happy",
+              "search_value": "\"not+happy\""
+            },
+            {
+              "display_value": "couldn’t care less",
+              "search_value": "\"couldn%E2%80%99t+care+less\""
+            },
+            {
+              "display_value": "looking away",
+              "search_value": "\"looking+away\""
+            },
+            {
+              "display_value": "ignoring someone",
+              "search_value": "\"ignoring+someone\""
+            },
+            {
+              "display_value": "drinking whisky",
+              "search_value": "\"drinking+whisky\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "James Badge Dale",
+              "search_value": "James+Badge+Dale"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            },
+            {
+              "display_value": "ARRI ALEXA XT / XTplus",
+              "search_value": "ARRI+ALEXA+XT+%2F+XTplus"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke S4/ i",
+              "search_value": "Cooke+S4%2F+i"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2.8K / 2.8K ArriRaw",
+              "search_value": "2.8K+%2F+2.8K+ArriRaw"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Irish Pub",
+              "search_value": "Irish+Pub"
+            },
+            {
+              "display_value": "Back Room",
+              "search_value": "Back+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "USA",
+              "search_value": "USA"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "Hell’s Kitchen",
+              "search_value": "Hell%E2%80%99s+Kitchen"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "USA",
+              "search_value": "USA"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:05:50",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Andrea Berloff",
+              "search_value": "Andrea+Berloff"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Maryse Alberti",
+              "search_value": "Maryse+Alberti"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Shane Valentino",
+              "search_value": "Shane+Valentino"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Sarah Edwards",
+              "search_value": "Sarah+Edwards"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Christopher Tellefsen",
+              "search_value": "Christopher+Tellefsen"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Tim Stipan",
+              "search_value": "Tim+Stipan"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

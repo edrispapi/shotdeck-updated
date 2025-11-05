@@ -1,0 +1,458 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "0378ES8T",
+    "image_file": "0378ES8T.jpg",
+    "mime": "image/jpeg",
+    "width": "1232",
+    "height": "820",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Return",
+            "search_value": "2835"
+          }
+        ]
+      },
+      "full_title": "The Return",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2003",
+            "search_value": "2003"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "080c0b",
+            "search_value": "080c0b~25~1"
+          },
+          {
+            "display_value": "091012",
+            "search_value": "091012~25~1"
+          },
+          {
+            "display_value": "3a4046",
+            "search_value": "3a4046~25~1"
+          },
+          {
+            "display_value": "3c4141",
+            "search_value": "3c4141~25~1"
+          },
+          {
+            "display_value": "3a4244",
+            "search_value": "3a4244~25~1"
+          },
+          {
+            "display_value": "5d6161",
+            "search_value": "5d6161~25~1"
+          },
+          {
+            "display_value": "5d6165",
+            "search_value": "5d6165~25~1"
+          },
+          {
+            "display_value": "727371",
+            "search_value": "727371~25~1"
+          },
+          {
+            "display_value": "7e7e83",
+            "search_value": "7e7e83~25~1"
+          },
+          {
+            "display_value": "8c8c8f",
+            "search_value": "8c8c8f~25~1"
+          },
+          {
+            "display_value": "999799",
+            "search_value": "999799~25~1"
+          },
+          {
+            "display_value": "979a98",
+            "search_value": "979a98~25~1"
+          },
+          {
+            "display_value": "b0afac",
+            "search_value": "b0afac~25~1"
+          },
+          {
+            "display_value": "c2c0bb",
+            "search_value": "c2c0bb~25~1"
+          },
+          {
+            "display_value": "cbc9c2",
+            "search_value": "cbc9c2~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "black and white picture",
+              "search_value": "\"black+and+white+picture\""
+            },
+            {
+              "display_value": "memory",
+              "search_value": "memory"
+            },
+            {
+              "display_value": "family photo",
+              "search_value": "\"family+photo\""
+            },
+            {
+              "display_value": "film camera",
+              "search_value": "\"film+camera\""
+            },
+            {
+              "display_value": "laying in backseat",
+              "search_value": "\"laying+in+backseat\""
+            },
+            {
+              "display_value": "tired look",
+              "search_value": "\"tired+look\""
+            },
+            {
+              "display_value": "sleeping",
+              "search_value": "sleeping"
+            },
+            {
+              "display_value": "passed out",
+              "search_value": "\"passed+out\""
+            },
+            {
+              "display_value": "window light",
+              "search_value": "\"window+light\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Ivan Dobronravov",
+              "search_value": "Ivan+Dobronravov"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.43",
+              "search_value": "1.43"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex",
+              "search_value": "Arriflex"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5248/7248\tEXR\t\t100T",
+              "search_value": "5248%2F7248%09EXR%09%09100T"
+            },
+            {
+              "display_value": "5277/7277\tVision\t320T",
+              "search_value": "5277%2F7277%09Vision%09320T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Car",
+              "search_value": "Car"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Russia",
+              "search_value": "Russia"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Russia",
+              "search_value": "Russia"
+            },
+            {
+              "display_value": "Leningradskaya oblast",
+              "search_value": "Leningradskaya+oblast"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Andrey Zvyagintsev",
+              "search_value": "Andrey+Zvyagintsev"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Mikhail Krichman",
+              "search_value": "Mikhail+Krichman"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Zhanna Pakhomova",
+              "search_value": "Zhanna+Pakhomova"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Anna Bartuli",
+              "search_value": "Anna+Bartuli"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Vladimir Mogilevsky",
+              "search_value": "Vladimir+Mogilevsky"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Ivan Maslennikov",
+              "search_value": "Ivan+Maslennikov"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

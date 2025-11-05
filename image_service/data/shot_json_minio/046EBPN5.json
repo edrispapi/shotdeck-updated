@@ -1,0 +1,470 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "046EBPN5",
+    "image_file": "046EBPN5.png",
+    "mime": "image/png",
+    "width": "1916",
+    "height": "870",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Leopard",
+            "search_value": "2757"
+          }
+        ]
+      },
+      "full_title": "The Leopard",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1963",
+            "search_value": "1963"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0b0d0b",
+            "search_value": "0b0d0b~25~1"
+          },
+          {
+            "display_value": "2d1c13",
+            "search_value": "2d1c13~25~1"
+          },
+          {
+            "display_value": "302123",
+            "search_value": "302123~25~1"
+          },
+          {
+            "display_value": "2b2735",
+            "search_value": "2b2735~25~1"
+          },
+          {
+            "display_value": "3f3a49",
+            "search_value": "3f3a49~25~1"
+          },
+          {
+            "display_value": "5b3237",
+            "search_value": "5b3237~25~1"
+          },
+          {
+            "display_value": "672e24",
+            "search_value": "672e24~25~1"
+          },
+          {
+            "display_value": "583f22",
+            "search_value": "583f22~25~1"
+          },
+          {
+            "display_value": "494451",
+            "search_value": "494451~25~1"
+          },
+          {
+            "display_value": "584b51",
+            "search_value": "584b51~25~1"
+          },
+          {
+            "display_value": "71553d",
+            "search_value": "71553d~25~1"
+          },
+          {
+            "display_value": "9e7863",
+            "search_value": "9e7863~25~1"
+          },
+          {
+            "display_value": "9d8254",
+            "search_value": "9d8254~25~1"
+          },
+          {
+            "display_value": "ab8b6c",
+            "search_value": "ab8b6c~25~1"
+          },
+          {
+            "display_value": "dfc9b1",
+            "search_value": "dfc9b1~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "brocade furniture",
+              "search_value": "\"brocade+furniture\""
+            },
+            {
+              "display_value": "comforting",
+              "search_value": "comforting"
+            },
+            {
+              "display_value": "consoling",
+              "search_value": "consoling"
+            },
+            {
+              "display_value": "crying",
+              "search_value": "crying"
+            },
+            {
+              "display_value": "floral arrangements",
+              "search_value": "\"floral+arrangements\""
+            },
+            {
+              "display_value": "flowers",
+              "search_value": "flowers"
+            },
+            {
+              "display_value": "gold framed paintings",
+              "search_value": "\"gold+framed+paintings\""
+            },
+            {
+              "display_value": "green curtains",
+              "search_value": "\"green+curtains\""
+            },
+            {
+              "display_value": "pink sofa",
+              "search_value": "\"pink+sofa\""
+            },
+            {
+              "display_value": "red roses",
+              "search_value": "\"red+roses\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Rina Morelli",
+              "search_value": "Rina+Morelli"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1800s",
+              "search_value": "1800s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Ultra Wide / Fisheye",
+              "search_value": "Ultra+Wide+%2F+Fisheye"
+            },
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.20",
+              "search_value": "2.20"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Cinemascope",
+              "search_value": "Cinemascope"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5250\t         Print       50T",
+              "search_value": "5250%09+++++++++Print+++++++50T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Villa",
+              "search_value": "Villa"
+            },
+            {
+              "display_value": "Bedroom",
+              "search_value": "Bedroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Sicily",
+              "search_value": "Sicily"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Sicily",
+              "search_value": "Sicily"
+            },
+            {
+              "display_value": "Palermo",
+              "search_value": "Palermo"
+            },
+            {
+              "display_value": "Villa Boscogrande - Via Tommaso Natale, 91",
+              "search_value": "Villa+Boscogrande+-+Via+Tommaso+Natale%2C+91"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:08:24",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Luchino Visconti",
+              "search_value": "Luchino+Visconti"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Giuseppe Rotunno",
+              "search_value": "Giuseppe+Rotunno"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Mario Garbuglia",
+              "search_value": "Mario+Garbuglia"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Piero Tosi",
+              "search_value": "Piero+Tosi"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Mario Serandrei",
+              "search_value": "Mario+Serandrei"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

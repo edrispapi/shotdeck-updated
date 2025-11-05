@@ -1,0 +1,408 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "011CEYFY",
+    "image_file": "011CEYFY.jpg",
+    "mime": "image/jpeg",
+    "width": "1478",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Miracle in Milan",
+            "search_value": "10415"
+          }
+        ]
+      },
+      "full_title": "Miracle in Milan",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1951",
+            "search_value": "1951"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "252525",
+            "search_value": "252525~25~1"
+          },
+          {
+            "display_value": "2b2a2b",
+            "search_value": "2b2a2b~25~1"
+          },
+          {
+            "display_value": "2c2c2d",
+            "search_value": "2c2c2d~25~1"
+          },
+          {
+            "display_value": "2b2d2c",
+            "search_value": "2b2d2c~25~1"
+          },
+          {
+            "display_value": "605f60",
+            "search_value": "605f60~25~1"
+          },
+          {
+            "display_value": "5f605f",
+            "search_value": "5f605f~25~1"
+          },
+          {
+            "display_value": "646464",
+            "search_value": "646464~25~1"
+          },
+          {
+            "display_value": "817f80",
+            "search_value": "817f80~25~1"
+          },
+          {
+            "display_value": "929292",
+            "search_value": "929292~25~1"
+          },
+          {
+            "display_value": "949595",
+            "search_value": "949595~25~1"
+          },
+          {
+            "display_value": "979697",
+            "search_value": "979697~25~1"
+          },
+          {
+            "display_value": "99999a",
+            "search_value": "99999a~25~1"
+          },
+          {
+            "display_value": "c3c3c3",
+            "search_value": "c3c3c3~25~1"
+          },
+          {
+            "display_value": "c6c4c5",
+            "search_value": "c6c4c5~25~1"
+          },
+          {
+            "display_value": "c5c6c5",
+            "search_value": "c5c6c5~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "large crowd",
+              "search_value": "\"large+crowd\""
+            },
+            {
+              "display_value": "people gathered",
+              "search_value": "\"people+gathered\""
+            },
+            {
+              "display_value": "town sign",
+              "search_value": "\"town+sign\""
+            },
+            {
+              "display_value": "walking over hill",
+              "search_value": "\"walking+over+hill\""
+            },
+            {
+              "display_value": "horse carriage",
+              "search_value": "\"horse+carriage\""
+            },
+            {
+              "display_value": "wearing trench coat",
+              "search_value": "\"wearing+trench+coat\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1950s",
+              "search_value": "1950s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.37",
+              "search_value": "1.37"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Village",
+              "search_value": "Village"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Lombardy",
+              "search_value": "Lombardy"
+            },
+            {
+              "display_value": "Milan",
+              "search_value": "Milan"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Lombardy",
+              "search_value": "Lombardy"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Vittorio De Sica",
+              "search_value": "Vittorio+De+Sica"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "G.R. Aldo",
+              "search_value": "G.R.+Aldo"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Guido Fiorini",
+              "search_value": "Guido+Fiorini"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Mario Chiari",
+              "search_value": "Mario+Chiari"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Eraldo Da Roma",
+              "search_value": "Eraldo+Da+Roma"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

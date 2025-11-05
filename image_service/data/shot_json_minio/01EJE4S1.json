@@ -1,0 +1,478 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01EJE4S1",
+    "image_file": "01EJE4S1.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Victor/Victoria",
+            "search_value": "16244"
+          }
+        ]
+      },
+      "full_title": "Victor/Victoria",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1982",
+            "search_value": "1982"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "171b17",
+            "search_value": "171b17~25~1"
+          },
+          {
+            "display_value": "332419",
+            "search_value": "332419~25~1"
+          },
+          {
+            "display_value": "2a2b2d",
+            "search_value": "2a2b2d~25~1"
+          },
+          {
+            "display_value": "302c2e",
+            "search_value": "302c2e~25~1"
+          },
+          {
+            "display_value": "563435",
+            "search_value": "563435~25~1"
+          },
+          {
+            "display_value": "5a332d",
+            "search_value": "5a332d~25~1"
+          },
+          {
+            "display_value": "553d27",
+            "search_value": "553d27~25~1"
+          },
+          {
+            "display_value": "515054",
+            "search_value": "515054~25~1"
+          },
+          {
+            "display_value": "684b3e",
+            "search_value": "684b3e~25~1"
+          },
+          {
+            "display_value": "73666a",
+            "search_value": "73666a~25~1"
+          },
+          {
+            "display_value": "99726d",
+            "search_value": "99726d~25~1"
+          },
+          {
+            "display_value": "8c787c",
+            "search_value": "8c787c~25~1"
+          },
+          {
+            "display_value": "8e7f6e",
+            "search_value": "8e7f6e~25~1"
+          },
+          {
+            "display_value": "9b8f93",
+            "search_value": "9b8f93~25~1"
+          },
+          {
+            "display_value": "a0908a",
+            "search_value": "a0908a~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "eating",
+              "search_value": "eating"
+            },
+            {
+              "display_value": "pastry",
+              "search_value": "pastry"
+            },
+            {
+              "display_value": "cream filling",
+              "search_value": "\"cream+filling\""
+            },
+            {
+              "display_value": "suit",
+              "search_value": "suit"
+            },
+            {
+              "display_value": "tuxedo",
+              "search_value": "tuxedo"
+            },
+            {
+              "display_value": "white napkin",
+              "search_value": "\"white+napkin\""
+            },
+            {
+              "display_value": "intense gaze",
+              "search_value": "\"intense+gaze\""
+            },
+            {
+              "display_value": "close-up detail",
+              "search_value": "\"close-up+detail\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1930s",
+              "search_value": "1930s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Panaflex Gold",
+              "search_value": "Panavision+Panaflex+Gold"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision E series",
+              "search_value": "Panavision+E+series"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Restaurant",
+              "search_value": "Restaurant"
+            },
+            {
+              "display_value": "Table",
+              "search_value": "Table"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "Buckinghamshire",
+              "search_value": "Buckinghamshire"
+            },
+            {
+              "display_value": "Iver Heath",
+              "search_value": "Iver+Heath"
+            },
+            {
+              "display_value": "Pinewood Studios",
+              "search_value": "Pinewood+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Police",
+              "search_value": "Movie%2FTV+-+Police"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Spy",
+              "search_value": "Movie%2FTV+-+Spy"
+            },
+            {
+              "display_value": "Business",
+              "search_value": "Movie%2FTV+-+Business"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Costume Drama",
+              "search_value": "Movie%2FTV+-+Costume+Drama"
+            },
+            {
+              "display_value": "Dance",
+              "search_value": "Movie%2FTV+-+Dance"
+            },
+            {
+              "display_value": "Fashion",
+              "search_value": "Movie%2FTV+-+Fashion"
+            },
+            {
+              "display_value": "Mafia",
+              "search_value": "Movie%2FTV+-+Mafia"
+            },
+            {
+              "display_value": "Music",
+              "search_value": "Movie%2FTV+-+Music"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Blake Edwards",
+              "search_value": "Blake+Edwards"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Dick Bush",
+              "search_value": "Dick+Bush"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Rodger Maus",
+              "search_value": "Rodger+Maus"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Patricia Norris",
+              "search_value": "Patricia+Norris"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Ralph E. Winters",
+              "search_value": "Ralph+E.+Winters"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

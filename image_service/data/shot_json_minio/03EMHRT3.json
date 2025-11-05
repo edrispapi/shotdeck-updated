@@ -1,0 +1,528 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03EMHRT3",
+    "image_file": "03EMHRT3.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "790",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Troy",
+            "search_value": "4126"
+          }
+        ]
+      },
+      "full_title": "Troy",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2004",
+            "search_value": "2004"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0e100f",
+            "search_value": "0e100f~25~1"
+          },
+          {
+            "display_value": "261a15",
+            "search_value": "261a15~25~1"
+          },
+          {
+            "display_value": "272024",
+            "search_value": "272024~25~1"
+          },
+          {
+            "display_value": "1d232a",
+            "search_value": "1d232a~25~1"
+          },
+          {
+            "display_value": "4b383d",
+            "search_value": "4b383d~25~1"
+          },
+          {
+            "display_value": "373f4b",
+            "search_value": "373f4b~25~1"
+          },
+          {
+            "display_value": "623424",
+            "search_value": "623424~25~1"
+          },
+          {
+            "display_value": "404653",
+            "search_value": "404653~25~1"
+          },
+          {
+            "display_value": "5c454e",
+            "search_value": "5c454e~25~1"
+          },
+          {
+            "display_value": "9e4916",
+            "search_value": "9e4916~25~1"
+          },
+          {
+            "display_value": "c56544",
+            "search_value": "c56544~25~1"
+          },
+          {
+            "display_value": "e57a0c",
+            "search_value": "e57a0c~25~1"
+          },
+          {
+            "display_value": "eb9330",
+            "search_value": "eb9330~25~1"
+          },
+          {
+            "display_value": "facc5f",
+            "search_value": "facc5f~25~1"
+          },
+          {
+            "display_value": "fcf3d3",
+            "search_value": "fcf3d3~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "emotional",
+              "search_value": "emotional"
+            },
+            {
+              "display_value": "holding torch",
+              "search_value": "\"holding+torch\""
+            },
+            {
+              "display_value": "lighting pyre",
+              "search_value": "\"lighting+pyre\""
+            },
+            {
+              "display_value": "king",
+              "search_value": "king"
+            },
+            {
+              "display_value": "army general",
+              "search_value": "\"army+general\""
+            },
+            {
+              "display_value": "saying goodbye",
+              "search_value": "\"saying+goodbye\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Sean Bean",
+              "search_value": "Sean+Bean"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Ancient: 2000BC-500AD",
+              "search_value": "Ancient%3A+2000BC-500AD"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Dawn",
+              "search_value": "Dawn"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Orange",
+              "search_value": "Orange"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            },
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Underlight",
+              "search_value": "Underlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Firelight",
+              "search_value": "Firelight"
+            },
+            {
+              "display_value": "Mixed light",
+              "search_value": "Mixed+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Super 35",
+              "search_value": "Super+35"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke S4/ i",
+              "search_value": "Cooke+S4%2F+i"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5218/7218\tVision 2 \t500T",
+              "search_value": "5218%2F7218%09Vision+2+%09500T"
+            },
+            {
+              "display_value": "5246/7246\tVision \t250D",
+              "search_value": "5246%2F7246%09Vision+%09250D"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "City Square",
+              "search_value": "City+Square"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Ancient Greece",
+              "search_value": "Ancient+Greece"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Malta",
+              "search_value": "Malta"
+            },
+            {
+              "display_value": "Valletta",
+              "search_value": "Valletta"
+            },
+            {
+              "display_value": "Fort Ricasoli",
+              "search_value": "Fort+Ricasoli"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "03:03:27",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Book Adaptation",
+              "search_value": "Movie%2FTV+-+Book+Adaptation"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Epic",
+              "search_value": "Movie%2FTV+-+Epic"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            },
+            {
+              "display_value": "Marriage",
+              "search_value": "Movie%2FTV+-+Marriage"
+            },
+            {
+              "display_value": "Revenge",
+              "search_value": "Movie%2FTV+-+Revenge"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "War",
+              "search_value": "Movie%2FTV+-+War"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Wolfgang Petersen",
+              "search_value": "Wolfgang+Petersen"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Roger Pratt",
+              "search_value": "Roger+Pratt"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Nigel Phelps",
+              "search_value": "Nigel+Phelps"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Bob Ringwood",
+              "search_value": "Bob+Ringwood"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Peter Honess",
+              "search_value": "Peter+Honess"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Max Horton",
+              "search_value": "Max+Horton"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

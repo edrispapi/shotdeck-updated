@@ -1,0 +1,446 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "004NLRIC",
+    "image_file": "004NLRIC.jpg",
+    "mime": "image/jpeg",
+    "width": "1440",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Tótem",
+            "search_value": "42021"
+          }
+        ]
+      },
+      "full_title": "Tótem",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2023",
+            "search_value": "2023"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "040506",
+            "search_value": "040506~25~1"
+          },
+          {
+            "display_value": "030604",
+            "search_value": "030604~25~1"
+          },
+          {
+            "display_value": "1f0608",
+            "search_value": "1f0608~25~1"
+          },
+          {
+            "display_value": "37190f",
+            "search_value": "37190f~25~1"
+          },
+          {
+            "display_value": "6b2b1f",
+            "search_value": "6b2b1f~25~1"
+          },
+          {
+            "display_value": "583d24",
+            "search_value": "583d24~25~1"
+          },
+          {
+            "display_value": "715536",
+            "search_value": "715536~25~1"
+          },
+          {
+            "display_value": "95815d",
+            "search_value": "95815d~25~1"
+          },
+          {
+            "display_value": "ac9d86",
+            "search_value": "ac9d86~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "portraits",
+              "search_value": "portraits"
+            },
+            {
+              "display_value": "paintings",
+              "search_value": "paintings"
+            },
+            {
+              "display_value": "gallery",
+              "search_value": "gallery"
+            },
+            {
+              "display_value": "pink shirt",
+              "search_value": "\"pink+shirt\""
+            },
+            {
+              "display_value": "white door",
+              "search_value": "\"white+door\""
+            },
+            {
+              "display_value": "side table",
+              "search_value": "\"side+table\""
+            },
+            {
+              "display_value": "book",
+              "search_value": "book"
+            },
+            {
+              "display_value": "brown hair",
+              "search_value": "\"brown+hair\""
+            },
+            {
+              "display_value": "wood wall",
+              "search_value": "\"wood+wall\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Naíma Sentíes",
+              "search_value": "Na%C3%ADma+Sent%C3%ADes"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.33",
+              "search_value": "1.33"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Hallway",
+              "search_value": "Hallway"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Mexico",
+              "search_value": "Mexico"
+            },
+            {
+              "display_value": "Mexico City",
+              "search_value": "Mexico+City"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Mexico",
+              "search_value": "Mexico"
+            },
+            {
+              "display_value": "Mexico City",
+              "search_value": "Mexico+City"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:17:51",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Lila Avilés",
+              "search_value": "Lila+Avil%C3%A9s"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Diego Tenorio",
+              "search_value": "Diego+Tenorio"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Nohemi Gonzalez",
+              "search_value": "Nohemi+Gonzalez"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jimena Fernández",
+              "search_value": "Jimena+Fern%C3%A1ndez"
+            },
+            {
+              "display_value": "Nora Solís",
+              "search_value": "Nora+Sol%C3%ADs"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Omar Guzmán",
+              "search_value": "Omar+Guzm%C3%A1n"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Jonathan Buenrostro",
+              "search_value": "Jonathan+Buenrostro"
+            },
+            {
+              "display_value": "Edoardo Rebecchi",
+              "search_value": "Edoardo+Rebecchi"
+            },
+            {
+              "display_value": "Ilse Serdán",
+              "search_value": "Ilse+Serd%C3%A1n"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

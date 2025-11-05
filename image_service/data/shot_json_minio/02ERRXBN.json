@@ -1,0 +1,402 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02ERRXBN",
+    "image_file": "02ERRXBN.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Weathering with You",
+            "search_value": "14250"
+          }
+        ]
+      },
+      "full_title": "Weathering with You",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2019",
+            "search_value": "2019"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1f1f23",
+            "search_value": "1f1f23~25~1"
+          },
+          {
+            "display_value": "2b1f22",
+            "search_value": "2b1f22~25~1"
+          },
+          {
+            "display_value": "232524",
+            "search_value": "232524~25~1"
+          },
+          {
+            "display_value": "30241d",
+            "search_value": "30241d~25~1"
+          },
+          {
+            "display_value": "5e2e3e",
+            "search_value": "5e2e3e~25~1"
+          },
+          {
+            "display_value": "583929",
+            "search_value": "583929~25~1"
+          },
+          {
+            "display_value": "523f28",
+            "search_value": "523f28~25~1"
+          },
+          {
+            "display_value": "51515e",
+            "search_value": "51515e~25~1"
+          },
+          {
+            "display_value": "7b4146",
+            "search_value": "7b4146~25~1"
+          },
+          {
+            "display_value": "734f35",
+            "search_value": "734f35~25~1"
+          },
+          {
+            "display_value": "c75448",
+            "search_value": "c75448~25~1"
+          },
+          {
+            "display_value": "a97f4c",
+            "search_value": "a97f4c~25~1"
+          },
+          {
+            "display_value": "c8985f",
+            "search_value": "c8985f~25~1"
+          },
+          {
+            "display_value": "ebc97c",
+            "search_value": "ebc97c~25~1"
+          },
+          {
+            "display_value": "f8eba6",
+            "search_value": "f8eba6~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "bar counter",
+              "search_value": "\"bar+counter\""
+            },
+            {
+              "display_value": "red bar stools",
+              "search_value": "\"red+bar+stools\""
+            },
+            {
+              "display_value": "patterned wallpaper",
+              "search_value": "\"patterned+wallpaper\""
+            },
+            {
+              "display_value": "glassware hanging",
+              "search_value": "\"glassware+hanging\""
+            },
+            {
+              "display_value": "liquor bottles",
+              "search_value": "\"liquor+bottles\""
+            },
+            {
+              "display_value": "cat figurine",
+              "search_value": "\"cat+figurine\""
+            },
+            {
+              "display_value": "microwave on counter",
+              "search_value": "\"microwave+on+counter\""
+            },
+            {
+              "display_value": "maroon and pink outfits",
+              "search_value": "\"maroon+and+pink+outfits\""
+            },
+            {
+              "display_value": "drinking",
+              "search_value": "drinking"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Restaurant",
+              "search_value": "Restaurant"
+            },
+            {
+              "display_value": "Bar",
+              "search_value": "Bar"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Japan",
+              "search_value": "Japan"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:06:17",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Fatherhood",
+              "search_value": "Movie%2FTV+-+Fatherhood"
+            },
+            {
+              "display_value": "High School/Teen",
+              "search_value": "Movie%2FTV+-+High+School%2FTeen"
+            },
+            {
+              "display_value": "Police",
+              "search_value": "Movie%2FTV+-+Police"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Makoto Shinkai",
+              "search_value": "Makoto+Shinkai"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Ryôsuke Tsuda",
+              "search_value": "Ry%C3%B4suke+Tsuda"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jumi Lee",
+              "search_value": "Jumi+Lee"
+            },
+            {
+              "display_value": "Yuko Matsui",
+              "search_value": "Yuko+Matsui"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Makoto Shinkai",
+              "search_value": "Makoto+Shinkai"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

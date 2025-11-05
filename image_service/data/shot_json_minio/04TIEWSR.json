@@ -1,0 +1,418 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04TIEWSR",
+    "image_file": "04TIEWSR.jpg",
+    "mime": "image/jpeg",
+    "width": "1792",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Kung-Fu Master!",
+            "search_value": "3436"
+          }
+        ]
+      },
+      "full_title": "Kung-Fu Master!",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1988",
+            "search_value": "1988"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "5b1e0c",
+            "search_value": "5b1e0c~25~1"
+          },
+          {
+            "display_value": "552c36",
+            "search_value": "552c36~25~1"
+          },
+          {
+            "display_value": "3b3f3b",
+            "search_value": "3b3f3b~25~1"
+          },
+          {
+            "display_value": "3d423a",
+            "search_value": "3d423a~25~1"
+          },
+          {
+            "display_value": "444236",
+            "search_value": "444236~25~1"
+          },
+          {
+            "display_value": "752915",
+            "search_value": "752915~25~1"
+          },
+          {
+            "display_value": "494f47",
+            "search_value": "494f47~25~1"
+          },
+          {
+            "display_value": "7b4330",
+            "search_value": "7b4330~25~1"
+          },
+          {
+            "display_value": "a8735c",
+            "search_value": "a8735c~25~1"
+          },
+          {
+            "display_value": "88856f",
+            "search_value": "88856f~25~1"
+          },
+          {
+            "display_value": "879180",
+            "search_value": "879180~25~1"
+          },
+          {
+            "display_value": "a19b82",
+            "search_value": "a19b82~25~1"
+          },
+          {
+            "display_value": "deb8a3",
+            "search_value": "deb8a3~25~1"
+          },
+          {
+            "display_value": "dbbea0",
+            "search_value": "dbbea0~25~1"
+          },
+          {
+            "display_value": "f3dbba",
+            "search_value": "f3dbba~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "city street",
+              "search_value": "\"city+street\""
+            },
+            {
+              "display_value": "cursive font",
+              "search_value": "\"cursive+font\""
+            },
+            {
+              "display_value": "cursive text",
+              "search_value": "\"cursive+text\""
+            },
+            {
+              "display_value": "red screen",
+              "search_value": "\"red+screen\""
+            },
+            {
+              "display_value": "red wall",
+              "search_value": "\"red+wall\""
+            },
+            {
+              "display_value": "red window",
+              "search_value": "\"red+window\""
+            },
+            {
+              "display_value": "storefront",
+              "search_value": "storefront"
+            },
+            {
+              "display_value": "white text",
+              "search_value": "\"white+text\""
+            },
+            {
+              "display_value": "white text on image",
+              "search_value": "\"white+text+on+image\""
+            },
+            {
+              "display_value": "white text on red background",
+              "search_value": "\"white+text+on+red+background\""
+            },
+            {
+              "display_value": "title card",
+              "search_value": "\"title+card\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "City Street",
+              "search_value": "City+Street"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:01:15",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Agnès Varda",
+              "search_value": "Agn%C3%A8s+Varda"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Pierre-Laurent Chénieux",
+              "search_value": "Pierre-Laurent+Ch%C3%A9nieux"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Marie-Josée Audiard",
+              "search_value": "Marie-Jos%C3%A9e+Audiard"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

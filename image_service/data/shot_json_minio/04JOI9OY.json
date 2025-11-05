@@ -1,0 +1,504 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04JOI9OY",
+    "image_file": "04JOI9OY.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Solo: A Star Wars Story",
+            "search_value": "3809"
+          }
+        ]
+      },
+      "full_title": "Solo: A Star Wars Story",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2018",
+            "search_value": "2018"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1b1e1a",
+            "search_value": "1b1e1a~25~1"
+          },
+          {
+            "display_value": "211f17",
+            "search_value": "211f17~25~1"
+          },
+          {
+            "display_value": "494132",
+            "search_value": "494132~25~1"
+          },
+          {
+            "display_value": "645a48",
+            "search_value": "645a48~25~1"
+          },
+          {
+            "display_value": "606662",
+            "search_value": "606662~25~1"
+          },
+          {
+            "display_value": "8f816a",
+            "search_value": "8f816a~25~1"
+          },
+          {
+            "display_value": "a8a093",
+            "search_value": "a8a093~25~1"
+          },
+          {
+            "display_value": "aab0ac",
+            "search_value": "aab0ac~25~1"
+          },
+          {
+            "display_value": "aab0b3",
+            "search_value": "aab0b3~25~1"
+          },
+          {
+            "display_value": "b7b6b7",
+            "search_value": "b7b6b7~25~1"
+          },
+          {
+            "display_value": "bcc2c0",
+            "search_value": "bcc2c0~25~1"
+          },
+          {
+            "display_value": "c8c1b1",
+            "search_value": "c8c1b1~25~1"
+          },
+          {
+            "display_value": "d4d2cc",
+            "search_value": "d4d2cc~25~1"
+          },
+          {
+            "display_value": "d7dcdb",
+            "search_value": "d7dcdb~25~1"
+          },
+          {
+            "display_value": "d8dcde",
+            "search_value": "d8dcde~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "angry",
+              "search_value": "angry"
+            },
+            {
+              "display_value": "crime boss",
+              "search_value": "\"crime+boss\""
+            },
+            {
+              "display_value": "criminal organization",
+              "search_value": "\"criminal+organization\""
+            },
+            {
+              "display_value": "large round window",
+              "search_value": "\"large+round+window\""
+            },
+            {
+              "display_value": "mad",
+              "search_value": "mad"
+            },
+            {
+              "display_value": "scared face",
+              "search_value": "\"scared+face\""
+            },
+            {
+              "display_value": "threatening finger",
+              "search_value": "\"threatening+finger\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Paul Bettany",
+              "search_value": "Paul+Bettany"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            },
+            {
+              "display_value": "ARRI ALEXA 65",
+              "search_value": "ARRI+ALEXA+65"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Super Speed",
+              "search_value": "Zeiss+Super+Speed"
+            },
+            {
+              "display_value": "Arri Prime DNA Lenses",
+              "search_value": "Arri+Prime+DNA+Lenses"
+            },
+            {
+              "display_value": "Camden Falcon Full Frame",
+              "search_value": "Camden+Falcon+Full+Frame"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "ARRIRAW (6.5K)",
+              "search_value": "ARRIRAW+%286.5K%29"
+            },
+            {
+              "display_value": "ARRIRAW (3.4k)",
+              "search_value": "ARRIRAW+%283.4k%29"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Spaceship",
+              "search_value": "Spaceship"
+            },
+            {
+              "display_value": "First Light",
+              "search_value": "First+Light"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Outer Space",
+              "search_value": "Outer+Space"
+            },
+            {
+              "display_value": "Vandor",
+              "search_value": "Vandor"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "Buckinghamshire",
+              "search_value": "Buckinghamshire"
+            },
+            {
+              "display_value": "Iver Heath",
+              "search_value": "Iver+Heath"
+            },
+            {
+              "display_value": "Pinewood Studios",
+              "search_value": "Pinewood+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:48:14",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Ron Howard",
+              "search_value": "Ron+Howard"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Bradford Young",
+              "search_value": "Bradford+Young"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Neil Lamont",
+              "search_value": "Neil+Lamont"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "David Crossman",
+              "search_value": "David+Crossman"
+            },
+            {
+              "display_value": "Glyn Dillon",
+              "search_value": "Glyn+Dillon"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Pietro Scalia",
+              "search_value": "Pietro+Scalia"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Joe Gawler",
+              "search_value": "Joe+Gawler"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

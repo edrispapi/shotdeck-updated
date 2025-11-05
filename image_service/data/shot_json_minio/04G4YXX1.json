@@ -1,0 +1,458 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04G4YXX1",
+    "image_file": "04G4YXX1.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "802",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Fleabag",
+            "search_value": "13417",
+            "season": "1",
+            "episode": "5"
+          }
+        ]
+      },
+      "full_title": "Fleabag - Season 1 - Episode 5",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2016",
+            "search_value": "2016"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0b0c0f",
+            "search_value": "0b0c0f~25~1"
+          },
+          {
+            "display_value": "171113",
+            "search_value": "171113~25~1"
+          },
+          {
+            "display_value": "131513",
+            "search_value": "131513~25~1"
+          },
+          {
+            "display_value": "2d231d",
+            "search_value": "2d231d~25~1"
+          },
+          {
+            "display_value": "533336",
+            "search_value": "533336~25~1"
+          },
+          {
+            "display_value": "55372f",
+            "search_value": "55372f~25~1"
+          },
+          {
+            "display_value": "4a4031",
+            "search_value": "4a4031~25~1"
+          },
+          {
+            "display_value": "474748",
+            "search_value": "474748~25~1"
+          },
+          {
+            "display_value": "603e41",
+            "search_value": "603e41~25~1"
+          },
+          {
+            "display_value": "54624f",
+            "search_value": "54624f~25~1"
+          },
+          {
+            "display_value": "6e5e49",
+            "search_value": "6e5e49~25~1"
+          },
+          {
+            "display_value": "928364",
+            "search_value": "928364~25~1"
+          },
+          {
+            "display_value": "9f9279",
+            "search_value": "9f9279~25~1"
+          },
+          {
+            "display_value": "d1c4a3",
+            "search_value": "d1c4a3~25~1"
+          },
+          {
+            "display_value": "e5d4b0",
+            "search_value": "e5d4b0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "family dinner",
+              "search_value": "\"family+dinner\""
+            },
+            {
+              "display_value": "awkward dinner",
+              "search_value": "\"awkward+dinner\""
+            },
+            {
+              "display_value": "uncomfortable dinner",
+              "search_value": "\"uncomfortable+dinner\""
+            },
+            {
+              "display_value": "dinner guest",
+              "search_value": "\"dinner+guest\""
+            },
+            {
+              "display_value": "uncomfortable situation",
+              "search_value": "\"uncomfortable+situation\""
+            },
+            {
+              "display_value": "light grey shirt",
+              "search_value": "\"light+grey+shirt\""
+            },
+            {
+              "display_value": "uncomfortable",
+              "search_value": "uncomfortable"
+            },
+            {
+              "display_value": "dessert",
+              "search_value": "dessert"
+            },
+            {
+              "display_value": "eating dessert",
+              "search_value": "\"eating+dessert\""
+            },
+            {
+              "display_value": "tense conversation",
+              "search_value": "\"tense+conversation\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Phoebe Waller-Bridge",
+              "search_value": "Phoebe+Waller-Bridge"
+            },
+            {
+              "display_value": "Sian Clifford",
+              "search_value": "Sian+Clifford"
+            },
+            {
+              "display_value": "Olivia Colman",
+              "search_value": "Olivia+Colman"
+            },
+            {
+              "display_value": "Bill Paterson",
+              "search_value": "Bill+Paterson"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            },
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke Anamorphic",
+              "search_value": "Cooke+Anamorphic"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Dining Room",
+              "search_value": "Dining+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:17:42",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Harry Bradbeer",
+              "search_value": "Harry+Bradbeer"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Thomas Urbye",
+              "search_value": "Thomas+Urbye"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

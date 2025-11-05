@@ -1,0 +1,524 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00VF74NH",
+    "image_file": "00VF74NH.jpg",
+    "mime": "image/jpeg",
+    "width": "1598",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Living",
+            "search_value": "27839"
+          }
+        ]
+      },
+      "full_title": "Living",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0b0f0e",
+            "search_value": "0b0f0e~25~1"
+          },
+          {
+            "display_value": "0c1418",
+            "search_value": "0c1418~25~1"
+          },
+          {
+            "display_value": "1c1917",
+            "search_value": "1c1917~25~1"
+          },
+          {
+            "display_value": "241f21",
+            "search_value": "241f21~25~1"
+          },
+          {
+            "display_value": "294653",
+            "search_value": "294653~25~1"
+          },
+          {
+            "display_value": "455c67",
+            "search_value": "455c67~25~1"
+          },
+          {
+            "display_value": "63595c",
+            "search_value": "63595c~25~1"
+          },
+          {
+            "display_value": "57605d",
+            "search_value": "57605d~25~1"
+          },
+          {
+            "display_value": "675b56",
+            "search_value": "675b56~25~1"
+          },
+          {
+            "display_value": "8d9598",
+            "search_value": "8d9598~25~1"
+          },
+          {
+            "display_value": "a7aaa9",
+            "search_value": "a7aaa9~25~1"
+          },
+          {
+            "display_value": "aeada8",
+            "search_value": "aeada8~25~1"
+          },
+          {
+            "display_value": "c1c2bb",
+            "search_value": "c1c2bb~25~1"
+          },
+          {
+            "display_value": "c6c7c0",
+            "search_value": "c6c7c0~25~1"
+          },
+          {
+            "display_value": "cacfcb",
+            "search_value": "cacfcb~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "sitting on train",
+              "search_value": "\"sitting+on+train\""
+            },
+            {
+              "display_value": "passenger car",
+              "search_value": "\"passenger+car\""
+            },
+            {
+              "display_value": "business men",
+              "search_value": "\"business+men\""
+            },
+            {
+              "display_value": "sitting in train car",
+              "search_value": "\"sitting+in+train+car\""
+            },
+            {
+              "display_value": "train ride",
+              "search_value": "\"train+ride\""
+            },
+            {
+              "display_value": "matching outfits",
+              "search_value": "\"matching+outfits\""
+            },
+            {
+              "display_value": "going to work",
+              "search_value": "\"going+to+work\""
+            },
+            {
+              "display_value": "morning commute",
+              "search_value": "\"morning+commute\""
+            },
+            {
+              "display_value": "train compartment",
+              "search_value": "\"train+compartment\""
+            },
+            {
+              "display_value": "vintage style",
+              "search_value": "\"vintage+style\""
+            },
+            {
+              "display_value": "black coats",
+              "search_value": "\"black+coats\""
+            },
+            {
+              "display_value": "winter",
+              "search_value": "winter"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Alex Sharp",
+              "search_value": "Alex+Sharp"
+            },
+            {
+              "display_value": "Adrian Rawlins",
+              "search_value": "Adrian+Rawlins"
+            },
+            {
+              "display_value": "Oliver Chris",
+              "search_value": "Oliver+Chris"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1950s",
+              "search_value": "1950s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            },
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            },
+            {
+              "display_value": "Symmetrical",
+              "search_value": "Symmetrical"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.43",
+              "search_value": "1.43"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Supreme Prime",
+              "search_value": "Zeiss+Supreme+Prime"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "ARRIRAW (3.4k)",
+              "search_value": "ARRIRAW+%283.4k%29"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Train",
+              "search_value": "Train"
+            },
+            {
+              "display_value": "Cabin",
+              "search_value": "Cabin"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:20:31",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Oliver Hermanus",
+              "search_value": "Oliver+Hermanus"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Jamie Ramsay",
+              "search_value": "Jamie+Ramsay"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Helen Scott",
+              "search_value": "Helen+Scott"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Sandy Powell",
+              "search_value": "Sandy+Powell"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Chris Wyatt",
+              "search_value": "Chris+Wyatt"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Joseph Bicknell",
+              "search_value": "Joseph+Bicknell"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

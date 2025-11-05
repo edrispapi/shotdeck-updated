@@ -1,0 +1,524 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04ZTNNFG",
+    "image_file": "04ZTNNFG.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Inception",
+            "search_value": "1025"
+          }
+        ]
+      },
+      "full_title": "Inception",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2010",
+            "search_value": "2010"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0e120f",
+            "search_value": "0e120f~25~1"
+          },
+          {
+            "display_value": "201e18",
+            "search_value": "201e18~25~1"
+          },
+          {
+            "display_value": "252324",
+            "search_value": "252324~25~1"
+          },
+          {
+            "display_value": "2f3336",
+            "search_value": "2f3336~25~1"
+          },
+          {
+            "display_value": "3d3f43",
+            "search_value": "3d3f43~25~1"
+          },
+          {
+            "display_value": "444038",
+            "search_value": "444038~25~1"
+          },
+          {
+            "display_value": "525457",
+            "search_value": "525457~25~1"
+          },
+          {
+            "display_value": "635e5a",
+            "search_value": "635e5a~25~1"
+          },
+          {
+            "display_value": "5d605e",
+            "search_value": "5d605e~25~1"
+          },
+          {
+            "display_value": "615f60",
+            "search_value": "615f60~25~1"
+          },
+          {
+            "display_value": "878076",
+            "search_value": "878076~25~1"
+          },
+          {
+            "display_value": "858789",
+            "search_value": "858789~25~1"
+          },
+          {
+            "display_value": "8c8f8e",
+            "search_value": "8c8f8e~25~1"
+          },
+          {
+            "display_value": "9f958c",
+            "search_value": "9f958c~25~1"
+          },
+          {
+            "display_value": "eae3da",
+            "search_value": "eae3da~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "abandoned warehouse",
+              "search_value": "\"abandoned+warehouse\""
+            },
+            {
+              "display_value": "concrete columns",
+              "search_value": "\"concrete+columns\""
+            },
+            {
+              "display_value": "concrete floor",
+              "search_value": "\"concrete+floor\""
+            },
+            {
+              "display_value": "conversation",
+              "search_value": "conversation"
+            },
+            {
+              "display_value": "discussing",
+              "search_value": "discussing"
+            },
+            {
+              "display_value": "discussion",
+              "search_value": "discussion"
+            },
+            {
+              "display_value": "experiment",
+              "search_value": "experiment"
+            },
+            {
+              "display_value": "experimenting",
+              "search_value": "experimenting"
+            },
+            {
+              "display_value": "light from windows",
+              "search_value": "\"light+from+windows\""
+            },
+            {
+              "display_value": "light through windows",
+              "search_value": "\"light+through+windows\""
+            },
+            {
+              "display_value": "makeshift office",
+              "search_value": "\"makeshift+office\""
+            },
+            {
+              "display_value": "meeting",
+              "search_value": "meeting"
+            },
+            {
+              "display_value": "paper covered windows",
+              "search_value": "\"paper+covered+windows\""
+            },
+            {
+              "display_value": "paper covering windows",
+              "search_value": "\"paper+covering+windows\""
+            },
+            {
+              "display_value": "secret meeting",
+              "search_value": "\"secret+meeting\""
+            },
+            {
+              "display_value": "sitting together",
+              "search_value": "\"sitting+together\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Leonardo DiCaprio",
+              "search_value": "Leonardo+DiCaprio"
+            },
+            {
+              "display_value": "Joseph Gordon-Levitt",
+              "search_value": "Joseph+Gordon-Levitt"
+            },
+            {
+              "display_value": "Elliot Page",
+              "search_value": "Elliot+Page"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            },
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision System 65",
+              "search_value": "Panavision+System+65"
+            },
+            {
+              "display_value": "Panavision Millennium / Millenium XL / XL2",
+              "search_value": "Panavision+Millennium+%2F+Millenium+XL+%2F+XL2"
+            },
+            {
+              "display_value": "Arriflex 235",
+              "search_value": "Arriflex+235"
+            },
+            {
+              "display_value": "Photosonics 4E",
+              "search_value": "Photosonics+4E"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Super Speed Zeiss MKII",
+              "search_value": "Panavision+Super+Speed+Zeiss+MKII"
+            },
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision E series",
+              "search_value": "Panavision+E+series"
+            },
+            {
+              "display_value": "Panavision G series",
+              "search_value": "Panavision+G+series"
+            },
+            {
+              "display_value": "Panavision Sphero 65mm Lenses",
+              "search_value": "Panavision+Sphero+65mm+Lenses"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            },
+            {
+              "display_value": "5207/7207\tVision 3\t250D",
+              "search_value": "5207%2F7207%09Vision+3%09250D"
+            },
+            {
+              "display_value": "5201/7201 \tVision 2\t50D",
+              "search_value": "5201%2F7201+%09Vision+2%0950D"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Warehouse",
+              "search_value": "Warehouse"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:28:30",
+              "search_value": "n/a"
+            }
+          ]
+        },
+        "general_notes": {
+          "filter": "n/a",
+          "filter_name": "Notes",
+          "values": [
+            {
+              "display_value": " Panavision (anamorphic),  Panavision Super 70 (some scenes), VistaVision (aerial shots)",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Heist",
+              "search_value": "Movie%2FTV+-+Heist"
+            },
+            {
+              "display_value": "Magical Realism",
+              "search_value": "Movie%2FTV+-+Magical+Realism"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Psychedelic",
+              "search_value": "Movie%2FTV+-+Psychedelic"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Christopher Nolan",
+              "search_value": "Christopher+Nolan"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Wally Pfister",
+              "search_value": "Wally+Pfister"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Guy Hendrix Dyas",
+              "search_value": "Guy+Hendrix+Dyas"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jeffrey Kurland",
+              "search_value": "Jeffrey+Kurland"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Lee Smith",
+              "search_value": "Lee+Smith"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "David Orr",
+              "search_value": "David+Orr"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

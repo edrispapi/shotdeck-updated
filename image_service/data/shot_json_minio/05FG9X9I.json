@@ -1,0 +1,508 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05FG9X9I",
+    "image_file": "05FG9X9I.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "817",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Padmaavat",
+            "search_value": "19410"
+          }
+        ]
+      },
+      "full_title": "Padmaavat",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2018",
+            "search_value": "2018"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "290203",
+            "search_value": "290203~25~1"
+          },
+          {
+            "display_value": "3b200a",
+            "search_value": "3b200a~25~1"
+          },
+          {
+            "display_value": "68321c",
+            "search_value": "68321c~25~1"
+          },
+          {
+            "display_value": "624015",
+            "search_value": "624015~25~1"
+          },
+          {
+            "display_value": "765124",
+            "search_value": "765124~25~1"
+          },
+          {
+            "display_value": "af7056",
+            "search_value": "af7056~25~1"
+          },
+          {
+            "display_value": "9e8158",
+            "search_value": "9e8158~25~1"
+          },
+          {
+            "display_value": "b59e75",
+            "search_value": "b59e75~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "dance number",
+              "search_value": "\"dance+number\""
+            },
+            {
+              "display_value": "dance sequence",
+              "search_value": "\"dance+sequence\""
+            },
+            {
+              "display_value": "elegant",
+              "search_value": "elegant"
+            },
+            {
+              "display_value": "glamorous",
+              "search_value": "glamorous"
+            },
+            {
+              "display_value": "graceful",
+              "search_value": "graceful"
+            },
+            {
+              "display_value": "musical dance number",
+              "search_value": "\"musical+dance+number\""
+            },
+            {
+              "display_value": "padmavati",
+              "search_value": "padmavati"
+            },
+            {
+              "display_value": "princess",
+              "search_value": "princess"
+            },
+            {
+              "display_value": "queen",
+              "search_value": "queen"
+            },
+            {
+              "display_value": "rajput",
+              "search_value": "rajput"
+            },
+            {
+              "display_value": "royal",
+              "search_value": "royal"
+            },
+            {
+              "display_value": "royalty",
+              "search_value": "royalty"
+            },
+            {
+              "display_value": "song and dance number",
+              "search_value": "\"song+and+dance+number\""
+            },
+            {
+              "display_value": "stunning",
+              "search_value": "stunning"
+            },
+            {
+              "display_value": "ceremony",
+              "search_value": "ceremony"
+            },
+            {
+              "display_value": "red dress",
+              "search_value": "\"red+dress\""
+            },
+            {
+              "display_value": "hindu",
+              "search_value": "hindu"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Deepika Padukone",
+              "search_value": "Deepika+Padukone"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Medieval: 500-1400",
+              "search_value": "Medieval%3A+500-1400"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Dawn",
+              "search_value": "Dawn"
+            },
+            {
+              "display_value": "Dusk",
+              "search_value": "Dusk"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            },
+            {
+              "display_value": "Symmetrical",
+              "search_value": "Symmetrical"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA",
+              "search_value": "ARRI+ALEXA"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Palace",
+              "search_value": "Palace"
+            },
+            {
+              "display_value": "Dance Hall",
+              "search_value": "Dance+Hall"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "India",
+              "search_value": "India"
+            },
+            {
+              "display_value": "Mewar",
+              "search_value": "Mewar"
+            },
+            {
+              "display_value": "Chittor",
+              "search_value": "Chittor"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "India",
+              "search_value": "India"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:29:07",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Sanjay Leela Bhansali",
+              "search_value": "Sanjay+Leela+Bhansali"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Sudeep Chatterjee",
+              "search_value": "Sudeep+Chatterjee"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Amit Ray",
+              "search_value": "Amit+Ray"
+            },
+            {
+              "display_value": "Subrata Chakraborty",
+              "search_value": "Subrata+Chakraborty"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Maxima Basu",
+              "search_value": "Maxima+Basu"
+            },
+            {
+              "display_value": "Nidhi Kurda Khurana",
+              "search_value": "Nidhi+Kurda+Khurana"
+            },
+            {
+              "display_value": "Ajay Kmr",
+              "search_value": "Ajay+Kmr"
+            },
+            {
+              "display_value": "Rimple Narula",
+              "search_value": "Rimple+Narula"
+            },
+            {
+              "display_value": "Harpreet Rimple",
+              "search_value": "Harpreet+Rimple"
+            },
+            {
+              "display_value": "Chandrakant Sonawane",
+              "search_value": "Chandrakant+Sonawane"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Rajesh Pandey",
+              "search_value": "Rajesh+Pandey"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Ashirwad Hadkar",
+              "search_value": "Ashirwad+Hadkar"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

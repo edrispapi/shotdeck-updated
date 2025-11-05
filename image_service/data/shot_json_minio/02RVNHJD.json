@@ -1,0 +1,402 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02RVNHJD",
+    "image_file": "02RVNHJD.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "818",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "A Touch of Zen",
+            "search_value": "1602"
+          }
+        ]
+      },
+      "full_title": "A Touch of Zen",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1971",
+            "search_value": "1971"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d0e03",
+            "search_value": "0d0e03~25~1"
+          },
+          {
+            "display_value": "121b20",
+            "search_value": "121b20~25~1"
+          },
+          {
+            "display_value": "171f1a",
+            "search_value": "171f1a~25~1"
+          },
+          {
+            "display_value": "3a2c2d",
+            "search_value": "3a2c2d~25~1"
+          },
+          {
+            "display_value": "4b3b36",
+            "search_value": "4b3b36~25~1"
+          },
+          {
+            "display_value": "364540",
+            "search_value": "364540~25~1"
+          },
+          {
+            "display_value": "484133",
+            "search_value": "484133~25~1"
+          },
+          {
+            "display_value": "645c4b",
+            "search_value": "645c4b~25~1"
+          },
+          {
+            "display_value": "536a5c",
+            "search_value": "536a5c~25~1"
+          },
+          {
+            "display_value": "6f8a75",
+            "search_value": "6f8a75~25~1"
+          },
+          {
+            "display_value": "86866c",
+            "search_value": "86866c~25~1"
+          },
+          {
+            "display_value": "8aa089",
+            "search_value": "8aa089~25~1"
+          },
+          {
+            "display_value": "999d82",
+            "search_value": "999d82~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "hurried conversation",
+              "search_value": "\"hurried+conversation\""
+            },
+            {
+              "display_value": "keeping quiet",
+              "search_value": "\"keeping+quiet\""
+            },
+            {
+              "display_value": "low light",
+              "search_value": "\"low+light\""
+            },
+            {
+              "display_value": "moonlight coming in from window",
+              "search_value": "\"moonlight+coming+in+from+window\""
+            },
+            {
+              "display_value": "sneaking",
+              "search_value": "sneaking"
+            },
+            {
+              "display_value": "tense",
+              "search_value": "tense"
+            },
+            {
+              "display_value": "whispering",
+              "search_value": "whispering"
+            },
+            {
+              "display_value": "hushed conversation",
+              "search_value": "\"hushed+conversation\""
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Moonlight",
+              "search_value": "Moonlight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Temple",
+              "search_value": "Temple"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "China",
+              "search_value": "China"
+            },
+            {
+              "display_value": "Taiwan",
+              "search_value": "Taiwan"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "China",
+              "search_value": "China"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:06:46",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "King Hu",
+              "search_value": "King+Hu"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Hua Hui-Ying",
+              "search_value": "Hua+Hui-Ying"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": " Lee Jia-chi",
+              "search_value": "+Lee+Jia-chi"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": " King Hu",
+              "search_value": "+King+Hu"
+            },
+            {
+              "display_value": "Chin-Chen Wang",
+              "search_value": "Chin-Chen+Wang"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

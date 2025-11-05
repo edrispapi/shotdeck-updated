@@ -1,0 +1,492 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04SG03DV",
+    "image_file": "04SG03DV.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Stranger",
+            "search_value": "24971"
+          }
+        ]
+      },
+      "full_title": "The Stranger",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "241a1c",
+            "search_value": "241a1c~25~1"
+          },
+          {
+            "display_value": "2a2c2f",
+            "search_value": "2a2c2f~25~1"
+          },
+          {
+            "display_value": "3b2d2a",
+            "search_value": "3b2d2a~25~1"
+          },
+          {
+            "display_value": "343836",
+            "search_value": "343836~25~1"
+          },
+          {
+            "display_value": "3d3f43",
+            "search_value": "3d3f43~25~1"
+          },
+          {
+            "display_value": "4e3a33",
+            "search_value": "4e3a33~25~1"
+          },
+          {
+            "display_value": "3d413d",
+            "search_value": "3d413d~25~1"
+          },
+          {
+            "display_value": "3c4142",
+            "search_value": "3c4142~25~1"
+          },
+          {
+            "display_value": "5c595b",
+            "search_value": "5c595b~25~1"
+          },
+          {
+            "display_value": "5a5b57",
+            "search_value": "5a5b57~25~1"
+          },
+          {
+            "display_value": "636763",
+            "search_value": "636763~25~1"
+          },
+          {
+            "display_value": "67686b",
+            "search_value": "67686b~25~1"
+          },
+          {
+            "display_value": "7d7e83",
+            "search_value": "7d7e83~25~1"
+          },
+          {
+            "display_value": "7f8484",
+            "search_value": "7f8484~25~1"
+          },
+          {
+            "display_value": "8a8b90",
+            "search_value": "8a8b90~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "beard",
+              "search_value": "beard"
+            },
+            {
+              "display_value": "long hair",
+              "search_value": "\"long+hair\""
+            },
+            {
+              "display_value": "investigating",
+              "search_value": "investigating"
+            },
+            {
+              "display_value": "investigation",
+              "search_value": "investigation"
+            },
+            {
+              "display_value": "documents",
+              "search_value": "documents"
+            },
+            {
+              "display_value": "criminal files",
+              "search_value": "\"criminal+files\""
+            },
+            {
+              "display_value": "file",
+              "search_value": "file"
+            },
+            {
+              "display_value": "black and white photo",
+              "search_value": "\"black+and+white+photo\""
+            },
+            {
+              "display_value": "document",
+              "search_value": "document"
+            },
+            {
+              "display_value": "research",
+              "search_value": "research"
+            },
+            {
+              "display_value": "folder",
+              "search_value": "folder"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Sean Harris",
+              "search_value": "Sean+Harris"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Close Up",
+              "search_value": "Extreme+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Fluorescent",
+              "search_value": "Fluorescent"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA",
+              "search_value": "ARRI+ALEXA"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2.8K / 2.8K ArriRaw",
+              "search_value": "2.8K+%2F+2.8K+ArriRaw"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Police Station",
+              "search_value": "Police+Station"
+            },
+            {
+              "display_value": "Office",
+              "search_value": "Office"
+            },
+            {
+              "display_value": "Desk",
+              "search_value": "Desk"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Oceania",
+              "search_value": "Oceania"
+            },
+            {
+              "display_value": "Australia",
+              "search_value": "Australia"
+            },
+            {
+              "display_value": "South Australia",
+              "search_value": "South+Australia"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Oceania",
+              "search_value": "Oceania"
+            },
+            {
+              "display_value": "Australia",
+              "search_value": "Australia"
+            },
+            {
+              "display_value": "South Australia",
+              "search_value": "South+Australia"
+            },
+            {
+              "display_value": "Adelaide",
+              "search_value": "Adelaide"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:57:49",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Thomas M. Wright",
+              "search_value": "Thomas+M.+Wright"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Sam Chiplin",
+              "search_value": "Sam+Chiplin"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Leah Popple",
+              "search_value": "Leah+Popple"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Mariot Kerr",
+              "search_value": "Mariot+Kerr"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Simon Njoo",
+              "search_value": "Simon+Njoo"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Olivier Fontenay",
+              "search_value": "Olivier+Fontenay"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

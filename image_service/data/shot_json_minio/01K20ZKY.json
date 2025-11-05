@@ -1,0 +1,548 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01K20ZKY",
+    "image_file": "01K20ZKY.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Saw III",
+            "search_value": "7100"
+          }
+        ]
+      },
+      "full_title": "Saw III",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2006",
+            "search_value": "2006"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "030405",
+            "search_value": "030405~25~1"
+          },
+          {
+            "display_value": "080b05",
+            "search_value": "080b05~25~1"
+          },
+          {
+            "display_value": "041609",
+            "search_value": "041609~25~1"
+          },
+          {
+            "display_value": "155b23",
+            "search_value": "155b23~25~1"
+          },
+          {
+            "display_value": "415915",
+            "search_value": "415915~25~1"
+          },
+          {
+            "display_value": "597130",
+            "search_value": "597130~25~1"
+          },
+          {
+            "display_value": "2e7c34",
+            "search_value": "2e7c34~25~1"
+          },
+          {
+            "display_value": "4da152",
+            "search_value": "4da152~25~1"
+          },
+          {
+            "display_value": "86a132",
+            "search_value": "86a132~25~1"
+          },
+          {
+            "display_value": "6fbc7e",
+            "search_value": "6fbc7e~25~1"
+          },
+          {
+            "display_value": "9fb76f",
+            "search_value": "9fb76f~25~1"
+          },
+          {
+            "display_value": "9ad4ac",
+            "search_value": "9ad4ac~25~1"
+          },
+          {
+            "display_value": "c1d08b",
+            "search_value": "c1d08b~25~1"
+          },
+          {
+            "display_value": "bfdeb3",
+            "search_value": "bfdeb3~25~1"
+          },
+          {
+            "display_value": "cedeaa",
+            "search_value": "cedeaa~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "green light",
+              "search_value": "\"green+light\""
+            },
+            {
+              "display_value": "green glow",
+              "search_value": "\"green+glow\""
+            },
+            {
+              "display_value": "jigsaw trap",
+              "search_value": "\"jigsaw+trap\""
+            },
+            {
+              "display_value": "trapped",
+              "search_value": "trapped"
+            },
+            {
+              "display_value": "torture",
+              "search_value": "torture"
+            },
+            {
+              "display_value": "tortured",
+              "search_value": "tortured"
+            },
+            {
+              "display_value": "suspended in air",
+              "search_value": "\"suspended+in+air\""
+            },
+            {
+              "display_value": "torture device",
+              "search_value": "\"torture+device\""
+            },
+            {
+              "display_value": "victim",
+              "search_value": "victim"
+            },
+            {
+              "display_value": "murdered",
+              "search_value": "murdered"
+            },
+            {
+              "display_value": "killed",
+              "search_value": "killed"
+            },
+            {
+              "display_value": "dead body",
+              "search_value": "\"dead+body\""
+            },
+            {
+              "display_value": "sewers",
+              "search_value": "sewers"
+            },
+            {
+              "display_value": "underground tunnel",
+              "search_value": "\"underground+tunnel\""
+            },
+            {
+              "display_value": "metal contraption",
+              "search_value": "\"metal+contraption\""
+            },
+            {
+              "display_value": "contraption",
+              "search_value": "contraption"
+            },
+            {
+              "display_value": "chains",
+              "search_value": "chains"
+            },
+            {
+              "display_value": "metal chains",
+              "search_value": "\"metal+chains\""
+            },
+            {
+              "display_value": "chained",
+              "search_value": "chained"
+            },
+            {
+              "display_value": "limp body",
+              "search_value": "\"limp+body\""
+            },
+            {
+              "display_value": "dangling",
+              "search_value": "dangling"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            },
+            {
+              "display_value": "Symmetrical",
+              "search_value": "Symmetrical"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Mixed light",
+              "search_value": "Mixed+light"
+            },
+            {
+              "display_value": "Fluorescent",
+              "search_value": "Fluorescent"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Cameras",
+              "search_value": "Panavision+Cameras"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Lenses",
+              "search_value": "Panavision+Lenses"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Underground Sewer",
+              "search_value": "Underground+Sewer"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New Jersey",
+              "search_value": "New+Jersey"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Canada",
+              "search_value": "Canada"
+            },
+            {
+              "display_value": "Ontario",
+              "search_value": "Ontario"
+            },
+            {
+              "display_value": "Toronto",
+              "search_value": "Toronto"
+            },
+            {
+              "display_value": "Cinespace",
+              "search_value": "Cinespace"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:17:11",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Darren Lynn Bousman",
+              "search_value": "Darren+Lynn+Bousman"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "David A. Armstrong",
+              "search_value": "David+A.+Armstrong"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "David Hackl",
+              "search_value": "David+Hackl"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Alex Kavanagh",
+              "search_value": "Alex+Kavanagh"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Kevin Greutert",
+              "search_value": "Kevin+Greutert"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Chris Wallace",
+              "search_value": "Chris+Wallace"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

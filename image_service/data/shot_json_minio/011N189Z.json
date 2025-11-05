@@ -1,0 +1,484 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "011N189Z",
+    "image_file": "011N189Z.jpg",
+    "mime": "image/jpeg",
+    "width": "1790",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Neptune Frost",
+            "search_value": "26860"
+          }
+        ]
+      },
+      "full_title": "Neptune Frost",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "171e1c",
+            "search_value": "171e1c~25~1"
+          },
+          {
+            "display_value": "1d242a",
+            "search_value": "1d242a~25~1"
+          },
+          {
+            "display_value": "392a28",
+            "search_value": "392a28~25~1"
+          },
+          {
+            "display_value": "342d30",
+            "search_value": "342d30~25~1"
+          },
+          {
+            "display_value": "373e4c",
+            "search_value": "373e4c~25~1"
+          },
+          {
+            "display_value": "463b3f",
+            "search_value": "463b3f~25~1"
+          },
+          {
+            "display_value": "4b3a37",
+            "search_value": "4b3a37~25~1"
+          },
+          {
+            "display_value": "5d4d4b",
+            "search_value": "5d4d4b~25~1"
+          },
+          {
+            "display_value": "455d47",
+            "search_value": "455d47~25~1"
+          },
+          {
+            "display_value": "60565a",
+            "search_value": "60565a~25~1"
+          },
+          {
+            "display_value": "555a67",
+            "search_value": "555a67~25~1"
+          },
+          {
+            "display_value": "7a7b8d",
+            "search_value": "7a7b8d~25~1"
+          },
+          {
+            "display_value": "867a85",
+            "search_value": "867a85~25~1"
+          },
+          {
+            "display_value": "948591",
+            "search_value": "948591~25~1"
+          },
+          {
+            "display_value": "8b8a9f",
+            "search_value": "8b8a9f~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "laying in rocks",
+              "search_value": "\"laying+in+rocks\""
+            },
+            {
+              "display_value": "dead",
+              "search_value": "dead"
+            },
+            {
+              "display_value": "dead body",
+              "search_value": "\"dead+body\""
+            },
+            {
+              "display_value": "rocky terrain",
+              "search_value": "\"rocky+terrain\""
+            },
+            {
+              "display_value": "unconscious",
+              "search_value": "unconscious"
+            },
+            {
+              "display_value": "deceased",
+              "search_value": "deceased"
+            },
+            {
+              "display_value": "being left behind",
+              "search_value": "\"being+left+behind\""
+            },
+            {
+              "display_value": "drum",
+              "search_value": "drum"
+            },
+            {
+              "display_value": "morbid",
+              "search_value": "morbid"
+            },
+            {
+              "display_value": "fatal",
+              "search_value": "fatal"
+            },
+            {
+              "display_value": "fallen over",
+              "search_value": "\"fallen+over\""
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            },
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Lomo Lenses",
+              "search_value": "Lomo+Lenses"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2.8K / 2.8K ArriRaw",
+              "search_value": "2.8K+%2F+2.8K+ArriRaw"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Mining Town",
+              "search_value": "Mining+Town"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "Burundi",
+              "search_value": "Burundi"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "Republic of Rwanda",
+              "search_value": "Republic+of+Rwanda"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:06:20",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Music",
+              "search_value": "Movie%2FTV+-+Music"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Saul Williams",
+              "search_value": "Saul+Williams"
+            },
+            {
+              "display_value": "Anisia Uzeyman",
+              "search_value": "Anisia+Uzeyman"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Anisia Uzeyman",
+              "search_value": "Anisia+Uzeyman"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Cédric Mizero",
+              "search_value": "C%C3%A9dric+Mizero"
+            },
+            {
+              "display_value": "Antoine Nshimiyimana",
+              "search_value": "Antoine+Nshimiyimana"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Cédric Mizero",
+              "search_value": "C%C3%A9dric+Mizero"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Dody Dorn",
+              "search_value": "Dody+Dorn"
+            },
+            {
+              "display_value": "Anisha Acharya",
+              "search_value": "Anisha+Acharya"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Nicolas Perret",
+              "search_value": "Nicolas+Perret"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

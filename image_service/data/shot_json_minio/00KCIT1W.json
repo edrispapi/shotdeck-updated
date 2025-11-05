@@ -1,0 +1,442 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00KCIT1W",
+    "image_file": "00KCIT1W.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1036",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Time Bandits",
+            "search_value": "274"
+          }
+        ]
+      },
+      "full_title": "Time Bandits",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1981",
+            "search_value": "1981"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "010102",
+            "search_value": "010102~25~1"
+          },
+          {
+            "display_value": "010202",
+            "search_value": "010202~25~1"
+          },
+          {
+            "display_value": "080506",
+            "search_value": "080506~25~1"
+          },
+          {
+            "display_value": "281d15",
+            "search_value": "281d15~25~1"
+          },
+          {
+            "display_value": "55372f",
+            "search_value": "55372f~25~1"
+          },
+          {
+            "display_value": "4c3f30",
+            "search_value": "4c3f30~25~1"
+          },
+          {
+            "display_value": "665348",
+            "search_value": "665348~25~1"
+          },
+          {
+            "display_value": "736065",
+            "search_value": "736065~25~1"
+          },
+          {
+            "display_value": "99746c",
+            "search_value": "99746c~25~1"
+          },
+          {
+            "display_value": "8b7882",
+            "search_value": "8b7882~25~1"
+          },
+          {
+            "display_value": "978891",
+            "search_value": "978891~25~1"
+          },
+          {
+            "display_value": "9d8e86",
+            "search_value": "9d8e86~25~1"
+          },
+          {
+            "display_value": "d3d5d9",
+            "search_value": "d3d5d9~25~1"
+          },
+          {
+            "display_value": "ddddd7",
+            "search_value": "ddddd7~25~1"
+          },
+          {
+            "display_value": "e6e9e5",
+            "search_value": "e6e9e5~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "little person",
+              "search_value": "\"little+person\""
+            },
+            {
+              "display_value": "dwarf",
+              "search_value": "dwarf"
+            },
+            {
+              "display_value": "gang of adventurers",
+              "search_value": "\"gang+of+adventurers\""
+            },
+            {
+              "display_value": "little people",
+              "search_value": "\"little+people\""
+            },
+            {
+              "display_value": "grey suit",
+              "search_value": "\"grey+suit\""
+            },
+            {
+              "display_value": "ogre",
+              "search_value": "ogre"
+            },
+            {
+              "display_value": "pulling on arms",
+              "search_value": "\"pulling+on+arms\""
+            },
+            {
+              "display_value": "stretched out",
+              "search_value": "\"stretched+out\""
+            },
+            {
+              "display_value": "throwing overboard",
+              "search_value": "\"throwing+overboard\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Craig Warnock",
+              "search_value": "Craig+Warnock"
+            },
+            {
+              "display_value": "David Rappaport",
+              "search_value": "David+Rappaport"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "JDC Camera",
+              "search_value": "JDC+Camera"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Ship",
+              "search_value": "Ship"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Time of Legends",
+              "search_value": "Time+of+Legends"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:09:41",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Terry Gilliam",
+              "search_value": "Terry+Gilliam"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Peter Biziou",
+              "search_value": "Peter+Biziou"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Milly Burns",
+              "search_value": "Milly+Burns"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "James Acheson",
+              "search_value": "James+Acheson"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Julian Doyle",
+              "search_value": "Julian+Doyle"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

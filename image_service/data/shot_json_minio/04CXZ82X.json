@@ -1,0 +1,510 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04CXZ82X",
+    "image_file": "04CXZ82X.jpg",
+    "mime": "image/jpeg",
+    "width": "1292",
+    "height": "1078",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Lighthouse",
+            "search_value": "2762"
+          }
+        ]
+      },
+      "full_title": "The Lighthouse",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2019",
+            "search_value": "2019"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "2c2c2c",
+            "search_value": "2c2c2c~25~1"
+          },
+          {
+            "display_value": "2d2d2e",
+            "search_value": "2d2d2e~25~1"
+          },
+          {
+            "display_value": "302f30",
+            "search_value": "302f30~25~1"
+          },
+          {
+            "display_value": "3a3b3b",
+            "search_value": "3a3b3b~25~1"
+          },
+          {
+            "display_value": "403f41",
+            "search_value": "403f41~25~1"
+          },
+          {
+            "display_value": "585959",
+            "search_value": "585959~25~1"
+          },
+          {
+            "display_value": "595959",
+            "search_value": "595959~25~1"
+          },
+          {
+            "display_value": "5a595b",
+            "search_value": "5a595b~25~1"
+          },
+          {
+            "display_value": "5b5a5b",
+            "search_value": "5b5a5b~25~1"
+          },
+          {
+            "display_value": "89898a",
+            "search_value": "89898a~25~1"
+          },
+          {
+            "display_value": "8a898a",
+            "search_value": "8a898a~25~1"
+          },
+          {
+            "display_value": "a3a3a3",
+            "search_value": "a3a3a3~25~1"
+          },
+          {
+            "display_value": "c5c5c5",
+            "search_value": "c5c5c5~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "warning someone",
+              "search_value": "\"warning+someone\""
+            },
+            {
+              "display_value": "stressed out",
+              "search_value": "\"stressed+out\""
+            },
+            {
+              "display_value": "head down eyes up",
+              "search_value": "\"head+down+eyes+up\""
+            },
+            {
+              "display_value": "serious tone",
+              "search_value": "\"serious+tone\""
+            },
+            {
+              "display_value": "freaked out",
+              "search_value": "\"freaked+out\""
+            },
+            {
+              "display_value": "frightened",
+              "search_value": "frightened"
+            },
+            {
+              "display_value": "leather gloves",
+              "search_value": "\"leather+gloves\""
+            },
+            {
+              "display_value": "rappelling down",
+              "search_value": "\"rappelling+down\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Robert Pattinson",
+              "search_value": "Robert+Pattinson"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1800s",
+              "search_value": "1800s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            },
+            {
+              "display_value": "Short side",
+              "search_value": "Short+side"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.20",
+              "search_value": "1.20"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Millennium / Millenium XL / XL2",
+              "search_value": "Panavision+Millennium+%2F+Millenium+XL+%2F+XL2"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Pathe Lenses",
+              "search_value": "Pathe+Lenses"
+            },
+            {
+              "display_value": "Petzval Lenses",
+              "search_value": "Petzval+Lenses"
+            },
+            {
+              "display_value": "Bausch and Lomb - Original Baltar",
+              "search_value": "Bausch+and+Lomb+-+Original+Baltar"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            },
+            {
+              "display_value": "5222/7222       Kodak Double X",
+              "search_value": "5222%2F7222+++++++Kodak+Double+X"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Lighthouse",
+              "search_value": "Lighthouse"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New England",
+              "search_value": "New+England"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Canada",
+              "search_value": "Canada"
+            },
+            {
+              "display_value": "Nova Scotia",
+              "search_value": "Nova+Scotia"
+            },
+            {
+              "display_value": "Cape Forchu",
+              "search_value": "Cape+Forchu"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:29:51",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "Cosmic Horror",
+              "search_value": "Movie%2FTV+-+Cosmic+Horror"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Magical Realism",
+              "search_value": "Movie%2FTV+-+Magical+Realism"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Robert Eggers",
+              "search_value": "Robert+Eggers"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Jarin Blaschke",
+              "search_value": "Jarin+Blaschke"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Craig Lathrop",
+              "search_value": "Craig+Lathrop"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Linda Muir",
+              "search_value": "Linda+Muir"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Louise Ford",
+              "search_value": "Louise+Ford"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Joe Gawler",
+              "search_value": "Joe+Gawler"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

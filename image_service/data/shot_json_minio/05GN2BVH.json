@@ -1,0 +1,448 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05GN2BVH",
+    "image_file": "05GN2BVH.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Inspection",
+            "search_value": "42649"
+          }
+        ]
+      },
+      "full_title": "The Inspection",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "131b18",
+            "search_value": "131b18~25~1"
+          },
+          {
+            "display_value": "142023",
+            "search_value": "142023~25~1"
+          },
+          {
+            "display_value": "292821",
+            "search_value": "292821~25~1"
+          },
+          {
+            "display_value": "374540",
+            "search_value": "374540~25~1"
+          },
+          {
+            "display_value": "2e474b",
+            "search_value": "2e474b~25~1"
+          },
+          {
+            "display_value": "515f5a",
+            "search_value": "515f5a~25~1"
+          },
+          {
+            "display_value": "4b6267",
+            "search_value": "4b6267~25~1"
+          },
+          {
+            "display_value": "626356",
+            "search_value": "626356~25~1"
+          },
+          {
+            "display_value": "758582",
+            "search_value": "758582~25~1"
+          },
+          {
+            "display_value": "a8a595",
+            "search_value": "a8a595~25~1"
+          },
+          {
+            "display_value": "a4afaa",
+            "search_value": "a4afaa~25~1"
+          },
+          {
+            "display_value": "bbc3ba",
+            "search_value": "bbc3ba~25~1"
+          },
+          {
+            "display_value": "c3c3b3",
+            "search_value": "c3c3b3~25~1"
+          },
+          {
+            "display_value": "c3cac1",
+            "search_value": "c3cac1~25~1"
+          },
+          {
+            "display_value": "d7d8ca",
+            "search_value": "d7d8ca~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "lens flare",
+              "search_value": "\"lens+flare\""
+            },
+            {
+              "display_value": "sun flare",
+              "search_value": "\"sun+flare\""
+            },
+            {
+              "display_value": "sun rays",
+              "search_value": "\"sun+rays\""
+            },
+            {
+              "display_value": "tall trees",
+              "search_value": "\"tall+trees\""
+            },
+            {
+              "display_value": "nature",
+              "search_value": "nature"
+            },
+            {
+              "display_value": "starburst",
+              "search_value": "starburst"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Lenses",
+              "search_value": "Panavision+Lenses"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Field",
+              "search_value": "Field"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "South Carolina",
+              "search_value": "South+Carolina"
+            },
+            {
+              "display_value": "Paris Island",
+              "search_value": "Paris+Island"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Mississippi",
+              "search_value": "Mississippi"
+            },
+            {
+              "display_value": "Jackson",
+              "search_value": "Jackson"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:20:27",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Elegance Bratton",
+              "search_value": "Elegance+Bratton"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Lachlan Milne",
+              "search_value": "Lachlan+Milne"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Erik Louis Robert",
+              "search_value": "Erik+Louis+Robert"
+            },
+            {
+              "display_value": "Tommy Love",
+              "search_value": "Tommy+Love"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Fernando Rodriguez\t",
+              "search_value": "Fernando+Rodriguez%09"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Oriana Soddu",
+              "search_value": "Oriana+Soddu"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Nat Jencks",
+              "search_value": "Nat+Jencks"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

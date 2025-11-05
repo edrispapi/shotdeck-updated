@@ -1,0 +1,512 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04VWTKSP",
+    "image_file": "04VWTKSP.jpg",
+    "mime": "image/jpeg",
+    "width": "2880",
+    "height": "1198",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Curious Case of Benjamin Button",
+            "search_value": "1387"
+          }
+        ]
+      },
+      "full_title": "The Curious Case of Benjamin Button",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2008",
+            "search_value": "2008"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d0001",
+            "search_value": "0d0001~25~1"
+          },
+          {
+            "display_value": "32210c",
+            "search_value": "32210c~25~1"
+          },
+          {
+            "display_value": "544321",
+            "search_value": "544321~25~1"
+          },
+          {
+            "display_value": "554e51",
+            "search_value": "554e51~25~1"
+          },
+          {
+            "display_value": "535454",
+            "search_value": "535454~25~1"
+          },
+          {
+            "display_value": "6b5c40",
+            "search_value": "6b5c40~25~1"
+          },
+          {
+            "display_value": "767679",
+            "search_value": "767679~25~1"
+          },
+          {
+            "display_value": "807f83",
+            "search_value": "807f83~25~1"
+          },
+          {
+            "display_value": "948261",
+            "search_value": "948261~25~1"
+          },
+          {
+            "display_value": "a79f7f",
+            "search_value": "a79f7f~25~1"
+          },
+          {
+            "display_value": "c2cba3",
+            "search_value": "c2cba3~25~1"
+          },
+          {
+            "display_value": "ccd9ad",
+            "search_value": "ccd9ad~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "speaking",
+              "search_value": "speaking"
+            },
+            {
+              "display_value": "talking",
+              "search_value": "talking"
+            },
+            {
+              "display_value": "conversation",
+              "search_value": "conversation"
+            },
+            {
+              "display_value": "red hair",
+              "search_value": "\"red+hair\""
+            },
+            {
+              "display_value": "ginger",
+              "search_value": "ginger"
+            },
+            {
+              "display_value": "red dress",
+              "search_value": "\"red+dress\""
+            },
+            {
+              "display_value": "sitting down",
+              "search_value": "\"sitting+down\""
+            },
+            {
+              "display_value": "sitting at table",
+              "search_value": "\"sitting+at+table\""
+            },
+            {
+              "display_value": "date",
+              "search_value": "date"
+            },
+            {
+              "display_value": "taking shot",
+              "search_value": "\"taking+shot\""
+            },
+            {
+              "display_value": "taking drink",
+              "search_value": "\"taking+drink\""
+            },
+            {
+              "display_value": "fancy",
+              "search_value": "fancy"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Cate Blanchett",
+              "search_value": "Cate+Blanchett"
+            },
+            {
+              "display_value": "Brad Pitt",
+              "search_value": "Brad+Pitt"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arri 435 / 435ES",
+              "search_value": "Arri+435+%2F+435ES"
+            },
+            {
+              "display_value": "Sony F23 CineAlta",
+              "search_value": "Sony+F23+CineAlta"
+            },
+            {
+              "display_value": "Thompson Viper FilmStream",
+              "search_value": "Thompson+Viper+FilmStream"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5201/7201 \tVision 2\t50D",
+              "search_value": "5201%2F7201+%09Vision+2%0950D"
+            },
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            },
+            {
+              "display_value": "HD / 1080p",
+              "search_value": "HD+%2F+1080p"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Restaurant",
+              "search_value": "Restaurant"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Louisiana",
+              "search_value": "Louisiana"
+            },
+            {
+              "display_value": "New Orleans",
+              "search_value": "New+Orleans"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Louisiana",
+              "search_value": "Louisiana"
+            },
+            {
+              "display_value": "New Orleans",
+              "search_value": "New+Orleans"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:31:23",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "Magical Realism",
+              "search_value": "Movie%2FTV+-+Magical+Realism"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "David Fincher",
+              "search_value": "David+Fincher"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Claudio Miranda",
+              "search_value": "Claudio+Miranda"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Donald Graham Burt",
+              "search_value": "Donald+Graham+Burt"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jacqueline West",
+              "search_value": "Jacqueline+West"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Kirk Baxter",
+              "search_value": "Kirk+Baxter"
+            },
+            {
+              "display_value": "Angus Wall",
+              "search_value": "Angus+Wall"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "David Orr",
+              "search_value": "David+Orr"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

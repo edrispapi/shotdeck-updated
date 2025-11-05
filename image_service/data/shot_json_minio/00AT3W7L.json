@@ -1,0 +1,478 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00AT3W7L",
+    "image_file": "00AT3W7L.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1038",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Chicken Run",
+            "search_value": "8269"
+          }
+        ]
+      },
+      "full_title": "Chicken Run",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2000",
+            "search_value": "2000"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "090f23",
+            "search_value": "090f23~25~1"
+          },
+          {
+            "display_value": "1b0f11",
+            "search_value": "1b0f11~25~1"
+          },
+          {
+            "display_value": "151816",
+            "search_value": "151816~25~1"
+          },
+          {
+            "display_value": "1c1815",
+            "search_value": "1c1815~25~1"
+          },
+          {
+            "display_value": "463d3a",
+            "search_value": "463d3a~25~1"
+          },
+          {
+            "display_value": "39423d",
+            "search_value": "39423d~25~1"
+          },
+          {
+            "display_value": "484430",
+            "search_value": "484430~25~1"
+          },
+          {
+            "display_value": "43474b",
+            "search_value": "43474b~25~1"
+          },
+          {
+            "display_value": "57544a",
+            "search_value": "57544a~25~1"
+          },
+          {
+            "display_value": "596058",
+            "search_value": "596058~25~1"
+          },
+          {
+            "display_value": "798574",
+            "search_value": "798574~25~1"
+          },
+          {
+            "display_value": "909487",
+            "search_value": "909487~25~1"
+          },
+          {
+            "display_value": "899887",
+            "search_value": "899887~25~1"
+          },
+          {
+            "display_value": "b2c7c0",
+            "search_value": "b2c7c0~25~1"
+          },
+          {
+            "display_value": "c4d5d0",
+            "search_value": "c4d5d0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "villainess",
+              "search_value": "villainess"
+            },
+            {
+              "display_value": "evil",
+              "search_value": "evil"
+            },
+            {
+              "display_value": "antagonist",
+              "search_value": "antagonist"
+            },
+            {
+              "display_value": "farmer's wife",
+              "search_value": "\"farmer%27s+wife\""
+            },
+            {
+              "display_value": "hair in bun",
+              "search_value": "\"hair+in+bun\""
+            },
+            {
+              "display_value": "scary lady",
+              "search_value": "\"scary+lady\""
+            },
+            {
+              "display_value": "hair tied back",
+              "search_value": "\"hair+tied+back\""
+            },
+            {
+              "display_value": "claymation",
+              "search_value": "claymation"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1940s",
+              "search_value": "1940s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Moonlight",
+              "search_value": "Moonlight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Mitchell BNC",
+              "search_value": "Mitchell+BNC"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Canon K35",
+              "search_value": "Canon+K35"
+            },
+            {
+              "display_value": "Cooke Cinetal",
+              "search_value": "Cooke+Cinetal"
+            },
+            {
+              "display_value": "Cooke Varotal Lenses",
+              "search_value": "Cooke+Varotal+Lenses"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Skies",
+              "search_value": "Skies"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "Yorkshire",
+              "search_value": "Yorkshire"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "Bristol",
+              "search_value": "Bristol"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:16:17",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Nick Park",
+              "search_value": "Nick+Park"
+            },
+            {
+              "display_value": "Peter Lord",
+              "search_value": "Peter+Lord"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Tristan Oliver",
+              "search_value": "Tristan+Oliver"
+            },
+            {
+              "display_value": "Frank Passingham",
+              "search_value": "Frank+Passingham"
+            },
+            {
+              "display_value": "Dave Alex Riddett",
+              "search_value": "Dave+Alex+Riddett"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Phil Lewis",
+              "search_value": "Phil+Lewis"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Sally Taylor",
+              "search_value": "Sally+Taylor"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Mark Solomon",
+              "search_value": "Mark+Solomon"
+            },
+            {
+              "display_value": "Robert Francis",
+              "search_value": "Robert+Francis"
+            },
+            {
+              "display_value": "Tamsin Parry",
+              "search_value": "Tamsin+Parry"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

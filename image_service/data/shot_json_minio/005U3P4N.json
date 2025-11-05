@@ -1,0 +1,498 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "005U3P4N",
+    "image_file": "005U3P4N.jpg",
+    "mime": "image/jpeg",
+    "width": "2207",
+    "height": "1607",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Stalker",
+            "search_value": "1400"
+          }
+        ]
+      },
+      "full_title": "Stalker",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1979",
+            "search_value": "1979"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d0304",
+            "search_value": "0d0304~25~1"
+          },
+          {
+            "display_value": "36210b",
+            "search_value": "36210b~25~1"
+          },
+          {
+            "display_value": "5d4418",
+            "search_value": "5d4418~25~1"
+          },
+          {
+            "display_value": "7c6129",
+            "search_value": "7c6129~25~1"
+          },
+          {
+            "display_value": "a18947",
+            "search_value": "a18947~25~1"
+          },
+          {
+            "display_value": "bba665",
+            "search_value": "bba665~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "apprehensive",
+              "search_value": "apprehensive"
+            },
+            {
+              "display_value": "cautious",
+              "search_value": "cautious"
+            },
+            {
+              "display_value": "cynical",
+              "search_value": "cynical"
+            },
+            {
+              "display_value": "furrowed brow",
+              "search_value": "\"furrowed+brow\""
+            },
+            {
+              "display_value": "looking around",
+              "search_value": "\"looking+around\""
+            },
+            {
+              "display_value": "looking back",
+              "search_value": "\"looking+back\""
+            },
+            {
+              "display_value": "looking over shoulder",
+              "search_value": "\"looking+over+shoulder\""
+            },
+            {
+              "display_value": "on the run",
+              "search_value": "\"on+the+run\""
+            },
+            {
+              "display_value": "shaved head",
+              "search_value": "\"shaved+head\""
+            },
+            {
+              "display_value": "skeptical",
+              "search_value": "skeptical"
+            },
+            {
+              "display_value": "soviet union",
+              "search_value": "\"soviet+union\""
+            },
+            {
+              "display_value": "suspicious",
+              "search_value": "suspicious"
+            },
+            {
+              "display_value": "suspicious look",
+              "search_value": "\"suspicious+look\""
+            },
+            {
+              "display_value": "unsure",
+              "search_value": "unsure"
+            },
+            {
+              "display_value": "ussr",
+              "search_value": "ussr"
+            },
+            {
+              "display_value": "wary",
+              "search_value": "wary"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Aleksandr Kaydanovskiy",
+              "search_value": "Aleksandr+Kaydanovskiy"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            },
+            {
+              "display_value": "Short side",
+              "search_value": "Short+side"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.37",
+              "search_value": "1.37"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Mitchell BNC",
+              "search_value": "Mitchell+BNC"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Super Speed",
+              "search_value": "Zeiss+Super+Speed"
+            },
+            {
+              "display_value": "Cooke Varotel Zoom lenses",
+              "search_value": "Cooke+Varotel+Zoom+lenses"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Street",
+              "search_value": "Street"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Estonia",
+              "search_value": "Estonia"
+            },
+            {
+              "display_value": "Tallinn",
+              "search_value": "Tallinn"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:36:17",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "Cosmic Horror",
+              "search_value": "Movie%2FTV+-+Cosmic+Horror"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Lo-Fi Sci-Fi",
+              "search_value": "Movie%2FTV+-+Lo-Fi+Sci-Fi"
+            },
+            {
+              "display_value": "Magical Realism",
+              "search_value": "Movie%2FTV+-+Magical+Realism"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Andrei Tarkovsky",
+              "search_value": "Andrei+Tarkovsky"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Aleksandr Knyazhinsky",
+              "search_value": "Aleksandr+Knyazhinsky"
+            },
+            {
+              "display_value": "Leonid Kalashnikov",
+              "search_value": "Leonid+Kalashnikov"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Aleksandr Boym",
+              "search_value": "Aleksandr+Boym"
+            },
+            {
+              "display_value": "Andrei Tarkovsky",
+              "search_value": "Andrei+Tarkovsky"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Nelli Fomina",
+              "search_value": "Nelli+Fomina"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Lyudmila Fejginova",
+              "search_value": "Lyudmila+Fejginova"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Bozhena Maslennikova",
+              "search_value": "Bozhena+Maslennikova"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

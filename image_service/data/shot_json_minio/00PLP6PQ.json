@@ -1,0 +1,444 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00PLP6PQ",
+    "image_file": "00PLP6PQ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1030",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Sidewalls",
+            "search_value": "8375"
+          }
+        ]
+      },
+      "full_title": "Sidewalls",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2011",
+            "search_value": "2011"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "20140e",
+            "search_value": "20140e~25~1"
+          },
+          {
+            "display_value": "1d2423",
+            "search_value": "1d2423~25~1"
+          },
+          {
+            "display_value": "152b3f",
+            "search_value": "152b3f~25~1"
+          },
+          {
+            "display_value": "5b322f",
+            "search_value": "5b322f~25~1"
+          },
+          {
+            "display_value": "2e464d",
+            "search_value": "2e464d~25~1"
+          },
+          {
+            "display_value": "6b524e",
+            "search_value": "6b524e~25~1"
+          },
+          {
+            "display_value": "71565c",
+            "search_value": "71565c~25~1"
+          },
+          {
+            "display_value": "53636a",
+            "search_value": "53636a~25~1"
+          },
+          {
+            "display_value": "5b6362",
+            "search_value": "5b6362~25~1"
+          },
+          {
+            "display_value": "758387",
+            "search_value": "758387~25~1"
+          },
+          {
+            "display_value": "7a8381",
+            "search_value": "7a8381~25~1"
+          },
+          {
+            "display_value": "8e878b",
+            "search_value": "8e878b~25~1"
+          },
+          {
+            "display_value": "908c8a",
+            "search_value": "908c8a~25~1"
+          },
+          {
+            "display_value": "879194",
+            "search_value": "879194~25~1"
+          },
+          {
+            "display_value": "939b99",
+            "search_value": "939b99~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "folders",
+              "search_value": "folders"
+            },
+            {
+              "display_value": "online",
+              "search_value": "online"
+            },
+            {
+              "display_value": "updating status",
+              "search_value": "\"updating+status\""
+            },
+            {
+              "display_value": "toolbar",
+              "search_value": "toolbar"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Close Up",
+              "search_value": "Extreme+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            },
+            {
+              "display_value": "Overhead",
+              "search_value": "Overhead"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 435",
+              "search_value": "Arriflex+435"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Computer Screen",
+              "search_value": "Computer+Screen"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Argentina",
+              "search_value": "Argentina"
+            },
+            {
+              "display_value": "Buenos Aires",
+              "search_value": "Buenos+Aires"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Argentina",
+              "search_value": "Argentina"
+            },
+            {
+              "display_value": "Federal District",
+              "search_value": "Federal+District"
+            },
+            {
+              "display_value": "Buenos Aires",
+              "search_value": "Buenos+Aires"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:04:19",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Rom-Com",
+              "search_value": "Movie%2FTV+-+Rom-Com"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Gustavo Taretto",
+              "search_value": "Gustavo+Taretto"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Leandro Martínez",
+              "search_value": "Leandro+Mart%C3%ADnez"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Romeo Fasce",
+              "search_value": "Romeo+Fasce"
+            },
+            {
+              "display_value": "Luciana Quartaruolo\t",
+              "search_value": "Luciana+Quartaruolo%09"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Flavia Gaitán",
+              "search_value": "Flavia+Gait%C3%A1n"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Pablo Mari",
+              "search_value": "Pablo+Mari"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Martin Becker",
+              "search_value": "Martin+Becker"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,446 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02WRT8VI",
+    "image_file": "02WRT8VI.jpg",
+    "mime": "image/jpeg",
+    "width": "1910",
+    "height": "870",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Patton",
+            "search_value": "2368"
+          }
+        ]
+      },
+      "full_title": "Patton",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1970",
+            "search_value": "1970"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "161113",
+            "search_value": "161113~25~1"
+          },
+          {
+            "display_value": "251510",
+            "search_value": "251510~25~1"
+          },
+          {
+            "display_value": "2a3168",
+            "search_value": "2a3168~25~1"
+          },
+          {
+            "display_value": "6a2d21",
+            "search_value": "6a2d21~25~1"
+          },
+          {
+            "display_value": "65575e",
+            "search_value": "65575e~25~1"
+          },
+          {
+            "display_value": "aa3b27",
+            "search_value": "aa3b27~25~1"
+          },
+          {
+            "display_value": "aa6a64",
+            "search_value": "aa6a64~25~1"
+          },
+          {
+            "display_value": "baaba8",
+            "search_value": "baaba8~25~1"
+          },
+          {
+            "display_value": "b9b7bc",
+            "search_value": "b9b7bc~25~1"
+          },
+          {
+            "display_value": "beb9bc",
+            "search_value": "beb9bc~25~1"
+          },
+          {
+            "display_value": "c0bdc4",
+            "search_value": "c0bdc4~25~1"
+          },
+          {
+            "display_value": "c2bdc1",
+            "search_value": "c2bdc1~25~1"
+          },
+          {
+            "display_value": "c4c1c9",
+            "search_value": "c4c1c9~25~1"
+          },
+          {
+            "display_value": "c7c1c1",
+            "search_value": "c7c1c1~25~1"
+          },
+          {
+            "display_value": "c6c1c5",
+            "search_value": "c6c1c5~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "american flag backdrop",
+              "search_value": "\"american+flag+backdrop\""
+            },
+            {
+              "display_value": "american flag background",
+              "search_value": "\"american+flag+background\""
+            },
+            {
+              "display_value": "military general",
+              "search_value": "\"military+general\""
+            },
+            {
+              "display_value": "military salute",
+              "search_value": "\"military+salute\""
+            },
+            {
+              "display_value": "red and white striped background",
+              "search_value": "\"red+and+white+striped+background\""
+            },
+            {
+              "display_value": "red and white stripes",
+              "search_value": "\"red+and+white+stripes\""
+            },
+            {
+              "display_value": "decorated official",
+              "search_value": "\"decorated+official\""
+            },
+            {
+              "display_value": "standing in formation",
+              "search_value": "\"standing+in+formation\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "George C. Scott",
+              "search_value": "George+C.+Scott"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1940s",
+              "search_value": "1940s"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            },
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 65mm / 70mm",
+              "search_value": "Film+-+65mm+%2F+70mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            },
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            },
+            {
+              "display_value": "Symmetrical",
+              "search_value": "Symmetrical"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.20",
+              "search_value": "2.20"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5254/7254                     100T",
+              "search_value": "5254%2F7254+++++++++++++++++++++100T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Spain",
+              "search_value": "Spain"
+            },
+            {
+              "display_value": "Madrid",
+              "search_value": "Madrid"
+            },
+            {
+              "display_value": "Sevilla Studios",
+              "search_value": "Sevilla+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:00:38",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            },
+            {
+              "display_value": "War",
+              "search_value": "Movie%2FTV+-+War"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Franklin J. Schaffner",
+              "search_value": "Franklin+J.+Schaffner"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Fred J. Koenekamp",
+              "search_value": "Fred+J.+Koenekamp"
+            },
+            {
+              "display_value": "Russ Meyer",
+              "search_value": "Russ+Meyer"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Urie McCleary,Gil Parrondo",
+              "search_value": "Urie+McCleary%2CGil+Parrondo"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Hugh S. Fowler",
+              "search_value": "Hugh+S.+Fowler"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

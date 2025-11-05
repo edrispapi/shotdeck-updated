@@ -1,0 +1,448 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01NPFWEX",
+    "image_file": "01NPFWEX.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Sopranos",
+            "search_value": "8790",
+            "season": "5",
+            "episode": "2"
+          }
+        ]
+      },
+      "full_title": "The Sopranos - Season 5 - Episode 2",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2004",
+            "search_value": "2004"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "000003",
+            "search_value": "000003~25~1"
+          },
+          {
+            "display_value": "000100",
+            "search_value": "000100~25~1"
+          },
+          {
+            "display_value": "070305",
+            "search_value": "070305~25~1"
+          },
+          {
+            "display_value": "0e0907",
+            "search_value": "0e0907~25~1"
+          },
+          {
+            "display_value": "4b3f31",
+            "search_value": "4b3f31~25~1"
+          },
+          {
+            "display_value": "645f61",
+            "search_value": "645f61~25~1"
+          },
+          {
+            "display_value": "6e6355",
+            "search_value": "6e6355~25~1"
+          },
+          {
+            "display_value": "8a7f72",
+            "search_value": "8a7f72~25~1"
+          },
+          {
+            "display_value": "919093",
+            "search_value": "919093~25~1"
+          },
+          {
+            "display_value": "9a938a",
+            "search_value": "9a938a~25~1"
+          },
+          {
+            "display_value": "a7a4a6",
+            "search_value": "a7a4a6~25~1"
+          },
+          {
+            "display_value": "e4e2e3",
+            "search_value": "e4e2e3~25~1"
+          },
+          {
+            "display_value": "e9e8e5",
+            "search_value": "e9e8e5~25~1"
+          },
+          {
+            "display_value": "edeeef",
+            "search_value": "edeeef~25~1"
+          },
+          {
+            "display_value": "f3f5f4",
+            "search_value": "f3f5f4~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "throwing out",
+              "search_value": "\"throwing+out\""
+            },
+            {
+              "display_value": "throwing out window",
+              "search_value": "\"throwing+out+window\""
+            },
+            {
+              "display_value": "tossing out window",
+              "search_value": "\"tossing+out+window\""
+            },
+            {
+              "display_value": "rolling down window",
+              "search_value": "\"rolling+down+window\""
+            },
+            {
+              "display_value": "throwing out car",
+              "search_value": "\"throwing+out+car\""
+            },
+            {
+              "display_value": "throwing out car window",
+              "search_value": "\"throwing+out+car+window\""
+            },
+            {
+              "display_value": "tossing out",
+              "search_value": "\"tossing+out\""
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Close Up",
+              "search_value": "Extreme+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Moonlight",
+              "search_value": "Moonlight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Panaflex Platinum",
+              "search_value": "Panavision+Panaflex+Platinum"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Classic",
+              "search_value": "Panavision+Primo+Classic"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Bridge",
+              "search_value": "Bridge"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New Jersey",
+              "search_value": "New+Jersey"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New Jersey",
+              "search_value": "New+Jersey"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:53:00",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Dark Comedy",
+              "search_value": "Movie%2FTV+-+Dark+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            },
+            {
+              "display_value": "Mafia",
+              "search_value": "Movie%2FTV+-+Mafia"
+            },
+            {
+              "display_value": "Psychological",
+              "search_value": "Movie%2FTV+-+Psychological"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Alan Taylor",
+              "search_value": "Alan+Taylor"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Alik Sakharov",
+              "search_value": "Alik+Sakharov"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Bob Shaw",
+              "search_value": "Bob+Shaw"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Juliet Polcsa",
+              "search_value": "Juliet+Polcsa"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Conrad M. Gonzalez",
+              "search_value": "Conrad+M.+Gonzalez"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Scott Klein",
+              "search_value": "Scott+Klein"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

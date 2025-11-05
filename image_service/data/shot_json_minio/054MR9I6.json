@@ -1,0 +1,466 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "054MR9I6",
+    "image_file": "054MR9I6.jpg",
+    "mime": "image/jpeg",
+    "width": "1436",
+    "height": "1078",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "World on a Wire",
+            "search_value": "6624"
+          }
+        ]
+      },
+      "full_title": "World on a Wire",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1973",
+            "search_value": "1973"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "020202",
+            "search_value": "020202~25~1"
+          },
+          {
+            "display_value": "050305",
+            "search_value": "050305~25~1"
+          },
+          {
+            "display_value": "081013",
+            "search_value": "081013~25~1"
+          },
+          {
+            "display_value": "0c1715",
+            "search_value": "0c1715~25~1"
+          },
+          {
+            "display_value": "244b51",
+            "search_value": "244b51~25~1"
+          },
+          {
+            "display_value": "566360",
+            "search_value": "566360~25~1"
+          },
+          {
+            "display_value": "4e666c",
+            "search_value": "4e666c~25~1"
+          },
+          {
+            "display_value": "6c6255",
+            "search_value": "6c6255~25~1"
+          },
+          {
+            "display_value": "9ba3a6",
+            "search_value": "9ba3a6~25~1"
+          },
+          {
+            "display_value": "a5a9a8",
+            "search_value": "a5a9a8~25~1"
+          },
+          {
+            "display_value": "aea7a1",
+            "search_value": "aea7a1~25~1"
+          },
+          {
+            "display_value": "c6c9c8",
+            "search_value": "c6c9c8~25~1"
+          },
+          {
+            "display_value": "d2d5d7",
+            "search_value": "d2d5d7~25~1"
+          },
+          {
+            "display_value": "e0d9d6",
+            "search_value": "e0d9d6~25~1"
+          },
+          {
+            "display_value": "eae5e6",
+            "search_value": "eae5e6~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "sniper scope",
+              "search_value": "\"sniper+scope\""
+            },
+            {
+              "display_value": "view through telescope",
+              "search_value": "\"view+through+telescope\""
+            },
+            {
+              "display_value": "spiral",
+              "search_value": "spiral"
+            },
+            {
+              "display_value": "aiming gun",
+              "search_value": "\"aiming+gun\""
+            },
+            {
+              "display_value": "assassination attempt",
+              "search_value": "\"assassination+attempt\""
+            },
+            {
+              "display_value": "circular framing",
+              "search_value": "\"circular+framing\""
+            },
+            {
+              "display_value": "circles",
+              "search_value": "circles"
+            },
+            {
+              "display_value": "precision",
+              "search_value": "precision"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            },
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Telephoto",
+              "search_value": "Telephoto"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            },
+            {
+              "display_value": "Symmetrical",
+              "search_value": "Symmetrical"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Underlight",
+              "search_value": "Underlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.33",
+              "search_value": "1.33"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex",
+              "search_value": "Arriflex"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Woods",
+              "search_value": "Woods"
+            },
+            {
+              "display_value": "Car",
+              "search_value": "Car"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Germany",
+              "search_value": "Germany"
+            },
+            {
+              "display_value": "Bavaria",
+              "search_value": "Bavaria"
+            },
+            {
+              "display_value": "Munich",
+              "search_value": "Munich"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "02:58:10",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "Lo-Fi Sci-Fi",
+              "search_value": "Movie%2FTV+-+Lo-Fi+Sci-Fi"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Rainer Werner Fassbinder",
+              "search_value": "Rainer+Werner+Fassbinder"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Michael Ballhaus",
+              "search_value": "Michael+Ballhaus"
+            },
+            {
+              "display_value": "Ulrich Prinz",
+              "search_value": "Ulrich+Prinz"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Kurt Raab",
+              "search_value": "Kurt+Raab"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Gabriele Pillon",
+              "search_value": "Gabriele+Pillon"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Marie Anne Gerhardt",
+              "search_value": "Marie+Anne+Gerhardt"
+            },
+            {
+              "display_value": "Ursula Elles",
+              "search_value": "Ursula+Elles"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

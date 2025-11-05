@@ -1,0 +1,478 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "029TU5GI",
+    "image_file": "029TU5GI.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1038",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Call Me by Your Name",
+            "search_value": "1492"
+          }
+        ]
+      },
+      "full_title": "Call Me by Your Name",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2017",
+            "search_value": "2017"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0c1011",
+            "search_value": "0c1011~25~1"
+          },
+          {
+            "display_value": "0d120e",
+            "search_value": "0d120e~25~1"
+          },
+          {
+            "display_value": "1e1011",
+            "search_value": "1e1011~25~1"
+          },
+          {
+            "display_value": "262218",
+            "search_value": "262218~25~1"
+          },
+          {
+            "display_value": "33473f",
+            "search_value": "33473f~25~1"
+          },
+          {
+            "display_value": "464332",
+            "search_value": "464332~25~1"
+          },
+          {
+            "display_value": "434f52",
+            "search_value": "434f52~25~1"
+          },
+          {
+            "display_value": "555241",
+            "search_value": "555241~25~1"
+          },
+          {
+            "display_value": "4d5d54",
+            "search_value": "4d5d54~25~1"
+          },
+          {
+            "display_value": "6d8b77",
+            "search_value": "6d8b77~25~1"
+          },
+          {
+            "display_value": "86a88f",
+            "search_value": "86a88f~25~1"
+          },
+          {
+            "display_value": "a6ab8d",
+            "search_value": "a6ab8d~25~1"
+          },
+          {
+            "display_value": "bdc9a7",
+            "search_value": "bdc9a7~25~1"
+          },
+          {
+            "display_value": "a0d4b0",
+            "search_value": "a0d4b0~25~1"
+          },
+          {
+            "display_value": "c8e3c6",
+            "search_value": "c8e3c6~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "musician",
+              "search_value": "musician"
+            },
+            {
+              "display_value": "playing piano",
+              "search_value": "\"playing+piano\""
+            },
+            {
+              "display_value": "traditional decor",
+              "search_value": "\"traditional+decor\""
+            },
+            {
+              "display_value": "swimming trunks",
+              "search_value": "\"swimming+trunks\""
+            },
+            {
+              "display_value": "shirtless",
+              "search_value": "shirtless"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Timothée Chalamet",
+              "search_value": "Timoth%C3%A9e+Chalamet"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke S4/ i",
+              "search_value": "Cooke+S4%2F+i"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Living Room",
+              "search_value": "Living+Room"
+            },
+            {
+              "display_value": "Piano",
+              "search_value": "Piano"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Lombardy",
+              "search_value": "Lombardy"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Lombardy",
+              "search_value": "Lombardy"
+            },
+            {
+              "display_value": "Moscazzano",
+              "search_value": "Moscazzano"
+            },
+            {
+              "display_value": "Villa Albergoni",
+              "search_value": "Villa+Albergoni"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:38:03",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Luca Guadagnino",
+              "search_value": "Luca+Guadagnino"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Sayombhu Mukdeeprom",
+              "search_value": "Sayombhu+Mukdeeprom"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Samuel Deshors",
+              "search_value": "Samuel+Deshors"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Giulia Piersanti",
+              "search_value": "Giulia+Piersanti"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Walter Fasano",
+              "search_value": "Walter+Fasano"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Andrea Gargano",
+              "search_value": "Andrea+Gargano"
+            },
+            {
+              "display_value": "Chaitawat Thrisansri",
+              "search_value": "Chaitawat+Thrisansri"
+            },
+            {
+              "display_value": "Alessandro Pelliccia",
+              "search_value": "Alessandro+Pelliccia"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

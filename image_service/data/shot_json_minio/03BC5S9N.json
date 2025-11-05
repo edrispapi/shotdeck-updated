@@ -1,0 +1,474 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03BC5S9N",
+    "image_file": "03BC5S9N.jpg",
+    "mime": "image/jpeg",
+    "width": "1854",
+    "height": "795",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Ali",
+            "search_value": "3298"
+          }
+        ]
+      },
+      "full_title": "Ali",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2001",
+            "search_value": "2001"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0c120b",
+            "search_value": "0c120b~25~1"
+          },
+          {
+            "display_value": "301011",
+            "search_value": "301011~25~1"
+          },
+          {
+            "display_value": "181f26",
+            "search_value": "181f26~25~1"
+          },
+          {
+            "display_value": "231e12",
+            "search_value": "231e12~25~1"
+          },
+          {
+            "display_value": "37492d",
+            "search_value": "37492d~25~1"
+          },
+          {
+            "display_value": "4e4529",
+            "search_value": "4e4529~25~1"
+          },
+          {
+            "display_value": "625331",
+            "search_value": "625331~25~1"
+          },
+          {
+            "display_value": "55646c",
+            "search_value": "55646c~25~1"
+          },
+          {
+            "display_value": "5c675f",
+            "search_value": "5c675f~25~1"
+          },
+          {
+            "display_value": "838b68",
+            "search_value": "838b68~25~1"
+          },
+          {
+            "display_value": "889a9e",
+            "search_value": "889a9e~25~1"
+          },
+          {
+            "display_value": "8ea486",
+            "search_value": "8ea486~25~1"
+          },
+          {
+            "display_value": "9aad7b",
+            "search_value": "9aad7b~25~1"
+          },
+          {
+            "display_value": "b5c8bb",
+            "search_value": "b5c8bb~25~1"
+          },
+          {
+            "display_value": "b8ccc6",
+            "search_value": "b8ccc6~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "crowd gathering",
+              "search_value": "\"crowd+gathering\""
+            },
+            {
+              "display_value": "dirt road",
+              "search_value": "\"dirt+road\""
+            },
+            {
+              "display_value": "motion blur",
+              "search_value": "\"motion+blur\""
+            },
+            {
+              "display_value": "people cheering",
+              "search_value": "\"people+cheering\""
+            },
+            {
+              "display_value": "running",
+              "search_value": "running"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Will Smith",
+              "search_value": "Will+Smith"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1960s",
+              "search_value": "1960s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Panaflex",
+              "search_value": "Panavision+Panaflex"
+            },
+            {
+              "display_value": "Panavision Panastar",
+              "search_value": "Panavision+Panastar"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Primes",
+              "search_value": "Panavision+Primo+Primes"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5279/7279\tVision\t500T",
+              "search_value": "5279%2F7279%09Vision%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Road",
+              "search_value": "Road"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "Ghana",
+              "search_value": "Ghana"
+            },
+            {
+              "display_value": "Accra",
+              "search_value": "Accra"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "Ghana",
+              "search_value": "Ghana"
+            },
+            {
+              "display_value": "Accra",
+              "search_value": "Accra"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:53:20",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Michael Mann",
+              "search_value": "Michael+Mann"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Emmanuel Lubezki",
+              "search_value": "Emmanuel+Lubezki"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "John Myhre",
+              "search_value": "John+Myhre"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Marlene Stewart",
+              "search_value": "Marlene+Stewart"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Stephen E. Rivkin",
+              "search_value": "Stephen+E.+Rivkin"
+            },
+            {
+              "display_value": "William Goldenberg",
+              "search_value": "William+Goldenberg"
+            },
+            {
+              "display_value": "Lynzee Klingman",
+              "search_value": "Lynzee+Klingman"
+            },
+            {
+              "display_value": "Stuart Waks",
+              "search_value": "Stuart+Waks"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

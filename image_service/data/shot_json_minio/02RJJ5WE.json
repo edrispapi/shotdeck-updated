@@ -1,0 +1,490 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02RJJ5WE",
+    "image_file": "02RJJ5WE.jpg",
+    "mime": "image/jpeg",
+    "width": "1918",
+    "height": "799",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Lord of the Rings: The Two Towers",
+            "search_value": "603"
+          }
+        ]
+      },
+      "full_title": "The Lord of the Rings: The Two Towers",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2002",
+            "search_value": "2002"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "000001",
+            "search_value": "000001~25~1"
+          },
+          {
+            "display_value": "000101",
+            "search_value": "000101~25~1"
+          },
+          {
+            "display_value": "040102",
+            "search_value": "040102~25~1"
+          },
+          {
+            "display_value": "1a0a07",
+            "search_value": "1a0a07~25~1"
+          },
+          {
+            "display_value": "623124",
+            "search_value": "623124~25~1"
+          },
+          {
+            "display_value": "7b513b",
+            "search_value": "7b513b~25~1"
+          },
+          {
+            "display_value": "a1785f",
+            "search_value": "a1785f~25~1"
+          },
+          {
+            "display_value": "9d7c5f",
+            "search_value": "9d7c5f~25~1"
+          },
+          {
+            "display_value": "ad9078",
+            "search_value": "ad9078~25~1"
+          },
+          {
+            "display_value": "d1c0aa",
+            "search_value": "d1c0aa~25~1"
+          },
+          {
+            "display_value": "dccaba",
+            "search_value": "dccaba~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "dangling",
+              "search_value": "dangling"
+            },
+            {
+              "display_value": "falling",
+              "search_value": "falling"
+            },
+            {
+              "display_value": "gandalf",
+              "search_value": "gandalf"
+            },
+            {
+              "display_value": "grey beard",
+              "search_value": "\"grey+beard\""
+            },
+            {
+              "display_value": "grey hair",
+              "search_value": "\"grey+hair\""
+            },
+            {
+              "display_value": "hanging off cliff",
+              "search_value": "\"hanging+off+cliff\""
+            },
+            {
+              "display_value": "slipping",
+              "search_value": "slipping"
+            },
+            {
+              "display_value": "goodbye",
+              "search_value": "goodbye"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Ian McKellen",
+              "search_value": "Ian+McKellen"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arri 535 / 535B",
+              "search_value": "Arri+535+%2F+535B"
+            },
+            {
+              "display_value": "Arricam ST",
+              "search_value": "Arricam+ST"
+            },
+            {
+              "display_value": "Arriflex 35 IIIc",
+              "search_value": "Arriflex+35+IIIc"
+            },
+            {
+              "display_value": "Arriflex 435",
+              "search_value": "Arriflex+435"
+            },
+            {
+              "display_value": "Mitchell",
+              "search_value": "Mitchell"
+            },
+            {
+              "display_value": "Moviecam Compact",
+              "search_value": "Moviecam+Compact"
+            },
+            {
+              "display_value": "Moviecam SL",
+              "search_value": "Moviecam+SL"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Angenieux Optimo",
+              "search_value": "Angenieux+Optimo"
+            },
+            {
+              "display_value": "Zeiss Ultra Prime",
+              "search_value": "Zeiss+Ultra+Prime"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2K",
+              "search_value": "2K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Cave",
+              "search_value": "Cave"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Middle Earth",
+              "search_value": "Middle+Earth"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Oceania",
+              "search_value": "Oceania"
+            },
+            {
+              "display_value": "New Zealand",
+              "search_value": "New+Zealand"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:02:33",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Peter Jackson",
+              "search_value": "Peter+Jackson"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Andrew Lesnie",
+              "search_value": "Andrew+Lesnie"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Grant Major",
+              "search_value": "Grant+Major"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Ngila Dickson",
+              "search_value": "Ngila+Dickson"
+            },
+            {
+              "display_value": "Richard Taylor",
+              "search_value": "Richard+Taylor"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Michael Horton",
+              "search_value": "Michael+Horton"
+            },
+            {
+              "display_value": "Jabez Olssen",
+              "search_value": "Jabez+Olssen"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Peter Doyle",
+              "search_value": "Peter+Doyle"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

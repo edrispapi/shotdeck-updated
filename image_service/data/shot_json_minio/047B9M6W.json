@@ -1,0 +1,516 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "047B9M6W",
+    "image_file": "047B9M6W.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "World Trade Center",
+            "search_value": "18173"
+          }
+        ]
+      },
+      "full_title": "World Trade Center",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2006",
+            "search_value": "2006"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d0f16",
+            "search_value": "0d0f16~25~1"
+          },
+          {
+            "display_value": "2c1319",
+            "search_value": "2c1319~25~1"
+          },
+          {
+            "display_value": "172721",
+            "search_value": "172721~25~1"
+          },
+          {
+            "display_value": "32221c",
+            "search_value": "32221c~25~1"
+          },
+          {
+            "display_value": "373c4e",
+            "search_value": "373c4e~25~1"
+          },
+          {
+            "display_value": "7b141f",
+            "search_value": "7b141f~25~1"
+          },
+          {
+            "display_value": "6e4c52",
+            "search_value": "6e4c52~25~1"
+          },
+          {
+            "display_value": "505d68",
+            "search_value": "505d68~25~1"
+          },
+          {
+            "display_value": "506152",
+            "search_value": "506152~25~1"
+          },
+          {
+            "display_value": "70574a",
+            "search_value": "70574a~25~1"
+          },
+          {
+            "display_value": "a39299",
+            "search_value": "a39299~25~1"
+          },
+          {
+            "display_value": "a0978a",
+            "search_value": "a0978a~25~1"
+          },
+          {
+            "display_value": "95a0aa",
+            "search_value": "95a0aa~25~1"
+          },
+          {
+            "display_value": "9aa29e",
+            "search_value": "9aa29e~25~1"
+          },
+          {
+            "display_value": "c6d3d9",
+            "search_value": "c6d3d9~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "9/11",
+              "search_value": "9%2F11"
+            },
+            {
+              "display_value": "arriving at scene",
+              "search_value": "\"arriving+at+scene\""
+            },
+            {
+              "display_value": "chaos",
+              "search_value": "chaos"
+            },
+            {
+              "display_value": "disaster site",
+              "search_value": "\"disaster+site\""
+            },
+            {
+              "display_value": "emergency situation",
+              "search_value": "\"emergency+situation\""
+            },
+            {
+              "display_value": "emergency vehicles",
+              "search_value": "\"emergency+vehicles\""
+            },
+            {
+              "display_value": "police officer",
+              "search_value": "\"police+officer\""
+            },
+            {
+              "display_value": "september 11th",
+              "search_value": "\"september+11th\""
+            },
+            {
+              "display_value": "firefighters",
+              "search_value": "firefighters"
+            },
+            {
+              "display_value": "firetruck",
+              "search_value": "firetruck"
+            },
+            {
+              "display_value": "medical support",
+              "search_value": "\"medical+support\""
+            },
+            {
+              "display_value": "shocked",
+              "search_value": "shocked"
+            },
+            {
+              "display_value": "stunned",
+              "search_value": "stunned"
+            },
+            {
+              "display_value": "overwhelmed",
+              "search_value": "overwhelmed"
+            },
+            {
+              "display_value": "mustache",
+              "search_value": "mustache"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Nicolas Cage",
+              "search_value": "Nicolas+Cage"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 435",
+              "search_value": "Arriflex+435"
+            },
+            {
+              "display_value": "Panavision Panaflex",
+              "search_value": "Panavision+Panaflex"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "City",
+              "search_value": "City"
+            },
+            {
+              "display_value": "Street",
+              "search_value": "Street"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of Ameirca",
+              "search_value": "United+States+of+Ameirca"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:14:40",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Oliver Stone",
+              "search_value": "Oliver+Stone"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Seamus McGarvey",
+              "search_value": "Seamus+McGarvey"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Jan Roelfs",
+              "search_value": "Jan+Roelfs"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Michael Dennison",
+              "search_value": "Michael+Dennison"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "David Brenner",
+              "search_value": "David+Brenner"
+            },
+            {
+              "display_value": "Julie Monroe",
+              "search_value": "Julie+Monroe"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Michael Eaves",
+              "search_value": "Michael+Eaves"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

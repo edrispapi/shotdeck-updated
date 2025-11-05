@@ -1,0 +1,460 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "055CJC00",
+    "image_file": "055CJC00.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "872",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Sound of Music",
+            "search_value": "711"
+          }
+        ]
+      },
+      "full_title": "The Sound of Music",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1965",
+            "search_value": "1965"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "040608",
+            "search_value": "040608~25~1"
+          },
+          {
+            "display_value": "070a09",
+            "search_value": "070a09~25~1"
+          },
+          {
+            "display_value": "0e0b0c",
+            "search_value": "0e0b0c~25~1"
+          },
+          {
+            "display_value": "2b200f",
+            "search_value": "2b200f~25~1"
+          },
+          {
+            "display_value": "5c3726",
+            "search_value": "5c3726~25~1"
+          },
+          {
+            "display_value": "59421e",
+            "search_value": "59421e~25~1"
+          },
+          {
+            "display_value": "745c3b",
+            "search_value": "745c3b~25~1"
+          },
+          {
+            "display_value": "6f6a6d",
+            "search_value": "6f6a6d~25~1"
+          },
+          {
+            "display_value": "917970",
+            "search_value": "917970~25~1"
+          },
+          {
+            "display_value": "97825e",
+            "search_value": "97825e~25~1"
+          },
+          {
+            "display_value": "8f8b8f",
+            "search_value": "8f8b8f~25~1"
+          },
+          {
+            "display_value": "8e8d91",
+            "search_value": "8e8d91~25~1"
+          },
+          {
+            "display_value": "ab9a7e",
+            "search_value": "ab9a7e~25~1"
+          },
+          {
+            "display_value": "cec3a7",
+            "search_value": "cec3a7~25~1"
+          },
+          {
+            "display_value": "d7cfba",
+            "search_value": "d7cfba~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "ballroom",
+              "search_value": "ballroom"
+            },
+            {
+              "display_value": "ballroom dancing",
+              "search_value": "\"ballroom+dancing\""
+            },
+            {
+              "display_value": "dance party",
+              "search_value": "\"dance+party\""
+            },
+            {
+              "display_value": "dancing",
+              "search_value": "dancing"
+            },
+            {
+              "display_value": "ornate walls",
+              "search_value": "\"ornate+walls\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1930s",
+              "search_value": "1930s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.20",
+              "search_value": "2.20"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Mitchell BNC",
+              "search_value": "Mitchell+BNC"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5251\t        Print        50T",
+              "search_value": "5251%09++++++++Print++++++++50T"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Austria",
+              "search_value": "Austria"
+            },
+            {
+              "display_value": "Salzburg",
+              "search_value": "Salzburg"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Austria",
+              "search_value": "Austria"
+            },
+            {
+              "display_value": "Salzburg",
+              "search_value": "Salzburg"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:27:15",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            },
+            {
+              "display_value": "Music",
+              "search_value": "Movie%2FTV+-+Music"
+            },
+            {
+              "display_value": "Musical",
+              "search_value": "Movie%2FTV+-+Musical"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Stage Adaptation",
+              "search_value": "Movie%2FTV+-+Stage+Adaptation"
+            },
+            {
+              "display_value": "Technicolor Musical",
+              "search_value": "Movie%2FTV+-+Technicolor+Musical"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Robert Wise",
+              "search_value": "Robert+Wise"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Ted D. McCord",
+              "search_value": "Ted+D.+McCord"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Boris Leven",
+              "search_value": "Boris+Leven"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Dorothy Jeakins",
+              "search_value": "Dorothy+Jeakins"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "William Reynolds",
+              "search_value": "William+Reynolds"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "John Sellars",
+              "search_value": "John+Sellars"
+            },
+            {
+              "display_value": "Mark Griffith",
+              "search_value": "Mark+Griffith"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

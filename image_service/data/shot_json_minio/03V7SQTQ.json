@@ -1,0 +1,470 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03V7SQTQ",
+    "image_file": "03V7SQTQ.jpg",
+    "mime": "image/jpeg",
+    "width": "2875",
+    "height": "1618",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Diving Bell and the Butterfly",
+            "search_value": "1342"
+          }
+        ]
+      },
+      "full_title": "The Diving Bell and the Butterfly",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2007",
+            "search_value": "2007"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "000000",
+            "search_value": "000000~25~1"
+          },
+          {
+            "display_value": "010001",
+            "search_value": "010001~25~1"
+          },
+          {
+            "display_value": "010403",
+            "search_value": "010403~25~1"
+          },
+          {
+            "display_value": "0e1925",
+            "search_value": "0e1925~25~1"
+          },
+          {
+            "display_value": "27415d",
+            "search_value": "27415d~25~1"
+          },
+          {
+            "display_value": "2b4651",
+            "search_value": "2b4651~25~1"
+          },
+          {
+            "display_value": "3a5c80",
+            "search_value": "3a5c80~25~1"
+          },
+          {
+            "display_value": "596a65",
+            "search_value": "596a65~25~1"
+          },
+          {
+            "display_value": "517ebd",
+            "search_value": "517ebd~25~1"
+          },
+          {
+            "display_value": "699bd4",
+            "search_value": "699bd4~25~1"
+          },
+          {
+            "display_value": "a1c2e3",
+            "search_value": "a1c2e3~25~1"
+          },
+          {
+            "display_value": "8ed2e9",
+            "search_value": "8ed2e9~25~1"
+          },
+          {
+            "display_value": "96e1e0",
+            "search_value": "96e1e0~25~1"
+          },
+          {
+            "display_value": "afe2ed",
+            "search_value": "afe2ed~25~1"
+          },
+          {
+            "display_value": "b5ebea",
+            "search_value": "b5ebea~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "pov shot",
+              "search_value": "\"pov+shot\""
+            },
+            {
+              "display_value": "pov of main character",
+              "search_value": "\"pov+of+main+character\""
+            },
+            {
+              "display_value": "pov",
+              "search_value": "pov"
+            },
+            {
+              "display_value": "alter",
+              "search_value": "alter"
+            },
+            {
+              "display_value": "priest",
+              "search_value": "priest"
+            },
+            {
+              "display_value": "blue light",
+              "search_value": "\"blue+light\""
+            },
+            {
+              "display_value": "jesus painting",
+              "search_value": "\"jesus+painting\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Dutch angle",
+              "search_value": "Dutch+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arri 435 / 435ES",
+              "search_value": "Arri+435+%2F+435ES"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Super Speed",
+              "search_value": "Zeiss+Super+Speed"
+            },
+            {
+              "display_value": "Swing and Tilt Lens system",
+              "search_value": "Swing+and+Tilt+Lens+system"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5279/7279\tVision\t500T",
+              "search_value": "5279%2F7279%09Vision%09500T"
+            },
+            {
+              "display_value": "8563/8663\tEterna 250D",
+              "search_value": "8563%2F8663%09Eterna+250D"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Church",
+              "search_value": "Church"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:08:18",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Julian Schnabel",
+              "search_value": "Julian+Schnabel"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Janusz Kamiński",
+              "search_value": "Janusz+Kami%C5%84ski"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Michel Eric",
+              "search_value": "Michel+Eric"
+            },
+            {
+              "display_value": "Laurent Ott",
+              "search_value": "Laurent+Ott"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Olivier B",
+              "search_value": "Olivier+B"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Juliette Welfling",
+              "search_value": "Juliette+Welfling"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Gilles Granier",
+              "search_value": "Gilles+Granier"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04H3P0N8",
+    "image_file": "04H3P0N8.jpg",
+    "mime": "image/jpeg",
+    "width": "1800",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "A Room with a View",
+            "search_value": "1591"
+          }
+        ]
+      },
+      "full_title": "A Room with a View",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1985",
+            "search_value": "1985"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "040904",
+            "search_value": "040904~25~1"
+          },
+          {
+            "display_value": "271d15",
+            "search_value": "271d15~25~1"
+          },
+          {
+            "display_value": "251e1f",
+            "search_value": "251e1f~25~1"
+          },
+          {
+            "display_value": "5c3529",
+            "search_value": "5c3529~25~1"
+          },
+          {
+            "display_value": "4c442b",
+            "search_value": "4c442b~25~1"
+          },
+          {
+            "display_value": "705b3d",
+            "search_value": "705b3d~25~1"
+          },
+          {
+            "display_value": "617750",
+            "search_value": "617750~25~1"
+          },
+          {
+            "display_value": "7a8672",
+            "search_value": "7a8672~25~1"
+          },
+          {
+            "display_value": "ae7453",
+            "search_value": "ae7453~25~1"
+          },
+          {
+            "display_value": "96845d",
+            "search_value": "96845d~25~1"
+          },
+          {
+            "display_value": "b09f7a",
+            "search_value": "b09f7a~25~1"
+          },
+          {
+            "display_value": "a1ac9a",
+            "search_value": "a1ac9a~25~1"
+          },
+          {
+            "display_value": "d0c6a1",
+            "search_value": "d0c6a1~25~1"
+          },
+          {
+            "display_value": "e2eadb",
+            "search_value": "e2eadb~25~1"
+          },
+          {
+            "display_value": "edeed4",
+            "search_value": "edeed4~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "carriage stopped",
+              "search_value": "\"carriage+stopped\""
+            },
+            {
+              "display_value": "turning around",
+              "search_value": "\"turning+around\""
+            },
+            {
+              "display_value": "scolding someone",
+              "search_value": "\"scolding+someone\""
+            },
+            {
+              "display_value": "long blonde hair",
+              "search_value": "\"long+blonde+hair\""
+            },
+            {
+              "display_value": "tan hat",
+              "search_value": "\"tan+hat\""
+            },
+            {
+              "display_value": "priest outfit",
+              "search_value": "\"priest+outfit\""
+            },
+            {
+              "display_value": "chaplain",
+              "search_value": "chaplain"
+            },
+            {
+              "display_value": "annoyed",
+              "search_value": "annoyed"
+            },
+            {
+              "display_value": "frustrated",
+              "search_value": "frustrated"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Denholm Elliott",
+              "search_value": "Denholm+Elliott"
+            },
+            {
+              "display_value": "Patrick Godfrey",
+              "search_value": "Patrick+Godfrey"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1900s",
+              "search_value": "1900s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            },
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex BL3",
+              "search_value": "Arriflex+BL3"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Lenses",
+              "search_value": "Zeiss+Lenses"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "8511/8521\tFuji A\t125T",
+              "search_value": "8511%2F8521%09Fuji+A%09125T"
+            },
+            {
+              "display_value": "8514/8524\tFuji AX 500T",
+              "search_value": "8514%2F8524%09Fuji+AX+500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Carriage ",
+              "search_value": "Carriage+"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Tuscany",
+              "search_value": "Tuscany"
+            },
+            {
+              "display_value": "Florence",
+              "search_value": "Florence"
+            },
+            {
+              "display_value": "Fiesole",
+              "search_value": "Fiesole"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Tuscany",
+              "search_value": "Tuscany"
+            },
+            {
+              "display_value": "Florence",
+              "search_value": "Florence"
+            },
+            {
+              "display_value": "Fiesole",
+              "search_value": "Fiesole"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:30:54",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Book Adaptation",
+              "search_value": "Movie%2FTV+-+Book+Adaptation"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "James Ivory",
+              "search_value": "James+Ivory"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Tony Pierce-Roberts",
+              "search_value": "Tony+Pierce-Roberts"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Brian Ackland-Snow",
+              "search_value": "Brian+Ackland-Snow"
+            },
+            {
+              "display_value": "Gianni Quaranta",
+              "search_value": "Gianni+Quaranta"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jenny Beavan",
+              "search_value": "Jenny+Beavan"
+            },
+            {
+              "display_value": "John Bright",
+              "search_value": "John+Bright"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Humphrey Dixon",
+              "search_value": "Humphrey+Dixon"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

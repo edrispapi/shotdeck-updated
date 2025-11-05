@@ -1,0 +1,432 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05G2P3GG",
+    "image_file": "05G2P3GG.jpg",
+    "mime": "image/jpeg",
+    "width": "1796",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Betty Blue",
+            "search_value": "6438"
+          }
+        ]
+      },
+      "full_title": "Betty Blue",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1986",
+            "search_value": "1986"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "040407",
+            "search_value": "040407~25~1"
+          },
+          {
+            "display_value": "0f0608",
+            "search_value": "0f0608~25~1"
+          },
+          {
+            "display_value": "111311",
+            "search_value": "111311~25~1"
+          },
+          {
+            "display_value": "312210",
+            "search_value": "312210~25~1"
+          },
+          {
+            "display_value": "3a433e",
+            "search_value": "3a433e~25~1"
+          },
+          {
+            "display_value": "732c13",
+            "search_value": "732c13~25~1"
+          },
+          {
+            "display_value": "56471b",
+            "search_value": "56471b~25~1"
+          },
+          {
+            "display_value": "825b1f",
+            "search_value": "825b1f~25~1"
+          },
+          {
+            "display_value": "5f6962",
+            "search_value": "5f6962~25~1"
+          },
+          {
+            "display_value": "6a6768",
+            "search_value": "6a6768~25~1"
+          },
+          {
+            "display_value": "5f6a70",
+            "search_value": "5f6a70~25~1"
+          },
+          {
+            "display_value": "7e7d84",
+            "search_value": "7e7d84~25~1"
+          },
+          {
+            "display_value": "7e8685",
+            "search_value": "7e8685~25~1"
+          },
+          {
+            "display_value": "9f8c33",
+            "search_value": "9f8c33~25~1"
+          },
+          {
+            "display_value": "aba466",
+            "search_value": "aba466~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "standing",
+              "search_value": "standing"
+            },
+            {
+              "display_value": "together",
+              "search_value": "together"
+            },
+            {
+              "display_value": "caught",
+              "search_value": "caught"
+            },
+            {
+              "display_value": "crime",
+              "search_value": "crime"
+            },
+            {
+              "display_value": "evidence",
+              "search_value": "evidence"
+            },
+            {
+              "display_value": "bloody shoes",
+              "search_value": "\"bloody+shoes\""
+            },
+            {
+              "display_value": "white shoes",
+              "search_value": "\"white+shoes\""
+            },
+            {
+              "display_value": "blood stained",
+              "search_value": "\"blood+stained\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Close Up",
+              "search_value": "Extreme+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex BL3",
+              "search_value": "Arriflex+BL3"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Church",
+              "search_value": "Church"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:44:03",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Jean-Jacques Beineix",
+              "search_value": "Jean-Jacques+Beineix"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Jean-François Robin",
+              "search_value": "Jean-Fran%C3%A7ois+Robin"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Carlos Conti",
+              "search_value": "Carlos+Conti"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Elisabeth Tavernier",
+              "search_value": "Elisabeth+Tavernier"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Monique Prim",
+              "search_value": "Monique+Prim"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

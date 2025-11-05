@@ -1,0 +1,540 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01FVJ85V",
+    "image_file": "01FVJ85V.jpg",
+    "mime": "image/jpeg",
+    "width": "1910",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Aquaman",
+            "search_value": "11326"
+          }
+        ]
+      },
+      "full_title": "Aquaman",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2018",
+            "search_value": "2018"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1a1a15",
+            "search_value": "1a1a15~25~1"
+          },
+          {
+            "display_value": "14221e",
+            "search_value": "14221e~25~1"
+          },
+          {
+            "display_value": "0f292f",
+            "search_value": "0f292f~25~1"
+          },
+          {
+            "display_value": "30242b",
+            "search_value": "30242b~25~1"
+          },
+          {
+            "display_value": "2b4b45",
+            "search_value": "2b4b45~25~1"
+          },
+          {
+            "display_value": "15525f",
+            "search_value": "15525f~25~1"
+          },
+          {
+            "display_value": "5b4c5a",
+            "search_value": "5b4c5a~25~1"
+          },
+          {
+            "display_value": "456961",
+            "search_value": "456961~25~1"
+          },
+          {
+            "display_value": "2e6d7c",
+            "search_value": "2e6d7c~25~1"
+          },
+          {
+            "display_value": "658f86",
+            "search_value": "658f86~25~1"
+          },
+          {
+            "display_value": "4c94a5",
+            "search_value": "4c94a5~25~1"
+          },
+          {
+            "display_value": "7ca499",
+            "search_value": "7ca499~25~1"
+          },
+          {
+            "display_value": "6eafc1",
+            "search_value": "6eafc1~25~1"
+          },
+          {
+            "display_value": "92d0e1",
+            "search_value": "92d0e1~25~1"
+          },
+          {
+            "display_value": "bbe4ef",
+            "search_value": "bbe4ef~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "sunken ship",
+              "search_value": "\"sunken+ship\""
+            },
+            {
+              "display_value": "opponents",
+              "search_value": "opponents"
+            },
+            {
+              "display_value": "glowing",
+              "search_value": "glowing"
+            },
+            {
+              "display_value": "blade",
+              "search_value": "blade"
+            },
+            {
+              "display_value": "illuminated",
+              "search_value": "illuminated"
+            },
+            {
+              "display_value": "glowing sword",
+              "search_value": "\"glowing+sword\""
+            },
+            {
+              "display_value": "clashing",
+              "search_value": "clashing"
+            },
+            {
+              "display_value": "swordsmanship",
+              "search_value": "swordsmanship"
+            },
+            {
+              "display_value": "soldier",
+              "search_value": "soldier"
+            },
+            {
+              "display_value": "red armor",
+              "search_value": "\"red+armor\""
+            },
+            {
+              "display_value": "battle",
+              "search_value": "battle"
+            },
+            {
+              "display_value": "fighting",
+              "search_value": "fighting"
+            },
+            {
+              "display_value": "hand to hand combat",
+              "search_value": "\"hand+to+hand+combat\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Jason Momoa",
+              "search_value": "Jason+Momoa"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            },
+            {
+              "display_value": "ARRI ALEXA XT / XTplus",
+              "search_value": "ARRI+ALEXA+XT+%2F+XTplus"
+            },
+            {
+              "display_value": "RED Epic Dragon",
+              "search_value": "RED+Epic+Dragon"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo 70s",
+              "search_value": "Panavision+Primo+70s"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2.8K / 2.8K ArriRaw",
+              "search_value": "2.8K+%2F+2.8K+ArriRaw"
+            },
+            {
+              "display_value": "Redcode Raw",
+              "search_value": "Redcode+Raw"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Ocean",
+              "search_value": "Ocean"
+            },
+            {
+              "display_value": "Shipwreck",
+              "search_value": "Shipwreck"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Atlantic Ocean",
+              "search_value": "Atlantic+Ocean"
+            },
+            {
+              "display_value": "Atlantis",
+              "search_value": "Atlantis"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Oceania",
+              "search_value": "Oceania"
+            },
+            {
+              "display_value": "Australia",
+              "search_value": "Australia"
+            },
+            {
+              "display_value": "Queensland",
+              "search_value": "Queensland"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "vfx_backing": {
+          "filter": "vfx_backing",
+          "filter_name": "VFX",
+          "values": [
+            {
+              "display_value": "Blue or Green Screen",
+              "search_value": "Blue+or+Green+Screen"
+            },
+            {
+              "display_value": "CGI",
+              "search_value": "CGI"
+            },
+            {
+              "display_value": "Set Extension",
+              "search_value": "Set+Extension"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "DC Extended Universe",
+              "search_value": "Movie%2FTV+-+DC+Extended+Universe"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "James Wan",
+              "search_value": "James+Wan"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Don Burgess",
+              "search_value": "Don+Burgess"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Bill Brzeski",
+              "search_value": "Bill+Brzeski"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Kym Barrett",
+              "search_value": "Kym+Barrett"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Kirk M. Morri",
+              "search_value": "Kirk+M.+Morri"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Greg Curry",
+              "search_value": "Greg+Curry"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

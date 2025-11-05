@@ -1,0 +1,422 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05F8L08Z",
+    "image_file": "05F8L08Z.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "806",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "La Luna",
+            "search_value": "59641"
+          }
+        ]
+      },
+      "full_title": "La Luna",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2023",
+            "search_value": "2023"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "253033",
+            "search_value": "253033~25~1"
+          },
+          {
+            "display_value": "37321f",
+            "search_value": "37321f~25~1"
+          },
+          {
+            "display_value": "29372a",
+            "search_value": "29372a~25~1"
+          },
+          {
+            "display_value": "334e2a",
+            "search_value": "334e2a~25~1"
+          },
+          {
+            "display_value": "772d20",
+            "search_value": "772d20~25~1"
+          },
+          {
+            "display_value": "494c22",
+            "search_value": "494c22~25~1"
+          },
+          {
+            "display_value": "485b5e",
+            "search_value": "485b5e~25~1"
+          },
+          {
+            "display_value": "516357",
+            "search_value": "516357~25~1"
+          },
+          {
+            "display_value": "6e693c",
+            "search_value": "6e693c~25~1"
+          },
+          {
+            "display_value": "728880",
+            "search_value": "728880~25~1"
+          },
+          {
+            "display_value": "a18948",
+            "search_value": "a18948~25~1"
+          },
+          {
+            "display_value": "85958c",
+            "search_value": "85958c~25~1"
+          },
+          {
+            "display_value": "bfa974",
+            "search_value": "bfa974~25~1"
+          },
+          {
+            "display_value": "dec77f",
+            "search_value": "dec77f~25~1"
+          },
+          {
+            "display_value": "dcd0b6",
+            "search_value": "dcd0b6~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "pointing",
+              "search_value": "pointing"
+            },
+            {
+              "display_value": "finger up",
+              "search_value": "\"finger+up\""
+            },
+            {
+              "display_value": "pointing t sky",
+              "search_value": "\"pointing+t+sky\""
+            },
+            {
+              "display_value": "pointing up",
+              "search_value": "\"pointing+up\""
+            },
+            {
+              "display_value": "eyebrows furrowed",
+              "search_value": "\"eyebrows+furrowed\""
+            },
+            {
+              "display_value": "yellow car",
+              "search_value": "\"yellow+car\""
+            },
+            {
+              "display_value": "parked car",
+              "search_value": "\"parked+car\""
+            },
+            {
+              "display_value": "looking over at someone",
+              "search_value": "\"looking+over+at+someone\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Sharifah Amani",
+              "search_value": "Sharifah+Amani"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Convenience Store",
+              "search_value": "Convenience+Store"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Malaysia",
+              "search_value": "Malaysia"
+            },
+            {
+              "display_value": "Perak",
+              "search_value": "Perak"
+            },
+            {
+              "display_value": "Bras Basah",
+              "search_value": "Bras+Basah"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Malaysia",
+              "search_value": "Malaysia"
+            },
+            {
+              "display_value": "Perak",
+              "search_value": "Perak"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:21:09",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Raihan Halim",
+              "search_value": "Raihan+Halim"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Sofyan Daud Mohamed",
+              "search_value": "Sofyan+Daud+Mohamed"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Rohaidah Rashid",
+              "search_value": "Rohaidah+Rashid"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Jirayu Jangwattanapong",
+              "search_value": "Jirayu+Jangwattanapong"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

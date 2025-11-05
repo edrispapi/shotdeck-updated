@@ -1,0 +1,548 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02EJLA3T",
+    "image_file": "02EJLA3T.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Free Guy",
+            "search_value": "4185"
+          }
+        ]
+      },
+      "full_title": "Free Guy",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2021",
+            "search_value": "2021"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1c191a",
+            "search_value": "1c191a~25~1"
+          },
+          {
+            "display_value": "181d22",
+            "search_value": "181d22~25~1"
+          },
+          {
+            "display_value": "24211e",
+            "search_value": "24211e~25~1"
+          },
+          {
+            "display_value": "232926",
+            "search_value": "232926~25~1"
+          },
+          {
+            "display_value": "3a4240",
+            "search_value": "3a4240~25~1"
+          },
+          {
+            "display_value": "354448",
+            "search_value": "354448~25~1"
+          },
+          {
+            "display_value": "424948",
+            "search_value": "424948~25~1"
+          },
+          {
+            "display_value": "4f5c63",
+            "search_value": "4f5c63~25~1"
+          },
+          {
+            "display_value": "605a54",
+            "search_value": "605a54~25~1"
+          },
+          {
+            "display_value": "9facb4",
+            "search_value": "9facb4~25~1"
+          },
+          {
+            "display_value": "acb1af",
+            "search_value": "acb1af~25~1"
+          },
+          {
+            "display_value": "baada5",
+            "search_value": "baada5~25~1"
+          },
+          {
+            "display_value": "d4cec7",
+            "search_value": "d4cec7~25~1"
+          },
+          {
+            "display_value": "c8d8de",
+            "search_value": "c8d8de~25~1"
+          },
+          {
+            "display_value": "d3d6d4",
+            "search_value": "d3d6d4~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "coat",
+              "search_value": "coat"
+            },
+            {
+              "display_value": "collard",
+              "search_value": "collard"
+            },
+            {
+              "display_value": "evil",
+              "search_value": "evil"
+            },
+            {
+              "display_value": "gray",
+              "search_value": "gray"
+            },
+            {
+              "display_value": "mid century",
+              "search_value": "\"mid+century\""
+            },
+            {
+              "display_value": "shirt",
+              "search_value": "shirt"
+            },
+            {
+              "display_value": "trench",
+              "search_value": "trench"
+            },
+            {
+              "display_value": "view",
+              "search_value": "view"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Joe Keery",
+              "search_value": "Joe+Keery"
+            },
+            {
+              "display_value": "Taika Waititi",
+              "search_value": "Taika+Waititi"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA SXT",
+              "search_value": "ARRI+ALEXA+SXT"
+            },
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            },
+            {
+              "display_value": "ARRI ALEXA 65",
+              "search_value": "ARRI+ALEXA+65"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision E series",
+              "search_value": "Panavision+E+series"
+            },
+            {
+              "display_value": "Panavision G series",
+              "search_value": "Panavision+G+series"
+            },
+            {
+              "display_value": "Panavision T series",
+              "search_value": "Panavision+T+series"
+            },
+            {
+              "display_value": "Panavision 70-200mm (ATZ)",
+              "search_value": "Panavision+70-200mm+%28ATZ%29"
+            },
+            {
+              "display_value": "Panavision 40-80 (Bailey zoom - AWZ2)",
+              "search_value": "Panavision+40-80+%28Bailey+zoom+-+AWZ2%29"
+            },
+            {
+              "display_value": "Panavision Sphero 65mm Lenses",
+              "search_value": "Panavision+Sphero+65mm+Lenses"
+            },
+            {
+              "display_value": "Ultra Speed Golden Lenses",
+              "search_value": "Ultra+Speed+Golden+Lenses"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2.8K / 2.8K ArriRaw",
+              "search_value": "2.8K+%2F+2.8K+ArriRaw"
+            },
+            {
+              "display_value": "ARRIRAW (6.5K)",
+              "search_value": "ARRIRAW+%286.5K%29"
+            },
+            {
+              "display_value": "ARRIRAW (3.4k)",
+              "search_value": "ARRIRAW+%283.4k%29"
+            },
+            {
+              "display_value": "ARRIRAW (4.5K)",
+              "search_value": "ARRIRAW+%284.5K%29"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Office",
+              "search_value": "Office"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North Amercia",
+              "search_value": "North+Amercia"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Massachusetts",
+              "search_value": "Massachusetts"
+            },
+            {
+              "display_value": "Boston",
+              "search_value": "Boston"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Massachusetts",
+              "search_value": "Massachusetts"
+            },
+            {
+              "display_value": "Boston",
+              "search_value": "Boston"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:25:00",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Shawn Levy",
+              "search_value": "Shawn+Levy"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "George Richmond",
+              "search_value": "George+Richmond"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Ethan Tobman",
+              "search_value": "Ethan+Tobman"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Marlene Stewart",
+              "search_value": "Marlene+Stewart"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Dean Zimmerman",
+              "search_value": "Dean+Zimmerman"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Skip Kimball",
+              "search_value": "Skip+Kimball"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

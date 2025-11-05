@@ -1,0 +1,448 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02897UIN",
+    "image_file": "02897UIN.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Five Easy Pieces",
+            "search_value": "1914"
+          }
+        ]
+      },
+      "full_title": "Five Easy Pieces",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1970",
+            "search_value": "1970"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "000001",
+            "search_value": "000001~25~1"
+          },
+          {
+            "display_value": "060102",
+            "search_value": "060102~25~1"
+          },
+          {
+            "display_value": "321d11",
+            "search_value": "321d11~25~1"
+          },
+          {
+            "display_value": "5d3625",
+            "search_value": "5d3625~25~1"
+          },
+          {
+            "display_value": "514724",
+            "search_value": "514724~25~1"
+          },
+          {
+            "display_value": "715a3e",
+            "search_value": "715a3e~25~1"
+          },
+          {
+            "display_value": "786c70",
+            "search_value": "786c70~25~1"
+          },
+          {
+            "display_value": "a17365",
+            "search_value": "a17365~25~1"
+          },
+          {
+            "display_value": "858962",
+            "search_value": "858962~25~1"
+          },
+          {
+            "display_value": "a99086",
+            "search_value": "a99086~25~1"
+          },
+          {
+            "display_value": "a1989c",
+            "search_value": "a1989c~25~1"
+          },
+          {
+            "display_value": "9ead9a",
+            "search_value": "9ead9a~25~1"
+          },
+          {
+            "display_value": "b2b2b5",
+            "search_value": "b2b2b5~25~1"
+          },
+          {
+            "display_value": "c3c7c6",
+            "search_value": "c3c7c6~25~1"
+          },
+          {
+            "display_value": "c8cbcd",
+            "search_value": "c8cbcd~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "brown coat",
+              "search_value": "\"brown+coat\""
+            },
+            {
+              "display_value": "coat",
+              "search_value": "coat"
+            },
+            {
+              "display_value": "crying",
+              "search_value": "crying"
+            },
+            {
+              "display_value": "dramatic",
+              "search_value": "dramatic"
+            },
+            {
+              "display_value": "emotional",
+              "search_value": "emotional"
+            },
+            {
+              "display_value": "happy",
+              "search_value": "happy"
+            },
+            {
+              "display_value": "happy tears",
+              "search_value": "\"happy+tears\""
+            },
+            {
+              "display_value": "intentive",
+              "search_value": "intentive"
+            },
+            {
+              "display_value": "listening",
+              "search_value": "listening"
+            },
+            {
+              "display_value": "sad",
+              "search_value": "sad"
+            },
+            {
+              "display_value": "sitting",
+              "search_value": "sitting"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 35 IIa",
+              "search_value": "Arriflex+35+IIa"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "Eastman 100T 5247",
+              "search_value": "Eastman+100T+5247"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Mansion",
+              "search_value": "Mansion"
+            },
+            {
+              "display_value": "Piano Room",
+              "search_value": "Piano+Room"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "Canada",
+              "search_value": "Canada"
+            },
+            {
+              "display_value": "British Columbia",
+              "search_value": "British+Columbia"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:11:11",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Road Trip",
+              "search_value": "Movie%2FTV+-+Road+Trip"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Bob Rafelson",
+              "search_value": "Bob+Rafelson"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "László Kovács",
+              "search_value": "L%C3%A1szl%C3%B3+Kov%C3%A1cs"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Toby Carr Rafelson",
+              "search_value": "Toby+Carr+Rafelson"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Bucky Rous",
+              "search_value": "Bucky+Rous"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Christopher Holmes",
+              "search_value": "Christopher+Holmes"
+            },
+            {
+              "display_value": "Gerald Shepard",
+              "search_value": "Gerald+Shepard"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

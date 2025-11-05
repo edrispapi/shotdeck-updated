@@ -1,0 +1,402 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05LKLXK2",
+    "image_file": "05LKLXK2.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Breadwinner",
+            "search_value": "2621"
+          }
+        ]
+      },
+      "full_title": "The Breadwinner",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2017",
+            "search_value": "2017"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "34221b",
+            "search_value": "34221b~25~1"
+          },
+          {
+            "display_value": "3e1a2a",
+            "search_value": "3e1a2a~25~1"
+          },
+          {
+            "display_value": "2d2e39",
+            "search_value": "2d2e39~25~1"
+          },
+          {
+            "display_value": "3f374b",
+            "search_value": "3f374b~25~1"
+          },
+          {
+            "display_value": "503834",
+            "search_value": "503834~25~1"
+          },
+          {
+            "display_value": "612d3b",
+            "search_value": "612d3b~25~1"
+          },
+          {
+            "display_value": "18575c",
+            "search_value": "18575c~25~1"
+          },
+          {
+            "display_value": "763944",
+            "search_value": "763944~25~1"
+          },
+          {
+            "display_value": "815c44",
+            "search_value": "815c44~25~1"
+          },
+          {
+            "display_value": "20757b",
+            "search_value": "20757b~25~1"
+          },
+          {
+            "display_value": "289ca5",
+            "search_value": "289ca5~25~1"
+          },
+          {
+            "display_value": "be9c81",
+            "search_value": "be9c81~25~1"
+          },
+          {
+            "display_value": "d4b8ae",
+            "search_value": "d4b8ae~25~1"
+          },
+          {
+            "display_value": "dfbf93",
+            "search_value": "dfbf93~25~1"
+          },
+          {
+            "display_value": "e5ccba",
+            "search_value": "e5ccba~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "paper cutouts",
+              "search_value": "\"paper+cutouts\""
+            },
+            {
+              "display_value": "story",
+              "search_value": "story"
+            },
+            {
+              "display_value": "legend",
+              "search_value": "legend"
+            },
+            {
+              "display_value": "composited stop motion",
+              "search_value": "\"composited+stop+motion\""
+            },
+            {
+              "display_value": "white tunic",
+              "search_value": "\"white+tunic\""
+            },
+            {
+              "display_value": "white hat",
+              "search_value": "\"white+hat\""
+            },
+            {
+              "display_value": "goat",
+              "search_value": "goat"
+            },
+            {
+              "display_value": "purple hills",
+              "search_value": "\"purple+hills\""
+            },
+            {
+              "display_value": "purple plants",
+              "search_value": "\"purple+plants\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            },
+            {
+              "display_value": "Magenta",
+              "search_value": "Magenta"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Animation"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Countryside",
+              "search_value": "Countryside"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Afghanistan",
+              "search_value": "Afghanistan"
+            },
+            {
+              "display_value": "Kabul",
+              "search_value": "Kabul"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:53:14",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            },
+            {
+              "display_value": "War",
+              "search_value": "Movie%2FTV+-+War"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Nora Twomey",
+              "search_value": "Nora+Twomey"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Sheldon Lisoy",
+              "search_value": "Sheldon+Lisoy"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Ciaran Duffy",
+              "search_value": "Ciaran+Duffy"
+            },
+            {
+              "display_value": "Reza Riahi",
+              "search_value": "Reza+Riahi"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Darragh Byrne",
+              "search_value": "Darragh+Byrne"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Brett Trider",
+              "search_value": "Brett+Trider"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

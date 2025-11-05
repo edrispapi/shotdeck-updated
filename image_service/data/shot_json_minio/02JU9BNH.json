@@ -1,0 +1,480 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02JU9BNH",
+    "image_file": "02JU9BNH.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Mamma Mia! Here We Go Again",
+            "search_value": "10533"
+          }
+        ]
+      },
+      "full_title": "Mamma Mia! Here We Go Again",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2018",
+            "search_value": "2018"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1a2b1c",
+            "search_value": "1a2b1c~25~1"
+          },
+          {
+            "display_value": "11343e",
+            "search_value": "11343e~25~1"
+          },
+          {
+            "display_value": "392f1b",
+            "search_value": "392f1b~25~1"
+          },
+          {
+            "display_value": "3d3136",
+            "search_value": "3d3136~25~1"
+          },
+          {
+            "display_value": "4f3833",
+            "search_value": "4f3833~25~1"
+          },
+          {
+            "display_value": "514b1e",
+            "search_value": "514b1e~25~1"
+          },
+          {
+            "display_value": "475861",
+            "search_value": "475861~25~1"
+          },
+          {
+            "display_value": "54675a",
+            "search_value": "54675a~25~1"
+          },
+          {
+            "display_value": "756441",
+            "search_value": "756441~25~1"
+          },
+          {
+            "display_value": "6f8b79",
+            "search_value": "6f8b79~25~1"
+          },
+          {
+            "display_value": "95825e",
+            "search_value": "95825e~25~1"
+          },
+          {
+            "display_value": "a39071",
+            "search_value": "a39071~25~1"
+          },
+          {
+            "display_value": "82aba1",
+            "search_value": "82aba1~25~1"
+          },
+          {
+            "display_value": "c7d3c2",
+            "search_value": "c7d3c2~25~1"
+          },
+          {
+            "display_value": "d7dcca",
+            "search_value": "d7dcca~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "dirt road",
+              "search_value": "\"dirt+road\""
+            },
+            {
+              "display_value": "mediterranean",
+              "search_value": "mediterranean"
+            },
+            {
+              "display_value": "ocean in background",
+              "search_value": "\"ocean+in+background\""
+            },
+            {
+              "display_value": "donkey",
+              "search_value": "donkey"
+            },
+            {
+              "display_value": "pack mule",
+              "search_value": "\"pack+mule\""
+            },
+            {
+              "display_value": "luggage",
+              "search_value": "luggage"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Ultra Wide / Fisheye",
+              "search_value": "Ultra+Wide+%2F+Fisheye"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Master Anamorphics",
+              "search_value": "Zeiss+Master+Anamorphics"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2.8K / 2.8K ArriRaw",
+              "search_value": "2.8K+%2F+2.8K+ArriRaw"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Road",
+              "search_value": "Road"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Greece ",
+              "search_value": "Greece+"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Croatia",
+              "search_value": "Croatia"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Dance",
+              "search_value": "Movie%2FTV+-+Dance"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            },
+            {
+              "display_value": "Fatherhood",
+              "search_value": "Movie%2FTV+-+Fatherhood"
+            },
+            {
+              "display_value": "Motherhood",
+              "search_value": "Movie%2FTV+-+Motherhood"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Small town",
+              "search_value": "Movie%2FTV+-+Small+town"
+            },
+            {
+              "display_value": "Stage Adaptation",
+              "search_value": "Movie%2FTV+-+Stage+Adaptation"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Ol Parker",
+              "search_value": "Ol+Parker"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Robert D. Yeoman",
+              "search_value": "Robert+D.+Yeoman"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Alan MacDonald",
+              "search_value": "Alan+MacDonald"
+            },
+            {
+              "display_value": "John Frankish",
+              "search_value": "John+Frankish"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Michele Clapton",
+              "search_value": "Michele+Clapton"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Peter Lambert",
+              "search_value": "Peter+Lambert"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Jill Bogdanowicz",
+              "search_value": "Jill+Bogdanowicz"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

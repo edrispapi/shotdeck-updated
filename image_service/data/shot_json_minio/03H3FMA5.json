@@ -1,0 +1,412 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03H3FMA5",
+    "image_file": "03H3FMA5.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Tommy",
+            "search_value": "12229"
+          }
+        ]
+      },
+      "full_title": "Tommy",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1975",
+            "search_value": "1975"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "010203",
+            "search_value": "010203~25~1"
+          },
+          {
+            "display_value": "020402",
+            "search_value": "020402~25~1"
+          },
+          {
+            "display_value": "3a0509",
+            "search_value": "3a0509~25~1"
+          },
+          {
+            "display_value": "271b15",
+            "search_value": "271b15~25~1"
+          },
+          {
+            "display_value": "4a393c",
+            "search_value": "4a393c~25~1"
+          },
+          {
+            "display_value": "4c3a36",
+            "search_value": "4c3a36~25~1"
+          },
+          {
+            "display_value": "474035",
+            "search_value": "474035~25~1"
+          },
+          {
+            "display_value": "544548",
+            "search_value": "544548~25~1"
+          },
+          {
+            "display_value": "58453e",
+            "search_value": "58453e~25~1"
+          },
+          {
+            "display_value": "515352",
+            "search_value": "515352~25~1"
+          },
+          {
+            "display_value": "67676c",
+            "search_value": "67676c~25~1"
+          },
+          {
+            "display_value": "927072",
+            "search_value": "927072~25~1"
+          },
+          {
+            "display_value": "968271",
+            "search_value": "968271~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "curly hair",
+              "search_value": "\"curly+hair\""
+            },
+            {
+              "display_value": "blonde hair",
+              "search_value": "\"blonde+hair\""
+            },
+            {
+              "display_value": "grey suit",
+              "search_value": "\"grey+suit\""
+            },
+            {
+              "display_value": "red cloak",
+              "search_value": "\"red+cloak\""
+            },
+            {
+              "display_value": "striped wallpaper",
+              "search_value": "\"striped+wallpaper\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Roger Daltrey",
+              "search_value": "Roger+Daltrey"
+            },
+            {
+              "display_value": "Tina Turner",
+              "search_value": "Tina+Turner"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Brothel",
+              "search_value": "Brothel"
+            },
+            {
+              "display_value": "Attic",
+              "search_value": "Attic"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "Hampshire",
+              "search_value": "Hampshire"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:34:19",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Music",
+              "search_value": "Movie%2FTV+-+Music"
+            },
+            {
+              "display_value": "Musical",
+              "search_value": "Movie%2FTV+-+Musical"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Ken Russell",
+              "search_value": "Ken+Russell"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Ronnie Taylor",
+              "search_value": "Ronnie+Taylor"
+            },
+            {
+              "display_value": "Dick Bush",
+              "search_value": "Dick+Bush"
+            },
+            {
+              "display_value": "Robin Lehman",
+              "search_value": "Robin+Lehman"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "John Clark",
+              "search_value": "John+Clark"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Shirley Russell",
+              "search_value": "Shirley+Russell"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Stuart Baird",
+              "search_value": "Stuart+Baird"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "David Bernstein",
+              "search_value": "David+Bernstein"
+            },
+            {
+              "display_value": "Sati Tooray",
+              "search_value": "Sati+Tooray"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

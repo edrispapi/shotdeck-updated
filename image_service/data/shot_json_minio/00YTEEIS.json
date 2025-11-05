@@ -1,0 +1,468 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00YTEEIS",
+    "image_file": "00YTEEIS.jpg",
+    "mime": "image/jpeg",
+    "width": "1902",
+    "height": "792",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Mad Max Beyond Thunderdome",
+            "search_value": "1076"
+          }
+        ]
+      },
+      "full_title": "Mad Max Beyond Thunderdome",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1985",
+            "search_value": "1985"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0c0608",
+            "search_value": "0c0608~25~1"
+          },
+          {
+            "display_value": "09080b",
+            "search_value": "09080b~25~1"
+          },
+          {
+            "display_value": "121413",
+            "search_value": "121413~25~1"
+          },
+          {
+            "display_value": "1e1513",
+            "search_value": "1e1513~25~1"
+          },
+          {
+            "display_value": "523633",
+            "search_value": "523633~25~1"
+          },
+          {
+            "display_value": "4c393b",
+            "search_value": "4c393b~25~1"
+          },
+          {
+            "display_value": "454039",
+            "search_value": "454039~25~1"
+          },
+          {
+            "display_value": "4b4a4e",
+            "search_value": "4b4a4e~25~1"
+          },
+          {
+            "display_value": "57484b",
+            "search_value": "57484b~25~1"
+          },
+          {
+            "display_value": "614a42",
+            "search_value": "614a42~25~1"
+          },
+          {
+            "display_value": "897a7c",
+            "search_value": "897a7c~25~1"
+          },
+          {
+            "display_value": "a09087",
+            "search_value": "a09087~25~1"
+          },
+          {
+            "display_value": "9d9296",
+            "search_value": "9d9296~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "mullet",
+              "search_value": "mullet"
+            },
+            {
+              "display_value": "title character",
+              "search_value": "\"title+character\""
+            },
+            {
+              "display_value": "max rockatansky",
+              "search_value": "\"max+rockatansky\""
+            },
+            {
+              "display_value": "antihero",
+              "search_value": "antihero"
+            },
+            {
+              "display_value": "road warrior",
+              "search_value": "\"road+warrior\""
+            },
+            {
+              "display_value": "long hair",
+              "search_value": "\"long+hair\""
+            },
+            {
+              "display_value": "wastelander",
+              "search_value": "wastelander"
+            },
+            {
+              "display_value": "grey streak in hair",
+              "search_value": "\"grey+streak+in+hair\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Tina Turner",
+              "search_value": "Tina+Turner"
+            },
+            {
+              "display_value": "Mel Gibson",
+              "search_value": "Mel+Gibson"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Gold / G2",
+              "search_value": "Panavision+Gold+%2F+G2"
+            },
+            {
+              "display_value": "Panavision Panaflex",
+              "search_value": "Panavision+Panaflex"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision E series",
+              "search_value": "Panavision+E+series"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Tent",
+              "search_value": "Tent"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Australia",
+              "search_value": "Australia"
+            },
+            {
+              "display_value": "Australia",
+              "search_value": "Australia"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Australia",
+              "search_value": "Australia"
+            },
+            {
+              "display_value": "Australia",
+              "search_value": "Australia"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:24:07",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "George Miller",
+              "search_value": "George+Miller"
+            },
+            {
+              "display_value": "George Ogilvie",
+              "search_value": "George+Ogilvie"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Dean Semler",
+              "search_value": "Dean+Semler"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Graham 'Grace' Walker",
+              "search_value": "Graham+%27Grace%27+Walker"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Norma Moriceau",
+              "search_value": "Norma+Moriceau"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Richard Francis-Bruce",
+              "search_value": "Richard+Francis-Bruce"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

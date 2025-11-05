@@ -1,0 +1,438 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "011ZOID3",
+    "image_file": "011ZOID3.jpg",
+    "mime": "image/jpeg",
+    "width": "2880",
+    "height": "1550",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Sweet Sweetback's Baadasssss Song",
+            "search_value": "8227"
+          }
+        ]
+      },
+      "full_title": "Sweet Sweetback's Baadasssss Song",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1971",
+            "search_value": "1971"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0a0e0a",
+            "search_value": "0a0e0a~25~1"
+          },
+          {
+            "display_value": "20110a",
+            "search_value": "20110a~25~1"
+          },
+          {
+            "display_value": "191a20",
+            "search_value": "191a20~25~1"
+          },
+          {
+            "display_value": "371b21",
+            "search_value": "371b21~25~1"
+          },
+          {
+            "display_value": "5a322d",
+            "search_value": "5a322d~25~1"
+          },
+          {
+            "display_value": "5c2f3c",
+            "search_value": "5c2f3c~25~1"
+          },
+          {
+            "display_value": "5a411f",
+            "search_value": "5a411f~25~1"
+          },
+          {
+            "display_value": "6c4955",
+            "search_value": "6c4955~25~1"
+          },
+          {
+            "display_value": "65686f",
+            "search_value": "65686f~25~1"
+          },
+          {
+            "display_value": "8a6122",
+            "search_value": "8a6122~25~1"
+          },
+          {
+            "display_value": "647363",
+            "search_value": "647363~25~1"
+          },
+          {
+            "display_value": "768673",
+            "search_value": "768673~25~1"
+          },
+          {
+            "display_value": "809283",
+            "search_value": "809283~25~1"
+          },
+          {
+            "display_value": "898e95",
+            "search_value": "898e95~25~1"
+          },
+          {
+            "display_value": "999686",
+            "search_value": "999686~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "audience",
+              "search_value": "audience"
+            },
+            {
+              "display_value": "bohemian",
+              "search_value": "bohemian"
+            },
+            {
+              "display_value": "dance routine",
+              "search_value": "\"dance+routine\""
+            },
+            {
+              "display_value": "house party",
+              "search_value": "\"house+party\""
+            },
+            {
+              "display_value": "multicolored lights",
+              "search_value": "\"multicolored+lights\""
+            },
+            {
+              "display_value": "performing",
+              "search_value": "performing"
+            },
+            {
+              "display_value": "party",
+              "search_value": "party"
+            },
+            {
+              "display_value": "sitting on floor",
+              "search_value": "\"sitting+on+floor\""
+            },
+            {
+              "display_value": "mirror reflection",
+              "search_value": "\"mirror+reflection\""
+            },
+            {
+              "display_value": "pin kflowers",
+              "search_value": "\"pin+kflowers\""
+            },
+            {
+              "display_value": "crwoded room",
+              "search_value": "\"crwoded+room\""
+            },
+            {
+              "display_value": "afro",
+              "search_value": "afro"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            },
+            {
+              "display_value": "Mixed light",
+              "search_value": "Mixed+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Living Room",
+              "search_value": "Living+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:07:15",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Melvin Van Peebles",
+              "search_value": "Melvin+Van+Peebles"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Robert Maxwell",
+              "search_value": "Robert+Maxwell"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Melvin Van Peebles",
+              "search_value": "Melvin+Van+Peebles"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

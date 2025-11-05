@@ -1,0 +1,462 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "002B9GPV",
+    "image_file": "002B9GPV.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "816",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Gladiator",
+            "search_value": "569"
+          }
+        ]
+      },
+      "full_title": "Gladiator",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2000",
+            "search_value": "2000"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "111312",
+            "search_value": "111312~25~1"
+          },
+          {
+            "display_value": "261d16",
+            "search_value": "261d16~25~1"
+          },
+          {
+            "display_value": "252324",
+            "search_value": "252324~25~1"
+          },
+          {
+            "display_value": "2b2c32",
+            "search_value": "2b2c32~25~1"
+          },
+          {
+            "display_value": "3a3d47",
+            "search_value": "3a3d47~25~1"
+          },
+          {
+            "display_value": "59362b",
+            "search_value": "59362b~25~1"
+          },
+          {
+            "display_value": "4b3e32",
+            "search_value": "4b3e32~25~1"
+          },
+          {
+            "display_value": "484e55",
+            "search_value": "484e55~25~1"
+          },
+          {
+            "display_value": "524f51",
+            "search_value": "524f51~25~1"
+          },
+          {
+            "display_value": "535454",
+            "search_value": "535454~25~1"
+          },
+          {
+            "display_value": "6b5746",
+            "search_value": "6b5746~25~1"
+          },
+          {
+            "display_value": "957e65",
+            "search_value": "957e65~25~1"
+          },
+          {
+            "display_value": "858689",
+            "search_value": "858689~25~1"
+          },
+          {
+            "display_value": "ad9985",
+            "search_value": "ad9985~25~1"
+          },
+          {
+            "display_value": "e4d5c5",
+            "search_value": "e4d5c5~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "beard",
+              "search_value": "beard"
+            },
+            {
+              "display_value": "dark hair",
+              "search_value": "\"dark+hair\""
+            },
+            {
+              "display_value": "gladiator",
+              "search_value": "gladiator"
+            },
+            {
+              "display_value": "leather armor",
+              "search_value": "\"leather+armor\""
+            },
+            {
+              "display_value": "white man",
+              "search_value": "\"white+man\""
+            },
+            {
+              "display_value": "wearing helmet",
+              "search_value": "\"wearing+helmet\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Russell Crowe",
+              "search_value": "Russell+Crowe"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 35 IIIc",
+              "search_value": "Arriflex+35+IIIc"
+            },
+            {
+              "display_value": "Panavision Gold / G2",
+              "search_value": "Panavision+Gold+%2F+G2"
+            },
+            {
+              "display_value": "Panavision Platinum",
+              "search_value": "Panavision+Platinum"
+            },
+            {
+              "display_value": "Aaton 35-III",
+              "search_value": "Aaton+35-III"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Primes",
+              "search_value": "Panavision+Primo+Primes"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Colosseum",
+              "search_value": "Colosseum"
+            },
+            {
+              "display_value": "Arena",
+              "search_value": "Arena"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Rome",
+              "search_value": "Rome"
+            },
+            {
+              "display_value": "Ancient Rome",
+              "search_value": "Ancient+Rome"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Malta",
+              "search_value": "Malta"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:38:29",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Ridley Scott",
+              "search_value": "Ridley+Scott"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "John Mathieson",
+              "search_value": "John+Mathieson"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Arthur Max",
+              "search_value": "Arthur+Max"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Janty Yates",
+              "search_value": "Janty+Yates"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Pietro Scalia",
+              "search_value": "Pietro+Scalia"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Skip Kimball",
+              "search_value": "Skip+Kimball"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

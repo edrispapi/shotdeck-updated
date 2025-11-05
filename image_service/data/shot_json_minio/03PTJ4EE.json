@@ -1,0 +1,454 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03PTJ4EE",
+    "image_file": "03PTJ4EE.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Sherlock",
+            "search_value": "7706",
+            "season": "1",
+            "episode": "3"
+          }
+        ]
+      },
+      "full_title": "Sherlock - Season 1 - Episode 3",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2010",
+            "search_value": "2010"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0c1113",
+            "search_value": "0c1113~25~1"
+          },
+          {
+            "display_value": "282a23",
+            "search_value": "282a23~25~1"
+          },
+          {
+            "display_value": "242c26",
+            "search_value": "242c26~25~1"
+          },
+          {
+            "display_value": "394344",
+            "search_value": "394344~25~1"
+          },
+          {
+            "display_value": "39443e",
+            "search_value": "39443e~25~1"
+          },
+          {
+            "display_value": "414336",
+            "search_value": "414336~25~1"
+          },
+          {
+            "display_value": "4b5458",
+            "search_value": "4b5458~25~1"
+          },
+          {
+            "display_value": "505c57",
+            "search_value": "505c57~25~1"
+          },
+          {
+            "display_value": "64685a",
+            "search_value": "64685a~25~1"
+          },
+          {
+            "display_value": "7a8479",
+            "search_value": "7a8479~25~1"
+          },
+          {
+            "display_value": "7f8476",
+            "search_value": "7f8476~25~1"
+          },
+          {
+            "display_value": "8e9386",
+            "search_value": "8e9386~25~1"
+          },
+          {
+            "display_value": "8b989e",
+            "search_value": "8b989e~25~1"
+          },
+          {
+            "display_value": "939b91",
+            "search_value": "939b91~25~1"
+          },
+          {
+            "display_value": "c4cdcc",
+            "search_value": "c4cdcc~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "dark brown hair",
+              "search_value": "\"dark+brown+hair\""
+            },
+            {
+              "display_value": "curly hair",
+              "search_value": "\"curly+hair\""
+            },
+            {
+              "display_value": "consulting detective",
+              "search_value": "\"consulting+detective\""
+            },
+            {
+              "display_value": "black coat",
+              "search_value": "\"black+coat\""
+            },
+            {
+              "display_value": "blonde hair",
+              "search_value": "\"blonde+hair\""
+            },
+            {
+              "display_value": "friend",
+              "search_value": "friend"
+            },
+            {
+              "display_value": "sidekick",
+              "search_value": "sidekick"
+            },
+            {
+              "display_value": "view through window",
+              "search_value": "\"view+through+window\""
+            },
+            {
+              "display_value": "police",
+              "search_value": "police"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Benedict Cumberbatch",
+              "search_value": "Benedict+Cumberbatch"
+            },
+            {
+              "display_value": "Martin Freeman",
+              "search_value": "Martin+Freeman"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Sony CineAlta F35",
+              "search_value": "Sony+CineAlta+F35"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Super Speed",
+              "search_value": "Zeiss+Super+Speed"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Police Station",
+              "search_value": "Police+Station"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:11:37",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Paul McGuigan",
+              "search_value": "Paul+McGuigan"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Steve Lawes",
+              "search_value": "Steve+Lawes"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Arwel Jones",
+              "search_value": "Arwel+Jones"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Sarah Arthur",
+              "search_value": "Sarah+Arthur"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Charlie Phillips",
+              "search_value": "Charlie+Phillips"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Kevin Horsewood",
+              "search_value": "Kevin+Horsewood"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

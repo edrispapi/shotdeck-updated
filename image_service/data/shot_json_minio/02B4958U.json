@@ -1,0 +1,468 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02B4958U",
+    "image_file": "02B4958U.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "696",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "28 Years Later",
+            "search_value": "66834"
+          }
+        ]
+      },
+      "full_title": "28 Years Later",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2025",
+            "search_value": "2025"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "030203",
+            "search_value": "030203~25~1"
+          },
+          {
+            "display_value": "030303",
+            "search_value": "030303~25~1"
+          },
+          {
+            "display_value": "030706",
+            "search_value": "030706~25~1"
+          },
+          {
+            "display_value": "04171f",
+            "search_value": "04171f~25~1"
+          },
+          {
+            "display_value": "2c4853",
+            "search_value": "2c4853~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "sneaking over",
+              "search_value": "\"sneaking+over\""
+            },
+            {
+              "display_value": "clouds",
+              "search_value": "clouds"
+            },
+            {
+              "display_value": "dark area",
+              "search_value": "\"dark+area\""
+            },
+            {
+              "display_value": "shadowy face",
+              "search_value": "\"shadowy+face\""
+            },
+            {
+              "display_value": "long sleeve shirt",
+              "search_value": "\"long+sleeve+shirt\""
+            },
+            {
+              "display_value": "following",
+              "search_value": "following"
+            },
+            {
+              "display_value": "curious",
+              "search_value": "curious"
+            },
+            {
+              "display_value": "mainland in background",
+              "search_value": "\"mainland+in+background\""
+            },
+            {
+              "display_value": "grass",
+              "search_value": "grass"
+            },
+            {
+              "display_value": "staying quiet",
+              "search_value": "\"staying+quiet\""
+            },
+            {
+              "display_value": "suspicious",
+              "search_value": "suspicious"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Alfie Williams",
+              "search_value": "Alfie+Williams"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            },
+            {
+              "display_value": "Silhouette",
+              "search_value": "Silhouette"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Moonlight",
+              "search_value": "Moonlight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.76+",
+              "search_value": "2.76%2B"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panasonic AU-EVA1",
+              "search_value": "Panasonic+AU-EVA1"
+            },
+            {
+              "display_value": "iPhone",
+              "search_value": "iPhone"
+            },
+            {
+              "display_value": "DJI | Inspire | Inspire 3",
+              "search_value": "DJI+%7C+Inspire+%7C+Inspire+3"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Atlas Mercury",
+              "search_value": "Atlas+Mercury"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Island",
+              "search_value": "Island"
+            },
+            {
+              "display_value": "Coast",
+              "search_value": "Coast"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "Northumberland",
+              "search_value": "Northumberland"
+            },
+            {
+              "display_value": "Holy Island of Lindisfarne",
+              "search_value": "Holy+Island+of+Lindisfarne"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "Northumberland",
+              "search_value": "Northumberland"
+            },
+            {
+              "display_value": "Holy Island of Lindisfarne",
+              "search_value": "Holy+Island+of+Lindisfarne"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:43:35",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Danny Boyle",
+              "search_value": "Danny+Boyle"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Anthony Dod Mantle",
+              "search_value": "Anthony+Dod+Mantle"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Mark Tildesley",
+              "search_value": "Mark+Tildesley"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Gareth Pugh",
+              "search_value": "Gareth+Pugh"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Jon Harris",
+              "search_value": "Jon+Harris"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Jean-Clement Soret",
+              "search_value": "Jean-Clement+Soret"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03CTA247",
+    "image_file": "03CTA247.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Cowboy Bebop: The Movie",
+            "search_value": "14244"
+          }
+        ]
+      },
+      "full_title": "Cowboy Bebop: The Movie",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2001",
+            "search_value": "2001"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "32221c",
+            "search_value": "32221c~25~1"
+          },
+          {
+            "display_value": "242827",
+            "search_value": "242827~25~1"
+          },
+          {
+            "display_value": "2d3337",
+            "search_value": "2d3337~25~1"
+          },
+          {
+            "display_value": "374049",
+            "search_value": "374049~25~1"
+          },
+          {
+            "display_value": "543632",
+            "search_value": "543632~25~1"
+          },
+          {
+            "display_value": "374246",
+            "search_value": "374246~25~1"
+          },
+          {
+            "display_value": "454136",
+            "search_value": "454136~25~1"
+          },
+          {
+            "display_value": "5a514b",
+            "search_value": "5a514b~25~1"
+          },
+          {
+            "display_value": "4b555c",
+            "search_value": "4b555c~25~1"
+          },
+          {
+            "display_value": "645b5f",
+            "search_value": "645b5f~25~1"
+          },
+          {
+            "display_value": "5f6362",
+            "search_value": "5f6362~25~1"
+          },
+          {
+            "display_value": "907f69",
+            "search_value": "907f69~25~1"
+          },
+          {
+            "display_value": "80a6b1",
+            "search_value": "80a6b1~25~1"
+          },
+          {
+            "display_value": "a3a19a",
+            "search_value": "a3a19a~25~1"
+          },
+          {
+            "display_value": "9eaeab",
+            "search_value": "9eaeab~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "gripping clothes",
+              "search_value": "\"gripping+clothes\""
+            },
+            {
+              "display_value": "blood on face",
+              "search_value": "\"blood+on+face\""
+            },
+            {
+              "display_value": "head hanging down",
+              "search_value": "\"head+hanging+down\""
+            },
+            {
+              "display_value": "side profile of face",
+              "search_value": "\"side+profile+of+face\""
+            },
+            {
+              "display_value": "black suit",
+              "search_value": "\"black+suit\""
+            },
+            {
+              "display_value": "enemies",
+              "search_value": "enemies"
+            },
+            {
+              "display_value": "bad guy",
+              "search_value": "\"bad+guy\""
+            },
+            {
+              "display_value": "tense",
+              "search_value": "tense"
+            },
+            {
+              "display_value": "dramatic moment",
+              "search_value": "\"dramatic+moment\""
+            },
+            {
+              "display_value": "stabbed in chest",
+              "search_value": "\"stabbed+in+chest\""
+            },
+            {
+              "display_value": "hunched shoulders",
+              "search_value": "\"hunched+shoulders\""
+            },
+            {
+              "display_value": "trench coat",
+              "search_value": "\"trench+coat\""
+            },
+            {
+              "display_value": "wavy hair",
+              "search_value": "\"wavy+hair\""
+            },
+            {
+              "display_value": "standing over someone",
+              "search_value": "\"standing+over+someone\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Animation"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Train",
+              "search_value": "Train"
+            },
+            {
+              "display_value": "Car",
+              "search_value": "Car"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Mars",
+              "search_value": "Mars"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:58:13",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Cyberpunk",
+              "search_value": "Movie%2FTV+-+Cyberpunk"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Shinichiro Watanabe",
+              "search_value": "Shinichiro+Watanabe"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Youichi Oogami",
+              "search_value": "Youichi+Oogami"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Shuichi Kakesu",
+              "search_value": "Shuichi+Kakesu"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

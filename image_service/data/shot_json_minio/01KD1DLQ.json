@@ -1,0 +1,430 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01KD1DLQ",
+    "image_file": "01KD1DLQ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1038",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Quick and the Dead",
+            "search_value": "1201"
+          }
+        ]
+      },
+      "full_title": "The Quick and the Dead",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1995",
+            "search_value": "1995"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "020203",
+            "search_value": "020203~25~1"
+          },
+          {
+            "display_value": "010302",
+            "search_value": "010302~25~1"
+          },
+          {
+            "display_value": "040203",
+            "search_value": "040203~25~1"
+          },
+          {
+            "display_value": "25170c",
+            "search_value": "25170c~25~1"
+          },
+          {
+            "display_value": "583d23",
+            "search_value": "583d23~25~1"
+          },
+          {
+            "display_value": "67341e",
+            "search_value": "67341e~25~1"
+          },
+          {
+            "display_value": "715132",
+            "search_value": "715132~25~1"
+          },
+          {
+            "display_value": "bb6f48",
+            "search_value": "bb6f48~25~1"
+          },
+          {
+            "display_value": "9d815a",
+            "search_value": "9d815a~25~1"
+          },
+          {
+            "display_value": "b58f67",
+            "search_value": "b58f67~25~1"
+          },
+          {
+            "display_value": "d8c49a",
+            "search_value": "d8c49a~25~1"
+          },
+          {
+            "display_value": "e0d1b4",
+            "search_value": "e0d1b4~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "captured",
+              "search_value": "captured"
+            },
+            {
+              "display_value": "chained up",
+              "search_value": "\"chained+up\""
+            },
+            {
+              "display_value": "dirty clothes",
+              "search_value": "\"dirty+clothes\""
+            },
+            {
+              "display_value": "facing camera",
+              "search_value": "\"facing+camera\""
+            },
+            {
+              "display_value": "in chains",
+              "search_value": "\"in+chains\""
+            },
+            {
+              "display_value": "preacher",
+              "search_value": "preacher"
+            },
+            {
+              "display_value": "priest",
+              "search_value": "priest"
+            },
+            {
+              "display_value": "prisoner",
+              "search_value": "prisoner"
+            },
+            {
+              "display_value": "serious",
+              "search_value": "serious"
+            },
+            {
+              "display_value": "sitting on steps",
+              "search_value": "\"sitting+on+steps\""
+            },
+            {
+              "display_value": "thinking",
+              "search_value": "thinking"
+            },
+            {
+              "display_value": "waiting",
+              "search_value": "waiting"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Russell Crowe",
+              "search_value": "Russell+Crowe"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1800s",
+              "search_value": "1800s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Panaflex",
+              "search_value": "Panavision+Panaflex"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Lenses",
+              "search_value": "Panavision+Lenses"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Building",
+              "search_value": "Building"
+            },
+            {
+              "display_value": "Front steps",
+              "search_value": "Front+steps"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Arizona",
+              "search_value": "Arizona"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Western",
+              "search_value": "Movie%2FTV+-+Western"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Sam Raimi",
+              "search_value": "Sam+Raimi"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Dante Spinotti",
+              "search_value": "Dante+Spinotti"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Patrizia von Brandenstein",
+              "search_value": "Patrizia+von+Brandenstein"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Judianna Makovsky",
+              "search_value": "Judianna+Makovsky"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Pietro Scalia",
+              "search_value": "Pietro+Scalia"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "David Orr",
+              "search_value": "David+Orr"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

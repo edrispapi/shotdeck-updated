@@ -1,0 +1,468 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01LRC4KV",
+    "image_file": "01LRC4KV.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Big Lebowski",
+            "search_value": "75"
+          }
+        ]
+      },
+      "full_title": "The Big Lebowski",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1998",
+            "search_value": "1998"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d130d",
+            "search_value": "0d130d~25~1"
+          },
+          {
+            "display_value": "1d1c21",
+            "search_value": "1d1c21~25~1"
+          },
+          {
+            "display_value": "2b2529",
+            "search_value": "2b2529~25~1"
+          },
+          {
+            "display_value": "352619",
+            "search_value": "352619~25~1"
+          },
+          {
+            "display_value": "453c40",
+            "search_value": "453c40~25~1"
+          },
+          {
+            "display_value": "53382f",
+            "search_value": "53382f~25~1"
+          },
+          {
+            "display_value": "364638",
+            "search_value": "364638~25~1"
+          },
+          {
+            "display_value": "4b402f",
+            "search_value": "4b402f~25~1"
+          },
+          {
+            "display_value": "575a5e",
+            "search_value": "575a5e~25~1"
+          },
+          {
+            "display_value": "635b5e",
+            "search_value": "635b5e~25~1"
+          },
+          {
+            "display_value": "4f6458",
+            "search_value": "4f6458~25~1"
+          },
+          {
+            "display_value": "6d5d4a",
+            "search_value": "6d5d4a~25~1"
+          },
+          {
+            "display_value": "957e65",
+            "search_value": "957e65~25~1"
+          },
+          {
+            "display_value": "898587",
+            "search_value": "898587~25~1"
+          },
+          {
+            "display_value": "a8917e",
+            "search_value": "a8917e~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "police uniform",
+              "search_value": "\"police+uniform\""
+            },
+            {
+              "display_value": "cop",
+              "search_value": "cop"
+            },
+            {
+              "display_value": "wearing badge",
+              "search_value": "\"wearing+badge\""
+            },
+            {
+              "display_value": "tan outfit",
+              "search_value": "\"tan+outfit\""
+            },
+            {
+              "display_value": "strong stare",
+              "search_value": "\"strong+stare\""
+            },
+            {
+              "display_value": "annoyed look",
+              "search_value": "\"annoyed+look\""
+            },
+            {
+              "display_value": "upset expression",
+              "search_value": "\"upset+expression\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arri 2c  (IIc)",
+              "search_value": "Arri+2c++%28IIc%29"
+            },
+            {
+              "display_value": "Arri 535 / 535B",
+              "search_value": "Arri+535+%2F+535B"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Standard Primes",
+              "search_value": "Zeiss+Standard+Primes"
+            },
+            {
+              "display_value": "Zeiss Super Speed",
+              "search_value": "Zeiss+Super+Speed"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Police Station",
+              "search_value": "Police+Station"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Malibu",
+              "search_value": "Malibu"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            },
+            {
+              "display_value": "Sheats-Goldstein Residence",
+              "search_value": "Sheats-Goldstein+Residence"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:25:56",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Psychedelic",
+              "search_value": "Movie%2FTV+-+Psychedelic"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Joel Coen",
+              "search_value": "Joel+Coen"
+            },
+            {
+              "display_value": "Ethan Coen",
+              "search_value": "Ethan+Coen"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Roger Deakins",
+              "search_value": "Roger+Deakins"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Rick Heinrichs",
+              "search_value": "Rick+Heinrichs"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Mary Zophres",
+              "search_value": "Mary+Zophres"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Ethan Coen",
+              "search_value": "Ethan+Coen"
+            },
+            {
+              "display_value": "Joel Coen",
+              "search_value": "Joel+Coen"
+            },
+            {
+              "display_value": "Tricia Cooke",
+              "search_value": "Tricia+Cooke"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "David Orr",
+              "search_value": "David+Orr"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

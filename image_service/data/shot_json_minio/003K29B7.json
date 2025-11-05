@@ -1,0 +1,494 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "003K29B7",
+    "image_file": "003K29B7.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "960",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Peaky Blinders",
+            "search_value": "4352",
+            "season": "6",
+            "episode": "4"
+          }
+        ]
+      },
+      "full_title": "Peaky Blinders - Season 6 - Episode 4",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "111111",
+            "search_value": "111111~25~1"
+          },
+          {
+            "display_value": "171a20",
+            "search_value": "171a20~25~1"
+          },
+          {
+            "display_value": "2d2329",
+            "search_value": "2d2329~25~1"
+          },
+          {
+            "display_value": "2b2f2f",
+            "search_value": "2b2f2f~25~1"
+          },
+          {
+            "display_value": "463b3f",
+            "search_value": "463b3f~25~1"
+          },
+          {
+            "display_value": "3b3f45",
+            "search_value": "3b3f45~25~1"
+          },
+          {
+            "display_value": "3a4243",
+            "search_value": "3a4243~25~1"
+          },
+          {
+            "display_value": "3b4241",
+            "search_value": "3b4241~25~1"
+          },
+          {
+            "display_value": "424241",
+            "search_value": "424241~25~1"
+          },
+          {
+            "display_value": "424948",
+            "search_value": "424948~25~1"
+          },
+          {
+            "display_value": "544a50",
+            "search_value": "544a50~25~1"
+          },
+          {
+            "display_value": "59656d",
+            "search_value": "59656d~25~1"
+          },
+          {
+            "display_value": "72808f",
+            "search_value": "72808f~25~1"
+          },
+          {
+            "display_value": "8494a3",
+            "search_value": "8494a3~25~1"
+          },
+          {
+            "display_value": "c7d8e9",
+            "search_value": "c7d8e9~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "black coat",
+              "search_value": "\"black+coat\""
+            },
+            {
+              "display_value": "camp",
+              "search_value": "camp"
+            },
+            {
+              "display_value": "fog",
+              "search_value": "fog"
+            },
+            {
+              "display_value": "haze",
+              "search_value": "haze"
+            },
+            {
+              "display_value": "intense",
+              "search_value": "intense"
+            },
+            {
+              "display_value": "standoff",
+              "search_value": "standoff"
+            },
+            {
+              "display_value": "tall trees",
+              "search_value": "\"tall+trees\""
+            },
+            {
+              "display_value": "pain",
+              "search_value": "pain"
+            },
+            {
+              "display_value": "black gloves",
+              "search_value": "\"black+gloves\""
+            },
+            {
+              "display_value": "flat cap",
+              "search_value": "\"flat+cap\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Cillian Murphy",
+              "search_value": "Cillian+Murphy"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1800s",
+              "search_value": "1800s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.00",
+              "search_value": "2.00"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Super 35",
+              "search_value": "Super+35"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "RED Monstro",
+              "search_value": "RED+Monstro"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Supreme Prime Radiance",
+              "search_value": "Zeiss+Supreme+Prime+Radiance"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "Redcode RAW 8k",
+              "search_value": "Redcode+RAW+8k"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Forest",
+              "search_value": "Forest"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "Birmingham",
+              "search_value": "Birmingham"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "Yorkshire",
+              "search_value": "Yorkshire"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:12:24",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Gangster",
+              "search_value": "Movie%2FTV+-+Gangster"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Anthony Byrne",
+              "search_value": "Anthony+Byrne"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Mathieu Plainfossé\t",
+              "search_value": "Mathieu+Plainfoss%C3%A9%09"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Nicole Northridge",
+              "search_value": "Nicole+Northridge"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Alison McCosh",
+              "search_value": "Alison+McCosh"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Paul Knight",
+              "search_value": "Paul+Knight"
+            },
+            {
+              "display_value": "Chris Roebuck",
+              "search_value": "Chris+Roebuck"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Paul Staples",
+              "search_value": "Paul+Staples"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

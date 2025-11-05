@@ -1,0 +1,424 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00LK2NGS",
+    "image_file": "00LK2NGS.jpg",
+    "mime": "image/jpeg",
+    "width": "1480",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Bitter Tears of Petra von Kant",
+            "search_value": "14758"
+          }
+        ]
+      },
+      "full_title": "The Bitter Tears of Petra von Kant",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1972",
+            "search_value": "1972"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d0a05",
+            "search_value": "0d0a05~25~1"
+          },
+          {
+            "display_value": "1f1e1f",
+            "search_value": "1f1e1f~25~1"
+          },
+          {
+            "display_value": "1f2221",
+            "search_value": "1f2221~25~1"
+          },
+          {
+            "display_value": "2b3136",
+            "search_value": "2b3136~25~1"
+          },
+          {
+            "display_value": "374049",
+            "search_value": "374049~25~1"
+          },
+          {
+            "display_value": "533830",
+            "search_value": "533830~25~1"
+          },
+          {
+            "display_value": "374247",
+            "search_value": "374247~25~1"
+          },
+          {
+            "display_value": "523e2d",
+            "search_value": "523e2d~25~1"
+          },
+          {
+            "display_value": "65483e",
+            "search_value": "65483e~25~1"
+          },
+          {
+            "display_value": "46525c",
+            "search_value": "46525c~25~1"
+          },
+          {
+            "display_value": "745a5b",
+            "search_value": "745a5b~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "walking down steps",
+              "search_value": "\"walking+down+steps\""
+            },
+            {
+              "display_value": "approaching",
+              "search_value": "approaching"
+            },
+            {
+              "display_value": "chic",
+              "search_value": "chic"
+            },
+            {
+              "display_value": "dress",
+              "search_value": "dress"
+            },
+            {
+              "display_value": "shadow",
+              "search_value": "shadow"
+            },
+            {
+              "display_value": "looking offscreen",
+              "search_value": "\"looking+offscreen\""
+            },
+            {
+              "display_value": "uneasy",
+              "search_value": "uneasy"
+            },
+            {
+              "display_value": "apprehensive",
+              "search_value": "apprehensive"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Irm Hermann",
+              "search_value": "Irm+Hermann"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.37",
+              "search_value": "1.37"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            },
+            {
+              "display_value": "Entryway",
+              "search_value": "Entryway"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Germany",
+              "search_value": "Germany"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Germany",
+              "search_value": "Germany"
+            },
+            {
+              "display_value": "Lower Saxony",
+              "search_value": "Lower+Saxony"
+            },
+            {
+              "display_value": "Worpswede",
+              "search_value": "Worpswede"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:15:10",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Melodrama",
+              "search_value": "Movie%2FTV+-+Melodrama"
+            },
+            {
+              "display_value": "Philosophical",
+              "search_value": "Movie%2FTV+-+Philosophical"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Rainer Werner Fassbinder",
+              "search_value": "Rainer+Werner+Fassbinder"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Michael Ballhaus",
+              "search_value": "Michael+Ballhaus"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Kurt Raab",
+              "search_value": "Kurt+Raab"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Maja Lemcke",
+              "search_value": "Maja+Lemcke"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Thea Eymèsz",
+              "search_value": "Thea+Eym%C3%A8sz"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

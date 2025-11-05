@@ -1,0 +1,462 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04VIF1Z0",
+    "image_file": "04VIF1Z0.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1036",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "A Thousand and One",
+            "search_value": "31807"
+          }
+        ]
+      },
+      "full_title": "A Thousand and One",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2023",
+            "search_value": "2023"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "140d07",
+            "search_value": "140d07~25~1"
+          },
+          {
+            "display_value": "1b0e0f",
+            "search_value": "1b0e0f~25~1"
+          },
+          {
+            "display_value": "131c1f",
+            "search_value": "131c1f~25~1"
+          },
+          {
+            "display_value": "202522",
+            "search_value": "202522~25~1"
+          },
+          {
+            "display_value": "4f3a32",
+            "search_value": "4f3a32~25~1"
+          },
+          {
+            "display_value": "4a432e",
+            "search_value": "4a432e~25~1"
+          },
+          {
+            "display_value": "63574b",
+            "search_value": "63574b~25~1"
+          },
+          {
+            "display_value": "52656b",
+            "search_value": "52656b~25~1"
+          },
+          {
+            "display_value": "5f6460",
+            "search_value": "5f6460~25~1"
+          },
+          {
+            "display_value": "6f5f63",
+            "search_value": "6f5f63~25~1"
+          },
+          {
+            "display_value": "897b79",
+            "search_value": "897b79~25~1"
+          },
+          {
+            "display_value": "8f8982",
+            "search_value": "8f8982~25~1"
+          },
+          {
+            "display_value": "8a908d",
+            "search_value": "8a908d~25~1"
+          },
+          {
+            "display_value": "989194",
+            "search_value": "989194~25~1"
+          },
+          {
+            "display_value": "90969a",
+            "search_value": "90969a~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "walking down steps",
+              "search_value": "\"walking+down+steps\""
+            },
+            {
+              "display_value": "top of staircase",
+              "search_value": "\"top+of+staircase\""
+            },
+            {
+              "display_value": "wooden wall",
+              "search_value": "\"wooden+wall\""
+            },
+            {
+              "display_value": "ornate staircase",
+              "search_value": "\"ornate+staircase\""
+            },
+            {
+              "display_value": "kid leaving",
+              "search_value": "\"kid+leaving\""
+            },
+            {
+              "display_value": "backwards hat",
+              "search_value": "\"backwards+hat\""
+            },
+            {
+              "display_value": "despondent child",
+              "search_value": "\"despondent+child\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Aaron Kingsley Adetola",
+              "search_value": "Aaron+Kingsley+Adetola"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Primes",
+              "search_value": "Panavision+Primo+Primes"
+            },
+            {
+              "display_value": "Zeiss Super Speed MKII",
+              "search_value": "Zeiss+Super+Speed+MKII"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Stairs",
+              "search_value": "Stairs"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            },
+            {
+              "display_value": "Harlem",
+              "search_value": "Harlem"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:20:35",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "A.V. Rockwell",
+              "search_value": "A.V.+Rockwell"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Eric Yue",
+              "search_value": "Eric+Yue"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Sharon Lomofsky",
+              "search_value": "Sharon+Lomofsky"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Melissa Vargas",
+              "search_value": "Melissa+Vargas"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Sabine Hoffman",
+              "search_value": "Sabine+Hoffman"
+            },
+            {
+              "display_value": "Kristan Sprague",
+              "search_value": "Kristan+Sprague"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Maxine Gervais",
+              "search_value": "Maxine+Gervais"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

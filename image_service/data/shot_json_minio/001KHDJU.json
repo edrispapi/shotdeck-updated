@@ -1,0 +1,482 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "001KHDJU",
+    "image_file": "001KHDJU.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1036",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Maria",
+            "search_value": "61255"
+          }
+        ]
+      },
+      "full_title": "Maria",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2024",
+            "search_value": "2024"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0b0b0a",
+            "search_value": "0b0b0a~25~1"
+          },
+          {
+            "display_value": "101011",
+            "search_value": "101011~25~1"
+          },
+          {
+            "display_value": "111011",
+            "search_value": "111011~25~1"
+          },
+          {
+            "display_value": "2c2e2b",
+            "search_value": "2c2e2b~25~1"
+          },
+          {
+            "display_value": "3e413d",
+            "search_value": "3e413d~25~1"
+          },
+          {
+            "display_value": "3f413d",
+            "search_value": "3f413d~25~1"
+          },
+          {
+            "display_value": "5c5e5b",
+            "search_value": "5c5e5b~25~1"
+          },
+          {
+            "display_value": "5f605d",
+            "search_value": "5f605d~25~1"
+          },
+          {
+            "display_value": "7e817d",
+            "search_value": "7e817d~25~1"
+          },
+          {
+            "display_value": "7f817d",
+            "search_value": "7f817d~25~1"
+          },
+          {
+            "display_value": "929692",
+            "search_value": "929692~25~1"
+          },
+          {
+            "display_value": "959693",
+            "search_value": "959693~25~1"
+          },
+          {
+            "display_value": "bec1be",
+            "search_value": "bec1be~25~1"
+          },
+          {
+            "display_value": "d8dbd8",
+            "search_value": "d8dbd8~25~1"
+          },
+          {
+            "display_value": "e9e9e8",
+            "search_value": "e9e9e8~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "opera singer",
+              "search_value": "\"opera+singer\""
+            },
+            {
+              "display_value": "vocalist",
+              "search_value": "vocalist"
+            },
+            {
+              "display_value": "primadonna",
+              "search_value": "primadonna"
+            },
+            {
+              "display_value": "diva",
+              "search_value": "diva"
+            },
+            {
+              "display_value": "hair done up",
+              "search_value": "\"hair+done+up\""
+            },
+            {
+              "display_value": "banquet",
+              "search_value": "banquet"
+            },
+            {
+              "display_value": "party",
+              "search_value": "party"
+            },
+            {
+              "display_value": "glasses",
+              "search_value": "glasses"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Angelina Jolie",
+              "search_value": "Angelina+Jolie"
+            },
+            {
+              "display_value": "Haluk Bilginer",
+              "search_value": "Haluk+Bilginer"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam ST",
+              "search_value": "Arricam+ST"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Olympus Zero Optik",
+              "search_value": "Olympus+Zero+Optik"
+            },
+            {
+              "display_value": "Bausch & Lomb Ultra Baltars",
+              "search_value": "Bausch+%26+Lomb+Ultra+Baltars"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Mansion",
+              "search_value": "Mansion"
+            },
+            {
+              "display_value": "Ballroom",
+              "search_value": "Ballroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Hungary",
+              "search_value": "Hungary"
+            },
+            {
+              "display_value": "Budapest",
+              "search_value": "Budapest"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:37:40",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Music",
+              "search_value": "Movie%2FTV+-+Music"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Pablo Larraín",
+              "search_value": "Pablo+Larra%C3%ADn"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Edward Lachman",
+              "search_value": "Edward+Lachman"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Guy Hendrix Dyas",
+              "search_value": "Guy+Hendrix+Dyas"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Massimo Cantini Parrini",
+              "search_value": "Massimo+Cantini+Parrini"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Sofía Subercaseaux",
+              "search_value": "Sof%C3%ADa+Subercaseaux"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Benedek Kabán",
+              "search_value": "Benedek+Kab%C3%A1n"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,490 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01H2B1EK",
+    "image_file": "01H2B1EK.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Alice",
+            "search_value": "13923"
+          }
+        ]
+      },
+      "full_title": "Alice",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "222924",
+            "search_value": "222924~25~1"
+          },
+          {
+            "display_value": "272f31",
+            "search_value": "272f31~25~1"
+          },
+          {
+            "display_value": "31332a",
+            "search_value": "31332a~25~1"
+          },
+          {
+            "display_value": "3c423c",
+            "search_value": "3c423c~25~1"
+          },
+          {
+            "display_value": "414337",
+            "search_value": "414337~25~1"
+          },
+          {
+            "display_value": "4e544f",
+            "search_value": "4e544f~25~1"
+          },
+          {
+            "display_value": "535a5c",
+            "search_value": "535a5c~25~1"
+          },
+          {
+            "display_value": "636153",
+            "search_value": "636153~25~1"
+          },
+          {
+            "display_value": "7b827e",
+            "search_value": "7b827e~25~1"
+          },
+          {
+            "display_value": "8b826e",
+            "search_value": "8b826e~25~1"
+          },
+          {
+            "display_value": "8a8d90",
+            "search_value": "8a8d90~25~1"
+          },
+          {
+            "display_value": "929894",
+            "search_value": "929894~25~1"
+          },
+          {
+            "display_value": "aba08c",
+            "search_value": "aba08c~25~1"
+          },
+          {
+            "display_value": "cdc1ac",
+            "search_value": "cdc1ac~25~1"
+          },
+          {
+            "display_value": "dfd7c6",
+            "search_value": "dfd7c6~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "silver birch",
+              "search_value": "\"silver+birch\""
+            },
+            {
+              "display_value": "wilderness",
+              "search_value": "wilderness"
+            },
+            {
+              "display_value": "wild plants",
+              "search_value": "\"wild+plants\""
+            },
+            {
+              "display_value": "oak trees",
+              "search_value": "\"oak+trees\""
+            },
+            {
+              "display_value": "overgrown greenery",
+              "search_value": "\"overgrown+greenery\""
+            },
+            {
+              "display_value": "southern",
+              "search_value": "southern"
+            },
+            {
+              "display_value": "sunlight through leaves",
+              "search_value": "\"sunlight+through+leaves\""
+            },
+            {
+              "display_value": "weeping willow",
+              "search_value": "\"weeping+willow\""
+            },
+            {
+              "display_value": "hanging",
+              "search_value": "hanging"
+            },
+            {
+              "display_value": "mossy",
+              "search_value": "mossy"
+            },
+            {
+              "display_value": "moss",
+              "search_value": "moss"
+            },
+            {
+              "display_value": "weeping tree",
+              "search_value": "\"weeping+tree\""
+            },
+            {
+              "display_value": "ethereal",
+              "search_value": "ethereal"
+            },
+            {
+              "display_value": "unique landscape",
+              "search_value": "\"unique+landscape\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            },
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke Anamorphic",
+              "search_value": "Cooke+Anamorphic"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Backwoods",
+              "search_value": "Backwoods"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Georgia",
+              "search_value": "Georgia"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Georgia",
+              "search_value": "Georgia"
+            },
+            {
+              "display_value": "Savannah",
+              "search_value": "Savannah"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:03:17",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Krystin Ver Linden",
+              "search_value": "Krystin+Ver+Linden"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Alex Disenhof",
+              "search_value": "Alex+Disenhof"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Gregory A. Weimerskirch",
+              "search_value": "Gregory+A.+Weimerskirch"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Karyn Wagner",
+              "search_value": "Karyn+Wagner"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Byron Smith",
+              "search_value": "Byron+Smith"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "James White",
+              "search_value": "James+White"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "045FCUS2",
+    "image_file": "045FCUS2.jpg",
+    "mime": "image/jpeg",
+    "width": "1440",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Zack Snyder's Justice League",
+            "search_value": "4326"
+          }
+        ]
+      },
+      "full_title": "Zack Snyder's Justice League",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2021",
+            "search_value": "2021"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "090a0c",
+            "search_value": "090a0c~25~1"
+          },
+          {
+            "display_value": "0e0b0c",
+            "search_value": "0e0b0c~25~1"
+          },
+          {
+            "display_value": "171612",
+            "search_value": "171612~25~1"
+          },
+          {
+            "display_value": "1a1f1d",
+            "search_value": "1a1f1d~25~1"
+          },
+          {
+            "display_value": "493b39",
+            "search_value": "493b39~25~1"
+          },
+          {
+            "display_value": "424239",
+            "search_value": "424239~25~1"
+          },
+          {
+            "display_value": "374541",
+            "search_value": "374541~25~1"
+          },
+          {
+            "display_value": "5e4d4f",
+            "search_value": "5e4d4f~25~1"
+          },
+          {
+            "display_value": "5a554d",
+            "search_value": "5a554d~25~1"
+          },
+          {
+            "display_value": "5a645c",
+            "search_value": "5a645c~25~1"
+          },
+          {
+            "display_value": "8b7b77",
+            "search_value": "8b7b77~25~1"
+          },
+          {
+            "display_value": "788578",
+            "search_value": "788578~25~1"
+          },
+          {
+            "display_value": "898072",
+            "search_value": "898072~25~1"
+          },
+          {
+            "display_value": "839385",
+            "search_value": "839385~25~1"
+          },
+          {
+            "display_value": "999081",
+            "search_value": "999081~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "amazonian",
+              "search_value": "amazonian"
+            },
+            {
+              "display_value": "blocking bullet",
+              "search_value": "\"blocking+bullet\""
+            },
+            {
+              "display_value": "determined",
+              "search_value": "determined"
+            },
+            {
+              "display_value": "headband",
+              "search_value": "headband"
+            },
+            {
+              "display_value": "heroic",
+              "search_value": "heroic"
+            },
+            {
+              "display_value": "saving people",
+              "search_value": "\"saving+people\""
+            },
+            {
+              "display_value": "slo mo",
+              "search_value": "\"slo+mo\""
+            },
+            {
+              "display_value": "slo-mo",
+              "search_value": "slo-mo"
+            },
+            {
+              "display_value": "slow motion",
+              "search_value": "\"slow+motion\""
+            },
+            {
+              "display_value": "super hero",
+              "search_value": "\"super+hero\""
+            },
+            {
+              "display_value": "superhero",
+              "search_value": "superhero"
+            },
+            {
+              "display_value": "warrior",
+              "search_value": "warrior"
+            },
+            {
+              "display_value": "wonder woman",
+              "search_value": "\"wonder+woman\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Gal Gadot",
+              "search_value": "Gal+Gadot"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.33",
+              "search_value": "1.33"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Super 35",
+              "search_value": "Super+35"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 435",
+              "search_value": "Arriflex+435"
+            },
+            {
+              "display_value": "Arriflex 235",
+              "search_value": "Arriflex+235"
+            },
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            },
+            {
+              "display_value": "Arricam ST",
+              "search_value": "Arricam+ST"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Leitz SUMMILUX-C",
+              "search_value": "Leitz+SUMMILUX-C"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            },
+            {
+              "display_value": "5207/7207\tVision 3\t250D",
+              "search_value": "5207%2F7207%09Vision+3%09250D"
+            },
+            {
+              "display_value": "5203/7203\tVision 3\t50D",
+              "search_value": "5203%2F7203%09Vision+3%0950D"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Bank",
+              "search_value": "Bank"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            },
+            {
+              "display_value": "Central Criminal Court of London and Wales",
+              "search_value": "Central+Criminal+Court+of+London+and+Wales"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            },
+            {
+              "display_value": "Central Criminal Court of England and Wales",
+              "search_value": "Central+Criminal+Court+of+England+and+Wales"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:23:19",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Zack Snyder",
+              "search_value": "Zack+Snyder"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Fabian Wagner",
+              "search_value": "Fabian+Wagner"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Patrick Tatopoulos",
+              "search_value": "Patrick+Tatopoulos"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Michael Wilkinson",
+              "search_value": "Michael+Wilkinson"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "David Brenner",
+              "search_value": "David+Brenner"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Adam Nazarenko",
+              "search_value": "Adam+Nazarenko"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

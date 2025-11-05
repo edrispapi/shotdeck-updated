@@ -1,0 +1,512 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01KIVXC0",
+    "image_file": "01KIVXC0.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Elizabeth: The Golden Age",
+            "search_value": "7979"
+          }
+        ]
+      },
+      "full_title": "Elizabeth: The Golden Age",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2007",
+            "search_value": "2007"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "262b28",
+            "search_value": "262b28~25~1"
+          },
+          {
+            "display_value": "30291c",
+            "search_value": "30291c~25~1"
+          },
+          {
+            "display_value": "2a353b",
+            "search_value": "2a353b~25~1"
+          },
+          {
+            "display_value": "31414f",
+            "search_value": "31414f~25~1"
+          },
+          {
+            "display_value": "364248",
+            "search_value": "364248~25~1"
+          },
+          {
+            "display_value": "4e412b",
+            "search_value": "4e412b~25~1"
+          },
+          {
+            "display_value": "4c504e",
+            "search_value": "4c504e~25~1"
+          },
+          {
+            "display_value": "485b68",
+            "search_value": "485b68~25~1"
+          },
+          {
+            "display_value": "685b4b",
+            "search_value": "685b4b~25~1"
+          },
+          {
+            "display_value": "6a8693",
+            "search_value": "6a8693~25~1"
+          },
+          {
+            "display_value": "8e8369",
+            "search_value": "8e8369~25~1"
+          },
+          {
+            "display_value": "728a95",
+            "search_value": "728a95~25~1"
+          },
+          {
+            "display_value": "9c957e",
+            "search_value": "9c957e~25~1"
+          },
+          {
+            "display_value": "ccc9a6",
+            "search_value": "ccc9a6~25~1"
+          },
+          {
+            "display_value": "ddddbd",
+            "search_value": "ddddbd~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "gown",
+              "search_value": "gown"
+            },
+            {
+              "display_value": "orange hair",
+              "search_value": "\"orange+hair\""
+            },
+            {
+              "display_value": "elizabethan architecture",
+              "search_value": "\"elizabethan+architecture\""
+            },
+            {
+              "display_value": "elizabethan",
+              "search_value": "elizabethan"
+            },
+            {
+              "display_value": "periwig",
+              "search_value": "periwig"
+            },
+            {
+              "display_value": "giving instruction",
+              "search_value": "\"giving+instruction\""
+            },
+            {
+              "display_value": "directing",
+              "search_value": "directing"
+            },
+            {
+              "display_value": "dancing",
+              "search_value": "dancing"
+            },
+            {
+              "display_value": "dance partners",
+              "search_value": "\"dance+partners\""
+            },
+            {
+              "display_value": "hands on shoulders",
+              "search_value": "\"hands+on+shoulders\""
+            },
+            {
+              "display_value": "positioning",
+              "search_value": "positioning"
+            },
+            {
+              "display_value": "blue gown",
+              "search_value": "\"blue+gown\""
+            },
+            {
+              "display_value": "rehearsing",
+              "search_value": "rehearsing"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Cate Blanchett",
+              "search_value": "Cate+Blanchett"
+            },
+            {
+              "display_value": "Clive Owen",
+              "search_value": "Clive+Owen"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Renaissance: 1400-1700",
+              "search_value": "Renaissance%3A+1400-1700"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Firelight",
+              "search_value": "Firelight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            },
+            {
+              "display_value": "Arricam ST",
+              "search_value": "Arricam+ST"
+            },
+            {
+              "display_value": "Arriflex 235",
+              "search_value": "Arriflex+235"
+            },
+            {
+              "display_value": "Arriflex 435",
+              "search_value": "Arriflex+435"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Ultra Prime",
+              "search_value": "Zeiss+Ultra+Prime"
+            },
+            {
+              "display_value": "Angenieux Optimo Zooms",
+              "search_value": "Angenieux+Optimo+Zooms"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": " Castle",
+              "search_value": "+Castle"
+            },
+            {
+              "display_value": "Dance Floor",
+              "search_value": "Dance+Floor"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:54:48",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Shekhar Kapur",
+              "search_value": "Shekhar+Kapur"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Remi Adefarasin",
+              "search_value": "Remi+Adefarasin"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Guy Dyas",
+              "search_value": "Guy+Dyas"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Alexandra Byrne",
+              "search_value": "Alexandra+Byrne"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Jill Bilcock",
+              "search_value": "Jill+Bilcock"
+            },
+            {
+              "display_value": "Andrew Haddock",
+              "search_value": "Andrew+Haddock"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Max Horton",
+              "search_value": "Max+Horton"
+            },
+            {
+              "display_value": "Dan Crussell",
+              "search_value": "Dan+Crussell"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

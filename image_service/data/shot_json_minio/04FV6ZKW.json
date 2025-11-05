@@ -1,0 +1,410 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04FV6ZKW",
+    "image_file": "04FV6ZKW.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1036",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Flushed Away",
+            "search_value": "32173"
+          }
+        ]
+      },
+      "full_title": "Flushed Away",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2006",
+            "search_value": "2006"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0a0d0c",
+            "search_value": "0a0d0c~25~1"
+          },
+          {
+            "display_value": "191415",
+            "search_value": "191415~25~1"
+          },
+          {
+            "display_value": "211714",
+            "search_value": "211714~25~1"
+          },
+          {
+            "display_value": "1b1b1f",
+            "search_value": "1b1b1f~25~1"
+          },
+          {
+            "display_value": "57362f",
+            "search_value": "57362f~25~1"
+          },
+          {
+            "display_value": "5a5963",
+            "search_value": "5a5963~25~1"
+          },
+          {
+            "display_value": "76574c",
+            "search_value": "76574c~25~1"
+          },
+          {
+            "display_value": "695d61",
+            "search_value": "695d61~25~1"
+          },
+          {
+            "display_value": "ae6d5e",
+            "search_value": "ae6d5e~25~1"
+          },
+          {
+            "display_value": "9493a0",
+            "search_value": "9493a0~25~1"
+          },
+          {
+            "display_value": "cd8a76",
+            "search_value": "cd8a76~25~1"
+          },
+          {
+            "display_value": "a8999d",
+            "search_value": "a8999d~25~1"
+          },
+          {
+            "display_value": "f4ab92",
+            "search_value": "f4ab92~25~1"
+          },
+          {
+            "display_value": "e2cbd0",
+            "search_value": "e2cbd0~25~1"
+          },
+          {
+            "display_value": "f2ceb6",
+            "search_value": "f2ceb6~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "creepy silhouette",
+              "search_value": "\"creepy+silhouette\""
+            },
+            {
+              "display_value": "brick wall",
+              "search_value": "\"brick+wall\""
+            },
+            {
+              "display_value": "captured",
+              "search_value": "captured"
+            },
+            {
+              "display_value": "trapped in arms",
+              "search_value": "\"trapped+in+arms\""
+            },
+            {
+              "display_value": "henchmen",
+              "search_value": "henchmen"
+            },
+            {
+              "display_value": "rat",
+              "search_value": "rat"
+            },
+            {
+              "display_value": "scared",
+              "search_value": "scared"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Animation"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            },
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Silhouette",
+              "search_value": "Silhouette"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Boat",
+              "search_value": "Boat"
+            },
+            {
+              "display_value": "Deck",
+              "search_value": "Deck"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            },
+            {
+              "display_value": "Ratropolis",
+              "search_value": "Ratropolis"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:16:36",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "David Bowers",
+              "search_value": "David+Bowers"
+            },
+            {
+              "display_value": "Sam Fell",
+              "search_value": "Sam+Fell"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Frank Passingham",
+              "search_value": "Frank+Passingham"
+            },
+            {
+              "display_value": "Brad Blackbourn",
+              "search_value": "Brad+Blackbourn"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "David James",
+              "search_value": "David+James"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "John Venzon",
+              "search_value": "John+Venzon"
+            },
+            {
+              "display_value": "Erika Dapkewicz",
+              "search_value": "Erika+Dapkewicz"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Timothy Peeler",
+              "search_value": "Timothy+Peeler"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01D5ZO9S",
+    "image_file": "01D5ZO9S.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "996",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Welcome to the Dollhouse",
+            "search_value": "6397"
+          }
+        ]
+      },
+      "full_title": "Welcome to the Dollhouse",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1996",
+            "search_value": "1996"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1b2120",
+            "search_value": "1b2120~25~1"
+          },
+          {
+            "display_value": "262220",
+            "search_value": "262220~25~1"
+          },
+          {
+            "display_value": "24282d",
+            "search_value": "24282d~25~1"
+          },
+          {
+            "display_value": "2e282b",
+            "search_value": "2e282b~25~1"
+          },
+          {
+            "display_value": "4b3840",
+            "search_value": "4b3840~25~1"
+          },
+          {
+            "display_value": "393f49",
+            "search_value": "393f49~25~1"
+          },
+          {
+            "display_value": "4a545d",
+            "search_value": "4a545d~25~1"
+          },
+          {
+            "display_value": "5d4e53",
+            "search_value": "5d4e53~25~1"
+          },
+          {
+            "display_value": "655752",
+            "search_value": "655752~25~1"
+          },
+          {
+            "display_value": "525e5c",
+            "search_value": "525e5c~25~1"
+          },
+          {
+            "display_value": "929fa1",
+            "search_value": "929fa1~25~1"
+          },
+          {
+            "display_value": "b29d94",
+            "search_value": "b29d94~25~1"
+          },
+          {
+            "display_value": "a2b2b0",
+            "search_value": "a2b2b0~25~1"
+          },
+          {
+            "display_value": "aecbc7",
+            "search_value": "aecbc7~25~1"
+          },
+          {
+            "display_value": "b4d5ce",
+            "search_value": "b4d5ce~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "fence",
+              "search_value": "fence"
+            },
+            {
+              "display_value": "leaning on fence",
+              "search_value": "\"leaning+on+fence\""
+            },
+            {
+              "display_value": "hands on fence",
+              "search_value": "\"hands+on+fence\""
+            },
+            {
+              "display_value": "young girl",
+              "search_value": "\"young+girl\""
+            },
+            {
+              "display_value": "teen girl",
+              "search_value": "\"teen+girl\""
+            },
+            {
+              "display_value": "nerdy",
+              "search_value": "nerdy"
+            },
+            {
+              "display_value": "loser",
+              "search_value": "loser"
+            },
+            {
+              "display_value": "glasses",
+              "search_value": "glasses"
+            },
+            {
+              "display_value": "freckles",
+              "search_value": "freckles"
+            },
+            {
+              "display_value": "ponytail",
+              "search_value": "ponytail"
+            },
+            {
+              "display_value": "unattractive",
+              "search_value": "unattractive"
+            },
+            {
+              "display_value": "freshman",
+              "search_value": "freshman"
+            },
+            {
+              "display_value": "8th grade",
+              "search_value": "\"8th+grade\""
+            },
+            {
+              "display_value": "middle schooler",
+              "search_value": "\"middle+schooler\""
+            },
+            {
+              "display_value": "nerd",
+              "search_value": "nerd"
+            },
+            {
+              "display_value": "geek",
+              "search_value": "geek"
+            },
+            {
+              "display_value": "shy",
+              "search_value": "shy"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Heather Matarazzo",
+              "search_value": "Heather+Matarazzo"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.90",
+              "search_value": "1.90"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "High School",
+              "search_value": "High+School"
+            },
+            {
+              "display_value": "Field",
+              "search_value": "Field"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New Jersey",
+              "search_value": "New+Jersey"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New Jersey",
+              "search_value": "New+Jersey"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:10:39",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Todd Solondz",
+              "search_value": "Todd+Solondz"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Randy Drummond",
+              "search_value": "Randy+Drummond"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Susan Block",
+              "search_value": "Susan+Block"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Melissa Toth",
+              "search_value": "Melissa+Toth"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Alan Oxman",
+              "search_value": "Alan+Oxman"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Dave Pultz",
+              "search_value": "Dave+Pultz"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

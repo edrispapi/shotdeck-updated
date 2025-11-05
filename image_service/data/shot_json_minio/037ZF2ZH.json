@@ -1,0 +1,456 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "037ZF2ZH",
+    "image_file": "037ZF2ZH.jpg",
+    "mime": "image/jpeg",
+    "width": "1906",
+    "height": "1036",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Once",
+            "search_value": "2336"
+          }
+        ]
+      },
+      "full_title": "Once",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2007",
+            "search_value": "2007"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "131714",
+            "search_value": "131714~25~1"
+          },
+          {
+            "display_value": "291417",
+            "search_value": "291417~25~1"
+          },
+          {
+            "display_value": "171c1f",
+            "search_value": "171c1f~25~1"
+          },
+          {
+            "display_value": "201c16",
+            "search_value": "201c16~25~1"
+          },
+          {
+            "display_value": "503933",
+            "search_value": "503933~25~1"
+          },
+          {
+            "display_value": "444137",
+            "search_value": "444137~25~1"
+          },
+          {
+            "display_value": "65534c",
+            "search_value": "65534c~25~1"
+          },
+          {
+            "display_value": "595d5b",
+            "search_value": "595d5b~25~1"
+          },
+          {
+            "display_value": "6a595c",
+            "search_value": "6a595c~25~1"
+          },
+          {
+            "display_value": "5c6063",
+            "search_value": "5c6063~25~1"
+          },
+          {
+            "display_value": "ad6c63",
+            "search_value": "ad6c63~25~1"
+          },
+          {
+            "display_value": "8b8e95",
+            "search_value": "8b8e95~25~1"
+          },
+          {
+            "display_value": "b18a7e",
+            "search_value": "b18a7e~25~1"
+          },
+          {
+            "display_value": "d6e3e9",
+            "search_value": "d6e3e9~25~1"
+          },
+          {
+            "display_value": "f4fbf9",
+            "search_value": "f4fbf9~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "road trip",
+              "search_value": "\"road+trip\""
+            },
+            {
+              "display_value": "car ride",
+              "search_value": "\"car+ride\""
+            },
+            {
+              "display_value": "band",
+              "search_value": "band"
+            },
+            {
+              "display_value": "friend group",
+              "search_value": "\"friend+group\""
+            },
+            {
+              "display_value": "friends",
+              "search_value": "friends"
+            },
+            {
+              "display_value": "backseat of car",
+              "search_value": "\"backseat+of+car\""
+            },
+            {
+              "display_value": "laughing",
+              "search_value": "laughing"
+            },
+            {
+              "display_value": "laughter",
+              "search_value": "laughter"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Glen Hansard",
+              "search_value": "Glen+Hansard"
+            },
+            {
+              "display_value": "Markéta Irglová",
+              "search_value": "Mark%C3%A9ta+Irglov%C3%A1"
+            },
+            {
+              "display_value": "Hugh Walsh",
+              "search_value": "Hugh+Walsh"
+            },
+            {
+              "display_value": "Gerard Hendrick",
+              "search_value": "Gerard+Hendrick"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Car",
+              "search_value": "Car"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Ireland",
+              "search_value": "Ireland"
+            },
+            {
+              "display_value": "Dublin",
+              "search_value": "Dublin"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Ireland",
+              "search_value": "Ireland"
+            },
+            {
+              "display_value": "Dublin",
+              "search_value": "Dublin"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:12:01",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Music",
+              "search_value": "Movie%2FTV+-+Music"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "John Carney",
+              "search_value": "John+Carney"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Tim Fleming",
+              "search_value": "Tim+Fleming"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Tamara Conboy",
+              "search_value": "Tamara+Conboy"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Tiziana Corvisieri",
+              "search_value": "Tiziana+Corvisieri"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Paul Mullen",
+              "search_value": "Paul+Mullen"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Gary Curran",
+              "search_value": "Gary+Curran"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

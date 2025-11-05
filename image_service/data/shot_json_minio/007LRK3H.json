@@ -1,0 +1,442 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "007LRK3H",
+    "image_file": "007LRK3H.jpg",
+    "mime": "image/jpeg",
+    "width": "1918",
+    "height": "815",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Orphanage",
+            "search_value": "785"
+          }
+        ]
+      },
+      "full_title": "The Orphanage",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2007",
+            "search_value": "2007"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d090c",
+            "search_value": "0d090c~25~1"
+          },
+          {
+            "display_value": "171d1a",
+            "search_value": "171d1a~25~1"
+          },
+          {
+            "display_value": "1b2127",
+            "search_value": "1b2127~25~1"
+          },
+          {
+            "display_value": "22211c",
+            "search_value": "22211c~25~1"
+          },
+          {
+            "display_value": "323e52",
+            "search_value": "323e52~25~1"
+          },
+          {
+            "display_value": "625d51",
+            "search_value": "625d51~25~1"
+          },
+          {
+            "display_value": "556359",
+            "search_value": "556359~25~1"
+          },
+          {
+            "display_value": "4b6370",
+            "search_value": "4b6370~25~1"
+          },
+          {
+            "display_value": "728878",
+            "search_value": "728878~25~1"
+          },
+          {
+            "display_value": "668a92",
+            "search_value": "668a92~25~1"
+          },
+          {
+            "display_value": "86856f",
+            "search_value": "86856f~25~1"
+          },
+          {
+            "display_value": "769da2",
+            "search_value": "769da2~25~1"
+          },
+          {
+            "display_value": "9ea189",
+            "search_value": "9ea189~25~1"
+          },
+          {
+            "display_value": "89a79a",
+            "search_value": "89a79a~25~1"
+          },
+          {
+            "display_value": "a6cdc5",
+            "search_value": "a6cdc5~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "intervention",
+              "search_value": "intervention"
+            },
+            {
+              "display_value": "family meeting",
+              "search_value": "\"family+meeting\""
+            },
+            {
+              "display_value": "tense",
+              "search_value": "tense"
+            },
+            {
+              "display_value": "comforting",
+              "search_value": "comforting"
+            },
+            {
+              "display_value": "heart to heart",
+              "search_value": "\"heart+to+heart\""
+            },
+            {
+              "display_value": "having a serious conversation",
+              "search_value": "\"having+a+serious+conversation\""
+            },
+            {
+              "display_value": "parents",
+              "search_value": "parents"
+            },
+            {
+              "display_value": "married couple",
+              "search_value": "\"married+couple\""
+            },
+            {
+              "display_value": "side by side",
+              "search_value": "\"side+by+side\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Belén Rueda",
+              "search_value": "Bel%C3%A9n+Rueda"
+            },
+            {
+              "display_value": "Fernando Cayo",
+              "search_value": "Fernando+Cayo"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": " House",
+              "search_value": "+House"
+            },
+            {
+              "display_value": "Living Room",
+              "search_value": "Living+Room"
+            },
+            {
+              "display_value": "Couch",
+              "search_value": "Couch"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Spain",
+              "search_value": "Spain"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Spain",
+              "search_value": "Spain"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:26:38",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Juan Antonio Bayona",
+              "search_value": "Juan+Antonio+Bayona"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Oscar Faura",
+              "search_value": "Oscar+Faura"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Josep Rosell",
+              "search_value": "Josep+Rosell"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Maria Reyes",
+              "search_value": "Maria+Reyes"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Elena Ruiz",
+              "search_value": "Elena+Ruiz"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Quique Cañadas",
+              "search_value": "Quique+Ca%C3%B1adas"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

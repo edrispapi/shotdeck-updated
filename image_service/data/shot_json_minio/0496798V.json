@@ -1,0 +1,508 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "0496798V",
+    "image_file": "0496798V.jpg",
+    "mime": "image/jpeg",
+    "width": "1924",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Starling Girl",
+            "search_value": "35013"
+          }
+        ]
+      },
+      "full_title": "The Starling Girl",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2023",
+            "search_value": "2023"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "181b19",
+            "search_value": "181b19~25~1"
+          },
+          {
+            "display_value": "1e272b",
+            "search_value": "1e272b~25~1"
+          },
+          {
+            "display_value": "2e2922",
+            "search_value": "2e2922~25~1"
+          },
+          {
+            "display_value": "323031",
+            "search_value": "323031~25~1"
+          },
+          {
+            "display_value": "334448",
+            "search_value": "334448~25~1"
+          },
+          {
+            "display_value": "454136",
+            "search_value": "454136~25~1"
+          },
+          {
+            "display_value": "524e50",
+            "search_value": "524e50~25~1"
+          },
+          {
+            "display_value": "505751",
+            "search_value": "505751~25~1"
+          },
+          {
+            "display_value": "485961",
+            "search_value": "485961~25~1"
+          },
+          {
+            "display_value": "645c4d",
+            "search_value": "645c4d~25~1"
+          },
+          {
+            "display_value": "8f8169",
+            "search_value": "8f8169~25~1"
+          },
+          {
+            "display_value": "89948c",
+            "search_value": "89948c~25~1"
+          },
+          {
+            "display_value": "a9997d",
+            "search_value": "a9997d~25~1"
+          },
+          {
+            "display_value": "e3d08f",
+            "search_value": "e3d08f~25~1"
+          },
+          {
+            "display_value": "f3efd5",
+            "search_value": "f3efd5~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "pews",
+              "search_value": "pews"
+            },
+            {
+              "display_value": "listening",
+              "search_value": "listening"
+            },
+            {
+              "display_value": "christian",
+              "search_value": "christian"
+            },
+            {
+              "display_value": "catholic",
+              "search_value": "catholic"
+            },
+            {
+              "display_value": "suit",
+              "search_value": "suit"
+            },
+            {
+              "display_value": "sunday mass",
+              "search_value": "\"sunday+mass\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Wrenn Schmidt",
+              "search_value": "Wrenn+Schmidt"
+            },
+            {
+              "display_value": "Jimmi Simpson",
+              "search_value": "Jimmi+Simpson"
+            },
+            {
+              "display_value": "Claire Elizabeth Green",
+              "search_value": "Claire+Elizabeth+Green"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Open Gate",
+              "search_value": "Open+Gate"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini LF",
+              "search_value": "ARRI+ALEXA+Mini+LF"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Supreme Prime",
+              "search_value": "Zeiss+Supreme+Prime"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2.8K / 2.8K ArriRaw",
+              "search_value": "2.8K+%2F+2.8K+ArriRaw"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Church",
+              "search_value": "Church"
+            },
+            {
+              "display_value": "Pews",
+              "search_value": "Pews"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Kentucky",
+              "search_value": "Kentucky"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Kentucky",
+              "search_value": "Kentucky"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:01:45",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Addiction",
+              "search_value": "Movie%2FTV+-+Addiction"
+            },
+            {
+              "display_value": "Coming-of-Age",
+              "search_value": "Movie%2FTV+-+Coming-of-Age"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            },
+            {
+              "display_value": "Marriage",
+              "search_value": "Movie%2FTV+-+Marriage"
+            },
+            {
+              "display_value": "Small town",
+              "search_value": "Movie%2FTV+-+Small+town"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Laurel Parmet",
+              "search_value": "Laurel+Parmet"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Brian Lannin",
+              "search_value": "Brian+Lannin"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Mollie Wartelle",
+              "search_value": "Mollie+Wartelle"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Tora Eff",
+              "search_value": "Tora+Eff"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Sam Levy",
+              "search_value": "Sam+Levy"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Sean Coleman",
+              "search_value": "Sean+Coleman"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

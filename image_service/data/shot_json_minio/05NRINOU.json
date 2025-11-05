@@ -1,0 +1,610 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05NRINOU",
+    "image_file": "05NRINOU.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Ready Player One",
+            "search_value": "2426"
+          }
+        ]
+      },
+      "full_title": "Ready Player One",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2018",
+            "search_value": "2018"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0c2c4c",
+            "search_value": "0c2c4c~25~1"
+          },
+          {
+            "display_value": "482d42",
+            "search_value": "482d42~25~1"
+          },
+          {
+            "display_value": "533448",
+            "search_value": "533448~25~1"
+          },
+          {
+            "display_value": "134174",
+            "search_value": "134174~25~1"
+          },
+          {
+            "display_value": "5b455f",
+            "search_value": "5b455f~25~1"
+          },
+          {
+            "display_value": "296192",
+            "search_value": "296192~25~1"
+          },
+          {
+            "display_value": "6778a7",
+            "search_value": "6778a7~25~1"
+          },
+          {
+            "display_value": "2f99c1",
+            "search_value": "2f99c1~25~1"
+          },
+          {
+            "display_value": "a38c9d",
+            "search_value": "a38c9d~25~1"
+          },
+          {
+            "display_value": "72a5c8",
+            "search_value": "72a5c8~25~1"
+          },
+          {
+            "display_value": "abbfd9",
+            "search_value": "abbfd9~25~1"
+          },
+          {
+            "display_value": "9acadf",
+            "search_value": "9acadf~25~1"
+          },
+          {
+            "display_value": "c9e1ee",
+            "search_value": "c9e1ee~25~1"
+          },
+          {
+            "display_value": "e9def1",
+            "search_value": "e9def1~25~1"
+          },
+          {
+            "display_value": "f4fefe",
+            "search_value": "f4fefe~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "game",
+              "search_value": "game"
+            },
+            {
+              "display_value": "jail",
+              "search_value": "jail"
+            },
+            {
+              "display_value": "labor",
+              "search_value": "labor"
+            },
+            {
+              "display_value": "labour",
+              "search_value": "labour"
+            },
+            {
+              "display_value": "lightning",
+              "search_value": "lightning"
+            },
+            {
+              "display_value": "magic",
+              "search_value": "magic"
+            },
+            {
+              "display_value": "meta",
+              "search_value": "meta"
+            },
+            {
+              "display_value": "meta-verse",
+              "search_value": "meta-verse"
+            },
+            {
+              "display_value": "orb",
+              "search_value": "orb"
+            },
+            {
+              "display_value": "prision",
+              "search_value": "prision"
+            },
+            {
+              "display_value": "punishment",
+              "search_value": "punishment"
+            },
+            {
+              "display_value": "slave",
+              "search_value": "slave"
+            },
+            {
+              "display_value": "video game",
+              "search_value": "\"video+game\""
+            },
+            {
+              "display_value": "virtual reality",
+              "search_value": "\"virtual+reality\""
+            },
+            {
+              "display_value": "vr",
+              "search_value": "vr"
+            },
+            {
+              "display_value": "work",
+              "search_value": "work"
+            },
+            {
+              "display_value": "working",
+              "search_value": "working"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            },
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Silhouette",
+              "search_value": "Silhouette"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            },
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Millennium / Millenium XL / XL2",
+              "search_value": "Panavision+Millennium+%2F+Millenium+XL+%2F+XL2"
+            },
+            {
+              "display_value": "ARRI ALEXA Classic / plus",
+              "search_value": "ARRI+ALEXA+Classic+%2F+plus"
+            },
+            {
+              "display_value": "Arri 435 / 435ES",
+              "search_value": "Arri+435+%2F+435ES"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Primes",
+              "search_value": "Panavision+Primo+Primes"
+            },
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision E series",
+              "search_value": "Panavision+E+series"
+            },
+            {
+              "display_value": "Panavision T series",
+              "search_value": "Panavision+T+series"
+            },
+            {
+              "display_value": "Panavision 70-200mm (ATZ)",
+              "search_value": "Panavision+70-200mm+%28ATZ%29"
+            },
+            {
+              "display_value": "Panavision 40-80 (Bailey zoom - AWZ2)",
+              "search_value": "Panavision+40-80+%28Bailey+zoom+-+AWZ2%29"
+            },
+            {
+              "display_value": "Panavision Ultra Speed II (PVintage)",
+              "search_value": "Panavision+Ultra+Speed+II+%28PVintage%29"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            },
+            {
+              "display_value": "5207/7207\tVision 3\t250D",
+              "search_value": "5207%2F7207%09Vision+3%09250D"
+            },
+            {
+              "display_value": "2.8K / 2.8K ArriRaw",
+              "search_value": "2.8K+%2F+2.8K+ArriRaw"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Meta-Verse",
+              "search_value": "Meta-Verse"
+            },
+            {
+              "display_value": "Labor Camp",
+              "search_value": "Labor+Camp"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Ohio",
+              "search_value": "Ohio"
+            },
+            {
+              "display_value": "Columbus",
+              "search_value": "Columbus"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            }
+          ]
+        },
+        "vfx_backing": {
+          "filter": "vfx_backing",
+          "filter_name": "VFX",
+          "values": [
+            {
+              "display_value": "CGI",
+              "search_value": "CGI"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:21:37",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "CGI Animation",
+              "search_value": "Movie%2FTV+-+CGI+Animation"
+            },
+            {
+              "display_value": "Cyberpunk",
+              "search_value": "Movie%2FTV+-+Cyberpunk"
+            },
+            {
+              "display_value": "Dystopian",
+              "search_value": "Movie%2FTV+-+Dystopian"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Video Game Adaptation",
+              "search_value": "Movie%2FTV+-+Video+Game+Adaptation"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Steven Spielberg",
+              "search_value": "Steven+Spielberg"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Janusz Kamiński",
+              "search_value": "Janusz+Kami%C5%84ski"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Adam Stockhausen",
+              "search_value": "Adam+Stockhausen"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Kasia Walicka-Maimone",
+              "search_value": "Kasia+Walicka-Maimone"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Michael Kahn",
+              "search_value": "Michael+Kahn"
+            },
+            {
+              "display_value": "Sarah Broshar",
+              "search_value": "Sarah+Broshar"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Paul McGhee",
+              "search_value": "Paul+McGhee"
+            },
+            {
+              "display_value": "Michael Hatzer",
+              "search_value": "Michael+Hatzer"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01J87JZK",
+    "image_file": "01J87JZK.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Clouds of Sils Maria",
+            "search_value": "6716"
+          }
+        ]
+      },
+      "full_title": "Clouds of Sils Maria",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2014",
+            "search_value": "2014"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "12171a",
+            "search_value": "12171a~25~1"
+          },
+          {
+            "display_value": "191d1b",
+            "search_value": "191d1b~25~1"
+          },
+          {
+            "display_value": "2a2528",
+            "search_value": "2a2528~25~1"
+          },
+          {
+            "display_value": "2d271c",
+            "search_value": "2d271c~25~1"
+          },
+          {
+            "display_value": "3a3f46",
+            "search_value": "3a3f46~25~1"
+          },
+          {
+            "display_value": "4f4229",
+            "search_value": "4f4229~25~1"
+          },
+          {
+            "display_value": "5a4d54",
+            "search_value": "5a4d54~25~1"
+          },
+          {
+            "display_value": "4e5459",
+            "search_value": "4e5459~25~1"
+          },
+          {
+            "display_value": "64563b",
+            "search_value": "64563b~25~1"
+          },
+          {
+            "display_value": "5d6360",
+            "search_value": "5d6360~25~1"
+          },
+          {
+            "display_value": "7b827f",
+            "search_value": "7b827f~25~1"
+          },
+          {
+            "display_value": "8d8664",
+            "search_value": "8d8664~25~1"
+          },
+          {
+            "display_value": "858c85",
+            "search_value": "858c85~25~1"
+          },
+          {
+            "display_value": "a2a180",
+            "search_value": "a2a180~25~1"
+          },
+          {
+            "display_value": "c7c89a",
+            "search_value": "c7c89a~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "blue glow on face",
+              "search_value": "\"blue+glow+on+face\""
+            },
+            {
+              "display_value": "dimly lit room",
+              "search_value": "\"dimly+lit+room\""
+            },
+            {
+              "display_value": "face down on bed",
+              "search_value": "\"face+down+on+bed\""
+            },
+            {
+              "display_value": "fascinated by something",
+              "search_value": "\"fascinated+by+something\""
+            },
+            {
+              "display_value": "grey patterned cardigan",
+              "search_value": "\"grey+patterned+cardigan\""
+            },
+            {
+              "display_value": "looking at ipad",
+              "search_value": "\"looking+at+ipad\""
+            },
+            {
+              "display_value": "blue light from ipad",
+              "search_value": "\"blue+light+from+ipad\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Juliette Binoche",
+              "search_value": "Juliette+Binoche"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arricam LT",
+              "search_value": "Arricam+LT"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Primes",
+              "search_value": "Panavision+Primo+Primes"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Mountains",
+              "search_value": "Mountains"
+            },
+            {
+              "display_value": "Chalet",
+              "search_value": "Chalet"
+            },
+            {
+              "display_value": "Bedroom",
+              "search_value": "Bedroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Switzerland",
+              "search_value": "Switzerland"
+            },
+            {
+              "display_value": "Graubünden",
+              "search_value": "Graub%C3%BCnden"
+            },
+            {
+              "display_value": "Sils Maria",
+              "search_value": "Sils+Maria"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "South Tyrol",
+              "search_value": "South+Tyrol"
+            },
+            {
+              "display_value": "Trentino-Alto Adige ",
+              "search_value": "Trentino-Alto+Adige+"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:48:53",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Olivier Assayas",
+              "search_value": "Olivier+Assayas"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Yorick Le Saux",
+              "search_value": "Yorick+Le+Saux"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "François-Renaud Labarthe",
+              "search_value": "Fran%C3%A7ois-Renaud+Labarthe"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jürgen Doering",
+              "search_value": "J%C3%BCrgen+Doering"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Marion Monnier",
+              "search_value": "Marion+Monnier"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Charles Fréville",
+              "search_value": "Charles+Fr%C3%A9ville"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

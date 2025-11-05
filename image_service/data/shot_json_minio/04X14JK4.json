@@ -1,0 +1,552 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04X14JK4",
+    "image_file": "04X14JK4.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "816",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Pulp Fiction",
+            "search_value": "256"
+          }
+        ]
+      },
+      "full_title": "Pulp Fiction",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1994",
+            "search_value": "1994"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0b0c10",
+            "search_value": "0b0c10~25~1"
+          },
+          {
+            "display_value": "110c0e",
+            "search_value": "110c0e~25~1"
+          },
+          {
+            "display_value": "111413",
+            "search_value": "111413~25~1"
+          },
+          {
+            "display_value": "3c230e",
+            "search_value": "3c230e~25~1"
+          },
+          {
+            "display_value": "323f51",
+            "search_value": "323f51~25~1"
+          },
+          {
+            "display_value": "603622",
+            "search_value": "603622~25~1"
+          },
+          {
+            "display_value": "623d17",
+            "search_value": "623d17~25~1"
+          },
+          {
+            "display_value": "384b66",
+            "search_value": "384b66~25~1"
+          },
+          {
+            "display_value": "655458",
+            "search_value": "655458~25~1"
+          },
+          {
+            "display_value": "815433",
+            "search_value": "815433~25~1"
+          },
+          {
+            "display_value": "a37262",
+            "search_value": "a37262~25~1"
+          },
+          {
+            "display_value": "c47d24",
+            "search_value": "c47d24~25~1"
+          },
+          {
+            "display_value": "c09270",
+            "search_value": "c09270~25~1"
+          },
+          {
+            "display_value": "e1bd9a",
+            "search_value": "e1bd9a~25~1"
+          },
+          {
+            "display_value": "e6c5a7",
+            "search_value": "e6c5a7~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "black hair",
+              "search_value": "\"black+hair\""
+            },
+            {
+              "display_value": "blue eyes",
+              "search_value": "\"blue+eyes\""
+            },
+            {
+              "display_value": "butterfly painting",
+              "search_value": "\"butterfly+painting\""
+            },
+            {
+              "display_value": "captain",
+              "search_value": "captain"
+            },
+            {
+              "display_value": "giving something away",
+              "search_value": "\"giving+something+away\""
+            },
+            {
+              "display_value": "hand in foreground",
+              "search_value": "\"hand+in+foreground\""
+            },
+            {
+              "display_value": "holding hand out",
+              "search_value": "\"holding+hand+out\""
+            },
+            {
+              "display_value": "home bar",
+              "search_value": "\"home+bar\""
+            },
+            {
+              "display_value": "leaning on knee",
+              "search_value": "\"leaning+on+knee\""
+            },
+            {
+              "display_value": "liquor bottles",
+              "search_value": "\"liquor+bottles\""
+            },
+            {
+              "display_value": "military uniform",
+              "search_value": "\"military+uniform\""
+            },
+            {
+              "display_value": "picking something up",
+              "search_value": "\"picking+something+up\""
+            },
+            {
+              "display_value": "presenting an item",
+              "search_value": "\"presenting+an+item\""
+            },
+            {
+              "display_value": "soldier",
+              "search_value": "soldier"
+            },
+            {
+              "display_value": "stern",
+              "search_value": "stern"
+            },
+            {
+              "display_value": "wide lens",
+              "search_value": "\"wide+lens\""
+            },
+            {
+              "display_value": "yellow living room",
+              "search_value": "\"yellow+living+room\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Christopher Walken",
+              "search_value": "Christopher+Walken"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Orange",
+              "search_value": "Orange"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Gold / G2",
+              "search_value": "Panavision+Gold+%2F+G2"
+            },
+            {
+              "display_value": "Panavision Lightweight",
+              "search_value": "Panavision+Lightweight"
+            },
+            {
+              "display_value": "Arriflex 35 IIIc",
+              "search_value": "Arriflex+35+IIIc"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision E series",
+              "search_value": "Panavision+E+series"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "Eastman EXR 50D 5245",
+              "search_value": "Eastman+EXR+50D+5245"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Living Room",
+              "search_value": "Living+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:08:05",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Quentin Tarantino",
+              "search_value": "Quentin+Tarantino"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Andrzej Sekula",
+              "search_value": "Andrzej+Sekula"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "David Wasco",
+              "search_value": "David+Wasco"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Betsy Heimann",
+              "search_value": "Betsy+Heimann"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Sally Menke",
+              "search_value": "Sally+Menke"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Mike Stanwick",
+              "search_value": "Mike+Stanwick"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

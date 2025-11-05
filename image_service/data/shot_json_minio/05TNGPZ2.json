@@ -1,0 +1,570 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05TNGPZ2",
+    "image_file": "05TNGPZ2.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Amazing Spider-Man 2",
+            "search_value": "2589"
+          }
+        ]
+      },
+      "full_title": "The Amazing Spider-Man 2",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2014",
+            "search_value": "2014"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1b1618",
+            "search_value": "1b1618~25~1"
+          },
+          {
+            "display_value": "1b2226",
+            "search_value": "1b2226~25~1"
+          },
+          {
+            "display_value": "2e2924",
+            "search_value": "2e2924~25~1"
+          },
+          {
+            "display_value": "27302d",
+            "search_value": "27302d~25~1"
+          },
+          {
+            "display_value": "424139",
+            "search_value": "424139~25~1"
+          },
+          {
+            "display_value": "384440",
+            "search_value": "384440~25~1"
+          },
+          {
+            "display_value": "364446",
+            "search_value": "364446~25~1"
+          },
+          {
+            "display_value": "505955",
+            "search_value": "505955~25~1"
+          },
+          {
+            "display_value": "754b4e",
+            "search_value": "754b4e~25~1"
+          },
+          {
+            "display_value": "446679",
+            "search_value": "446679~25~1"
+          },
+          {
+            "display_value": "656259",
+            "search_value": "656259~25~1"
+          },
+          {
+            "display_value": "648992",
+            "search_value": "648992~25~1"
+          },
+          {
+            "display_value": "878373",
+            "search_value": "878373~25~1"
+          },
+          {
+            "display_value": "88908a",
+            "search_value": "88908a~25~1"
+          },
+          {
+            "display_value": "938e80",
+            "search_value": "938e80~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "rhino suit",
+              "search_value": "\"rhino+suit\""
+            },
+            {
+              "display_value": "metal suit",
+              "search_value": "\"metal+suit\""
+            },
+            {
+              "display_value": "super villain",
+              "search_value": "\"super+villain\""
+            },
+            {
+              "display_value": "bad guy",
+              "search_value": "\"bad+guy\""
+            },
+            {
+              "display_value": "confrontation",
+              "search_value": "confrontation"
+            },
+            {
+              "display_value": "military suit",
+              "search_value": "\"military+suit\""
+            },
+            {
+              "display_value": "mech suit",
+              "search_value": "\"mech+suit\""
+            },
+            {
+              "display_value": "arms raised",
+              "search_value": "\"arms+raised\""
+            },
+            {
+              "display_value": "taunting",
+              "search_value": "taunting"
+            },
+            {
+              "display_value": "yelling out",
+              "search_value": "\"yelling+out\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Paul Giamatti",
+              "search_value": "Paul+Giamatti"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            },
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Firelight",
+              "search_value": "Firelight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 235",
+              "search_value": "Arriflex+235"
+            },
+            {
+              "display_value": "Arriflex 435",
+              "search_value": "Arriflex+435"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision E series",
+              "search_value": "Panavision+E+series"
+            },
+            {
+              "display_value": "Panavision G series",
+              "search_value": "Panavision+G+series"
+            },
+            {
+              "display_value": "Panavision Primo Zooms",
+              "search_value": "Panavision+Primo+Zooms"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            },
+            {
+              "display_value": "5203/7203\tVision 3\t50D",
+              "search_value": "5203%2F7203%09Vision+3%0950D"
+            },
+            {
+              "display_value": "5205/7205\tVision 2\t250D",
+              "search_value": "5205%2F7205%09Vision+2%09250D"
+            },
+            {
+              "display_value": "5213/7213\tVision 3\t200T",
+              "search_value": "5213%2F7213%09Vision+3%09200T"
+            },
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Street",
+              "search_value": "Street"
+            },
+            {
+              "display_value": "Road",
+              "search_value": "Road"
+            },
+            {
+              "display_value": "Blockade",
+              "search_value": "Blockade"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth-616",
+              "search_value": "++Earth-616"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York State",
+              "search_value": "New+York+State"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "vfx_backing": {
+          "filter": "vfx_backing",
+          "filter_name": "VFX",
+          "values": [
+            {
+              "display_value": "Blue or Green Screen",
+              "search_value": "Blue+or+Green+Screen"
+            },
+            {
+              "display_value": "CGI",
+              "search_value": "CGI"
+            },
+            {
+              "display_value": "Digital Rotoscope",
+              "search_value": "Digital+Rotoscope"
+            },
+            {
+              "display_value": "Set Extension",
+              "search_value": "Set+Extension"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "02:10:15",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Marc Webb",
+              "search_value": "Marc+Webb"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Dan Mindel",
+              "search_value": "Dan+Mindel"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Mark Friedberg",
+              "search_value": "Mark+Friedberg"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Deborah Lynn Scott",
+              "search_value": "Deborah+Lynn+Scott"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Pietro Scalia",
+              "search_value": "Pietro+Scalia"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "David Bernstein",
+              "search_value": "David+Bernstein"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

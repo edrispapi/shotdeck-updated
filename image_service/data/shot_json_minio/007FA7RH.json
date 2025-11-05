@@ -1,0 +1,452 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "007FA7RH",
+    "image_file": "007FA7RH.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "816",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Oceans",
+            "search_value": "186"
+          }
+        ]
+      },
+      "full_title": "Oceans",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2009",
+            "search_value": "2009"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "000000",
+            "search_value": "000000~25~1"
+          },
+          {
+            "display_value": "010001",
+            "search_value": "010001~25~1"
+          },
+          {
+            "display_value": "04100e",
+            "search_value": "04100e~25~1"
+          },
+          {
+            "display_value": "041f2a",
+            "search_value": "041f2a~25~1"
+          },
+          {
+            "display_value": "175953",
+            "search_value": "175953~25~1"
+          },
+          {
+            "display_value": "0b5867",
+            "search_value": "0b5867~25~1"
+          },
+          {
+            "display_value": "0d7981",
+            "search_value": "0d7981~25~1"
+          },
+          {
+            "display_value": "1c827b",
+            "search_value": "1c827b~25~1"
+          },
+          {
+            "display_value": "2c999c",
+            "search_value": "2c999c~25~1"
+          },
+          {
+            "display_value": "14c0b0",
+            "search_value": "14c0b0~25~1"
+          },
+          {
+            "display_value": "29e0c8",
+            "search_value": "29e0c8~25~1"
+          },
+          {
+            "display_value": "42e6cd",
+            "search_value": "42e6cd~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "underwater",
+              "search_value": "underwater"
+            },
+            {
+              "display_value": "nature",
+              "search_value": "nature"
+            },
+            {
+              "display_value": "environment",
+              "search_value": "environment"
+            },
+            {
+              "display_value": "sea creature",
+              "search_value": "\"sea+creature\""
+            },
+            {
+              "display_value": "fish",
+              "search_value": "fish"
+            },
+            {
+              "display_value": "fishnet",
+              "search_value": "fishnet"
+            },
+            {
+              "display_value": "fish trapped in net",
+              "search_value": "\"fish+trapped+in+net\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 435",
+              "search_value": "Arriflex+435"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Master Primes",
+              "search_value": "Zeiss+Master+Primes"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Ocean",
+              "search_value": "Ocean"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Pacific Ocean",
+              "search_value": "Pacific+Ocean"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:58:23",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Documentary",
+              "search_value": "Movie%2FTV+-+Documentary"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            },
+            {
+              "display_value": "Nature",
+              "search_value": "Movie%2FTV+-+Nature"
+            },
+            {
+              "display_value": "Nature Documentary",
+              "search_value": "Movie%2FTV+-+Nature+Documentary"
+            },
+            {
+              "display_value": "Survival",
+              "search_value": "Movie%2FTV+-+Survival"
+            },
+            {
+              "display_value": "Wildlife",
+              "search_value": "Movie%2FTV+-+Wildlife"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Jacques Perrin",
+              "search_value": "Jacques+Perrin"
+            },
+            {
+              "display_value": "Jacques Cluzaud",
+              "search_value": "Jacques+Cluzaud"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Luc Drion",
+              "search_value": "Luc+Drion"
+            },
+            {
+              "display_value": "Luciano Tovoli",
+              "search_value": "Luciano+Tovoli"
+            },
+            {
+              "display_value": "Laurent Fleutot",
+              "search_value": "Laurent+Fleutot"
+            },
+            {
+              "display_value": "Valérie Le Gurun",
+              "search_value": "Val%C3%A9rie+Le+Gurun"
+            },
+            {
+              "display_value": "Simon Christidis",
+              "search_value": "Simon+Christidis"
+            },
+            {
+              "display_value": "Philippe Ros",
+              "search_value": "Philippe+Ros"
+            },
+            {
+              "display_value": "David Reichert",
+              "search_value": "David+Reichert"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Jean Rabasse",
+              "search_value": "Jean+Rabasse"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Catherine Mauchain",
+              "search_value": "Catherine+Mauchain"
+            },
+            {
+              "display_value": "Vincent Schmidt",
+              "search_value": "Vincent+Schmidt"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Laurent Desbrueres",
+              "search_value": "Laurent+Desbrueres"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

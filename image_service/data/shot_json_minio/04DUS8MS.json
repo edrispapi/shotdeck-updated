@@ -1,0 +1,382 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04DUS8MS",
+    "image_file": "04DUS8MS.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Inside Out 2",
+            "search_value": "43341"
+          }
+        ]
+      },
+      "full_title": "Inside Out 2",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2024",
+            "search_value": "2024"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "3b1639",
+            "search_value": "3b1639~25~1"
+          },
+          {
+            "display_value": "332c0a",
+            "search_value": "332c0a~25~1"
+          },
+          {
+            "display_value": "7a1f1c",
+            "search_value": "7a1f1c~25~1"
+          },
+          {
+            "display_value": "4513c0",
+            "search_value": "4513c0~25~1"
+          },
+          {
+            "display_value": "781875",
+            "search_value": "781875~25~1"
+          },
+          {
+            "display_value": "41590b",
+            "search_value": "41590b~25~1"
+          },
+          {
+            "display_value": "4f5093",
+            "search_value": "4f5093~25~1"
+          },
+          {
+            "display_value": "8e3c6b",
+            "search_value": "8e3c6b~25~1"
+          },
+          {
+            "display_value": "735f33",
+            "search_value": "735f33~25~1"
+          },
+          {
+            "display_value": "3b7844",
+            "search_value": "3b7844~25~1"
+          },
+          {
+            "display_value": "6f48de",
+            "search_value": "6f48de~25~1"
+          },
+          {
+            "display_value": "c65387",
+            "search_value": "c65387~25~1"
+          },
+          {
+            "display_value": "8a9e37",
+            "search_value": "8a9e37~25~1"
+          },
+          {
+            "display_value": "de7798",
+            "search_value": "de7798~25~1"
+          },
+          {
+            "display_value": "c59a68",
+            "search_value": "c59a68~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "floating food",
+              "search_value": "\"floating+food\""
+            },
+            {
+              "display_value": "broccoli raft",
+              "search_value": "\"broccoli+raft\""
+            },
+            {
+              "display_value": "no alternative",
+              "search_value": "\"no+alternative\""
+            },
+            {
+              "display_value": "feeling worried",
+              "search_value": "\"feeling+worried\""
+            },
+            {
+              "display_value": "hoping for the best",
+              "search_value": "\"hoping+for+the+best\""
+            },
+            {
+              "display_value": "dubious looks",
+              "search_value": "\"dubious+looks\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            },
+            {
+              "display_value": "Purple",
+              "search_value": "Purple"
+            },
+            {
+              "display_value": "Magenta",
+              "search_value": "Magenta"
+            },
+            {
+              "display_value": "Pink",
+              "search_value": "Pink"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Animation"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Stream of Consciousness",
+              "search_value": "Stream+of+Consciousness"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "USA",
+              "search_value": "USA"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "San Francisco",
+              "search_value": "San+Francisco"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "USA",
+              "search_value": "USA"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Pixar Animation Studios",
+              "search_value": "Pixar+Animation+Studios"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:41:03",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Kelsey Mann",
+              "search_value": "Kelsey+Mann"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

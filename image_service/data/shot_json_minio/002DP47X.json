@@ -1,0 +1,432 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "002DP47X",
+    "image_file": "002DP47X.jpg",
+    "mime": "image/jpeg",
+    "width": "1800",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Benny's Video",
+            "search_value": "5601"
+          }
+        ]
+      },
+      "full_title": "Benny's Video",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1993",
+            "search_value": "1993"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "161412",
+            "search_value": "161412~25~1"
+          },
+          {
+            "display_value": "161817",
+            "search_value": "161817~25~1"
+          },
+          {
+            "display_value": "2d2428",
+            "search_value": "2d2428~25~1"
+          },
+          {
+            "display_value": "242a32",
+            "search_value": "242a32~25~1"
+          },
+          {
+            "display_value": "363f4c",
+            "search_value": "363f4c~25~1"
+          },
+          {
+            "display_value": "464d59",
+            "search_value": "464d59~25~1"
+          },
+          {
+            "display_value": "515252",
+            "search_value": "515252~25~1"
+          },
+          {
+            "display_value": "625c5a",
+            "search_value": "625c5a~25~1"
+          },
+          {
+            "display_value": "6a6567",
+            "search_value": "6a6567~25~1"
+          },
+          {
+            "display_value": "877c7a",
+            "search_value": "877c7a~25~1"
+          },
+          {
+            "display_value": "8f8988",
+            "search_value": "8f8988~25~1"
+          },
+          {
+            "display_value": "9a989f",
+            "search_value": "9a989f~25~1"
+          },
+          {
+            "display_value": "9f9a9e",
+            "search_value": "9f9a9e~25~1"
+          },
+          {
+            "display_value": "cac5cc",
+            "search_value": "cac5cc~25~1"
+          },
+          {
+            "display_value": "cac8cf",
+            "search_value": "cac8cf~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "serious",
+              "search_value": "serious"
+            },
+            {
+              "display_value": "upset",
+              "search_value": "upset"
+            },
+            {
+              "display_value": "distraught",
+              "search_value": "distraught"
+            },
+            {
+              "display_value": "walking out",
+              "search_value": "\"walking+out\""
+            },
+            {
+              "display_value": "opening door",
+              "search_value": "\"opening+door\""
+            },
+            {
+              "display_value": "walking out of bathroom",
+              "search_value": "\"walking+out+of+bathroom\""
+            },
+            {
+              "display_value": "flannel shirt",
+              "search_value": "\"flannel+shirt\""
+            },
+            {
+              "display_value": "black jacket",
+              "search_value": "\"black+jacket\""
+            },
+            {
+              "display_value": "walking into hallway",
+              "search_value": "\"walking+into+hallway\""
+            },
+            {
+              "display_value": "closing door",
+              "search_value": "\"closing+door\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Arno Frisch",
+              "search_value": "Arno+Frisch"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            },
+            {
+              "display_value": "Bathroom",
+              "search_value": "Bathroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Austria",
+              "search_value": "Austria"
+            },
+            {
+              "display_value": "Vienna",
+              "search_value": "Vienna"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Austria",
+              "search_value": "Austria"
+            },
+            {
+              "display_value": "Vienna",
+              "search_value": "Vienna"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:31:42",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Michael Haneke",
+              "search_value": "Michael+Haneke"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Christian Berger",
+              "search_value": "Christian+Berger"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Christoph Kanter",
+              "search_value": "Christoph+Kanter"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Erika Navas",
+              "search_value": "Erika+Navas"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Marie Homolkova",
+              "search_value": "Marie+Homolkova"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

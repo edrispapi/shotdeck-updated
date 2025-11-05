@@ -1,0 +1,504 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "003YZ29T",
+    "image_file": "003YZ29T.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Ghostbusters II",
+            "search_value": "1103"
+          }
+        ]
+      },
+      "full_title": "Ghostbusters II",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1989",
+            "search_value": "1989"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "342c33",
+            "search_value": "342c33~25~1"
+          },
+          {
+            "display_value": "2e303a",
+            "search_value": "2e303a~25~1"
+          },
+          {
+            "display_value": "393531",
+            "search_value": "393531~25~1"
+          },
+          {
+            "display_value": "393a4f",
+            "search_value": "393a4f~25~1"
+          },
+          {
+            "display_value": "655851",
+            "search_value": "655851~25~1"
+          },
+          {
+            "display_value": "665961",
+            "search_value": "665961~25~1"
+          },
+          {
+            "display_value": "595e70",
+            "search_value": "595e70~25~1"
+          },
+          {
+            "display_value": "b2908c",
+            "search_value": "b2908c~25~1"
+          },
+          {
+            "display_value": "b393aa",
+            "search_value": "b393aa~25~1"
+          },
+          {
+            "display_value": "a4aec0",
+            "search_value": "a4aec0~25~1"
+          },
+          {
+            "display_value": "d7b0cf",
+            "search_value": "d7b0cf~25~1"
+          },
+          {
+            "display_value": "dfccda",
+            "search_value": "dfccda~25~1"
+          },
+          {
+            "display_value": "d4d4dc",
+            "search_value": "d4d4dc~25~1"
+          },
+          {
+            "display_value": "d5d9d6",
+            "search_value": "d5d9d6~25~1"
+          },
+          {
+            "display_value": "dcdbd6",
+            "search_value": "dcdbd6~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "jogging path",
+              "search_value": "\"jogging+path\""
+            },
+            {
+              "display_value": "lake",
+              "search_value": "lake"
+            },
+            {
+              "display_value": "new york city",
+              "search_value": "\"new+york+city\""
+            },
+            {
+              "display_value": "ghost trap",
+              "search_value": "\"ghost+trap\""
+            },
+            {
+              "display_value": "catching ghost",
+              "search_value": "\"catching+ghost\""
+            },
+            {
+              "display_value": "bench",
+              "search_value": "bench"
+            },
+            {
+              "display_value": "sitting on bench",
+              "search_value": "\"sitting+on+bench\""
+            },
+            {
+              "display_value": "central park",
+              "search_value": "\"central+park\""
+            },
+            {
+              "display_value": "gray sky",
+              "search_value": "\"gray+sky\""
+            },
+            {
+              "display_value": "trees",
+              "search_value": "trees"
+            },
+            {
+              "display_value": "purple beam of light",
+              "search_value": "\"purple+beam+of+light\""
+            },
+            {
+              "display_value": "fence",
+              "search_value": "fence"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Gold / G2",
+              "search_value": "Panavision+Gold+%2F+G2"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision E series",
+              "search_value": "Panavision+E+series"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "City ",
+              "search_value": "City+"
+            },
+            {
+              "display_value": "Park",
+              "search_value": "Park"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New York",
+              "search_value": "New+York"
+            },
+            {
+              "display_value": "New York City",
+              "search_value": "New+York+City"
+            },
+            {
+              "display_value": "Central Park",
+              "search_value": "Central+Park"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:37:33",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Ivan Reitman",
+              "search_value": "Ivan+Reitman"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Michael Chapman",
+              "search_value": "Michael+Chapman"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Bo Welch",
+              "search_value": "Bo+Welch"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Gloria Gresham",
+              "search_value": "Gloria+Gresham"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Sheldon Kahn",
+              "search_value": "Sheldon+Kahn"
+            },
+            {
+              "display_value": "Donn Cambern",
+              "search_value": "Donn+Cambern"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "David Bernstein",
+              "search_value": "David+Bernstein"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

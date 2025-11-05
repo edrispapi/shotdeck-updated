@@ -1,0 +1,394 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00ILJKWL",
+    "image_file": "00ILJKWL.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "960",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Chernobyl",
+            "search_value": "3644",
+            "season": "1",
+            "episode": "3"
+          }
+        ]
+      },
+      "full_title": "Chernobyl - Season 1 - Episode 3",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2019",
+            "search_value": "2019"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "090a0b",
+            "search_value": "090a0b~25~1"
+          },
+          {
+            "display_value": "0b0a0b",
+            "search_value": "0b0a0b~25~1"
+          },
+          {
+            "display_value": "1e1f15",
+            "search_value": "1e1f15~25~1"
+          },
+          {
+            "display_value": "202720",
+            "search_value": "202720~25~1"
+          },
+          {
+            "display_value": "3a4535",
+            "search_value": "3a4535~25~1"
+          },
+          {
+            "display_value": "41472f",
+            "search_value": "41472f~25~1"
+          },
+          {
+            "display_value": "4a573e",
+            "search_value": "4a573e~25~1"
+          },
+          {
+            "display_value": "525d3f",
+            "search_value": "525d3f~25~1"
+          },
+          {
+            "display_value": "838776",
+            "search_value": "838776~25~1"
+          },
+          {
+            "display_value": "989e8c",
+            "search_value": "989e8c~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "creepy",
+              "search_value": "creepy"
+            },
+            {
+              "display_value": "eerie",
+              "search_value": "eerie"
+            },
+            {
+              "display_value": "foreboding",
+              "search_value": "foreboding"
+            },
+            {
+              "display_value": "frame within a frame",
+              "search_value": "\"frame+within+a+frame\""
+            },
+            {
+              "display_value": "leading lines",
+              "search_value": "\"leading+lines\""
+            },
+            {
+              "display_value": "long hallway",
+              "search_value": "\"long+hallway\""
+            },
+            {
+              "display_value": "tile floor",
+              "search_value": "\"tile+floor\""
+            },
+            {
+              "display_value": "one-point perspective",
+              "search_value": "\"one-point+perspective\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            },
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.00",
+              "search_value": "2.00"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke Speed Panchro",
+              "search_value": "Cooke+Speed+Panchro"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Hospital Room",
+              "search_value": "Hospital+Room"
+            },
+            {
+              "display_value": "Doorway",
+              "search_value": "Doorway"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Soviet Union",
+              "search_value": "Soviet+Union"
+            },
+            {
+              "display_value": "Chernobyl",
+              "search_value": "Chernobyl"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Lithuania",
+              "search_value": "Lithuania"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:10:15",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Johan Renck",
+              "search_value": "Johan+Renck"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Jakob Ihre",
+              "search_value": "Jakob+Ihre"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Luke Hull",
+              "search_value": "Luke+Hull"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Odile Dicks-Mireaux",
+              "search_value": "Odile+Dicks-Mireaux"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Jinx Godfrey",
+              "search_value": "Jinx+Godfrey"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Jean-Clement Soret",
+              "search_value": "Jean-Clement+Soret"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

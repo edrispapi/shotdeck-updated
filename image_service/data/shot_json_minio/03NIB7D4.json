@@ -1,0 +1,486 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03NIB7D4",
+    "image_file": "03NIB7D4.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Mandalorian",
+            "search_value": "8842",
+            "season": "2",
+            "episode": "7"
+          }
+        ]
+      },
+      "full_title": "The Mandalorian - Season 2 - Episode 7",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2020",
+            "search_value": "2020"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "2e2b23",
+            "search_value": "2e2b23~25~1"
+          },
+          {
+            "display_value": "333730",
+            "search_value": "333730~25~1"
+          },
+          {
+            "display_value": "454136",
+            "search_value": "454136~25~1"
+          },
+          {
+            "display_value": "6a6253",
+            "search_value": "6a6253~25~1"
+          },
+          {
+            "display_value": "6b706b",
+            "search_value": "6b706b~25~1"
+          },
+          {
+            "display_value": "7b827f",
+            "search_value": "7b827f~25~1"
+          },
+          {
+            "display_value": "8c806e",
+            "search_value": "8c806e~25~1"
+          },
+          {
+            "display_value": "8e9193",
+            "search_value": "8e9193~25~1"
+          },
+          {
+            "display_value": "8f9391",
+            "search_value": "8f9391~25~1"
+          },
+          {
+            "display_value": "aa9b89",
+            "search_value": "aa9b89~25~1"
+          },
+          {
+            "display_value": "d0c1ab",
+            "search_value": "d0c1ab~25~1"
+          },
+          {
+            "display_value": "e3ddd3",
+            "search_value": "e3ddd3~25~1"
+          },
+          {
+            "display_value": "dddfdd",
+            "search_value": "dddfdd~25~1"
+          },
+          {
+            "display_value": "e9e9ea",
+            "search_value": "e9e9ea~25~1"
+          },
+          {
+            "display_value": "ecebec",
+            "search_value": "ecebec~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "shooting",
+              "search_value": "shooting"
+            },
+            {
+              "display_value": "gun",
+              "search_value": "gun"
+            },
+            {
+              "display_value": "metal table",
+              "search_value": "\"metal+table\""
+            },
+            {
+              "display_value": "sitting at table",
+              "search_value": "\"sitting+at+table\""
+            },
+            {
+              "display_value": "surprise attack",
+              "search_value": "\"surprise+attack\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Pedro Pascal",
+              "search_value": "Pedro+Pascal"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital, Digital - Large Format",
+              "search_value": "Digital%2C+Digital+-+Large+Format"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA LF",
+              "search_value": "ARRI+ALEXA+LF"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision H series",
+              "search_value": "Panavision+H+series"
+            },
+            {
+              "display_value": "Panavision Ultra Vista",
+              "search_value": "Panavision+Ultra+Vista"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Military Base",
+              "search_value": "Military+Base"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Morak",
+              "search_value": "Morak"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "USA",
+              "search_value": "USA"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "vfx_backing": {
+          "filter": "vfx_backing",
+          "filter_name": "VFX",
+          "values": [
+            {
+              "display_value": "CGI",
+              "search_value": "CGI"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:27:40",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Hard Sci-Fi",
+              "search_value": "Movie%2FTV+-+Hard+Sci-Fi"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Space",
+              "search_value": "Movie%2FTV+-+Space"
+            },
+            {
+              "display_value": "Western",
+              "search_value": "Movie%2FTV+-+Western"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Rick Famuyiwa",
+              "search_value": "Rick+Famuyiwa"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Matthew Jensen",
+              "search_value": "Matthew+Jensen"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Doug Chiang",
+              "search_value": "Doug+Chiang"
+            },
+            {
+              "display_value": "Andrew L. Jones",
+              "search_value": "Andrew+L.+Jones"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Shawna Trpcic",
+              "search_value": "Shawna+Trpcic"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Jeff Seibenick",
+              "search_value": "Jeff+Seibenick"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Adam Nazarenko",
+              "search_value": "Adam+Nazarenko"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

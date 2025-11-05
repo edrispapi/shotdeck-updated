@@ -1,0 +1,454 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02DMAGFT",
+    "image_file": "02DMAGFT.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1038",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Tomboy",
+            "search_value": "3470"
+          }
+        ]
+      },
+      "full_title": "Tomboy",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2011",
+            "search_value": "2011"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d0809",
+            "search_value": "0d0809~25~1"
+          },
+          {
+            "display_value": "191b1c",
+            "search_value": "191b1c~25~1"
+          },
+          {
+            "display_value": "262513",
+            "search_value": "262513~25~1"
+          },
+          {
+            "display_value": "28361c",
+            "search_value": "28361c~25~1"
+          },
+          {
+            "display_value": "57382b",
+            "search_value": "57382b~25~1"
+          },
+          {
+            "display_value": "384d26",
+            "search_value": "384d26~25~1"
+          },
+          {
+            "display_value": "454a24",
+            "search_value": "454a24~25~1"
+          },
+          {
+            "display_value": "475f35",
+            "search_value": "475f35~25~1"
+          },
+          {
+            "display_value": "665f3c",
+            "search_value": "665f3c~25~1"
+          },
+          {
+            "display_value": "9f7663",
+            "search_value": "9f7663~25~1"
+          },
+          {
+            "display_value": "8b8a5b",
+            "search_value": "8b8a5b~25~1"
+          },
+          {
+            "display_value": "b19b79",
+            "search_value": "b19b79~25~1"
+          },
+          {
+            "display_value": "dab7a8",
+            "search_value": "dab7a8~25~1"
+          },
+          {
+            "display_value": "d4c1a2",
+            "search_value": "d4c1a2~25~1"
+          },
+          {
+            "display_value": "e0c8b0",
+            "search_value": "e0c8b0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "walking through the woods",
+              "search_value": "\"walking+through+the+woods\""
+            },
+            {
+              "display_value": "alone",
+              "search_value": "alone"
+            },
+            {
+              "display_value": "scared",
+              "search_value": "scared"
+            },
+            {
+              "display_value": "isolated",
+              "search_value": "isolated"
+            },
+            {
+              "display_value": "sad",
+              "search_value": "sad"
+            },
+            {
+              "display_value": "retreating",
+              "search_value": "retreating"
+            },
+            {
+              "display_value": "running away",
+              "search_value": "\"running+away\""
+            },
+            {
+              "display_value": "walking through trees",
+              "search_value": "\"walking+through+trees\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Zoé Héran",
+              "search_value": "Zo%C3%A9+H%C3%A9ran"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Canon 7D",
+              "search_value": "Canon+7D"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Woods",
+              "search_value": "Woods"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Ile-de-France",
+              "search_value": "Ile-de-France"
+            },
+            {
+              "display_value": "Seine-et-Marne",
+              "search_value": "Seine-et-Marne"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:11:29",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Coming-of-Age",
+              "search_value": "Movie%2FTV+-+Coming-of-Age"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Céline Sciamma",
+              "search_value": "C%C3%A9line+Sciamma"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Crystel Fournier",
+              "search_value": "Crystel+Fournier"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Thomas Grézaud",
+              "search_value": "Thomas+Gr%C3%A9zaud"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Julien Lacheray",
+              "search_value": "Julien+Lacheray"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Aline Conan",
+              "search_value": "Aline+Conan"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

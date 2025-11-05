@@ -1,0 +1,504 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04X9I151",
+    "image_file": "04X9I151.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1036",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Knives Out",
+            "search_value": "2141"
+          }
+        ]
+      },
+      "full_title": "Knives Out",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2019",
+            "search_value": "2019"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "16181d",
+            "search_value": "16181d~25~1"
+          },
+          {
+            "display_value": "21181a",
+            "search_value": "21181a~25~1"
+          },
+          {
+            "display_value": "212421",
+            "search_value": "212421~25~1"
+          },
+          {
+            "display_value": "2b2620",
+            "search_value": "2b2620~25~1"
+          },
+          {
+            "display_value": "68221e",
+            "search_value": "68221e~25~1"
+          },
+          {
+            "display_value": "474232",
+            "search_value": "474232~25~1"
+          },
+          {
+            "display_value": "645a46",
+            "search_value": "645a46~25~1"
+          },
+          {
+            "display_value": "58615a",
+            "search_value": "58615a~25~1"
+          },
+          {
+            "display_value": "85856f",
+            "search_value": "85856f~25~1"
+          },
+          {
+            "display_value": "a1a48f",
+            "search_value": "a1a48f~25~1"
+          },
+          {
+            "display_value": "9faca1",
+            "search_value": "9faca1~25~1"
+          },
+          {
+            "display_value": "b7c6b9",
+            "search_value": "b7c6b9~25~1"
+          },
+          {
+            "display_value": "c1c6b0",
+            "search_value": "c1c6b0~25~1"
+          },
+          {
+            "display_value": "cedccd",
+            "search_value": "cedccd~25~1"
+          },
+          {
+            "display_value": "dbe2d0",
+            "search_value": "dbe2d0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "amazed",
+              "search_value": "amazed"
+            },
+            {
+              "display_value": "caring",
+              "search_value": "caring"
+            },
+            {
+              "display_value": "colorful scarf",
+              "search_value": "\"colorful+scarf\""
+            },
+            {
+              "display_value": "comforting dog",
+              "search_value": "\"comforting+dog\""
+            },
+            {
+              "display_value": "german shepherd",
+              "search_value": "\"german+shepherd\""
+            },
+            {
+              "display_value": "judging character",
+              "search_value": "\"judging+character\""
+            },
+            {
+              "display_value": "looking down",
+              "search_value": "\"looking+down\""
+            },
+            {
+              "display_value": "petting dog",
+              "search_value": "\"petting+dog\""
+            },
+            {
+              "display_value": "smiling",
+              "search_value": "smiling"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Daniel Craig",
+              "search_value": "Daniel+Craig"
+            },
+            {
+              "display_value": "Ana de Armas",
+              "search_value": "Ana+de+Armas"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Super 35",
+              "search_value": "Super+35"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision R-200",
+              "search_value": "Panavision+R-200"
+            },
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            },
+            {
+              "display_value": "ARRI ALEXA 65",
+              "search_value": "ARRI+ALEXA+65"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Primes",
+              "search_value": "Panavision+Primo+Primes"
+            },
+            {
+              "display_value": "Zeiss Master Primes",
+              "search_value": "Zeiss+Master+Primes"
+            },
+            {
+              "display_value": "Panavision Compact - 19-90mm (PCZ)",
+              "search_value": "Panavision+Compact+-+19-90mm+%28PCZ%29"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5219/7219  \tVision 3\t500T",
+              "search_value": "5219%2F7219++%09Vision+3%09500T"
+            },
+            {
+              "display_value": "2.8K / 2.8K ArriRaw",
+              "search_value": "2.8K+%2F+2.8K+ArriRaw"
+            },
+            {
+              "display_value": "Arriraw 5.5K",
+              "search_value": "Arriraw+5.5K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Estate",
+              "search_value": "Estate"
+            },
+            {
+              "display_value": "Mansion",
+              "search_value": "Mansion"
+            },
+            {
+              "display_value": "Woods",
+              "search_value": "Woods"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Massachusetts",
+              "search_value": "Massachusetts"
+            },
+            {
+              "display_value": "Boston",
+              "search_value": "Boston"
+            },
+            {
+              "display_value": "North Easton",
+              "search_value": "North+Easton"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Massachusetts",
+              "search_value": "Massachusetts"
+            },
+            {
+              "display_value": "Boston",
+              "search_value": "Boston"
+            },
+            {
+              "display_value": "North Easton",
+              "search_value": "North+Easton"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:58:31",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Rian Johnson",
+              "search_value": "Rian+Johnson"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Steve Yedlin",
+              "search_value": "Steve+Yedlin"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "David Crank",
+              "search_value": "David+Crank"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jenny Eagan",
+              "search_value": "Jenny+Eagan"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Bob Ducsay",
+              "search_value": "Bob+Ducsay"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Aidan Stanford",
+              "search_value": "Aidan+Stanford"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

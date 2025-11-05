@@ -1,0 +1,538 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00FGZXNM",
+    "image_file": "00FGZXNM.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Rogue One: A Star Wars Story",
+            "search_value": "887"
+          }
+        ]
+      },
+      "full_title": "Rogue One: A Star Wars Story",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2016",
+            "search_value": "2016"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0a0a0a",
+            "search_value": "0a0a0a~25~1"
+          },
+          {
+            "display_value": "0d0e0e",
+            "search_value": "0d0e0e~25~1"
+          },
+          {
+            "display_value": "161618",
+            "search_value": "161618~25~1"
+          },
+          {
+            "display_value": "1d191c",
+            "search_value": "1d191c~25~1"
+          },
+          {
+            "display_value": "4b3a37",
+            "search_value": "4b3a37~25~1"
+          },
+          {
+            "display_value": "3e3e44",
+            "search_value": "3e3e44~25~1"
+          },
+          {
+            "display_value": "473c3d",
+            "search_value": "473c3d~25~1"
+          },
+          {
+            "display_value": "564744",
+            "search_value": "564744~25~1"
+          },
+          {
+            "display_value": "4f4a4c",
+            "search_value": "4f4a4c~25~1"
+          },
+          {
+            "display_value": "4f5157",
+            "search_value": "4f5157~25~1"
+          },
+          {
+            "display_value": "7f7f82",
+            "search_value": "7f7f82~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "robot",
+              "search_value": "robot"
+            },
+            {
+              "display_value": "k2so",
+              "search_value": "k2so"
+            },
+            {
+              "display_value": "undercover",
+              "search_value": "undercover"
+            },
+            {
+              "display_value": "wearing uniform",
+              "search_value": "\"wearing+uniform\""
+            },
+            {
+              "display_value": "enemy clothes",
+              "search_value": "\"enemy+clothes\""
+            },
+            {
+              "display_value": "imperial uniform",
+              "search_value": "\"imperial+uniform\""
+            },
+            {
+              "display_value": "rebel",
+              "search_value": "rebel"
+            },
+            {
+              "display_value": "rebelion",
+              "search_value": "rebelion"
+            },
+            {
+              "display_value": "goatee",
+              "search_value": "goatee"
+            },
+            {
+              "display_value": "walking down hallway",
+              "search_value": "\"walking+down+hallway\""
+            },
+            {
+              "display_value": "imperial soldier",
+              "search_value": "\"imperial+soldier\""
+            },
+            {
+              "display_value": "white glowing eyes",
+              "search_value": "\"white+glowing+eyes\""
+            },
+            {
+              "display_value": "humanoid robot",
+              "search_value": "\"humanoid+robot\""
+            },
+            {
+              "display_value": "black satin coat",
+              "search_value": "\"black+satin+coat\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Felicity Jones",
+              "search_value": "Felicity+Jones"
+            },
+            {
+              "display_value": "Diego Luna",
+              "search_value": "Diego+Luna"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            },
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            },
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA 65",
+              "search_value": "ARRI+ALEXA+65"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision APO Panatar",
+              "search_value": "Panavision+APO+Panatar"
+            },
+            {
+              "display_value": "Vantage Hawk 65 (1.3 anamorphic)",
+              "search_value": "Vantage+Hawk+65+%281.3+anamorphic%29"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            },
+            {
+              "display_value": "ARRIRAW (6.5K)",
+              "search_value": "ARRIRAW+%286.5K%29"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Military Base ",
+              "search_value": "Military+Base+"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Scarif",
+              "search_value": "Scarif"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "Buckinghamshire",
+              "search_value": "Buckinghamshire"
+            },
+            {
+              "display_value": "Iver Heath",
+              "search_value": "Iver+Heath"
+            },
+            {
+              "display_value": "Pinewood Studios",
+              "search_value": "Pinewood+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "vfx_backing": {
+          "filter": "vfx_backing",
+          "filter_name": "VFX",
+          "values": [
+            {
+              "display_value": "CGI",
+              "search_value": "CGI"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:29:53",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "War",
+              "search_value": "Movie%2FTV+-+War"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Gareth Edwards",
+              "search_value": "Gareth+Edwards"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Greig Fraser",
+              "search_value": "Greig+Fraser"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Doug Chiang",
+              "search_value": "Doug+Chiang"
+            },
+            {
+              "display_value": "Neil Lamont",
+              "search_value": "Neil+Lamont"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "David Crossman",
+              "search_value": "David+Crossman"
+            },
+            {
+              "display_value": "Glyn Dillon",
+              "search_value": "Glyn+Dillon"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Jabez Olssen",
+              "search_value": "Jabez+Olssen"
+            },
+            {
+              "display_value": "John Gilroy",
+              "search_value": "John+Gilroy"
+            },
+            {
+              "display_value": "Colin Goudie",
+              "search_value": "Colin+Goudie"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Mitch Paulson",
+              "search_value": "Mitch+Paulson"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

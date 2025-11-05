@@ -1,8 +1,8 @@
-version: '3.9'
-
 services:
   image-db:
     image: postgres:17
+    ports:
+      - "7842:5432"
     container_name: image-db
     environment:
       POSTGRES_DB: ${DB_NAME}

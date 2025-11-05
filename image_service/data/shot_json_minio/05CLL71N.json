@@ -1,0 +1,528 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05CLL71N",
+    "image_file": "05CLL71N.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "818",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Manhunter",
+            "search_value": "25"
+          }
+        ]
+      },
+      "full_title": "Manhunter",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1986",
+            "search_value": "1986"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "030504",
+            "search_value": "030504~25~1"
+          },
+          {
+            "display_value": "0d0d14",
+            "search_value": "0d0d14~25~1"
+          },
+          {
+            "display_value": "12110e",
+            "search_value": "12110e~25~1"
+          },
+          {
+            "display_value": "2d2127",
+            "search_value": "2d2127~25~1"
+          },
+          {
+            "display_value": "353d59",
+            "search_value": "353d59~25~1"
+          },
+          {
+            "display_value": "4f3642",
+            "search_value": "4f3642~25~1"
+          },
+          {
+            "display_value": "4b5167",
+            "search_value": "4b5167~25~1"
+          },
+          {
+            "display_value": "695c62",
+            "search_value": "695c62~25~1"
+          },
+          {
+            "display_value": "79746f",
+            "search_value": "79746f~25~1"
+          },
+          {
+            "display_value": "917673",
+            "search_value": "917673~25~1"
+          },
+          {
+            "display_value": "89797c",
+            "search_value": "89797c~25~1"
+          },
+          {
+            "display_value": "848078",
+            "search_value": "848078~25~1"
+          },
+          {
+            "display_value": "8b8688",
+            "search_value": "8b8688~25~1"
+          },
+          {
+            "display_value": "938c85",
+            "search_value": "938c85~25~1"
+          },
+          {
+            "display_value": "e5d4c4",
+            "search_value": "e5d4c4~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "detective",
+              "search_value": "detective"
+            },
+            {
+              "display_value": "fbi",
+              "search_value": "fbi"
+            },
+            {
+              "display_value": "cop",
+              "search_value": "cop"
+            },
+            {
+              "display_value": "agent",
+              "search_value": "agent"
+            },
+            {
+              "display_value": "curly hair",
+              "search_value": "\"curly+hair\""
+            },
+            {
+              "display_value": "short beard",
+              "search_value": "\"short+beard\""
+            },
+            {
+              "display_value": "mustache",
+              "search_value": "mustache"
+            },
+            {
+              "display_value": "white room",
+              "search_value": "\"white+room\""
+            },
+            {
+              "display_value": "white walls",
+              "search_value": "\"white+walls\""
+            },
+            {
+              "display_value": "colleagues",
+              "search_value": "colleagues"
+            },
+            {
+              "display_value": "co workers",
+              "search_value": "\"co+workers\""
+            },
+            {
+              "display_value": "argument",
+              "search_value": "argument"
+            },
+            {
+              "display_value": "analyzing",
+              "search_value": "analyzing"
+            },
+            {
+              "display_value": "stressed",
+              "search_value": "stressed"
+            },
+            {
+              "display_value": "yelling at",
+              "search_value": "\"yelling+at\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "William Petersen",
+              "search_value": "William+Petersen"
+            },
+            {
+              "display_value": "Dennis Farina",
+              "search_value": "Dennis+Farina"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex BL3",
+              "search_value": "Arriflex+BL3"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Super Speed",
+              "search_value": "Zeiss+Super+Speed"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "Eastman 5384",
+              "search_value": "Eastman+5384"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Office ",
+              "search_value": "Office+"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Washington D.C.",
+              "search_value": "Washington+D.C."
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Georgia",
+              "search_value": "Georgia"
+            },
+            {
+              "display_value": "Atlanta",
+              "search_value": "Atlanta"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:35:32",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Detective",
+              "search_value": "Movie%2FTV+-+Detective"
+            },
+            {
+              "display_value": "FBI",
+              "search_value": "Movie%2FTV+-+FBI"
+            },
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Murder Mystery",
+              "search_value": "Movie%2FTV+-+Murder+Mystery"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Michael Mann",
+              "search_value": "Michael+Mann"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Dante Spinotti",
+              "search_value": "Dante+Spinotti"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Mel Bourne",
+              "search_value": "Mel+Bourne"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Colleen Atwood",
+              "search_value": "Colleen+Atwood"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Dov Hoenig",
+              "search_value": "Dov+Hoenig"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Phil Hetos",
+              "search_value": "Phil+Hetos"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

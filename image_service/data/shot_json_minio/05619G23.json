@@ -1,0 +1,394 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05619G23",
+    "image_file": "05619G23.jpg",
+    "mime": "image/jpeg",
+    "width": "1434",
+    "height": "1052",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "One Hundred and One Dalmatians",
+            "search_value": "2343"
+          }
+        ]
+      },
+      "full_title": "One Hundred and One Dalmatians",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1961",
+            "search_value": "1961"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "2e232a",
+            "search_value": "2e232a~25~1"
+          },
+          {
+            "display_value": "1b2e36",
+            "search_value": "1b2e36~25~1"
+          },
+          {
+            "display_value": "253530",
+            "search_value": "253530~25~1"
+          },
+          {
+            "display_value": "31322a",
+            "search_value": "31322a~25~1"
+          },
+          {
+            "display_value": "293d60",
+            "search_value": "293d60~25~1"
+          },
+          {
+            "display_value": "404338",
+            "search_value": "404338~25~1"
+          },
+          {
+            "display_value": "314742",
+            "search_value": "314742~25~1"
+          },
+          {
+            "display_value": "2b484e",
+            "search_value": "2b484e~25~1"
+          },
+          {
+            "display_value": "821513",
+            "search_value": "821513~25~1"
+          },
+          {
+            "display_value": "505146",
+            "search_value": "505146~25~1"
+          },
+          {
+            "display_value": "425751",
+            "search_value": "425751~25~1"
+          },
+          {
+            "display_value": "365b67",
+            "search_value": "365b67~25~1"
+          },
+          {
+            "display_value": "a2a5a3",
+            "search_value": "a2a5a3~25~1"
+          },
+          {
+            "display_value": "a9aaa7",
+            "search_value": "a9aaa7~25~1"
+          },
+          {
+            "display_value": "b6b7b9",
+            "search_value": "b6b7b9~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "animal",
+              "search_value": "animal"
+            },
+            {
+              "display_value": "animation",
+              "search_value": "animation"
+            },
+            {
+              "display_value": "cartoon",
+              "search_value": "cartoon"
+            },
+            {
+              "display_value": "dalmatian",
+              "search_value": "dalmatian"
+            },
+            {
+              "display_value": "dog",
+              "search_value": "dog"
+            },
+            {
+              "display_value": "hand drawn",
+              "search_value": "\"hand+drawn\""
+            },
+            {
+              "display_value": "pet",
+              "search_value": "pet"
+            },
+            {
+              "display_value": "puppy",
+              "search_value": "puppy"
+            },
+            {
+              "display_value": "spots",
+              "search_value": "spots"
+            },
+            {
+              "display_value": "cellar",
+              "search_value": "cellar"
+            },
+            {
+              "display_value": "basement",
+              "search_value": "basement"
+            },
+            {
+              "display_value": "under the stairs",
+              "search_value": "\"under+the+stairs\""
+            },
+            {
+              "display_value": "resting",
+              "search_value": "resting"
+            },
+            {
+              "display_value": "checking in",
+              "search_value": "\"checking+in\""
+            },
+            {
+              "display_value": "sleeping",
+              "search_value": "sleeping"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1960s",
+              "search_value": "1960s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Animation"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.37",
+              "search_value": "1.37"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Basement",
+              "search_value": "Basement"
+            },
+            {
+              "display_value": "Cellar",
+              "search_value": "Cellar"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:22:06",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Hamilton Luske",
+              "search_value": "Hamilton+Luske"
+            },
+            {
+              "display_value": "Wolfgang Reitherman",
+              "search_value": "Wolfgang+Reitherman"
+            },
+            {
+              "display_value": "Clyde Geronimi",
+              "search_value": "Clyde+Geronimi"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Ken Anderson",
+              "search_value": "Ken+Anderson"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Roy M. Brewer Jr.",
+              "search_value": "Roy+M.+Brewer+Jr."
+            },
+            {
+              "display_value": "Donald Halliday",
+              "search_value": "Donald+Halliday"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

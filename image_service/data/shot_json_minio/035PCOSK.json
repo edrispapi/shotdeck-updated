@@ -1,0 +1,494 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "035PCOSK",
+    "image_file": "035PCOSK.png",
+    "mime": "image/png",
+    "width": "1920",
+    "height": "960",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Bridgerton",
+            "search_value": "27098",
+            "season": "2",
+            "episode": "5"
+          }
+        ]
+      },
+      "full_title": "Bridgerton - Season 2 - Episode 5",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0a1305",
+            "search_value": "0a1305~25~1"
+          },
+          {
+            "display_value": "111216",
+            "search_value": "111216~25~1"
+          },
+          {
+            "display_value": "2d131a",
+            "search_value": "2d131a~25~1"
+          },
+          {
+            "display_value": "29230f",
+            "search_value": "29230f~25~1"
+          },
+          {
+            "display_value": "5b342b",
+            "search_value": "5b342b~25~1"
+          },
+          {
+            "display_value": "692936",
+            "search_value": "692936~25~1"
+          },
+          {
+            "display_value": "4e5315",
+            "search_value": "4e5315~25~1"
+          },
+          {
+            "display_value": "7e4959",
+            "search_value": "7e4959~25~1"
+          },
+          {
+            "display_value": "746242",
+            "search_value": "746242~25~1"
+          },
+          {
+            "display_value": "ad9b2e",
+            "search_value": "ad9b2e~25~1"
+          },
+          {
+            "display_value": "be8e9e",
+            "search_value": "be8e9e~25~1"
+          },
+          {
+            "display_value": "b59e84",
+            "search_value": "b59e84~25~1"
+          },
+          {
+            "display_value": "dbb1ac",
+            "search_value": "dbb1ac~25~1"
+          },
+          {
+            "display_value": "e5cd6b",
+            "search_value": "e5cd6b~25~1"
+          },
+          {
+            "display_value": "e6cdb7",
+            "search_value": "e6cdb7~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "friends",
+              "search_value": "friends"
+            },
+            {
+              "display_value": "gravel path",
+              "search_value": "\"gravel+path\""
+            },
+            {
+              "display_value": "yellow dress",
+              "search_value": "\"yellow+dress\""
+            },
+            {
+              "display_value": "green dress",
+              "search_value": "\"green+dress\""
+            },
+            {
+              "display_value": "holding arm",
+              "search_value": "\"holding+arm\""
+            },
+            {
+              "display_value": "being silly",
+              "search_value": "\"being+silly\""
+            },
+            {
+              "display_value": "mocking",
+              "search_value": "mocking"
+            },
+            {
+              "display_value": "victorian architecture",
+              "search_value": "\"victorian+architecture\""
+            },
+            {
+              "display_value": "crowd in the background",
+              "search_value": "\"crowd+in+the+background\""
+            },
+            {
+              "display_value": "colorful flowers",
+              "search_value": "\"colorful+flowers\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Nicola Coughlan",
+              "search_value": "Nicola+Coughlan"
+            },
+            {
+              "display_value": "Claudia Jessie",
+              "search_value": "Claudia+Jessie"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1800s",
+              "search_value": "1800s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            },
+            {
+              "display_value": "Magenta",
+              "search_value": "Magenta"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital, Digital - Large Format",
+              "search_value": "Digital%2C+Digital+-+Large+Format"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.00",
+              "search_value": "2.00"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Sony VENICE",
+              "search_value": "Sony+VENICE"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Arri Signature Prime Lenses",
+              "search_value": "Arri+Signature+Prime+Lenses"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "Sony X-OCN XT/ST/LT (6k)",
+              "search_value": "Sony+X-OCN+XT%2FST%2FLT+%286k%29"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Gardens",
+              "search_value": "Gardens"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Book Adaptation",
+              "search_value": "Movie%2FTV+-+Book+Adaptation"
+            },
+            {
+              "display_value": "Costume Drama",
+              "search_value": "Movie%2FTV+-+Costume+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Tom Verica",
+              "search_value": "Tom+Verica"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Jeffrey Jur",
+              "search_value": "Jeffrey+Jur"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Sophie Canale",
+              "search_value": "Sophie+Canale"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Sophie Canale",
+              "search_value": "Sophie+Canale"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": " Kyle Bond",
+              "search_value": "+Kyle+Bond"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Pankaj Bajpai",
+              "search_value": "Pankaj+Bajpai"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

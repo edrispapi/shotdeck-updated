@@ -1,0 +1,476 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "0592ZGNT",
+    "image_file": "0592ZGNT.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Game of Thrones",
+            "search_value": "3646",
+            "season": "4",
+            "episode": "8"
+          }
+        ]
+      },
+      "full_title": "Game of Thrones - Season 4 - Episode 8",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2014",
+            "search_value": "2014"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0b080a",
+            "search_value": "0b080a~25~1"
+          },
+          {
+            "display_value": "0c0b0a",
+            "search_value": "0c0b0a~25~1"
+          },
+          {
+            "display_value": "0b0c0c",
+            "search_value": "0b0c0c~25~1"
+          },
+          {
+            "display_value": "0e212a",
+            "search_value": "0e212a~25~1"
+          },
+          {
+            "display_value": "2f4151",
+            "search_value": "2f4151~25~1"
+          },
+          {
+            "display_value": "2f444e",
+            "search_value": "2f444e~25~1"
+          },
+          {
+            "display_value": "3c586d",
+            "search_value": "3c586d~25~1"
+          },
+          {
+            "display_value": "6283a0",
+            "search_value": "6283a0~25~1"
+          },
+          {
+            "display_value": "6990ad",
+            "search_value": "6990ad~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "confused",
+              "search_value": "confused"
+            },
+            {
+              "display_value": "disgust",
+              "search_value": "disgust"
+            },
+            {
+              "display_value": "coughing",
+              "search_value": "coughing"
+            },
+            {
+              "display_value": "coughed up blood",
+              "search_value": "\"coughed+up+blood\""
+            },
+            {
+              "display_value": "blood on face",
+              "search_value": "\"blood+on+face\""
+            },
+            {
+              "display_value": "eyes unfocused",
+              "search_value": "\"eyes+unfocused\""
+            },
+            {
+              "display_value": "terror",
+              "search_value": "terror"
+            },
+            {
+              "display_value": "tortured",
+              "search_value": "tortured"
+            },
+            {
+              "display_value": "traumatized",
+              "search_value": "traumatized"
+            },
+            {
+              "display_value": "facial hair",
+              "search_value": "\"facial+hair\""
+            },
+            {
+              "display_value": "gloom",
+              "search_value": "gloom"
+            },
+            {
+              "display_value": "messy hair",
+              "search_value": "\"messy+hair\""
+            },
+            {
+              "display_value": "uncomfortable",
+              "search_value": "uncomfortable"
+            },
+            {
+              "display_value": "wearing armor",
+              "search_value": "\"wearing+armor\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Alfie Allen",
+              "search_value": "Alfie+Allen"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Studio",
+              "search_value": "ARRI+ALEXA+Studio"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Angenieux Optimo",
+              "search_value": "Angenieux+Optimo"
+            },
+            {
+              "display_value": "Cooke S4/ i",
+              "search_value": "Cooke+S4%2F+i"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2K",
+              "search_value": "2K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Castle",
+              "search_value": "Castle"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "The World",
+              "search_value": "The+World"
+            },
+            {
+              "display_value": "Westeros",
+              "search_value": "Westeros"
+            },
+            {
+              "display_value": "The North",
+              "search_value": "The+North"
+            },
+            {
+              "display_value": "The Neck",
+              "search_value": "The+Neck"
+            },
+            {
+              "display_value": "Moat Cailin",
+              "search_value": "Moat+Cailin"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Northern Ireland",
+              "search_value": "Northern+Ireland"
+            },
+            {
+              "display_value": "Cairncastle",
+              "search_value": "Cairncastle"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:16:25",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Alex Graves",
+              "search_value": "Alex+Graves"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Anette Haellmigk",
+              "search_value": "Anette+Haellmigk"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Deborah Riley",
+              "search_value": "Deborah+Riley"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Michele Clapton",
+              "search_value": "Michele+Clapton"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Tim Porter",
+              "search_value": "Tim+Porter"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Joe Finley",
+              "search_value": "Joe+Finley"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

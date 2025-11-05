@@ -1,0 +1,426 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02CTOOHR",
+    "image_file": "02CTOOHR.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "818",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Message",
+            "search_value": "14331"
+          }
+        ]
+      },
+      "full_title": "The Message",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1976",
+            "search_value": "1976"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "241216",
+            "search_value": "241216~25~1"
+          },
+          {
+            "display_value": "3c231e",
+            "search_value": "3c231e~25~1"
+          },
+          {
+            "display_value": "483a3e",
+            "search_value": "483a3e~25~1"
+          },
+          {
+            "display_value": "513932",
+            "search_value": "513932~25~1"
+          },
+          {
+            "display_value": "6a5649",
+            "search_value": "6a5649~25~1"
+          },
+          {
+            "display_value": "655b5f",
+            "search_value": "655b5f~25~1"
+          },
+          {
+            "display_value": "6d6975",
+            "search_value": "6d6975~25~1"
+          },
+          {
+            "display_value": "877a81",
+            "search_value": "877a81~25~1"
+          },
+          {
+            "display_value": "92868e",
+            "search_value": "92868e~25~1"
+          },
+          {
+            "display_value": "8e8ba0",
+            "search_value": "8e8ba0~25~1"
+          },
+          {
+            "display_value": "e7a06d",
+            "search_value": "e7a06d~25~1"
+          },
+          {
+            "display_value": "bdb5e0",
+            "search_value": "bdb5e0~25~1"
+          },
+          {
+            "display_value": "cdb5c6",
+            "search_value": "cdb5c6~25~1"
+          },
+          {
+            "display_value": "dab4ac",
+            "search_value": "dab4ac~25~1"
+          },
+          {
+            "display_value": "d2bcd0",
+            "search_value": "d2bcd0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "hiding in the shade",
+              "search_value": "\"hiding+in+the+shade\""
+            },
+            {
+              "display_value": "wearing turban",
+              "search_value": "\"wearing+turban\""
+            },
+            {
+              "display_value": "sand hill",
+              "search_value": "\"sand+hill\""
+            },
+            {
+              "display_value": "in hiding",
+              "search_value": "\"in+hiding\""
+            },
+            {
+              "display_value": "trying not to get caught",
+              "search_value": "\"trying+not+to+get+caught\""
+            },
+            {
+              "display_value": "trying to get away",
+              "search_value": "\"trying+to+get+away\""
+            },
+            {
+              "display_value": "scared",
+              "search_value": "scared"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Medieval: 500-1400",
+              "search_value": "Medieval%3A+500-1400"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Desert",
+              "search_value": "Desert"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Near East",
+              "search_value": "Near+East"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "Libya",
+              "search_value": "Libya"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:47:11",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Epic",
+              "search_value": "Movie%2FTV+-+Epic"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Moustapha Akkad",
+              "search_value": "Moustapha+Akkad"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Jack Hildyard",
+              "search_value": "Jack+Hildyard"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Tambi Larsen",
+              "search_value": "Tambi+Larsen"
+            },
+            {
+              "display_value": "Maurice Fowler",
+              "search_value": "Maurice+Fowler"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Phyllis Dalton",
+              "search_value": "Phyllis+Dalton"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "John Bloom",
+              "search_value": "John+Bloom"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,596 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05L7URWJ",
+    "image_file": "05L7URWJ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Furious 7",
+            "search_value": "333"
+          }
+        ]
+      },
+      "full_title": "Furious 7",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2015",
+            "search_value": "2015"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "550204",
+            "search_value": "550204~25~1"
+          },
+          {
+            "display_value": "45250b",
+            "search_value": "45250b~25~1"
+          },
+          {
+            "display_value": "6d2c1c",
+            "search_value": "6d2c1c~25~1"
+          },
+          {
+            "display_value": "870e16",
+            "search_value": "870e16~25~1"
+          },
+          {
+            "display_value": "673c13",
+            "search_value": "673c13~25~1"
+          },
+          {
+            "display_value": "895428",
+            "search_value": "895428~25~1"
+          },
+          {
+            "display_value": "b47354",
+            "search_value": "b47354~25~1"
+          },
+          {
+            "display_value": "aa7e4d",
+            "search_value": "aa7e4d~25~1"
+          },
+          {
+            "display_value": "bd996c",
+            "search_value": "bd996c~25~1"
+          },
+          {
+            "display_value": "d8c49e",
+            "search_value": "d8c49e~25~1"
+          },
+          {
+            "display_value": "e0d0ad",
+            "search_value": "e0d0ad~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "formal attire",
+              "search_value": "\"formal+attire\""
+            },
+            {
+              "display_value": "red evening gown",
+              "search_value": "\"red+evening+gown\""
+            },
+            {
+              "display_value": "beige stone staircase",
+              "search_value": "\"beige+stone+staircase\""
+            },
+            {
+              "display_value": "large palace-like building",
+              "search_value": "\"large+palace-like+building\""
+            },
+            {
+              "display_value": "carved stone railings",
+              "search_value": "\"carved+stone+railings\""
+            },
+            {
+              "display_value": "group of people walking confidently",
+              "search_value": "\"group+of+people+walking+confidently\""
+            },
+            {
+              "display_value": "ornate building facade",
+              "search_value": "\"ornate+building+facade\""
+            },
+            {
+              "display_value": "arched windows on building",
+              "search_value": "\"arched+windows+on+building\""
+            },
+            {
+              "display_value": "tuxedos",
+              "search_value": "tuxedos"
+            },
+            {
+              "display_value": "red dress",
+              "search_value": "\"red+dress\""
+            },
+            {
+              "display_value": "black dress",
+              "search_value": "\"black+dress\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Vin Diesel",
+              "search_value": "Vin+Diesel"
+            },
+            {
+              "display_value": "Paul Walker",
+              "search_value": "Paul+Walker"
+            },
+            {
+              "display_value": "Tyrese Gibson",
+              "search_value": "Tyrese+Gibson"
+            },
+            {
+              "display_value": "Ludacris",
+              "search_value": "Ludacris"
+            },
+            {
+              "display_value": "Nathalie Emmanuel",
+              "search_value": "Nathalie+Emmanuel"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            },
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            },
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA XT / XTplus",
+              "search_value": "ARRI+ALEXA+XT+%2F+XTplus"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Angenieux Optimo Zooms",
+              "search_value": "Angenieux+Optimo+Zooms"
+            },
+            {
+              "display_value": "Fujinon Alura Zooms",
+              "search_value": "Fujinon+Alura+Zooms"
+            },
+            {
+              "display_value": "Panavision Compact - 19-90mm (PCZ)",
+              "search_value": "Panavision+Compact+-+19-90mm+%28PCZ%29"
+            },
+            {
+              "display_value": "Zeiss Master Primes",
+              "search_value": "Zeiss+Master+Primes"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2383/3383 Vision",
+              "search_value": "2383%2F3383+Vision"
+            },
+            {
+              "display_value": "5203/7203\tVision 3\t50D",
+              "search_value": "5203%2F7203%09Vision+3%0950D"
+            },
+            {
+              "display_value": "5207/7207\tVision 3\t250D",
+              "search_value": "5207%2F7207%09Vision+3%09250D"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Resort",
+              "search_value": "Resort"
+            },
+            {
+              "display_value": "Steps",
+              "search_value": "Steps"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "United Arab Emirates",
+              "search_value": "United+Arab+Emirates"
+            },
+            {
+              "display_value": "Abu Dhabi",
+              "search_value": "Abu+Dhabi"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Georgia",
+              "search_value": "Georgia"
+            },
+            {
+              "display_value": "Atlanta",
+              "search_value": "Atlanta"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:09:43",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "CIA",
+              "search_value": "Movie%2FTV+-+CIA"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            },
+            {
+              "display_value": "Fatherhood",
+              "search_value": "Movie%2FTV+-+Fatherhood"
+            },
+            {
+              "display_value": "FBI",
+              "search_value": "Movie%2FTV+-+FBI"
+            },
+            {
+              "display_value": "Marriage",
+              "search_value": "Movie%2FTV+-+Marriage"
+            },
+            {
+              "display_value": "Martial Arts",
+              "search_value": "Movie%2FTV+-+Martial+Arts"
+            },
+            {
+              "display_value": "Military",
+              "search_value": "Movie%2FTV+-+Military"
+            },
+            {
+              "display_value": "Police",
+              "search_value": "Movie%2FTV+-+Police"
+            },
+            {
+              "display_value": "Technology",
+              "search_value": "Movie%2FTV+-+Technology"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "James Wan",
+              "search_value": "James+Wan"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Stephen F. Windon",
+              "search_value": "Stephen+F.+Windon"
+            },
+            {
+              "display_value": "Marc Spicer",
+              "search_value": "Marc+Spicer"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Bill Brzeski",
+              "search_value": "Bill+Brzeski"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Sanja Milkovic Hays",
+              "search_value": "Sanja+Milkovic+Hays"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Leigh Folsom Boyd",
+              "search_value": "Leigh+Folsom+Boyd"
+            },
+            {
+              "display_value": "Dylan Highsmith",
+              "search_value": "Dylan+Highsmith"
+            },
+            {
+              "display_value": "Kirk M. Morri",
+              "search_value": "Kirk+M.+Morri"
+            },
+            {
+              "display_value": "Christian Wagner",
+              "search_value": "Christian+Wagner"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Tom Reiser",
+              "search_value": "Tom+Reiser"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05LC22DI",
+    "image_file": "05LC22DI.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Vai",
+            "search_value": "22354"
+          }
+        ]
+      },
+      "full_title": "Vai",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2019",
+            "search_value": "2019"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "102d37",
+            "search_value": "102d37~25~1"
+          },
+          {
+            "display_value": "222f29",
+            "search_value": "222f29~25~1"
+          },
+          {
+            "display_value": "37362c",
+            "search_value": "37362c~25~1"
+          },
+          {
+            "display_value": "4d5e53",
+            "search_value": "4d5e53~25~1"
+          },
+          {
+            "display_value": "696350",
+            "search_value": "696350~25~1"
+          },
+          {
+            "display_value": "187ab6",
+            "search_value": "187ab6~25~1"
+          },
+          {
+            "display_value": "89856d",
+            "search_value": "89856d~25~1"
+          },
+          {
+            "display_value": "ada284",
+            "search_value": "ada284~25~1"
+          },
+          {
+            "display_value": "93aca2",
+            "search_value": "93aca2~25~1"
+          },
+          {
+            "display_value": "01baf9",
+            "search_value": "01baf9~25~1"
+          },
+          {
+            "display_value": "20bcec",
+            "search_value": "20bcec~25~1"
+          },
+          {
+            "display_value": "b0cac2",
+            "search_value": "b0cac2~25~1"
+          },
+          {
+            "display_value": "cfc3a6",
+            "search_value": "cfc3a6~25~1"
+          },
+          {
+            "display_value": "dae7e2",
+            "search_value": "dae7e2~25~1"
+          },
+          {
+            "display_value": "ecebe0",
+            "search_value": "ecebe0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "black hair",
+              "search_value": "\"black+hair\""
+            },
+            {
+              "display_value": "blue shirt",
+              "search_value": "\"blue+shirt\""
+            },
+            {
+              "display_value": "limp",
+              "search_value": "limp"
+            },
+            {
+              "display_value": "subtitles",
+              "search_value": "subtitles"
+            },
+            {
+              "display_value": "tree",
+              "search_value": "tree"
+            },
+            {
+              "display_value": "sitting on bench",
+              "search_value": "\"sitting+on+bench\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Island",
+              "search_value": "Island"
+            },
+            {
+              "display_value": "Shore",
+              "search_value": "Shore"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Oceania",
+              "search_value": "Oceania"
+            },
+            {
+              "display_value": "Tonga",
+              "search_value": "Tonga"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Oceania",
+              "search_value": "Oceania"
+            },
+            {
+              "display_value": "Tonga",
+              "search_value": "Tonga"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:16:12",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Nicole Whippy",
+              "search_value": "Nicole+Whippy"
+            },
+            {
+              "display_value": "Amberley Jo Aumua",
+              "search_value": "Amberley+Jo+Aumua"
+            },
+            {
+              "display_value": "Becs Arahanga",
+              "search_value": "Becs+Arahanga"
+            },
+            {
+              "display_value": "Matasila Freshwater",
+              "search_value": "Matasila+Freshwater"
+            },
+            {
+              "display_value": "Dianna Fuemana",
+              "search_value": "Dianna+Fuemana"
+            },
+            {
+              "display_value": "Mīria George",
+              "search_value": "M%C4%ABria+George"
+            },
+            {
+              "display_value": "‘Ofa-Ki-Levuka Guttenbeil-Likiliki",
+              "search_value": "%E2%80%98Ofa-Ki-Levuka+Guttenbeil-Likiliki"
+            },
+            {
+              "display_value": "Marina Alofagia McCartney",
+              "search_value": "Marina+Alofagia+McCartney"
+            },
+            {
+              "display_value": "Sharon Whippy",
+              "search_value": "Sharon+Whippy"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Drew Sturge",
+              "search_value": "Drew+Sturge"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Riria Lee",
+              "search_value": "Riria+Lee"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Dione Chard",
+              "search_value": "Dione+Chard"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Julian Dyson",
+              "search_value": "Julian+Dyson"
+            },
+            {
+              "display_value": "Katie Hinsen",
+              "search_value": "Katie+Hinsen"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

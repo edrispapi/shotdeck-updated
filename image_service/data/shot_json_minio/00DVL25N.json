@@ -1,0 +1,490 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00DVL25N",
+    "image_file": "00DVL25N.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Dogman",
+            "search_value": "5540"
+          }
+        ]
+      },
+      "full_title": "Dogman",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2018",
+            "search_value": "2018"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "05121b",
+            "search_value": "05121b~25~1"
+          },
+          {
+            "display_value": "201517",
+            "search_value": "201517~25~1"
+          },
+          {
+            "display_value": "202926",
+            "search_value": "202926~25~1"
+          },
+          {
+            "display_value": "3e2a26",
+            "search_value": "3e2a26~25~1"
+          },
+          {
+            "display_value": "523732",
+            "search_value": "523732~25~1"
+          },
+          {
+            "display_value": "605046",
+            "search_value": "605046~25~1"
+          },
+          {
+            "display_value": "657a6c",
+            "search_value": "657a6c~25~1"
+          },
+          {
+            "display_value": "728876",
+            "search_value": "728876~25~1"
+          },
+          {
+            "display_value": "88866b",
+            "search_value": "88866b~25~1"
+          },
+          {
+            "display_value": "879b86",
+            "search_value": "879b86~25~1"
+          },
+          {
+            "display_value": "aaad8c",
+            "search_value": "aaad8c~25~1"
+          },
+          {
+            "display_value": "b9c8b0",
+            "search_value": "b9c8b0~25~1"
+          },
+          {
+            "display_value": "c3caa8",
+            "search_value": "c3caa8~25~1"
+          },
+          {
+            "display_value": "d7e0c0",
+            "search_value": "d7e0c0~25~1"
+          },
+          {
+            "display_value": "d0e3d0",
+            "search_value": "d0e3d0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "italian",
+              "search_value": "italian"
+            },
+            {
+              "display_value": "european",
+              "search_value": "european"
+            },
+            {
+              "display_value": "small man",
+              "search_value": "\"small+man\""
+            },
+            {
+              "display_value": "timid",
+              "search_value": "timid"
+            },
+            {
+              "display_value": "vet",
+              "search_value": "vet"
+            },
+            {
+              "display_value": "dog groomer",
+              "search_value": "\"dog+groomer\""
+            },
+            {
+              "display_value": "veterinarian",
+              "search_value": "veterinarian"
+            },
+            {
+              "display_value": "dog",
+              "search_value": "dog"
+            },
+            {
+              "display_value": "walking dog",
+              "search_value": "\"walking+dog\""
+            },
+            {
+              "display_value": "watching",
+              "search_value": "watching"
+            },
+            {
+              "display_value": "curious",
+              "search_value": "curious"
+            },
+            {
+              "display_value": "looking at",
+              "search_value": "\"looking+at\""
+            },
+            {
+              "display_value": "afternoon",
+              "search_value": "afternoon"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Marcello Fonte",
+              "search_value": "Marcello+Fonte"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini",
+              "search_value": "ARRI+ALEXA+Mini"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke Anamorphic",
+              "search_value": "Cooke+Anamorphic"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "3.2K / 3.2K ArriRaw",
+              "search_value": "3.2K+%2F+3.2K+ArriRaw"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Town Center",
+              "search_value": "Town+Center"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Campania",
+              "search_value": "Campania"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Campania",
+              "search_value": "Campania"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:46:31",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Matteo Garrone",
+              "search_value": "Matteo+Garrone"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Nicolai Br",
+              "search_value": "Nicolai+Br"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Dimitri Capuani",
+              "search_value": "Dimitri+Capuani"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Massimo Cantini Parrini",
+              "search_value": "Massimo+Cantini+Parrini"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Marco Spoletini",
+              "search_value": "Marco+Spoletini"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Angelo Francavilla",
+              "search_value": "Angelo+Francavilla"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

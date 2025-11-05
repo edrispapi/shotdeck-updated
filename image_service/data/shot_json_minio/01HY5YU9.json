@@ -1,0 +1,490 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01HY5YU9",
+    "image_file": "01HY5YU9.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1036",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Saint Omer",
+            "search_value": "24368"
+          }
+        ]
+      },
+      "full_title": "Saint Omer",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "130f11",
+            "search_value": "130f11~25~1"
+          },
+          {
+            "display_value": "0c181f",
+            "search_value": "0c181f~25~1"
+          },
+          {
+            "display_value": "1a211d",
+            "search_value": "1a211d~25~1"
+          },
+          {
+            "display_value": "312115",
+            "search_value": "312115~25~1"
+          },
+          {
+            "display_value": "574121",
+            "search_value": "574121~25~1"
+          },
+          {
+            "display_value": "713114",
+            "search_value": "713114~25~1"
+          },
+          {
+            "display_value": "305c69",
+            "search_value": "305c69~25~1"
+          },
+          {
+            "display_value": "716342",
+            "search_value": "716342~25~1"
+          },
+          {
+            "display_value": "5d705b",
+            "search_value": "5d705b~25~1"
+          },
+          {
+            "display_value": "728c6d",
+            "search_value": "728c6d~25~1"
+          },
+          {
+            "display_value": "998a54",
+            "search_value": "998a54~25~1"
+          },
+          {
+            "display_value": "8ea684",
+            "search_value": "8ea684~25~1"
+          },
+          {
+            "display_value": "aca371",
+            "search_value": "aca371~25~1"
+          },
+          {
+            "display_value": "ccce9c",
+            "search_value": "ccce9c~25~1"
+          },
+          {
+            "display_value": "dcdfab",
+            "search_value": "dcdfab~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "grabbing things",
+              "search_value": "\"grabbing+things\""
+            },
+            {
+              "display_value": "kitchen table",
+              "search_value": "\"kitchen+table\""
+            },
+            {
+              "display_value": "orange overshirt",
+              "search_value": "\"orange+overshirt\""
+            },
+            {
+              "display_value": "packing up",
+              "search_value": "\"packing+up\""
+            },
+            {
+              "display_value": "artwork on wall",
+              "search_value": "\"artwork+on+wall\""
+            },
+            {
+              "display_value": "vinyl collection",
+              "search_value": "\"vinyl+collection\""
+            },
+            {
+              "display_value": "getting ready to leave",
+              "search_value": "\"getting+ready+to+leave\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Kayije Kagame",
+              "search_value": "Kayije+Kagame"
+            },
+            {
+              "display_value": "Thomas De Pourquery",
+              "search_value": "Thomas+De+Pourquery"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "RED Weapon",
+              "search_value": "RED+Weapon"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Leitz M 0.8",
+              "search_value": "Leitz+M+0.8"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            },
+            {
+              "display_value": "Living Room",
+              "search_value": "Living+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Ile-de-France",
+              "search_value": "Ile-de-France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:11:11",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Courtroom Drama",
+              "search_value": "Movie%2FTV+-+Courtroom+Drama"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Legal",
+              "search_value": "Movie%2FTV+-+Legal"
+            },
+            {
+              "display_value": "Motherhood",
+              "search_value": "Movie%2FTV+-+Motherhood"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Alice Diop",
+              "search_value": "Alice+Diop"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Claire Mathon",
+              "search_value": "Claire+Mathon"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Anna Le Mouël",
+              "search_value": "Anna+Le+Mou%C3%ABl"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Annie Melza Tiburce",
+              "search_value": "Annie+Melza+Tiburce"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Bénédicte Pollet-Baronian",
+              "search_value": "B%C3%A9n%C3%A9dicte+Pollet-Baronian"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Mathilde Delacroix",
+              "search_value": "Mathilde+Delacroix"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

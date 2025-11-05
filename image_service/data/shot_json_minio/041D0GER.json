@@ -1,0 +1,476 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "041D0GER",
+    "image_file": "041D0GER.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Lilo & Stitch",
+            "search_value": "69540"
+          }
+        ]
+      },
+      "full_title": "Lilo & Stitch",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2025",
+            "search_value": "2025"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1a252b",
+            "search_value": "1a252b~25~1"
+          },
+          {
+            "display_value": "242926",
+            "search_value": "242926~25~1"
+          },
+          {
+            "display_value": "3e2717",
+            "search_value": "3e2717~25~1"
+          },
+          {
+            "display_value": "5e3823",
+            "search_value": "5e3823~25~1"
+          },
+          {
+            "display_value": "4e4920",
+            "search_value": "4e4920~25~1"
+          },
+          {
+            "display_value": "555d59",
+            "search_value": "555d59~25~1"
+          },
+          {
+            "display_value": "78593d",
+            "search_value": "78593d~25~1"
+          },
+          {
+            "display_value": "5a7b85",
+            "search_value": "5a7b85~25~1"
+          },
+          {
+            "display_value": "69888f",
+            "search_value": "69888f~25~1"
+          },
+          {
+            "display_value": "748784",
+            "search_value": "748784~25~1"
+          },
+          {
+            "display_value": "9c815a",
+            "search_value": "9c815a~25~1"
+          },
+          {
+            "display_value": "769194",
+            "search_value": "769194~25~1"
+          },
+          {
+            "display_value": "8a9c97",
+            "search_value": "8a9c97~25~1"
+          },
+          {
+            "display_value": "af956f",
+            "search_value": "af956f~25~1"
+          },
+          {
+            "display_value": "d2c499",
+            "search_value": "d2c499~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "alien",
+              "search_value": "alien"
+            },
+            {
+              "display_value": "kneeling down",
+              "search_value": "\"kneeling+down\""
+            },
+            {
+              "display_value": "sitting on ground",
+              "search_value": "\"sitting+on+ground\""
+            },
+            {
+              "display_value": "laying on ground",
+              "search_value": "\"laying+on+ground\""
+            },
+            {
+              "display_value": "passed out",
+              "search_value": "\"passed+out\""
+            },
+            {
+              "display_value": "unconscious",
+              "search_value": "unconscious"
+            },
+            {
+              "display_value": "defibrillator",
+              "search_value": "defibrillator"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Maia Kealoha",
+              "search_value": "Maia+Kealoha"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA 35",
+              "search_value": "ARRI+ALEXA+35"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision VA Primes",
+              "search_value": "Panavision+VA+Primes"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Beach",
+              "search_value": "Beach"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Hawaii",
+              "search_value": "Hawaii"
+            },
+            {
+              "display_value": "Oahu",
+              "search_value": "Oahu"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Hawaii",
+              "search_value": "Hawaii"
+            },
+            {
+              "display_value": "Oahu",
+              "search_value": "Oahu"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Dean Fleischer Camp",
+              "search_value": "Dean+Fleischer+Camp"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Nigel Bluck",
+              "search_value": "Nigel+Bluck"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Todd Cherniawsky",
+              "search_value": "Todd+Cherniawsky"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Wendy Chuck",
+              "search_value": "Wendy+Chuck"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Phillip J. Bartell",
+              "search_value": "Phillip+J.+Bartell"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Alex Bickel",
+              "search_value": "Alex+Bickel"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

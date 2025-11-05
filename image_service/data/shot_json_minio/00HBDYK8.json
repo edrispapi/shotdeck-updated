@@ -1,0 +1,576 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00HBDYK8",
+    "image_file": "00HBDYK8.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Contact",
+            "search_value": "802"
+          }
+        ]
+      },
+      "full_title": "Contact",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1997",
+            "search_value": "1997"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0a0d0b",
+            "search_value": "0a0d0b~25~1"
+          },
+          {
+            "display_value": "1a1625",
+            "search_value": "1a1625~25~1"
+          },
+          {
+            "display_value": "20181f",
+            "search_value": "20181f~25~1"
+          },
+          {
+            "display_value": "2e2018",
+            "search_value": "2e2018~25~1"
+          },
+          {
+            "display_value": "59342b",
+            "search_value": "59342b~25~1"
+          },
+          {
+            "display_value": "4f402c",
+            "search_value": "4f402c~25~1"
+          },
+          {
+            "display_value": "685440",
+            "search_value": "685440~25~1"
+          },
+          {
+            "display_value": "565a66",
+            "search_value": "565a66~25~1"
+          },
+          {
+            "display_value": "556253",
+            "search_value": "556253~25~1"
+          },
+          {
+            "display_value": "938164",
+            "search_value": "938164~25~1"
+          },
+          {
+            "display_value": "a9957b",
+            "search_value": "a9957b~25~1"
+          },
+          {
+            "display_value": "8f9baa",
+            "search_value": "8f9baa~25~1"
+          },
+          {
+            "display_value": "8aad86",
+            "search_value": "8aad86~25~1"
+          },
+          {
+            "display_value": "d5e9d8",
+            "search_value": "d5e9d8~25~1"
+          },
+          {
+            "display_value": "f7f6f0",
+            "search_value": "f7f6f0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "national security advisor",
+              "search_value": "\"national+security+advisor\""
+            },
+            {
+              "display_value": "politician",
+              "search_value": "politician"
+            },
+            {
+              "display_value": "agent",
+              "search_value": "agent"
+            },
+            {
+              "display_value": "cia",
+              "search_value": "cia"
+            },
+            {
+              "display_value": "suit",
+              "search_value": "suit"
+            },
+            {
+              "display_value": "skeptic",
+              "search_value": "skeptic"
+            },
+            {
+              "display_value": "scientist",
+              "search_value": "scientist"
+            },
+            {
+              "display_value": "advisor",
+              "search_value": "advisor"
+            },
+            {
+              "display_value": "woman with short hair",
+              "search_value": "\"woman+with+short+hair\""
+            },
+            {
+              "display_value": "white house staff",
+              "search_value": "\"white+house+staff\""
+            },
+            {
+              "display_value": "government official",
+              "search_value": "\"government+official\""
+            },
+            {
+              "display_value": "presentation",
+              "search_value": "presentation"
+            },
+            {
+              "display_value": "questioning",
+              "search_value": "questioning"
+            },
+            {
+              "display_value": "military",
+              "search_value": "military"
+            },
+            {
+              "display_value": "military leaders",
+              "search_value": "\"military+leaders\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "James Woods",
+              "search_value": "James+Woods"
+            },
+            {
+              "display_value": "Tom Skerritt",
+              "search_value": "Tom+Skerritt"
+            },
+            {
+              "display_value": "Angela Bassett",
+              "search_value": "Angela+Bassett"
+            },
+            {
+              "display_value": "Rob Lowe",
+              "search_value": "Rob+Lowe"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            },
+            {
+              "display_value": "Vista Vision",
+              "search_value": "Vista+Vision"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Panaflex Platinum",
+              "search_value": "Panavision+Panaflex+Platinum"
+            },
+            {
+              "display_value": "Panavision System 65",
+              "search_value": "Panavision+System+65"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision Primo Anamorphics",
+              "search_value": "Panavision+Primo+Anamorphics"
+            },
+            {
+              "display_value": "Panavision System 65 Lenses",
+              "search_value": "Panavision+System+65+Lenses"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5213/7213\tVision 3\t200T",
+              "search_value": "5213%2F7213%09Vision+3%09200T"
+            },
+            {
+              "display_value": "5248/7248\tEXR\t\t100T",
+              "search_value": "5248%2F7248%09EXR%09%09100T"
+            },
+            {
+              "display_value": "5293/7293  \tEXR\t\t200T",
+              "search_value": "5293%2F7293++%09EXR%09%09200T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "White House",
+              "search_value": "White+House"
+            },
+            {
+              "display_value": "Conference Room",
+              "search_value": "Conference+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Washington D.C.",
+              "search_value": "Washington+D.C."
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Burbank",
+              "search_value": "Burbank"
+            },
+            {
+              "display_value": "Warner Bros Studios",
+              "search_value": "Warner+Bros+Studios"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:07:22",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Space",
+              "search_value": "Movie%2FTV+-+Space"
+            },
+            {
+              "display_value": "Supernatural",
+              "search_value": "Movie%2FTV+-+Supernatural"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Robert Zemeckis",
+              "search_value": "Robert+Zemeckis"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Don Burgess",
+              "search_value": "Don+Burgess"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Ed Verreaux",
+              "search_value": "Ed+Verreaux"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Joanna Johnston",
+              "search_value": "Joanna+Johnston"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Arthur Schmidt",
+              "search_value": "Arthur+Schmidt"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Bob Putynkowski",
+              "search_value": "Bob+Putynkowski"
+            },
+            {
+              "display_value": "John Nicolard",
+              "search_value": "John+Nicolard"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

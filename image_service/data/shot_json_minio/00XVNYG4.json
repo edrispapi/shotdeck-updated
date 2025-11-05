@@ -1,0 +1,442 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00XVNYG4",
+    "image_file": "00XVNYG4.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Twin Peaks",
+            "search_value": "5965",
+            "season": "3",
+            "episode": "17"
+          }
+        ]
+      },
+      "full_title": "Twin Peaks - Season 3 - Episode 17",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2017",
+            "search_value": "2017"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1a181c",
+            "search_value": "1a181c~25~1"
+          },
+          {
+            "display_value": "311418",
+            "search_value": "311418~25~1"
+          },
+          {
+            "display_value": "30190d",
+            "search_value": "30190d~25~1"
+          },
+          {
+            "display_value": "5c3628",
+            "search_value": "5c3628~25~1"
+          },
+          {
+            "display_value": "741d2b",
+            "search_value": "741d2b~25~1"
+          },
+          {
+            "display_value": "5a3e21",
+            "search_value": "5a3e21~25~1"
+          },
+          {
+            "display_value": "7d5643",
+            "search_value": "7d5643~25~1"
+          },
+          {
+            "display_value": "83575c",
+            "search_value": "83575c~25~1"
+          },
+          {
+            "display_value": "9c7075",
+            "search_value": "9c7075~25~1"
+          },
+          {
+            "display_value": "a47262",
+            "search_value": "a47262~25~1"
+          },
+          {
+            "display_value": "ad9094",
+            "search_value": "ad9094~25~1"
+          },
+          {
+            "display_value": "b79180",
+            "search_value": "b79180~25~1"
+          },
+          {
+            "display_value": "d4b5b1",
+            "search_value": "d4b5b1~25~1"
+          },
+          {
+            "display_value": "e0c2bb",
+            "search_value": "e0c2bb~25~1"
+          },
+          {
+            "display_value": "dec9cc",
+            "search_value": "dec9cc~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "standing up to greet",
+              "search_value": "\"standing+up+to+greet\""
+            },
+            {
+              "display_value": "standing behind desk",
+              "search_value": "\"standing+behind+desk\""
+            },
+            {
+              "display_value": "front desk",
+              "search_value": "\"front+desk\""
+            },
+            {
+              "display_value": "smiling",
+              "search_value": "smiling"
+            },
+            {
+              "display_value": "excited",
+              "search_value": "excited"
+            },
+            {
+              "display_value": "joyful",
+              "search_value": "joyful"
+            },
+            {
+              "display_value": "curly hair",
+              "search_value": "\"curly+hair\""
+            },
+            {
+              "display_value": "fax machine",
+              "search_value": "\"fax+machine\""
+            },
+            {
+              "display_value": "polka dot sweater",
+              "search_value": "\"polka+dot+sweater\""
+            },
+            {
+              "display_value": "wooden building",
+              "search_value": "\"wooden+building\""
+            },
+            {
+              "display_value": "saying hello",
+              "search_value": "\"saying+hello\""
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            },
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Sheriff's Department",
+              "search_value": "Sheriff%27s+Department"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Washington",
+              "search_value": "Washington"
+            },
+            {
+              "display_value": "Twin Peaks",
+              "search_value": "Twin+Peaks"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Washington",
+              "search_value": "Washington"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:17:00",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Police",
+              "search_value": "Movie%2FTV+-+Police"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "David Lynch",
+              "search_value": "David+Lynch"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Peter Deming",
+              "search_value": "Peter+Deming"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Ruth de Jong",
+              "search_value": "Ruth+de+Jong"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Nancy Steiner",
+              "search_value": "Nancy+Steiner"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Duwayne Dunham",
+              "search_value": "Duwayne+Dunham"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "George Koran",
+              "search_value": "George+Koran"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

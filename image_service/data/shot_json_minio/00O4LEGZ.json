@@ -1,0 +1,500 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00O4LEGZ",
+    "image_file": "00O4LEGZ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Lost in Translation",
+            "search_value": "16"
+          }
+        ]
+      },
+      "full_title": "Lost in Translation",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2003",
+            "search_value": "2003"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1a1016",
+            "search_value": "1a1016~25~1"
+          },
+          {
+            "display_value": "111b28",
+            "search_value": "111b28~25~1"
+          },
+          {
+            "display_value": "1f1b19",
+            "search_value": "1f1b19~25~1"
+          },
+          {
+            "display_value": "253731",
+            "search_value": "253731~25~1"
+          },
+          {
+            "display_value": "1e416b",
+            "search_value": "1e416b~25~1"
+          },
+          {
+            "display_value": "2a4650",
+            "search_value": "2a4650~25~1"
+          },
+          {
+            "display_value": "2f483e",
+            "search_value": "2f483e~25~1"
+          },
+          {
+            "display_value": "2f5785",
+            "search_value": "2f5785~25~1"
+          },
+          {
+            "display_value": "595c4d",
+            "search_value": "595c4d~25~1"
+          },
+          {
+            "display_value": "57695d",
+            "search_value": "57695d~25~1"
+          },
+          {
+            "display_value": "527eb7",
+            "search_value": "527eb7~25~1"
+          },
+          {
+            "display_value": "6e8a78",
+            "search_value": "6e8a78~25~1"
+          },
+          {
+            "display_value": "7d9b88",
+            "search_value": "7d9b88~25~1"
+          },
+          {
+            "display_value": "6a98c9",
+            "search_value": "6a98c9~25~1"
+          },
+          {
+            "display_value": "c2f6ee",
+            "search_value": "c2f6ee~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "blue wallpaper",
+              "search_value": "\"blue+wallpaper\""
+            },
+            {
+              "display_value": "blue walls",
+              "search_value": "\"blue+walls\""
+            },
+            {
+              "display_value": "bob wig",
+              "search_value": "\"bob+wig\""
+            },
+            {
+              "display_value": "foreigner",
+              "search_value": "foreigner"
+            },
+            {
+              "display_value": "having fun",
+              "search_value": "\"having+fun\""
+            },
+            {
+              "display_value": "karaoke",
+              "search_value": "karaoke"
+            },
+            {
+              "display_value": "partying",
+              "search_value": "partying"
+            },
+            {
+              "display_value": "pink bob wig",
+              "search_value": "\"pink+bob+wig\""
+            },
+            {
+              "display_value": "pink wig",
+              "search_value": "\"pink+wig\""
+            },
+            {
+              "display_value": "singing",
+              "search_value": "singing"
+            },
+            {
+              "display_value": "tourist",
+              "search_value": "tourist"
+            },
+            {
+              "display_value": "woman singing",
+              "search_value": "\"woman+singing\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Scarlett Johansson",
+              "search_value": "Scarlett+Johansson"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Aaton 35-III",
+              "search_value": "Aaton+35-III"
+            },
+            {
+              "display_value": "Moviecam Compact",
+              "search_value": "Moviecam+Compact"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Super Speed",
+              "search_value": "Zeiss+Super+Speed"
+            },
+            {
+              "display_value": "Angenieux Optimo Zooms",
+              "search_value": "Angenieux+Optimo+Zooms"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5277/7277\tVision\t320T",
+              "search_value": "5277%2F7277%09Vision%09320T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Karaoke Bar",
+              "search_value": "Karaoke+Bar"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Japan",
+              "search_value": "Japan"
+            },
+            {
+              "display_value": "Tokyo",
+              "search_value": "Tokyo"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Japan",
+              "search_value": "Japan"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:49:57",
+              "search_value": "n/a"
+            }
+          ]
+        },
+        "general_notes": {
+          "filter": "n/a",
+          "filter_name": "Notes",
+          "values": [
+            {
+              "display_value": " Aaton 35-III, Arriflex 435 Xtreme, Moviecam Compact, Zeiss Super Speed and Angenieux Optimo Lenses",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Sofia Coppola",
+              "search_value": "Sofia+Coppola"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Lance Acord",
+              "search_value": "Lance+Acord"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "K.K. Barrett",
+              "search_value": "K.K.+Barrett"
+            },
+            {
+              "display_value": "Anne Ross",
+              "search_value": "Anne+Ross"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Nancy Steiner",
+              "search_value": "Nancy+Steiner"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Sarah Flack",
+              "search_value": "Sarah+Flack"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Bob Fredrickson",
+              "search_value": "Bob+Fredrickson"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

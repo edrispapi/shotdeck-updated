@@ -1,0 +1,482 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02SNYZ4W",
+    "image_file": "02SNYZ4W.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Flashdance",
+            "search_value": "1916"
+          }
+        ]
+      },
+      "full_title": "Flashdance",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1983",
+            "search_value": "1983"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "151715",
+            "search_value": "151715~25~1"
+          },
+          {
+            "display_value": "201d1a",
+            "search_value": "201d1a~25~1"
+          },
+          {
+            "display_value": "22252a",
+            "search_value": "22252a~25~1"
+          },
+          {
+            "display_value": "2b2728",
+            "search_value": "2b2728~25~1"
+          },
+          {
+            "display_value": "3c3e45",
+            "search_value": "3c3e45~25~1"
+          },
+          {
+            "display_value": "463c3b",
+            "search_value": "463c3b~25~1"
+          },
+          {
+            "display_value": "443d3e",
+            "search_value": "443d3e~25~1"
+          },
+          {
+            "display_value": "4b4d53",
+            "search_value": "4b4d53~25~1"
+          },
+          {
+            "display_value": "5c5557",
+            "search_value": "5c5557~25~1"
+          },
+          {
+            "display_value": "5e5553",
+            "search_value": "5e5553~25~1"
+          },
+          {
+            "display_value": "5a5e5b",
+            "search_value": "5a5e5b~25~1"
+          },
+          {
+            "display_value": "858c90",
+            "search_value": "858c90~25~1"
+          },
+          {
+            "display_value": "8a938a",
+            "search_value": "8a938a~25~1"
+          },
+          {
+            "display_value": "a7988d",
+            "search_value": "a7988d~25~1"
+          },
+          {
+            "display_value": "ecc69f",
+            "search_value": "ecc69f~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "exterior shot from interior",
+              "search_value": "\"exterior+shot+from+interior\""
+            },
+            {
+              "display_value": "view through car windows",
+              "search_value": "\"view+through+car+windows\""
+            },
+            {
+              "display_value": "sidewalk",
+              "search_value": "sidewalk"
+            },
+            {
+              "display_value": "standing on sidewalk",
+              "search_value": "\"standing+on+sidewalk\""
+            },
+            {
+              "display_value": "bicycle",
+              "search_value": "bicycle"
+            },
+            {
+              "display_value": "building",
+              "search_value": "building"
+            },
+            {
+              "display_value": "steps",
+              "search_value": "steps"
+            },
+            {
+              "display_value": "lamp posts",
+              "search_value": "\"lamp+posts\""
+            },
+            {
+              "display_value": "head forward",
+              "search_value": "\"head+forward\""
+            },
+            {
+              "display_value": "looking down",
+              "search_value": "\"looking+down\""
+            },
+            {
+              "display_value": "street",
+              "search_value": "street"
+            },
+            {
+              "display_value": "being watched",
+              "search_value": "\"being+watched\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 35 BL4",
+              "search_value": "Arriflex+35+BL4"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5247/7247\tVision\t125T",
+              "search_value": "5247%2F7247%09Vision%09125T"
+            },
+            {
+              "display_value": "5293/7293  \tEXR\t\t200T",
+              "search_value": "5293%2F7293++%09EXR%09%09200T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Dance School",
+              "search_value": "Dance+School"
+            },
+            {
+              "display_value": "Steps",
+              "search_value": "Steps"
+            },
+            {
+              "display_value": "Car",
+              "search_value": "Car"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Pennsylvania",
+              "search_value": "Pennsylvania"
+            },
+            {
+              "display_value": "Pittsburgh",
+              "search_value": "Pittsburgh"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:06:37",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            },
+            {
+              "display_value": "Dance",
+              "search_value": "Movie%2FTV+-+Dance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Adrian Lyne",
+              "search_value": "Adrian+Lyne"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Donald Peterman",
+              "search_value": "Donald+Peterman"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Charles Rosen",
+              "search_value": "Charles+Rosen"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Michael Kaplan",
+              "search_value": "Michael+Kaplan"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Walt Mulconery",
+              "search_value": "Walt+Mulconery"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Matt McFarland",
+              "search_value": "Matt+McFarland"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

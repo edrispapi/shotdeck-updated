@@ -1,0 +1,404 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05JBCBOE",
+    "image_file": "05JBCBOE.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "802",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Spider-Man: Across the Spider-Verse",
+            "search_value": "32464"
+          }
+        ]
+      },
+      "full_title": "Spider-Man: Across the Spider-Verse",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2023",
+            "search_value": "2023"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "bc4d1d",
+            "search_value": "bc4d1d~25~1"
+          },
+          {
+            "display_value": "de1474",
+            "search_value": "de1474~25~1"
+          },
+          {
+            "display_value": "e20272",
+            "search_value": "e20272~25~1"
+          },
+          {
+            "display_value": "e63686",
+            "search_value": "e63686~25~1"
+          },
+          {
+            "display_value": "e05540",
+            "search_value": "e05540~25~1"
+          },
+          {
+            "display_value": "e17ba6",
+            "search_value": "e17ba6~25~1"
+          },
+          {
+            "display_value": "e49f46",
+            "search_value": "e49f46~25~1"
+          },
+          {
+            "display_value": "d0bb0e",
+            "search_value": "d0bb0e~25~1"
+          },
+          {
+            "display_value": "1fe1f6",
+            "search_value": "1fe1f6~25~1"
+          },
+          {
+            "display_value": "e5d50b",
+            "search_value": "e5d50b~25~1"
+          },
+          {
+            "display_value": "43ecf8",
+            "search_value": "43ecf8~25~1"
+          },
+          {
+            "display_value": "edc7e5",
+            "search_value": "edc7e5~25~1"
+          },
+          {
+            "display_value": "f5d74b",
+            "search_value": "f5d74b~25~1"
+          },
+          {
+            "display_value": "abe2f8",
+            "search_value": "abe2f8~25~1"
+          },
+          {
+            "display_value": "f5dba3",
+            "search_value": "f5dba3~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "face fills frame",
+              "search_value": "\"face+fills+frame\""
+            },
+            {
+              "display_value": "geometric",
+              "search_value": "geometric"
+            },
+            {
+              "display_value": "mad",
+              "search_value": "mad"
+            },
+            {
+              "display_value": "cuts off ace",
+              "search_value": "\"cuts+off+ace\""
+            },
+            {
+              "display_value": "half shaved head",
+              "search_value": "\"half+shaved+head\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2020s",
+              "search_value": "2020s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            },
+            {
+              "display_value": "Orange",
+              "search_value": "Orange"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            },
+            {
+              "display_value": "Pink",
+              "search_value": "Pink"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Animation"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "2K",
+              "search_value": "2K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Headquarters",
+              "search_value": "Headquarters"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth-928",
+              "search_value": "Earth-928"
+            },
+            {
+              "display_value": "Nueva York",
+              "search_value": "Nueva+York"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:49:24",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Psychedelic",
+              "search_value": "Movie%2FTV+-+Psychedelic"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Joaquim Dos Santos",
+              "search_value": "Joaquim+Dos+Santos"
+            },
+            {
+              "display_value": "Justin K. Thompson",
+              "search_value": "Justin+K.+Thompson"
+            },
+            {
+              "display_value": "Kemp Powers",
+              "search_value": "Kemp+Powers"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Patrick O'Keefe",
+              "search_value": "Patrick+O%27Keefe"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Brooklyn El-Omar",
+              "search_value": "Brooklyn+El-Omar"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Mike Andrews",
+              "search_value": "Mike+Andrews"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Natasha Leonnet",
+              "search_value": "Natasha+Leonnet"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

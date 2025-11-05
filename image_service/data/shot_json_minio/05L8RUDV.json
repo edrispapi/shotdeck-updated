@@ -1,0 +1,432 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "05L8RUDV",
+    "image_file": "05L8RUDV.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "784",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Thenali",
+            "search_value": "35529"
+          }
+        ]
+      },
+      "full_title": "Thenali",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2000",
+            "search_value": "2000"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "010305",
+            "search_value": "010305~25~1"
+          },
+          {
+            "display_value": "0b0205",
+            "search_value": "0b0205~25~1"
+          },
+          {
+            "display_value": "121e14",
+            "search_value": "121e14~25~1"
+          },
+          {
+            "display_value": "221a0a",
+            "search_value": "221a0a~25~1"
+          },
+          {
+            "display_value": "304b37",
+            "search_value": "304b37~25~1"
+          },
+          {
+            "display_value": "6d3217",
+            "search_value": "6d3217~25~1"
+          },
+          {
+            "display_value": "52491a",
+            "search_value": "52491a~25~1"
+          },
+          {
+            "display_value": "49644f",
+            "search_value": "49644f~25~1"
+          },
+          {
+            "display_value": "715c2d",
+            "search_value": "715c2d~25~1"
+          },
+          {
+            "display_value": "6e8a72",
+            "search_value": "6e8a72~25~1"
+          },
+          {
+            "display_value": "9d9947",
+            "search_value": "9d9947~25~1"
+          },
+          {
+            "display_value": "a8a476",
+            "search_value": "a8a476~25~1"
+          },
+          {
+            "display_value": "9cab9a",
+            "search_value": "9cab9a~25~1"
+          },
+          {
+            "display_value": "d6c59a",
+            "search_value": "d6c59a~25~1"
+          },
+          {
+            "display_value": "ebd8c4",
+            "search_value": "ebd8c4~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "yellow jacket",
+              "search_value": "\"yellow+jacket\""
+            },
+            {
+              "display_value": "white shirt",
+              "search_value": "\"white+shirt\""
+            },
+            {
+              "display_value": "black dress",
+              "search_value": "\"black+dress\""
+            },
+            {
+              "display_value": "candles in foreground",
+              "search_value": "\"candles+in+foreground\""
+            },
+            {
+              "display_value": "arms up",
+              "search_value": "\"arms+up\""
+            },
+            {
+              "display_value": "dancing",
+              "search_value": "dancing"
+            },
+            {
+              "display_value": "candle chandelier",
+              "search_value": "\"candle+chandelier\""
+            },
+            {
+              "display_value": "banners",
+              "search_value": "banners"
+            },
+            {
+              "display_value": "jeans",
+              "search_value": "jeans"
+            },
+            {
+              "display_value": "swaying hips",
+              "search_value": "\"swaying+hips\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Kamal Haasan",
+              "search_value": "Kamal+Haasan"
+            },
+            {
+              "display_value": "Devayani",
+              "search_value": "Devayani"
+            },
+            {
+              "display_value": "Jyothika",
+              "search_value": "Jyothika"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            },
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Firelight",
+              "search_value": "Firelight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Palace",
+              "search_value": "Palace"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "India",
+              "search_value": "India"
+            },
+            {
+              "display_value": "Tamil Nadu",
+              "search_value": "Tamil+Nadu"
+            },
+            {
+              "display_value": "Kodaikanal",
+              "search_value": "Kodaikanal"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "India",
+              "search_value": "India"
+            },
+            {
+              "display_value": "Tamil Nadu",
+              "search_value": "Tamil+Nadu"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "02:16:24",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "K. S. Ravikumar",
+              "search_value": "K.+S.+Ravikumar"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Priyan",
+              "search_value": "Priyan"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "K. Thanigachalam",
+              "search_value": "K.+Thanigachalam"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

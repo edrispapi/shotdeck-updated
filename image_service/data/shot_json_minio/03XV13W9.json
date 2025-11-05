@@ -1,0 +1,378 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03XV13W9",
+    "image_file": "03XV13W9.jpg",
+    "mime": "image/jpeg",
+    "width": "1480",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Shoeshine",
+            "search_value": "13148"
+          }
+        ]
+      },
+      "full_title": "Shoeshine",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1946",
+            "search_value": "1946"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1d1d1d",
+            "search_value": "1d1d1d~25~1"
+          },
+          {
+            "display_value": "232423",
+            "search_value": "232423~25~1"
+          },
+          {
+            "display_value": "2c2b2c",
+            "search_value": "2c2b2c~25~1"
+          },
+          {
+            "display_value": "525252",
+            "search_value": "525252~25~1"
+          },
+          {
+            "display_value": "595a5a",
+            "search_value": "595a5a~25~1"
+          },
+          {
+            "display_value": "646263",
+            "search_value": "646263~25~1"
+          },
+          {
+            "display_value": "9d9b9c",
+            "search_value": "9d9b9c~25~1"
+          },
+          {
+            "display_value": "9b9d9c",
+            "search_value": "9b9d9c~25~1"
+          },
+          {
+            "display_value": "9f9f9f",
+            "search_value": "9f9f9f~25~1"
+          },
+          {
+            "display_value": "c0c0c0",
+            "search_value": "c0c0c0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "captive",
+              "search_value": "captive"
+            },
+            {
+              "display_value": "inmate",
+              "search_value": "inmate"
+            },
+            {
+              "display_value": "prisoner",
+              "search_value": "prisoner"
+            },
+            {
+              "display_value": "convict",
+              "search_value": "convict"
+            },
+            {
+              "display_value": "behind bars",
+              "search_value": "\"behind+bars\""
+            },
+            {
+              "display_value": "criminal",
+              "search_value": "criminal"
+            },
+            {
+              "display_value": "shot through window",
+              "search_value": "\"shot+through+window\""
+            },
+            {
+              "display_value": "frame within a frame",
+              "search_value": "\"frame+within+a+frame\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Rinaldo Smordoni",
+              "search_value": "Rinaldo+Smordoni"
+            },
+            {
+              "display_value": "Bruno Ortenzi",
+              "search_value": "Bruno+Ortenzi"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.37",
+              "search_value": "1.37"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Juvenile Detention Center",
+              "search_value": "Juvenile+Detention+Center"
+            },
+            {
+              "display_value": "Cell",
+              "search_value": "Cell"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Rome",
+              "search_value": "Rome"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Rome",
+              "search_value": "Rome"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Vittorio De Sica",
+              "search_value": "Vittorio+De+Sica"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Anchise Brizzi",
+              "search_value": "Anchise+Brizzi"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Ivo Battelli",
+              "search_value": "Ivo+Battelli"
+            },
+            {
+              "display_value": "Giulio Lombardozzi",
+              "search_value": "Giulio+Lombardozzi"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Niccolò Lazzari",
+              "search_value": "Niccol%C3%B2+Lazzari"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

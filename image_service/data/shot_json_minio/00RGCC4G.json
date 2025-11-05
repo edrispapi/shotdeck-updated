@@ -1,0 +1,464 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00RGCC4G",
+    "image_file": "00RGCC4G.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Ishtar",
+            "search_value": "40779"
+          }
+        ]
+      },
+      "full_title": "Ishtar",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1987",
+            "search_value": "1987"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "020204",
+            "search_value": "020204~25~1"
+          },
+          {
+            "display_value": "020303",
+            "search_value": "020303~25~1"
+          },
+          {
+            "display_value": "180f11",
+            "search_value": "180f11~25~1"
+          },
+          {
+            "display_value": "271914",
+            "search_value": "271914~25~1"
+          },
+          {
+            "display_value": "49393c",
+            "search_value": "49393c~25~1"
+          },
+          {
+            "display_value": "59362b",
+            "search_value": "59362b~25~1"
+          },
+          {
+            "display_value": "4f402c",
+            "search_value": "4f402c~25~1"
+          },
+          {
+            "display_value": "574d53",
+            "search_value": "574d53~25~1"
+          },
+          {
+            "display_value": "7a523f",
+            "search_value": "7a523f~25~1"
+          },
+          {
+            "display_value": "6f6a76",
+            "search_value": "6f6a76~25~1"
+          },
+          {
+            "display_value": "a17760",
+            "search_value": "a17760~25~1"
+          },
+          {
+            "display_value": "a17b5a",
+            "search_value": "a17b5a~25~1"
+          },
+          {
+            "display_value": "bca07d",
+            "search_value": "bca07d~25~1"
+          },
+          {
+            "display_value": "cec2a9",
+            "search_value": "cec2a9~25~1"
+          },
+          {
+            "display_value": "d2ccb8",
+            "search_value": "d2ccb8~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "hand shake",
+              "search_value": "\"hand+shake\""
+            },
+            {
+              "display_value": "greeting",
+              "search_value": "greeting"
+            },
+            {
+              "display_value": "introduction",
+              "search_value": "introduction"
+            },
+            {
+              "display_value": "suit jacket",
+              "search_value": "\"suit+jacket\""
+            },
+            {
+              "display_value": "tie",
+              "search_value": "tie"
+            },
+            {
+              "display_value": "white collared shirt",
+              "search_value": "\"white+collared+shirt\""
+            },
+            {
+              "display_value": "cia agent",
+              "search_value": "\"cia+agent\""
+            },
+            {
+              "display_value": "operative",
+              "search_value": "operative"
+            },
+            {
+              "display_value": "handing over",
+              "search_value": "\"handing+over\""
+            },
+            {
+              "display_value": "restaurant",
+              "search_value": "restaurant"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Dustin Hoffman",
+              "search_value": "Dustin+Hoffman"
+            },
+            {
+              "display_value": "Charles Grodin",
+              "search_value": "Charles+Grodin"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Restaurant",
+              "search_value": "Restaurant"
+            },
+            {
+              "display_value": "Seating Area",
+              "search_value": "Seating+Area"
+            },
+            {
+              "display_value": "Table",
+              "search_value": "Table"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "Morocco",
+              "search_value": "Morocco"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "Morocco",
+              "search_value": "Morocco"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:41:47",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Elaine May",
+              "search_value": "Elaine+May"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Vittorio Storaro",
+              "search_value": "Vittorio+Storaro"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Paul Sylbert",
+              "search_value": "Paul+Sylbert"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Anthony Powell",
+              "search_value": "Anthony+Powell"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "William Reynolds",
+              "search_value": "William+Reynolds"
+            },
+            {
+              "display_value": "Stephen A. Rotter",
+              "search_value": "Stephen+A.+Rotter"
+            },
+            {
+              "display_value": "Richard P. Cirincione",
+              "search_value": "Richard+P.+Cirincione"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01KON910",
+    "image_file": "01KON910.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1036",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Luca",
+            "search_value": "4965"
+          }
+        ]
+      },
+      "full_title": "Luca",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2021",
+            "search_value": "2021"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "17211d",
+            "search_value": "17211d~25~1"
+          },
+          {
+            "display_value": "2b1a23",
+            "search_value": "2b1a23~25~1"
+          },
+          {
+            "display_value": "341711",
+            "search_value": "341711~25~1"
+          },
+          {
+            "display_value": "1f1f2c",
+            "search_value": "1f1f2c~25~1"
+          },
+          {
+            "display_value": "363e4d",
+            "search_value": "363e4d~25~1"
+          },
+          {
+            "display_value": "573238",
+            "search_value": "573238~25~1"
+          },
+          {
+            "display_value": "672e23",
+            "search_value": "672e23~25~1"
+          },
+          {
+            "display_value": "3e506c",
+            "search_value": "3e506c~25~1"
+          },
+          {
+            "display_value": "6d4554",
+            "search_value": "6d4554~25~1"
+          },
+          {
+            "display_value": "844c3a",
+            "search_value": "844c3a~25~1"
+          },
+          {
+            "display_value": "a0697e",
+            "search_value": "a0697e~25~1"
+          },
+          {
+            "display_value": "ab6e5b",
+            "search_value": "ab6e5b~25~1"
+          },
+          {
+            "display_value": "b89480",
+            "search_value": "b89480~25~1"
+          },
+          {
+            "display_value": "b592a3",
+            "search_value": "b592a3~25~1"
+          },
+          {
+            "display_value": "cec6bd",
+            "search_value": "cec6bd~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "cat",
+              "search_value": "cat"
+            },
+            {
+              "display_value": "distrust",
+              "search_value": "distrust"
+            },
+            {
+              "display_value": "hiding under table",
+              "search_value": "\"hiding+under+table\""
+            },
+            {
+              "display_value": "looking underneath table",
+              "search_value": "\"looking+underneath+table\""
+            },
+            {
+              "display_value": "mistrust",
+              "search_value": "mistrust"
+            },
+            {
+              "display_value": "suspicious",
+              "search_value": "suspicious"
+            },
+            {
+              "display_value": "under table",
+              "search_value": "\"under+table\""
+            },
+            {
+              "display_value": "underneath table",
+              "search_value": "\"underneath+table\""
+            },
+            {
+              "display_value": "unsure",
+              "search_value": "unsure"
+            },
+            {
+              "display_value": "wary",
+              "search_value": "wary"
+            },
+            {
+              "display_value": "white cat",
+              "search_value": "\"white+cat\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Jacob Tremblay",
+              "search_value": "Jacob+Tremblay"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1950s",
+              "search_value": "1950s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Dusk",
+              "search_value": "Dusk"
+            },
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Animation"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            },
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Practical light",
+              "search_value": "Practical+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "4K",
+              "search_value": "4K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Italy",
+              "search_value": "Italy"
+            },
+            {
+              "display_value": "Portorosso",
+              "search_value": "Portorosso"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:38:26",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Enrico Casarosa",
+              "search_value": "Enrico+Casarosa"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Kim White",
+              "search_value": "Kim+White"
+            },
+            {
+              "display_value": "David Juan Bianchi",
+              "search_value": "David+Juan+Bianchi"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Daniela Strijleva",
+              "search_value": "Daniela+Strijleva"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Jason Hudak",
+              "search_value": "Jason+Hudak"
+            },
+            {
+              "display_value": "Catherine Apple",
+              "search_value": "Catherine+Apple"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Mark Dinicola",
+              "search_value": "Mark+Dinicola"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00Y2JCCC",
+    "image_file": "00Y2JCCC.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Game of Thrones",
+            "search_value": "3646",
+            "season": "2",
+            "episode": "5"
+          }
+        ]
+      },
+      "full_title": "Game of Thrones - Season 2 - Episode 5",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2012",
+            "search_value": "2012"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0e0a0e",
+            "search_value": "0e0a0e~25~1"
+          },
+          {
+            "display_value": "161d23",
+            "search_value": "161d23~25~1"
+          },
+          {
+            "display_value": "322e2d",
+            "search_value": "322e2d~25~1"
+          },
+          {
+            "display_value": "33414e",
+            "search_value": "33414e~25~1"
+          },
+          {
+            "display_value": "55738b",
+            "search_value": "55738b~25~1"
+          },
+          {
+            "display_value": "64839d",
+            "search_value": "64839d~25~1"
+          },
+          {
+            "display_value": "869cb0",
+            "search_value": "869cb0~25~1"
+          },
+          {
+            "display_value": "b7a9ad",
+            "search_value": "b7a9ad~25~1"
+          },
+          {
+            "display_value": "cbacaa",
+            "search_value": "cbacaa~25~1"
+          },
+          {
+            "display_value": "cbb9bb",
+            "search_value": "cbb9bb~25~1"
+          },
+          {
+            "display_value": "d7b5b1",
+            "search_value": "d7b5b1~25~1"
+          },
+          {
+            "display_value": "b8c0c8",
+            "search_value": "b8c0c8~25~1"
+          },
+          {
+            "display_value": "bdc2c7",
+            "search_value": "bdc2c7~25~1"
+          },
+          {
+            "display_value": "cbbfc1",
+            "search_value": "cbbfc1~25~1"
+          },
+          {
+            "display_value": "dabcb9",
+            "search_value": "dabcb9~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "snow",
+              "search_value": "snow"
+            },
+            {
+              "display_value": "snowy",
+              "search_value": "snowy"
+            },
+            {
+              "display_value": "winter",
+              "search_value": "winter"
+            },
+            {
+              "display_value": "cold weather",
+              "search_value": "\"cold+weather\""
+            },
+            {
+              "display_value": "tundra",
+              "search_value": "tundra"
+            },
+            {
+              "display_value": "vast tundra",
+              "search_value": "\"vast+tundra\""
+            },
+            {
+              "display_value": "cliffs",
+              "search_value": "cliffs"
+            },
+            {
+              "display_value": "rocks",
+              "search_value": "rocks"
+            },
+            {
+              "display_value": "mountain",
+              "search_value": "mountain"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Sunset",
+              "search_value": "Sunset"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA",
+              "search_value": "ARRI+ALEXA"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Cooke S4/ i",
+              "search_value": "Cooke+S4%2F+i"
+            },
+            {
+              "display_value": "Angenieux Optimo Zooms",
+              "search_value": "Angenieux+Optimo+Zooms"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Tundra",
+              "search_value": "Tundra"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "The World",
+              "search_value": "The+World"
+            },
+            {
+              "display_value": "Westeros",
+              "search_value": "Westeros"
+            },
+            {
+              "display_value": "The Lands of Always Winter",
+              "search_value": "The+Lands+of+Always+Winter"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Iceland",
+              "search_value": "Iceland"
+            },
+            {
+              "display_value": "Vik",
+              "search_value": "Vik"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:26:11",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "David Petrarca",
+              "search_value": "David+Petrarca"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Martin Kenzie",
+              "search_value": "Martin+Kenzie"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Gemma Jackson",
+              "search_value": "Gemma+Jackson"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Michele Clapton",
+              "search_value": "Michele+Clapton"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Katie Weiland",
+              "search_value": "Katie+Weiland"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Joe Finley",
+              "search_value": "Joe+Finley"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01BA208S",
+    "image_file": "01BA208S.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "784",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Rush Hour",
+            "search_value": "16041"
+          }
+        ]
+      },
+      "full_title": "Rush Hour",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1998",
+            "search_value": "1998"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1c1611",
+            "search_value": "1c1611~25~1"
+          },
+          {
+            "display_value": "221d20",
+            "search_value": "221d20~25~1"
+          },
+          {
+            "display_value": "1e211f",
+            "search_value": "1e211f~25~1"
+          },
+          {
+            "display_value": "1c2227",
+            "search_value": "1c2227~25~1"
+          },
+          {
+            "display_value": "373f4a",
+            "search_value": "373f4a~25~1"
+          },
+          {
+            "display_value": "5b342c",
+            "search_value": "5b342c~25~1"
+          },
+          {
+            "display_value": "474034",
+            "search_value": "474034~25~1"
+          },
+          {
+            "display_value": "484d4a",
+            "search_value": "484d4a~25~1"
+          },
+          {
+            "display_value": "494f58",
+            "search_value": "494f58~25~1"
+          },
+          {
+            "display_value": "67554e",
+            "search_value": "67554e~25~1"
+          },
+          {
+            "display_value": "6f575b",
+            "search_value": "6f575b~25~1"
+          },
+          {
+            "display_value": "927478",
+            "search_value": "927478~25~1"
+          },
+          {
+            "display_value": "998085",
+            "search_value": "998085~25~1"
+          },
+          {
+            "display_value": "948d80",
+            "search_value": "948d80~25~1"
+          },
+          {
+            "display_value": "8892a0",
+            "search_value": "8892a0~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "ancient architecture",
+              "search_value": "\"ancient+architecture\""
+            },
+            {
+              "display_value": "celebration",
+              "search_value": "celebration"
+            },
+            {
+              "display_value": "champagne flutes",
+              "search_value": "\"champagne+flutes\""
+            },
+            {
+              "display_value": "cheers",
+              "search_value": "cheers"
+            },
+            {
+              "display_value": "gathering",
+              "search_value": "gathering"
+            },
+            {
+              "display_value": "making a toast",
+              "search_value": "\"making+a+toast\""
+            },
+            {
+              "display_value": "proud",
+              "search_value": "proud"
+            },
+            {
+              "display_value": "smiling",
+              "search_value": "smiling"
+            },
+            {
+              "display_value": "suit and tie",
+              "search_value": "\"suit+and+tie\""
+            },
+            {
+              "display_value": "diplomat",
+              "search_value": "diplomat"
+            },
+            {
+              "display_value": "politician",
+              "search_value": "politician"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Tom Wilkinson",
+              "search_value": "Tom+Wilkinson"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1990s",
+              "search_value": "1990s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Millennium / Millenium XL / XL2",
+              "search_value": "Panavision+Millennium+%2F+Millenium+XL+%2F+XL2"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Penthouse Apartment",
+              "search_value": "Penthouse+Apartment"
+            },
+            {
+              "display_value": "Dining Room",
+              "search_value": "Dining+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "China",
+              "search_value": "China"
+            },
+            {
+              "display_value": "Hong Kong",
+              "search_value": "Hong+Kong"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "vfx_backing": {
+          "filter": "vfx_backing",
+          "filter_name": "VFX",
+          "values": [
+            {
+              "display_value": "Blue or Green Screen",
+              "search_value": "Blue+or+Green+Screen"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:04:34",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Detective",
+              "search_value": "Movie%2FTV+-+Detective"
+            },
+            {
+              "display_value": "FBI",
+              "search_value": "Movie%2FTV+-+FBI"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Brett Ratner",
+              "search_value": "Brett+Ratner"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Adam Greenberg",
+              "search_value": "Adam+Greenberg"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Robb Wilson King",
+              "search_value": "Robb+Wilson+King"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Sharen Davis",
+              "search_value": "Sharen+Davis"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Mark Helfrich",
+              "search_value": "Mark+Helfrich"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Mike Milliken",
+              "search_value": "Mike+Milliken"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

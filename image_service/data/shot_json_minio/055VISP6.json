@@ -1,0 +1,454 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "055VISP6",
+    "image_file": "055VISP6.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1038",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "I'm So Excited!",
+            "search_value": "7758"
+          }
+        ]
+      },
+      "full_title": "I'm So Excited!",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2013",
+            "search_value": "2013"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0c0b09",
+            "search_value": "0c0b09~25~1"
+          },
+          {
+            "display_value": "100d0e",
+            "search_value": "100d0e~25~1"
+          },
+          {
+            "display_value": "0c110d",
+            "search_value": "0c110d~25~1"
+          },
+          {
+            "display_value": "0e1418",
+            "search_value": "0e1418~25~1"
+          },
+          {
+            "display_value": "524c13",
+            "search_value": "524c13~25~1"
+          },
+          {
+            "display_value": "506071",
+            "search_value": "506071~25~1"
+          },
+          {
+            "display_value": "606631",
+            "search_value": "606631~25~1"
+          },
+          {
+            "display_value": "83b51a",
+            "search_value": "83b51a~25~1"
+          },
+          {
+            "display_value": "a7a7a4",
+            "search_value": "a7a7a4~25~1"
+          },
+          {
+            "display_value": "99b3c9",
+            "search_value": "99b3c9~25~1"
+          },
+          {
+            "display_value": "b7bfca",
+            "search_value": "b7bfca~25~1"
+          },
+          {
+            "display_value": "c8cbd0",
+            "search_value": "c8cbd0~25~1"
+          },
+          {
+            "display_value": "d0d3d2",
+            "search_value": "d0d3d2~25~1"
+          },
+          {
+            "display_value": "d8d5d7",
+            "search_value": "d8d5d7~25~1"
+          },
+          {
+            "display_value": "d9d8d5",
+            "search_value": "d9d8d5~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "airplane",
+              "search_value": "airplane"
+            },
+            {
+              "display_value": "airplane cockpit",
+              "search_value": "\"airplane+cockpit\""
+            },
+            {
+              "display_value": "airplane controls",
+              "search_value": "\"airplane+controls\""
+            },
+            {
+              "display_value": "airplane window",
+              "search_value": "\"airplane+window\""
+            },
+            {
+              "display_value": "cockpit",
+              "search_value": "cockpit"
+            },
+            {
+              "display_value": "front windshield",
+              "search_value": "\"front+windshield\""
+            },
+            {
+              "display_value": "passenger airplane",
+              "search_value": "\"passenger+airplane\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            },
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Symmetrical",
+              "search_value": "Symmetrical"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Studio",
+              "search_value": "ARRI+ALEXA+Studio"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Airplane ",
+              "search_value": "Airplane+"
+            },
+            {
+              "display_value": "Cockpit",
+              "search_value": "Cockpit"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Spain",
+              "search_value": "Spain"
+            },
+            {
+              "display_value": "Madrid",
+              "search_value": "Madrid"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Spain",
+              "search_value": "Spain"
+            },
+            {
+              "display_value": "Madrid",
+              "search_value": "Madrid"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:12:01",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Pedro Almodóvar",
+              "search_value": "Pedro+Almod%C3%B3var"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "José Luis Alcaine",
+              "search_value": "Jos%C3%A9+Luis+Alcaine"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Antxón Gómez",
+              "search_value": "Antx%C3%B3n+G%C3%B3mez"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Tatiana Hernández",
+              "search_value": "Tatiana+Hern%C3%A1ndez"
+            },
+            {
+              "display_value": "David Delfín",
+              "search_value": "David+Delf%C3%ADn"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "José Salcedo",
+              "search_value": "Jos%C3%A9+Salcedo"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Chema Alba",
+              "search_value": "Chema+Alba"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

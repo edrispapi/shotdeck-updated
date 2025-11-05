@@ -1,0 +1,500 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "034F6CUF",
+    "image_file": "034F6CUF.png",
+    "mime": "image/png",
+    "width": "1920",
+    "height": "804",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Last Voyage of the Demeter",
+            "search_value": "42758"
+          }
+        ]
+      },
+      "full_title": "The Last Voyage of the Demeter",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2023",
+            "search_value": "2023"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "27383e",
+            "search_value": "27383e~25~1"
+          },
+          {
+            "display_value": "2d474e",
+            "search_value": "2d474e~25~1"
+          },
+          {
+            "display_value": "486064",
+            "search_value": "486064~25~1"
+          },
+          {
+            "display_value": "6f6b61",
+            "search_value": "6f6b61~25~1"
+          },
+          {
+            "display_value": "647371",
+            "search_value": "647371~25~1"
+          },
+          {
+            "display_value": "6c888a",
+            "search_value": "6c888a~25~1"
+          },
+          {
+            "display_value": "818476",
+            "search_value": "818476~25~1"
+          },
+          {
+            "display_value": "728884",
+            "search_value": "728884~25~1"
+          },
+          {
+            "display_value": "798d8f",
+            "search_value": "798d8f~25~1"
+          },
+          {
+            "display_value": "889991",
+            "search_value": "889991~25~1"
+          },
+          {
+            "display_value": "989989",
+            "search_value": "989989~25~1"
+          },
+          {
+            "display_value": "b4c7b8",
+            "search_value": "b4c7b8~25~1"
+          },
+          {
+            "display_value": "c4c2b5",
+            "search_value": "c4c2b5~25~1"
+          },
+          {
+            "display_value": "d6cdc4",
+            "search_value": "d6cdc4~25~1"
+          },
+          {
+            "display_value": "c8d5c9",
+            "search_value": "c8d5c9~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "lightning",
+              "search_value": "lightning"
+            },
+            {
+              "display_value": "rain storm",
+              "search_value": "\"rain+storm\""
+            },
+            {
+              "display_value": "determination",
+              "search_value": "determination"
+            },
+            {
+              "display_value": "wound on forehead",
+              "search_value": "\"wound+on+forehead\""
+            },
+            {
+              "display_value": "soaking wet",
+              "search_value": "\"soaking+wet\""
+            },
+            {
+              "display_value": "heavy rain",
+              "search_value": "\"heavy+rain\""
+            },
+            {
+              "display_value": "stormy weather",
+              "search_value": "\"stormy+weather\""
+            },
+            {
+              "display_value": "manning the wheel",
+              "search_value": "\"manning+the+wheel\""
+            },
+            {
+              "display_value": "wheel of ship",
+              "search_value": "\"wheel+of+ship\""
+            },
+            {
+              "display_value": "steering wheel",
+              "search_value": "\"steering+wheel\""
+            },
+            {
+              "display_value": "leaning back",
+              "search_value": "\"leaning+back\""
+            },
+            {
+              "display_value": "fighting back",
+              "search_value": "\"fighting+back\""
+            },
+            {
+              "display_value": "vengeful look",
+              "search_value": "\"vengeful+look\""
+            },
+            {
+              "display_value": "rage",
+              "search_value": "rage"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Liam Cunningham",
+              "search_value": "Liam+Cunningham"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1800s",
+              "search_value": "1800s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            },
+            {
+              "display_value": "Edge light",
+              "search_value": "Edge+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Sony VENICE",
+              "search_value": "Sony+VENICE"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Arri Signature Prime Lenses",
+              "search_value": "Arri+Signature+Prime+Lenses"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Merchant Ship",
+              "search_value": "Merchant+Ship"
+            },
+            {
+              "display_value": "Top Deck",
+              "search_value": "Top+Deck"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "The Black Sea",
+              "search_value": "The+Black+Sea"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Germany",
+              "search_value": "Germany"
+            },
+            {
+              "display_value": "Berlin",
+              "search_value": "Berlin"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:38:17",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "André Øvredal",
+              "search_value": "Andr%C3%A9+%C3%98vredal"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Tom Stern",
+              "search_value": "Tom+Stern"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Edward Thomas",
+              "search_value": "Edward+Thomas"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Carlo Poggioli",
+              "search_value": "Carlo+Poggioli"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Patrick Larsgaard",
+              "search_value": "Patrick+Larsgaard"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Mitch Paulson",
+              "search_value": "Mitch+Paulson"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

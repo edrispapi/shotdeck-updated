@@ -1,0 +1,468 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "032TFL9H",
+    "image_file": "032TFL9H.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "952",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Last Emperor",
+            "search_value": "742"
+          }
+        ]
+      },
+      "full_title": "The Last Emperor",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1987",
+            "search_value": "1987"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "060707",
+            "search_value": "060707~25~1"
+          },
+          {
+            "display_value": "0f0e12",
+            "search_value": "0f0e12~25~1"
+          },
+          {
+            "display_value": "181316",
+            "search_value": "181316~25~1"
+          },
+          {
+            "display_value": "261f1d",
+            "search_value": "261f1d~25~1"
+          },
+          {
+            "display_value": "463b3f",
+            "search_value": "463b3f~25~1"
+          },
+          {
+            "display_value": "463c3b",
+            "search_value": "463c3b~25~1"
+          },
+          {
+            "display_value": "5c5154",
+            "search_value": "5c5154~25~1"
+          },
+          {
+            "display_value": "605754",
+            "search_value": "605754~25~1"
+          },
+          {
+            "display_value": "877d7a",
+            "search_value": "877d7a~25~1"
+          },
+          {
+            "display_value": "a69d98",
+            "search_value": "a69d98~25~1"
+          },
+          {
+            "display_value": "a69d9f",
+            "search_value": "a69d9f~25~1"
+          },
+          {
+            "display_value": "c6bdbb",
+            "search_value": "c6bdbb~25~1"
+          },
+          {
+            "display_value": "e8e4e6",
+            "search_value": "e8e4e6~25~1"
+          },
+          {
+            "display_value": "f4f2f0",
+            "search_value": "f4f2f0~25~1"
+          },
+          {
+            "display_value": "fdfefe",
+            "search_value": "fdfefe~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "black fedora",
+              "search_value": "\"black+fedora\""
+            },
+            {
+              "display_value": "black suit",
+              "search_value": "\"black+suit\""
+            },
+            {
+              "display_value": "businessmen",
+              "search_value": "businessmen"
+            },
+            {
+              "display_value": "focused",
+              "search_value": "focused"
+            },
+            {
+              "display_value": "glare from window",
+              "search_value": "\"glare+from+window\""
+            },
+            {
+              "display_value": "suit and tie",
+              "search_value": "\"suit+and+tie\""
+            },
+            {
+              "display_value": "walking upstairs",
+              "search_value": "\"walking+upstairs\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "John Lone",
+              "search_value": "John+Lone"
+            },
+            {
+              "display_value": "Dennis Dun",
+              "search_value": "Dennis+Dun"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1940s",
+              "search_value": "1940s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.00",
+              "search_value": "2.00"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex BL4",
+              "search_value": "Arriflex+BL4"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Technovision 2x",
+              "search_value": "Technovision+2x"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5247/7247\t100T",
+              "search_value": "5247%2F7247%09100T"
+            },
+            {
+              "display_value": "5294/7294      EXR        400T",
+              "search_value": "5294%2F7294++++++EXR++++++++400T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Palace",
+              "search_value": "Palace"
+            },
+            {
+              "display_value": "Staircase",
+              "search_value": "Staircase"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "China",
+              "search_value": "China"
+            },
+            {
+              "display_value": "Changchun",
+              "search_value": "Changchun"
+            },
+            {
+              "display_value": "Manchukuo Palace",
+              "search_value": "Manchukuo+Palace"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "02:23:23",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Bernardo Bertolucci",
+              "search_value": "Bernardo+Bertolucci"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Vittorio Storaro",
+              "search_value": "Vittorio+Storaro"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Ferdinando Scarfiotti",
+              "search_value": "Ferdinando+Scarfiotti"
+            },
+            {
+              "display_value": "Bruno Cesari",
+              "search_value": "Bruno+Cesari"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "James Acheson",
+              "search_value": "James+Acheson"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Gabriella Cristiani",
+              "search_value": "Gabriella+Cristiani"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

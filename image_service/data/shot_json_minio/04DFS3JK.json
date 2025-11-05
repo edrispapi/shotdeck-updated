@@ -1,0 +1,498 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04DFS3JK",
+    "image_file": "04DFS3JK.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1030",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Saw",
+            "search_value": "670"
+          }
+        ]
+      },
+      "full_title": "Saw",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2004",
+            "search_value": "2004"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "070304",
+            "search_value": "070304~25~1"
+          },
+          {
+            "display_value": "1e1a0e",
+            "search_value": "1e1a0e~25~1"
+          },
+          {
+            "display_value": "1d2123",
+            "search_value": "1d2123~25~1"
+          },
+          {
+            "display_value": "2b3426",
+            "search_value": "2b3426~25~1"
+          },
+          {
+            "display_value": "3b4536",
+            "search_value": "3b4536~25~1"
+          },
+          {
+            "display_value": "464330",
+            "search_value": "464330~25~1"
+          },
+          {
+            "display_value": "525c50",
+            "search_value": "525c50~25~1"
+          },
+          {
+            "display_value": "625c4b",
+            "search_value": "625c4b~25~1"
+          },
+          {
+            "display_value": "5d6c73",
+            "search_value": "5d6c73~25~1"
+          },
+          {
+            "display_value": "888170",
+            "search_value": "888170~25~1"
+          },
+          {
+            "display_value": "99928a",
+            "search_value": "99928a~25~1"
+          },
+          {
+            "display_value": "98a198",
+            "search_value": "98a198~25~1"
+          },
+          {
+            "display_value": "a49fa1",
+            "search_value": "a49fa1~25~1"
+          },
+          {
+            "display_value": "a1a4a9",
+            "search_value": "a1a4a9~25~1"
+          },
+          {
+            "display_value": "c5d4cf",
+            "search_value": "c5d4cf~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "taped mouth",
+              "search_value": "\"taped+mouth\""
+            },
+            {
+              "display_value": "hostage",
+              "search_value": "hostage"
+            },
+            {
+              "display_value": "victim",
+              "search_value": "victim"
+            },
+            {
+              "display_value": "trapped",
+              "search_value": "trapped"
+            },
+            {
+              "display_value": "torture device",
+              "search_value": "\"torture+device\""
+            },
+            {
+              "display_value": "metal contraption",
+              "search_value": "\"metal+contraption\""
+            },
+            {
+              "display_value": "wide eyed",
+              "search_value": "\"wide+eyed\""
+            },
+            {
+              "display_value": "desperate",
+              "search_value": "desperate"
+            },
+            {
+              "display_value": "begging",
+              "search_value": "begging"
+            },
+            {
+              "display_value": "scared",
+              "search_value": "scared"
+            },
+            {
+              "display_value": "terrified",
+              "search_value": "terrified"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Ned Bellamy",
+              "search_value": "Ned+Bellamy"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 35 III",
+              "search_value": "Arriflex+35+III"
+            },
+            {
+              "display_value": "Panavision Panaflex Platinum",
+              "search_value": "Panavision+Panaflex+Platinum"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Zooms",
+              "search_value": "Panavision+Primo+Zooms"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5218/7218\tVision 2 \t500T",
+              "search_value": "5218%2F7218%09Vision+2+%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Abandoned Building",
+              "search_value": "Abandoned+Building"
+            },
+            {
+              "display_value": "Workshop",
+              "search_value": "Workshop"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New Jersey",
+              "search_value": "New+Jersey"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "USA",
+              "search_value": "USA"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            },
+            {
+              "display_value": "Lacy Street Production Center - 2630 Lacy Street",
+              "search_value": "Lacy+Street+Production+Center+-+2630+Lacy+Street"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:49:30",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Horror",
+              "search_value": "Movie%2FTV+-+Horror"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "James Wan",
+              "search_value": "James+Wan"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "David A. Armstrong",
+              "search_value": "David+A.+Armstrong"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Julie Berghoff",
+              "search_value": "Julie+Berghoff"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jennifer L. Soulages",
+              "search_value": "Jennifer+L.+Soulages"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Kevin Greutert",
+              "search_value": "Kevin+Greutert"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Mark Griffith",
+              "search_value": "Mark+Griffith"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

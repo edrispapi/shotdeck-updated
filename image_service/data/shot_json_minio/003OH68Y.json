@@ -1,0 +1,346 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "003OH68Y",
+    "image_file": "003OH68Y.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Boy & the World",
+            "search_value": "5420"
+          }
+        ]
+      },
+      "full_title": "Boy & the World",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2013",
+            "search_value": "2013"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1f2735",
+            "search_value": "1f2735~25~1"
+          },
+          {
+            "display_value": "312a30",
+            "search_value": "312a30~25~1"
+          },
+          {
+            "display_value": "3a2d21",
+            "search_value": "3a2d21~25~1"
+          },
+          {
+            "display_value": "263632",
+            "search_value": "263632~25~1"
+          },
+          {
+            "display_value": "2d3760",
+            "search_value": "2d3760~25~1"
+          },
+          {
+            "display_value": "4d3351",
+            "search_value": "4d3351~25~1"
+          },
+          {
+            "display_value": "534225",
+            "search_value": "534225~25~1"
+          },
+          {
+            "display_value": "0e4f6c",
+            "search_value": "0e4f6c~25~1"
+          },
+          {
+            "display_value": "66485c",
+            "search_value": "66485c~25~1"
+          },
+          {
+            "display_value": "4c685d",
+            "search_value": "4c685d~25~1"
+          },
+          {
+            "display_value": "1d6993",
+            "search_value": "1d6993~25~1"
+          },
+          {
+            "display_value": "795d34",
+            "search_value": "795d34~25~1"
+          },
+          {
+            "display_value": "60927c",
+            "search_value": "60927c~25~1"
+          },
+          {
+            "display_value": "b0a859",
+            "search_value": "b0a859~25~1"
+          },
+          {
+            "display_value": "c9a721",
+            "search_value": "c9a721~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "bonfire",
+              "search_value": "bonfire"
+            },
+            {
+              "display_value": "playing music",
+              "search_value": "\"playing+music\""
+            },
+            {
+              "display_value": "playing instruments",
+              "search_value": "\"playing+instruments\""
+            },
+            {
+              "display_value": "performing",
+              "search_value": "performing"
+            },
+            {
+              "display_value": "singing along",
+              "search_value": "\"singing+along\""
+            },
+            {
+              "display_value": "gathered around fire",
+              "search_value": "\"gathered+around+fire\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            },
+            {
+              "display_value": "Purple",
+              "search_value": "Purple"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Animation"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Firelight",
+              "search_value": "Firelight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Open Field ",
+              "search_value": "Open+Field+"
+            },
+            {
+              "display_value": "Bonfire",
+              "search_value": "Bonfire"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "South America",
+              "search_value": "South+America"
+            },
+            {
+              "display_value": "Brazil",
+              "search_value": "Brazil"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:52:53",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Alê Abreu",
+              "search_value": "Al%C3%AA+Abreu"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Alê Abreu",
+              "search_value": "Al%C3%AA+Abreu"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

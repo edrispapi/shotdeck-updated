@@ -1,0 +1,382 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03YQ8PWQ",
+    "image_file": "03YQ8PWQ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1038",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Minions",
+            "search_value": "2248"
+          }
+        ]
+      },
+      "full_title": "Minions",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2015",
+            "search_value": "2015"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "373618",
+            "search_value": "373618~25~1"
+          },
+          {
+            "display_value": "48551a",
+            "search_value": "48551a~25~1"
+          },
+          {
+            "display_value": "4b6f52",
+            "search_value": "4b6f52~25~1"
+          },
+          {
+            "display_value": "697029",
+            "search_value": "697029~25~1"
+          },
+          {
+            "display_value": "397a93",
+            "search_value": "397a93~25~1"
+          },
+          {
+            "display_value": "c056dd",
+            "search_value": "c056dd~25~1"
+          },
+          {
+            "display_value": "ec5934",
+            "search_value": "ec5934~25~1"
+          },
+          {
+            "display_value": "8c9d38",
+            "search_value": "8c9d38~25~1"
+          },
+          {
+            "display_value": "c86fe3",
+            "search_value": "c86fe3~25~1"
+          },
+          {
+            "display_value": "8cb296",
+            "search_value": "8cb296~25~1"
+          },
+          {
+            "display_value": "69b3d5",
+            "search_value": "69b3d5~25~1"
+          },
+          {
+            "display_value": "beaf58",
+            "search_value": "beaf58~25~1"
+          },
+          {
+            "display_value": "86d5eb",
+            "search_value": "86d5eb~25~1"
+          },
+          {
+            "display_value": "e9d64c",
+            "search_value": "e9d64c~25~1"
+          },
+          {
+            "display_value": "b2dfef",
+            "search_value": "b2dfef~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "rainbow",
+              "search_value": "rainbow"
+            },
+            {
+              "display_value": "walking on pathway",
+              "search_value": "\"walking+on+pathway\""
+            },
+            {
+              "display_value": "storybook",
+              "search_value": "storybook"
+            },
+            {
+              "display_value": "telling story",
+              "search_value": "\"telling+story\""
+            },
+            {
+              "display_value": "three little pigs",
+              "search_value": "\"three+little+pigs\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            },
+            {
+              "display_value": "Green",
+              "search_value": "Green"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Ultra Wide / Fisheye",
+              "search_value": "Ultra+Wide+%2F+Fisheye"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Overhead",
+              "search_value": "Overhead"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Woods",
+              "search_value": "Woods"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Kyle Balda",
+              "search_value": "Kyle+Balda"
+            },
+            {
+              "display_value": "Pierre Coffin",
+              "search_value": "Pierre+Coffin"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Eric Guillon",
+              "search_value": "Eric+Guillon"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Claire Dodgson",
+              "search_value": "Claire+Dodgson"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Colin Stimpson",
+              "search_value": "Colin+Stimpson"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

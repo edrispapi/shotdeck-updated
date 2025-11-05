@@ -1,0 +1,486 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01WY0TZ8",
+    "image_file": "01WY0TZ8.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "798",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Tombstone",
+            "search_value": "2935"
+          }
+        ]
+      },
+      "full_title": "Tombstone",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1993",
+            "search_value": "1993"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "131413",
+            "search_value": "131413~25~1"
+          },
+          {
+            "display_value": "1b1511",
+            "search_value": "1b1511~25~1"
+          },
+          {
+            "display_value": "201e1f",
+            "search_value": "201e1f~25~1"
+          },
+          {
+            "display_value": "262628",
+            "search_value": "262628~25~1"
+          },
+          {
+            "display_value": "503933",
+            "search_value": "503933~25~1"
+          },
+          {
+            "display_value": "4e3e2f",
+            "search_value": "4e3e2f~25~1"
+          },
+          {
+            "display_value": "4d474b",
+            "search_value": "4d474b~25~1"
+          },
+          {
+            "display_value": "59493e",
+            "search_value": "59493e~25~1"
+          },
+          {
+            "display_value": "595e69",
+            "search_value": "595e69~25~1"
+          },
+          {
+            "display_value": "8a7d79",
+            "search_value": "8a7d79~25~1"
+          },
+          {
+            "display_value": "aca19f",
+            "search_value": "aca19f~25~1"
+          },
+          {
+            "display_value": "b4abae",
+            "search_value": "b4abae~25~1"
+          },
+          {
+            "display_value": "b9b7bc",
+            "search_value": "b9b7bc~25~1"
+          },
+          {
+            "display_value": "d7d1ce",
+            "search_value": "d7d1ce~25~1"
+          },
+          {
+            "display_value": "d8d2d3",
+            "search_value": "d8d2d3~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "doc holliday",
+              "search_value": "\"doc+holliday\""
+            },
+            {
+              "display_value": "gunslinger",
+              "search_value": "gunslinger"
+            },
+            {
+              "display_value": "gunfighter",
+              "search_value": "gunfighter"
+            },
+            {
+              "display_value": "scoundrel",
+              "search_value": "scoundrel"
+            },
+            {
+              "display_value": "rogue",
+              "search_value": "rogue"
+            },
+            {
+              "display_value": "curled mustache",
+              "search_value": "\"curled+mustache\""
+            },
+            {
+              "display_value": "lovers",
+              "search_value": "lovers"
+            },
+            {
+              "display_value": "couple",
+              "search_value": "couple"
+            },
+            {
+              "display_value": "hitched horse",
+              "search_value": "\"hitched+horse\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Val Kilmer",
+              "search_value": "Val+Kilmer"
+            },
+            {
+              "display_value": "Joanna Pacula",
+              "search_value": "Joanna+Pacula"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1800s",
+              "search_value": "1800s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Panaflex Gold",
+              "search_value": "Panavision+Panaflex+Gold"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Primes",
+              "search_value": "Panavision+Primo+Primes"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Old West Town",
+              "search_value": "Old+West+Town"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Arizona",
+              "search_value": "Arizona"
+            },
+            {
+              "display_value": "Tombstone",
+              "search_value": "Tombstone"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Arizona",
+              "search_value": "Arizona"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:13:53",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Western",
+              "search_value": "Movie%2FTV+-+Western"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "George P. Cosmatos",
+              "search_value": "George+P.+Cosmatos"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "William A. Fraker",
+              "search_value": "William+A.+Fraker"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Catherine Hardwicke",
+              "search_value": "Catherine+Hardwicke"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Joseph A. Porro",
+              "search_value": "Joseph+A.+Porro"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Frank J. Urioste",
+              "search_value": "Frank+J.+Urioste"
+            },
+            {
+              "display_value": "Roberto Silvi",
+              "search_value": "Roberto+Silvi"
+            },
+            {
+              "display_value": "Harvey Rosenstock",
+              "search_value": "Harvey+Rosenstock"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Ray Martin",
+              "search_value": "Ray+Martin"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

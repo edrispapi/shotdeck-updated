@@ -1,0 +1,446 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00U1LPVH",
+    "image_file": "00U1LPVH.jpg",
+    "mime": "image/jpeg",
+    "width": "1480",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Le 15/8",
+            "search_value": "53782"
+          }
+        ]
+      },
+      "full_title": "Le 15/8",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1973",
+            "search_value": "1973"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "161717",
+            "search_value": "161717~25~1"
+          },
+          {
+            "display_value": "1b1a1b",
+            "search_value": "1b1a1b~25~1"
+          },
+          {
+            "display_value": "1b1b1b",
+            "search_value": "1b1b1b~25~1"
+          },
+          {
+            "display_value": "252526",
+            "search_value": "252526~25~1"
+          },
+          {
+            "display_value": "606160",
+            "search_value": "606160~25~1"
+          },
+          {
+            "display_value": "636363",
+            "search_value": "636363~25~1"
+          },
+          {
+            "display_value": "656364",
+            "search_value": "656364~25~1"
+          },
+          {
+            "display_value": "686869",
+            "search_value": "686869~25~1"
+          },
+          {
+            "display_value": "817f80",
+            "search_value": "817f80~25~1"
+          },
+          {
+            "display_value": "959394",
+            "search_value": "959394~25~1"
+          },
+          {
+            "display_value": "949596",
+            "search_value": "949596~25~1"
+          },
+          {
+            "display_value": "959796",
+            "search_value": "959796~25~1"
+          },
+          {
+            "display_value": "999999",
+            "search_value": "999999~25~1"
+          },
+          {
+            "display_value": "c3c1c2",
+            "search_value": "c3c1c2~25~1"
+          },
+          {
+            "display_value": "c5c5c5",
+            "search_value": "c5c5c5~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "patterned dress",
+              "search_value": "\"patterned+dress\""
+            },
+            {
+              "display_value": "geometric shadow",
+              "search_value": "\"geometric+shadow\""
+            },
+            {
+              "display_value": "relaxed pose",
+              "search_value": "\"relaxed+pose\""
+            },
+            {
+              "display_value": "light fabric",
+              "search_value": "\"light+fabric\""
+            },
+            {
+              "display_value": "detailed design",
+              "search_value": "\"detailed+design\""
+            },
+            {
+              "display_value": "ornamental pattern",
+              "search_value": "\"ornamental+pattern\""
+            },
+            {
+              "display_value": "laid-back mood",
+              "search_value": "\"laid-back+mood\""
+            },
+            {
+              "display_value": "decorative railing",
+              "search_value": "\"decorative+railing\""
+            },
+            {
+              "display_value": "contemplative",
+              "search_value": "contemplative"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Chris Myllykoski",
+              "search_value": "Chris+Myllykoski"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 16mm",
+              "search_value": "Film+-+16mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Overcast",
+              "search_value": "Overcast"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.37",
+              "search_value": "1.37"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Apartment",
+              "search_value": "Apartment"
+            },
+            {
+              "display_value": "Balcony",
+              "search_value": "Balcony"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Documentary",
+              "search_value": "Movie%2FTV+-+Documentary"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fashion",
+              "search_value": "Movie%2FTV+-+Fashion"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Chantal Akerman",
+              "search_value": "Chantal+Akerman"
+            },
+            {
+              "display_value": "Samy Szlingerbaum",
+              "search_value": "Samy+Szlingerbaum"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Chantal Akerman",
+              "search_value": "Chantal+Akerman"
+            },
+            {
+              "display_value": "Samy Szlingerbaum\t",
+              "search_value": "Samy+Szlingerbaum%09"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Chantal Akerman",
+              "search_value": "Chantal+Akerman"
+            },
+            {
+              "display_value": "Samy Szlingerbaum\t",
+              "search_value": "Samy+Szlingerbaum%09"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

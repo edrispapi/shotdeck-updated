@@ -631,6 +631,9 @@ class Movie(models.Model):
             models.Index(fields=['title', 'year'], name='movie_title_year_idx'),
             models.Index(fields=['-image_count'], name='movie_img_count_idx'),
         ]
+        constraints = [
+            models.UniqueConstraint(fields=['title', 'year'], name='movie_title_year_unique'),
+        ]
 
     def __str__(self):
         return f"{self.title} ({self.year})" if self.year else self.title
@@ -711,8 +714,14 @@ class Tag(models.Model):
         return self.name
 
     def save(self, *args, **kwargs):
-        if not self.slug:
-            self.slug = slugify(self.name)
+        # Ensure unique slug, adding a numeric suffix on conflicts
+        if not self.slug and self.name:
+            base_slug = slugify(self.name)
+            self.slug = base_slug
+            counter = 1
+            while Tag.objects.filter(slug=self.slug).exclude(pk=self.pk).exists():
+                self.slug = f"{base_slug}-{counter}"
+                counter += 1
         super().save(*args, **kwargs)
 
     def update_usage_count(self):

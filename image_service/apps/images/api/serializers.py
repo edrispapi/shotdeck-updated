@@ -381,6 +381,7 @@ class FilterResponseSerializer(serializers.Serializer):
 # --------------------------------------------------------------------------- #
 class ImageListSerializer(ImageURLMixin, serializers.ModelSerializer):
     tags = TagSerializer(many=True, read_only=True)
+    title_slug = serializers.CharField(read_only=True)
 
     # ---- value fields ------------------------------------------------------ #
     media_type_value = serializers.SerializerMethodField()
@@ -417,6 +418,7 @@ class ImageListSerializer(ImageURLMixin, serializers.ModelSerializer):
             'id',
             'slug',
             'title',
+            'title_slug',
             'image_url',
             'tags',
             'release_year',
@@ -489,7 +491,7 @@ class ImageListSerializer(ImageURLMixin, serializers.ModelSerializer):
         if instance.title:
             normalized_slug = slugify(instance.title)
             if normalized_slug:
-                rep['slug'] = normalized_slug
+                rep['title_slug'] = normalized_slug
 
         image_url, available = self._normalize_image_url(instance.image_url)
         rep['image_url'] = image_url
@@ -547,6 +549,7 @@ class MovieImageSerializer(ImageURLMixin, serializers.ModelSerializer):
 
 class ImageSerializer(ImageURLMixin, serializers.ModelSerializer):
     tags = TagSerializer(many=True, read_only=True)
+    title_slug = serializers.CharField(read_only=True)
     tag_ids = serializers.PrimaryKeyRelatedField(
         queryset=Tag.objects.all(), source='tags', many=True, write_only=True, required=False
     )
@@ -593,7 +596,7 @@ class ImageSerializer(ImageURLMixin, serializers.ModelSerializer):
     class Meta:
         model = Image
         fields = [
-            'id', 'slug', 'title', 'image_url',                     # ← UUID
+            'id', 'slug', 'title', 'title_slug', 'image_url',                     # ← UUID
             'tags', 'tag_ids',
             'release_year', 'media_type', 'media_type_value', 'genre',
             'color', 'color_value', 'aspect_ratio', 'aspect_ratio_value',
@@ -665,7 +668,7 @@ class ImageSerializer(ImageURLMixin, serializers.ModelSerializer):
         if instance.title:
             normalized_slug = slugify(instance.title)
             if normalized_slug:
-                rep['slug'] = normalized_slug
+                rep['title_slug'] = normalized_slug
 
         # ----- image URL handling ------------------------------------------ #
         image_url, available = self._normalize_image_url(instance.image_url)

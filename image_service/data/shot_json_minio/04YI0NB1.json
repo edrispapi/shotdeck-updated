@@ -1,0 +1,496 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04YI0NB1",
+    "image_file": "04YI0NB1.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "WandaVision",
+            "search_value": "12241",
+            "season": "1",
+            "episode": "9"
+          }
+        ]
+      },
+      "full_title": "WandaVision - Season 1 - Episode 9",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2021",
+            "search_value": "2021"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "1f2128",
+            "search_value": "1f2128~25~1"
+          },
+          {
+            "display_value": "1b2520",
+            "search_value": "1b2520~25~1"
+          },
+          {
+            "display_value": "2c2327",
+            "search_value": "2c2327~25~1"
+          },
+          {
+            "display_value": "392e2a",
+            "search_value": "392e2a~25~1"
+          },
+          {
+            "display_value": "3c3d47",
+            "search_value": "3c3d47~25~1"
+          },
+          {
+            "display_value": "4e3936",
+            "search_value": "4e3936~25~1"
+          },
+          {
+            "display_value": "4a3a3f",
+            "search_value": "4a3a3f~25~1"
+          },
+          {
+            "display_value": "4e515b",
+            "search_value": "4e515b~25~1"
+          },
+          {
+            "display_value": "5f5257",
+            "search_value": "5f5257~25~1"
+          },
+          {
+            "display_value": "6d5a55",
+            "search_value": "6d5a55~25~1"
+          },
+          {
+            "display_value": "8c787b",
+            "search_value": "8c787b~25~1"
+          },
+          {
+            "display_value": "8e875b",
+            "search_value": "8e875b~25~1"
+          },
+          {
+            "display_value": "9a8b8e",
+            "search_value": "9a8b8e~25~1"
+          },
+          {
+            "display_value": "a7968c",
+            "search_value": "a7968c~25~1"
+          },
+          {
+            "display_value": "eeedea",
+            "search_value": "eeedea~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "cape",
+              "search_value": "cape"
+            },
+            {
+              "display_value": "final form",
+              "search_value": "\"final+form\""
+            },
+            {
+              "display_value": "scarlet witch",
+              "search_value": "\"scarlet+witch\""
+            },
+            {
+              "display_value": "supernatural",
+              "search_value": "supernatural"
+            },
+            {
+              "display_value": "using magic",
+              "search_value": "\"using+magic\""
+            },
+            {
+              "display_value": "witchcraft",
+              "search_value": "witchcraft"
+            },
+            {
+              "display_value": "landed on ground",
+              "search_value": "\"landed+on+ground\""
+            },
+            {
+              "display_value": "destruction",
+              "search_value": "destruction"
+            },
+            {
+              "display_value": "broken wood",
+              "search_value": "\"broken+wood\""
+            },
+            {
+              "display_value": "buildings destroyed",
+              "search_value": "\"buildings+destroyed\""
+            },
+            {
+              "display_value": "superhero",
+              "search_value": "superhero"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Elizabeth Olsen",
+              "search_value": "Elizabeth+Olsen"
+            },
+            {
+              "display_value": "Paul Bettany",
+              "search_value": "Paul+Bettany"
+            },
+            {
+              "display_value": "Teyonah Parris",
+              "search_value": "Teyonah+Parris"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "White",
+              "search_value": "White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Backlight",
+              "search_value": "Backlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA LF",
+              "search_value": "ARRI+ALEXA+LF"
+            },
+            {
+              "display_value": "ARRI ALEXA Mini LF",
+              "search_value": "ARRI+ALEXA+Mini+LF"
+            },
+            {
+              "display_value": "Blackmagic Pocket Cinema Camera",
+              "search_value": "Blackmagic+Pocket+Cinema+Camera"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Fujinon Premista",
+              "search_value": "Fujinon+Premista"
+            },
+            {
+              "display_value": "Panavision Panaspeed",
+              "search_value": "Panavision+Panaspeed"
+            },
+            {
+              "display_value": "Panavision T series",
+              "search_value": "Panavision+T+series"
+            },
+            {
+              "display_value": "Panavision Ultra Panatar Lenses",
+              "search_value": "Panavision+Ultra+Panatar+Lenses"
+            },
+            {
+              "display_value": "Panavision Ultra Speed II (PVintage)",
+              "search_value": "Panavision+Ultra+Speed+II+%28PVintage%29"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "ARRIRAW (4.5K)",
+              "search_value": "ARRIRAW+%284.5K%29"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Grass Patch",
+              "search_value": "Grass+Patch"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New Jersey",
+              "search_value": "New+Jersey"
+            },
+            {
+              "display_value": "Westview",
+              "search_value": "Westview"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:28:23",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Matt Shakman",
+              "search_value": "Matt+Shakman"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Jess Hall",
+              "search_value": "Jess+Hall"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Mark Worthington",
+              "search_value": "Mark+Worthington"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Mayes C. Rubeo",
+              "search_value": "Mayes+C.+Rubeo"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Zene Baker",
+              "search_value": "Zene+Baker"
+            },
+            {
+              "display_value": "Michael A. Webber",
+              "search_value": "Michael+A.+Webber"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Matt Watson",
+              "search_value": "Matt+Watson"
+            },
+            {
+              "display_value": "Cory Pennington",
+              "search_value": "Cory+Pennington"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

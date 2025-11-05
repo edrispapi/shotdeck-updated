@@ -1,0 +1,494 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02E98IF6",
+    "image_file": "02E98IF6.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "810",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Donnie Darko",
+            "search_value": "1039"
+          }
+        ]
+      },
+      "full_title": "Donnie Darko",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2001",
+            "search_value": "2001"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "2d191f",
+            "search_value": "2d191f~25~1"
+          },
+          {
+            "display_value": "212624",
+            "search_value": "212624~25~1"
+          },
+          {
+            "display_value": "2c231f",
+            "search_value": "2c231f~25~1"
+          },
+          {
+            "display_value": "232a34",
+            "search_value": "232a34~25~1"
+          },
+          {
+            "display_value": "353a52",
+            "search_value": "353a52~25~1"
+          },
+          {
+            "display_value": "4c3741",
+            "search_value": "4c3741~25~1"
+          },
+          {
+            "display_value": "493b38",
+            "search_value": "493b38~25~1"
+          },
+          {
+            "display_value": "32434c",
+            "search_value": "32434c~25~1"
+          },
+          {
+            "display_value": "4a3f33",
+            "search_value": "4a3f33~25~1"
+          },
+          {
+            "display_value": "524842",
+            "search_value": "524842~25~1"
+          },
+          {
+            "display_value": "55454f",
+            "search_value": "55454f~25~1"
+          },
+          {
+            "display_value": "484f67",
+            "search_value": "484f67~25~1"
+          },
+          {
+            "display_value": "6e799e",
+            "search_value": "6e799e~25~1"
+          },
+          {
+            "display_value": "7b87ae",
+            "search_value": "7b87ae~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "black pants",
+              "search_value": "\"black+pants\""
+            },
+            {
+              "display_value": "blackboard",
+              "search_value": "blackboard"
+            },
+            {
+              "display_value": "classroom",
+              "search_value": "classroom"
+            },
+            {
+              "display_value": "patterned blue blouse",
+              "search_value": "\"patterned+blue+blouse\""
+            },
+            {
+              "display_value": "reading from cards",
+              "search_value": "\"reading+from+cards\""
+            },
+            {
+              "display_value": "symmetrical",
+              "search_value": "symmetrical"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Jake Gyllenhaal",
+              "search_value": "Jake+Gyllenhaal"
+            },
+            {
+              "display_value": "Beth Grant",
+              "search_value": "Beth+Grant"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Platinum",
+              "search_value": "Panavision+Platinum"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Anamorphics",
+              "search_value": "Panavision+Primo+Anamorphics"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5289/7289\tVision \t800T",
+              "search_value": "5289%2F7289%09Vision+%09800T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "High School",
+              "search_value": "High+School"
+            },
+            {
+              "display_value": "Classroom",
+              "search_value": "Classroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "Virginia",
+              "search_value": "Virginia"
+            },
+            {
+              "display_value": "Middlesex",
+              "search_value": "Middlesex"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            },
+            {
+              "display_value": "Loyola High School",
+              "search_value": "Loyola+High+School"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:41:52",
+              "search_value": "n/a"
+            }
+          ]
+        },
+        "general_notes": {
+          "filter": "n/a",
+          "filter_name": "Notes",
+          "values": [
+            {
+              "display_value": " Panavision (anamorphic)",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Magical Realism",
+              "search_value": "Movie%2FTV+-+Magical+Realism"
+            },
+            {
+              "display_value": "Mystery",
+              "search_value": "Movie%2FTV+-+Mystery"
+            },
+            {
+              "display_value": "Psychedelic",
+              "search_value": "Movie%2FTV+-+Psychedelic"
+            },
+            {
+              "display_value": "Suburbia",
+              "search_value": "Movie%2FTV+-+Suburbia"
+            },
+            {
+              "display_value": "Time Travel",
+              "search_value": "Movie%2FTV+-+Time+Travel"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Richard Kelly",
+              "search_value": "Richard+Kelly"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Steven Poster",
+              "search_value": "Steven+Poster"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Alec Hammond",
+              "search_value": "Alec+Hammond"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "April Ferry",
+              "search_value": "April+Ferry"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Sam Bauer",
+              "search_value": "Sam+Bauer"
+            },
+            {
+              "display_value": "Eric Strand",
+              "search_value": "Eric+Strand"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Jim Passon",
+              "search_value": "Jim+Passon"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

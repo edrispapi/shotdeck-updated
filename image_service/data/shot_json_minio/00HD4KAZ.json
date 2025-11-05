@@ -1,0 +1,504 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "00HD4KAZ",
+    "image_file": "00HD4KAZ.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Walk the Line",
+            "search_value": "388"
+          }
+        ]
+      },
+      "full_title": "Walk the Line",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2005",
+            "search_value": "2005"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "000100",
+            "search_value": "000100~25~1"
+          },
+          {
+            "display_value": "010102",
+            "search_value": "010102~25~1"
+          },
+          {
+            "display_value": "060001",
+            "search_value": "060001~25~1"
+          },
+          {
+            "display_value": "30180b",
+            "search_value": "30180b~25~1"
+          },
+          {
+            "display_value": "6a2e1c",
+            "search_value": "6a2e1c~25~1"
+          },
+          {
+            "display_value": "643237",
+            "search_value": "643237~25~1"
+          },
+          {
+            "display_value": "543f25",
+            "search_value": "543f25~25~1"
+          },
+          {
+            "display_value": "595564",
+            "search_value": "595564~25~1"
+          },
+          {
+            "display_value": "735b45",
+            "search_value": "735b45~25~1"
+          },
+          {
+            "display_value": "836066",
+            "search_value": "836066~25~1"
+          },
+          {
+            "display_value": "957177",
+            "search_value": "957177~25~1"
+          },
+          {
+            "display_value": "8f7a72",
+            "search_value": "8f7a72~25~1"
+          },
+          {
+            "display_value": "957d67",
+            "search_value": "957d67~25~1"
+          },
+          {
+            "display_value": "998081",
+            "search_value": "998081~25~1"
+          },
+          {
+            "display_value": "9a877b",
+            "search_value": "9a877b~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "smiling",
+              "search_value": "smiling"
+            },
+            {
+              "display_value": "greeting",
+              "search_value": "greeting"
+            },
+            {
+              "display_value": "convenience store",
+              "search_value": "\"convenience+store\""
+            },
+            {
+              "display_value": "aisle",
+              "search_value": "aisle"
+            },
+            {
+              "display_value": "store",
+              "search_value": "store"
+            },
+            {
+              "display_value": "checking",
+              "search_value": "checking"
+            },
+            {
+              "display_value": "browsing",
+              "search_value": "browsing"
+            },
+            {
+              "display_value": "dress",
+              "search_value": "dress"
+            },
+            {
+              "display_value": "apron",
+              "search_value": "apron"
+            },
+            {
+              "display_value": "toy",
+              "search_value": "toy"
+            },
+            {
+              "display_value": "knick knacks",
+              "search_value": "\"knick+knacks\""
+            },
+            {
+              "display_value": "saying hello",
+              "search_value": "\"saying+hello\""
+            },
+            {
+              "display_value": "excited to see",
+              "search_value": "\"excited+to+see\""
+            },
+            {
+              "display_value": "peppy",
+              "search_value": "peppy"
+            },
+            {
+              "display_value": "cheerful",
+              "search_value": "cheerful"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1950s",
+              "search_value": "1950s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            },
+            {
+              "display_value": "Low contrast",
+              "search_value": "Low+contrast"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            },
+            {
+              "display_value": "Super 35",
+              "search_value": "Super+35"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Lightweight",
+              "search_value": "Panavision+Lightweight"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Primo Primes",
+              "search_value": "Panavision+Primo+Primes"
+            },
+            {
+              "display_value": "Angenieux Optimo Zooms",
+              "search_value": "Angenieux+Optimo+Zooms"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5205/7205\tVision 2\t250D",
+              "search_value": "5205%2F7205%09Vision+2%09250D"
+            },
+            {
+              "display_value": "5218/7218\tVision 2 \t500T",
+              "search_value": "5218%2F7218%09Vision+2+%09500T"
+            },
+            {
+              "display_value": "5274/7274      Vision     200T",
+              "search_value": "5274%2F7274++++++Vision+++++200T"
+            },
+            {
+              "display_value": "8592/8692\tReala 500D",
+              "search_value": "8592%2F8692%09Reala+500D"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Convenience Store",
+              "search_value": "Convenience+Store"
+            },
+            {
+              "display_value": "Aisle",
+              "search_value": "Aisle"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "West Virginia",
+              "search_value": "West+Virginia"
+            },
+            {
+              "display_value": "Wheeling",
+              "search_value": "Wheeling"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:06:02",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Music",
+              "search_value": "Movie%2FTV+-+Music"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "James Mangold",
+              "search_value": "James+Mangold"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Phedon Papamichael",
+              "search_value": "Phedon+Papamichael"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "David J. Bomba",
+              "search_value": "David+J.+Bomba"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Arianne Phillips",
+              "search_value": "Arianne+Phillips"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Michael McCusker",
+              "search_value": "Michael+McCusker"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Joe Finley",
+              "search_value": "Joe+Finley"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

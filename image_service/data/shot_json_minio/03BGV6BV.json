@@ -1,0 +1,422 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03BGV6BV",
+    "image_file": "03BGV6BV.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "My Octopus Teacher",
+            "search_value": "4005"
+          }
+        ]
+      },
+      "full_title": "My Octopus Teacher",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2020",
+            "search_value": "2020"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "28191d",
+            "search_value": "28191d~25~1"
+          },
+          {
+            "display_value": "1d1e23",
+            "search_value": "1d1e23~25~1"
+          },
+          {
+            "display_value": "2e2722",
+            "search_value": "2e2722~25~1"
+          },
+          {
+            "display_value": "2e322f",
+            "search_value": "2e322f~25~1"
+          },
+          {
+            "display_value": "553238",
+            "search_value": "553238~25~1"
+          },
+          {
+            "display_value": "535e57",
+            "search_value": "535e57~25~1"
+          },
+          {
+            "display_value": "655d4c",
+            "search_value": "655d4c~25~1"
+          },
+          {
+            "display_value": "556068",
+            "search_value": "556068~25~1"
+          },
+          {
+            "display_value": "8c895f",
+            "search_value": "8c895f~25~1"
+          },
+          {
+            "display_value": "8897a3",
+            "search_value": "8897a3~25~1"
+          },
+          {
+            "display_value": "94a296",
+            "search_value": "94a296~25~1"
+          },
+          {
+            "display_value": "aba186",
+            "search_value": "aba186~25~1"
+          },
+          {
+            "display_value": "d1c89a",
+            "search_value": "d1c89a~25~1"
+          },
+          {
+            "display_value": "e9e5ca",
+            "search_value": "e9e5ca~25~1"
+          },
+          {
+            "display_value": "fefafe",
+            "search_value": "fefafe~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "suckers",
+              "search_value": "suckers"
+            },
+            {
+              "display_value": "tentacles",
+              "search_value": "tentacles"
+            },
+            {
+              "display_value": "sea urchin",
+              "search_value": "\"sea+urchin\""
+            },
+            {
+              "display_value": "shells",
+              "search_value": "shells"
+            },
+            {
+              "display_value": "insert shot",
+              "search_value": "\"insert+shot\""
+            },
+            {
+              "display_value": "underwater",
+              "search_value": "underwater"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Close Up",
+              "search_value": "Extreme+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "RED Dragon",
+              "search_value": "RED+Dragon"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "6K",
+              "search_value": "6K"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Ocean",
+              "search_value": "Ocean"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "South Africa",
+              "search_value": "South+Africa"
+            },
+            {
+              "display_value": "Western Cape",
+              "search_value": "Western+Cape"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Africa",
+              "search_value": "Africa"
+            },
+            {
+              "display_value": "South Africa",
+              "search_value": "South+Africa"
+            },
+            {
+              "display_value": "Western Cape",
+              "search_value": "Western+Cape"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:04:21",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Documentary",
+              "search_value": "Movie%2FTV+-+Documentary"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Philippa Ehrlich",
+              "search_value": "Philippa+Ehrlich"
+            },
+            {
+              "display_value": "James Reed",
+              "search_value": "James+Reed"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Roger Horrocks",
+              "search_value": "Roger+Horrocks"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Philippa Ehrlich",
+              "search_value": "Philippa+Ehrlich"
+            },
+            {
+              "display_value": "Dan Schwalm",
+              "search_value": "Dan+Schwalm"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Hakan Dag",
+              "search_value": "Hakan+Dag"
+            },
+            {
+              "display_value": "Kyle Stroebel",
+              "search_value": "Kyle+Stroebel"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

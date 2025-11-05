@@ -1,0 +1,406 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "011VZTV2",
+    "image_file": "011VZTV2.jpg",
+    "mime": "image/jpeg",
+    "width": "1800",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Seventh Continent",
+            "search_value": "11634"
+          }
+        ]
+      },
+      "full_title": "The Seventh Continent",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1989",
+            "search_value": "1989"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0c0b11",
+            "search_value": "0c0b11~25~1"
+          },
+          {
+            "display_value": "372724",
+            "search_value": "372724~25~1"
+          },
+          {
+            "display_value": "362b2f",
+            "search_value": "362b2f~25~1"
+          },
+          {
+            "display_value": "4c3937",
+            "search_value": "4c3937~25~1"
+          },
+          {
+            "display_value": "463c40",
+            "search_value": "463c40~25~1"
+          },
+          {
+            "display_value": "544c51",
+            "search_value": "544c51~25~1"
+          },
+          {
+            "display_value": "655451",
+            "search_value": "655451~25~1"
+          },
+          {
+            "display_value": "686974",
+            "search_value": "686974~25~1"
+          },
+          {
+            "display_value": "7a7d8a",
+            "search_value": "7a7d8a~25~1"
+          },
+          {
+            "display_value": "af6762",
+            "search_value": "af6762~25~1"
+          },
+          {
+            "display_value": "8d909f",
+            "search_value": "8d909f~25~1"
+          },
+          {
+            "display_value": "a69d99",
+            "search_value": "a69d99~25~1"
+          },
+          {
+            "display_value": "a59da4",
+            "search_value": "a59da4~25~1"
+          },
+          {
+            "display_value": "bdbcc7",
+            "search_value": "bdbcc7~25~1"
+          },
+          {
+            "display_value": "cdced8",
+            "search_value": "cdced8~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "leather bag",
+              "search_value": "\"leather+bag\""
+            },
+            {
+              "display_value": "grey desk",
+              "search_value": "\"grey+desk\""
+            },
+            {
+              "display_value": "document holder",
+              "search_value": "\"document+holder\""
+            },
+            {
+              "display_value": "messenger bag",
+              "search_value": "\"messenger+bag\""
+            },
+            {
+              "display_value": "books",
+              "search_value": "books"
+            },
+            {
+              "display_value": "keyboard",
+              "search_value": "keyboard"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1980s",
+              "search_value": "1980s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Close Up",
+              "search_value": "Extreme+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Dutch angle",
+              "search_value": "Dutch+angle"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            },
+            {
+              "display_value": "Insert",
+              "search_value": "Insert"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Soft light",
+              "search_value": "Soft+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Office",
+              "search_value": "Office"
+            },
+            {
+              "display_value": "Desk",
+              "search_value": "Desk"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Austria",
+              "search_value": "Austria"
+            },
+            {
+              "display_value": "Vienna",
+              "search_value": "Vienna"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Austria",
+              "search_value": "Austria"
+            },
+            {
+              "display_value": "Vienna",
+              "search_value": "Vienna"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:07:23",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Michael Haneke",
+              "search_value": "Michael+Haneke"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Anton Peschke",
+              "search_value": "Anton+Peschke"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Rudolf Czettel",
+              "search_value": "Rudolf+Czettel"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Anna Georgiades",
+              "search_value": "Anna+Georgiades"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Marie Homolkova",
+              "search_value": "Marie+Homolkova"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

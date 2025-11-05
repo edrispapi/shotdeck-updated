@@ -1,0 +1,484 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03KGI7DB",
+    "image_file": "03KGI7DB.jpg",
+    "mime": "image/jpeg",
+    "width": "2694",
+    "height": "1620",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "A Clockwork Orange",
+            "search_value": "525"
+          }
+        ]
+      },
+      "full_title": "A Clockwork Orange",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1971",
+            "search_value": "1971"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d100e",
+            "search_value": "0d100e~25~1"
+          },
+          {
+            "display_value": "1a2027",
+            "search_value": "1a2027~25~1"
+          },
+          {
+            "display_value": "301f18",
+            "search_value": "301f18~25~1"
+          },
+          {
+            "display_value": "5c1115",
+            "search_value": "5c1115~25~1"
+          },
+          {
+            "display_value": "622c29",
+            "search_value": "622c29~25~1"
+          },
+          {
+            "display_value": "761b1f",
+            "search_value": "761b1f~25~1"
+          },
+          {
+            "display_value": "474133",
+            "search_value": "474133~25~1"
+          },
+          {
+            "display_value": "7e474b",
+            "search_value": "7e474b~25~1"
+          },
+          {
+            "display_value": "67564a",
+            "search_value": "67564a~25~1"
+          },
+          {
+            "display_value": "616865",
+            "search_value": "616865~25~1"
+          },
+          {
+            "display_value": "5e6a6f",
+            "search_value": "5e6a6f~25~1"
+          },
+          {
+            "display_value": "88949c",
+            "search_value": "88949c~25~1"
+          },
+          {
+            "display_value": "a3938b",
+            "search_value": "a3938b~25~1"
+          },
+          {
+            "display_value": "aea1a6",
+            "search_value": "aea1a6~25~1"
+          },
+          {
+            "display_value": "d7cdd2",
+            "search_value": "d7cdd2~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "check in",
+              "search_value": "\"check+in\""
+            },
+            {
+              "display_value": "clipboard",
+              "search_value": "clipboard"
+            },
+            {
+              "display_value": "desk",
+              "search_value": "desk"
+            },
+            {
+              "display_value": "entrance",
+              "search_value": "entrance"
+            },
+            {
+              "display_value": "greeting",
+              "search_value": "greeting"
+            },
+            {
+              "display_value": "guard",
+              "search_value": "guard"
+            },
+            {
+              "display_value": "lab coat",
+              "search_value": "\"lab+coat\""
+            },
+            {
+              "display_value": "office",
+              "search_value": "office"
+            },
+            {
+              "display_value": "office building",
+              "search_value": "\"office+building\""
+            },
+            {
+              "display_value": "officer",
+              "search_value": "officer"
+            },
+            {
+              "display_value": "police",
+              "search_value": "police"
+            },
+            {
+              "display_value": "signing in",
+              "search_value": "\"signing+in\""
+            },
+            {
+              "display_value": "signing out",
+              "search_value": "\"signing+out\""
+            },
+            {
+              "display_value": "suit and tie",
+              "search_value": "\"suit+and+tie\""
+            },
+            {
+              "display_value": "wiaitng",
+              "search_value": "wiaitng"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Wide",
+              "search_value": "Medium+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            },
+            {
+              "display_value": "Symmetrical",
+              "search_value": "Symmetrical"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "3 shot",
+              "search_value": "3+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 35 IIC",
+              "search_value": "Arriflex+35+IIC"
+            },
+            {
+              "display_value": "Mitchell BNC",
+              "search_value": "Mitchell+BNC"
+            },
+            {
+              "display_value": "Newman Sinclair Autokine 35mm",
+              "search_value": "Newman+Sinclair+Autokine+35mm"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Angenieux Optimo Zooms",
+              "search_value": "Angenieux+Optimo+Zooms"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Mental Asylum",
+              "search_value": "Mental+Asylum"
+            },
+            {
+              "display_value": "Front Entrance",
+              "search_value": "Front+Entrance"
+            },
+            {
+              "display_value": "Check in",
+              "search_value": "Check+in"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:07:52",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Psychedelic",
+              "search_value": "Movie%2FTV+-+Psychedelic"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Stanley Kubrick",
+              "search_value": "Stanley+Kubrick"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "John Alcott",
+              "search_value": "John+Alcott"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "John Barry",
+              "search_value": "John+Barry"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Milena Canonero",
+              "search_value": "Milena+Canonero"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Bill Butler",
+              "search_value": "Bill+Butler"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

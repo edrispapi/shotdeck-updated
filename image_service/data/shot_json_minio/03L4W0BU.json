@@ -1,0 +1,372 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03L4W0BU",
+    "image_file": "03L4W0BU.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Great Mouse Detective",
+            "search_value": "265"
+          }
+        ]
+      },
+      "full_title": "The Great Mouse Detective",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1986",
+            "search_value": "1986"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0b0e0c",
+            "search_value": "0b0e0c~25~1"
+          },
+          {
+            "display_value": "131216",
+            "search_value": "131216~25~1"
+          },
+          {
+            "display_value": "2f080d",
+            "search_value": "2f080d~25~1"
+          },
+          {
+            "display_value": "301911",
+            "search_value": "301911~25~1"
+          },
+          {
+            "display_value": "5b3d20",
+            "search_value": "5b3d20~25~1"
+          },
+          {
+            "display_value": "82171b",
+            "search_value": "82171b~25~1"
+          },
+          {
+            "display_value": "7d221d",
+            "search_value": "7d221d~25~1"
+          },
+          {
+            "display_value": "864935",
+            "search_value": "864935~25~1"
+          },
+          {
+            "display_value": "9e373d",
+            "search_value": "9e373d~25~1"
+          },
+          {
+            "display_value": "496b7c",
+            "search_value": "496b7c~25~1"
+          },
+          {
+            "display_value": "687c67",
+            "search_value": "687c67~25~1"
+          },
+          {
+            "display_value": "be5a4a",
+            "search_value": "be5a4a~25~1"
+          },
+          {
+            "display_value": "868966",
+            "search_value": "868966~25~1"
+          },
+          {
+            "display_value": "878c76",
+            "search_value": "878c76~25~1"
+          },
+          {
+            "display_value": "23c5f2",
+            "search_value": "23c5f2~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "entertaining",
+              "search_value": "entertaining"
+            },
+            {
+              "display_value": "juggling",
+              "search_value": "juggling"
+            },
+            {
+              "display_value": "octopus",
+              "search_value": "octopus"
+            },
+            {
+              "display_value": "performance",
+              "search_value": "performance"
+            },
+            {
+              "display_value": "red curtain",
+              "search_value": "\"red+curtain\""
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Red",
+              "search_value": "Red"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Animation"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Tungsten",
+              "search_value": "Tungsten"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Tavern",
+              "search_value": "Tavern"
+            },
+            {
+              "display_value": "Stage",
+              "search_value": "Stage"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "United Kingdom",
+              "search_value": "United+Kingdom"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "London",
+              "search_value": "London"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Ron Clements",
+              "search_value": "Ron+Clements"
+            },
+            {
+              "display_value": "Burny Mattinson",
+              "search_value": "Burny+Mattinson"
+            },
+            {
+              "display_value": "David Michener",
+              "search_value": "David+Michener"
+            },
+            {
+              "display_value": "John Musker",
+              "search_value": "John+Musker"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Ed Austin",
+              "search_value": "Ed+Austin"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Roy M. Brewer Jr.",
+              "search_value": "Roy+M.+Brewer+Jr."
+            },
+            {
+              "display_value": "James Melton",
+              "search_value": "James+Melton"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Dale E. Grahn",
+              "search_value": "Dale+E.+Grahn"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

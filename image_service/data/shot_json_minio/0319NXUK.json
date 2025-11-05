@@ -1,0 +1,476 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "0319NXUK",
+    "image_file": "0319NXUK.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Primer",
+            "search_value": "14185"
+          }
+        ]
+      },
+      "full_title": "Primer",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2004",
+            "search_value": "2004"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "010103",
+            "search_value": "010103~25~1"
+          },
+          {
+            "display_value": "000201",
+            "search_value": "000201~25~1"
+          },
+          {
+            "display_value": "060203",
+            "search_value": "060203~25~1"
+          },
+          {
+            "display_value": "1e160a",
+            "search_value": "1e160a~25~1"
+          },
+          {
+            "display_value": "5c3524",
+            "search_value": "5c3524~25~1"
+          },
+          {
+            "display_value": "4d4623",
+            "search_value": "4d4623~25~1"
+          },
+          {
+            "display_value": "6b6548",
+            "search_value": "6b6548~25~1"
+          },
+          {
+            "display_value": "8c7b76",
+            "search_value": "8c7b76~25~1"
+          },
+          {
+            "display_value": "89846c",
+            "search_value": "89846c~25~1"
+          },
+          {
+            "display_value": "949184",
+            "search_value": "949184~25~1"
+          },
+          {
+            "display_value": "999a9a",
+            "search_value": "999a9a~25~1"
+          },
+          {
+            "display_value": "a09ca0",
+            "search_value": "a09ca0~25~1"
+          },
+          {
+            "display_value": "a8a5b2",
+            "search_value": "a8a5b2~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "serious",
+              "search_value": "serious"
+            },
+            {
+              "display_value": "serious expression",
+              "search_value": "\"serious+expression\""
+            },
+            {
+              "display_value": "contemplation",
+              "search_value": "contemplation"
+            },
+            {
+              "display_value": "deep in thought",
+              "search_value": "\"deep+in+thought\""
+            },
+            {
+              "display_value": "lost in thought",
+              "search_value": "\"lost+in+thought\""
+            },
+            {
+              "display_value": "thinking to self",
+              "search_value": "\"thinking+to+self\""
+            },
+            {
+              "display_value": "white button up",
+              "search_value": "\"white+button+up\""
+            },
+            {
+              "display_value": "sitting down",
+              "search_value": "\"sitting+down\""
+            },
+            {
+              "display_value": "confused",
+              "search_value": "confused"
+            },
+            {
+              "display_value": "concerned",
+              "search_value": "concerned"
+            },
+            {
+              "display_value": "upset",
+              "search_value": "upset"
+            },
+            {
+              "display_value": "frustrated",
+              "search_value": "frustrated"
+            },
+            {
+              "display_value": "rubbing head",
+              "search_value": "\"rubbing+head\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "David Sullivan",
+              "search_value": "David+Sullivan"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 16mm",
+              "search_value": "Film+-+16mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex 16 SR2",
+              "search_value": "Arriflex+16+SR2"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5201/7201 \tVision 2\t50D",
+              "search_value": "5201%2F7201+%09Vision+2%0950D"
+            },
+            {
+              "display_value": "5217/7217\tVision 2  200T",
+              "search_value": "5217%2F7217%09Vision+2++200T"
+            },
+            {
+              "display_value": "5218/7218\tVision 2 \t500T",
+              "search_value": "5218%2F7218%09Vision+2+%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Hotel",
+              "search_value": "Hotel"
+            },
+            {
+              "display_value": "Hotel Room",
+              "search_value": "Hotel+Room"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Texas",
+              "search_value": "Texas"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "Texas",
+              "search_value": "Texas"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:12:45",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Lo-Fi Sci-Fi",
+              "search_value": "Movie%2FTV+-+Lo-Fi+Sci-Fi"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            },
+            {
+              "display_value": "Time Travel",
+              "search_value": "Movie%2FTV+-+Time+Travel"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Shane Carruth",
+              "search_value": "Shane+Carruth"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Troy Dick",
+              "search_value": "Troy+Dick"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Shane Carruth",
+              "search_value": "Shane+Carruth"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Shane Carruth",
+              "search_value": "Shane+Carruth"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Russ Franklin",
+              "search_value": "Russ+Franklin"
+            },
+            {
+              "display_value": "Omar Godinez",
+              "search_value": "Omar+Godinez"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

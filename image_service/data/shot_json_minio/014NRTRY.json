@@ -1,0 +1,488 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "014NRTRY",
+    "image_file": "014NRTRY.jpg",
+    "mime": "image/jpeg",
+    "width": "1470",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Adventures of Robin Hood",
+            "search_value": "2586"
+          }
+        ]
+      },
+      "full_title": "The Adventures of Robin Hood",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1938",
+            "search_value": "1938"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d0c10",
+            "search_value": "0d0c10~25~1"
+          },
+          {
+            "display_value": "0d100e",
+            "search_value": "0d100e~25~1"
+          },
+          {
+            "display_value": "211317",
+            "search_value": "211317~25~1"
+          },
+          {
+            "display_value": "2c2017",
+            "search_value": "2c2017~25~1"
+          },
+          {
+            "display_value": "612b34",
+            "search_value": "612b34~25~1"
+          },
+          {
+            "display_value": "56362e",
+            "search_value": "56362e~25~1"
+          },
+          {
+            "display_value": "4f4328",
+            "search_value": "4f4328~25~1"
+          },
+          {
+            "display_value": "665056",
+            "search_value": "665056~25~1"
+          },
+          {
+            "display_value": "6b533e",
+            "search_value": "6b533e~25~1"
+          },
+          {
+            "display_value": "5e5f6d",
+            "search_value": "5e5f6d~25~1"
+          },
+          {
+            "display_value": "9c7568",
+            "search_value": "9c7568~25~1"
+          },
+          {
+            "display_value": "968458",
+            "search_value": "968458~25~1"
+          },
+          {
+            "display_value": "ac9178",
+            "search_value": "ac9178~25~1"
+          },
+          {
+            "display_value": "a1929a",
+            "search_value": "a1929a~25~1"
+          },
+          {
+            "display_value": "9ea0ab",
+            "search_value": "9ea0ab~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "riding horseback",
+              "search_value": "\"riding+horseback\""
+            },
+            {
+              "display_value": "riding through forest",
+              "search_value": "\"riding+through+forest\""
+            },
+            {
+              "display_value": "dirt trail",
+              "search_value": "\"dirt+trail\""
+            },
+            {
+              "display_value": "green leaves",
+              "search_value": "\"green+leaves\""
+            },
+            {
+              "display_value": "bare tree",
+              "search_value": "\"bare+tree\""
+            },
+            {
+              "display_value": "green grass",
+              "search_value": "\"green+grass\""
+            },
+            {
+              "display_value": "brown horse",
+              "search_value": "\"brown+horse\""
+            },
+            {
+              "display_value": "holding flag",
+              "search_value": "\"holding+flag\""
+            },
+            {
+              "display_value": "red flag",
+              "search_value": "\"red+flag\""
+            },
+            {
+              "display_value": "red cape",
+              "search_value": "\"red+cape\""
+            },
+            {
+              "display_value": "horses kicking up dust",
+              "search_value": "\"horses+kicking+up+dust\""
+            },
+            {
+              "display_value": "technicolor",
+              "search_value": "technicolor"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Olivia de Havilland",
+              "search_value": "Olivia+de+Havilland"
+            },
+            {
+              "display_value": "Basil Rathbone",
+              "search_value": "Basil+Rathbone"
+            },
+            {
+              "display_value": "Melville Cooper",
+              "search_value": "Melville+Cooper"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            },
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.37",
+              "search_value": "1.37"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Forest",
+              "search_value": "Forest"
+            },
+            {
+              "display_value": "Trail",
+              "search_value": "Trail"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "England",
+              "search_value": "England"
+            },
+            {
+              "display_value": "East Midlands",
+              "search_value": "East+Midlands"
+            },
+            {
+              "display_value": "Nottingham",
+              "search_value": "Nottingham"
+            },
+            {
+              "display_value": "Sherwood Forest",
+              "search_value": "Sherwood+Forest"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth ",
+              "search_value": "Earth+"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Sherwood Forest",
+              "search_value": "Sherwood+Forest"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:36:40",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Romance",
+              "search_value": "Movie%2FTV+-+Romance"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Michael Curtiz",
+              "search_value": "Michael+Curtiz"
+            },
+            {
+              "display_value": "William Keighley",
+              "search_value": "William+Keighley"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Sol Polito",
+              "search_value": "Sol+Polito"
+            },
+            {
+              "display_value": "Tony Gaudio",
+              "search_value": "Tony+Gaudio"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Carl Jules Weyl",
+              "search_value": "Carl+Jules+Weyl"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Elmer Ellsworth",
+              "search_value": "Elmer+Ellsworth"
+            },
+            {
+              "display_value": "Eugene Joseff",
+              "search_value": "Eugene+Joseff"
+            },
+            {
+              "display_value": "Rydo Loshak",
+              "search_value": "Rydo+Loshak"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Ralph Dawson",
+              "search_value": "Ralph+Dawson"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Natalie Kalmus",
+              "search_value": "Natalie+Kalmus"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

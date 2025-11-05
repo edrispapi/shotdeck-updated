@@ -1,0 +1,502 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01V9H1XX",
+    "image_file": "01V9H1XX.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "806",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Diamantino",
+            "search_value": "52425"
+          }
+        ]
+      },
+      "full_title": "Diamantino",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2018",
+            "search_value": "2018"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "291a22",
+            "search_value": "291a22~25~1"
+          },
+          {
+            "display_value": "1f1d2d",
+            "search_value": "1f1d2d~25~1"
+          },
+          {
+            "display_value": "2e1b17",
+            "search_value": "2e1b17~25~1"
+          },
+          {
+            "display_value": "39355a",
+            "search_value": "39355a~25~1"
+          },
+          {
+            "display_value": "5e2e2b",
+            "search_value": "5e2e2b~25~1"
+          },
+          {
+            "display_value": "4e3646",
+            "search_value": "4e3646~25~1"
+          },
+          {
+            "display_value": "554e79",
+            "search_value": "554e79~25~1"
+          },
+          {
+            "display_value": "6b536d",
+            "search_value": "6b536d~25~1"
+          },
+          {
+            "display_value": "7c7198",
+            "search_value": "7c7198~25~1"
+          },
+          {
+            "display_value": "8a7393",
+            "search_value": "8a7393~25~1"
+          },
+          {
+            "display_value": "8b81a2",
+            "search_value": "8b81a2~25~1"
+          },
+          {
+            "display_value": "b294a2",
+            "search_value": "b294a2~25~1"
+          },
+          {
+            "display_value": "c7a19e",
+            "search_value": "c7a19e~25~1"
+          },
+          {
+            "display_value": "cfb5ba",
+            "search_value": "cfb5ba~25~1"
+          },
+          {
+            "display_value": "d5bdc1",
+            "search_value": "d5bdc1~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "small yacht",
+              "search_value": "\"small+yacht\""
+            },
+            {
+              "display_value": "friends",
+              "search_value": "friends"
+            },
+            {
+              "display_value": "sitting",
+              "search_value": "sitting"
+            },
+            {
+              "display_value": "ocean",
+              "search_value": "ocean"
+            },
+            {
+              "display_value": "together",
+              "search_value": "together"
+            },
+            {
+              "display_value": "towel",
+              "search_value": "towel"
+            },
+            {
+              "display_value": "blanket",
+              "search_value": "blanket"
+            },
+            {
+              "display_value": "relaxing",
+              "search_value": "relaxing"
+            },
+            {
+              "display_value": "lounging",
+              "search_value": "lounging"
+            },
+            {
+              "display_value": "scenic",
+              "search_value": "scenic"
+            },
+            {
+              "display_value": "talking",
+              "search_value": "talking"
+            },
+            {
+              "display_value": "conversation",
+              "search_value": "conversation"
+            },
+            {
+              "display_value": "soccer jersey",
+              "search_value": "\"soccer+jersey\""
+            },
+            {
+              "display_value": "boat",
+              "search_value": "boat"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Carloto Cotta",
+              "search_value": "Carloto+Cotta"
+            },
+            {
+              "display_value": "Cleo Tavares",
+              "search_value": "Cleo+Tavares"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2010s",
+              "search_value": "2010s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Sunset",
+              "search_value": "Sunset"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 16mm",
+              "search_value": "Film+-+16mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Ultra Wide / Fisheye",
+              "search_value": "Ultra+Wide+%2F+Fisheye"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "2 shot",
+              "search_value": "2+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arri SR3/SR3HS",
+              "search_value": "Arri+SR3%2FSR3HS"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Standard Primes",
+              "search_value": "Zeiss+Standard+Primes"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5218/7218\tVision 2 \t500T",
+              "search_value": "5218%2F7218%09Vision+2+%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Ocean",
+              "search_value": "Ocean"
+            },
+            {
+              "display_value": "Boat",
+              "search_value": "Boat"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Portugal",
+              "search_value": "Portugal"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:17:05",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Fantasy",
+              "search_value": "Movie%2FTV+-+Fantasy"
+            },
+            {
+              "display_value": "Science Fiction",
+              "search_value": "Movie%2FTV+-+Science+Fiction"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Daniel Schmidt",
+              "search_value": "Daniel+Schmidt"
+            },
+            {
+              "display_value": "Gabriel Abrantes",
+              "search_value": "Gabriel+Abrantes"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Charles Ackley Anderson",
+              "search_value": "Charles+Ackley+Anderson"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Cypress Cook",
+              "search_value": "Cypress+Cook"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Raphaëlle Martin Holger",
+              "search_value": "Rapha%C3%ABlle+Martin+Holger"
+            },
+            {
+              "display_value": "Daniel Schmidt",
+              "search_value": "Daniel+Schmidt"
+            },
+            {
+              "display_value": "Gabriel Abrantes",
+              "search_value": "Gabriel+Abrantes"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Caïque de Souza",
+              "search_value": "Ca%C3%AFque+de+Souza"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

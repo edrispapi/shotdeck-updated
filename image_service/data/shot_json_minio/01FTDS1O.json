@@ -1,0 +1,472 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01FTDS1O",
+    "image_file": "01FTDS1O.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "818",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The Big Boss",
+            "search_value": "14020"
+          }
+        ]
+      },
+      "full_title": "The Big Boss",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1971",
+            "search_value": "1971"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "040305",
+            "search_value": "040305~25~1"
+          },
+          {
+            "display_value": "090304",
+            "search_value": "090304~25~1"
+          },
+          {
+            "display_value": "23160b",
+            "search_value": "23160b~25~1"
+          },
+          {
+            "display_value": "121f13",
+            "search_value": "121f13~25~1"
+          },
+          {
+            "display_value": "69321e",
+            "search_value": "69321e~25~1"
+          },
+          {
+            "display_value": "574120",
+            "search_value": "574120~25~1"
+          },
+          {
+            "display_value": "265244",
+            "search_value": "265244~25~1"
+          },
+          {
+            "display_value": "815531",
+            "search_value": "815531~25~1"
+          },
+          {
+            "display_value": "4a7364",
+            "search_value": "4a7364~25~1"
+          },
+          {
+            "display_value": "658f80",
+            "search_value": "658f80~25~1"
+          },
+          {
+            "display_value": "a57c53",
+            "search_value": "a57c53~25~1"
+          },
+          {
+            "display_value": "aa896c",
+            "search_value": "aa896c~25~1"
+          },
+          {
+            "display_value": "84ab9c",
+            "search_value": "84ab9c~25~1"
+          },
+          {
+            "display_value": "adcabb",
+            "search_value": "adcabb~25~1"
+          },
+          {
+            "display_value": "b9d2c2",
+            "search_value": "b9d2c2~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "action",
+              "search_value": "action"
+            },
+            {
+              "display_value": "climax",
+              "search_value": "climax"
+            },
+            {
+              "display_value": "confrontation",
+              "search_value": "confrontation"
+            },
+            {
+              "display_value": "fight",
+              "search_value": "fight"
+            },
+            {
+              "display_value": "gang",
+              "search_value": "gang"
+            },
+            {
+              "display_value": "grass",
+              "search_value": "grass"
+            },
+            {
+              "display_value": "greenery",
+              "search_value": "greenery"
+            },
+            {
+              "display_value": "intense",
+              "search_value": "intense"
+            },
+            {
+              "display_value": "martial arts",
+              "search_value": "\"martial+arts\""
+            },
+            {
+              "display_value": "standoff",
+              "search_value": "standoff"
+            },
+            {
+              "display_value": "shirtless",
+              "search_value": "shirtless"
+            },
+            {
+              "display_value": "punching",
+              "search_value": "punching"
+            },
+            {
+              "display_value": "angry",
+              "search_value": "angry"
+            },
+            {
+              "display_value": "palm tree",
+              "search_value": "\"palm+tree\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Bruce Lee",
+              "search_value": "Bruce+Lee"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.35",
+              "search_value": "2.35"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Courtyard",
+              "search_value": "Courtyard"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Thailand",
+              "search_value": "Thailand"
+            },
+            {
+              "display_value": "Pak Chong",
+              "search_value": "Pak+Chong"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Thailand",
+              "search_value": "Thailand"
+            },
+            {
+              "display_value": "Pak Chong",
+              "search_value": "Pak+Chong"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:38:48",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Martial Arts",
+              "search_value": "Movie%2FTV+-+Martial+Arts"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Wei Lo",
+              "search_value": "Wei+Lo"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Chris Chen Ching-Chu",
+              "search_value": "Chris+Chen+Ching-Chu"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Liu Chu",
+              "search_value": "Liu+Chu"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Liu Chu",
+              "search_value": "Liu+Chu"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Sung Ming",
+              "search_value": "Sung+Ming"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

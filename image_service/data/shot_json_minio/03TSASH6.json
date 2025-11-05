@@ -1,0 +1,538 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03TSASH6",
+    "image_file": "03TSASH6.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Better Call Saul",
+            "search_value": "7862",
+            "season": "3",
+            "episode": "3"
+          }
+        ]
+      },
+      "full_title": "Better Call Saul - Season 3 - Episode 3",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2017",
+            "search_value": "2017"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "131b12",
+            "search_value": "131b12~25~1"
+          },
+          {
+            "display_value": "312d11",
+            "search_value": "312d11~25~1"
+          },
+          {
+            "display_value": "534c1a",
+            "search_value": "534c1a~25~1"
+          },
+          {
+            "display_value": "555f57",
+            "search_value": "555f57~25~1"
+          },
+          {
+            "display_value": "4e658b",
+            "search_value": "4e658b~25~1"
+          },
+          {
+            "display_value": "716439",
+            "search_value": "716439~25~1"
+          },
+          {
+            "display_value": "5e7baf",
+            "search_value": "5e7baf~25~1"
+          },
+          {
+            "display_value": "9c8846",
+            "search_value": "9c8846~25~1"
+          },
+          {
+            "display_value": "8896b4",
+            "search_value": "8896b4~25~1"
+          },
+          {
+            "display_value": "a7997c",
+            "search_value": "a7997c~25~1"
+          },
+          {
+            "display_value": "969d98",
+            "search_value": "969d98~25~1"
+          },
+          {
+            "display_value": "b3bcd1",
+            "search_value": "b3bcd1~25~1"
+          },
+          {
+            "display_value": "bbc5d7",
+            "search_value": "bbc5d7~25~1"
+          },
+          {
+            "display_value": "d5c69b",
+            "search_value": "d5c69b~25~1"
+          },
+          {
+            "display_value": "dfd6b7",
+            "search_value": "dfd6b7~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "blue sky",
+              "search_value": "\"blue+sky\""
+            },
+            {
+              "display_value": "car",
+              "search_value": "car"
+            },
+            {
+              "display_value": "clouds",
+              "search_value": "clouds"
+            },
+            {
+              "display_value": "curb",
+              "search_value": "curb"
+            },
+            {
+              "display_value": "front yard",
+              "search_value": "\"front+yard\""
+            },
+            {
+              "display_value": "garage doors",
+              "search_value": "\"garage+doors\""
+            },
+            {
+              "display_value": "house",
+              "search_value": "house"
+            },
+            {
+              "display_value": "sidewalk",
+              "search_value": "sidewalk"
+            },
+            {
+              "display_value": "sitting on curb",
+              "search_value": "\"sitting+on+curb\""
+            },
+            {
+              "display_value": "street",
+              "search_value": "street"
+            },
+            {
+              "display_value": "trees",
+              "search_value": "trees"
+            },
+            {
+              "display_value": "windows",
+              "search_value": "windows"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Bob Odenkirk",
+              "search_value": "Bob+Odenkirk"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Warm",
+              "search_value": "Warm"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital",
+              "search_value": "Digital"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.78",
+              "search_value": "1.78"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            },
+            {
+              "display_value": "Super 35",
+              "search_value": "Super+35"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "RED Weapon",
+              "search_value": "RED+Weapon"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision Panaspeed",
+              "search_value": "Panavision+Panaspeed"
+            },
+            {
+              "display_value": "Panavision Primo Zooms",
+              "search_value": "Panavision+Primo+Zooms"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "Redcode RAW 8k",
+              "search_value": "Redcode+RAW+8k"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "House",
+              "search_value": "House"
+            },
+            {
+              "display_value": "Front Yard",
+              "search_value": "Front+Yard"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New Mexico",
+              "search_value": "New+Mexico"
+            },
+            {
+              "display_value": "Albuquerque",
+              "search_value": "Albuquerque"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States of America",
+              "search_value": "United+States+of+America"
+            },
+            {
+              "display_value": "New Mexico",
+              "search_value": "New+Mexico"
+            },
+            {
+              "display_value": "Albuquerque",
+              "search_value": "Albuquerque"
+            },
+            {
+              "display_value": "1607 San Cristobal Road SW",
+              "search_value": "1607+San+Cristobal+Road+SW"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:07:37",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Dark Comedy",
+              "search_value": "Movie%2FTV+-+Dark+Comedy"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "John Shiban",
+              "search_value": "John+Shiban"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Marshall Adams",
+              "search_value": "Marshall+Adams"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Michael Novotny",
+              "search_value": "Michael+Novotny"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Jennifer L. Bryan",
+              "search_value": "Jennifer+L.+Bryan"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Skip Macdonald",
+              "search_value": "Skip+Macdonald"
+            },
+            {
+              "display_value": "Kelley Dixon",
+              "search_value": "Kelley+Dixon"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Ted Brady",
+              "search_value": "Ted+Brady"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

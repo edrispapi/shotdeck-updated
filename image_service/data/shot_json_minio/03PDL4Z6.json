@@ -1,0 +1,496 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "03PDL4Z6",
+    "image_file": "03PDL4Z6.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "1040",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Schindler's List",
+            "search_value": "358"
+          }
+        ]
+      },
+      "full_title": "Schindler's List",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1993",
+            "search_value": "1993"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "2b2d2a",
+            "search_value": "2b2d2a~25~1"
+          },
+          {
+            "display_value": "2e2f2d",
+            "search_value": "2e2f2d~25~1"
+          },
+          {
+            "display_value": "2e2f31",
+            "search_value": "2e2f31~25~1"
+          },
+          {
+            "display_value": "3e413d",
+            "search_value": "3e413d~25~1"
+          },
+          {
+            "display_value": "5f615e",
+            "search_value": "5f615e~25~1"
+          },
+          {
+            "display_value": "616162",
+            "search_value": "616162~25~1"
+          },
+          {
+            "display_value": "626261",
+            "search_value": "626261~25~1"
+          },
+          {
+            "display_value": "666566",
+            "search_value": "666566~25~1"
+          },
+          {
+            "display_value": "7e817d",
+            "search_value": "7e817d~25~1"
+          },
+          {
+            "display_value": "919390",
+            "search_value": "919390~25~1"
+          },
+          {
+            "display_value": "979796",
+            "search_value": "979796~25~1"
+          },
+          {
+            "display_value": "a2a2a3",
+            "search_value": "a2a2a3~25~1"
+          },
+          {
+            "display_value": "bec1bd",
+            "search_value": "bec1bd~25~1"
+          },
+          {
+            "display_value": "d7d7d6",
+            "search_value": "d7d7d6~25~1"
+          },
+          {
+            "display_value": "dadcd9",
+            "search_value": "dadcd9~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "doctors",
+              "search_value": "doctors"
+            },
+            {
+              "display_value": "dusty",
+              "search_value": "dusty"
+            },
+            {
+              "display_value": "hazy",
+              "search_value": "hazy"
+            },
+            {
+              "display_value": "intimidating",
+              "search_value": "intimidating"
+            },
+            {
+              "display_value": "lab coat",
+              "search_value": "\"lab+coat\""
+            },
+            {
+              "display_value": "medical",
+              "search_value": "medical"
+            },
+            {
+              "display_value": "nazi",
+              "search_value": "nazi"
+            },
+            {
+              "display_value": "peaked cap",
+              "search_value": "\"peaked+cap\""
+            },
+            {
+              "display_value": "serious",
+              "search_value": "serious"
+            },
+            {
+              "display_value": "stethoscope",
+              "search_value": "stethoscope"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1940s",
+              "search_value": "1940s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Black and White",
+              "search_value": "Black+and+White"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Group shot",
+              "search_value": "Group+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.85",
+              "search_value": "1.85"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arri 3 (III)",
+              "search_value": "Arri+3+%28III%29"
+            },
+            {
+              "display_value": "Arri 535 / 535B",
+              "search_value": "Arri+535+%2F+535B"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Zeiss Super Speed",
+              "search_value": "Zeiss+Super+Speed"
+            },
+            {
+              "display_value": "Zeiss Standard Primes",
+              "search_value": "Zeiss+Standard+Primes"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5296/7296  \tEXR\t\t500T",
+              "search_value": "5296%2F7296++%09EXR%09%09500T"
+            },
+            {
+              "display_value": "5222/7222       Kodak Double X",
+              "search_value": "5222%2F7222+++++++Kodak+Double+X"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Concentration Camp",
+              "search_value": "Concentration+Camp"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Poland",
+              "search_value": "Poland"
+            },
+            {
+              "display_value": "Kraków",
+              "search_value": "Krak%C3%B3w"
+            },
+            {
+              "display_value": "Plaszów Concentration Camp",
+              "search_value": "Plasz%C3%B3w+Concentration+Camp"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Poland",
+              "search_value": "Poland"
+            },
+            {
+              "display_value": "Kraków",
+              "search_value": "Krak%C3%B3w"
+            },
+            {
+              "display_value": "Plaszów Concentration Camp",
+              "search_value": "Plasz%C3%B3w+Concentration+Camp"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:59:27",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "History",
+              "search_value": "Movie%2FTV+-+History"
+            },
+            {
+              "display_value": "War",
+              "search_value": "Movie%2FTV+-+War"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Steven Spielberg",
+              "search_value": "Steven+Spielberg"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Janusz Kamiński",
+              "search_value": "Janusz+Kami%C5%84ski"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Allan Starski",
+              "search_value": "Allan+Starski"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Anna B. Sheppard",
+              "search_value": "Anna+B.+Sheppard"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Michael Kahn",
+              "search_value": "Michael+Kahn"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

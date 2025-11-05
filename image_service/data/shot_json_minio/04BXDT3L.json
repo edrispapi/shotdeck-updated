@@ -1,0 +1,518 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "04BXDT3L",
+    "image_file": "04BXDT3L.jpg",
+    "mime": "image/jpeg",
+    "width": "1893",
+    "height": "960",
+    "details": {
+      "title": {
+        "filter": "tv",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Tokyo Vice",
+            "search_value": "13346",
+            "season": "1",
+            "episode": "2"
+          }
+        ]
+      },
+      "full_title": "Tokyo Vice - Season 1 - Episode 2",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "tv",
+            "search_value": "tv"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2022",
+            "search_value": "2022"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "09090b",
+            "search_value": "09090b~25~1"
+          },
+          {
+            "display_value": "0d0f0e",
+            "search_value": "0d0f0e~25~1"
+          },
+          {
+            "display_value": "161315",
+            "search_value": "161315~25~1"
+          },
+          {
+            "display_value": "1d1c16",
+            "search_value": "1d1c16~25~1"
+          },
+          {
+            "display_value": "504227",
+            "search_value": "504227~25~1"
+          },
+          {
+            "display_value": "5e513a",
+            "search_value": "5e513a~25~1"
+          },
+          {
+            "display_value": "595356",
+            "search_value": "595356~25~1"
+          },
+          {
+            "display_value": "545d63",
+            "search_value": "545d63~25~1"
+          },
+          {
+            "display_value": "8e836a",
+            "search_value": "8e836a~25~1"
+          },
+          {
+            "display_value": "a89d88",
+            "search_value": "a89d88~25~1"
+          },
+          {
+            "display_value": "aaa6a9",
+            "search_value": "aaa6a9~25~1"
+          },
+          {
+            "display_value": "b9cbcc",
+            "search_value": "b9cbcc~25~1"
+          },
+          {
+            "display_value": "d2ced0",
+            "search_value": "d2ced0~25~1"
+          },
+          {
+            "display_value": "e3e2d7",
+            "search_value": "e3e2d7~25~1"
+          },
+          {
+            "display_value": "ebf0e9",
+            "search_value": "ebf0e9~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "phone booth",
+              "search_value": "\"phone+booth\""
+            },
+            {
+              "display_value": "phone call",
+              "search_value": "\"phone+call\""
+            },
+            {
+              "display_value": "stranded",
+              "search_value": "stranded"
+            },
+            {
+              "display_value": "call",
+              "search_value": "call"
+            },
+            {
+              "display_value": "pay phone",
+              "search_value": "\"pay+phone\""
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Digital, Digital - Large Format",
+              "search_value": "Digital%2C+Digital+-+Large+Format"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            },
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Wide",
+              "search_value": "Wide"
+            },
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Left heavy",
+              "search_value": "Left+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.00",
+              "search_value": "2.00"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "ARRI ALEXA Mini LF",
+              "search_value": "ARRI+ALEXA+Mini+LF"
+            },
+            {
+              "display_value": "Sony VENICE",
+              "search_value": "Sony+VENICE"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Angenieux Type EZ",
+              "search_value": "Angenieux+Type+EZ"
+            },
+            {
+              "display_value": "Panavision Primo 70s",
+              "search_value": "Panavision+Primo+70s"
+            },
+            {
+              "display_value": "Sigma Cine Lenses",
+              "search_value": "Sigma+Cine+Lenses"
+            },
+            {
+              "display_value": "Zeiss Lenses",
+              "search_value": "Zeiss+Lenses"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "Sony X-OCN XT/ST/LT (6k)",
+              "search_value": "Sony+X-OCN+XT%2FST%2FLT+%286k%29"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Industrial Building",
+              "search_value": "Industrial+Building"
+            },
+            {
+              "display_value": "Telephone Booth",
+              "search_value": "Telephone+Booth"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Japan",
+              "search_value": "Japan"
+            },
+            {
+              "display_value": "Tokyo",
+              "search_value": "Tokyo"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Asia",
+              "search_value": "Asia"
+            },
+            {
+              "display_value": "Japan",
+              "search_value": "Japan"
+            },
+            {
+              "display_value": "Tokyo",
+              "search_value": "Tokyo"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "00:31:19",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Episode info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Josef Wladyka",
+              "search_value": "Josef+Wladyka"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Diego García",
+              "search_value": "Diego+Garc%C3%ADa"
+            },
+            {
+              "display_value": "Daniel Satinoff",
+              "search_value": "Daniel+Satinoff"
+            },
+            {
+              "display_value": "Katsumi Yanagijima",
+              "search_value": "Katsumi+Yanagijima"
+            },
+            {
+              "display_value": "John Grillo",
+              "search_value": "John+Grillo"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Edward McLoughlin",
+              "search_value": "Edward+McLoughlin"
+            },
+            {
+              "display_value": "Daniel R. Teplan",
+              "search_value": "Daniel+R.+Teplan"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Kumiko Ogawa",
+              "search_value": "Kumiko+Ogawa"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Aaron Kuhn",
+              "search_value": "Aaron+Kuhn"
+            },
+            {
+              "display_value": " Michael Berenbaum",
+              "search_value": "+Michael+Berenbaum"
+            },
+            {
+              "display_value": "Benjamin Rodriguez Jr.",
+              "search_value": "Benjamin+Rodriguez+Jr."
+            },
+            {
+              "display_value": "Tad Dennis",
+              "search_value": "Tad+Dennis"
+            },
+            {
+              "display_value": " Mako Kamitsuna",
+              "search_value": "+Mako+Kamitsuna"
+            },
+            {
+              "display_value": "David Rosenbloom",
+              "search_value": "David+Rosenbloom"
+            },
+            {
+              "display_value": "John M. Valerio",
+              "search_value": "John+M.+Valerio"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Sean Dunckley",
+              "search_value": "Sean+Dunckley"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

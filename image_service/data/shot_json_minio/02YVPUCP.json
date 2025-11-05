@@ -1,0 +1,426 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02YVPUCP",
+    "image_file": "02YVPUCP.jpg",
+    "mime": "image/jpeg",
+    "width": "1792",
+    "height": "1080",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "The American Friend",
+            "search_value": "4031"
+          }
+        ]
+      },
+      "full_title": "The American Friend",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "1977",
+            "search_value": "1977"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "201810",
+            "search_value": "201810~25~1"
+          },
+          {
+            "display_value": "1e191b",
+            "search_value": "1e191b~25~1"
+          },
+          {
+            "display_value": "152124",
+            "search_value": "152124~25~1"
+          },
+          {
+            "display_value": "1a221f",
+            "search_value": "1a221f~25~1"
+          },
+          {
+            "display_value": "374441",
+            "search_value": "374441~25~1"
+          },
+          {
+            "display_value": "534125",
+            "search_value": "534125~25~1"
+          },
+          {
+            "display_value": "444f49",
+            "search_value": "444f49~25~1"
+          },
+          {
+            "display_value": "74593e",
+            "search_value": "74593e~25~1"
+          },
+          {
+            "display_value": "928265",
+            "search_value": "928265~25~1"
+          },
+          {
+            "display_value": "aca087",
+            "search_value": "aca087~25~1"
+          },
+          {
+            "display_value": "95babe",
+            "search_value": "95babe~25~1"
+          },
+          {
+            "display_value": "a8bbb9",
+            "search_value": "a8bbb9~25~1"
+          },
+          {
+            "display_value": "b2c6c5",
+            "search_value": "b2c6c5~25~1"
+          },
+          {
+            "display_value": "acc8ca",
+            "search_value": "acc8ca~25~1"
+          },
+          {
+            "display_value": "b9cac7",
+            "search_value": "b9cac7~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "brown jacket",
+              "search_value": "\"brown+jacket\""
+            },
+            {
+              "display_value": "exhausted",
+              "search_value": "exhausted"
+            },
+            {
+              "display_value": "furled eyebrow",
+              "search_value": "\"furled+eyebrow\""
+            },
+            {
+              "display_value": "hugging pier",
+              "search_value": "\"hugging+pier\""
+            },
+            {
+              "display_value": "messy hair",
+              "search_value": "\"messy+hair\""
+            },
+            {
+              "display_value": "pier columns",
+              "search_value": "\"pier+columns\""
+            },
+            {
+              "display_value": "upset",
+              "search_value": "upset"
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Dennis Hopper",
+              "search_value": "Dennis+Hopper"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "1970s",
+              "search_value": "1970s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Clean single",
+              "search_value": "Clean+single"
+            },
+            {
+              "display_value": "Low angle",
+              "search_value": "Low+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Top light",
+              "search_value": "Top+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            },
+            {
+              "display_value": "Sunny",
+              "search_value": "Sunny"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "1.66",
+              "search_value": "1.66"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Spherical",
+              "search_value": "Spherical"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Arriflex",
+              "search_value": "Arriflex"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Beach",
+              "search_value": "Beach"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Earth",
+              "search_value": "Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "Germany",
+              "search_value": "Germany"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "02:03:34",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            },
+            {
+              "display_value": "Thriller",
+              "search_value": "Movie%2FTV+-+Thriller"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Wim Wenders",
+              "search_value": "Wim+Wenders"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Robby Müller",
+              "search_value": "Robby+M%C3%BCller"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Heidi Lüdi",
+              "search_value": "Heidi+L%C3%BCdi"
+            },
+            {
+              "display_value": "Toni Lüdi",
+              "search_value": "Toni+L%C3%BCdi"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Isolde Nist",
+              "search_value": "Isolde+Nist"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Peter Przygodda",
+              "search_value": "Peter+Przygodda"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

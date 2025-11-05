@@ -1,0 +1,386 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "01SYSFWM",
+    "image_file": "01SYSFWM.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "800",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "WALL·E",
+            "search_value": "209"
+          }
+        ]
+      },
+      "full_title": "WALL·E",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2008",
+            "search_value": "2008"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0d1533",
+            "search_value": "0d1533~25~1"
+          },
+          {
+            "display_value": "241511",
+            "search_value": "241511~25~1"
+          },
+          {
+            "display_value": "340813",
+            "search_value": "340813~25~1"
+          },
+          {
+            "display_value": "273967",
+            "search_value": "273967~25~1"
+          },
+          {
+            "display_value": "363e3c",
+            "search_value": "363e3c~25~1"
+          },
+          {
+            "display_value": "48364c",
+            "search_value": "48364c~25~1"
+          },
+          {
+            "display_value": "483b3a",
+            "search_value": "483b3a~25~1"
+          },
+          {
+            "display_value": "454039",
+            "search_value": "454039~25~1"
+          },
+          {
+            "display_value": "2e4947",
+            "search_value": "2e4947~25~1"
+          },
+          {
+            "display_value": "524355",
+            "search_value": "524355~25~1"
+          },
+          {
+            "display_value": "514942",
+            "search_value": "514942~25~1"
+          },
+          {
+            "display_value": "445550",
+            "search_value": "445550~25~1"
+          },
+          {
+            "display_value": "4d587c",
+            "search_value": "4d587c~25~1"
+          },
+          {
+            "display_value": "6a79a3",
+            "search_value": "6a79a3~25~1"
+          },
+          {
+            "display_value": "758ab7",
+            "search_value": "758ab7~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "red uniforms",
+              "search_value": "\"red+uniforms\""
+            },
+            {
+              "display_value": "red jumpsuits",
+              "search_value": "\"red+jumpsuits\""
+            },
+            {
+              "display_value": "hover chairs",
+              "search_value": "\"hover+chairs\""
+            },
+            {
+              "display_value": "lazy people",
+              "search_value": "\"lazy+people\""
+            },
+            {
+              "display_value": "floating chairs",
+              "search_value": "\"floating+chairs\""
+            },
+            {
+              "display_value": "passengers",
+              "search_value": "passengers"
+            },
+            {
+              "display_value": "futuristic",
+              "search_value": "futuristic"
+            },
+            {
+              "display_value": "side by side",
+              "search_value": "\"side+by+side\""
+            },
+            {
+              "display_value": "sitting next to each other",
+              "search_value": "\"sitting+next+to+each+other\""
+            },
+            {
+              "display_value": "looking into eyes",
+              "search_value": "\"looking+into+eyes\""
+            },
+            {
+              "display_value": "love and first sight",
+              "search_value": "\"love+and+first+sight\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "Future",
+              "search_value": "Future"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Saturated",
+              "search_value": "Saturated"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Animation"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Medium Close Up",
+              "search_value": "Medium+Close+Up"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Right heavy",
+              "search_value": "Right+heavy"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Space Station",
+              "search_value": "Space+Station"
+            },
+            {
+              "display_value": "Window",
+              "search_value": "Window"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "Outer Space",
+              "search_value": "Outer+Space"
+            },
+            {
+              "display_value": "Axiom",
+              "search_value": "Axiom"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:01:04",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Animation",
+              "search_value": "Movie%2FTV+-+Animation"
+            },
+            {
+              "display_value": "Family",
+              "search_value": "Movie%2FTV+-+Family"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Andrew Stanton",
+              "search_value": "Andrew+Stanton"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Jeremy Lasky",
+              "search_value": "Jeremy+Lasky"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Ralph Eggleston",
+              "search_value": "Ralph+Eggleston"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Stephen Schaffer",
+              "search_value": "Stephen+Schaffer"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Terry Claborn",
+              "search_value": "Terry+Claborn"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

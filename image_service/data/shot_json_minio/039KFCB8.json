@@ -1,0 +1,550 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "039KFCB8",
+    "image_file": "039KFCB8.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "790",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Rush Hour 3",
+            "search_value": "11354"
+          }
+        ]
+      },
+      "full_title": "Rush Hour 3",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2007",
+            "search_value": "2007"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "020001",
+            "search_value": "020001~25~1"
+          },
+          {
+            "display_value": "080e12",
+            "search_value": "080e12~25~1"
+          },
+          {
+            "display_value": "130c05",
+            "search_value": "130c05~25~1"
+          },
+          {
+            "display_value": "0f1912",
+            "search_value": "0f1912~25~1"
+          },
+          {
+            "display_value": "304841",
+            "search_value": "304841~25~1"
+          },
+          {
+            "display_value": "643f11",
+            "search_value": "643f11~25~1"
+          },
+          {
+            "display_value": "475865",
+            "search_value": "475865~25~1"
+          },
+          {
+            "display_value": "4a5e54",
+            "search_value": "4a5e54~25~1"
+          },
+          {
+            "display_value": "7e5722",
+            "search_value": "7e5722~25~1"
+          },
+          {
+            "display_value": "ac843b",
+            "search_value": "ac843b~25~1"
+          },
+          {
+            "display_value": "879b91",
+            "search_value": "879b91~25~1"
+          },
+          {
+            "display_value": "949ca5",
+            "search_value": "949ca5~25~1"
+          },
+          {
+            "display_value": "b69f79",
+            "search_value": "b69f79~25~1"
+          },
+          {
+            "display_value": "d3c2a2",
+            "search_value": "d3c2a2~25~1"
+          },
+          {
+            "display_value": "ece2cc",
+            "search_value": "ece2cc~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "hostage",
+              "search_value": "hostage"
+            },
+            {
+              "display_value": "held hostage",
+              "search_value": "\"held+hostage\""
+            },
+            {
+              "display_value": "woman held hostage",
+              "search_value": "\"woman+held+hostage\""
+            },
+            {
+              "display_value": "damsel in distress",
+              "search_value": "\"damsel+in+distress\""
+            },
+            {
+              "display_value": "hanging off building",
+              "search_value": "\"hanging+off+building\""
+            },
+            {
+              "display_value": "eiffel tower",
+              "search_value": "\"eiffel+tower\""
+            },
+            {
+              "display_value": "hands tied up",
+              "search_value": "\"hands+tied+up\""
+            },
+            {
+              "display_value": "women tied up",
+              "search_value": "\"women+tied+up\""
+            },
+            {
+              "display_value": "looking at street below",
+              "search_value": "\"looking+at+street+below\""
+            },
+            {
+              "display_value": "long way down",
+              "search_value": "\"long+way+down\""
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Night",
+              "search_value": "Night"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Exterior",
+              "search_value": "Exterior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Mixed",
+              "search_value": "Mixed"
+            },
+            {
+              "display_value": "Desaturated",
+              "search_value": "Desaturated"
+            },
+            {
+              "display_value": "Yellow",
+              "search_value": "Yellow"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Extreme Wide",
+              "search_value": "Extreme+Wide"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Ultra Wide / Fisheye",
+              "search_value": "Ultra+Wide+%2F+Fisheye"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Balanced",
+              "search_value": "Balanced"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Establishing shot",
+              "search_value": "Establishing+shot"
+            },
+            {
+              "display_value": "High angle",
+              "search_value": "High+angle"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "High contrast",
+              "search_value": "High+contrast"
+            },
+            {
+              "display_value": "Underlight",
+              "search_value": "Underlight"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Artificial light",
+              "search_value": "Artificial+light"
+            },
+            {
+              "display_value": "Mixed light",
+              "search_value": "Mixed+light"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Millennium / Millenium XL / XL2",
+              "search_value": "Panavision+Millennium+%2F+Millenium+XL+%2F+XL2"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            },
+            {
+              "display_value": "Panavision E series",
+              "search_value": "Panavision+E+series"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5201/7201 \tVision 2\t50D",
+              "search_value": "5201%2F7201+%09Vision+2%0950D"
+            },
+            {
+              "display_value": "5205/7205\tVision 2\t250D",
+              "search_value": "5205%2F7205%09Vision+2%09250D"
+            },
+            {
+              "display_value": "5218/7218\tVision 2 \t500T",
+              "search_value": "5218%2F7218%09Vision+2+%09500T"
+            },
+            {
+              "display_value": "5229/7229\tVision 2 \t500T  Expression",
+              "search_value": "5229%2F7229%09Vision+2+%09500T++Expression"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Eiffel Tower",
+              "search_value": "Eiffel+Tower"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": "  Earth",
+              "search_value": "++Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "Europe",
+              "search_value": "Europe"
+            },
+            {
+              "display_value": "France",
+              "search_value": "France"
+            },
+            {
+              "display_value": "Paris",
+              "search_value": "Paris"
+            },
+            {
+              "display_value": "Eiffel Tower",
+              "search_value": "Eiffel+Tower"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:15:15",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Action",
+              "search_value": "Movie%2FTV+-+Action"
+            },
+            {
+              "display_value": "Adventure",
+              "search_value": "Movie%2FTV+-+Adventure"
+            },
+            {
+              "display_value": "Comedy",
+              "search_value": "Movie%2FTV+-+Comedy"
+            },
+            {
+              "display_value": "Crime",
+              "search_value": "Movie%2FTV+-+Crime"
+            },
+            {
+              "display_value": "Detective",
+              "search_value": "Movie%2FTV+-+Detective"
+            },
+            {
+              "display_value": "Martial Arts",
+              "search_value": "Movie%2FTV+-+Martial+Arts"
+            },
+            {
+              "display_value": "Police",
+              "search_value": "Movie%2FTV+-+Police"
+            },
+            {
+              "display_value": "Travel",
+              "search_value": "Movie%2FTV+-+Travel"
+            },
+            {
+              "display_value": "Buddy Films",
+              "search_value": "Movie%2FTV+-+Buddy+Films"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Brett Ratner",
+              "search_value": "Brett+Ratner"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "J. Michael Muro",
+              "search_value": "J.+Michael+Muro"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Ed Verreaux",
+              "search_value": "Ed+Verreaux"
+            },
+            {
+              "display_value": "Chad S. Frey",
+              "search_value": "Chad+S.+Frey"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Betsy Heimann",
+              "search_value": "Betsy+Heimann"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Mark Helfrich",
+              "search_value": "Mark+Helfrich"
+            },
+            {
+              "display_value": "Don Zimmerman",
+              "search_value": "Don+Zimmerman"
+            },
+            {
+              "display_value": "Dean Zimmerman",
+              "search_value": "Dean+Zimmerman"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Adrian DeLude",
+              "search_value": "Adrian+DeLude"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

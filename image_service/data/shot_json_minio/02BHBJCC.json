@@ -1,0 +1,532 @@
+{
+  "success": true,
+  "message": "Image details",
+  "data": {
+    "imageid": "02BHBJCC",
+    "image_file": "02BHBJCC.jpg",
+    "mime": "image/jpeg",
+    "width": "1920",
+    "height": "802",
+    "details": {
+      "title": {
+        "filter": "movie",
+        "filter_name": "Title",
+        "values": [
+          {
+            "display_value": "Million Dollar Baby",
+            "search_value": "2247"
+          }
+        ]
+      },
+      "full_title": "Million Dollar Baby",
+      "media_type": {
+        "filter": "media_type",
+        "filter_name": "Media Type",
+        "values": [
+          {
+            "display_value": "movie",
+            "search_value": "movie"
+          }
+        ]
+      },
+      "year": {
+        "filter": "year",
+        "filter_name": "Release Year",
+        "values": [
+          {
+            "display_value": "2004",
+            "search_value": "2004"
+          }
+        ]
+      },
+      "shade": {
+        "filter": "shade",
+        "filter_name": "Shade",
+        "values": [
+          {
+            "display_value": "0c1210",
+            "search_value": "0c1210~25~1"
+          },
+          {
+            "display_value": "171713",
+            "search_value": "171713~25~1"
+          },
+          {
+            "display_value": "31272a",
+            "search_value": "31272a~25~1"
+          },
+          {
+            "display_value": "1a3943",
+            "search_value": "1a3943~25~1"
+          },
+          {
+            "display_value": "4e373b",
+            "search_value": "4e373b~25~1"
+          },
+          {
+            "display_value": "314846",
+            "search_value": "314846~25~1"
+          },
+          {
+            "display_value": "264952",
+            "search_value": "264952~25~1"
+          },
+          {
+            "display_value": "604e51",
+            "search_value": "604e51~25~1"
+          },
+          {
+            "display_value": "375b62",
+            "search_value": "375b62~25~1"
+          },
+          {
+            "display_value": "456662",
+            "search_value": "456662~25~1"
+          },
+          {
+            "display_value": "6e6963",
+            "search_value": "6e6963~25~1"
+          },
+          {
+            "display_value": "848376",
+            "search_value": "848376~25~1"
+          },
+          {
+            "display_value": "688c81",
+            "search_value": "688c81~25~1"
+          },
+          {
+            "display_value": "9b9a87",
+            "search_value": "9b9a87~25~1"
+          },
+          {
+            "display_value": "82a694",
+            "search_value": "82a694~25~1"
+          }
+        ]
+      },
+      "shot_info": {
+        "description": "Shot info",
+        "tags": {
+          "filter": "search",
+          "filter_name": "Tags",
+          "values": [
+            {
+              "display_value": "angry",
+              "search_value": "angry"
+            },
+            {
+              "display_value": "asking to sign",
+              "search_value": "\"asking+to+sign\""
+            },
+            {
+              "display_value": "brown hair",
+              "search_value": "\"brown+hair\""
+            },
+            {
+              "display_value": "devastated",
+              "search_value": "devastated"
+            },
+            {
+              "display_value": "eye bags",
+              "search_value": "\"eye+bags\""
+            },
+            {
+              "display_value": "eyebrows furrowed",
+              "search_value": "\"eyebrows+furrowed\""
+            },
+            {
+              "display_value": "holding document",
+              "search_value": "\"holding+document\""
+            },
+            {
+              "display_value": "hurt",
+              "search_value": "hurt"
+            },
+            {
+              "display_value": "legal documents",
+              "search_value": "\"legal+documents\""
+            },
+            {
+              "display_value": "mother daughter",
+              "search_value": "\"mother+daughter\""
+            },
+            {
+              "display_value": "pained",
+              "search_value": "pained"
+            },
+            {
+              "display_value": "pen in mouth",
+              "search_value": "\"pen+in+mouth\""
+            },
+            {
+              "display_value": "quadriplegic",
+              "search_value": "quadriplegic"
+            },
+            {
+              "display_value": "tears in eyes",
+              "search_value": "\"tears+in+eyes\""
+            }
+          ]
+        },
+        "actors": {
+          "filter": "actors",
+          "filter_name": "Actors",
+          "values": [
+            {
+              "display_value": "Hilary Swank",
+              "search_value": "Hilary+Swank"
+            },
+            {
+              "display_value": "Margo Martindale",
+              "search_value": "Margo+Martindale"
+            }
+          ]
+        },
+        "time_period": {
+          "filter": "time_period",
+          "filter_name": "Time Period",
+          "values": [
+            {
+              "display_value": "2000s",
+              "search_value": "2000s"
+            }
+          ]
+        },
+        "time_of_day": {
+          "filter": "time_of_day",
+          "filter_name": "Time of Day",
+          "values": [
+            {
+              "display_value": "Day",
+              "search_value": "Day"
+            }
+          ]
+        },
+        "int_ext": {
+          "filter": "int_ext",
+          "filter_name": "Interior/Exterior",
+          "values": [
+            {
+              "display_value": "Interior",
+              "search_value": "Interior"
+            }
+          ]
+        },
+        "color": {
+          "filter": "color",
+          "filter_name": "Color",
+          "values": [
+            {
+              "display_value": "Cool",
+              "search_value": "Cool"
+            },
+            {
+              "display_value": "Cyan",
+              "search_value": "Cyan"
+            },
+            {
+              "display_value": "Blue",
+              "search_value": "Blue"
+            }
+          ]
+        },
+        "format": {
+          "filter": "format",
+          "filter_name": "Format",
+          "values": [
+            {
+              "display_value": "Film - 35mm",
+              "search_value": "Film+-+35mm"
+            }
+          ]
+        },
+        "frame_size": {
+          "filter": "frame_size",
+          "filter_name": "Frame Size",
+          "values": [
+            {
+              "display_value": "Close Up",
+              "search_value": "Close+Up"
+            }
+          ]
+        },
+        "lens_type": {
+          "filter": "lens_type",
+          "filter_name": "Lens Size",
+          "values": [
+            {
+              "display_value": "Medium",
+              "search_value": "Medium"
+            },
+            {
+              "display_value": "Long Lens",
+              "search_value": "Long+Lens"
+            }
+          ]
+        },
+        "composition": {
+          "filter": "composition",
+          "filter_name": "Composition",
+          "values": [
+            {
+              "display_value": "Center",
+              "search_value": "Center"
+            }
+          ]
+        },
+        "shot_type": {
+          "filter": "shot_type",
+          "filter_name": "Shot Type",
+          "values": [
+            {
+              "display_value": "Over the shoulder",
+              "search_value": "Over+the+shoulder"
+            }
+          ]
+        },
+        "lighting": {
+          "filter": "lighting",
+          "filter_name": "Lighting",
+          "values": [
+            {
+              "display_value": "Hard light",
+              "search_value": "Hard+light"
+            },
+            {
+              "display_value": "Side light",
+              "search_value": "Side+light"
+            }
+          ]
+        },
+        "lighting_type": {
+          "filter": "lighting_type",
+          "filter_name": "Lighting Type",
+          "values": [
+            {
+              "display_value": "Daylight",
+              "search_value": "Daylight"
+            }
+          ]
+        },
+        "aspect_ratio": {
+          "filter": "aspect_ratio",
+          "filter_name": "Aspect Ratio",
+          "values": [
+            {
+              "display_value": "2.39",
+              "search_value": "2.39"
+            }
+          ]
+        },
+        "optical_format": {
+          "filter": "optical_format",
+          "filter_name": "Optical Format",
+          "values": [
+            {
+              "display_value": "Anamorphic",
+              "search_value": "Anamorphic"
+            }
+          ]
+        },
+        "camera": {
+          "filter": "camera",
+          "filter_name": "Camera",
+          "values": [
+            {
+              "display_value": "Panavision Platinum",
+              "search_value": "Panavision+Platinum"
+            }
+          ]
+        },
+        "lens": {
+          "filter": "lens",
+          "filter_name": "Lens",
+          "values": [
+            {
+              "display_value": "Panavision C series",
+              "search_value": "Panavision+C+series"
+            }
+          ]
+        },
+        "film_stock": {
+          "filter": "film_stock",
+          "filter_name": "Film Stock / Resolution",
+          "values": [
+            {
+              "display_value": "5246/7246\tVision \t250D",
+              "search_value": "5246%2F7246%09Vision+%09250D"
+            },
+            {
+              "display_value": "5279/7279\tVision\t500T",
+              "search_value": "5279%2F7279%09Vision%09500T"
+            }
+          ]
+        },
+        "setting": {
+          "filter": "setting",
+          "filter_name": "Set",
+          "values": [
+            {
+              "display_value": "Rehabilitation Center",
+              "search_value": "Rehabilitation+Center"
+            },
+            {
+              "display_value": "Bedroom",
+              "search_value": "Bedroom"
+            }
+          ]
+        },
+        "location": {
+          "filter": "location",
+          "filter_name": "Story Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Los Angeles",
+              "search_value": "Los+Angeles"
+            }
+          ]
+        },
+        "filming_location": {
+          "filter": "filming_location",
+          "filter_name": "Filming Location",
+          "values": [
+            {
+              "display_value": " Earth",
+              "search_value": "+Earth"
+            },
+            {
+              "display_value": "North America",
+              "search_value": "North+America"
+            },
+            {
+              "display_value": "United States",
+              "search_value": "United+States"
+            },
+            {
+              "display_value": "California",
+              "search_value": "California"
+            },
+            {
+              "display_value": "Pasadena",
+              "search_value": "Pasadena"
+            },
+            {
+              "display_value": "St. Lukes Medical Center, 2632 E. Washington Boulevard",
+              "search_value": "St.+Luke%C2%92s+Medical+Center%2C+2632+E.+Washington+Boulevard"
+            }
+          ]
+        },
+        "location_type": {
+          "filter": "location_type",
+          "filter_name": "Location Type",
+          "values": [
+            {
+              "display_value": "Location",
+              "search_value": "Location"
+            }
+          ]
+        },
+        "shot_time": {
+          "filter": "n/a",
+          "filter_name": "Shot Time",
+          "values": [
+            {
+              "display_value": "01:46:53",
+              "search_value": "n/a"
+            }
+          ]
+        }
+      },
+      "title_info": {
+        "description": "Movie info",
+        "genre": {
+          "filter": "genre",
+          "filter_name": "Genre",
+          "values": [
+            {
+              "display_value": "Drama",
+              "search_value": "Movie%2FTV+-+Drama"
+            }
+          ]
+        },
+        "director": {
+          "filter": "director",
+          "filter_name": "Director",
+          "values": [
+            {
+              "display_value": "Clint Eastwood",
+              "search_value": "Clint+Eastwood"
+            }
+          ]
+        },
+        "cinematographer": {
+          "filter": "cinematographer",
+          "filter_name": "Cinematographer",
+          "values": [
+            {
+              "display_value": "Tom Stern",
+              "search_value": "Tom+Stern"
+            }
+          ]
+        },
+        "production_designer": {
+          "filter": "production_designer",
+          "filter_name": "Production Designer",
+          "values": [
+            {
+              "display_value": "Henry Bumstead",
+              "search_value": "Henry+Bumstead"
+            }
+          ]
+        },
+        "costume_designer": {
+          "filter": "costume_designer",
+          "filter_name": "Costume Designer",
+          "values": [
+            {
+              "display_value": "Deborah Hopper",
+              "search_value": "Deborah+Hopper"
+            }
+          ]
+        },
+        "editor": {
+          "filter": "editor",
+          "filter_name": "Editor",
+          "values": [
+            {
+              "display_value": "Joel Cox",
+              "search_value": "Joel+Cox"
+            }
+          ]
+        },
+        "colorist": {
+          "filter": "colorist",
+          "filter_name": "Colorist",
+          "values": [
+            {
+              "display_value": "Kurt Smith",
+              "search_value": "Kurt+Smith"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
