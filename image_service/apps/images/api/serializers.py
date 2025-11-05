@@ -6,8 +6,18 @@ Primary key for Image model is now UUID → every field list uses `uuid`.
 from rest_framework import serializers
 from drf_spectacular.utils import extend_schema_field, OpenApiTypes
 from django.conf import settings
+<<<<<<< HEAD
 from django.utils.text import slugify
 from apps.images.api.media_utils import ensure_media_local
+=======
+<<<<<<< HEAD
+from django.utils._os import safe_join
+from django.utils.text import slugify
+=======
+from django.utils.text import slugify
+from apps.images.api.media_utils import ensure_media_local
+>>>>>>> 09b7f11 (Update image service media handling)
+>>>>>>> fca9e98
 from apps.images.models import (
     Image, Movie, Tag,
     # Base option models
@@ -470,11 +480,28 @@ class ImageListSerializer(serializers.ModelSerializer):
     def to_representation(self, instance):
         rep = super().to_representation(instance)
         rep.setdefault('image_available', False)
+<<<<<<< HEAD
 
         if instance.title:
             normalized_slug = slugify(instance.title)
             if normalized_slug:
                 rep['slug'] = normalized_slug
+=======
+
+        if instance.title:
+<<<<<<< HEAD
+            normalized = slugify(instance.title)
+            if normalized:
+                rep['slug'] = normalized
+
+        if instance.image_url and instance.image_url.startswith('/media/'):
+            full = self._absolute_image_url(instance.image_url)
+=======
+            normalized_slug = slugify(instance.title)
+            if normalized_slug:
+                rep['slug'] = normalized_slug
+>>>>>>> 09b7f11 (Update image service media handling)
+>>>>>>> fca9e98
 
         if instance.image_url:
             if instance.image_url.startswith('/media/'):
@@ -680,6 +707,14 @@ class ImageSerializer(serializers.ModelSerializer):
             normalized_slug = slugify(instance.title)
             if normalized_slug:
                 rep['slug'] = normalized_slug
+<<<<<<< HEAD
+=======
+
+        if instance.title:
+            normalized = slugify(instance.title)
+            if normalized:
+                rep['slug'] = normalized
+>>>>>>> fca9e98
 
         # ----- image URL handling ------------------------------------------ #
         if instance.image_url:
