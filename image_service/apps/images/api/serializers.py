@@ -7,6 +7,7 @@ from rest_framework import serializers
 from drf_spectacular.utils import extend_schema_field, OpenApiTypes
 from django.conf import settings
 from django.utils._os import safe_join
+from django.utils.text import slugify
 from apps.images.models import (
     Image, Movie, Tag,
     # Base option models
@@ -469,6 +470,11 @@ class ImageListSerializer(serializers.ModelSerializer):
     def to_representation(self, instance):
         rep = super().to_representation(instance)
 
+        if instance.title:
+            normalized = slugify(instance.title)
+            if normalized:
+                rep['slug'] = normalized
+
         if instance.image_url and instance.image_url.startswith('/media/'):
             full = self._absolute_image_url(instance.image_url)
 
@@ -504,9 +510,10 @@ class MovieImageSerializer(serializers.ModelSerializer):
         return obj.genre.count()
 
     def to_representation(self, instance):
+        normalized_slug = slugify(instance.title) if instance.title else None
         rep = {
             'id': instance.id,
-            'slug': instance.slug,
+            'slug': normalized_slug or instance.slug,
             'title': instance.title,
             'description': instance.description,
             'movie_title': instance.movie.title if instance.movie else None,
@@ -655,6 +662,11 @@ class ImageSerializer(serializers.ModelSerializer):
 
     def to_representation(self, instance):
         rep = super().to_representation(instance)
+
+        if instance.title:
+            normalized = slugify(instance.title)
+            if normalized:
+                rep['slug'] = normalized
 
         # ----- image URL handling ------------------------------------------ #
         if instance.image_url:

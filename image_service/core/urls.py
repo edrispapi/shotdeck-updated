@@ -8,6 +8,7 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 from django.views.decorators.cache import cache_page
 from rest_framework.authtoken.views import obtain_auth_token
 from apps.images.models import Image
+from django.utils.text import slugify
 import os
 
 
@@ -69,8 +70,25 @@ def shots_view(request):
     from django.core.paginator import Paginator
     
     # Get query parameters
-    page = int(request.GET.get('page', 1))
-    page_size = min(int(request.GET.get('page_size', 20)), 100)
+    page = max(int(request.GET.get('page', 1) or 1), 1)
+
+    default_page_size = 12
+    filtered_max_page_size = 14
+    base_max_page_size = 12
+
+    try:
+        requested_page_size = int(request.GET.get('page_size', default_page_size))
+    except (TypeError, ValueError):
+        requested_page_size = default_page_size
+
+    # treat any non-pagination query params as filters
+    non_pagination_params = {
+        key: value for key, value in request.GET.items()
+        if key not in {'page', 'page_size'}
+    }
+    is_filtered = any(value for value in non_pagination_params.values())
+    max_page_size = filtered_max_page_size if is_filtered else base_max_page_size
+    page_size = max(1, min(requested_page_size, max_page_size))
     search = request.GET.get('search', '')
     color = request.GET.get('color', '')
     media_type = request.GET.get('media_type', '')
@@ -94,9 +112,10 @@ def shots_view(request):
     # Build response
     images_data = []
     for image in page_obj:
+        normalized_slug = slugify(image.title) if image.title else None
         image_data = {
             "uuid": image.id,
-            "slug": image.slug,
+            "slug": normalized_slug or image.slug,
             "title": image.title,
             "description": image.description,
             "image_url": request.build_absolute_uri(image.image_url) if image.image_url else None,
