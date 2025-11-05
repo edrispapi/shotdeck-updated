@@ -6,8 +6,13 @@ Primary key for Image model is now UUID → every field list uses `uuid`.
 from rest_framework import serializers
 from drf_spectacular.utils import extend_schema_field, OpenApiTypes
 from django.conf import settings
+<<<<<<< HEAD
 from django.utils._os import safe_join
 from django.utils.text import slugify
+=======
+from django.utils.text import slugify
+from apps.images.api.media_utils import ensure_media_local
+>>>>>>> 09b7f11 (Update image service media handling)
 from apps.images.models import (
     Image, Movie, Tag,
     # Base option models
@@ -469,19 +474,40 @@ class ImageListSerializer(serializers.ModelSerializer):
 
     def to_representation(self, instance):
         rep = super().to_representation(instance)
+        rep.setdefault('image_available', False)
 
         if instance.title:
+<<<<<<< HEAD
             normalized = slugify(instance.title)
             if normalized:
                 rep['slug'] = normalized
 
         if instance.image_url and instance.image_url.startswith('/media/'):
             full = self._absolute_image_url(instance.image_url)
+=======
+            normalized_slug = slugify(instance.title)
+            if normalized_slug:
+                rep['slug'] = normalized_slug
+>>>>>>> 09b7f11 (Update image service media handling)
 
-            import os
-            file_path = safe_join(settings.MEDIA_ROOT, instance.image_url.lstrip('/'))
-            rep['image_available'] = os.path.exists(file_path)
-            rep['image_url'] = full
+        if instance.image_url:
+            if instance.image_url.startswith('/media/'):
+                relative = instance.image_url.split('/media/', 1)[1]
+                asset = ensure_media_local(relative)
+                if asset:
+                    rep['image_available'] = not asset.is_placeholder
+                    rep['image_url'] = self._absolute_image_url(f"/media/{relative}")
+            elif 'localhost:' in instance.image_url:
+                path = instance.image_url.split('/media/', 1)[-1] if '/media/' in instance.image_url else None
+                if path:
+                    asset = ensure_media_local(path)
+                    if asset:
+                        rep['image_available'] = not asset.is_placeholder
+                        rep['image_url'] = self._absolute_image_url(f"/media/{path}")
+                if not rep.get('image_url'):
+                    rep['image_url'] = instance.image_url
+            else:
+                rep['image_url'] = instance.image_url
         return rep
 
 
@@ -662,6 +688,12 @@ class ImageSerializer(serializers.ModelSerializer):
 
     def to_representation(self, instance):
         rep = super().to_representation(instance)
+        rep.setdefault('image_available', False)
+
+        if instance.title:
+            normalized_slug = slugify(instance.title)
+            if normalized_slug:
+                rep['slug'] = normalized_slug
 
         if instance.title:
             normalized = slugify(instance.title)
@@ -671,16 +703,25 @@ class ImageSerializer(serializers.ModelSerializer):
         # ----- image URL handling ------------------------------------------ #
         if instance.image_url:
             if instance.image_url.startswith('/media/'):
-                full = self._absolute_image_url(instance.image_url)
-                import os
-                file_path = safe_join(settings.MEDIA_ROOT, instance.image_url.lstrip('/'))
-                rep['image_available'] = os.path.exists(file_path)
-                rep['image_url'] = full
+                relative = instance.image_url.split('/media/', 1)[1]
+                asset = ensure_media_local(relative)
+                if asset:
+                    rep['image_available'] = not asset.is_placeholder
+                    rep['image_url'] = self._absolute_image_url(f"/media/{relative}")
+                else:
+                    rep['image_available'] = False
             elif 'localhost:' in instance.image_url:
                 # fix old localhost URLs that may still be stored
                 path = instance.image_url.split('/media/', 1)[-1] if '/media/' in instance.image_url else None
                 if path:
-                    rep['image_url'] = self._absolute_image_url(f"/media/{path}")
+                    asset = ensure_media_local(path)
+                    if asset:
+                        rep['image_available'] = not asset.is_placeholder
+                        rep['image_url'] = self._absolute_image_url(f"/media/{path}")
+                if not rep.get('image_url'):
+                    rep['image_url'] = instance.image_url
+            else:
+                rep['image_url'] = instance.image_url
 
         # ----- sane defaults for empty collections / nulls ---------------- #
         for f in [

@@ -6,9 +6,9 @@ class CustomPageNumberPagination(PageNumberPagination):
 
     - default page_size = 20
     - page_size_query_param = 'page_size' allows client control
-    - max_page_size = 20 enforces the maximum
+    - max_page_size = 20 (per-view logic may lower this further)
     """
 
-    page_size = 10
+    page_size = 20
     page_size_query_param = 'page_size'
-    max_page_size = 10
+    max_page_size = 20

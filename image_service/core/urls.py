@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path, include, re_path
-from django.http import JsonResponse, HttpResponse, Http404
+from django.http import JsonResponse, HttpResponse, Http404, FileResponse
 from django.conf import settings
 from django.conf.urls.static import static
 from django.views.static import serve
@@ -9,7 +9,13 @@ from django.views.decorators.cache import cache_page
 from rest_framework.authtoken.views import obtain_auth_token
 from apps.images.models import Image
 from django.utils.text import slugify
+<<<<<<< HEAD
+=======
+from apps.images.api.media_utils import ensure_media_local
+>>>>>>> 09b7f11 (Update image service media handling)
 import os
+import mimetypes
+from pathlib import Path
 
 
 def home_view(request):
@@ -81,7 +87,10 @@ def shots_view(request):
     except (TypeError, ValueError):
         requested_page_size = default_page_size
 
+<<<<<<< HEAD
     # treat any non-pagination query params as filters
+=======
+>>>>>>> 09b7f11 (Update image service media handling)
     non_pagination_params = {
         key: value for key, value in request.GET.items()
         if key not in {'page', 'page_size'}
@@ -113,12 +122,29 @@ def shots_view(request):
     images_data = []
     for image in page_obj:
         normalized_slug = slugify(image.title) if image.title else None
+<<<<<<< HEAD
+=======
+        image_url = image.image_url
+        image_available = False
+        if image_url:
+            if image_url.startswith('/media/'):
+                relative_path = image_url.split('/media/', 1)[1]
+                asset = ensure_media_local(relative_path)
+                if asset:
+                    image_available = not asset.is_placeholder
+                    image_url = request.build_absolute_uri(f"/media/{relative_path}")
+                else:
+                    image_url = None
+            elif not image_url.startswith(('http://', 'https://')):
+                image_url = request.build_absolute_uri(image_url)
+>>>>>>> 09b7f11 (Update image service media handling)
         image_data = {
             "uuid": image.id,
             "slug": normalized_slug or image.slug,
             "title": image.title,
             "description": image.description,
-            "image_url": request.build_absolute_uri(image.image_url) if image.image_url else None,
+            "image_url": image_url if image_url else None,
+            "image_available": image_available,
             "movie": { 
                 "slug": image.movie.slug,
                 "title": image.movie.title,
@@ -204,25 +230,30 @@ def options_view(request):
 def serve_media_with_fallback(request, path):
     """
     Serve media files with fallback for missing images.
-    Returns a placeholder image for missing image files.
+    Returns a placeholder image when the asset cannot be located anywhere.
     """
-    full_path = os.path.join(settings.MEDIA_ROOT, path)
-    
-    if os.path.exists(full_path):
-        return serve(request, path, document_root=settings.MEDIA_ROOT)
+    normalized = path.lstrip('/')
+    asset = ensure_media_local(normalized)
+
+    if asset and asset.path.exists():
+        try:
+            relative = asset.path.relative_to(Path(settings.MEDIA_ROOT))
+            return serve(request, str(relative), document_root=settings.MEDIA_ROOT)
+        except ValueError:
+            content_type, _ = mimetypes.guess_type(asset.path.name)
+            return FileResponse(open(asset.path, 'rb'), content_type or 'application/octet-stream')
 
     # Return placeholder for missing image files
     if path.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp')):
         placeholder_candidates = [
-            os.path.join(settings.MEDIA_ROOT, 'images', 'placeholder.png'),
-            os.path.join(settings.MEDIA_ROOT, 'placeholder.png'),
+            Path(settings.MEDIA_ROOT) / 'images' / 'placeholder.png',
+            Path(settings.MEDIA_ROOT) / 'placeholder.png',
         ]
 
-        image_data = None
         for candidate in placeholder_candidates:
-            if os.path.exists(candidate):
-                with open(candidate, 'rb') as f:
-                    image_data = f.read()
+            if candidate.exists():
+                with candidate.open('rb') as fh:
+                    image_data = fh.read()
                 response = HttpResponse(image_data, content_type='image/png')
                 response['Cache-Control'] = 'no-store'
                 return response
