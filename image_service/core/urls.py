@@ -9,14 +9,7 @@ from django.views.decorators.cache import cache_page
 from rest_framework.authtoken.views import obtain_auth_token
 from apps.images.models import Image
 from django.utils.text import slugify
-<<<<<<< HEAD
 from apps.images.api.media_utils import ensure_media_local
-=======
-<<<<<<< HEAD
-=======
-from apps.images.api.media_utils import ensure_media_local
->>>>>>> 09b7f11 (Update image service media handling)
->>>>>>> fca9e98
 import os
 import mimetypes
 from pathlib import Path
@@ -91,13 +84,7 @@ def shots_view(request):
     except (TypeError, ValueError):
         requested_page_size = default_page_size
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
     # treat any non-pagination query params as filters
-=======
->>>>>>> 09b7f11 (Update image service media handling)
->>>>>>> fca9e98
     non_pagination_params = {
         key: value for key, value in request.GET.items()
         if key not in {'page', 'page_size'}
@@ -129,11 +116,6 @@ def shots_view(request):
     images_data = []
     for image in page_obj:
         normalized_slug = slugify(image.title) if image.title else None
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> fca9e98
         image_url = image.image_url
         image_available = False
         if image_url:
@@ -147,10 +129,6 @@ def shots_view(request):
                     image_url = None
             elif not image_url.startswith(('http://', 'https://')):
                 image_url = request.build_absolute_uri(image_url)
-<<<<<<< HEAD
-=======
->>>>>>> 09b7f11 (Update image service media handling)
->>>>>>> fca9e98
         image_data = {
             "uuid": image.id,
             "slug": normalized_slug or image.slug,
