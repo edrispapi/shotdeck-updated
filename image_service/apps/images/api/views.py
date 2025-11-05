@@ -2,6 +2,7 @@
 from apps.images.filters import ImageFilter, MovieFilter, TagFilter
 import logging
 import time
+import math
 from rest_framework import viewsets, permissions, serializers, status
 from rest_framework.viewsets import ReadOnlyModelViewSet
 from rest_framework.decorators import action
@@ -12,6 +13,7 @@ from django.db.models import Q, Count
 from django.conf import settings
 from django.core.cache import cache
 from django.db import connection
+from django.utils import timezone
 
 from apps.images.models import (
     Image, Movie, Tag, BaseOption,
@@ -58,17 +60,15 @@ class HealthCheckView(APIView):
     """Health check endpoint for the image service"""
     def get(self, request):
         try:
-            cursor = connection.cursor()
-            cursor.execute("SELECT 1")
-            cursor.fetchone()
+            with connection.cursor() as cursor:
+                cursor.execute("SELECT 1")
+                cursor.fetchone()
             image_count = Image.objects.count()
             return Response({
                 "status": "healthy",
                 "database": "connected",
                 "image_count": image_count,
-                "timestamp": serializers.DateTimeField().to_representation(
-                    serializers.DateTimeField().get_default()
-                )
+                "timestamp": timezone.now().isoformat()
             })
         except Exception as e:
             logger.error(f"Health check failed: {e}")
@@ -182,7 +182,31 @@ class ImageViewSet(ReadOnlyModelViewSet):
         try:
             start_time = time.time()
             queryset = self.filter_queryset(self.get_queryset())
-            page_size = getattr(settings, 'REST_FRAMEWORK', {}).get('PAGE_SIZE', 20)
+
+            base_page_size = 20
+            filtered_page_size = 15
+
+            non_pagination_params = {
+                key: value for key, value in request.query_params.items()
+                if key not in {'page', 'page_size', 'ordering'}
+            }
+            has_filters = any(value for value in non_pagination_params.values())
+
+            try:
+                requested_page_size = int(request.query_params.get('page_size'))
+            except (TypeError, ValueError):
+                requested_page_size = None
+
+            default_page_size = filtered_page_size if has_filters else base_page_size
+            if requested_page_size and requested_page_size > 0:
+                page_size = min(max(1, requested_page_size), default_page_size)
+            else:
+                page_size = default_page_size
+
+            if self.paginator is not None:
+                self.paginator.page_size = page_size
+                if hasattr(self.paginator, 'max_page_size'):
+                    self.paginator.max_page_size = default_page_size
 
             page = self.paginate_queryset(queryset)
             if page is not None:
@@ -191,16 +215,32 @@ class ImageViewSet(ReadOnlyModelViewSet):
             else:
                 limited = queryset[:page_size]
                 serializer = self.get_serializer(limited, many=True, context={'request': request})
-                data = {'results': serializer.data, 'count': queryset.count()}
+                data = {
+                    'results': serializer.data,
+                    'count': queryset.count(),
+                    'next': None,
+                    'previous': None,
+                }
 
-            count = data.get('count', queryset.count())
-            total = int(count) if count is not None else len(data.get('results', []))
+            total = int(data.get('count', queryset.count()) or 0)
+            results = data.get('results', [])
+            page_count = len(results)
+
+            current_page = max(int(request.query_params.get('page', 1) or 1), 1)
+            total_pages = math.ceil(total / page_size) if page_size else 1
+            total_pages = max(total_pages, 1)
 
             execution_time = time.time() - start_time
             response = {
                 'success': True,
-                'count': total,
-                'results': data.get('results', []),
+                'count': page_count,
+                'total': total,
+                'page': current_page,
+                'page_size': page_size,
+                'total_pages': total_pages,
+                'has_next': current_page < total_pages,
+                'has_previous': current_page > 1,
+                'results': results,
                 'filters_applied': dict(request.query_params),
                 'message': 'Images retrieved from database',
                 'source': 'database',
