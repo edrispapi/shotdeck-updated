@@ -7,13 +7,14 @@ from typing import Iterable
 
 from django.conf import settings
 from django.core.management.base import BaseCommand
+from django.utils import timezone
 
-from apps.images.api.media_utils import get_media_search_paths
+from apps.images.api.media_utils import get_media_search_paths, extract_media_relative_path
 from apps.images.models import Image
 
 
 VALID_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
-MIN_REAL_IMAGE_BYTES = 1024  # smaller files are treated as placeholders
+MIN_REAL_IMAGE_BYTES = 256  # treat very tiny images as placeholders only
 PLACEHOLDER_FILENAME = "placeholder_missing.png"
 
 
@@ -104,7 +105,15 @@ class Command(BaseCommand):
         total = queryset.count() if limit is None else limit
 
         for index, image in enumerate(queryset.iterator(), start=1):
-            asset_path = self._locate_asset(image.slug)
+            # Prefer locating by the filename already stored in image_url, if any
+            asset_path = None
+            rel = extract_media_relative_path(image.image_url)
+            if rel:
+                code = Path(rel).stem
+                asset_path = self._locate_asset(code)
+            if not asset_path:
+                # Fallback: try the DB slug
+                asset_path = self._locate_asset(image.slug)
 
             if asset_path and asset_path.exists() and asset_path.stat().st_size > MIN_REAL_IMAGE_BYTES:
                 stats.matched += 1
@@ -120,15 +129,19 @@ class Command(BaseCommand):
                 if image.image_url != new_url:
                     stats.updated += 1
                     if not dry_run:
-                        image.image_url = new_url
-                        image.save(update_fields=["image_url", "updated_at"])
+                        Image.objects.filter(pk=image.pk).update(
+                            image_url=new_url,
+                            updated_at=timezone.now(),
+                        )
             else:
                 stats.missing += 1
                 if remove_missing:
                     stats.cleared += 1
                     if not dry_run:
-                        image.image_url = placeholder_url
-                        image.save(update_fields=["image_url", "updated_at"])
+                        Image.objects.filter(pk=image.pk).update(
+                            image_url=placeholder_url,
+                            updated_at=timezone.now(),
+                        )
 
             if index % 250 == 0 or index == total:
                 self.stdout.write(

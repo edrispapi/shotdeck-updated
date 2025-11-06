@@ -9,10 +9,27 @@ from django.views.decorators.cache import cache_page
 from rest_framework.authtoken.views import obtain_auth_token
 from apps.images.models import Image
 from django.utils.text import slugify
-from apps.images.api.media_utils import ensure_media_local
+from apps.images.api.media_utils import ensure_media_local, resolve_media_reference
 import os
 import mimetypes
 from pathlib import Path
+
+
+def _absolute_url(request, path: str) -> str:
+    if request:
+        try:
+            return request.build_absolute_uri(path)
+        except Exception:
+            scheme = getattr(request, "scheme", "http") or "http"
+            return f"{scheme}://{request.get_host()}{path}"
+    public_base = getattr(settings, "PUBLIC_BASE_URL", None)
+    if public_base:
+        return f"{public_base.rstrip('/')}{path}"
+    return path
+
+
+def _absolute_media_url(request, relative_path: str) -> str:
+    return _absolute_url(request, f"/media/{relative_path}")
 
 
 def home_view(request):
@@ -119,16 +136,12 @@ def shots_view(request):
         image_url = image.image_url
         image_available = False
         if image_url:
-            if image_url.startswith('/media/'):
-                relative_path = image_url.split('/media/', 1)[1]
-                asset = ensure_media_local(relative_path)
-                if asset:
-                    image_available = not asset.is_placeholder
-                    image_url = request.build_absolute_uri(f"/media/{relative_path}")
-                else:
-                    image_url = None
+            relative_path, asset = resolve_media_reference(image_url)
+            if relative_path and asset:
+                image_available = not asset.is_placeholder
+                image_url = _absolute_media_url(request, relative_path)
             elif not image_url.startswith(('http://', 'https://')):
-                image_url = request.build_absolute_uri(image_url)
+                image_url = _absolute_url(request, f"/{image_url.lstrip('/')}")
         image_data = {
             "uuid": image.id,
             "slug": normalized_slug or image.slug,

@@ -1,3 +1,4 @@
+from django.db import ProgrammingError
 from django.db.models.signals import post_save, post_delete
 from django.dispatch import receiver
 from .models import Image
@@ -51,10 +52,14 @@ def prepare_image_data(image):
                 image_data[field_name] = None
 
         # Handle genre (ManyToManyField)
-        if hasattr(image, 'genre') and image.genre.exists():
-            image_data['genre'] = [genre.value for genre in image.genre.all()]
-        else:
-            image_data['genre'] = []
+        genres = []
+        if hasattr(image, 'genre'):
+            try:
+                if image.genre.exists():
+                    genres = [genre.value for genre in image.genre.all()]
+            except ProgrammingError:
+                logger.warning("Genre relation unavailable; skipping genre data during indexing.")
+        image_data['genre'] = genres
 
         # Add movie data if exists
         if image.movie:
@@ -68,10 +73,14 @@ def prepare_image_data(image):
             image_data['movie'] = {}
 
         # Add tags data
-        image_data['tags'] = [
-            {'id': tag.id, 'slug': tag.slug, 'name': tag.name}
-            for tag in image.tags.all()
-        ]
+        try:
+            image_data['tags'] = [
+                {'id': tag.id, 'slug': tag.slug, 'name': tag.name}
+                for tag in image.tags.all()
+            ]
+        except ProgrammingError:
+            logger.warning("Tag relation unavailable; skipping tag data during indexing.")
+            image_data['tags'] = []
 
         # Add color analysis fields
         image_data.update({

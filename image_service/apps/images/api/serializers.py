@@ -3,11 +3,13 @@
 All serializers for the Image Service.
 Primary key for Image model is now UUID → every field list uses `uuid`.
 """
+from typing import Optional, Tuple
+
 from rest_framework import serializers
 from drf_spectacular.utils import extend_schema_field, OpenApiTypes
 from django.conf import settings
 from django.utils.text import slugify
-from apps.images.api.media_utils import ensure_media_local
+from apps.images.api.media_utils import resolve_media_reference
 from apps.images.models import (
     Image, Movie, Tag,
     # Base option models
@@ -25,6 +27,33 @@ from apps.images.models import (
     ShadeOption, ArtistOption, FilmingLocationOption, LocationTypeOption, YearOption
 )
 from messaging.producers import send_event
+
+
+class ImageURLMixin:
+    """Utility helpers for building absolute image URLs with availability metadata."""
+
+    def _absolute_image_url(self, rel_url: str) -> str:
+        request = getattr(self, "context", {}).get("request") if hasattr(self, "context") else None
+        if request:
+            try:
+                return request.build_absolute_uri(rel_url)
+            except Exception:
+                scheme = getattr(request, "scheme", "http") or "http"
+                return f"{scheme}://{request.get_host()}{rel_url}"
+        public = getattr(settings, 'PUBLIC_BASE_URL', None)
+        if public:
+            return f"{public.rstrip('/')}{rel_url}"
+        return f"http://localhost:51009{rel_url}"
+
+    def _normalize_image_url(self, raw_url: Optional[str]) -> Tuple[Optional[str], bool]:
+        normalized, asset = resolve_media_reference(raw_url)
+        if normalized and asset:
+            return self._absolute_image_url(f"/media/{normalized}"), not asset.is_placeholder
+        if raw_url:
+            if raw_url.startswith(('http://', 'https://')):
+                return raw_url, False
+            return self._absolute_image_url(f"/{raw_url.lstrip('/')}"), False
+        return None, False
 
 
 # --------------------------------------------------------------------------- #
@@ -350,7 +379,7 @@ class FilterResponseSerializer(serializers.Serializer):
 # --------------------------------------------------------------------------- #
 #  IMAGE SERIALIZERS (now safe to reference GenreOptionSerializer)
 # --------------------------------------------------------------------------- #
-class ImageListSerializer(serializers.ModelSerializer):
+class ImageListSerializer(ImageURLMixin, serializers.ModelSerializer):
     tags = TagSerializer(many=True, read_only=True)
 
     # ---- value fields ------------------------------------------------------ #
@@ -454,19 +483,6 @@ class ImageListSerializer(serializers.ModelSerializer):
     def get_color_value(self, obj):
         return obj.color.value if obj.color else None
 
-    def _absolute_image_url(self, rel_url):
-        request = self.context.get('request')
-        if request:
-            try:
-                return request.build_absolute_uri(rel_url)
-            except Exception:
-                return f"{request.scheme}://{request.get_host()}{rel_url}"
-
-        public = getattr(settings, 'PUBLIC_BASE_URL', None)
-        if public:
-            return f"{public.rstrip('/')}{rel_url}"
-        return f"http://localhost:51009{rel_url}"
-
     def to_representation(self, instance):
         rep = super().to_representation(instance)
         rep.setdefault('image_available', False)
@@ -475,28 +491,13 @@ class ImageListSerializer(serializers.ModelSerializer):
             if normalized_slug:
                 rep['slug'] = normalized_slug
 
-        if instance.image_url:
-            if instance.image_url.startswith('/media/'):
-                relative = instance.image_url.split('/media/', 1)[1]
-                asset = ensure_media_local(relative)
-                if asset:
-                    rep['image_available'] = not asset.is_placeholder
-                    rep['image_url'] = self._absolute_image_url(f"/media/{relative}")
-            elif 'localhost:' in instance.image_url:
-                path = instance.image_url.split('/media/', 1)[-1] if '/media/' in instance.image_url else None
-                if path:
-                    asset = ensure_media_local(path)
-                    if asset:
-                        rep['image_available'] = not asset.is_placeholder
-                        rep['image_url'] = self._absolute_image_url(f"/media/{path}")
-                if not rep.get('image_url'):
-                    rep['image_url'] = instance.image_url
-            else:
-                rep['image_url'] = instance.image_url
+        image_url, available = self._normalize_image_url(instance.image_url)
+        rep['image_url'] = image_url
+        rep['image_available'] = available
         return rep
 
 
-class MovieImageSerializer(serializers.ModelSerializer):
+class MovieImageSerializer(ImageURLMixin, serializers.ModelSerializer):
     """Very lightweight – used when listing images per movie."""
     movie_title = serializers.CharField(source='movie.title', read_only=True)
     movie_slug = serializers.CharField(source='movie.slug', read_only=True)
@@ -539,26 +540,12 @@ class MovieImageSerializer(serializers.ModelSerializer):
             'created_at': instance.created_at
         }
 
-        if instance.image_url:
-            if instance.image_url.startswith('/media/'):
-                request = self.context.get('request')
-                if request:
-                    try:
-                        rep['image_url'] = request.build_absolute_uri(instance.image_url)
-                    except Exception:
-                        rep['image_url'] = f"{request.scheme}://{request.get_host()}{instance.image_url}"
-                else:
-                    public = getattr(settings, 'PUBLIC_BASE_URL', None)
-                    if public:
-                        rep['image_url'] = f"{public.rstrip('/')}{instance.image_url}"
-                    else:
-                        rep['image_url'] = f"http://localhost:51009{instance.image_url}"
-            else:
-                rep['image_url'] = instance.image_url
+        image_url, _ = self._normalize_image_url(instance.image_url)
+        rep['image_url'] = image_url
         return rep
 
 
-class ImageSerializer(serializers.ModelSerializer):
+class ImageSerializer(ImageURLMixin, serializers.ModelSerializer):
     tags = TagSerializer(many=True, read_only=True)
     tag_ids = serializers.PrimaryKeyRelatedField(
         queryset=Tag.objects.all(), source='tags', many=True, write_only=True, required=False
@@ -681,27 +668,9 @@ class ImageSerializer(serializers.ModelSerializer):
                 rep['slug'] = normalized_slug
 
         # ----- image URL handling ------------------------------------------ #
-        if instance.image_url:
-            if instance.image_url.startswith('/media/'):
-                relative = instance.image_url.split('/media/', 1)[1]
-                asset = ensure_media_local(relative)
-                if asset:
-                    rep['image_available'] = not asset.is_placeholder
-                    rep['image_url'] = self._absolute_image_url(f"/media/{relative}")
-                else:
-                    rep['image_available'] = False
-            elif 'localhost:' in instance.image_url:
-                # fix old localhost URLs that may still be stored
-                path = instance.image_url.split('/media/', 1)[-1] if '/media/' in instance.image_url else None
-                if path:
-                    asset = ensure_media_local(path)
-                    if asset:
-                        rep['image_available'] = not asset.is_placeholder
-                        rep['image_url'] = self._absolute_image_url(f"/media/{path}")
-                if not rep.get('image_url'):
-                    rep['image_url'] = instance.image_url
-            else:
-                rep['image_url'] = instance.image_url
+        image_url, available = self._normalize_image_url(instance.image_url)
+        rep['image_url'] = image_url
+        rep['image_available'] = available
 
         # ----- sane defaults for empty collections / nulls ---------------- #
         for f in [
