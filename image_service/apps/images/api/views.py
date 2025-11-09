@@ -47,12 +47,13 @@ from .serializers import (
     DirectorOptionSerializer, CinematographerOptionSerializer, EditorOptionSerializer,
     ColoristOptionSerializer, CostumeDesignerOptionSerializer, ProductionDesignerOptionSerializer,
     ShadeOptionSerializer, ArtistOptionSerializer, FilmingLocationOptionSerializer,
-    LocationTypeOptionSerializer, YearOptionSerializer
+    LocationTypeOptionSerializer, YearOptionSerializer, FiltersResponseSerializer
 )
 
 from messaging.producers import send_event
 from apps.common.serializers import Error401Serializer, Error403Serializer, Error404Serializer
 from apps.images.cache_utils import get_cached_filter_options, get_all_cached_filters, invalidate_filter_cache
+from drf_spectacular.utils import extend_schema
 
 logger = logging.getLogger(__name__)
 
@@ -419,6 +420,10 @@ class TagViewSet(ReadOnlyModelViewSet):
 class FiltersView(APIView):
     permission_classes = [permissions.AllowAny]
 
+    @extend_schema(
+        responses={200: FiltersResponseSerializer},
+        description="List of available filter fields with dropdown options."
+    )
     def get(self, request):
         query_params = request.GET
         logger.info(f"FiltersView GET: {dict(query_params)}")
@@ -455,47 +460,47 @@ class FiltersView(APIView):
 
             shotdeck_filters = [
                 {"id": "search", "label": "Search", "type": "text", "placeholder": "Search titles and descriptions...", "options": []},
-                {"id": "media_type", "label": "Media Type", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('media_type', [])]},
-                {"id": "genre", "label": "Genre", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('genre', [])]},
-                {"id": "color", "label": "Color", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('color', [])]},
-                {"id": "aspect_ratio", "label": "Aspect Ratio", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('aspect_ratio', [])]},
-                {"id": "optical_format", "label": "Optical Format", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('optical_format', [])]},
-                {"id": "format", "label": "Format", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('format', [])]},
-                {"id": "time_period", "label": "Time Period", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('time_period', [])]},
-                {"id": "interior_exterior", "label": "Interior/Exterior", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('interior_exterior', [])]},
-                {"id": "time_of_day", "label": "Time of Day", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('time_of_day', [])]},
-                {"id": "lighting", "label": "Lighting", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('lighting', [])]},
-                {"id": "lighting_type", "label": "Lighting Type", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('lighting_type', [])]},
-                {"id": "shot_type", "label": "Shot Type", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('shot_type', [])]},
-                {"id": "composition", "label": "Composition", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('composition', [])]},
-                {"id": "lens_type", "label": "Lens Type", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('lens_type', [])]},
-                {"id": "camera_type", "label": "Camera Type", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('camera_type', [])]},
-                {"id": "gender", "label": "Gender", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('gender', [])]},
-                {"id": "age", "label": "Age", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('age', [])]},
-                {"id": "ethnicity", "label": "Ethnicity", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('ethnicity', [])]},
-                {"id": "frame_size", "label": "Frame Size", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('frame_size', [])]},
-                {"id": "number_of_people", "label": "Number of People", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('number_of_people', [])]},
-                {"id": "actor", "label": "Actor", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('actor', [])]},
-                {"id": "camera", "label": "Camera", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('camera', [])]},
-                {"id": "lens", "label": "Lens", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('lens', [])]},
-                {"id": "location", "label": "Location", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('location', [])]},
-                {"id": "setting", "label": "Setting", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('setting', [])]},
-                {"id": "director", "label": "Director", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('director', [])]},
-                {"id": "cinematographer", "label": "Cinematographer", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('cinematographer', [])]},
-                {"id": "editor", "label": "Editor", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('editor', [])]},
-                {"id": "year", "label": "Year", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('year', [])]},
-                {"id": "movie", "label": "Movie", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('movie', [])]},
-                {"id": "shade", "label": "Shade", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('shade', [])]},
-                {"id": "filming_location", "label": "Filming Location", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('filming_location', [])]},
-                {"id": "location_type", "label": "Location Type", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('location_type', [])]},
-                {"id": "costume_designer", "label": "Costume Designer", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('costume_designer', [])]},
-                {"id": "production_designer", "label": "Production Designer", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('production_designer', [])]},
-                {"id": "colorist", "label": "Colorist", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('colorist', [])]},
-                {"id": "film_stock", "label": "Film Stock", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('film_stock', [])]},
-                {"id": "artist", "label": "Artist", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('artist', [])]},
-                {"id": "resolution", "label": "Resolution", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('resolution', [])]},
-                {"id": "frame_rate", "label": "Frame Rate", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('frame_rate', [])]},
-                {"id": "lens_size", "label": "Lens Size", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o["value"]} for o in filter_options.get('lens_size', [])]},
+                {"id": "media_type", "label": "Media Type", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('media_type', [])]},
+                {"id": "genre", "label": "Genre", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('genre', [])]},
+                {"id": "color", "label": "Color", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('color', [])]},
+                {"id": "aspect_ratio", "label": "Aspect Ratio", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('aspect_ratio', [])]},
+                {"id": "optical_format", "label": "Optical Format", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('optical_format', [])]},
+                {"id": "format", "label": "Format", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('format', [])]},
+                {"id": "time_period", "label": "Time Period", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('time_period', [])]},
+                {"id": "interior_exterior", "label": "Interior/Exterior", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('interior_exterior', [])]},
+                {"id": "time_of_day", "label": "Time of Day", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('time_of_day', [])]},
+                {"id": "lighting", "label": "Lighting", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('lighting', [])]},
+                {"id": "lighting_type", "label": "Lighting Type", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('lighting_type', [])]},
+                {"id": "shot_type", "label": "Shot Type", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('shot_type', [])]},
+                {"id": "composition", "label": "Composition", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('composition', [])]},
+                {"id": "lens_type", "label": "Lens Type", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('lens_type', [])]},
+                {"id": "camera_type", "label": "Camera Type", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('camera_type', [])]},
+                {"id": "gender", "label": "Gender", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('gender', [])]},
+                {"id": "age", "label": "Age", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('age', [])]},
+                {"id": "ethnicity", "label": "Ethnicity", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('ethnicity', [])]},
+                {"id": "frame_size", "label": "Frame Size", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('frame_size', [])]},
+                {"id": "number_of_people", "label": "Number of People", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('number_of_people', [])]},
+                {"id": "actor", "label": "Actor", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('actor', [])]},
+                {"id": "camera", "label": "Camera", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('camera', [])]},
+                {"id": "lens", "label": "Lens", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('lens', [])]},
+                {"id": "location", "label": "Location", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('location', [])]},
+                {"id": "setting", "label": "Setting", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('setting', [])]},
+                {"id": "director", "label": "Director", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('director', [])]},
+                {"id": "cinematographer", "label": "Cinematographer", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('cinematographer', [])]},
+                {"id": "editor", "label": "Editor", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('editor', [])]},
+                {"id": "year", "label": "Year", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('year', [])]},
+                {"id": "movie", "label": "Movie", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('movie', [])]},
+                {"id": "shade", "label": "Shade", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('shade', [])]},
+                {"id": "filming_location", "label": "Filming Location", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('filming_location', [])]},
+                {"id": "location_type", "label": "Location Type", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('location_type', [])]},
+                {"id": "costume_designer", "label": "Costume Designer", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('costume_designer', [])]},
+                {"id": "production_designer", "label": "Production Designer", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('production_designer', [])]},
+                {"id": "colorist", "label": "Colorist", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('colorist', [])]},
+                {"id": "film_stock", "label": "Film Stock", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('film_stock', [])]},
+                {"id": "artist", "label": "Artist", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('artist', [])]},
+                {"id": "resolution", "label": "Resolution", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('resolution', [])]},
+                {"id": "frame_rate", "label": "Frame Rate", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('frame_rate', [])]},
+                {"id": "lens_size", "label": "Lens Size", "type": "dropdown", "multiple": False, "options": [{"value": o["value"], "label": o.get("label", o["value"])} for o in filter_options.get('lens_size', [])]},
             ]
 
             working_filters = []

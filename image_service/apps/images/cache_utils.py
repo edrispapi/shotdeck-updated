@@ -17,7 +17,7 @@ from .models import (
     ResolutionOption, FrameRateOption,
     # New models added for comprehensive filter support
     CostumeDesignerOption, ProductionDesignerOption, ColoristOption,
-    YearOption, ShadeOption, FilmingLocationOption, LocationTypeOption
+    YearOption, ShadeOption, FilmingLocationOption, LocationTypeOption, ArtistOption
 )
 
 # Cache keys
@@ -121,9 +121,7 @@ def get_filter_options_from_db(filter_type):
         'shade': ShadeOption,
         'filming_location': FilmingLocationOption,
         'location_type': LocationTypeOption,
-        'music video': MediaTypeOption,  # Reuse MediaTypeOption
-        'artist': ActorOption,  # Reuse ActorOption
-        'tv': MediaTypeOption,  # Reuse MediaTypeOption
+        'artist': ArtistOption,
     }
 
     model_class = model_mapping.get(filter_type)
@@ -260,7 +258,7 @@ def get_all_cached_filters():
         # New filters added for comprehensive 37 filter support
         'director', 'cinematographer', 'editor', 'costume_designer',
         'production_designer', 'colorist', 'movie', 'year', 'shade',
-        'filming_location', 'location_type', 'music video', 'artist', 'tv'
+        'filming_location', 'location_type'
     ]
 
     all_filters = {}

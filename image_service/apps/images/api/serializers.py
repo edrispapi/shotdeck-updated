@@ -29,6 +29,56 @@ from apps.images.models import (
 from messaging.producers import send_event
 
 
+class FilterOptionSerializer(serializers.Serializer):
+    value = serializers.CharField()
+    label = serializers.CharField()
+
+
+class FilterConfigSerializer(serializers.Serializer):
+    id = serializers.CharField()
+    label = serializers.CharField()
+    type = serializers.CharField()
+    options = FilterOptionSerializer(many=True)
+    multiple = serializers.BooleanField(required=False)
+    placeholder = serializers.CharField(required=False, allow_blank=True)
+    disabled = serializers.BooleanField(required=False)
+    disabled_reason = serializers.CharField(required=False, allow_blank=True, allow_null=True)
+
+
+class FiltersDataSerializer(serializers.Serializer):
+    filters = FilterConfigSerializer(many=True)
+    working_filters = serializers.ListField(child=serializers.CharField(), required=False)
+    empty_filters = serializers.ListField(child=serializers.CharField(), required=False)
+    working_filters_count = serializers.IntegerField(required=False)
+    empty_filters_count = serializers.IntegerField(required=False)
+
+
+class SmartFilteringSerializer(serializers.Serializer):
+    enabled = serializers.BooleanField()
+    working_filters_count = serializers.IntegerField()
+    empty_filters_count = serializers.IntegerField()
+
+
+class FiltersResponseSerializer(serializers.Serializer):
+    success = serializers.BooleanField()
+    data = FiltersDataSerializer()
+    smart_filtering = SmartFilteringSerializer()
+
+
+class FilterOptionSerializer(serializers.Serializer):
+    value = serializers.CharField()
+    label = serializers.CharField()
+
+
+class FilterConfigSerializer(serializers.Serializer):
+    id = serializers.CharField()
+    label = serializers.CharField()
+    type = serializers.CharField()
+    multiple = serializers.BooleanField()
+    options = FilterOptionSerializer(many=True)
+    placeholder = serializers.CharField(required=False, allow_blank=True)
+
+
 class ImageURLMixin:
     """Utility helpers for building absolute image URLs with availability metadata."""
 
