@@ -5,7 +5,6 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.views.static import serve
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
-from django.views.decorators.cache import cache_page
 from rest_framework.authtoken.views import obtain_auth_token
 from apps.images.models import Image
 from django.utils.text import slugify
@@ -294,7 +293,7 @@ urlpatterns = [
     path('api/api-token-auth/', obtain_auth_token, name='api_token_auth'),
     
     # Schema and documentation
-    path('api/schema/', cache_page(60 * 60)(SpectacularAPIView.as_view()), name='schema'),
+    path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
     path('api/schema/swagger-ui/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
     
     # Admin

@@ -35,9 +35,9 @@ urlpatterns = [
     path('movies/', MovieViewSet.as_view({
         'get': 'list'
     }), name='movie-list'),
-    path('movie/<slug:slug>/', MovieViewSet.as_view({
+    path('movies/<slug:slug>/', MovieViewSet.as_view({
         'get': 'retrieve'
-    }), name='image-movie'),
+    }), name='movie-detail'),
 
     # Tags endpoints
     path('tags/<slug:slug>/', TagViewSet.as_view({

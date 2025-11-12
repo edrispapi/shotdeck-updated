@@ -692,6 +692,7 @@ class Tag(models.Model):
 
 
 class Image(models.Model):
+    id = models.UUIDField(primary_key=True, editable=False, db_column='id')
     title = models.CharField(max_length=255)
     slug = models.SlugField(max_length=255, unique=True, blank=True)
     description = models.TextField(blank=True, null=True)
